@@ -4,7 +4,7 @@
 schema:
   schema_id: cantonese
   name: 粵語拼音
-  version: 20190905 V1.0.01
+  version: 20190906 V1.1.02
   author:
   - sgal <1727246457@qq.com>
   dependencies:
@@ -57,8 +57,10 @@ key_binder:
 
 speller:
   algebra:
-  - xform/[1-6]$//              # 去除聲調
-  - derive/^(.).+$/$1/          # 首字母簡拼
+  - abbrev/^(.).+[1-6]$/$1/          # 首字母簡拼
+  - abbrev/^(kw|gw|ng).+[1-6]$/$1/   # 首字母簡拼
+  - xform/[1-6]$//                   # 去除聲調
+  delimiter: " '"
 
 translator:
   dictionary: cantonese
