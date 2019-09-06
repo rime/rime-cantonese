@@ -26,6 +26,6 @@ The data are indirectly from [sgalal/lexi_can_crawler](https://github.com/sgalal
 
 ## License
 
-Code for build the data is distributed under MIT license.
+Code for building the data is distributed under MIT license.
 
 Dictionary data follows the original license.
