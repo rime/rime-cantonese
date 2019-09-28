@@ -1,0 +1,134 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: jyut6ping3
+  name: 粵拼（聲調版）
+  version: "0.1.0"
+  author:
+    - 佛振 <chen.sst@gmail.com>
+    - sgal <1727246457@qq.com>
+    - LeiMaau <leimaau@qq.com>
+    - 劉邦後代 <laubonghaudoi@icloud.com>
+
+  description: |
+    採用香港語言學會粵語拼音方案
+    https://www.lshk.org/jyutping
+    兼容教育學院拼音方案
+    支持聲調顯示和輸入
+
+    碼表數據來源Unihan kCantonese
+    參照以下資料校正：
+    1. LSHK 字音表
+    2. 粵音小鏡
+    3. 廣州話正音字典
+    4. 常用字廣州話讀音表
+    5. 粵語審音配詞字庫
+
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - derive/([123456])//         # 忽略声调
+    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
+    - xform/1/v/                  # 陰平
+    - xform/4/vv/                 # 陽平
+    - xform/2/x/                  # 陰上
+    - xform/5/xx/                 # 陽上
+    - xform/3/q/                  # 陰去
+    - xform/6/qq/                 # 陽去
+    - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
+    - derive/^jyu/ju/             # 容錯 jyu -> ju
+    - derive/yu/y/                # 教院式 jyu -> jy
+    - derive/eoi$/oey/            # 教院式
+    - derive/eoi$/eoy/            # 容錯
+    - derive/eo/oe/               # 教院式
+    - derive/oe(ng|k)$/eo$1/      # 容錯
+    - derive/aa$/a/               # 容錯
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - derive/^z/dz/               # 教院式
+    - derive/^c/ts/               # 教院式
+    - abbrev/^(dz).+$/$1/         # 聲母簡拼
+    - abbrev/^(ts).+$/$1/         # 聲母簡拼
+
+    # 取消下兩行註釋，支持疑影不分
+    #- derive/^ng([aeiou])/$1/
+    #- derive/^([aeiou])/ng$1/
+
+    # 取消下行註釋，支持 n- 併入 l- ，如「你」讀若「理」
+    #- derive/^n/l/
+    # 取消下行註釋，支持 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
+
+    #- derive/^(g|k)w/$1/
+    # 取消下行註釋，支持獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
+    #- derive/^ng$/m/
+
+translator:
+  dictionary: jyut6ping3
+  spelling_hints: 5
+  preedit_format:
+    - xform/([aeioumngptk])vv/$1⁴/
+    - xform/([aeioumngptk])xx/$1⁵/
+    - xform/([aeioumngptk])qq/$1⁶/
+    - xform/([aeioumngptk])v/$1¹/
+    - xform/([aeioumngptk])x/$1²/
+    - xform/([aeioumngptk])q/$1³/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
