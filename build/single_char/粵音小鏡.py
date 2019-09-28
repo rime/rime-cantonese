@@ -9,7 +9,7 @@ def 粵音小鏡():
 		if not os.path.exists(name):
 			urllib.request.urlretrieve(url, name)
 
-	download_file_if_not_exist('https://raw.githubusercontent.com/laubonghaudoi/cantonese_orthography/master/%E7%B2%B5%E9%9F%B3%E5%B0%8F%E9%8F%A1(20160723).xls', 'build/single-char/data/0-粵音小鏡.xls')
+	download_file_if_not_exist('https://raw.githubusercontent.com/laubonghaudoi/cantonese_orthography/master/%E7%B2%B5%E9%9F%B3%E5%B0%8F%E9%8F%A1(20160723).xls', 'build/single_char/data/0-粵音小鏡.xls')
 
 	def change_initial(s):
 		'''Change Guangzhou scheme to LSHK scheme
@@ -36,6 +36,6 @@ def 粵音小鏡():
 		for 字 in row['粵-同音字']:
 			yield 字, 粵拼讀音
 
-	if not os.path.exists('build/single-char/data/1-粵音小鏡.csv'):
-		df = pandas.read_excel('build/single-char/data/0-粵音小鏡.xls', sheet_name='粵-同音字', na_filter=False, usecols=['粵-聲', '粵-韻', '粵-調', '粵-同音字'], dtype='str')
-		pandas.DataFrame((i for _, row in df.iterrows() for i in process_row_粵音小鏡(row)), columns=('字', '粵拼讀音')).to_csv('build/single-char/data/1-粵音小鏡.csv', index=False, header=False)
+	if not os.path.exists('build/single_char/data/1-粵音小鏡.csv'):
+		df = pandas.read_excel('build/single_char/data/0-粵音小鏡.xls', sheet_name='粵-同音字', na_filter=False, usecols=['粵-聲', '粵-韻', '粵-調', '粵-同音字'], dtype='str')
+		pandas.DataFrame((i for _, row in df.iterrows() for i in process_row_粵音小鏡(row)), columns=('字', '粵拼讀音')).to_csv('build/single_char/data/1-粵音小鏡.csv', index=False, header=False)
