@@ -1,16 +1,50 @@
-# rime-cantonese
+# Rime 粵語拼音方案
 
-Rime Cantonese input schema
+配方： ℞ `sgalal/rime-cantonese`
 
-Rime 粵語拼音輸入方案
+本配方爲[rime-jyutping](https://github.com/rime/rime-jyutping)的帶聲調及IPA顯示版。配方內`jyut6ping3`爲聲調顯示版方案，`jyut6ping3_ipa`爲IPA顯示版方案。
 
-目前支援香港語言學學會粵語拼音方案。
+**配方目前尚處開發階段，歡迎PR或於Issue區反饋意見**
 
-Currently support the Linguistic Society of Hong Kong Cantonese Romanisation Scheme.
+### 拼音方案
 
-## 收錄原則
+- [Jyutping 粵拼| lshk](https://www.lshk.org/jyutping)
+- [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
 
-### 單字
+
+## 使用方法
+
+| 聲調版                    | IPA版                    |
+| ------------------------- | ------------------------ |
+| ![示例1](./demo/tone.gif) | ![示例2](./demo/ipa.gif) |
+
+輸入時候可以忽略聲調，若要輸入聲調，則對應鍵位爲：
+
+1. 陰平 `v`；如要輸入「詩」則鍵入`siv`
+2. 陰上 `x`；如要輸入「史」則鍵入`six`
+3. 陰去 `q`；如要輸入「試」則鍵入`siq`
+4. 陽平 `vv`；如要輸入「時」則鍵入`sivv`
+5. 陽上 `xx`；如要輸入「市」則鍵入`sixx`
+6. 陽去 `qq`；如要輸入「事」則鍵入`siqq`
+
+
+## 數據來源
+
+### 字音
+
+- LSHK 字音表 - [資料 (laubonghaudoi/cantonese_orthography)](https://github.com/laubonghaudoi/cantonese_orthography/blob/master/LSHK%20Jyutping%20-%20Char%20-%20JP.csv)
+- 粵音小鏡 - [資料 (laubonghaudoi/cantonese_orthography)](https://github.com/laubonghaudoi/cantonese_orthography/blob/master/%E7%B2%B5%E9%9F%B3%E5%B0%8F%E9%8F%A1(20160723).xls)
+- 廣州話正音字典 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8)
+- 常用字廣州話讀音表 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/1992_%E5%B8%B8%E7%94%A8%E5%AD%97%E5%BB%A3%E5%B7%9E%E8%A9%B1%E8%AE%80%E9%9F%B3%E8%A1%A8)
+- 粵語審音配詞字庫 - [原網站](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/) - [資料來源 (sgalal/lexi_can_crawler)](https://github.com/sgalal/lexi_can_crawler)
+
+### 詞語
+
+- [香港語言學學會粵拼詞表](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
+
+## 詞庫製作流程
+
+### 字音收錄原則
 
 <pre>
 對於 Unihan 資料中的某個字
@@ -35,21 +69,8 @@ Currently support the Linguistic Society of Hong Kong Cantonese Romanisation Sch
     否則 -> 不是繁體字
 </pre>
 
-五份資料如下
-
-* LSHK 字音表 - [資料 (laubonghaudoi/cantonese_orthography)](https://github.com/laubonghaudoi/cantonese_orthography/blob/master/LSHK%20Jyutping%20-%20Char%20-%20JP.csv)
-* 粵音小鏡 - [資料 (laubonghaudoi/cantonese_orthography)](https://github.com/laubonghaudoi/cantonese_orthography/blob/master/%E7%B2%B5%E9%9F%B3%E5%B0%8F%E9%8F%A1(20160723).xls)
-* 廣州話正音字典 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8)
-* 常用字廣州話讀音表 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/1992_%E5%B8%B8%E7%94%A8%E5%AD%97%E5%BB%A3%E5%B7%9E%E8%A9%B1%E8%AE%80%E9%9F%B3%E8%A1%A8)
-* 粵語審音配詞字庫 - [原網站](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/) - [資料來源 (sgalal/lexi_can_crawler)](https://github.com/sgalal/lexi_can_crawler)
-
-### 詞語
-
-資料：香港語言學學會粵拼詞表 - [原網站](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
 
 該詞表中包括單字和詞語。將詞表中的單字捨棄，並將詞語併入碼表。
-
-## 詞庫製作流程
 
 ### Single Characters
 
@@ -76,23 +97,3 @@ $ pip install unihan-etl pandas sortedcontainers
 $ unihan-etl -f kCantonese -F json --destination build/single_char/data/0-Unihan.json
 $ build/build.py
 ```
-
-## Features
-
-(1) Input words by Cantonese romanization (Jyutping)
-
-![demo0](demo/0.png)
-
-(2) Reverse lookup Cantonese by romanization of Standard Chinese (Hanyu Pinyin)
-
-![demo1](demo/1.png)
-
-(3) Other features like acronym and Simplified Chinese
-
-![demo2](demo/2.png)
-
-## License
-
-Code for building the data is distributed under MIT license.
-
-Dictionary data follows the original license.

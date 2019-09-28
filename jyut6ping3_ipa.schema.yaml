@@ -107,14 +107,14 @@ translator:
   preedit_format:
     - xform/(^|[ '])(m|ng)+$/$1$2̩$3/          # 唔m̩ 五ŋ̩
     - xform/([ptk])xx/$1˨/                    # 熱jiːt̚˨
-    - xform/([ptk])x/$1˧/                     # 咽jiːt̚˧
+    - xform/([ptk])x/$1˧/                     # 醃jiːp̚˧
     - xform/([ptk])q/$1˥/                     # 一jɐt̚
-    - xform/vv/˨˩/                            # 而jiː˨˩
-    - xform/v/˥˥/                             # 倚jiː˥˥
-    - xform/xx/˩˧/                            # 以jiː˩˧
-    - xform/x/˧˥/                             # 倚jiː˧˥
+    - xform/vv/˨˩/                             # 而jiː˨˩
+    - xform/v/˥˥/                             # 衣jiː˥˥
+    - xform/xx/˩˧/                             # 以jiː˩˧
+    - xform/x/˧˥/                              # 倚jiː˧˥
     - xform/qq/˨˨/                            # 二jiː˨˨
-    - xform/q/˧˧/                             # 以jiː˧˧
+    - xform/q/˧˧/                             # 意jiː˧˧
     - xform/([PTK])$/$1]$2/                   # 入jɐp̚
     - xform/(^|[ '])([jy])u(ng)/$1jʊŋ/        # 用jʊŋ
     - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/ # 月jyːt̚
