@@ -15,6 +15,9 @@ def build_single_char():
 	from single_char.常用字廣州話讀音表 import 常用字廣州話讀音表
 	from single_char.粵語審音配詞字庫 import 粵語審音配詞字庫
 
+	if not os.path.exists('build/single_char/data'):
+		os.mkdir('build/single_char/data')
+
 	LSHK字音表()
 	粵音小鏡()
 	廣州話正音字典()
