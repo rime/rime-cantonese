@@ -18,14 +18,12 @@ def build_word():
 	with open('build/word/data/香港語言學學會粵拼詞表.txt') as 香港語言學學會粵拼詞表:
 		pattern = re.compile(r'(?P<詞>.+)\t(?P<粵拼讀音>.+)\n')
 
-		single_char, word = SortedSet(), SortedSet()
+		word = SortedSet()
 
 		for line in 香港語言學學會粵拼詞表:
 			match = pattern.match(line)
 			詞, 粵拼讀音 = match['詞'], match['粵拼讀音']
-			if len(詞) == 1:
-				single_char.add((粵拼讀音, 詞))
-			else:  # len(詞) > 1
+			if len(詞) > 1:
 				word.add((粵拼讀音, 詞))
 		
-		return single_char, word
+		return word

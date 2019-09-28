@@ -7,7 +7,7 @@ from single_char.build_single_char import build_single_char
 from word.build_word import build_word
 
 d_single_char = build_single_char()
-d_single_char_2, d_word = build_word()
+d_word = build_word()
 
 header = f'''# Rime dictionary
 # encoding: utf-8
@@ -60,9 +60,9 @@ min_phrase_weight: 100
 
 '''
 
-with open('build/single-char/final.txt', 'w') as fout:
+with open('jyut6ping3.dict.yaml', 'w') as fout:
 	fout.write(header)
-	for pronunciation, char in d_single_char | d_single_char_2:
+	for pronunciation, char in d_single_char:
 		print(f'{char}\t{pronunciation}', file=fout)
 	for pronunciation, word in d_word:
 		print(f'{word}\t{pronunciation}', file=fout)

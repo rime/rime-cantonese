@@ -43,7 +43,7 @@ Rime 粵語拼音輸入方案（香港語言學學會粵語拼音方案）
 
 資料：香港語言學學會粵拼詞表 - [原網站](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
 
-該詞表中包括單字和詞語。將單字與上述步驟中的單字合併，並將詞語加入碼表。
+該詞表中包括單字和詞語。將詞表中的單字捨棄，並將詞語併入碼表。
 
 ## 詞庫製作流程
 
@@ -66,7 +66,7 @@ Generate the result according to the principles.
 
 Download the data file to `/build/word/data/香港語言學學會粵拼詞表.txt`.
 
-Read the file and merge the data with single characters.
+Read the file, discard single characters in the file and merge the remained data with the data above.
 
 Write the result to file.
 
