@@ -1,8 +1,12 @@
 # rime-cantonese
 
-Rime Cantonese input schema (The Linguistic Society of Hong Kong Cantonese Romanisation Scheme)
+Rime Cantonese input schema
 
-Rime 粵語拼音輸入方案（香港語言學學會粵語拼音方案）
+Rime 粵語拼音輸入方案
+
+目前支援香港語言學學會粵語拼音方案。
+
+Currently support the Linguistic Society of Hong Kong Cantonese Romanisation Scheme.
 
 ## 收錄原則
 
@@ -51,26 +55,25 @@ Rime 粵語拼音輸入方案（香港語言學學會粵語拼音方案）
 
 Export Cantonese pronunciation data in kCantonese to `build/single_char/data/0-Unihan.json`.
 
-```sh
-$ pip install --user unihan-etl
-$ unihan-etl -f kCantonese -F json --destination build/single_char/data/0-Unihan.json
-```
-
 Download and process the five data files mentioned above to `/build/single_char/data/0-*`.
 
-Sanitize the data files and save to `/build/single_char/data/1-*`.
+Sanitize the five data files and save to `/build/single_char/data/1-*`.
 
-Generate the result according to the principles.
+Generate the result according to the principles, then save to variable `d_single_char`.
 
 ### Words
 
-Download the data file to `/build/word/data/香港語言學學會粵拼詞表.txt`.
+Download LSHK Word List to `/build/word/data/香港語言學學會粵拼詞表.txt`.
 
-Read the file, discard single characters in the file and merge the remained data with the data above.
+Read the file, discard single characters in the file and save the remained data to variable `d_word`.
 
-Write the result to file.
+Write `d_single_char` and `d_word` to file.
+
+### Build Scripts
 
 ```sh
+$ pip install unihan-etl pandas sortedcontainers
+$ unihan-etl -f kCantonese -F json --destination build/single_char/data/0-Unihan.json
 $ build/build.py
 ```
 
