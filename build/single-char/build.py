@@ -20,6 +20,19 @@ LSHK字音表()
 常用字廣州話讀音表()
 粵語審音配詞字庫()
 
+def isTraditional(ch):
+	'''檢查某個字元是否為繁體漢字（不完善）'''
+	if re.match(r'[\u4e00-\u9fff]', ch, re.UNICODE):  # 若是 Unicode 基本區漢字
+		try:
+			ch.encode('cp950')
+		except UnicodeEncodeError:
+			return False
+		return True  # 若能使用 Big5 (cp950) 編碼 -> 是繁體字
+	elif re.match(r'[\u3400-\u4dbf\U00020000-\U0002a6df\U0002a700-\U0002b73f\U0002b740-\U0002b81f\U0002b820-\U0002ceaf\U0002ceb0-\U0002ebef\U00030000-\U0003134f]', ch, re.UNICODE):  # 若是 Unicode 其他漢字區（除兼容區外）漢字 -> 是繁體字
+		return True
+	else:
+		return False
+
 if not os.path.exists('build/single-char/final.txt'):
 	with open('build/single-char/data/0-Unihan.json') as unihan, open('build/single-char/data/1-LSHK字音表.csv') as LSHK字音表, open('build/single-char/data/1-粵音小鏡.csv') as 粵音小鏡, open('build/single-char/data/1-廣州話正音字典.csv') as 廣州話正音字典, open('build/single-char/data/1-常用字廣州話讀音表.csv') as 常用字廣州話讀音表, open('build/single-char/data/1-粵語審音配詞字庫.csv') as 粵語審音配詞字庫, open('build/single-char/final.txt', 'w') as fout:
 		pattern = re.compile(r'(?P<字>.),(?P<粵拼讀音>.+)\n')
@@ -35,6 +48,9 @@ if not os.path.exists('build/single-char/final.txt'):
 
 		for li in lis:  # 對於 Unihan 中的某個字
 			char, kCantonese = li['char'], li['kCantonese']
+
+			if not isTraditional(char):  # 若不是繁體字，捨棄
+				continue
 
 			assert len(kCantonese) != 0
 			if len(kCantonese) == 1:  # 若只有一音 -> 收錄
