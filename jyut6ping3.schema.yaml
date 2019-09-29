@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵拼（聲調版）
-  version: "0.1.0"
+  version: "0.1.1"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
