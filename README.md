@@ -19,12 +19,14 @@
 
 輸入時候可以忽略聲調，若要輸入聲調，則對應鍵位爲：
 
-1. 陰平 `v`；如要輸入「詩」則鍵入`siv`
-2. 陰上 `x`；如要輸入「史」則鍵入`six`
-3. 陰去 `q`；如要輸入「試」則鍵入`siq`
-4. 陽平 `vv`；如要輸入「時」則鍵入`sivv`
-5. 陽上 `xx`；如要輸入「市」則鍵入`sixx`
-6. 陽去 `qq`；如要輸入「事」則鍵入`siqq`
+1. 陰平 `v`；如要輸入「詩」則鍵入 `siv`
+2. 陰上 `x`；如要輸入「史」則鍵入 `six`
+3. 陰去 `q`；如要輸入「試」則鍵入 `siq`
+4. 陽平 `vv`；如要輸入「時」則鍵入 `sivv`
+5. 陽上 `xx`；如要輸入「市」則鍵入 `sixx`
+6. 陽去 `qq`；如要輸入「事」則鍵入 `siqq`
+
+可以開啓地區用字轉換功能，支援香港繁體、臺灣正體和大陆简体。
 
 ## 數據來源
 
@@ -38,7 +40,7 @@
 
 ### 詞語
 
-- [香港語言學學會粵拼詞表](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
+- 香港語言學學會粵拼詞表 - [原網站](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
 
 ## 詞庫製作流程
 
