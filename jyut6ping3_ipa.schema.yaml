@@ -95,9 +95,10 @@ speller:
 
     # 取消下行註釋，支持 n- 併入 l- ，如「你」讀若「理」
     #- derive/^n/l/
+    
     # 取消下行註釋，支持 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
-
     #- derive/^(g|k)w/$1/
+    
     # 取消下行註釋，支持獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
     #- derive/^ng$/m/
 
@@ -106,9 +107,9 @@ translator:
   spelling_hints: 5
   preedit_format:
     - xform/(^|[ '])(m|ng)+$/$1$2̩$3/          # 唔m̩ 五ŋ̩
-    - xform/([ptk])xx/$1˨/                    # 熱jiːt̚˨
-    - xform/([ptk])x/$1˧/                     # 醃jiːp̚˧
-    - xform/([ptk])q/$1˥/                     # 一jɐt̚
+    - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
+    - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
+    - xform/([ptk])v/$1˥/                     # 一jɐt̚
     - xform/vv/˨˩/                             # 而jiː˨˩
     - xform/v/˥˥/                             # 衣jiː˥˥
     - xform/xx/˩˧/                             # 以jiː˩˧
