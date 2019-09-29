@@ -1,16 +1,15 @@
 # Rime 粵語拼音方案
 
-配方： ℞ `sgalal/rime-cantonese`
+配方：℞ `sgalal/rime-cantonese`
 
-本配方爲[rime-jyutping](https://github.com/rime/rime-jyutping)的帶聲調及IPA顯示版。配方內`jyut6ping3`爲聲調顯示版方案，`jyut6ping3_ipa`爲IPA顯示版方案。
+本配方爲 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 的帶聲調及 IPA 顯示版。配方內 `jyut6ping3` 爲聲調顯示版方案，`jyut6ping3_ipa` 爲 IPA 顯示版方案。
 
-**配方目前尚處開發階段，歡迎PR或於Issue區反饋意見**
+**配方目前尚處開發階段，歡迎 PR 或於 Issue 區反饋意見**
 
-### 拼音方案
+## 拼音方案
 
-- [Jyutping 粵拼| lshk](https://www.lshk.org/jyutping)
+- [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
 - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
-
 
 ## 使用方法
 
@@ -26,7 +25,6 @@
 4. 陽平 `vv`；如要輸入「時」則鍵入`sivv`
 5. 陽上 `xx`；如要輸入「市」則鍵入`sixx`
 6. 陽去 `qq`；如要輸入「事」則鍵入`siqq`
-
 
 ## 數據來源
 
@@ -44,7 +42,7 @@
 
 ## 詞庫製作流程
 
-### 字音收錄原則
+**字音收錄原則**
 
 <pre>
 對於 Unihan 資料中的某個字
@@ -58,7 +56,7 @@
             若五份資料中每份均無此字 -> 全部收錄
 </pre>
 
-繁體字判斷標準（尚不完善）
+**繁體字判斷標準**
 
 <pre>
 若是 Unicode 基本區漢字
@@ -69,31 +67,10 @@
     否則 -> 不是繁體字
 </pre>
 
+該判斷標準尚不完善，例如「𬶕」字位於拓展區，判斷為繁體字，但實際上為簡體字。
 
-該詞表中包括單字和詞語。將詞表中的單字捨棄，並將詞語併入碼表。
+**詞語收錄原則**
 
-### Single Characters
+香港語言學學會粵拼詞表中包括單字和詞語。將詞表中的單字捨棄，詞語併入碼表。
 
-Export Cantonese pronunciation data in kCantonese to `build/single_char/data/0-Unihan.json`.
-
-Download and process the five data files mentioned above to `/build/single_char/data/0-*`.
-
-Sanitize the five data files and save to `/build/single_char/data/1-*`.
-
-Generate the result according to the principles, then save to variable `d_single_char`.
-
-### Words
-
-Download LSHK Word List to `/build/word/data/香港語言學學會粵拼詞表.txt`.
-
-Read the file, discard single characters in the file and save the remained data to variable `d_word`.
-
-Write `d_single_char` and `d_word` to file.
-
-### Build Scripts
-
-```sh
-$ pip install unihan-etl pandas sortedcontainers
-$ unihan-etl -f kCantonese -F json --destination build/single_char/data/0-Unihan.json
-$ build/build.py
-```
+本方案詞庫製作流程詳見 [Wiki](https://github.com/sgalal/rime-cantonese/wiki/%E6%9C%AC%E6%96%B9%E6%A1%88%E7%A2%BC%E8%A1%A8%E8%A3%BD%E4%BD%9C%E6%B5%81%E7%A8%8B)。
