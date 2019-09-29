@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵拼（IPA版）
-  version: "0.1.1"
+  version: "0.1.2"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -34,8 +34,8 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
+  - options: [ noop, trad_hk, trad_tw, simplification ]
+    states: [ 不轉換, 香港繁體, 臺灣正體, 大陆简体 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -52,16 +52,20 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@luna_pinyin
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - script_translator
-    - reverse_lookup_translator
+    - script_translator@luna_pinyin
   filters:
     - simplifier
+    - simplifier@trad_tw
+    - simplifier@trad_hk
     - uniquifier
+    - reverse_lookup_filter@luna_pinyin_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -177,15 +181,39 @@ translator:
     - xform/z/T͡s/                             # 這t͡sɛː
     - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
 
-reverse_lookup:
+luna_pinyin:
   dictionary: luna_pinyin
   prefix: "`"
-  suffix: "'"
+  suffix: ";"
   tips: 〔拼音〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+  tag: luna_pinyin
+
+luna_pinyin_reverse_lookup:
+  dictionary: jyut6ping3
+  overwrite_comment: true
+  tags: [ luna_pinyin ]
+
+simplifier:
+  import_preset: default
+  option_name: simplification
+  opencc_config: t2s.json
+  tags: [ abc, luna_pinyin ]
+
+trad_tw:
+  import_preset: default
+  option_name: trad_tw
+  opencc_config: t2tw.json
+  tags: [ abc, luna_pinyin ]
+
+trad_hk:
+  import_preset: default
+  option_name: trad_hk
+  opencc_config: t2hk.json
+  tags: [ abc, luna_pinyin ]
 
 punctuator:
   import_preset: default
@@ -196,4 +224,4 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "`[a-z]*'?$"
+    luna_pinyin: "`[a-z]*'?$"
