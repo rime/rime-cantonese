@@ -73,4 +73,6 @@
 
 香港語言學學會粵拼詞表中包括單字和詞語。將詞表中的單字捨棄，詞語併入碼表。
 
+詞表中的詞語遵循香港用字標準。在收錄時，使用 [opencc-python](https://github.com/sgalal/opencc-python) 將詞語轉換爲 OpenCC 標準。
+
 本方案詞庫製作流程詳見 [Wiki](https://github.com/sgalal/rime-cantonese/wiki/%E6%9C%AC%E6%96%B9%E6%A1%88%E7%A2%BC%E8%A1%A8%E8%A3%BD%E4%BD%9C%E6%B5%81%E7%A8%8B)。
