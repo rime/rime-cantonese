@@ -40,7 +40,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.09.29-1"
+version: "2019.10.01"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -126,7 +126,6 @@ min_phrase_weight: 100
 䤷	aam1
 䨄	aam1
 䳺	aam1
-啱	aam1
 㽢	aam2
 䉏	aam2
 菡	aam2
@@ -14607,6 +14606,7 @@ min_phrase_weight: 100
 𠱘	ngaak6
 𠸺	ngaak6
 𡅅	ngaak6
+啱	ngaam1
 喦	ngaam4
 岩	ngaam4
 嵒	ngaam4
@@ -21001,7 +21001,7 @@ min_phrase_weight: 100
 姐	ze2
 者	ze2
 赭	ze2
-這	ze2
+這	ze2	5%
 鍺	ze2
 㱤	ze3
 䂞	ze3
@@ -22353,6 +22353,7 @@ min_phrase_weight: 100
 趙	ziu6
 𡁻	ziu6
 𧵓	ziu6
+噍	ziu6
 㝾	zo2
 俎	zo2
 咗	zo2
@@ -23772,6 +23773,7 @@ min_phrase_weight: 100
 冰島	bing1 dou2
 冰封	bing1 fung1
 冰格	bing1 gaak3
+冰棍	bing1 gwan3
 兵器	bing1 hei3
 冰淇淋	bing1 kei4 lam2
 冰冷	bing1 laang5
@@ -23871,6 +23873,7 @@ min_phrase_weight: 100
 幫忙	bong1 mong4
 幫手	bong1 sau2
 幫助	bong1 zo6
+幫下眼	bong1 haa5 ngaan5
 榜樣	bong2 joeng6
 傍晚	bong6 maan5
 煲茶	bou1 caa4
@@ -23930,6 +23933,8 @@ min_phrase_weight: 100
 寶藏	bou2 zong6
 補鐘	bou2 zung1
 保重	bou2 zung6
+鴇母	bou2 mou5
+褓姆	bou2 mou5
 報酬	bou3 cau4
 報答	bou3 daap3
 布甸	bou3 din1
@@ -24044,6 +24049,7 @@ min_phrase_weight: 100
 差異	caa1 ji6
 差距	caa1 keoi5
 差唔多	caa1 m4 do1
+差點	caa1 dim2
 叉燒	caa1 siu1
 叉燒包	caa1 siu1 baau1
 叉燒腸	caa1 siu1 coeng2
@@ -24214,7 +24220,8 @@ min_phrase_weight: 100
 親手	can1 sau2
 親事	can1 si6
 親自	can1 zi6
-診斷	can2 dyun6
+診斷	can2 dyun3
+診斷	can2 dyun6	5%
 診所	can2 so2
 親家	can3 gaa1
 趁手	can3 sau2
@@ -24449,6 +24456,7 @@ min_phrase_weight: 100
 癡心	ci1 sam1
 黐身	ci1 san1
 黐線	ci1 sin3
+黐𥹉𥹉	ci1 nap6 nap6
 柿餅	ci2 beng2
 此刻	ci2 hak1
 此後	ci2 hau6
@@ -24715,6 +24723,7 @@ min_phrase_weight: 100
 搶先	coeng2 sin1
 唱錢	coeng3 cin2
 唱歌	coeng3 go1
+唱片	coeng3 pin2
 暢遊	coeng3 jau4
 暢銷	coeng3 siu1
 牆壁	coeng4 bik1
@@ -25235,6 +25244,7 @@ min_phrase_weight: 100
 大早	daai6 zou2
 大衆	daai6 zung3
 大專	daai6 zyun1
+大伙	daai6 fo2
 擔保	daam1 bou2
 擔擔擡擡	daam1 daam1 toi4 toi4
 擔凳仔	daam1 dang3 zai2
@@ -25288,6 +25298,8 @@ min_phrase_weight: 100
 嗒糖	daap1 tong4
 答辯	daap3 bin6
 搭車	daap3 ce1
+搭𨋢	daap3 lip1
+搭檯	daap3 toi2
 搭錯線	daap3 co3 sin3
 答覆	daap3 fuk1
 搭客	daap3 haak3
@@ -25643,6 +25655,7 @@ min_phrase_weight: 100
 雕琢	diu1 doek3
 丟架	diu1 gaa2
 雕刻	diu1 hak1
+雕刻	tiu1 hak1
 丟橋扭擰	diu1 kiu4 nau2 ning6
 凋零	diu1 ling4
 刁蠻	diu1 maan4
@@ -26322,6 +26335,7 @@ min_phrase_weight: 100
 方法	fong1 faat3
 方格	fong1 gaak2
 方格	fong1 gaak3
+方領	fongl leng5
 坊間	fong1 gaan1
 方腳蘇	fong1 goek3 sou1
 方興未艾	fong1 hing1 mei6 ngaai6
@@ -26716,12 +26730,16 @@ min_phrase_weight: 100
 戒指	gaai3 zi2
 隔壁	gaak3 bik1
 隔別	gaak3 bit6
+隔離	gaak3 lei4
 胳膊	gaak3 bok3
 格調	gaak3 diu6
 隔夜餸	gaak3 je6 sung3
+隔夜	gaak3 je2
+隔夜	gaak3 je6
 格言	gaak3 jin4
 胳肋底	gaak3 laak1 dai2
 胳肋底	gaak3 lak1 dai2
+隔籬	gaak3 lei4
 隔籬隣舎	gaak3 lei4 leon4 se3
 隔籬隣舎	gaak3 lei4 leon4 se5
 革命	gaak3 ming6
@@ -26834,6 +26852,7 @@ min_phrase_weight: 100
 搞錯	gaau2 co3
 搞掂	gaau2 dim6
 攪掂	gaau2 dim6
+攪擾	gaau2 jiu2
 搞搞震	gaau2 gaau2 zan3
 攪攪震	gaau2 gaau2 zan3
 皎潔	gaau2 git3
@@ -26954,6 +26973,7 @@ min_phrase_weight: 100
 禁止	gam3 zi2
 撳錢	gam6 cin2
 撳機	gam6 gei1
+撳𨋢	gam6 lip1
 撳住嚟搶	gam6 zyu6 lai4 coeng2
 撳住嚟搶	gam6 zyu6 lei4 coeng2
 根本	gan1 bun2
@@ -27267,6 +27287,7 @@ min_phrase_weight: 100
 警員	ging2 jyun4
 景物	ging2 mat6
 境內	ging2 noi6
+境界	ging2 gaai3
 警司	ging2 si1
 景色	ging2 sik1
 警探	ging2 taam3
@@ -27274,6 +27295,7 @@ min_phrase_weight: 100
 警衛	ging2 wai6
 景象	ging2 zoeng6
 警鐘	ging2 zung1
+警誡	ging2 gaai3
 競賽	ging3 coi3
 敬意	ging3 ji3
 敬業	ging3 jip6
@@ -27326,6 +27348,9 @@ min_phrase_weight: 100
 繳付	giu2 fu6
 繳交	giu2 gaau1
 矯正	giu2 zing3
+撟汗	giu2 hon6
+撟舌	giu2 sit6
+撟眼淚	giu2 ngaan5 leoi6
 叫車	giu3 ce1
 叫喊	giu3 haam3
 叫囂	giu3 hiu1
@@ -27399,10 +27424,12 @@ min_phrase_weight: 100
 各地	gok3 dei6
 角度	gok3 dou6
 閣下	gok3 haa6
+閣仔	gok3 zai2
 各有所好	gok3 jau5 so2 hou3
 角落	gok3 lok1
 角落頭	gok3 lok1 tau2
 角落	gok3 lok6
+角仔	gok3 zai2
 覺悟	gok3 ng6
 角色	gok3 sik1
 各式各樣	gok3 sik1 gok3 joeng6
@@ -27438,6 +27465,7 @@ min_phrase_weight: 100
 幹警	gon3 ging2
 幹勁	gon3 ging6
 幹線	gon3 sin3
+幹活	gon3 wut6
 剛纔	gong1 coi4
 剛剛	gong1 gong1
 江河	gong1 ho4
@@ -27995,7 +28023,7 @@ min_phrase_weight: 100
 蟹弶	haai5 gong6
 蟹鉗	haai5 kim2
 蟹鉗	haai5 kim4
-刻不容緩	haak1 bat1 jung4 wun4
+刻不容緩	haak1 bat1 jung4 wun4	5%
 刻不容緩	haak1 bat1 jung4 wun6
 刻薄	haak1 bok6
 黑房	haak1 fong2
@@ -28133,7 +28161,7 @@ min_phrase_weight: 100
 黑暗	hak1 am3
 黑白	hak1 baak6
 黑板	hak1 baan2
-刻不容緩	hak1 bat1 jung4 wun4
+刻不容緩	hak1 bat1 jung4 wun4	5%
 刻不容緩	hak1 bat1 jung4 wun6
 刻薄	hak1 bok6
 黑點	hak1 dim2
@@ -28634,6 +28662,7 @@ min_phrase_weight: 100
 海灣	hoi2 waan1
 海域	hoi2 wik6
 海藻	hoi2 zou2
+海口	hoi2 hau2
 害蟲	hoi6 cung4
 害處	hoi6 cyu3
 害人反害己	hoi6 jan4 faan2 hoi6 gei2
@@ -28758,6 +28787,7 @@ min_phrase_weight: 100
 好聽	hou2 teng1
 好天	hou2 tin1
 好玩	hou2 waan2
+好玩	hou2 wun6
 好仔	hou2 zai2
 好着	hou2 zoek3
 好像	hou2 zoeng6
@@ -29031,7 +29061,7 @@ min_phrase_weight: 100
 忍受	jan5 sau6
 引進	jan5 zeon3
 引致	jan5 zi3
-入邊	jap6 bin6
+入便	jap6 bin6
 入侵	jap6 cam1
 入場	jap6 coeng4
 入場券	jap6 coeng4 gyun3
@@ -29066,7 +29096,10 @@ min_phrase_weight: 100
 一啖	jat1 daam6
 一旦	jat1 daan3
 一啲	jat1 di1
+一點	jat1 dim2
 一點點	jat1 dim2 dim2
+一塊	jat1 faai3
+一會	jat1 wui6
 一定	jat1 ding6
 一代	jat1 doi6
 一度	jat1 dou6
@@ -29315,6 +29348,7 @@ min_phrase_weight: 100
 有咗	jau5 zo2
 有助	jau5 zo6
 有着	jau5 zoek6
+有點	jau5 dim2
 又試	jau6 si3
 椰菜	je4 coi3
 椰菜花	je4 coi3 faa1
@@ -29955,6 +29989,8 @@ min_phrase_weight: 100
 園丁	jyun4 ding1
 元代	jyun4 doi6
 緣份	jyun4 fan6
+緣故	jyun4 gu3
+原故	jyun4 gu3
 紈絝子弟	jyun4 fu3 zi2 dai6
 原價	jyun4 gaa3
 員工	jyun4 gung1
@@ -30287,6 +30323,11 @@ min_phrase_weight: 100
 擴散	kwok3 saan3
 擴展	kwok3 zin2
 擴張	kwok3 zoeng1
+擴闊	kwong3 fut3
+擴建	kwong3 gin3
+擴散	kwong3 saan3
+擴展	kwong3 zin2
+擴張	kwong3 zoeng1
 礦產	kwong3 caan2
 擴充	kwong3 cung1
 礦泉水	kwong3 cyun4 seoi2
@@ -30558,6 +30599,9 @@ min_phrase_weight: 100
 叻唔切	lek1 m4 cit3
 叻女	lek1 neoi2
 叻仔	lek1 zai2
+僆模	leng1 mou4
+僆女	leng1 neoi2
+僆仔	leng1 zai2
 靚女	leng3 neoi2
 靚仔	leng3 zai2
 領教	leng5 gaau3
@@ -30568,6 +30612,9 @@ min_phrase_weight: 100
 雷霆	leoi4 ting4
 擂臺	leoi4 toi4
 騾子	leoi4 zi2
+騾子	lo4 zi2	5%
+驢子	lou4 zi2
+驢子	leoi4 zi2	5%
 裏邊	leoi5 bin1
 裏便	leoi5 bin6
 旅程	leoi5 cing4
@@ -30720,6 +30767,7 @@ min_phrase_weight: 100
 料理	liu6 lei5
 籮柚	lo1 jau2
 囉嗦	lo1 so1
+籮噼	lo1 pet1
 攞錢	lo2 cin2
 攞苦嚟辛	lo2 fu2 lai4 san1
 攞苦嚟辛	lo2 fu2 lei4 san1
@@ -30870,6 +30918,7 @@ min_phrase_weight: 100
 潦倒	lou5 dou2
 老火湯	lou5 fo2 tong1
 老虎	lou5 fu2
+老虎乸	lou5 fu2 naa2
 老家	lou5 gaa1
 老姑婆	lou5 gu1 po4
 老公	lou5 gung1
@@ -30899,6 +30948,8 @@ min_phrase_weight: 100
 老年	lou5 nin4
 老婆	lou5 po4
 老婆仔	lou5 po4 zai2
+老婆婆	lou5 po4 po2
+老婆婆	lou5 po4 po4
 老西	lou5 sai1
 老細	lou5 sai3
 老實	lou5 sat6
@@ -30997,6 +31048,7 @@ min_phrase_weight: 100
 唔該	m4 goi1
 唔怪得	m4 gwaai3 dak1
 唔關我事	m4 gwaan1 ngo5 si6
+唔關你事	m4 gwaan1 nei5 si6
 唔關事	m4 gwaan1 si6
 唔鹹唔淡	m4 haam4 m4 taam5
 唔係	m4 hai6
@@ -31005,8 +31057,8 @@ min_phrase_weight: 100
 唔好意思	m4 hou2 ji3 si3
 唔三唔四	m4 saam1 m4 sei3
 唔使	m4 sai2
-唔駛客氣	m4 sai2 haak3 hei3
-唔駛旨意	m4 sai2 zi2 ji3
+唔使客氣	m4 sai2 haak3 hei3
+唔使旨意	m4 sai2 zi2 ji3
 唔湯唔水	m4 tong1 m4 seoi2
 唔通	m4 tung1
 唔知	m4 zi1
@@ -31352,6 +31404,7 @@ min_phrase_weight: 100
 名單	ming4 daan1
 明代	ming4 doi6
 名副其實	ming4 fu3 kei4 sat6
+名符其實	ming4 fu4 kei4 sat6
 名家	ming4 gaa1
 明鏡	ming4 geng3
 名貴	ming4 gwai3
@@ -31730,6 +31783,8 @@ min_phrase_weight: 100
 難爲	naan4 wai2
 難爲	naan4 wai4
 難民	naan6 man4
+難度	naan4 dou6
+難道	naan4 dou6
 吶喊	naap6 haam3
 納入	naap6 jap6
 鬧交	naau6 gaau1
@@ -32039,6 +32094,7 @@ min_phrase_weight: 100
 年期	nin4 kei4
 年齡	nin4 ling4
 年三十晚	nin4 saam1 sap6 maan5
+年卅晚	nin4 saa1 maan5
 年宵	nin4 siu1
 年少	nin4 siu3
 年少有爲	nin4 siu3 jau5 wai4
@@ -32283,6 +32339,8 @@ min_phrase_weight: 100
 皮褸	pei4 lau1
 疲勞	pei4 lou4
 皮毛	pei4 mou4
+琵琶	pei4 paa2
+琵琶	pei4 paa4
 被袋	pei5 doi2
 被子	pei5 zi2
 辟邪	pik1 ce4
@@ -32393,6 +32451,10 @@ min_phrase_weight: 100
 龐大	pong4 daai6
 旁人	pong4 jan4
 傍晚	pong4 maan5
+舗牀	pou1 cong4
+舗床	pou1 cong4
+鋪牀	pou1 cong4
+鋪床	pou1 cong4
 鋪牀疊被	pou1 cong4 dip6 pei5
 鋪草皮	pou1 cou2 pei4
 甫士	pou1 si2
@@ -33469,6 +33531,8 @@ min_phrase_weight: 100
 閃電	sim2 din6
 閃耀	sim2 jiu6
 閃亮	sim2 loeng6
+閃爍	sim2 lik1
+閃爍	sim2 soek3
 陝西	sim2 sai1
 閃閃	sim2 sim2
 先前	sin1 cin4
@@ -33730,6 +33794,7 @@ min_phrase_weight: 100
 小童	siu2 tung4
 小姐	siu2 ze2
 小組	siu2 zou2
+小孩	siu2 haai4
 笑爆嘴	siu3 baau3 zeoi2
 少東	siu3 dung1
 笑容	siu3 jung4
@@ -33993,6 +34058,7 @@ min_phrase_weight: 100
 熟客	suk6 haak3
 熟口熟面	suk6 hau2 suk6 min6
 熟人	suk6 jan4
+熟識	suk6 sik1
 屬於	suk6 jyu1
 熟練	suk6 lin6
 熟手	suk6 sau2
@@ -34315,6 +34381,8 @@ min_phrase_weight: 100
 頭髮	tau4 faat3
 投機	tau4 gei1
 投稿	tau4 gou2
+稿子	gou2 zi2
+稿紙	gou2 zi2
 頭銜	tau4 haam4
 頭痕	tau4 han4
 頭殼	tau4 hok3
@@ -34573,6 +34641,8 @@ min_phrase_weight: 100
 陶冶	tou4 je5
 圖形	tou4 jing4
 徒刑	tou4 jing4
+徒弟	tou4 dai2
+徒弟	tou4 dai6
 陶淵明	tou4 jyun1 ming4
 圖案	tou4 on3
 逃跑	tou4 paau2
@@ -34727,6 +34797,8 @@ min_phrase_weight: 100
 或者	waak6 ze2
 彎曲	waan1 kuk1
 玩嘢	waan2 je5
+玩意	waan4 ji3	5%
+玩意	wun6 ji3
 挽手袋	waan2 sau2 doi2
 環保	waan4 bou2
 環境	waan4 ging2
@@ -35294,6 +35366,7 @@ min_phrase_weight: 100
 執政	zap1 zing3
 執照	zap1 ziu3
 執葬	zap1 zong3
+執手尾	zap1 sau2 mei5
 質疑	zat1 ji4
 質量	zat1 loeng6
 質問	zat1 man6
@@ -35667,6 +35740,7 @@ min_phrase_weight: 100
 積蓄	zik1 cuk1
 積分	zik1 fan1
 積極	zik1 gik6
+積陰德	zik1 jam1 dak1
 即管	zik1 gun2
 職工	zik1 gung1
 即刻	zik1 haak1
@@ -35754,6 +35828,8 @@ min_phrase_weight: 100
 戰術	zin3 seot6
 戰線	zin3 sin3
 戰勝	zin3 sing3
+戰士	zin3 si6
+戰事	zin3 si6
 箭頭	zin3 tau4
 戰爭	zin3 zang1
 戰績	zin3 zik1
@@ -35847,6 +35923,8 @@ min_phrase_weight: 100
 正式	zing3 sik1
 正所謂	zing3 so2 wai6
 正常	zing3 soeng4
+正話	zing3 waa6
+正話	zeng3 waa6
 證書	zing3 syu1
 政制	zing3 zai3
 政治	zing3 zi6
@@ -36113,6 +36191,8 @@ min_phrase_weight: 100
 撞衫	zong6 saam1
 撞手神	zong6 sau2 san4
 狀態	zong6 taai3
+藏族	zong6 zuk6
+僮族	zong6 zuk6
 遭逢	zou1 fung4
 租金	zou1 gam1
 糟糕	zou1 gou1
@@ -36441,3 +36521,7 @@ min_phrase_weight: 100
 絕望	zyut6 mong6
 絕世	zyut6 sai3
 絕色	zyut6 sik1
+𢯎頭	ngaau1 tau4
+𢯎嗮頭	ngaau1 saai3 tau4
+𠽤嚦𡃈嘞	kik1 lik1 kaak1 laak1
+㨴起	kin2 hei2

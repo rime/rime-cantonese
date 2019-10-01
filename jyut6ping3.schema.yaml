@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵拼（聲調版）
-  version: "0.1.2"
+  version: "0.1.3"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -27,6 +27,7 @@ schema:
 
   dependencies:
     - luna_pinyin
+    - stroke
 
 switches:
   - name: ascii_mode
@@ -34,7 +35,8 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - options: [ noop, trad_hk, trad_tw, simplification ]
+  - options: [ noop, trad_hk, trad_tw, zh_simp ]
+    reset: 0
     states: [ 不轉換, 香港繁體, 臺灣正體, 大陆简体 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -53,6 +55,7 @@ engine:
     - ascii_segmentor
     - matcher
     - affix_segmentor@luna_pinyin
+    - affix_segmentor@stroke
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -60,12 +63,13 @@ engine:
     - punct_translator
     - script_translator
     - script_translator@luna_pinyin
+    - table_translator@stroke
   filters:
-    - simplifier
     - simplifier@trad_tw
     - simplifier@trad_hk
+    - simplifier@zh_simp
     - uniquifier
-    - reverse_lookup_filter@luna_pinyin_reverse_lookup
+    - reverse_lookup_filter@reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -118,7 +122,9 @@ translator:
     - xform/([aeioumngptk])q/$1³/
 
 luna_pinyin:
+  tag: luna_pinyin
   dictionary: luna_pinyin
+  enable_user_dict: false
   prefix: "`"
   suffix: ";"
   tips: 〔拼音〕
@@ -126,30 +132,39 @@ luna_pinyin:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
-  tag: luna_pinyin
 
-luna_pinyin_reverse_lookup:
+stroke:
+  tag: stroke
+  dictionary: stroke
+  enable_user_dict: false
+  prefix: "x"
+  suffix: ";"
+  tips: 〔筆畫〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+reverse_lookup:
+  tags:  [luna_pinyin, stroke]
+  overwrite_comment: false
   dictionary: jyut6ping3
-  overwrite_comment: true
-  tags: [ luna_pinyin ]
-
-simplifier:
-  import_preset: default
-  option_name: simplification
-  opencc_config: t2s.json
-  tags: [ abc, luna_pinyin ]
 
 trad_tw:
   import_preset: default
   option_name: trad_tw
   opencc_config: t2tw.json
-  tags: [ abc, luna_pinyin ]
+  tags: all
 
 trad_hk:
   import_preset: default
   option_name: trad_hk
   opencc_config: t2hk.json
-  tags: [ abc, luna_pinyin ]
+  tags: all
+  
+zh_simp:
+  import_preset: default
+  option_name: zh_simp
+  opencc_config: t2s.json
+  tags: all
 
 punctuator:
   import_preset: default
@@ -160,4 +175,6 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
     luna_pinyin: "`[a-z]*'?$"
+    stroke: "x[hspnz]*'?$"
