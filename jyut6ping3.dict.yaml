@@ -46,6 +46,7 @@ use_preset_vocabulary: true
 max_phrase_length: 7
 min_phrase_weight: 100
 ...
+
 㝞	aa1
 㰳	aa1
 䃁	aa1
@@ -5826,7 +5827,7 @@ min_phrase_weight: 100
 舊	gau6
 𠴰	gau6
 𠸏	ge2
-嘅	ge3
+嘅	ge3 100%
 㙨	gei1
 㚦	gei1
 㚻	gei1
