@@ -40,7 +40,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.01"
+version: "2019.10.01-2"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
