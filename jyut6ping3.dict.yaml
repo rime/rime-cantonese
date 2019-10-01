@@ -40,7 +40,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.01"
+version: "2019.10.01-2"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -3148,7 +3148,7 @@ min_phrase_weight: 100
 猝	cyut3
 𢸶	cyut3
 𠾼	cyut6
-打	daa1
+打	daa1	5%
 打	daa2
 㣢	daai1
 䐎	daai1
@@ -5826,7 +5826,7 @@ min_phrase_weight: 100
 舊	gau6
 𠴰	gau6
 𠸏	ge2
-嘅	ge3 100%
+嘅	ge3	100%
 㙨	gei1
 㚦	gei1
 㚻	gei1
