@@ -28,7 +28,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.01-2"
+version: "2019.10.03"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -1485,6 +1485,8 @@ min_phrase_weight: 100
 橙	caang2
 撐	caang3
 𥋇	caang3
+牚	caang3
+𨅝	caang3
 䁎	caang4
 倀	caang4
 掁	caang4
@@ -24118,9 +24120,11 @@ min_phrase_weight: 100
 殘疾	caan4 zat6
 爭啲	caang1 di1
 爭啲	caang1 dit1
-撐艇仔	caang3 teng5 zai2
+撐艇仔	caang1 teng5 zai2
 橙汁	caang2 zap1
 撐檯腳	caang3 toi2 goek3
+𨅝檯腳	caang3 toi2 goek3
+牚檯腳	caang3 toi2 goek3
 插秧	caap3 joeng1
 插蘇	caap3 sou1
 插蘇頭	caap3 sou1 tau2

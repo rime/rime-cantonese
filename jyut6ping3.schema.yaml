@@ -28,6 +28,7 @@ schema:
   dependencies:
     - luna_pinyin
     - stroke
+    - cangjie5
 
 switches:
   - name: ascii_mode
@@ -56,6 +57,7 @@ engine:
     - matcher
     - affix_segmentor@luna_pinyin
     - affix_segmentor@stroke
+    - affix_segmentor@cangjie5
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -64,6 +66,7 @@ engine:
     - script_translator
     - script_translator@luna_pinyin
     - table_translator@stroke
+    - table_translator@cangjie5
   filters:
     - simplifier@trad_tw
     - simplifier@trad_hk
@@ -142,9 +145,25 @@ stroke:
   tips: 〔筆畫〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
+    
+cangjie5:
+  tag: cangjie5
+  dictionary: cangjie5
+  enable_user_dict: false
+  prefix: "`c"
+  suffix: ";"
+  tips: 〔倉頡五代〕
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
 
 reverse_lookup:
-  tags:  [luna_pinyin, stroke]
+  tags:  [luna_pinyin, stroke, cangjie5]
   overwrite_comment: false
   dictionary: jyut6ping3
 
@@ -178,3 +197,4 @@ recognizer:
     punct: "^/([0-9]0?|[a-z]+)$"
     luna_pinyin: "`[a-z]*'?$"
     stroke: "x[hspnz]*'?$"
+    cangjie5: "`c[a-z]*'?$"
