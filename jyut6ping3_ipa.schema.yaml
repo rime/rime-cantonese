@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵拼（IPA版）
-  version: "0.1.3"
+  version: "0.1.4"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
