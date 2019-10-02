@@ -9,34 +9,22 @@
 # Date:  2019-02-15
 # http://www.unicode.org/reports/tr38/
 #
-# LSHK 字音表
-# GitHub repo: laubonghaudoi/cantonese_orthography
-# URL: https://github.com/laubonghaudoi/cantonese_orthography/blob/master/LSHK%20Jyutping%20-%20Char%20-%20JP.csv
-#
-# 粵音小鏡
-# GitHub repo: laubonghaudoi/cantonese_orthography
-# URL: https://github.com/laubonghaudoi/cantonese_orthography/blob/master/%E7%B2%B5%E9%9F%B3%E5%B0%8F%E9%8F%A1(20160723).xls
-#
-# 廣州話正音字典
-# GitHub repo: jyutnet/cantonese-books-data
-# URL: https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8
-#
-# 常用字廣州話讀音表
-# GitHub repo: jyutnet/cantonese-books-data
-# URL: https://github.com/jyutnet/cantonese-books-data/tree/master/1992_%E5%B8%B8%E7%94%A8%E5%AD%97%E5%BB%A3%E5%B7%9E%E8%A9%B1%E8%AE%80%E9%9F%B3%E8%A1%A8
-#
-# 粵語審音配詞字庫
-# Website: https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/
-# GitHub repo: sgalal/lexi_can_crawler
-# URL: https://github.com/sgalal/lexi_can_crawler
+# 字音校對參考資料
+# 1. LSHK 字音表
+# 2. 粵音小鏡
+# 3. 廣州話正音字典
+# 4. 常用字廣州話讀音表
+# 5. 粵語審音配詞字庫
+#   Website: https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/
 #
 # 詞條數據來源
 # LSHK Jyutping Word List https://corpus.eduhk.hk/JPwordlist/
 #
-# 製作與校對者
-# laubonghaudoi <laubonghaudoi@icloud.com>
-# LeiMaau <leimaau@qq.com>
+# 碼表製作與校對人員
 # sgal <1727246457@qq.com>
+# LeiMaau <leimaau@qq.com>
+# laubonghaudoi <laubonghaudoi@icloud.com>
+#
 
 ---
 name: jyut6ping3
@@ -1495,6 +1483,7 @@ min_phrase_weight: 100
 罉	caang1
 𦉘	caang1
 橙	caang2
+撐	caang3
 𥋇	caang3
 䁎	caang4
 倀	caang4
@@ -24129,7 +24118,6 @@ min_phrase_weight: 100
 殘疾	caan4 zat6
 爭啲	caang1 di1
 爭啲	caang1 dit1
-撐艇仔	caang1 teng5 zai2
 橙汁	caang2 zap1
 撐檯腳	caang3 toi2 goek3
 插秧	caap3 joeng1
