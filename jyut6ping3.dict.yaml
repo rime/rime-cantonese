@@ -6708,7 +6708,7 @@ min_phrase_weight: 100
 弓	gung1
 恭	gung1
 攻	gung1
-紅	gung1
+紅	gung1	0%
 芎	gung1
 蚣	gung1
 躬	gung1
@@ -7485,7 +7485,7 @@ min_phrase_weight: 100
 閪	hai1
 𡚦	hai1
 㩻	hai2
-喺	hai2
+喺	hai2	50%
 䀭	hai4
 䣰	hai4
 䯐	hai4
@@ -7510,7 +7510,7 @@ min_phrase_weight: 100
 㾏	hai6
 䉏	hai6
 䟩	hai6
-係	hai6
+係	hai6	50%
 妎	hai6
 檕	hai6
 盻	hai6
@@ -8240,7 +8240,7 @@ min_phrase_weight: 100
 愷	hoi2
 海	hoi2
 磑	hoi2
-肯	hoi2
+肯	hoi2	0%
 胲	hoi2
 豈	hoi2
 醢	hoi2
@@ -9161,7 +9161,7 @@ min_phrase_weight: 100
 儀	ji4
 兒	ji4
 匜	ji4
-台	ji4
+台	ji4	0%
 咦	ji4
 唲	ji4
 圯	ji4
@@ -17392,7 +17392,7 @@ min_phrase_weight: 100
 䢭	sin6
 倩	sin6
 善	sin6
-單	sin6
+單	sin6	0%
 墠	sin6
 墡	sin6
 嬗	sin6
@@ -19400,7 +19400,7 @@ min_phrase_weight: 100
 湋	wai4
 潿	wai4
 濰	wai4
-為	wai4
+爲	wai4	50%
 維	wai4
 違	wai4
 遺	wai4
@@ -23657,14 +23657,18 @@ min_phrase_weight: 100
 畀返	bei2 faan1
 比方	bei2 fong1
 比較	bei2 gaau3
+畀人	bei2 jan4
 比如	bei2 jyu4
 比喻	bei2 jyu6
+畀佢	bei2 keoi5
 比例	bei2 lai6
+畀你	bei2 nei5
 比利時	bei2 lei6 si4
 比率	bei2 leot2
 畀面	bei2 min2
 彼岸	bei2 ngon6
 畀心機	bei2 sam1 gei1
+畀咗	bei2 zo2
 庇祐	bei3 jau6
 祕訣	bei3 kyut3
 秘訣	bei3 kyut3
@@ -23728,11 +23732,13 @@ min_phrase_weight: 100
 逼住	bik1 zyu6
 邊啲	bin1 di1
 邊度	bin1 dou6
+邊道	bin1 dou6
 邊防	bin1 fong4
 邊界	bin1 gaai3
 邊境	bin1 ging2
 邊個	bin1 go3
 邊疆	bin1 goeng1
+邊有	bin1 jau5
 邊樣	bin1 joeng6
 邊緣	bin1 jyun4
 邊遠	bin1 jyun5
@@ -23749,8 +23755,10 @@ min_phrase_weight: 100
 變革	bin3 gaak3
 變更	bin3 gang1
 變色	bin3 sik1
+變成咗	bin3 sing4 zo2
 變態	bin3 taai3
 變換	bin3 wun6
+變咗	bin3 zo2
 辨別	bin6 bit6
 便飯	bin6 faan6
 辨認	bin6 jing6
@@ -24441,6 +24449,7 @@ min_phrase_weight: 100
 出土	ceot1 tou2
 出走	ceot1 zau2
 出席	ceot1 zik6
+出咗	ceot1 zo2
 出租	ceot1 zou1
 癡纏	ci1 cin4
 癡情	ci1 cing4
@@ -25361,6 +25370,7 @@ min_phrase_weight: 100
 得益	dak1 jik1
 德育	dak1 juk6
 得了	dak1 liu5
+得唔得	dak1 m4 dak1
 得心應手	dak1 sam1 jing3 sau2
 得失	dak1 sat1
 得天獨厚	dak1 tin1 duk6 hau5
@@ -25413,7 +25423,9 @@ min_phrase_weight: 100
 等於	dang2 jyu1
 等如	dang2 jyu4
 等級	dang2 kap1
+等我	dang2 ngo5
 等陣	dang2 zan6
+等住	dang2 zyu6
 櫈仔	dang3 zai2
 鄧小平	dang6 siu2 ping4
 突出	dat6 ceot1
@@ -25509,6 +25521,7 @@ min_phrase_weight: 100
 對付	deoi3 fu6
 對角	deoi3 gok3
 對於	deoi3 jyu1
+對佢	deoi3 keoi5
 對抗	deoi3 kong3
 對立	deoi3 laap6
 對立	deoi3 lap6
@@ -25547,6 +25560,13 @@ min_phrase_weight: 100
 點不知	dim2 bat1 zi1
 點得	dim2 dak1
 點解	dim2 gaai2
+點解又	dim2 gaai2 jau6
+點解要	dim2 gaai2 jiu3
+點解決	dim2 gaai2 kyut3
+點解你	dim2 gaai2 nei5
+點解話	dim2 gaai2 waa6
+點解會	dim2 gaai2 wui3
+點搞	dim2 gaau2
 點燃	dim2 jin4
 點樣	dim2 joeng2
 點零鐘	dim2 leng4 zung1
@@ -25632,6 +25652,7 @@ min_phrase_weight: 100
 定價	ding6 gaa3
 定居	ding6 geoi1
 定係	ding6 hai6
+定係話	ding6 hai6 waa6
 定義	ding6 ji6
 疊埋心水	dip6 maai4 sam1 seoi2
 碟頭	dip6 tau2
@@ -25745,9 +25766,24 @@ min_phrase_weight: 100
 當做	dong3 zou6
 蕩漾	dong6 joeng6
 蕩失路	dong6 sat1 lou6
+都得	dou1 dak1
 刀法	dou1 faat3
+都覺	dou1 gok3
+都覺得	dou1 gok3 dak1
+都喺道	dou1 hai2 dou6
+都係噉	dou1 hai6 gam2
+都係咁	dou1 hai6 gam5
+都係有	dou1 hai6 jau5
+都係要	dou1 hai6 jiu3
+都好	dou1 hou2
+都唔係	dou1 m4 hai6
+都唔會	dou1 m4 wui3
+都冇	dou1 mou5
 刀片	dou1 pin2
 都市	dou1 si5
+都算係	dou1 syun3 hai6
+都話	dou1 waa6
+都知	dou1 zi1
 刀仔	dou1 zai2
 刀子	dou1 zi2
 倒閉	dou2 bai3
@@ -25811,6 +25847,7 @@ min_phrase_weight: 100
 獨白	duk6 baak6
 毒品	duk6 ban2
 獨特	duk6 dak6
+讀緊	duk6 gan2
 獨一無二	duk6 jat1 mou4 ji6
 獨立	duk6 laap6
 獨立	duk6 lap6
@@ -25960,7 +25997,10 @@ min_phrase_weight: 100
 蕃茄	faan1 ke2
 蕃茄醬	faan1 ke2 zoeng3
 返嚟	faan1 lai4
+返來	faan1 lai4
 返嚟	faan1 lei4
+返來	faan1 lei4
+返來	faan1 loi4
 翻生	faan1 saang1
 翻身	faan1 san1
 番石榴	faan1 sek6 lau2
@@ -25994,6 +26034,7 @@ min_phrase_weight: 100
 反爲	faan2 wai4
 反之	faan2 zi1
 反正	faan2 zing3
+反正就係	faan2 zing6 zau6 hai6
 反轉	faan2 zyun3
 氾濫	faan3 laam6
 帆布牀	faan4 bou3 cong4
@@ -26022,6 +26063,7 @@ min_phrase_weight: 100
 犯罪	faan6 zeoi6
 飯焦	faan6 ziu1
 發噏風	faat3 ap1 fung1
+發畀	faat3 bei2
 發表	faat3 biu2
 發布	faat3 bou3
 發泡膠	faat3 bou3 gaau1
@@ -26845,12 +26887,17 @@ min_phrase_weight: 100
 搞錯	gaau2 co3
 搞掂	gaau2 dim6
 攪掂	gaau2 dim6
+搞到	gaau2 dou3
 攪擾	gaau2 jiu2
 搞搞震	gaau2 gaau2 zan3
 攪攪震	gaau2 gaau2 zan3
+搞緊	gaau2 gan2
+搞嘅	gaau2 ge3
 皎潔	gaau2 git3
 搞鬼	gaau2 gwai2
 攪鬼	gaau2 gwai2
+搞落去	gaau2 lok6 heoi3
+搞唔掂	gaau2 m4 dim6
 攪唔掂	gaau2 m4 dim6
 搞笑	gaau2 siu3
 狡猾	gaau2 waat6
@@ -26895,12 +26942,14 @@ min_phrase_weight: 100
 雞仔媒人	gai1 zai2 mui4 jan2
 計仔	gai2 zai2
 繼父	gai3 fu6
+計下	gai3 haa5
 繼母	gai3 mou5
 繼承	gai3 sing4
 計數	gai3 sou3
 計數機	gai3 sou3 gei1
 計算	gai3 syun3
 計劃	gai3 waak6
+計咗下	gai3 zo2 haa5
 繼續	gai3 zuk6
 金碧輝煌	gam1 bik1 fai1 wong4
 金邊	gam1 bin1
@@ -26908,6 +26957,7 @@ min_phrase_weight: 100
 今次	gam1 ci3
 金錢	gam1 cin4
 金代	gam1 doi6
+今個	gam1 go3
 今後	gam1 hau6
 今日	gam1 jat6
 今夜	gam1 je6
@@ -26942,27 +26992,43 @@ min_phrase_weight: 100
 錦標	gam2 biu1
 感情	gam2 cing4
 感動	gam2 dung6
+噉嘅	gam2 ge3
 感激	gam2 gik1
+噉講	gam2 gong2
+噉講法	gam2 gong2 faat3
 感覺	gam2 gok3
 感人	gam2 jan4
+噉又係	gam2 jau6 hai6
 感染	gam2 jim5
 感應	gam2 jing3
 噉樣	gam2 joeng2
+噉佢	gam2 keoi5
 感慨	gam2 koi3
 感冒	gam2 mou6
+噉你	gam2 nei5
+噉我	gam2 ngo5
 感受	gam2 sau6
 感想	gam2 soeng2
 錦上添花	gam2 soeng6 tim1 faa1
 感嘆	gam2 taan3
+噉就	gam2 zau6
+噉就得	gam2 zau6 dak1
+噉就好	gam2 zau6 hou2
 感謝	gam2 ze6
 感觸	gam2 zuk1
 禁不住	gam3 bat1 zyu6
 咁大	gam3 daai2
+咁多	gam3 do1
 禁毒	gam3 duk6
+咁快	gam3 faai3
+咁鬼	gam3 gwai2
+咁好	gam3 hou2
 禁區	gam3 keoi1
 咁蹺	gam3 kiu2
 咁啱	gam3 ngaam1
+咁耐	gam3 noi6
 咁滯	gam3 zai6
+咁早	gam zou
 禁止	gam3 zi2
 撳錢	gam6 cin2
 撳機	gam6 gei1
@@ -27071,6 +27137,10 @@ min_phrase_weight: 100
 舊時	gau6 si4
 舊陣時	gau6 zan6 si2
 舊陣時	gau6 zan6 si4
+嘅人	ge3 jan4
+嘅嘢	ge3 je5
+嘅樣	ge3 joeng2
+嘅咩	ge3 me1
 基本	gei1 bun2
 基本法	gei1 bun2 faat3
 基層	gei1 cang4
@@ -27103,12 +27173,14 @@ min_phrase_weight: 100
 機會	gei1 wui6
 機智	gei1 zi3
 幾大	gei2 daai2
+幾歹	gei2 daai2
 幾多	gei2 do1
 幾度	gei2 dou6
 幾許	gei2 heoi2
 幾何	gei2 ho2
 幾何	gei2 ho4
 幾好	gei2 hou2
+幾廿	gei2 jaa6
 紀律	gei2 leot6
 紀念	gei2 nim6
 紀念品	gei2 nim6 ban2
@@ -27125,6 +27197,7 @@ min_phrase_weight: 100
 既然	gei3 jin4
 紀錄	gei3 luk6
 記錄	gei3 luk6
+記唔記得	gei3 m4 gei3 dak1
 紀念	gei3 nim6
 記念	gei3 nim6
 紀念品	gei3 nim6 ban2
@@ -27417,11 +27490,12 @@ min_phrase_weight: 100
 各地	gok3 dei6
 角度	gok3 dou6
 閣下	gok3 haa6
-閣仔	gok3 zai2
 各有所好	gok3 jau5 so2 hou3
-角落	gok3 lok1
 角落頭	gok3 lok1 tau2
 角落	gok3 lok6
+角落	gok3 lok1
+覺唔覺	gok3 m4 gok3
+覺唔覺得	gok3 m4 gok3 dak1
 角仔	gok3 zai2
 覺悟	gok3 ng6
 角色	gok3 sik1
@@ -27429,6 +27503,7 @@ min_phrase_weight: 100
 覺醒	gok3 sing2
 各位	gok3 wai2
 各位	gok3 wai6
+閣仔	gok3 zai2
 各自	gok3 zi6
 角逐	gok3 zuk6
 各種	gok3 zung2
@@ -27475,6 +27550,8 @@ min_phrase_weight: 100
 港產片	gong2 caan2 pin2
 講粗口	gong2 cou1 hau2
 講大話	gong2 daai6 waa6
+講返	gong2 faan1
+講返轉頭	gong2 faan1 zyun3 tau4
 講價	gong2 gaa3
 講解	gong2 gaai2
 講究	gong2 gau3
@@ -27487,6 +27564,8 @@ min_phrase_weight: 100
 講嘢	gong2 je5
 講義	gong2 ji6
 港元	gong2 jyun4
+講來話長	gong2 lei4 waa6 coeng4
+講實話	gong2 sat6 waa2
 講述	gong2 seot6
 講師	gong2 si1
 講笑	gong2 siu2
@@ -27495,7 +27574,9 @@ min_phrase_weight: 100
 港鐵	gong2 tit3
 講臺	gong2 toi4
 講話	gong2 waa6
+講真	gong2 zan1
 港紙	gong2 zi2
+講咗	gong2 zo2
 講座	gong2 zo6
 鋼筆	gong3 bat1
 鋼琴	gong3 kam4
@@ -27805,6 +27886,7 @@ min_phrase_weight: 100
 鬼槍	gwai2 coeng1
 軌道	gwai2 dou6
 詭計	gwai2 gai3
+鬼咁	gwai2 gam3
 鬼鬼馬馬	gwai2 gwai2 maa5 maa5
 鬼鬼祟祟	gwai2 gwai2 seoi6 seoi6
 鬼鬼鼠鼠	gwai2 gwai2 syu2 syu2
@@ -27813,6 +27895,7 @@ min_phrase_weight: 100
 鬼妹	gwai2 mui1
 鬼婆	gwai2 po4
 鬼殺咁嘈	gwai2 saat3 gam3 cou4
+鬼死咁	gwai2 sei2 gam3
 鬼上身	gwai2 soeng6 san1
 鬼鼠	gwai2 syu2
 鬼仔	gwai2 zai2
@@ -27908,6 +27991,7 @@ min_phrase_weight: 100
 過數	gwo3 sou3
 過往	gwo3 wong5
 過節	gwo3 zit3
+過咗	gwo3 zo2
 過獎	gwo3 zoeng2
 國產	gwok3 caan2
 國防	gwok3 fong4
@@ -28144,13 +28228,24 @@ min_phrase_weight: 100
 校舍	haau6 se3
 校際	haau6 zai3
 喺度	hai2 dou6
+喺道	hai2 dou6
 喺啦	hai2 laa1
+喺唔喺	hai2 m4 hai2
 喺處	hai2 syu3
-係咁意	hai6 gam2 ji2
+係點	hai6 dim2
+係噉意	hai6 gam2 ji2
+係個	hai6 go3
+係覺得	hai6 gok3 dak1
+係喺	hai6 hai2
 係要	hai6 jiu3
+係用	hai6 jung6
 系列	hai6 lit6
+係唔係	hai6 m4 hai6
 係咪	hai6 mai6
+係想	hai6 soeng2
 系統	hai6 tung2
+係喎	hai6 wo3
+係會	hai6 wui3
 黑暗	hak1 am3
 黑白	hak1 baak6
 黑板	hak1 baan2
@@ -28203,6 +28298,7 @@ min_phrase_weight: 100
 亨通	hang1 tung1
 肯雅	hang2 aa5
 肯定	hang2 ding6
+肯定係	hang2 ding6 hai6
 肯尼亞	hang2 nei4 aa3
 行車	hang4 ce1
 行程	hang4 cing4
@@ -28499,7 +28595,9 @@ min_phrase_weight: 100
 可以	ho2 ji5
 可靠	ho2 kaau3
 可憐	ho2 lin4
+可唔可以	ho2 m4 ho2 ji3
 可能	ho2 nang4
+可能係	ho2 nang4 hai6
 可能性	ho2 nang4 sing3
 可愛	ho2 oi3
 可怕	ho2 paa3
@@ -28560,6 +28658,7 @@ min_phrase_weight: 100
 响處	hoeng2 syu3
 嚮往	hoeng2 wong5
 向日葵	hoeng3 jat6 kwai4
+向佢	hoeng3 keoi5
 向來	hoeng3 loi4
 嚮往	hoeng3 wong5
 開辦	hoi1 baan6
@@ -28623,6 +28722,7 @@ min_phrase_weight: 100
 開支	hoi1 zi1
 開枝散葉	hoi1 zi1 saan3 jip6
 開展	hoi1 zin2
+開咗	hoi1 zo2
 開張	hoi1 zoeng1
 海鷗	hoi2 au1
 海濱	hoi2 ban1
@@ -28661,6 +28761,7 @@ min_phrase_weight: 100
 害人反害己	hoi6 jan4 faan2 hoi6 gei2
 害怕	hoi6 paa3
 害羞	hoi6 sau1
+學得識	hok6 dak1 sik1
 學費	hok6 fai3
 學非所用	hok6 fei1 so2 jung6
 學科	hok6 fo1
@@ -28747,6 +28848,9 @@ min_phrase_weight: 100
 好處	hou2 cyu3
 好瞓	hou2 fan3
 好感	hou2 gam2
+好嘅	hou2 ge3
+好鬼	hou2 gwai2
+好鬼死	hou2 gwai2 sei2
 好閒	hou2 haan4
 好吃	hou2 hek3
 好看	hou2 hon3
@@ -28770,6 +28874,8 @@ min_phrase_weight: 100
 好味	hou2 mei6
 好命	hou2 meng6
 好命水	hou2 meng6 seoi2
+好耐	hou2 noi6
+好犀利	hou2 sai1 lei6
 好心	hou2 sam1
 好手	hou2 sau2
 好些	hou2 se1
@@ -29089,16 +29195,16 @@ min_phrase_weight: 100
 一啖	jat1 daam6
 一旦	jat1 daan3
 一啲	jat1 di1
+一啲嘢	jat1 di1 je5
 一點	jat1 dim2
 一點點	jat1 dim2 dim2
-一塊	jat1 faai3
-一會	jat1 wui6
 一定	jat1 ding6
 一代	jat1 doi6
 一度	jat1 dou6
 一道	jat1 dou6
 一番	jat1 faan1
 一帆風順	jat1 faan4 fung1 seon6
+一塊	jat1 faai3
 一方面	jat1 fong1 min6
 一家團聚	jat1 gaa1 tyun4 zeoi6
 一腳踢	jat1 goek3 tek3
@@ -29124,6 +29230,7 @@ min_phrase_weight: 100
 一言爲定	jat1 jin4 wai4 ding6
 一應俱全	jat1 jing3 keoi1 cyun4
 一樣	jat1 joeng6
+一樣嘢	jat1 joeng6 je5
 一於	jat1 jyu1
 一如	jat1 jyu4
 一概	jat1 koi3
@@ -29135,6 +29242,7 @@ min_phrase_weight: 100
 一來	jat1 loi4
 一勞永逸	jat1 lou4 wing5 jat6
 一路	jat1 lou6
+一唔係	jat m4 hai
 一貌堂堂	jat1 maau6 tong4 tong4
 一味	jat1 mei2
 一面	jat1 min6
@@ -29158,8 +29266,10 @@ min_phrase_weight: 100
 一視同仁	jat1 si6 tung4 jan4
 一線牽	jat1 sin3 hin1
 一線生機	jat1 sin3 sang1 gei1
+一睇	jat1 tai2
 一體	jat1 tai2
 一同	jat1 tung4
+一會	jat1 wui6
 一陣	jat1 zan2
 一陣	jat1 zan6
 一陣間	jat1 zan6 gaan1
@@ -29317,9 +29427,12 @@ min_phrase_weight: 100
 有料	jau5 liu2
 有料到	jau5 liu2 dou3
 有紋有路	jau5 man4 jau5 lou6
+有乜	jau5 mat1
+有咩	jau5 me1
 有名	jau5 meng2
 有面	jau5 min2
 有毛有翼	jau5 mou4 jau5 jik6
+有冇	jau5 mou5
 有冇搞錯	jau5 mou5 gaau2 co3
 有目共睹	jau5 muk6 gung6 dou2
 有難	jau5 naan6
@@ -29745,6 +29858,7 @@ min_phrase_weight: 100
 要點	jiu3 dim2
 要緊	jiu3 gan2
 要好	jiu3 hou2
+要佢	jiu3 keoi5
 要面	jiu3 min2
 要事	jiu3 si6
 要是	jiu3 si6
@@ -30218,7 +30332,13 @@ min_phrase_weight: 100
 驅逐	keoi1 zuk6
 渠道	keoi4 dou6
 佢哋	keoi5 dei6
+佢都	keoi5 dou1
+佢都話	keoi5 dou1 waa6
+佢又	keoi5 jau6
+佢而家	keoi5 ji4 gaa1
+佢要	keoi5 jiu3
 距離	keoi5 lei4
+佢話	keoi5 waa6
 拒絕	keoi5 zyut6
 乾坤	kin4 kwan1
 虔誠	kin4 sing4
@@ -30227,6 +30347,7 @@ min_phrase_weight: 100
 傾掂	king1 dim6
 傾倒	king1 dou2
 傾偈	king1 gai2
+傾下偈	king1 haa5 gai2
 傾閒偈	king1 haan4 gai2
 傾向	king1 hoeng3
 傾唔埋	king1 m4 maai4
@@ -31048,6 +31169,7 @@ min_phrase_weight: 100
 唔好	m4 hou2
 唔好意思	m4 hou2 ji3 si1
 唔好意思	m4 hou2 ji3 si3
+唔一定	m4 jat1 ding6
 唔三唔四	m4 saam1 m4 sei3
 唔使	m4 sai2
 唔使客氣	m4 sai2 haak3 hei3
@@ -31158,6 +31280,7 @@ min_phrase_weight: 100
 繃繃緊	maang1 maang1 gan2
 盲目	maang4 muk6
 盲舂舂	maang4 zung1 zung1
+猛咁	maang5 gam3
 猛然	maang5 jin4
 猛烈	maang5 lit6
 孟加拉	maang6 gaa1 laai1
@@ -31340,6 +31463,7 @@ min_phrase_weight: 100
 美中不足	mei5 zung1 bat1 zuk1
 未必	mei6 bit1
 未曾	mei6 cang4
+未到	mei6 dou3
 味道	mei6 dou6
 未婚	mei6 fan1
 未婚妻	mei6 fan1 cai1
@@ -31594,6 +31718,7 @@ min_phrase_weight: 100
 舞龍	mou5 lung4
 冇紋路	mou5 man4 lou6
 冇乜	mou5 mat1
+冇咩	mou5 me1
 姥姥	mou5 mou5
 冇你修	mou5 nei5 sau1
 舞女	mou5 neoi2
@@ -31601,6 +31726,7 @@ min_phrase_weight: 100
 冇耐性	mou5 noi6 sing3
 無牌	mou5 paai4
 冇晒行	mou5 saai3 hong4
+冇嗮	mou5 saai3
 冇心	mou5 sam1
 冇收	mou5 sau1
 冇聲氣	mou5 seng1 hei3
@@ -31790,12 +31916,18 @@ min_phrase_weight: 100
 泥頭車	nai4 tau4 ce1
 泥土	nai4 tou2
 諗辦法	nam2 baan6 faat3
+諗清楚	nam2 cing1 co2
 諗法	nam2 faat3
 諗計	nam2 gai2
+諗緊	nam2 gan2
+諗過	nam2 gwo6
+諗起	nam2 hei2
+諗明	nam2 ming4
 諗縮數	nam2 suk1 sou3
 諗頭	nam2 tau4
 諗通	nam2 tung1
 諗真	nam2 zan1
+諗咗下	nam2 zo2 haa5
 諗住	nam2 zyu6
 腍善	nam4 sin6
 撚化	nan2 faa3
@@ -31818,11 +31950,32 @@ min_phrase_weight: 100
 扭轉	nau2 zyun2
 扭轉	nau2 zyun3
 嬲嬲哋	nau5 nau5 dei2
+呢班	ne1 baan
 呢邊	nei1 bin1
+呢本	ne1 bun2
+呢層	nei1 cang4
+呢啲	nei1 di1
+呢啲人	nei1 di1 jan4
+呢啲事	nei1 di1 si6
+呢點	nei1 dim2
+呢道	nei1 dou6
+呢度	nei dou6
+呢方面	nei1 fong1 min6
+呢件事	nei1 gin6 si6
+呢個	nei1 go3
+呢項	nei1 hong6
+呢一點	nei1 jat1 dim2
+呢樣嘢	nei1 joeng6 je5
 匿埋	nei1 maai4
+呢門	nei1 mun4
 呢排	nei1 paai2
 呢排	nei1 paai4
+呢篇	nei1 pin1
 呢頭	nei1 tau4
+呢條	nei1 tiu4
+呢套	nei1 tou3
+呢張	nei1 zoeng1
+呢種	nei1 zung2
 尼泊爾	nei4 bok6 ji5
 彌補	nei4 bou2
 尼加拉瓜	nei4 gaa1 laai1 gwaa1
@@ -31832,7 +31985,19 @@ min_phrase_weight: 100
 瀰漫	nei4 maan6
 你情我願	nei5 cing4 ngo5 jyun6
 你哋	nei5 dei6
+你點知	nei5 dim2 zi1
+你都係	nei5 dou1 hai6
+你有冇	nei5 jau5 mou5
+你而家	nei5 ji4 gaa1
+你意思係	nei5 ji3 si1 hai6
+你唔知	nei5 m4 zi1
 你們	nei5 mun4
+你試下	nei5 si3 haa5
+你先	nei5 sin1
+你睇	nei5 tai2
+你睇下	nei5 tai2 haa5
+你話	nei5 waa6
+你知	nei5 zi1
 囡囡	neoi4 neoi1
 囡囡	neoi4 neoi2
 女廁	neoi5 ci3
@@ -31902,9 +32067,11 @@ min_phrase_weight: 100
 捱世界	ngaai4 sai3 gaai3
 額外	ngaak6 ngoi6
 額頭	ngaak6 tau4
+啱好	ngaam1 hou2
 啱傾	ngaam1 king1
 啱啱	ngaam1 ngaam1
 啱心水	ngaam1 sam1 seoi2
+啱先	ngaam1 sin1
 啱數	ngaam1 sou3
 岩巉	ngaam4 caam4
 岩層	ngaam4 cang4
@@ -32010,6 +32177,19 @@ min_phrase_weight: 100
 俄羅斯	ngo4 lo4 si1
 鵝掌	ngo4 zoeng2
 我哋	ngo5 dei6
+我都	ngo5 dou1
+我都覺	ngo5 dou1 gok3
+我都話	ngo5 dou1 waa6
+我發覺	ngo5 faat3 gok3
+我個	ngo5 go3
+我喺	ngo5 hai2
+我係	ngo5 hai6
+我好似	ngo5 hou2 ci5
+我老竇	ngo5 lou5 dau6
+我唔係	ngo5 m4 hai6
+我想問下	ngo5 soeng2 man6 haa5
+我話	ngo5 waa6
+我仲	ngo5 zung6
 我們	ngo5 mun4
 臥底	ngo6 dai2
 臥室	ngo6 sat1
@@ -32533,6 +32713,7 @@ min_phrase_weight: 100
 耍手擰頭	saa2 sau2 ning6 tau2
 耍太極	saa2 taai3 gik6
 沙沙滾	saa4 saa4 gwan2
+嘥嗮	saai1 saai3
 晒士	saai1 si2
 晒幸福	saai3 hang6 fuk1
 曬幸福	saai3 hang6 fuk1
@@ -33487,6 +33668,7 @@ min_phrase_weight: 100
 式樣	sik1 joeng2
 適用	sik1 jung6
 色狼	sik1 long4
+識唔識	sik1 m4 sik1
 飾物	sik1 mat6
 熄滅	sik1 mit6
 悉尼	sik1 nei4
@@ -33531,6 +33713,7 @@ min_phrase_weight: 100
 先前	sin1 cin4
 鮮花	sin1 faa1
 仙境	sin1 ging2
+先係	sin1 hai6
 先後	sin1 hau6
 鮮血	sin1 hyut3
 鮮艷	sin1 jim6
@@ -33822,6 +34005,7 @@ min_phrase_weight: 100
 所致	so2 zi3
 所在	so2 zoi6
 傻更更	so4 gaang1 gaang1
+傻閪	so4 hai1
 傻人	so4 jan4
 傻佬	so4 lou2
 傻女	so4 neoi2
@@ -34153,8 +34337,10 @@ min_phrase_weight: 100
 損手爛腳	syun2 sau2 laan6 goek3
 損壞	syun2 waai6
 選擇	syun2 zaak6
+算係	syun3 hai6
 渲染	syun3 jim5
 算了	syun3 liu5
+算唔算	syun3 m4 syun3
 算盤	syun3 pun4
 算術	syun3 seot6
 算式	syun3 sik1
@@ -34277,11 +34463,15 @@ min_phrase_weight: 100
 體操	tai2 cou1
 體重	tai2 cung5
 睇低	tai2 dai1
+睇得出	tai2 dak1 ceot1
 睇得起	tai2 dak1 hei2
 睇得開	tai2 dak1 hoi1
 睇碟	tai2 dip2
 睇到	tai2 dou2
 睇風水	tai2 fung1 seoi2
+睇個樣	tai2 go3 joeng2
+睇過	tai2 gwo3
+睇下	tai2 haa5
 體系	tai2 hai6
 睇起	tai2 hei2
 睇戲	tai2 hei3
@@ -34292,11 +34482,17 @@ min_phrase_weight: 100
 體形	tai2 jing4
 體育	tai2 juk6
 體育場	tai2 juk6 coeng4
+睇完	tai2 jyun4
+睇佢	tai2 keoi5
 睇樓	tai2 lau2
 體力	tai2 lik6
 體諒	tai2 loeng6
+睇落去	tai2 lok6 heoi3
+睇唔出	tai2 m4 ceot1
 睇唔開	tai2 m4 hoi1
+睇明	tai2 ming4
 體能	tai2 nang4
+睇你	tai2 nei5
 睇啱	tai2 ngaam1
 睇怕	tai2 paa3
 睇死	tai2 sei2
@@ -34313,6 +34509,7 @@ min_phrase_weight: 100
 體積	tai2 zik1
 睇掌	tai2 zoeng2
 睇中	tai2 zung3
+睇重	tai zung6
 替工	tai3 gung1
 剃面	tai3 min6
 剃鬚	tai3 sou1
@@ -34408,6 +34605,7 @@ min_phrase_weight: 100
 聽見	teng1 gin3
 聽講	teng1 gong2
 聽講話	teng1 gong2 waa6
+聽唔出	teng1 m4 ceot1
 聽聞	teng1 man4
 聽筒	teng1 tung2
 聽話	teng1 waa6
@@ -34716,6 +34914,7 @@ min_phrase_weight: 100
 同一	tung4 jat1
 同意	tung4 ji3
 童謠	tung4 jiu4
+同佢	tung4 keoi5
 同類	tung4 leoi6
 同撈同煲	tung4 lou1 tung4 bou1
 同埋	tung4 maai4
@@ -34767,9 +34966,12 @@ min_phrase_weight: 100
 華山	waa4 saan1
 華盛頓	waa4 sing6 deon6
 華佗	waa4 to4
+話佢	waa6 keoi5
 華羅庚	waa6 lo4 gang1
 話唔定	waa6 m4 ding6
 話明	waa6 ming4
+話你	waa6 nei5
+話我	waa6 ngo5
 畫屏	waa6 ping4
 話晒	waa6 saai3
 華山	waa6 saan1
@@ -34913,6 +35115,7 @@ min_phrase_weight: 100
 搵笨	wan2 ban6
 搵錢	wan2 cin2
 穩定	wan2 ding6
+搵到	wan2 dou2
 搵工	wan2 gung1
 搵學校	wan2 hok6 haau6
 搵人	wan2 jan4
@@ -34923,10 +35126,15 @@ min_phrase_weight: 100
 搵老襯	wan2 lou5 can3
 搵命搏	wan2 meng6 bok3
 搵銀	wan2 ngan2
+搵老婆	wan2 lou5 po4
+搵唔搵到	wan2 m4 wan2 dou2
+搵死	wan2 sei2
 搵食	wan2 sik6
+搵食艱難	wan2 sik6 gaan1 naan4
 搵屋	wan2 uk1
 穩賺	wan2 zaan6
 穩陣	wan2 zan6
+搵咗	wan2 zo2
 雲鬢	wan4 ban3
 雲層	wan4 cang4
 暈車浪	wan4 ce1 long6
@@ -35106,6 +35314,7 @@ min_phrase_weight: 100
 戶主	wu6 zyu2
 會場	wui2 coeng4
 會員	wui2 jyun4
+會唔會	wui3 m4 wui3
 回程	wui4 cing4
 回答	wui4 daap3
 回到	wui4 dou3
@@ -35421,6 +35630,7 @@ min_phrase_weight: 100
 酒精	zau2 zing1
 晝夜	zau3 je6
 皺紋	zau3 man4
+就得	zau6 dak1
 就地	zau6 dei6
 就讀	zau6 duk6
 就快	zau6 faai3
@@ -35492,6 +35702,7 @@ min_phrase_weight: 100
 最初	zeoi3 co1
 最近	zeoi3 gan6
 最後	zeoi3 hau6
+最尾	zeoi3 mei1
 醉酒鬼	zeoi3 zau2 gwai2
 最終	zeoi3 zung1
 聚財	zeoi6 coi4
@@ -35926,6 +36137,8 @@ min_phrase_weight: 100
 症狀	zing3 zong6
 正中	zing3 zung1
 淨化	zing6 faa3
+剩低	zing6 dai1
+剩得	zing6 dak1
 靜雞雞	zing6 gai1 gai1
 靜局	zing6 guk6
 淨係	zing6 hai6
@@ -35934,6 +36147,7 @@ min_phrase_weight: 100
 靜默	zing6 mak6
 淨麵	zing6 min6
 淨色	zing6 sik1
+淨識	zing6 sik1
 靜止	zing6 zi2
 接駁	zip3 bok3
 接駁巴士	zip3 bok3 baa1 si2
@@ -36196,6 +36410,7 @@ min_phrase_weight: 100
 組別	zou2 bit6
 早餐	zou2 caan1
 祖沖之	zou2 cung1 zi1
+早啲	zou2 di1
 祖父	zou2 fu6
 祖國	zou2 gwok3
 組合	zou2 hap6
@@ -36211,6 +36426,7 @@ min_phrase_weight: 100
 做飯	zou6 faan6
 做法	zou6 faat3
 造福	zou6 fuk1
+做嘅	zou6 ge3
 做忌	zou6 gei6
 造句	zou6 geoi3
 做工	zou6 gung1
@@ -36220,11 +36436,15 @@ min_phrase_weight: 100
 做嘢	zou6 je5
 造型	zou6 jing4
 造林	zou6 lam4
+做乜	zou6 mat1
+做乜嘢	zou6 mat1 je5
+做咩	zou6 me1
 做牛做馬	zou6 ngau4 zou6 maa5
 做伴	zou6 pun5
 做手術	zou6 sau2 seot6
 做事	zou6 si6
 造成	zou6 sing4
+做咗	zou6 zo2
 做莊	zou6 zong1
 竹簽	zuk1 cim1
 囑咐	zuk1 fu6
@@ -36359,10 +36579,13 @@ min_phrase_weight: 100
 重點	zung6 dim2
 重任	zung6 jam6
 重有	zung6 jau5
+仲有	zung6 jau5
 重要	zung6 jiu3
+仲要	zung6 jiu3
 重男輕女	zung6 naam4 hing1 neoi5
 重心	zung6 sam1
 重視	zung6 si6
+仲會	zung6 wui3
 豬八戒	zyu1 baat3 gaai3
 珠寶	zyu1 bou2
 豬腸粉	zyu1 coeng4 fan2
