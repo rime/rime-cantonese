@@ -44,37 +44,4 @@
 
 ## 詞庫製作流程
 
-**字音收錄原則**
-
-<pre>
-對於 Unihan 資料中的某個字
-    若不是繁體字 -> 捨棄
-    若是繁體字
-        若只有一音 -> 收錄
-        若有多個音
-            若五份資料中任意一份有此字
-                若其中某一個或多個發音見於五份資料中任意一份 -> 收錄這幾個發音
-                若每個音都不見於五份資料中任意一份 -> Unihan 和五份資料中的發音均收錄
-            若五份資料中每份均無此字 -> 全部收錄
-</pre>
-
-**繁體字判斷標準**
-
-<pre>
-若是 Unicode 基本區漢字
-    若能使用 Big5 (cp950) 編碼 -> 是繁體字
-    否則 -> 不是繁體字
-否則
-    若是 Unicode 其他漢字區（除兼容區外）漢字 -> 是繁體字
-    否則 -> 不是繁體字
-</pre>
-
-該判斷標準尚不完善，例如「𬶕」字位於拓展區，判斷為繁體字，但實際上為簡體字。
-
-**詞語收錄原則**
-
-香港語言學學會粵拼詞表中包括單字和詞語。將詞表中的單字捨棄，詞語併入碼表。
-
-詞表中的詞語遵循香港用字標準。在收錄時，使用 [sgalal/opencc-python](https://github.com/sgalal/opencc-python) 將詞語轉換爲 [OpenCC 標準](https://ytenx.org/byohlyuk/KienxPyan)。
-
-本方案詞庫製作流程詳見 [Wiki](https://github.com/sgalal/rime-cantonese/wiki/%E6%9C%AC%E6%96%B9%E6%A1%88%E7%A2%BC%E8%A1%A8%E8%A3%BD%E4%BD%9C%E6%B5%81%E7%A8%8B)。
+本方案詞庫製作流程詳見本倉庫 [`build`](https://github.com/sgalal/rime-cantonese/tree/build)分支。
