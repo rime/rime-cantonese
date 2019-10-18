@@ -5580,8 +5580,7 @@ min_phrase_weight: 100
 衿	gam1
 金	gam1
 䃭	gam2
-咁	gam2
-噉	gam2
+噉	gam2	90%
 感	gam2
 敢	gam2
 橄	gam2
@@ -25778,7 +25777,7 @@ min_phrase_weight: 100
 都喺道	dou1 hai2 dou6
 都係	dou1 hai6
 都係噉	dou1 hai6 gam2
-都係咁	dou1 hai6 gam5
+都係咁	dou1 hai6 gam3
 都係有	dou1 hai6 jau5
 都係要	dou1 hai6 jiu3
 都好	dou1 hou2
@@ -27034,7 +27033,7 @@ min_phrase_weight: 100
 咁啱	gam3 ngaam1
 咁耐	gam3 noi6
 咁滯	gam3 zai6
-咁早	gam zou
+咁早	gam3 zou2
 禁止	gam3 zi2
 撳錢	gam6 cin2
 撳機	gam6 gei1
@@ -35650,6 +35649,8 @@ min_phrase_weight: 100
 就地	zau6 dei6
 就讀	zau6 duk6
 就快	zau6 faai3
+就噉	zau6 gam2
+就咁	zau6 gam3
 就係	zau6 hai6
 袖口	zau6 hau2
 袖口鈕	zau6 hau2 nau2
