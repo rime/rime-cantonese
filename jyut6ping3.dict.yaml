@@ -5957,7 +5957,7 @@ min_phrase_weight: 100
 琚	geoi1
 腒	geoi1
 裾	geoi1
-車	geoi1
+車	geoi1	5%
 鶋	geoi1
 𤉸	geoi1
 𩤅	geoi1
@@ -6266,7 +6266,7 @@ min_phrase_weight: 100
 𡟵	go1
 𩾷	go1
 哿	go2
-嗰	go2
+嗰	go2	50%
 笴	go2
 舸	go2
 𠵩	go2
@@ -10790,7 +10790,7 @@ min_phrase_weight: 100
 𤨎	keoi4
 𨬡	keoi4
 𪆫	keoi4
-佢	keoi5
+佢	keoi5	100%
 拒	keoi5
 竘	keoi5
 距	keoi5
@@ -23421,6 +23421,8 @@ min_phrase_weight: 100
 班房	baan1 fong2
 斑鳩	baan1 gau1
 班戟	baan1 gik1
+班人	baan1 jan4
+班友	baan1 jau2
 班級	baan1 kap1
 斑鳩	baan1 kau1
 班戟	baan1 kik1
@@ -25774,6 +25776,7 @@ min_phrase_weight: 100
 都覺	dou1 gok3
 都覺得	dou1 gok3 dak1
 都喺道	dou1 hai2 dou6
+都係	dou1 hai6
 都係噉	dou1 hai6 gam2
 都係咁	dou1 hai6 gam5
 都係有	dou1 hai6 jau5
@@ -27444,6 +27447,7 @@ min_phrase_weight: 100
 歌詠	go1 wing6
 歌頌	go1 zung6
 嗰啲	go2 di1
+嗰個	go2 go3	100
 嗰日	go2 jat6
 嗰陣	go2 zan2
 嗰陣	go2 zan6
@@ -29435,7 +29439,7 @@ min_phrase_weight: 100
 有名	jau5 meng2
 有面	jau5 min2
 有毛有翼	jau5 mou4 jau5 jik6
-有冇	jau5 mou5
+有冇	jau5 mou5	100
 有冇搞錯	jau5 mou5 gaau2 co3
 有目共睹	jau5 muk6 gung6 dou2
 有難	jau5 naan6
@@ -29553,7 +29557,7 @@ min_phrase_weight: 100
 移動	ji4 dung6
 疑犯	ji4 faan2
 疑匪	ji4 fei2
-而家	ji4 gaa1
+而家	ji4 gaa1	1000
 移居	ji4 geoi1
 兒歌	ji4 go1
 兒戲	ji4 hei1
@@ -32400,7 +32404,6 @@ min_phrase_weight: 100
 奧祕	ou3 bei3
 奧地利	ou3 dei6 lei6
 懊悔	ou3 fui3
-數據	ou3 geoi3
 奧林匹克	ou3 lam4 pat1 hak1
 澳門	ou3 mun2
 澳門	ou3 mun4
@@ -34206,6 +34209,7 @@ min_phrase_weight: 100
 掃貨	sou3 fo3
 掃街	sou3 gaai1
 塑膠	sou3 gaau1
+數據	sou3 geoi3
 數口	sou3 hau2
 數學	sou3 hok6
 塑料	sou3 liu2
@@ -36587,7 +36591,7 @@ min_phrase_weight: 100
 重有	zung6 jau5
 仲有	zung6 jau5
 重要	zung6 jiu3
-仲要	zung6 jiu3
+仲要	zung6 jiu3	100
 重男輕女	zung6 naam4 hing1 neoi5
 重心	zung6 sam1
 重視	zung6 si6
