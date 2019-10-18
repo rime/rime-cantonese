@@ -28,7 +28,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.03"
+version: "2019.10.18"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -498,7 +498,7 @@ min_phrase_weight: 100
 㿀	ban1
 䨈	ban1
 䰉	ban1
-份	ban1
+份	ban1	0%
 儐	ban1
 奔	ban1
 彬	ban1
@@ -19091,7 +19091,6 @@ min_phrase_weight: 100
 喎	waa1
 嘩	waa1
 娃	waa1
-挖	waa1
 汙	waa1
 洼	waa1
 漥	waa1
@@ -19402,7 +19401,7 @@ min_phrase_weight: 100
 湋	wai4
 潿	wai4
 濰	wai4
-爲	wai4	50%
+爲	wai4
 維	wai4
 違	wai4
 遺	wai4
@@ -19451,7 +19450,7 @@ min_phrase_weight: 100
 槥	wai6
 橞	wai6
 渭	wai6
-為	wai6
+爲	wai6
 煟	wai6
 胃	wai6
 蔧	wai6
@@ -32181,6 +32180,7 @@ min_phrase_weight: 100
 俄羅斯	ngo4 lo4 si1
 鵝掌	ngo4 zoeng2
 我哋	ngo5 dei6
+我點知	ngo5 dim2 zi1
 我都	ngo5 dou1
 我都覺	ngo5 dou1 gok3
 我都話	ngo5 dou1 waa6
@@ -34975,7 +34975,9 @@ min_phrase_weight: 100
 話唔定	waa6 m4 ding6
 話明	waa6 ming4
 話你	waa6 nei5
+話你知	waa6 nei5 zi1
 話我	waa6 ngo5
+話我知	waa6 ngo5 zi1
 畫屏	waa6 ping4
 話晒	waa6 saai3
 華山	waa6 saan1
