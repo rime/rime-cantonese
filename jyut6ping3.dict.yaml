@@ -51,12 +51,14 @@ min_phrase_weight: 100
 啊	aa2
 啞	aa2
 嗄	aa2
+瘂	aa2
 阿	aa2
 㰳	aa3
 䅉	aa3
 䢝	aa3
 䳬	aa3
 亞	aa3
+俹	aa3
 呀	aa3
 啊	aa3
 埡	aa3
@@ -22390,6 +22392,7 @@ min_phrase_weight: 100
 灼	zoek3
 焯	zoek3
 爵	zoek3
+着	zoek3
 禚	zoek3
 穛	zoek3
 繳	zoek3
@@ -22418,6 +22421,7 @@ min_phrase_weight: 100
 䶳	zoek6
 嚼	zoek6
 爝	zoek6
+着	zoek6
 著	zoek6
 𤏲	zoek6
 㒕	zoeng1
