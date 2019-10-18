@@ -7975,7 +7975,7 @@ min_phrase_weight: 100
 㰦	heoi3
 䒧	heoi3
 去	heoi3
-佢	heoi5
+佢	heoi5	90%
 䭮	heoi6
 𠺪	hi1
 㛪	him1
@@ -29562,7 +29562,7 @@ min_phrase_weight: 100
 移動	ji4 dung6
 疑犯	ji4 faan2
 疑匪	ji4 fei2
-而家	ji4 gaa1	1000
+而家	ji4 gaa1	100%
 移居	ji4 geoi1
 兒歌	ji4 go1
 兒戲	ji4 hei1
