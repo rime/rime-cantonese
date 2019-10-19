@@ -28,7 +28,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.03"
+version: "2019.10.18"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -51,12 +51,14 @@ min_phrase_weight: 100
 啊	aa2
 啞	aa2
 嗄	aa2
+瘂	aa2
 阿	aa2
 㰳	aa3
 䅉	aa3
 䢝	aa3
 䳬	aa3
 亞	aa3
+俹	aa3
 呀	aa3
 啊	aa3
 埡	aa3
@@ -496,7 +498,7 @@ min_phrase_weight: 100
 㿀	ban1
 䨈	ban1
 䰉	ban1
-份	ban1
+份	ban1	0%
 儐	ban1
 奔	ban1
 彬	ban1
@@ -5578,8 +5580,7 @@ min_phrase_weight: 100
 衿	gam1
 金	gam1
 䃭	gam2
-咁	gam2
-噉	gam2
+噉	gam2	90%
 感	gam2
 敢	gam2
 橄	gam2
@@ -5955,7 +5956,7 @@ min_phrase_weight: 100
 琚	geoi1
 腒	geoi1
 裾	geoi1
-車	geoi1
+車	geoi1	5%
 鶋	geoi1
 𤉸	geoi1
 𩤅	geoi1
@@ -6264,7 +6265,7 @@ min_phrase_weight: 100
 𡟵	go1
 𩾷	go1
 哿	go2
-嗰	go2
+嗰	go2	50%
 笴	go2
 舸	go2
 𠵩	go2
@@ -6508,7 +6509,7 @@ min_phrase_weight: 100
 咕	gu1
 姑	gu1
 孤	gu1
-家	gu1
+家	gu1	0%
 柧	gu1
 沽	gu1
 泒	gu1
@@ -7485,7 +7486,7 @@ min_phrase_weight: 100
 閪	hai1
 𡚦	hai1
 㩻	hai2
-喺	hai2	50%
+喺	hai2	100%
 䀭	hai4
 䣰	hai4
 䯐	hai4
@@ -7510,7 +7511,7 @@ min_phrase_weight: 100
 㾏	hai6
 䉏	hai6
 䟩	hai6
-係	hai6	50%
+係	hai6	100%
 妎	hai6
 檕	hai6
 盻	hai6
@@ -7973,7 +7974,7 @@ min_phrase_weight: 100
 㰦	heoi3
 䒧	heoi3
 去	heoi3
-佢	heoi5
+佢	heoi5	90%
 䭮	heoi6
 𠺪	hi1
 㛪	him1
@@ -9273,7 +9274,7 @@ min_phrase_weight: 100
 咡	ji6
 廙	ji6
 异	ji6
-施	ji6
+施	ji6	0%
 易	ji6
 樲	ji6
 潩	ji6
@@ -10788,7 +10789,7 @@ min_phrase_weight: 100
 𤨎	keoi4
 𨬡	keoi4
 𪆫	keoi4
-佢	keoi5
+佢	keoi5	100%
 拒	keoi5
 竘	keoi5
 距	keoi5
@@ -19090,7 +19091,6 @@ min_phrase_weight: 100
 喎	waa1
 嘩	waa1
 娃	waa1
-挖	waa1
 汙	waa1
 洼	waa1
 漥	waa1
@@ -19401,7 +19401,7 @@ min_phrase_weight: 100
 湋	wai4
 潿	wai4
 濰	wai4
-爲	wai4	50%
+爲	wai4
 維	wai4
 違	wai4
 遺	wai4
@@ -19450,7 +19450,7 @@ min_phrase_weight: 100
 槥	wai6
 橞	wai6
 渭	wai6
-為	wai6
+爲	wai6
 煟	wai6
 胃	wai6
 蔧	wai6
@@ -22348,7 +22348,7 @@ min_phrase_weight: 100
 噍	ziu6
 㝾	zo2
 俎	zo2
-咗	zo2
+咗	zo2	90%
 左	zo2
 阻	zo2
 𠂇	zo2
@@ -22391,6 +22391,7 @@ min_phrase_weight: 100
 灼	zoek3
 焯	zoek3
 爵	zoek3
+着	zoek3
 禚	zoek3
 穛	zoek3
 繳	zoek3
@@ -22419,6 +22420,7 @@ min_phrase_weight: 100
 䶳	zoek6
 嚼	zoek6
 爝	zoek6
+着	zoek6
 著	zoek6
 𤏲	zoek6
 㒕	zoeng1
@@ -23419,6 +23421,8 @@ min_phrase_weight: 100
 班房	baan1 fong2
 斑鳩	baan1 gau1
 班戟	baan1 gik1
+班人	baan1 jan4
+班友	baan1 jau2
 班級	baan1 kap1
 斑鳩	baan1 kau1
 班戟	baan1 kik1
@@ -25772,8 +25776,9 @@ min_phrase_weight: 100
 都覺	dou1 gok3
 都覺得	dou1 gok3 dak1
 都喺道	dou1 hai2 dou6
+都係	dou1 hai6
 都係噉	dou1 hai6 gam2
-都係咁	dou1 hai6 gam5
+都係咁	dou1 hai6 gam3
 都係有	dou1 hai6 jau5
 都係要	dou1 hai6 jiu3
 都好	dou1 hou2
@@ -27029,7 +27034,7 @@ min_phrase_weight: 100
 咁啱	gam3 ngaam1
 咁耐	gam3 noi6
 咁滯	gam3 zai6
-咁早	gam zou
+咁早	gam3 zou2
 禁止	gam3 zi2
 撳錢	gam6 cin2
 撳機	gam6 gei1
@@ -27442,6 +27447,7 @@ min_phrase_weight: 100
 歌詠	go1 wing6
 歌頌	go1 zung6
 嗰啲	go2 di1
+嗰個	go2 go3	100
 嗰日	go2 jat6
 嗰陣	go2 zan2
 嗰陣	go2 zan6
@@ -27659,6 +27665,7 @@ min_phrase_weight: 100
 估計	gu2 gai3
 古舊	gu2 gau6
 古怪	gu2 gwaai3
+估下	gu2 haa5
 古人	gu2 jan4
 古琴	gu2 kam4
 鼓勵	gu2 lai6
@@ -28228,6 +28235,9 @@ min_phrase_weight: 100
 效能	haau6 nang4
 校舍	haau6 se3
 校際	haau6 zai3
+喺邊	hai2 bin1
+喺邊度	hai2 bin1 dou6
+喺邊道	hai2 bin1 dou6
 喺度	hai2 dou6
 喺道	hai2 dou6
 喺啦	hai2 laa1
@@ -29175,6 +29185,7 @@ min_phrase_weight: 100
 入學	jap6 hok6
 入油	jap6 jau2
 入院	jap6 jyun2
+入面	jap6 min6
 入門	jap6 mun4
 入睡	jap6 seoi6
 入息	jap6 sik1
@@ -29433,7 +29444,7 @@ min_phrase_weight: 100
 有名	jau5 meng2
 有面	jau5 min2
 有毛有翼	jau5 mou4 jau5 jik6
-有冇	jau5 mou5
+有冇	jau5 mou5	100
 有冇搞錯	jau5 mou5 gaau2 co3
 有目共睹	jau5 muk6 gung6 dou2
 有難	jau5 naan6
@@ -29551,7 +29562,7 @@ min_phrase_weight: 100
 移動	ji4 dung6
 疑犯	ji4 faan2
 疑匪	ji4 fei2
-而家	ji4 gaa1
+而家	ji4 gaa1	100%
 移居	ji4 geoi1
 兒歌	ji4 go1
 兒戲	ji4 hei1
@@ -31364,6 +31375,7 @@ min_phrase_weight: 100
 問答	man6 daap3
 問鼎	man6 ding2
 問非所答	man6 fei1 so2 daap3
+問下	man6 haa5
 問候	man6 hau6
 問號	man6 hou2
 問號	man6 hou6
@@ -32178,6 +32190,7 @@ min_phrase_weight: 100
 俄羅斯	ngo4 lo4 si1
 鵝掌	ngo4 zoeng2
 我哋	ngo5 dei6
+我點知	ngo5 dim2 zi1
 我都	ngo5 dou1
 我都覺	ngo5 dou1 gok3
 我都話	ngo5 dou1 waa6
@@ -32397,7 +32410,6 @@ min_phrase_weight: 100
 奧祕	ou3 bei3
 奧地利	ou3 dei6 lei6
 懊悔	ou3 fui3
-數據	ou3 geoi3
 奧林匹克	ou3 lam4 pat1 hak1
 澳門	ou3 mun2
 澳門	ou3 mun4
@@ -34203,6 +34215,7 @@ min_phrase_weight: 100
 掃貨	sou3 fo3
 掃街	sou3 gaai1
 塑膠	sou3 gaau1
+數據	sou3 geoi3
 數口	sou3 hau2
 數學	sou3 hok6
 塑料	sou3 liu2
@@ -34972,7 +34985,9 @@ min_phrase_weight: 100
 話唔定	waa6 m4 ding6
 話明	waa6 ming4
 話你	waa6 nei5
+話你知	waa6 nei5 zi1
 話我	waa6 ngo5
+話我知	waa6 ngo5 zi1
 畫屏	waa6 ping4
 話晒	waa6 saai3
 華山	waa6 saan1
@@ -35635,6 +35650,8 @@ min_phrase_weight: 100
 就地	zau6 dei6
 就讀	zau6 duk6
 就快	zau6 faai3
+就噉	zau6 gam2
+就咁	zau6 gam3
 就係	zau6 hai6
 袖口	zau6 hau2
 袖口鈕	zau6 hau2 nau2
@@ -36580,10 +36597,11 @@ min_phrase_weight: 100
 重點	zung6 dim2
 重任	zung6 jam6
 重有	zung6 jau5
-仲有	zung6 jau5
+仲有	zung6 jau5	100%
+仲要	zung6 jiu3	100%
 重要	zung6 jiu3
-仲要	zung6 jiu3
 仲未	zung6 mei6
+仲想	zung6 soeng2
 重男輕女	zung6 naam4 hing1 neoi5
 重心	zung6 sam1
 重視	zung6 si6
