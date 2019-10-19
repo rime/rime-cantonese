@@ -2351,7 +2351,7 @@ min_phrase_weight: 100
 𥪕	cin1
 𦒘	cin1
 𦭛	cin1
-瓩	cin1 ngaa5
+瓩	cin1
 㢟	cin2
 䤔	cin2
 嘽	cin2
@@ -9531,7 +9531,7 @@ min_phrase_weight: 100
 研	jin6
 硯	jin6
 莧	jin6
-見	jin6
+見	jin6	0%
 諺	jin6
 讞	jin6
 鋧	jin6
@@ -14535,6 +14535,7 @@ min_phrase_weight: 100
 芽	ngaa4
 蚜	ngaa4
 衙	ngaa4
+瓩	ngaa5
 㧚	ngaa5
 㼘	ngaa5
 㿿	ngaa5
@@ -36582,9 +36583,11 @@ min_phrase_weight: 100
 仲有	zung6 jau5
 重要	zung6 jiu3
 仲要	zung6 jiu3
+仲未	zung6 mei6
 重男輕女	zung6 naam4 hing1 neoi5
 重心	zung6 sam1
 重視	zung6 si6
+仲算	zung6 syun3
 仲會	zung6 wui3
 豬八戒	zyu1 baat3 gaai3
 珠寶	zyu1 bou2
