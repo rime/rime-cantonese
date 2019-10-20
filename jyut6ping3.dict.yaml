@@ -722,6 +722,7 @@ min_phrase_weight: 100
 窉	beng3
 病	beng6
 癟	bet6	0%
+坺	bet6	5%
 㨽	bik1
 㱸	bik1
 㷶	bik1
@@ -15197,7 +15198,6 @@ min_phrase_weight: 100
 曩	nong5
 灢	nong5
 襠	nong6
-襠	nong6
 𧟘	nong6
 齉	nong6
 㚢	nou4
@@ -15706,6 +15706,8 @@ min_phrase_weight: 100
 呯	peng4
 平	peng4
 瓶	peng4
+噼	pet1
+坺	pet6	10%
 䑀	pik1
 䤨	pik1
 䴙	pik1
