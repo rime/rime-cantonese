@@ -7167,7 +7167,7 @@ min_phrase_weight: 100
 狷	gyun1
 琄	gyun1
 蠲	gyun1
-身	gyun1
+身	gyun1	0%
 鞙	gyun1
 鵑	gyun1
 㢧	gyun2
@@ -7516,7 +7516,7 @@ min_phrase_weight: 100
 檕	hai6
 盻	hai6
 禊	hai6
-系	hai6
+系	hai6	5%
 繫	hai6
 㦦	hak1
 㮺	hak1
@@ -7842,7 +7842,7 @@ min_phrase_weight: 100
 娸	hei1
 媐	hei1
 嬉	hei1
-屎	hei1
+屎	hei1	0%
 巇	hei1
 希	hei1
 悕	hei1
@@ -16156,8 +16156,9 @@ min_phrase_weight: 100
 䧘	saai3
 哂	saai3
 晒	saai3
+嗮	saai3
 曬	saai3
-殺	saai3
+殺	saai3	0%
 𤿂	saai4
 䑛	saai5
 舐	saai5
@@ -21026,7 +21027,7 @@ min_phrase_weight: 100
 謝	ze6
 唧	zek1
 㔌	zek3
-只	zek3
+只	zek3	0%
 摭	zek3
 擿	zek3
 炙	zek3
@@ -35661,6 +35662,7 @@ min_phrase_weight: 100
 就嚟	zau6 lei4
 就是	zau6 si6
 就算	zau6 syun3
+就知	zau6 zi1
 袖子	zau6 zi2
 遮擋	ze1 dong2
 遮蓋	ze1 koi3
