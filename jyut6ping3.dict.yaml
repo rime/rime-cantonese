@@ -28,7 +28,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.18"
+version: "2019.10.20"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -250,9 +250,9 @@ min_phrase_weight: 100
 鶯	ang1
 㾘	ang2
 哽	ang2
-噏	ap1
-悒	ap1
 罯	ap1
+搕	ap1
+罨	ap1
 扤	at1
 掗	at1
 㕈	at3
@@ -10821,6 +10821,7 @@ min_phrase_weight: 100
 揵	kin4
 虔	kin4
 鰬	kin4
+犍	kin4	5%
 傾	king1
 㩩	king2
 䔛	king2
@@ -11903,7 +11904,6 @@ min_phrase_weight: 100
 䧉	lei5
 俚	lei5
 哩	lei5
-妳	lei5
 娌	lei5
 履	lei5
 峛	lei5
@@ -14275,7 +14275,7 @@ min_phrase_weight: 100
 鈉	naap6
 魶	naap6
 𠺶	naap6
-捺	naat3
+焫	naat3
 捺	naat6
 孬	naau1
 㚼	naau2
@@ -14777,6 +14777,7 @@ min_phrase_weight: 100
 𬒔	ngang2
 㟁	ngang6
 䤝	ngang6
+噏	ngap1
 岌	ngap6
 砐	ngap6
 扤	ngat1
@@ -15613,6 +15614,7 @@ min_phrase_weight: 100
 髬	pei1
 魾	pei1
 𠜱	pei1
+狓	pei1
 䚰	pei2
 䚹	pei2
 䤏	pei2
@@ -19248,6 +19250,7 @@ min_phrase_weight: 100
 頑	waan4
 鬟	waan4
 𡦃	waan4
+䴉	waan4
 䦾	waan5
 挽	waan5
 輓	waan5
@@ -23858,6 +23861,8 @@ min_phrase_weight: 100
 播種	bo3 zung2
 㩧㩧聲	bok1 bok1 seng1
 卜卜聲	bok1 bok1 seng1
+㩧㩧齋	bok1 bok1 zaai1
+卜卜齋	bok1 bok1 zaai1
 博彩	bok3 coi2
 搏鬥	bok3 dau3
 博覽	bok3 laam5
@@ -24138,6 +24143,9 @@ min_phrase_weight: 100
 撐檯腳	caang3 toi2 goek3
 𨅝檯腳	caang3 toi2 goek3
 牚檯腳	caang3 toi2 goek3
+𥋇眼	caang3 ngaan5
+𥋇唔開眼	caang3 m4 hoi1 ngaan5
+𥋇大隻眼	caang3 daai6 zek3 ngaan5
 插秧	caap3 joeng1
 插蘇	caap3 sou1
 插蘇頭	caap3 sou1 tau2
@@ -25138,8 +25146,12 @@ min_phrase_weight: 100
 大街小巷	daai6 gaai1 siu2 hong6
 大減價	daai6 gaam2 gaa3
 大吉大利	daai6 gat1 daai6 lei6
+大吉利市	daai6 gat1 lai6 si6
 大吉利是	daai6 gat1 lai6 si6
+大吉利事	daai6 gat1 lai6 si6
+大吉利市	daai6 gat1 lei6 si6
 大吉利是	daai6 gat1 lei6 si6
+大吉利事	daai6 gat1 lei6 si6
 大嚿	daai6 gau6
 大驚小怪	daai6 geng1 siu2 gwaai3
 大舉	daai6 geoi2
@@ -25457,9 +25469,19 @@ min_phrase_weight: 100
 鬥志	dau3 zi3
 豆腐	dau6 fu6
 豆腐花	dau6 fu6 faa1
+𢭃利市	dau6 lai6 si6
+𢭃利是	dau6 lai6 si6
+𢭃利事	dau6 lai6 si6
+逗利市	dau6 lai6 si6
 逗利是	dau6 lai6 si6
+逗利事	dau6 lai6 si6
 逗留	dau6 lau4
+𢭃利市	dau6 lei6 si6
+𢭃利是	dau6 lei6 si6
+𢭃利事	dau6 lei6 si6
+逗利市	dau6 lei6 si6
 逗利是	dau6 lei6 si6
+逗利事	dau6 lei6 si6
 豆靚	dau6 leng1
 豆泥	dau6 nai4
 豆豉	dau6 si6
@@ -26068,7 +26090,7 @@ min_phrase_weight: 100
 飯碗	faan6 wun2
 犯罪	faan6 zeoi6
 飯焦	faan6 ziu1
-發噏風	faat3 ap1 fung1
+發噏風	faat3 ngap1 fung1
 發畀	faat3 bei2
 發表	faat3 biu2
 發布	faat3 bou3
@@ -27039,8 +27061,12 @@ min_phrase_weight: 100
 撳錢	gam6 cin2
 撳機	gam6 gei1
 撳𨋢	gam6 lip1
+撳鐘	gam6 zung1
+撳住頭	gam6 zyu6 tau4
 撳住嚟搶	gam6 zyu6 lai4 coeng2
+撳住來搶	gam6 zyu6 lai4 coeng2
 撳住嚟搶	gam6 zyu6 lei4 coeng2
+撳住來搶	gam6 zyu6 lei4 coeng2
 根本	gan1 bun2
 跟隨	gan1 ceoi4
 跟前	gan1 cin4
@@ -27885,6 +27911,8 @@ min_phrase_weight: 100
 躀低	gwaan3 dai1
 刮目相看	gwaat3 muk6 soeng1 hon1
 龜蛋	gwai1 daan2
+龜茲	kau1 ci4
+龜茲	gau1 ci4
 歸化	gwai1 faa3
 歸來	gwai1 loi4
 歸納	gwai1 naap6
@@ -29646,6 +29674,8 @@ min_phrase_weight: 100
 逆轉	jik6 zyun2
 逆轉	jik6 zyun3
 淹沒	jim1 mut6
+㤿憸	jim1 zim1
+腌臜	jim1 zim1
 奄尖	jim1 zim1
 掩蓋	jim2 koi3
 淹沒	jim2 mut6
@@ -30354,6 +30384,8 @@ min_phrase_weight: 100
 拒絕	keoi5 zyut6
 乾坤	kin4 kwan1
 虔誠	kin4 sing4
+犍爲	kin4 wai4
+犍爲縣	kin4 wai4 jyun6
 傾斜	king1 ce4
 傾得埋	king1 dak1 maai4
 傾掂	king1 dim6
@@ -30571,6 +30603,9 @@ min_phrase_weight: 100
 立即	laap6 zik1
 立足	laap6 zuk1
 蠟燭	laap6 zuk1
+垃雜	laap6 zaap6
+垃垃雜雜	laap6 laap6 zaap6 zaap6
+狗屎垃雜	gau2 si2 laap6 zaap6
 辣辣哋	laat6 laat2 dei2
 邋遢	laat6 taat3
 戾手	lai2 sau2
@@ -30594,8 +30629,18 @@ min_phrase_weight: 100
 例如	lai6 jyu4
 例外	lai6 ngoi6
 例牌	lai6 paai2
+利市	lai6 si6
 利是	lai6 si6
+利事	lai6 si6
+利市封	lai6 si6 fung1
 利是封	lai6 si6 fung1
+利事封	lai6 si6 fung1
+利市𢭃来	lai6 si6 dau6 loi4
+利是𢭃来	lai6 si6 dau6 loi4
+利事𢭃来	lai6 si6 dau6 loi4
+利市逗来	lai6 si6 dau6 loi4
+利是逗来	lai6 si6 dau6 loi4
+利事逗来	lai6 si6 dau6 loi4
 例湯	lai6 tong1
 荔枝	lai6 zi1
 例子	lai6 zi2
@@ -30717,10 +30762,22 @@ min_phrase_weight: 100
 利潤	lei6 jeon6
 利益	lei6 jik1
 利用	lei6 jung6
+利利市市	lei6 lei6 si6 si6
 利利是是	lei6 lei6 si6 si6
+利利事事	lei6 lei6 si6 si6
 利率	lei6 leot2
+利市	lei6 si6
 利是	lei6 si6
+利事	lei6 si6
+利市封	lei6 si6 fung1
 利是封	lei6 si6 fung1
+利事封	lei6 si6 fung1
+利市𢭃来	lei6 si6 dau6 loi4
+利是𢭃来	lei6 si6 dau6 loi4
+利事𢭃来	lei6 si6 dau6 loi4
+利市逗来	lei6 si6 dau6 loi4
+利是逗来	lei6 si6 dau6 loi4
+利事逗来	lei6 si6 dau6 loi4
 利息	lei6 sik1
 叻唔切	lek1 m4 cit3
 叻女	lek1 neoi2
@@ -30894,6 +30951,7 @@ min_phrase_weight: 100
 籮柚	lo1 jau2
 囉嗦	lo1 so1
 籮噼	lo1 pet1
+𦣇噼	lo1 pet1
 攞錢	lo2 cin2
 攞苦嚟辛	lo2 fu2 lai4 san1
 攞苦嚟辛	lo2 fu2 lei4 san1
@@ -30909,6 +30967,7 @@ min_phrase_weight: 100
 攞命	lo2 meng6
 攞相	lo2 soeng2
 裸體	lo2 tai2
+𤓓味	lo3 mei6
 蘿蔔	lo4 baak6
 蘿蔔頭	lo4 baak6 tau4
 邏輯	lo4 cap1
@@ -30999,8 +31058,9 @@ min_phrase_weight: 100
 落湯雞	lok6 tong1 gai1
 落堂	lok6 tong4
 狼戾	long1 lai2
-哴口	long2 hau2
-哴口盅	long2 hau2 zung1
+𠺘口	long2 hau2
+𠺘口盅	long2 hau2 zung1
+𠺘過	long2 gwo3
 狼狽	long4 bui3
 郎才女貌	long4 coi4 neoi5 maau6
 狼狗	long4 gau2
@@ -31139,8 +31199,8 @@ min_phrase_weight: 100
 籠子	lung4 zi2
 隆重	lung4 zung6
 籠統	lung5 tung2
-亂噏	lyun2 ap1
-亂噏廿四	lyun2 ap1 jaa6 sei3
+亂噏	lyun2 ngap1
+亂噏廿四	lyun2 ngap1 jaa6 sei3
 戀人	lyun2 jan4
 亂嚟	lyun2 lai4
 亂籠	lyun2 lung4
@@ -31155,9 +31215,10 @@ min_phrase_weight: 100
 聯盟	lyun4 mang4
 聯網	lyun4 mong5
 聯想	lyun4 soeng2
-亂噏	lyun6 ap1
-亂噏廿四	lyun6 ap1 jaa6 sei3
+亂噏	lyun6 ngap1
+亂噏廿四	lyun6 ngap1 jaa6 sei3
 亂嚟	lyun6 lai4
+亂來	lyun6 lai4
 亂晒龍	lyun6 saai3 lung4
 捋高	lyut3 gou1
 捋高	lyut6 gou1
@@ -31188,6 +31249,10 @@ min_phrase_weight: 100
 唔使旨意	m4 sai2 zi2 ji3
 唔湯唔水	m4 tong1 m4 seoi2
 唔通	m4 tung1
+唔制	m4 zai3
+唔䎺	m4 zai3
+唔制得過	m4 zai3 dak1 gwo3
+唔䎺得過	m4 zai3 dak1 gwo3
 唔知	m4 zi1
 唔知醜	m4 zi1 cau2
 唔止	m4 zi2
@@ -31255,7 +31320,12 @@ min_phrase_weight: 100
 邁進	maai6 zeon3
 賣座	maai6 zo6
 擘大口	maak3 daai6 hau2
+摱雞	maan1 gai1
+𢺳雞	maan1 gai1
 摱車邊	maan1 ce1 bin1
+𢺳車邊	maan1 ce1 bin1
+摱唔返	maan1 m4 faan1
+𢺳唔返	maan1 m4 faan1
 繃繃緊	maan1 maan1 gan2
 饅頭	maan4 tau4
 晚報	maan5 bou3
@@ -31385,6 +31455,8 @@ min_phrase_weight: 100
 問題	man6 tai4
 掹耳仔	mang1 ji5 zai2
 掹衫尾	mang1 saam1 mei5
+𤷪𤺧	mang2 zang2
+䒐䒏	mang2 zang2
 忟憎	mang2 zang2
 掹衫尾	mang3 saam1 mei5
 萌芽	mang4 ngaa4
@@ -32130,6 +32202,9 @@ min_phrase_weight: 100
 硬件	ngaang6 gin2
 硬係	ngaang6 hai6
 硬盤	ngaang6 pun2
+𢯎頭	ngaau1 tau4
+𢯎痕	ngaau1 han4
+𢯎嗮頭	ngaau1 saai3 tau4
 咬牙	ngaau5 ngaa4
 危急	ngai4 gap1
 危機	ngai4 gei1
@@ -32429,8 +32504,12 @@ min_phrase_weight: 100
 派出所	paai3 ceot1 so2
 派對	paai3 deoi3
 派遣	paai3 hin2
+派利市	paai3 lai6 si6
 派利是	paai3 lai6 si6
+派利事	paai3 lai6 si6
+派利市	paai3 lei6 si6
 派利是	paai3 lei6 si6
+派利事	paai3 lei6 si6
 派信	paai3 seon3
 派糖	paai3 tong2
 派位	paai3 wai2
@@ -33103,8 +33182,10 @@ min_phrase_weight: 100
 溼度	sap1 dou6
 溼潤	sap1 jeon6
 溼熱	sap1 jit6
-溼立立	sap1 nap6 nap6
+溼湆湆	sap1 nap6 nap6
+溼𣲷𣲷	sap1 nap6 nap6
 溼碎	sap1 seoi3
+溼滯	sap1 zai6
 十分	sap6 fan1
 十五十六	sap6 ng5 sap6 luk6
 十字車	sap6 zi6 ce1
@@ -35416,6 +35497,15 @@ min_phrase_weight: 100
 斬料	zaam2 liu2
 嶄露頭角	zaam2 lou6 tau4 gok3
 眨眼	zaam2 ngaan5
+䁪眼	zaam2 ngaan5
+眨下	zaam2 haa5
+䁪下	zaam2 haa5
+眨下眼	zaam2 haa5 ngaan5
+䁪下眼	zaam2 haa5 ngaan5
+眨下眼就	zaam2 haa5 ngaan5 zau6
+䁪下眼就	zaam2 haa5 ngaan5 zau6
+眨眉眨眼	zaam2 mei4 zaam2 ngaan5
+䁪眉䁪眼	zaam2 mei4 zaam2 ngaan5
 嶄新	zaam2 san1
 斬頭	zaam2 tau2
 嶄新	zaam3 san1
@@ -35481,6 +35571,9 @@ min_phrase_weight: 100
 制度	zai3 dou6
 制服	zai3 fuk6
 制唔過	zai3 m4 gwo3
+䎺唔過	zai3 m4 gwo3
+制得過	zai3 dak1 gwo3
+䎺得過	zai3 dak1 gwo3
 濟南	zai3 naam4
 制水	zai3 seoi2
 制止	zai3 zi2
@@ -36758,7 +36851,91 @@ min_phrase_weight: 100
 絕望	zyut6 mong6
 絕世	zyut6 sai3
 絕色	zyut6 sik1
-𢯎頭	ngaau1 tau4
-𢯎嗮頭	ngaau1 saai3 tau4
+吖嘛	aa1 maa3
+啊嘛	aa1 maa3
+腌臜	ap1 zap1
+醃臜	ap1 zap1
+𢳂水	bat1 seoi2
+𢳂湯	bat1 tong1
+𢳂飯	bat1 faan6
+𢳂垃圾	bat1 laap6 saap3
+鋤大弟	co4 daai6 di2
+𢱕溼	dap6 sap1
+𢱕實	dap6 sat6
+𢱕懵	dap6 mung1
+𢱕鐵	dap6 tit3
+𢱕瓜	dap6 gwaa1
+𢱕跤	dap6 gaau1
+𢱕一拳	dap6 jat1 kyun4
+𢱕金龜	dap6 gam1 gwai1
+𢱕骨	dap6 gwat1
+𢱕骨場	dap6 gwat1 coeng4
+𢱕骨妹	dap6 gwat1 mui1
+𢴈低	daat3 dai1
+𢴈傷	daat3 soeng1
+𢴈死	daat3 sei2
+𢴈生魚	daat3 saang1 jyu4
+𢴈落	daat3 lok6
+𢴈落嚟	daat3 lok6 lai4
+𢴈落來	daat3 lok6 lai4
+𢴈落地	daat3 lok6 dei6
+𢴈落牀	daat3 lok6 cong4
+𢴈親	daat3 can1
+𢴈餐死	daat3 caan1 sei2
+鐸叔	dok6 suk1
+度叔	dok6 suk1
+㨃鬼	deoi2 gwai2
+㗎咋	gaa3 zaa3
+㗎咋	gaa3 zaa4
+㗎啦	gaa3 laa3
+㗎啦	gaa3 laa4
+㗎喇	gaa3 laa3
+㗎喇	gaa3 laa4
+㗎話	gaa3 waa2
+𥄫住	gap6 zyu6
+𥄫住佢	gap6 zyu6 keoi5
+㗾哆	heoi4 doe1
+㗾㗾聲	heoi4 heoi4 seng1
+㗾㗾聲	heoi4 heoi2 seng1
+㷫烚烚	hing3 hap6 hap6
+㷫過火屎	hing3 gwo3 fo2 si2
+㷫過焫雞	hing3 gwo3 naat3 gai1
 𠽤嚦𡃈嘞	kik1 lik1 kaak1 laak1
 㨴起	kin2 hei2
+搴起	kin2 hei2
+𦧲地	loe2 dei6
+𦧲地	loe2 dei2
+𦧲脷	loe2 lei6
+𦧲飯應	loe1 faan6 jing3
+𦧺嘴唇	laai2 zeoi2 seon4
+擸擸炩	laap3 laap3 ling3
+𠴕嘴	miu2 zeoi2
+𠴕𠴕嘴	miu2 miu2 zeoi2
+𠵼雞	mang1 gai1
+𠸎埋	naa1 maai4
+𪐀埋	naa1 maai4
+𠸎耕	naa1 gaang1
+𪐀耕	naa1 gaang1
+𨂾光黑	naam3 gwong1 haak1
+𠼮求	ngai1 kau4
+𠱓求	ngai1 kau4
+𣲷懦	nap6 no6
+𣲷黐黐	nap6 ci1 ci1
+䟴高	ngan3 gou1
+䟴䟴腳	ngan3 ngan3 goek3
+𩓥頭	ngok6 tau2
+𩓥高頭	ngok6 gou1 tau2
+㓟皮	pai1 pei4
+𠜱皮	pai1 pei4
+𠵿牌	pe1 paai2
+𩩍骨	peng1 gwat1
+㨘到擸擸炩	saang2 dou3 laap3 laap3 ling3
+㨘牛王	saang2 ngau4 wong4
+𤗈牙罅	sip3 ngaa4 laa3
+𨃩西瓜皮	sin3 sai1 gwaa1 pei4
+䂿䂿趯	taap3 taap3 tik1
+𧨾鬼食豆腐	tam3 gwai2 sik6 dau6 fu6
+搲子	waa2 zi2
+𠌥低	wu3 dai1
+𢫕頭	wing6 tau2
+㜺鬼	zaan2 gwai2
