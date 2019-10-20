@@ -15765,7 +15765,7 @@ min_phrase_weight: 100
 怦	ping1
 抨	ping1
 拚	ping1
-拼	ping1
+拼	ping1	5%
 淜	ping1
 甹	ping1
 砰	ping1
@@ -23860,6 +23860,10 @@ min_phrase_weight: 100
 播放	bo3 fong3
 播映	bo3 jing2
 播種	bo3 zung2
+㩧溼	bok1 sap1
+㩧親	bok1 can1
+㩧落去	bok1 lok6 heoi3
+㩧落來	bok1 lok6 lai4
 㩧㩧聲	bok1 bok1 seng1
 卜卜聲	bok1 bok1 seng1
 㩧㩧齋	bok1 bok1 zaai1
