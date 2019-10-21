@@ -28310,7 +28310,7 @@ min_phrase_weight: 100
 係想	hai6 soeng2
 系統	hai6 tung2
 係喎	hai6 wo3
-係會	hai6 wui3
+係會	hai6 wui5
 黑暗	hak1 am3
 黑白	hak1 baak6
 黑板	hak1 baan2
@@ -29309,7 +29309,7 @@ min_phrase_weight: 100
 一來	jat1 loi4
 一勞永逸	jat1 lou4 wing5 jat6
 一路	jat1 lou6
-一唔係	jat m4 hai
+一唔係	jat m4 hai6
 一貌堂堂	jat1 maau6 tong4 tong4
 一味	jat1 mei2
 一面	jat1 min6
@@ -32077,16 +32077,17 @@ min_phrase_weight: 100
 扭轉	nau2 zyun2
 扭轉	nau2 zyun3
 嬲嬲哋	nau5 nau5 dei2
-呢班	ne1 baan
+呢班	nei1 baan1
 呢邊	nei1 bin1
-呢本	ne1 bun2
+呢便	nei1 bin6
+呢本	nei1 bun2
 呢層	nei1 cang4
 呢啲	nei1 di1
 呢啲人	nei1 di1 jan4
 呢啲事	nei1 di1 si6
 呢點	nei1 dim2
 呢道	nei1 dou6
-呢度	nei dou6
+呢度	nei1 dou6
 呢方面	nei1 fong1 min6
 呢件事	nei1 gin6 si6
 呢個	nei1 go3
@@ -35454,7 +35455,6 @@ min_phrase_weight: 100
 戶主	wu6 zyu2
 會場	wui2 coeng4
 會員	wui2 jyun4
-會唔會	wui3 m4 wui3
 回程	wui4 cing4
 回答	wui4 daap3
 回到	wui4 dou3
@@ -35482,6 +35482,7 @@ min_phrase_weight: 100
 回想	wui4 soeng2
 回頭	wui4 tau4
 回族	wui4 zuk6
+會唔會	wui5 m4 wui5
 會稽	wui5 kai1
 匯報	wui6 bou3
 會計	wui6 gai3
@@ -35861,6 +35862,7 @@ min_phrase_weight: 100
 最初	zeoi3 co1
 最近	zeoi3 gan6
 最後	zeoi3 hau6
+最屘	zeoi3 mei1
 最尾	zeoi3 mei1
 醉酒鬼	zeoi3 zau2 gwai2
 最終	zeoi3 zung1
@@ -36748,7 +36750,7 @@ min_phrase_weight: 100
 重心	zung6 sam1
 重視	zung6 si6
 仲算	zung6 syun3
-仲會	zung6 wui3
+仲會	zung6 wui5
 豬八戒	zyu1 baat3 gaai3
 珠寶	zyu1 bou2
 豬腸粉	zyu1 coeng4 fan2
