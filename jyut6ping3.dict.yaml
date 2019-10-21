@@ -28,7 +28,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.10.20"
+version: "2019.10.21"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -306,7 +306,7 @@ min_phrase_weight: 100
 䰾	baa1
 䶕	baa1
 叭	baa1
-吧	baa1
+吧	baa1	5%
 峇	baa1
 巴	baa1
 爸	baa1
@@ -23729,7 +23729,7 @@ min_phrase_weight: 100
 病症	beng6 zing3
 啤啤	bi4 bi1
 啤啤車	bi4 bi1 ce1
-啤啤床	bi4 bi1 cong4
+啤啤牀	bi4 bi1 cong4
 啤啤女	bi4 bi1 neoi2
 啤啤仔	bi4 bi1 zai2
 逼迫	bik1 baak1
@@ -24443,6 +24443,7 @@ min_phrase_weight: 100
 出於	ceot1 jyu1
 出院	ceot1 jyun2
 出奇	ceot1 kei4
+出來	ceot1 lai4
 出嚟	ceot1 lai4
 出嚟	ceot1 lei4
 出力	ceot1 lik6
@@ -24859,12 +24860,10 @@ min_phrase_weight: 100
 創作	cong3 zok3
 創造	cong3 zou6
 牀板	cong4 baan2
-床單	cong4 daan1
 牀單	cong4 daan1
-床下底	cong4 haa6 dai2
-床褥	cong4 juk2
+牀下底	cong4 haa6 dai2
 牀褥	cong4 juk2
-床笠	cong4 lap1
+牀笠	cong4 lap1
 牀位	cong4 wai6
 粗暴	cou1 bou6
 操場	cou1 coeng4
@@ -24939,7 +24938,7 @@ min_phrase_weight: 100
 匆忙	cung1 mong4
 充滿	cung1 mun5
 充沛	cung1 pui3
-充生晒	cung1 saang1 saai3
+充生嗮	cung1 saang1 saai3
 沖洗	cung1 sai2
 衷心	cung1 sam1
 充實	cung1 sat6
@@ -25109,6 +25108,7 @@ min_phrase_weight: 100
 打算	daa2 syun3
 打呔	daa2 taai1
 打聽	daa2 ting3
+打横來講	daa2 waang4 lai4 gong2
 打横嚟講	daa2 waang4 lai4 gong2
 打横嚟講	daa2 waang4 lei4 gong2
 打針	daa2 zam1
@@ -25321,7 +25321,7 @@ min_phrase_weight: 100
 誕生	daan3 sang1
 蛋糕	daan6 gou1
 彈弓	daan6 gung1
-彈弓床	daan6 gung1 cong4
+彈弓牀	daan6 gung1 cong4
 蛋卷	daan6 gyun2
 但係	daan6 hai6
 彈藥	daan6 joek6
@@ -26040,10 +26040,10 @@ min_phrase_weight: 100
 番茄	faan1 ke2
 蕃茄	faan1 ke2
 蕃茄醬	faan1 ke2 zoeng3
-返嚟	faan1 lai4
 返來	faan1 lai4
-返嚟	faan1 lei4
+返嚟	faan1 lai4
 返來	faan1 lei4
+返嚟	faan1 lei4
 返來	faan1 loi4
 翻生	faan1 saang1
 翻身	faan1 san1
@@ -26331,7 +26331,7 @@ min_phrase_weight: 100
 非禮	fei1 lai5
 菲林	fei1 lam2
 菲律賓	fei1 leot6 ban1
-飛來峰	fei1 loi4 fung1
+飛來峯	fei1 loi4 fung1
 非賣品	fei1 maai6 ban2
 緋聞	fei1 man4
 飛舞	fei1 mou5
@@ -27082,10 +27082,10 @@ min_phrase_weight: 100
 撳𨋢	gam6 lip1
 撳鐘	gam6 zung1
 撳住頭	gam6 zyu6 tau4
-撳住嚟搶	gam6 zyu6 lai4 coeng2
 撳住來搶	gam6 zyu6 lai4 coeng2
-撳住嚟搶	gam6 zyu6 lei4 coeng2
+撳住嚟搶	gam6 zyu6 lai4 coeng2
 撳住來搶	gam6 zyu6 lei4 coeng2
+撳住嚟搶	gam6 zyu6 lei4 coeng2
 根本	gan1 bun2
 跟隨	gan1 ceoi4
 跟前	gan1 cin4
@@ -27114,6 +27114,7 @@ min_phrase_weight: 100
 近郊	gan6 gaau1
 近日	gan6 jat6
 近期	gan6 kei4
+近來	gan6 lai4
 近嚟	gan6 lai4
 近嚟	gan6 lei4
 近來	gan6 loi2
@@ -28033,10 +28034,12 @@ min_phrase_weight: 100
 過期	gwo3 kei4
 過橋	gwo3 kiu2
 過橋	gwo3 kiu4
+過來	gwo3 lai4
 過嚟	gwo3 lai4
 過嚟	gwo3 lei4
 過濾	gwo3 leoi6
 過來	gwo3 loi4
+過來	gwo3 lai4
 過問	gwo3 man6
 過門	gwo3 mun4
 過門都係客	gwo3 mun4 dou1 hai6 haak3
@@ -28105,6 +28108,7 @@ min_phrase_weight: 100
 廣州	gwong2 zau1
 捐錢	gyun1 cin2
 捐款	gyun1 fun2
+蜎窿蜎罅	gyun1 lung1 gyun1 laa3
 狷窿狷罅	gyun1 lung1 gyun1 laa3
 捐贈	gyun1 zang6
 身毒	gyun1 duk1
@@ -28238,6 +28242,7 @@ min_phrase_weight: 100
 行行企企	haang4 haang4 kei5 kei5
 行開	haang4 hoi1
 行開行埋	haang4 hoi1 haang4 maai4
+行來行去	haang4 lai4 haang4 heoi3
 行嚟行去	haang4 lai4 haang4 heoi3
 行禮	haang4 lai5
 行嚟行去	haang4 lei4 haang4 heoi3
@@ -28462,6 +28467,7 @@ min_phrase_weight: 100
 後人	hau6 jan4
 後日	hau6 jat6
 後裔	hau6 jeoi6
+後來	hau6 lai4
 後嚟	hau6 lai4
 後嚟	hau6 lei4
 後來	hau6 loi4
@@ -28885,7 +28891,7 @@ min_phrase_weight: 100
 匡衡	hong1 hang4
 康樂	hong1 lok6
 巷仔	hong2 zai2
-炕麵包	hong3 min6 baau1
+炕麪包	hong3 min6 baau1
 行情	hong4 cing4
 行家	hong4 gaa1
 航機	hong4 gei1
@@ -28989,7 +28995,7 @@ min_phrase_weight: 100
 匈牙利	hung1 ngaa4 lei6
 兇惡	hung1 ok3
 空心	hung1 sam1
-凶神惡煞	hung1 san4 ok3 saat3
+兇神惡煞	hung1 san4 ok3 saat3
 兇手	hung1 sau2
 空想	hung1 soeng2
 空調	hung1 tiu4
@@ -29644,6 +29650,7 @@ min_phrase_weight: 100
 以後	ji5 hau6
 議員	ji5 jyun4
 以及	ji5 kap6
+以來	ji5 lai4
 以嚟	ji5 lai4
 以嚟	ji5 lei4
 議論	ji5 leon6
@@ -30980,15 +30987,18 @@ min_phrase_weight: 100
 籮噼	lo1 pet1
 𦣇噼	lo1 pet1
 攞錢	lo2 cin2
+攞苦來辛	lo2 fu2 lai4 san1
 攞苦嚟辛	lo2 fu2 lai4 san1
 攞苦嚟辛	lo2 fu2 lei4 san1
 攞假	lo2 gaa3
 攞景	lo2 ging2
 攞意頭	lo2 ji3 tau4
 攞藥	lo2 joek6
+攞來講	lo2 lai4 gong2
 攞嚟講	lo2 lai4 gong2
-攞嚟衰	lo2 lai4 seoi1
 攞嚟講	lo2 lei4 gong2
+攞來衰	lo2 lai4 seoi1
+攞嚟衰	lo2 lai4 seoi1
 攞嚟衰	lo2 lei4 seoi1
 裸露	lo2 lou6
 攞命	lo2 meng6
@@ -31003,6 +31013,7 @@ min_phrase_weight: 100
 羅馬	lo4 maa5
 羅馬尼亞	lo4 maa5 nei4 aa3
 羅盤	lo4 pun4
+羅經	lo4 gaang1
 螺絲	lo4 si1
 螺絲批	lo4 si1 pai1
 羅宋湯	lo4 sung3 tong1
@@ -31069,12 +31080,13 @@ min_phrase_weight: 100
 洛陽	lok6 joeng4
 落雨	lok6 jyu5
 樂園	lok6 jyun4
+落來	lok6 lai4
 落嚟	lok6 lai4
-落樓	lok6 lau2
 落嚟	lok6 lei4
+落樓	lok6 lau2
 落力	lok6 lik6
 落柯打	lok6 o1 daa2
-落晒形	lok6 saai3 jing4
+落嗮形	lok6 saai3 jing4
 落實	lok6 sat6
 落手	lok6 sau2
 樂事	lok6 si6
@@ -31099,7 +31111,7 @@ min_phrase_weight: 100
 浪漫	long6 maan6
 晾衫	long6 saam1
 撈飯	lou1 faan6
-撈麵	lou1 min6
+撈麪	lou1 min6
 撈檬	lou1 mung1
 撈女	lou1 neoi2
 撈世界	lou1 sai3 gaai3
@@ -31207,7 +31219,7 @@ min_phrase_weight: 100
 六壬	luk6 jam4
 綠葉	luk6 jip6
 綠卡	luk6 kaa1
-淥麵	luk6 min6
+淥麪	luk6 min6
 綠帽	luk6 mou2
 六藝	luk6 ngai6
 綠色	luk6 sik1
@@ -31229,6 +31241,7 @@ min_phrase_weight: 100
 亂噏	lyun2 ngap1
 亂噏廿四	lyun2 ngap1 jaa6 sei3
 戀人	lyun2 jan4
+亂來	lyun2 lai4
 亂嚟	lyun2 lai4
 亂籠	lyun2 lung4
 戀愛	lyun2 oi3
@@ -31244,9 +31257,9 @@ min_phrase_weight: 100
 聯想	lyun4 soeng2
 亂噏	lyun6 ngap1
 亂噏廿四	lyun6 ngap1 jaa6 sei3
-亂嚟	lyun6 lai4
 亂來	lyun6 lai4
-亂晒龍	lyun6 saai3 lung4
+亂嚟	lyun6 lai4
+亂嗮龍	lyun6 saai3 lung4
 捋高	lyut3 gou1
 捋高	lyut6 gou1
 唔黐家	m4 ci1 gaa1
@@ -31327,6 +31340,7 @@ min_phrase_weight: 100
 埋伏	maai4 fuk6
 埋去	maai4 heoi3
 埋怨	maai4 jyun3
+埋來	maai4 lai4
 埋嚟	maai4 lai4
 埋嚟	maai4 lei4
 埋手	maai4 sau2
@@ -31343,7 +31357,7 @@ min_phrase_weight: 100
 買屋	maai5 uk1
 賣廣告	maai6 gwong2 gou3
 賣力	maai6 lik6
-賣晒	maai6 saaai3
+賣嗮	maai6 saaai3
 邁進	maai6 zeon3
 賣座	maai6 zo6
 擘大口	maak3 daai6 hau2
@@ -31601,7 +31615,7 @@ min_phrase_weight: 100
 免疫	min5 jik6
 勉強	min5 koeng5
 勉勵	min5 lai6
-麵包	min6 baau1
+麪包	min6 baau1
 面青青	min6 ceng1 ceng1
 面前	min6 cin4
 面對	min6 deoi3
@@ -31619,7 +31633,7 @@ min_phrase_weight: 100
 面面觀	min6 min6 gun1
 面目	min6 muk6
 面龐	min6 pong4
-麵豉	min6 si2
+麪豉	min6 si2
 面色	min6 sik1
 面書	min6 syu1
 麪條	min6 tiu4
@@ -31838,7 +31852,7 @@ min_phrase_weight: 100
 冇眼睇	mou5 ngaan5 tai2
 冇耐性	mou5 noi6 sing3
 無牌	mou5 paai4
-冇晒行	mou5 saai3 hong4
+冇嗮行	mou5 saai3 hong4
 冇嗮	mou5 saai3
 冇心	mou5 sam1
 冇收	mou5 sau1
@@ -32746,9 +32760,7 @@ min_phrase_weight: 100
 旁人	pong4 jan4
 傍晚	pong4 maan5
 舗牀	pou1 cong4
-舗床	pou1 cong4
 鋪牀	pou1 cong4
-鋪床	pou1 cong4
 鋪牀疊被	pou1 cong4 dip6 pei5
 鋪草皮	pou1 cou2 pei4
 甫士	pou1 si2
@@ -33816,8 +33828,8 @@ min_phrase_weight: 100
 食用	sik6 jung6
 食檸檬	sik6 ling4 mung1
 食糧	sik6 loeng4
-食唔晒	sik6 m4 saai3
-食貓麵	sik6 maau1 min6
+食唔嗮	sik6 m4 saai3
+食貓麪	sik6 maau1 min6
 食物	sik6 mat6
 食死貓	sik6 sei2 maau1
 食水	sik6 seoi2
@@ -34246,9 +34258,10 @@ min_phrase_weight: 100
 上演	soeng5 jin2
 上映	soeng5 jing2
 上契	soeng5 kai3
+上來	soeng5 lai4
 上嚟	soeng5 lai4
-上樓	soeng5 lau2
 上嚟	soeng5 lei4
+上樓	soeng5 lau2
 上螺絲	soeng5 lo4 si1
 上來	soeng5 loi4
 上落	soeng5 lok6
@@ -35099,7 +35112,7 @@ min_phrase_weight: 100
 話我	waa6 ngo5
 話我知	waa6 ngo5 zi1
 畫屏	waa6 ping4
-話晒	waa6 saai3
+話嗮	waa6 saai3
 華山	waa6 saan1
 話時話	waa6 si4 waa6
 話事	waa6 si6
@@ -35247,6 +35260,7 @@ min_phrase_weight: 100
 搵人	wan2 jan4
 搵日	wan2 jat6
 搵嘢	wan2 je5
+搵來搞	wan2 lai4 gaau2
 搵嚟搞	wan2 lai4 gaau2
 搵嚟搞	wan2 lei4 gaau2
 搵老襯	wan2 lou5 can3
@@ -35272,7 +35286,7 @@ min_phrase_weight: 100
 暈船浪	wan4 syun4 long6
 雲梯	wan4 tai1
 雲吞	wan4 tan1
-雲吞麵	wan4 tan1 min6
+雲吞麪	wan4 tan1 min6
 暈陀陀	wan4 to4 to4
 蘊藏	wan5 cong4
 蘊涵	wan5 haam4
@@ -35782,6 +35796,7 @@ min_phrase_weight: 100
 袖口鈕	zau6 hau2 nau2
 就業	zau6 jip6
 就要	zau6 jiu3
+就來	zau6 lai4
 就嚟	zau6 lai4
 就嚟	zau6 lei4
 就是	zau6 si6
@@ -36234,6 +36249,7 @@ min_phrase_weight: 100
 整色整水	zing2 sik1 zing2 seoi2
 整數	zing2 sou3
 整體	zing2 tai2
+整體來講	zing2 tai2 lai4 gong2
 整體嚟講	zing2 tai2 lai4 gong2
 整體嚟講	zing2 tai2 lei4 gong2
 整天	zing2 tin1
@@ -36289,7 +36305,7 @@ min_phrase_weight: 100
 靜英英	zing6 jing1 jing1
 剩餘	zing6 jyu4
 靜默	zing6 mak6
-淨麵	zing6 min6
+淨麪	zing6 min6
 淨色	zing6 sik1
 淨識	zing6 sik1
 靜止	zing6 zi2
@@ -36749,7 +36765,7 @@ min_phrase_weight: 100
 茱萸	zyu1 jyu4
 豬脷	zyu1 lei6
 豬嘜	zyu1 mak1
-珠穆朗瑪峰	zyu1 muk6 long5 maa5 fung1
+珠穆朗瑪峯	zyu1 muk6 long5 maa5 fung1
 豬扒	zyu1 paa2
 豬朋狗友	zyu1 pang4 gau2 jau5
 蛛絲馬跡	zyu1 si1 maa5 zik1
@@ -36909,8 +36925,9 @@ min_phrase_weight: 100
 𢴈死	daat3 sei2
 𢴈生魚	daat3 saang1 jyu4
 𢴈落	daat3 lok6
-𢴈落嚟	daat3 lok6 lai4
 𢴈落來	daat3 lok6 lai4
+𢴈落嚟	daat3 lok6 lai4
+𢴈落嚟	daat3 lok6 lei4
 𢴈落地	daat3 lok6 dei6
 𢴈落牀	daat3 lok6 cong4
 𢴈親	daat3 can1
@@ -36947,10 +36964,11 @@ min_phrase_weight: 100
 𠴕嘴	miu2 zeoi2
 𠴕𠴕嘴	miu2 miu2 zeoi2
 𠵼雞	mang1 gai1
-𠸎埋	naa1 maai4
 𪐀埋	naa1 maai4
-𠸎耕	naa1 gaang1
+𠸎埋	naa1 maai4
+𪐀經	naa1 gaang1
 𪐀耕	naa1 gaang1
+𠸎耕	naa1 gaang1
 𨂾光黑	naam3 gwong1 haak1
 𠼮求	ngai1 kau4
 𠱓求	ngai1 kau4
