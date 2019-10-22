@@ -2,9 +2,9 @@
 
 配方：℞ `sgalal/rime-cantonese`
 
-本配方爲 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
+本配方為 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
-**配方目前仲處於開發階段，歡迎 PR 或響 Issue 區反饋意見**
+**配方目前仲處於開發階段，歡迎 PR 或喺 Issue 區反饋意見**
 
 ## 拼音方案
 
@@ -13,9 +13,9 @@
 
 ## 用法
 
-| 聲調版                    | IPA版                    |
-| ------------------------- | ------------------------ |
-| ![示例1](./demo/tone.gif) | ![示例2](./demo/ipa.gif) |
+| 聲調版                     | IPA 版                    |
+| -------------------------- | ------------------------- |
+| ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
 本方案默認唔兼容任何模糊音同懶音，即區分泥來、疑影等常見懶音。
 
@@ -28,7 +28,7 @@
 5. 陽上 `xx`；如要輸入「市」則鍵入 `sixx`
 6. 陽去 `qq`；如要輸入「事」則鍵入 `siqq`
 
-撳`Ctrl`同<code>`</code>開啓方案還單後可以打開地區用字轉換功能，支援香港繁體、臺灣正體同大陆简体。
+撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 開啟方案選單後可以打開地區用字轉換功能，支援香港繁體、臺灣正體同大陆简体。
 
 ## 數據來源
 
@@ -46,4 +46,4 @@
 
 ## 詞庫製作流程
 
-本方案詞庫製作流程詳見本倉庫 [`build`](https://github.com/sgalal/rime-cantonese/tree/build)分支。
+本方案詞庫製作流程詳見本倉庫 [`build`](https://github.com/sgalal/rime-cantonese/tree/build) 分支。
