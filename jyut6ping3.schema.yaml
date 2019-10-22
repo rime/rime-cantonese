@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵拼（聲調版）
-  version: "0.1.5"
+  version: "0.1.6"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -14,10 +14,9 @@ schema:
   description: |
     採用香港語言學會粵語拼音方案
     https://www.lshk.org/jyutping
-    兼容教育學院拼音方案
-    支持聲調顯示和輸入
+    支援聲調顯示和輸入
 
-    碼表數據來源Unihan kCantonese
+    碼表數據來源 Unihan kCantonese
     參照以下資料校正：
     1. LSHK 字音表
     2. 粵音小鏡
@@ -95,18 +94,23 @@ speller:
     - derive/oe(ng|k)$/eo$1/      # 容錯
     - derive/aa$/a/               # 容錯
 
-    # 取消下兩行註釋，支持疑影不分
+    # 取消下兩行註釋，支援疑影不分
     #- derive/^ng([aeiou])/$1/
     #- derive/^([aeiou])/ng$1/
 
-    # 取消下行註釋，支持 n- 併入 l- ，如「你」讀若「理」
+    # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
     #- derive/^n/l/
     
-    # 取消下行註釋，支持 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
+    # 取消下行註釋，支援 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
     #- derive/^(g|k)w/$1/
     
-    # 取消下行註釋，支持獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
+    # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
     #- derive/^ng$/m/
+
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+
+    # 取消下行註釋，支援聲母簡拼
+    #- abbrev/^(gw|kw|ng).+$/$1/
 
 translator:
   dictionary: jyut6ping3
