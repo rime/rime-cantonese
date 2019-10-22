@@ -2,22 +2,24 @@
 
 配方：℞ `sgalal/rime-cantonese`
 
-本配方爲 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 的帶聲調及 IPA 顯示版。配方內 `jyut6ping3` 爲聲調顯示版方案，`jyut6ping3_ipa` 爲 IPA 顯示版方案。
+本配方爲 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
-**配方目前尚處開發階段，歡迎 PR 或於 Issue 區反饋意見**
+**配方目前仲處於開發階段，歡迎 PR 或響 Issue 區反饋意見**
 
 ## 拼音方案
 
 - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
 - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
 
-## 使用方法
+## 用法
 
 | 聲調版                    | IPA版                    |
 | ------------------------- | ------------------------ |
 | ![示例1](./demo/tone.gif) | ![示例2](./demo/ipa.gif) |
 
-輸入時候可以忽略聲調，若要輸入聲調，則對應鍵位爲：
+本方案默認唔兼容任何模糊音同懶音，即區分泥來、疑影等常見懶音。
+
+輸入嗰陣可以忽略聲調，如果想輸入聲調，對應鍵位係：
 
 1. 陰平 `v`；如要輸入「詩」則鍵入 `siv`
 2. 陰上 `x`；如要輸入「史」則鍵入 `six`
@@ -26,7 +28,7 @@
 5. 陽上 `xx`；如要輸入「市」則鍵入 `sixx`
 6. 陽去 `qq`；如要輸入「事」則鍵入 `siqq`
 
-可以開啓地區用字轉換功能，支援香港繁體、臺灣正體和大陆简体。
+撳`Ctrl`同<code>`</code>開啓方案還單後可以打開地區用字轉換功能，支援香港繁體、臺灣正體同大陆简体。
 
 ## 數據來源
 

@@ -88,17 +88,12 @@ speller:
     - xform/6/qq/                 # 陽去
     - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/             # 容錯 jyu -> ju
-    - derive/yu/y/                # 教院式 jyu -> jy
-    - derive/eoi$/oey/            # 教院式
+    - derive/yu/y/                # 容錯 jyu -> jy
+    - derive/eoi$/oey/            # 容錯
     - derive/eoi$/eoy/            # 容錯
-    - derive/eo/oe/               # 教院式
+    - derive/eo/oe/               # 容錯 eo/oe 不分
     - derive/oe(ng|k)$/eo$1/      # 容錯
     - derive/aa$/a/               # 容錯
-    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
-    - derive/^z/dz/               # 教院式
-    - derive/^c/ts/               # 教院式
-    - abbrev/^(dz).+$/$1/         # 聲母簡拼
-    - abbrev/^(ts).+$/$1/         # 聲母簡拼
 
     # 取消下兩行註釋，支持疑影不分
     #- derive/^ng([aeiou])/$1/
