@@ -22,13 +22,14 @@
 #
 # 碼表製作與校對人員
 # sgal <1727246457@qq.com>
+# chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
 #
 
 ---
 name: jyut6ping3
-version: "2019.10.21"
+version: "2019.10.23"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -24061,9 +24062,11 @@ min_phrase_weight: 100
 叛亂	bun6 lyun6
 叛徒	bun6 tou4
 伴奏	bun6 zau3
+鉢仔糕	but3 zai2 gou1
 缽仔糕	but3 zai2 gou1
 撥款	but6 fun2
 渤海	but6 hoi2
+鉢仔糕	but6 zai2 gou1
 缽仔糕	but6 zai2 gou1
 脖子	but6 zi2
 差不多	caa1 bat1 do1
@@ -26045,6 +26048,7 @@ min_phrase_weight: 100
 返來	faan1 lei4
 返嚟	faan1 lei4
 返來	faan1 loi4
+返生	faan1 saang1
 翻生	faan1 saang1
 翻身	faan1 san1
 番石榴	faan1 sek6 lau2
@@ -28039,7 +28043,6 @@ min_phrase_weight: 100
 過嚟	gwo3 lei4
 過濾	gwo3 leoi6
 過來	gwo3 loi4
-過來	gwo3 lai4
 過問	gwo3 man6
 過門	gwo3 mun4
 過門都係客	gwo3 mun4 dou1 hai6 haak3
@@ -28204,6 +28207,7 @@ min_phrase_weight: 100
 咸陽橋	haam4 joeng4 kiu4
 鹹魚	haam4 jyu2
 鹹魚返生	haam4 jyu2 faan1 saang1
+鹹魚翻生	haam4 jyu2 faan1 saang1
 鹹魚	haam4 jyu4
 涵蓋	haam4 koi3
 咸溼	haam4 sap1
@@ -29722,6 +29726,7 @@ min_phrase_weight: 100
 嚴密	jim4 mat6
 芫茜	jim4 sai1
 簷蛇	jim4 se2
+檐蛇	jim4 se2
 嚴肅	jim4 suk1
 嚴峻	jim4 zeon3
 嚴重	jim4 zung6
@@ -32849,6 +32854,7 @@ min_phrase_weight: 100
 沙沙滾	saa4 saa4 gwan2
 嘥嗮	saai1 saai3
 晒士	saai1 si2
+曬士	saai1 si2
 晒幸福	saai3 hang6 fuk1
 曬幸福	saai3 hang6 fuk1
 曬月光	saai3 jyut6 gwong1
@@ -33448,6 +33454,7 @@ min_phrase_weight: 100
 死火	sei2 fo2
 死咕咕	sei2 gu4 gu4
 死鬼	sei2 gwai2
+死過返生	sei2 gwo3 faan1 saang1
 死過翻生	sei2 gwo3 faan1 saang1
 死刑	sei2 jing4
 死路	sei2 lou6
@@ -35080,11 +35087,13 @@ min_phrase_weight: 100
 脫穎而出	tyut3 wing6 ji4 ceot1
 屋邨	uk1 cyun1
 屋簷	uk1 jim4
+屋檐	uk1 jim4
 屋宇	uk1 jyu5
 屋企	uk1 kei2
 屋企人	uk1 kei5 jan4
 屋企餸	uk1 kei5 sung3
 屋簷	uk1 sim4
+屋檐	uk1 sim4
 屋子	uk1 zi2
 屋租	uk1 zou1
 蕹菜	ung3 coi3
@@ -35331,6 +35340,7 @@ min_phrase_weight: 100
 屈蛇	wat1 se4
 屈質	wat1 zat1
 核突	wat6 dat6
+鶻突	wat6 dat6
 榮譽	wing4 jyu6
 榮獲	wing4 wok6
 永久	wing5 gau2
@@ -36720,6 +36730,7 @@ min_phrase_weight: 100
 總站	zung2 zaam6
 總之	zung2 zi1
 種子	zung2 zi2
+糉子	zung2 zi2
 粽子	zung2 zi2
 總值	zung2 zik6
 種族	zung2 zuk6
