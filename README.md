@@ -4,7 +4,7 @@
 
 本配方為 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
-**配方目前仲處於開發階段，歡迎 PR 或喺 Issue 區反饋意見**
+**配方目前仲處於開發階段，歡迎 PR 或響 Issue 區反饋意見**
 
 ## 拼音方案
 
