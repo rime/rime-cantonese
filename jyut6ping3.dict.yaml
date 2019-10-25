@@ -9949,7 +9949,6 @@ min_phrase_weight: 100
 壅	jung2
 恿	jung2
 擁	jung2
-涌	jung2
 湧	jung2
 滃	jung2
 甬	jung2
@@ -12400,7 +12399,7 @@ min_phrase_weight: 100
 狑	ling4
 玲	ling4
 瓴	ling4
-稜	ling4	0%
+稜	ling4
 笭	ling4
 綾	ling4
 羚	ling4
@@ -25940,6 +25939,7 @@ min_phrase_weight: 100
 冬瓜盅	dung1 gwaa1 zung1
 冬季	dung1 gwai3
 東海	dung1 hoi2
+東濠涌	dung1 hou4 cung1
 冬眠	dung1 min4
 東南亞	dung1 naam4 aa3
 東西	dung1 sai1
@@ -28992,6 +28992,7 @@ min_phrase_weight: 100
 好動	hou3 dung6
 好奇	hou3 kei4
 毫不	hou4 bat1
+蠔涌	hou4 cung1
 豪傑	hou4 git6
 蠔油	hou4 jau4
 毫米	hou4 mai5
@@ -29015,7 +29016,7 @@ min_phrase_weight: 100
 空軍	hung1 gwan1
 空閒	hung1 haan4
 空氣	hung1 hei3
-洶涌	hung1 jung2
+洶湧	hung1 jung2
 胸襟	hung1 kam1
 空隙	hung1 kwik1
 空曠	hung1 kwong3
@@ -30529,6 +30530,7 @@ min_phrase_weight: 100
 規畫	kwai1 waa2
 規則	kwai1 zak1
 攜帶	kwai4 daai3
+葵涌	kwai4 cung1
 昆明	kwan1 ming4
 滾花	kwan2 faa1
 困境	kwan3 ging2
@@ -32019,6 +32021,7 @@ min_phrase_weight: 100
 南半球	naam4 bun3 kau4
 男廁	naam4 ci3
 南昌	naam4 coeng1
+南涌	naam4 cung1
 南非	naam4 fei1
 男界	naam4 gaai3
 南極洲	naam4 gik6 zau1
@@ -32866,6 +32869,7 @@ min_phrase_weight: 100
 沙翁	saa1 jung1
 鯊魚	saa1 jyu2
 鯊魚	saa1 jyu4
+沙魚涌	saa1 jyu4 cung1
 沙律	saa1 leot2
 沙律吧	saa1 leot2 baa1
 沙律醬	saa1 leot2 zoeng3
@@ -32990,6 +32994,7 @@ min_phrase_weight: 100
 西班牙	sai1 baan1 ngaa4
 西餅	sai1 beng2
 西餐	sai1 caan1
+西涌	sai1 cung1
 西德	sai1 dak1
 西多士	sai1 do1 si2
 犀飛利	sai1 fei1 lei2
@@ -33075,6 +33080,7 @@ min_phrase_weight: 100
 深情	sam1 cing4
 心腸	sam1 coeng4
 深造	sam1 cou3
+深涌	sam1 cung1
 心大心細	sam1 daai6 sam1 sai3
 心底	sam1 dai2
 心得	sam1 dak1
@@ -37034,6 +37040,7 @@ min_phrase_weight: 100
 㜺鬼	zaan2 gwai2
 
 # 增補詞彙
+# 以下詞彙未完全校對
 吖嗎	aa1 maa3
 吖嗱	aa1 naa4
 丫挺	aa1 ting5
@@ -41186,8 +41193,8 @@ min_phrase_weight: 100
 東協	dung1 hip6
 東海大橋	dung1 hoi2 daai6 kiu4
 東伊運	dung1 ji1 wan6
-東涌	dung1 jung2
-東涌線	dung1 jung2 sin3
+東涌	dung1 cung1
+東涌線	dung1 cung1 sin3
 東區海底隧道	dung1 keoi1 hoi2 dai2 seoi6 dou6
 東區走廊	dung1 keoi1 zau2 long2
 冬甩	dung1 lat1
@@ -47343,6 +47350,7 @@ min_phrase_weight: 100
 靠惡	kaau3 ok3
 靠山吃山靠水吃水	kaau3 saan1 hek3 saan1 kaau3 seoi2 hek3 seoi2
 溪錢	kai1 cin4
+溪涌	kai1 cung1
 溪水潺潺	kai1 seoi2 saan4 saan4
 啓海話	kai2 hoi2 waa2
 啓矇	kai2 mung4
@@ -47951,6 +47959,7 @@ min_phrase_weight: 100
 厲轉身	lai2 zyun2 san1
 來遲	lai4 ci4
 來遲咗	lai4 ci4 zo2
+黎涌	lai4 cung1
 來得切	lai4 dak1 cit3
 來得啱	lai4 dak1 ngaam1
 來㗎	lai4 gaa3
@@ -49303,6 +49312,7 @@ min_phrase_weight: 100
 媽姐	maa2 ze2
 麻查	maa4 caa4
 麻纏	maa4 cin4
+麻涌	maa4 cung1
 麻煩你	maa4 faan4 nei5
 麻煩嗮	maa4 faan4 saai3
 麻吉	maa4 gat1
@@ -50515,6 +50525,7 @@ min_phrase_weight: 100
 泥鴨	nai4 aap2
 泥湴	nai4 baan6
 泥塵	nai4 can4
+泥涌	nai4 cung1
 泥蝦	nai4 haa1
 泥蚶	nai4 ham1
 泥肉	nai4 juk6
@@ -51875,6 +51886,7 @@ min_phrase_weight: 100
 砂礓	saa1 goeng1
 沙葛	saa1 got3
 沙蟹桌	saa1 haai5 coek3
+沙河涌	saa1 ho4 cung1
 沙河粉	saa1 ho4 fan2
 沙丘鶴	saa1 jau1 hok6
 沙冚	saa1 kam2
