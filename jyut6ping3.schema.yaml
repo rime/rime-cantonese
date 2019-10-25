@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵拼（聲調版）
-  version: "0.1.6"
+  version: "0.1.7"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -108,6 +108,7 @@ speller:
     #- derive/^ng$/m/
 
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
 
     # 取消下行註釋，支援聲母簡拼
     #- abbrev/^(gw|kw|ng).+$/$1/

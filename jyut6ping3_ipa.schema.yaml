@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵拼（IPA版）
-  version: "0.1.6"
+  version: "0.1.7"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -108,6 +108,7 @@ speller:
     #- derive/^ng$/m/
 
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
 
     # 取消下行註釋，支援聲母簡拼
     #- abbrev/^(gw|kw|ng).+$/$1/
@@ -136,7 +137,7 @@ translator:
     - xform/y([aeior])/j$1/                   # 一yat/jɐt̚/
     - xform/(aa|r)([iu])/Aː\U$2/              # 嗎maː
     - xform/a([iu])/ɐ\U$1/                    # 米mɐi
-    - xform/(aa|r)([ptk])/Aː\U$2]/            # 握aːk̚
+    - xform/(aa|r)([ptk])/Aː\U$2]/            # 鈪aːk̚
     - xform/a([ptk])/ɐ\U$1]/                  # 呃ɐk̚
     - xform/(aa|r)/Aː/                        # 嗎maː
     - xform/b/P/                              # 吧paː
@@ -163,7 +164,7 @@ translator:
     - xform/ik/ɪK]/                           # 式sɪk̚
     - xform/i([pt])/Iː$1]/                    # 結kiːt̚
     - xform/eo/ɵ/                             # 去hɵy
-    - xform/a/ɐ/                              # 粒nɐp̚
+    - xform/a/ɐ/                              # 得tɐk̚
     - xform/ei/EI/                            # 欸ei
     - xform/i/Iː/                             # 是siː
     - xform/e([ptk])/ɛː$1]/                   # 壢lɛːk̚
@@ -182,7 +183,7 @@ translator:
     - xform/w/w/                              # 雲wɐn
     - xform/j/j/                              # 人jɐn
     - xform/m/m/                              # 美mei
-    - xform/l/l/                              # 裏lei
+    - xform/l/l/                              # 里lei
     - xform/s/s/                              # 死sei
     - xform/z/T͡s/                             # 這t͡sɛː
     - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
