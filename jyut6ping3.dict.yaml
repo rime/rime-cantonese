@@ -2987,7 +2987,7 @@ min_phrase_weight: 100
 松	cung4
 淙	cung4
 漎	cung4
-潨	cung4	0%
+潨	cung4
 潀	cung4	0%
 爞	cung4
 琮	cung4
@@ -6484,6 +6484,7 @@ min_phrase_weight: 100
 櫜	gou1
 皋	gou1
 睾	gou1
+睪	gou1
 篙	gou1
 糕	gou1
 羔	gou1
@@ -9342,6 +9343,7 @@ min_phrase_weight: 100
 燚	jik6
 燡	jik6
 疫	jik6
+睾	jik6
 睪	jik6
 繹	jik6
 翊	jik6
@@ -9695,6 +9697,7 @@ min_phrase_weight: 100
 𡸣	jit6
 𤍠	jit6
 𤾚	jit6
+幺	jiu1
 么	jiu1
 吆	jiu1
 喓	jiu1
@@ -11297,7 +11300,8 @@ min_phrase_weight: 100
 㪊	kwan4
 㿏	kwan4
 宭	kwan4
-群	kwan4
+羣	kwan4
+群	kwan4	0%
 裙	kwan4
 麇	kwan4
 𡢡	kwan4
@@ -14937,7 +14941,7 @@ min_phrase_weight: 100
 諤	ngok6
 鄂	ngok6
 鍔	ngok6
-顎	ngok6
+顎	ngok6	0%
 鱷	ngok6
 鶚	ngok6
 鸑	ngok6
@@ -15054,6 +15058,7 @@ min_phrase_weight: 100
 㩙	nim2
 捻	nim2
 粘	nim4
+鮎	nim4
 鯰	nim4
 黏	nim4
 㷑	nim6
