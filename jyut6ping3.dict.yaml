@@ -2813,7 +2813,7 @@ min_phrase_weight: 100
 譟	cou3
 趮	cou3
 躁	cou3
-造	cou3
+造	cou3	3%
 鄵	cou3
 酢	cou3
 醋	cou3
@@ -3726,7 +3726,7 @@ min_phrase_weight: 100
 㢩	dim3
 㼭	dim3
 坫	dim3
-墊	dim3
+墊	dim3	0%
 店	dim3
 惦	dim3
 扂	dim3
@@ -7990,7 +7990,7 @@ min_phrase_weight: 100
 㰦	heoi3
 䒧	heoi3
 去	heoi3
-佢	heoi5	90%
+佢	heoi5
 䭮	heoi6
 𠺪	hi1
 㛪	him1
@@ -9071,7 +9071,7 @@ min_phrase_weight: 100
 邪	je4
 冶	je5
 喏	je5
-嘢	je5
+嘢	je5	10000
 埜	je5
 惹	je5
 若	je5
@@ -10813,7 +10813,7 @@ min_phrase_weight: 100
 𤨎	keoi4
 𨬡	keoi4
 𪆫	keoi4
-佢	keoi5	100%
+佢	keoi5	10000
 拒	keoi5
 竘	keoi5
 距	keoi5
@@ -22425,7 +22425,7 @@ min_phrase_weight: 100
 噍	ziu6
 㝾	zo2
 俎	zo2
-咗	zo2	90%
+咗	zo2	10000
 唨	zo2
 左	zo2
 阻	zo2
@@ -25474,6 +25474,7 @@ min_phrase_weight: 100
 得以	dak1 ji5
 得益	dak1 jik1
 德育	dak1 juk6
+得了	dak1 la
 得了	dak1 liu5
 得唔得	dak1 m4 dak1
 得心應手	dak1 sam1 jing3 sau2
@@ -27132,6 +27133,7 @@ min_phrase_weight: 100
 感想	gam2 soeng2
 錦上添花	gam2 soeng6 tim1 faa1
 感嘆	gam2 taan3
+噉會	gam2 wui3
 噉就	gam2 zau6
 噉就得	gam2 zau6 dak1
 噉就好	gam2 zau6 hou2
@@ -29557,6 +29559,7 @@ min_phrase_weight: 100
 有幸	jau5 hang6
 有害	jau5 hoi6
 友好	jau5 hou2
+有好多	jau5 hou2 do1
 有意	jau5 ji3
 有意思	jau5 ji3 si1
 友誼	jau5 ji4
@@ -30114,6 +30117,7 @@ min_phrase_weight: 100
 用不着	jung6 bat1 zoek6
 用處	jung6 cyu3
 用地	jung6 dei6
+用返	jung6 faan1
 用法	jung6 faat3
 用具	jung6 geoi6
 用功	jung6 gung1
@@ -30484,6 +30488,7 @@ min_phrase_weight: 100
 佢哋	keoi5 dei6
 佢都	keoi5 dou1
 佢都話	keoi5 dou1 waa6
+佢係	keoi5 hai6
 佢又	keoi5 jau6
 佢而家	keoi5 ji4 gaa1
 佢要	keoi5 jiu3
@@ -35944,11 +35949,13 @@ min_phrase_weight: 100
 嘴巴	zeoi2 baa1
 嘴脣	zeoi2 seon4
 咀嚼	zeoi2 zoek3
+最弊	zeoi3 bai6
 最初	zeoi3 co1
 最近	zeoi3 gan6
 最後	zeoi3 hau6
 最屘	zeoi3 mei1
 最尾	zeoi3 mei1
+最衰	zeoi3 seoi1
 醉酒鬼	zeoi3 zau2 gwai2
 最終	zeoi3 zung1
 聚財	zeoi6 coi4
@@ -41014,6 +41021,7 @@ min_phrase_weight: 100
 多肽連	do1 taai3 lin4
 多謝夾盛惠	do1 ze6 gaap3 sing6 wai6
 多謝嗮	do1 ze6 saai3
+多咗	do1 zo2
 多隻香爐多隻鬼	do1 zek3 hoeng1 lou4 do1 zek3 gwai2
 多種維生素	do1 zung2 wai4 sang1 sou3
 躲不起	do2 bat1 hei2
@@ -42264,6 +42272,7 @@ min_phrase_weight: 100
 嘉禾望崗站	gaa1 wo4 mong6 gong1 zaam6
 家陣時	gaa1 zan6 si2
 加紙	gaa1 zi2
+加咗	gaa1 zo2
 家雀兒	gaa1 zoek3 ji4
 家長日	gaa1 zoeng2 jat6
 賈伯斯	gaa2 baak3 si1
