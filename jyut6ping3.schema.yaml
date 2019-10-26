@@ -176,7 +176,7 @@ trad_tw:
 trad_hk:
   import_preset: default
   option_name: trad_hk
-  opencc_config: t2hk.json
+  opencc_config: t2hkp.json
   tags: all
   
 zh_simp:
