@@ -674,7 +674,7 @@ min_phrase_weight: 100
 潷	bei3
 畀	bei3
 痹	bei3
-痺	bei3
+痺	bei3	0%
 祕	bei3
 秘	bei3
 箅	bei3
@@ -2059,7 +2059,7 @@ min_phrase_weight: 100
 攡	ci1
 瓻	ci1
 疵	ci1
-痴	ci1
+痴	ci1	0%
 癡	ci1
 眵	ci1
 笞	ci1
@@ -2946,6 +2946,7 @@ min_phrase_weight: 100
 茺	cung1
 蓯	cung1
 蔥	cung1
+葱	cung1	0%
 衝	cung1
 衷	cung1
 鏦	cung1
@@ -2986,7 +2987,8 @@ min_phrase_weight: 100
 松	cung4
 淙	cung4
 漎	cung4
-潀	cung4
+潨	cung4	0%
+潀	cung4	0%
 爞	cung4
 琮	cung4
 瑽	cung4
@@ -6301,7 +6303,8 @@ min_phrase_weight: 100
 羌	goeng1
 薑	goeng1
 蜣	goeng1
-韁	goeng1
+繮	goeng1
+韁	goeng1	0%
 𡟜	goeng1
 𦍑	goeng1
 㛨	goeng2
@@ -6868,7 +6871,8 @@ min_phrase_weight: 100
 媯	gwai1	0%
 廆	gwai1
 歸	gwai1
-溈	gwai1
+潙	gwai1
+溈	gwai1	0%
 珪	gwai1
 瑰	gwai1
 皈	gwai1
@@ -14875,6 +14879,7 @@ min_phrase_weight: 100
 𢦓	ngo5
 硪	ngo6
 臥	ngo6
+卧	ngo6	0%
 餓	ngo6
 𢛶	ngo6
 氨	ngoi1
@@ -16594,6 +16599,7 @@ min_phrase_weight: 100
 澀	sap1
 濇	sap1
 濕	sap1
+溼	sap1	0%
 譅	sap1
 㰱	sap3
 㰼	sap3
@@ -16841,8 +16847,10 @@ min_phrase_weight: 100
 捝	seoi3	0%
 歲	seoi3
 涗	seoi3
+涚	seoi3	0%
 碎	seoi3
 稅	seoi3
+税	seoi3	0%
 繀	seoi3
 蛻	seoi3
 裞	seoi3
@@ -19092,6 +19100,7 @@ min_phrase_weight: 100
 挩	tyut3
 捝	tyut3	0%
 脫	tyut3
+脱	tyut3	0%
 莌	tyut3
 䁷	uk1
 剭	uk1
@@ -19433,6 +19442,7 @@ min_phrase_weight: 100
 潿	wai4
 濰	wai4
 爲	wai4
+為	wai4	0%
 維	wai4
 違	wai4
 遺	wai4
@@ -19482,6 +19492,7 @@ min_phrase_weight: 100
 橞	wai6
 渭	wai6
 爲	wai6
+為	wai6	0%
 煟	wai6
 胃	wai6
 蔧	wai6
@@ -19514,12 +19525,17 @@ min_phrase_weight: 100
 䘎	wan1
 奫	wan1
 殟	wan1
+蒕	wan1
+蒀	wan1	0%
 氳	wan1
 氲	wan1	0%
 溫	wan1
+温	wan1	0%
 熅	wan1
+煴	wan1	0%
 瘟	wan1
 縕	wan1
+緼	wan1	0%
 薀	wan1
 豱	wan1
 贇	wan1
@@ -19538,7 +19554,7 @@ min_phrase_weight: 100
 愠	wan3	0%
 搵	wan3
 揾	wan3	0%
-縕	wan3
+緼	wan3	0%
 蘊	wan3
 醞	wan3
 韞	wan3
@@ -19682,6 +19698,7 @@ min_phrase_weight: 100
 爩	wat1
 罻	wat1
 膃	wat1
+腽	wat1	0%
 蔚	wat1
 詘	wat1
 鬱	wat1
@@ -22680,7 +22697,8 @@ min_phrase_weight: 100
 蚤	zou2
 靻	zou2
 駔	zou2
-灶	zou3
+灶	zou3	0%
+竈	zou3
 㚐	zou6
 㫤	zou6
 䒃	zou6
@@ -22688,7 +22706,7 @@ min_phrase_weight: 100
 做	zou6
 慥	zou6
 皁	zou6
-皂	zou6
+皂	zou6	0%
 祚	zou6
 簉	zou6
 胙	zou6
@@ -22875,6 +22893,7 @@ min_phrase_weight: 100
 熜	zung2
 种	zung2
 種	zung2
+糉	zung2
 粽	zung2
 總	zung2
 腫	zung2
@@ -26387,7 +26406,7 @@ min_phrase_weight: 100
 肥師奶	fei4 si1 naai1
 肥腯腯	fei4 tan4 tan4
 肥仔	fei4 zai2
-肥皂	fei4 zou6
+肥皁	fei4 zou6
 科技	fo1 gei6
 科學	fo1 hok6
 科學院	fo1 hok6 jyun2
@@ -48570,7 +48589,7 @@ min_phrase_weight: 100
 羅茲	lo4 zi1
 羅緻	lo4 zi3
 羅唣	lo4 zou6
-羅皂	lo4 zou6
+羅皁	lo4 zou6
 漯飯	loe1 faan6
 漯飯應	loe1 faan6 jing3
 漯蔗渣	loe1 ze3 zaa2
@@ -57304,7 +57323,7 @@ min_phrase_weight: 100
 做錯嘢	zou6 co3 je5
 做大戲	zou6 daai6 hei3
 做低	zou6 dai1
-皂隸	zou6 dai6
+皁隸	zou6 dai6
 做電燈膽	zou6 din6 dang1 daam2
 做到嘢	zou6 dou2 je5
 做到金睛火眼	zou6 dou3 gam1 zing1 fo2 ngaan5
@@ -57312,7 +57331,7 @@ min_phrase_weight: 100
 做到死死下	zou6 dou3 sei2 sei2 haa2
 做冬	zou6 dung1
 做飛數	zou6 fei1 sou4
-皂鹼	zou6 gaan2
+皁鹼	zou6 gaan2
 做雞	zou6 gai1
 做極都唔掂	zou6 gik6 dou1 m4 dim6
 做工作	zou6 gung1 zok3
