@@ -281,7 +281,6 @@ min_phrase_weight: 100
 熰	au1
 甌	au1
 謳	au1
-鉤	au1
 鏂	au1
 鷗	au1
 𠥹	au1
@@ -882,6 +881,7 @@ min_phrase_weight: 100
 憋	bit3
 虌	bit3
 鱉	bit3
+鼈	bit3	0%
 鷩	bit3
 㧙	bit6
 㮿	bit6
@@ -5763,6 +5763,7 @@ min_phrase_weight: 100
 緱	gau1
 袧	gau1
 鉤	gau1
+鈎	gau1	0%
 韝	gau1
 鬮	gau1
 鳩	gau1
@@ -9096,6 +9097,7 @@ min_phrase_weight: 100
 蚋	jeoi6
 裔	jeoi6
 銳	jeoi6
+鋭	jeoi6	0%
 𠮏	jeoi6
 𥈠	jeoi6
 𥌑	jeoi6
@@ -9961,7 +9963,7 @@ min_phrase_weight: 100
 蓊	jung2
 蛹	jung2
 踊	jung2
-踴	jung2
+踴	jung2	0%
 𤆤	jung2
 𤤌	jung2
 㐯	jung4
@@ -10369,10 +10371,12 @@ min_phrase_weight: 100
 粵	jyut6
 聿	jyut6
 說	jyut6
+説	jyut6	0%
 越	jyut6
 軏	jyut6
 鉞	jyut6
 閱	jyut6
+閲	jyut6	0%
 鳦	jyut6
 𡛟	jyut6
 𧑐	jyut6
@@ -14642,6 +14646,7 @@ min_phrase_weight: 100
 眼	ngaan5
 齴	ngaan5
 贗	ngaan6
+贋	ngaan6	0%
 雁	ngaan6
 鴈	ngaan6
 𪆒	ngaan6
@@ -14821,6 +14826,7 @@ min_phrase_weight: 100
 勾	ngau1
 熰	ngau1
 鉤	ngau1
+鈎	ngau1	0%
 鏂	ngau1
 𠥹	ngau1
 𡂿	ngau1
@@ -16853,8 +16859,10 @@ min_phrase_weight: 100
 税	seoi3	0%
 繀	seoi3
 蛻	seoi3
+蜕	seoi3	0%
 裞	seoi3
 說	seoi3
+説	seoi3	0%
 𡻕	seoi3
 㚋	seoi4
 䍋	seoi4
@@ -18475,6 +18483,7 @@ min_phrase_weight: 100
 䄘	teoi3
 䵯	teoi3
 蛻	teoi3
+蜕	teoi3	0%
 退	teoi3
 駾	teoi3
 㚝	teoi4
@@ -19389,7 +19398,8 @@ min_phrase_weight: 100
 痿	wai2
 腲	wai2
 萎	wai2
-蒍	wai2
+蔿	wai2
+蒍	wai2	0%
 薳	wai2
 虫	wai2
 虺	wai2
@@ -19501,6 +19511,7 @@ min_phrase_weight: 100
 蝟	wai6
 蟪	wai6
 衛	wai6
+衞	wai6	0%
 謂	wai6
 譓	wai6
 讆	wai6
@@ -19540,11 +19551,14 @@ min_phrase_weight: 100
 豱	wan1
 贇	wan1
 轀	wan1
+輼	wan1	0%
 頵	wan1
 𨋍	wan1
 𩥈	wan1
 榲	wan1
 榅	wan1	0%
+鰮	wan1
+鰛	wan1	0%
 㝧	wan2
 搵	wan2
 穩	wan2
@@ -19556,7 +19570,9 @@ min_phrase_weight: 100
 揾	wan3	0%
 緼	wan3	0%
 蘊	wan3
+藴	wan3	0%
 醞	wan3
+醖	wan3	0%
 韞	wan3
 𧄧	wan3
 㔵	wan4
@@ -19618,6 +19634,7 @@ min_phrase_weight: 100
 荺	wan5
 蘊	wan5
 醞	wan5
+醖	wan5	0%
 隕	wan5
 霣	wan5
 韻	wan5
@@ -22908,7 +22925,8 @@ min_phrase_weight: 100
 䝋	zung3
 中	zung3
 瘲	zung3
-眾	zung3
+衆	zung3
+眾	zung3	0%
 種	zung3
 穜	zung3
 粽	zung3
@@ -38370,7 +38388,7 @@ min_phrase_weight: 100
 保鮮期	bou2 sin1 kei4
 寶達邨	bou2 taat3 cyun1
 寶貼	bou2 tip3
-保衞	bou2 wai6
+保衛	bou2 wai6
 補鑊	bou2 wok6
 寶葫蘆的秘密	bou2 wu4 lou2 dik1 bei3 mat6
 保戶	bou2 wu6
@@ -38607,7 +38625,7 @@ min_phrase_weight: 100
 賊眉賊眼	caak6 mei4 caak6 ngaan5
 參考室	caam1 haau2 sat1
 參考橢球體	caam1 haau2 to5 kau4 tai2
-參閲	caam1 jyut6
+參閱	caam1 jyut6
 參卡爾	caam1 kaa1 ji5
 參選率	caam1 syun2 leot2
 慘情	caam2 cing4
@@ -39422,7 +39440,7 @@ min_phrase_weight: 100
 窗口位	coeng1 hau2 wai2
 窗幔	coeng1 maan6
 窗門	coeng1 mun4
-窗鈎	coeng1 ngau1
+窗鉤	coeng1 ngau1
 槍頭	coeng1 tau4
 窗枝	coeng1 zi1
 搶包山	coeng2 baau1 saan1
@@ -39736,7 +39754,7 @@ min_phrase_weight: 100
 全身裙	cyun4 san1 kwan4
 全純	cyun4 seon4
 全鬚全尾兒	cyun4 sou1 cyun4 mei5 ji4
-傳説	cyun4 syut3
+傳說	cyun4 syut3
 全體大譁	cyun4 tai2 daai6 waa1
 荃灣區	cyun4 waan1 keoi1
 荃灣西	cyun4 waan1 sai1
@@ -40687,7 +40705,7 @@ min_phrase_weight: 100
 掟彎	deng3 waan1
 埞方	deng6 fong1
 定方	deng6 fong1
-訂閲	deng6 jyut6
+訂閱	deng6 jyut6
 堆高車	deoi1 gou1 ce1
 堆芯	deoi1 sam1
 堆填區	deoi1 tin4 keoi1
@@ -41899,7 +41917,7 @@ min_phrase_weight: 100
 房勞	fong4 lou4
 防銹	fong4 sau3
 房委會	fong4 wai2 wui2
-防衞	fong4 wai6
+防衛	fong4 wai6
 房祖名	fong4 zou2 ming4
 夫妻肺片	fu1 cai1 fai3 pin2
 夫妻臉	fu1 cai1 lim5
@@ -42310,7 +42328,7 @@ min_phrase_weight: 100
 解纈	gaai2 lit3
 解釋器	gaai2 sik1 hei3
 解小手	gaai2 siu2 sau2
-解説	gaai2 syut3
+解說	gaai2 syut3
 鎅板	gaai3 baan2
 鎅崩手	gaai3 bang1 sau2
 鎅親	gaai3 can1
@@ -43112,7 +43130,7 @@ min_phrase_weight: 100
 據講	geoi3 gong2
 據我所知	geoi3 ngo5 so2 zi1
 據實以告	geoi3 sat6 ji5 gou3
-據説	geoi3 syut3
+據說	geoi3 syut3
 據知	geoi3 zi1
 巨齒鯊	geoi6 ci2 saa1
 巨峯	geoi6 fung1
@@ -43233,7 +43251,7 @@ min_phrase_weight: 100
 景谷傣族彞族自治縣	ging2 guk1 taai3 zuk6 ji4 zuk6 zi6 zi6 jyun6
 景轟	ging2 gwang1
 儆惜	ging2 sik1
-警衞	ging2 wai6
+警衛	ging2 wai6
 莖干	ging3 gon1
 敬煙	ging3 jin1
 勁抽	ging6 cau1
@@ -45286,7 +45304,7 @@ min_phrase_weight: 100
 學師仔	hok6 si1 zai2
 學是非	hok6 si6 fei1
 學是學非	hok6 si6 hok6 fei1
-學説	hok6 syut3
+學說	hok6 syut3
 鶴鷸	hok6 wat6
 學習障礙	hok6 zaap6 zoeng3 ngoi6
 鶴嘴	hok6 zeoi2
@@ -45315,7 +45333,7 @@ min_phrase_weight: 100
 韓正	hon4 zing3
 旱廁	hon5 ci3
 旱金蓮	hon5 gam1 lin4
-捍衞	hon5 wai6
+捍衛	hon5 wai6
 漢溪長隆站	hon6 kai1 coeng4 lung4 zaam6
 銲料	hon6 liu2
 汗宿	hon6 suk1
@@ -45870,7 +45888,7 @@ min_phrase_weight: 100
 人在江湖身不由己	jan4 zoi6 gong1 wu4 san1 bat1 jau4 gei2
 人造奶油	jan4 zou6 naai5 jau4
 人造牛油	jan4 zou6 ngau4 jau4
-人造衞星	jan4 zou6 wai6 sing1
+人造衛星	jan4 zou6 wai6 sing1
 人造黃油	jan4 zou6 wong4 jau4
 人中龍鳳	jan4 zung1 lung4 fung6
 引導員	jan5 dou6 jyun4
@@ -46247,7 +46265,7 @@ min_phrase_weight: 100
 游仙區	jau4 sin1 keoi1
 由盛轉衰	jau4 sing6 zyun2 seoi1
 游賞	jau4 soeng2
-游説	jau4 syut3
+游說	jau4 syut3
 遊艇會	jau4 teng5 wui2
 油塘	jau4 tong4
 油桐油	jau4 tung4 jau4
@@ -46485,7 +46503,7 @@ min_phrase_weight: 100
 夜視	je6 si6
 夜視鏡	je6 si6 geng2
 夜視儀	je6 si6 ji4
-鋭利	jeoi6 lei6
+銳利	jeoi6 lei6
 潤腸	jeon6 coeng2
 潤髮液	jeon6 faat3 jik6
 潤髮露	jeon6 faat3 lou6
@@ -46517,7 +46535,7 @@ min_phrase_weight: 100
 伊勢丹	ji1 sai3 daan1
 伊士	ji1 si6
 衣食無虞	ji1 sik6 mou4 jyu4
-衣裳鈎兒	ji1 soeng4 ngau1 ji4
+衣裳鉤兒	ji1 soeng4 ngau1 ji4
 醫肚	ji1 tou5
 蛜蝛	ji1 wai1
 依雲	ji1 wan4
@@ -46765,7 +46783,7 @@ min_phrase_weight: 100
 躽胸	jin2 hung1
 躽胸凸肚	jin2 hung1 dat6 tou5
 演野	jin2 je5
-演説	jin2 syut3
+演說	jin2 syut3
 燕崗	jin3 gong1
 嚥下困難	jin3 haa6 kwan3 naan4
 嚥口水	jin3 hau2 seoi2
@@ -47296,7 +47314,7 @@ min_phrase_weight: 100
 乙氧基	jyut3 joeng5 gei1
 閱兵台	jyut6 bing1 toi4
 月大	jyut6 daai6
-閲讀	jyut6 duk6
+閱讀	jyut6 duk6
 粵東	jyut6 dung1
 月經週期	jyut6 ging1 zau1 kei4
 月結單	jyut6 git3 daan1
@@ -49714,7 +49732,7 @@ min_phrase_weight: 100
 民政事務局	man4 zing3 si6 mou6 guk6
 文雀	man4 zoek3
 吻部	man5 bou6
-敏鋭	man5 jeoi6
+敏銳	man5 jeoi6
 抆屎	man5 si2
 問吊	man6 diu3
 問客殺雞	man6 haak3 saat3 gai1
@@ -51066,7 +51084,7 @@ min_phrase_weight: 100
 扤扤搖	ngat6 ngat6 jiu4
 迄止	ngat6 zi2
 勾縫	ngau1 fung6
-鈎稽	ngau1 kai1
+鉤稽	ngau1 kai1
 勾漏	ngau1 lau6
 勾漏片	ngau1 lau6 pin3
 勾佬	ngau1 lou2
@@ -53172,7 +53190,7 @@ min_phrase_weight: 100
 衰十一	seoi1 sap6 jat1
 衰收尾	seoi1 sau1 mei5
 衰衰噉	seoi1 seoi1 gam2
-雖説	seoi1 syut3
+雖說	seoi1 syut3
 衰咗	seoi1 zo2
 水撥	seoi2 but6
 水柿	seoi2 ci2
@@ -53956,7 +53974,7 @@ min_phrase_weight: 100
 小杓鷸	siu2 soek3 wat6
 少數怕長計	siu2 sou3 paa3 coeng4 gai3
 小數怕長計	siu2 sou3 paa3 zoeng2 gai3
-小説	siu2 syut3
+小說	siu2 syut3
 小太平鳥	siu2 taai3 ping4 niu5
 小太太	siu2 taai3 taai2
 小甜餅	siu2 tim4 beng2
@@ -54219,7 +54237,7 @@ min_phrase_weight: 100
 數尾	sou3 mei5
 塑膜	sou3 mok6
 素食主義	sou3 sik6 zyu2 ji6
-訴説	sou3 syut3
+訴說	sou3 syut3
 掃雪車	sou3 syut3 ce1
 數還數路還路	sou3 waan4 sou3 lou6 waan4 lou6
 掃黃打非	sou3 wong4 daa2 fei1
@@ -54372,7 +54390,7 @@ min_phrase_weight: 100
 船灣淡水湖	syun4 waan1 taam2 seoi2 wu4
 旋轉台	syun4 zyun2 toi4
 雪葩	syut3 baa1
-説不定	syut3 bat1 ding6
+說不定	syut3 bat1 ding6
 雪鶉	syut3 ceon1
 雪藏汽水	syut3 cong4 hei3 seoi2
 雪藏肉	syut3 cong4 juk6
@@ -54380,11 +54398,11 @@ min_phrase_weight: 100
 雪地車	syut3 dei6 ce1
 說到尾	syut3 dou3 mei5
 雪凍	syut3 dung3
-説法	syut3 faat3
+說法	syut3 faat3
 雪菲爾	syut3 fei1 ji5
-説謊	syut3 fong1
+說謊	syut3 fong1
 雪紡	syut3 fong2
-説服	syut3 fuk6
+說服	syut3 fuk6
 雪蛤	syut3 gaap3
 雪鴿	syut3 gaap3
 雪蛤膏	syut3 gap3 gou1
@@ -54404,13 +54422,13 @@ min_phrase_weight: 100
 說溜嘴	syut3 lau6 zeoi2
 說漏嘴	syut3 lau6 zeoi2
 雪酪	syut3 lok3
-説明	syut3 ming4
+說明	syut3 ming4
 雪帽	syut3 mou2
 雪鵐	syut3 mou4
 雪雁	syut3 ngaan6
 雪嶽山	syut3 ngok6 saan1
 雪批	syut3 pai1
-説話	syut3 waa6
+說話	syut3 waa6
 說着玩	syut3 zoek6 wun6
 說著玩	syut3 zoek6 wun6
 說著玩兒	syut3 zoek6 wun6 ji4
@@ -54876,7 +54894,7 @@ min_phrase_weight: 100
 聽暇	ting1 haa6
 聽尼士	ting1 nei4 si6
 聽尼士	ting1 ni1 si6
-聽説	ting1 syut3
+聽說	ting1 syut3
 聽話聽聲鑼鼓聽音	ting1 waa6 ting1 sing1 lo4 gu2 ting1 jam1
 聽朝早	ting1 ziu1 zou2
 聽早	ting1 zou2
@@ -54912,8 +54930,8 @@ min_phrase_weight: 100
 鐵鋁土	tit3 leoi5 tou2
 鐵蓮花	tit3 lin4 faa1
 鐵路站	tit3 lou6 zaam6
-鐵鈎	tit3 ngau1
-鐵鈎兒	tit3 ngau1 ji4
+鐵鉤	tit3 ngau1
+鐵鉤兒	tit3 ngau1 ji4
 鐵沙梨	tit3 saa1 lei2
 鐵爪鵐	tit3 zaau2 mou4
 鐵嘴雞	tit3 zeoi2 gai1
@@ -55533,15 +55551,15 @@ min_phrase_weight: 100
 胃繞道	wai6 jiu5 dou6
 惠譽	wai6 jyu6
 爲乜	wai6 mat1
-衞冕	wai6 min5
+衛冕	wai6 min5
 惠能	wai6 nang4
-衞生	wai6 sang1
+衛生	wai6 sang1
 衛生麻雀	wai6 sang1 maa4 zoek2
 衛生條件	wai6 sang1 tiu4 gin2
 衛生套	wai6 sang1 tou3
 衛斯理	wai6 si1 lei5
 爲食鬼	wai6 sik6 gwai2
-衞星	wai6 sing1
+衛星	wai6 sing1
 爲咗	wai6 zo2
 爲著	wai6 zoek6
 榲桲	wan1 but6
@@ -55552,7 +55570,7 @@ min_phrase_weight: 100
 搵出	wan2 ceot1
 搵出來	wan2 ceot1 lai4
 搵出嚟	wan2 ceot1 lei4
-藴藏	wan2 cong4
+蘊藏	wan2 cong4
 穩打穩紮	wan2 daa2 wan2 zaat3
 搵丁	wan2 ding1
 搵刀切	wan2 dou1 cit3
@@ -55632,9 +55650,9 @@ min_phrase_weight: 100
 暈糊	wan4 wu4
 雲珠	wan4 zyu1
 尹光	wan5 gwong1
-藴含	wan5 ham4
+蘊含	wan5 ham4
 尹揚明	wan5 joeng4 ming4
-醖釀	wan5 joeng6
+醞釀	wan5 joeng6
 韻律泳	wan5 leot6 wing6
 尹天照	wan5 tin1 ziu3
 韻緻	wan5 zi3
@@ -55749,7 +55767,7 @@ min_phrase_weight: 100
 黃蜂巢	wong4 fung1 caau4
 黃蜂竇	wong4 fung1 dau3
 皇家飯店	wong4 gaa1 faan6 dim3
-王家衞	wong4 gaa1 wai6
+王家衛	wong4 gaa1 wai6
 黃頰麥雞	wong4 gaap3 mak6 gai1
 黃頰山雀	wong4 gaap3 saan1 zoek3
 黃金檔	wong4 gam1 dong3
@@ -56851,7 +56869,7 @@ min_phrase_weight: 100
 字鎖	zi6 so2
 自嘆不如	zi6 taan3 bat1 jyu4
 自嘆弗如	zi6 taan3 fat1 jyu4
-自衞	zi6 wai6
+自衛	zi6 wai6
 字匯	zi6 wui6
 自斟自酌	zi6 zam1 zi6 zoek3
 字紙籮	zi6 zi2 lo1
@@ -56893,7 +56911,7 @@ min_phrase_weight: 100
 櫼隊	zim1 deoi2
 尖東	zim1 dung1
 尖閣諸島	zim1 gok3 zyu1 dou2
-尖鋭	zim1 jeoi6
+尖銳	zim1 jeoi6
 瞻禮日	zim1 lai5 jat6
 尖尾濱鷸	zim1 mei5 ban1 wat6
 詹培忠	zim1 pui4 zung1
@@ -57238,7 +57256,7 @@ min_phrase_weight: 100
 再嚟	zoi3 lei4
 再嚟過	zoi3 lei4 gwo3
 載淳	zoi3 seon4
-再説	zoi3 syut3
+再說	zoi3 syut3
 在槍口	zoi6 coeng1 hau2
 在家靠父母出門靠朋友	zoi6 gaa1 kaau3 fu6 mou5 ceot1 mun4 kaau3 pang4 jau5
 作賽	zok3 coi3
