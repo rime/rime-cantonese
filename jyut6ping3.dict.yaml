@@ -680,7 +680,7 @@ min_phrase_weight: 100
 臂	bei3
 芘	bei3
 詖	bei3
-費	bei3
+費	bei3	0%
 賁	bei3
 跛	bei3
 轡	bei3
@@ -5589,7 +5589,7 @@ min_phrase_weight: 100
 衿	gam1
 金	gam1
 䃭	gam2
-噉	gam2	90%
+噉	gam2	10000
 感	gam2
 敢	gam2
 橄	gam2
@@ -5603,7 +5603,7 @@ min_phrase_weight: 100
 䲺	gam3
 僸	gam3
 凎	gam3
-咁	gam3
+咁	gam3	10000
 噤	gam3
 淦	gam3
 灨	gam3
@@ -9326,7 +9326,7 @@ min_phrase_weight: 100
 垼	jik6
 埸	jik6
 奕	jik6
-射	jik6
+射	jik6	0%
 嶧	jik6
 嶷	jik6
 帟	jik6
@@ -11448,7 +11448,7 @@ min_phrase_weight: 100
 攋	laai6
 瀨	laai6
 籟	laai6
-落	laai6
+落	laai6	3%
 藾	laai6
 賴	laai6
 酹	laai6
