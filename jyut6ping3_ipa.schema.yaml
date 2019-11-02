@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵拼（IPA版）
-  version: "0.1.8"
+  version: "0.1.9"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -234,13 +234,13 @@ reverse_lookup:
 trad_tw:
   import_preset: default
   option_name: trad_tw
-  opencc_config: t2twcanto.json
+  opencc_config: t2tw.json
   tags: all
 
 trad_hk:
   import_preset: default
   option_name: trad_hk
-  opencc_config: t2hkcanto.json
+  opencc_config: t2hk.json
   tags: all
   
 zh_simp:
