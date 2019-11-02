@@ -27102,44 +27102,44 @@ import_tables:
 錦標	gam2 biu1
 感情	gam2 cing4
 感動	gam2 dung6
-噉嘅	gam2 ge3
+噉嘅	gam2 ge3	10000
 感激	gam2 gik1
-噉講	gam2 gong2
-噉講法	gam2 gong2 faat3
+噉講	gam2 gong2	10000
+噉講法	gam2 gong2 faat3	10000
 感覺	gam2 gok3
 感人	gam2 jan4
-噉又係	gam2 jau6 hai6
+噉又係	gam2 jau6 hai6	10000
 感染	gam2 jim5
 感應	gam2 jing3
-噉樣	gam2 joeng2
-噉佢	gam2 keoi5
+噉樣	gam2 joeng2	10000
+噉佢	gam2 keoi5	10000
 感慨	gam2 koi3
 感冒	gam2 mou6
-噉你	gam2 nei5
-噉我	gam2 ngo5
+噉你	gam2 nei5	10000
+噉我	gam2 ngo5	10000
 感受	gam2 sau6
 感想	gam2 soeng2
 錦上添花	gam2 soeng6 tim1 faa1
 感嘆	gam2 taan3
-噉會	gam2 wui3
-噉就	gam2 zau6
-噉就得	gam2 zau6 dak1
-噉就好	gam2 zau6 hou2
+噉會	gam2 wui3	10000
+噉就	gam2 zau6	10000
+噉就得	gam2 zau6 dak1	10000
+噉就好	gam2 zau6 hou2	10000
 感謝	gam2 ze6
 感觸	gam2 zuk1
 禁不住	gam3 bat1 zyu6
-咁大	gam3 daai2
-咁多	gam3 do1
+咁大	gam3 daai2	10000
+咁多	gam3 do1	10000
 禁毒	gam3 duk6
-咁快	gam3 faai3
-咁鬼	gam3 gwai2
-咁好	gam3 hou2
+咁快	gam3 faai3	10000
+咁鬼	gam3 gwai2	10000
+咁好	gam3 hou2	10000
 禁區	gam3 keoi1
-咁蹺	gam3 kiu2
-咁啱	gam3 ngaam1
-咁耐	gam3 noi6
-咁滯	gam3 zai6
-咁早	gam3 zou2
+咁蹺	gam3 kiu2	10000
+咁啱	gam3 ngaam1	10000
+咁耐	gam3 noi6	10000
+咁滯	gam3 zai6	10000
+咁早	gam3 zou2	10000
 禁止	gam3 zi2
 撳錢	gam6 cin2
 撳機	gam6 gei1
@@ -29683,7 +29683,7 @@ import_tables:
 移動	ji4 dung6
 疑犯	ji4 faan2
 疑匪	ji4 fei2
-而家	ji4 gaa1	100%
+而家	ji4 gaa1	100000
 移居	ji4 geoi1
 兒歌	ji4 go1
 兒戲	ji4 hei1
@@ -33519,6 +33519,7 @@ import_tables:
 死頂	sei2 ding2
 死黨	sei2 dong2
 死火	sei2 fo2
+死梗	sei2 gang2
 死咕咕	sei2 gu4 gu4
 死鬼	sei2 gwai2
 死過返生	sei2 gwo3 faan1 saang1
