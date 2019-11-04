@@ -9,12 +9,13 @@ schema:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
     - LeiMaau <leimaau@qq.com>
+    - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
 
   description: |
-    採用香港語言學會粵語拼音方案
+    採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
-    支援 IPA 顯示和聲調輸入
+    支援 IPA 顯示同聲調輸入
 
     碼表數據來源 Unihan kCantonese
     參照以下資料校正：
