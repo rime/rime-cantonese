@@ -9063,7 +9063,7 @@ import_tables:
 嘢	je5	10000
 埜	je5
 惹	je5
-若	je5
+若	je5	0%
 野	je5
 偌	je6
 卄	je6
@@ -10802,7 +10802,7 @@ import_tables:
 𤨎	keoi4
 𨬡	keoi4
 𪆫	keoi4
-佢	keoi5	10000
+佢	keoi5	100%
 拒	keoi5
 竘	keoi5
 距	keoi5
@@ -38879,7 +38879,7 @@ import_tables:
 唔使計	m4 si2 gai3
 唔使審	m4 si2 sam2
 唔識	m4 sik1
-唔識佢	m4 sik1
+唔識佢	m4 sik1 keoi5
 唔識唱歌	m4 sik1 coeng3 go1
 唔識駕步	m4 sik1 gaa3 bou6
 唔識揀	m4 sik1 gaan2
