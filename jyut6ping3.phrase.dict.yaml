@@ -2,9 +2,6 @@
 # encoding: utf-8
 #
 # Jyut6ping3 - 粵拼詞庫
-#
-# 字音數據來源
-# 見 jyut6ping3.dict.yaml
 # 
 # 詞條數據來源
 # LSHK Jyutping Word List https://corpus.eduhk.hk/JPwordlist/
@@ -16,6 +13,7 @@
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
+# ziloeng
 #
 
 ---

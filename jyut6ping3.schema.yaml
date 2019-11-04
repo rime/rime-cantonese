@@ -3,13 +3,13 @@
 
 schema:
   schema_id: jyut6ping3
-  name: 粵拼（聲調版）
+  name: 粵語拼音
   version: "0.1.9"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
     - LeiMaau <leimaau@qq.com>
-    - 劉邦後代 <laubonghaudoi@icloud.com>
+    - laubonghaudoi <laubonghaudoi@icloud.com>
 
   description: |
     採用香港語言學會粵語拼音方案
@@ -93,6 +93,8 @@ speller:
     - derive/eo/oe/               # 容錯 eo/oe 不分
     - derive/oe(ng|k)$/eo$1/      # 容錯
     - derive/aa$/a/               # 容錯
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
 
     # 取消下兩行註釋，支援疑影不分
     #- derive/^ng([aeiou])/$1/
@@ -106,9 +108,6 @@ speller:
     
     # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
     #- derive/^ng$/m/
-
-    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
-    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
 
     # 取消下行註釋，支援聲母簡拼
     #- abbrev/^(gw|kw|ng).+$/$1/
