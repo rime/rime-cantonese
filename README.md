@@ -58,6 +58,8 @@
 ### 詞語
 
 - 香港語言學學會粵拼詞表 - [原網站](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
+- open-source Cantonese-to-English dictionary (CC-Canto) - [原網站](http://www.cccanto.org/)
+- open Cantonese dictionary - [原網站](http://kaifangcidian.com/han/yue)
 
 ## 詞庫製作流程
 

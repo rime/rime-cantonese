@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.1.10"
+  version: "0.1.11"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -16,15 +16,7 @@ schema:
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
     支援 IPA 顯示同聲調輸入
-
-    碼表數據來源 Unihan kCantonese
-    參照以下資料校正：
-    1. LSHK 字音表
-    2. 粵音小鏡
-    3. 廣州話正音字典
-    4. 常用字廣州話讀音表
-    5. 粵語審音配詞字庫
-
+    
   dependencies:
     - luna_pinyin
     - stroke
@@ -125,6 +117,7 @@ translator:
     - xform/xx/˩˧/                             # 以jiː˩˧
     - xform/x/˧˥/                              # 倚jiː˧˥
     - xform/qq/˨˨/                            # 二jiː˨˨
+    - xform/(^|[ '])q/$1ʔ/                   # 喉塞音
     - xform/q/˧˧/                             # 意jiː˧˧
     - xform/([PTK])$/$1]$2/                   # 入jɐp̚
     - xform/(^|[ '])([jy])u(ng)/$1jʊŋ/        # 用jʊŋ

@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.1.10"
+  version: "0.1.11"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -16,15 +16,7 @@ schema:
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
     支援聲調顯示同輸入
-
-    碼表數據來源 Unihan kCantonese
-    參照以下資料校正：
-    1. LSHK 字音表
-    2. 粵音小鏡
-    3. 廣州話正音字典
-    4. 常用字廣州話讀音表
-    5. 粵語審音配詞字庫
-
+    
   dependencies:
     - luna_pinyin
     - stroke
