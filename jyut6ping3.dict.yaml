@@ -16775,6 +16775,7 @@ import_tables:
 㛫	sek3
 錫	sek3
 𡃶	sek3
+惜	sek3
 㱤	sek6
 䂖	sek6
 䄷	sek6
@@ -25273,7 +25274,6 @@ import_tables:
 擺佈	baai2 bou3	
 擺堆	baai2 deoi1	
 擺檔	baai2 dong2	
-擺檔口	baai2 dong2 hau2	
 擺檔	baai2 dong3	
 擺檔口	baai2 dong3 hau2	
 擺蕩	baai2 dong6	
@@ -41648,7 +41648,6 @@ import_tables:
 有冇得	jau5 mou5 dak1	
 有冇搞錯	jau5 mou5 gaau2 co3	
 有冇攪錯	jau5 mou5 gaau2 co3	
-有冇攪錯	jau5 mou5 gaau2 cok3	
 有冇人	jau5 mou5 jan4	
 有冇用	jau5 mou5 jung6	
 有冇你	jau5 mou5 nei5	
@@ -48514,7 +48513,7 @@ import_tables:
 冇計	mou5 gai2	
 冇偈傾	mou5 gai2 king1	
 冇噉講過	mou5 gam2 gong2 gwo3	
-冇咁好氣	mou5 gam2 hou2 hei3	
+冇噉好氣	mou5 gam2 hou2 hei3	
 冇咁好氣	mou5 gam3 hou2 hei3	
 冇咁易	mou5 gam3 ji6	
 冇咁早	mou5 gam3 zou2	
@@ -48525,8 +48524,8 @@ import_tables:
 冇幾多	mou5 gei2 do1	
 冇幾個	mou5 gei2 go3	
 冇幾何	mou5 gei2 ho2	
-冇幾耐	mou5 gei2 noi1	
-冇幾耐	mou5 gei2 noi2	
+冇幾耐	mou5 gei2 noi1	3%
+冇幾耐	mou5 gei2 noi2	3%
 冇幾耐	mou5 gei2 noi6	
 冇記性	mou5 gei3 sing3	
 冇見	mou5 gin3	
