@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.1.11"
+  version: "0.2.1"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -28,10 +28,13 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - options: [ noop, trad_hk, trad_tw, zh_simp ]
+  - options: [ noop, trad_hk, trad_tw, simp_cn ]
     states: [ 不轉換, 香港繁體, 臺灣正體, 大陆简体 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    reset: 1
+    states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
 
 engine:
   processors:
@@ -61,7 +64,8 @@ engine:
   filters:
     - simplifier@trad_tw
     - simplifier@trad_hk
-    - simplifier@zh_simp
+    - simplifier@simp_cn
+    - simplifier@emoji_suggestion
     - uniquifier
     - reverse_lookup_filter@reverse_lookup
 
@@ -159,22 +163,21 @@ reverse_lookup:
   dictionary: jyut6ping3
 
 trad_tw:
-  import_preset: default
   option_name: trad_tw
   opencc_config: t2tw.json
-  tags: all
 
 trad_hk:
-  import_preset: default
   option_name: trad_hk
   opencc_config: t2hk.json
-  tags: all
   
-zh_simp:
-  import_preset: default
-  option_name: zh_simp
+simp_cn:
+  option_name: simp_cn
   opencc_config: t2s.json
-  tags: all
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
 
 punctuator:
   import_preset: default
