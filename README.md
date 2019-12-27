@@ -45,6 +45,25 @@
 
 **注意**：OpenCC 中默認「涌」同「湧」係異體字關係，但係粵語中湧讀 /jung2/，涌讀 /cung1/，係兩隻唔同嘅字。所以喺開啟香港字體後無論打 /cung1/ 定係 /jung2/ 都淨係出「湧」，打唔出「涌」，因為所有嘅「涌」都轉成咗「湧」。要想打出「涌」字，要將用字標準切換返「不轉換」再打 /cung1/ 先得。
 
+### 添加 Emoji 支持
+
+Windows 系統下打開“【小狼毫】輸入法設定 -> 獲取更多輸入方案”，然後運行下面命令
+
+```bash
+emoji
+emoji:customize:schema=jyut6ping3
+emoji:customize:schema=jyut6ping3_ipa
+```
+
+Linux 同 macOS系統下打開終端，`cd` 到 [plum](https://github.com/rime/plum) 路徑下，然後運行下面命令：
+
+```bash
+bash rime-install emoji:customize:schema=jyut6ping3
+bash rime-install emoji:customize:schema=jyut6ping3_ipa
+```
+
+然後打字嗰陣就可以見到候選詞有 Emoji 了。
+
 ## 數據來源
 
 ### 字音
