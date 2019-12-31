@@ -18,17 +18,11 @@
 
 ---
 name: jyut6ping3.phrase
-version: "2019.12.21"
+version: "2019.12.31"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
-㓤咗
-㓤針
-㩒掣
-㩒𨋢
-䀹住
-䀹住佢
 一一七中學
 一一二二
 一一五中學
@@ -8087,15 +8081,6 @@ use_preset_vocabulary: true
 叻囡
 叻晒
 叻馬
-叼七你
-叼你咩
-叼你啊
-叼你屎忽
-叼你老帽
-叼你老母
-叼你老鼠
-叼著
-叼鳩你
 吃不停
 吃們
 吃咗咩
@@ -15354,11 +15339,9 @@ use_preset_vocabulary: true
 屌你啊
 屌你媽
 屌你屎忽
-屌你老帽
 屌你老鼠
 屌啊
-屌娜星
-屌那性
+屌那星
 屌鳩你
 屎坑三姑
 屎坑石頭又臭又硬
@@ -20146,7 +20129,6 @@ use_preset_vocabulary: true
 掃雷戰
 授權方式
 掉咗佢仲好
-掉那媽
 掌握分寸
 掌財
 掏盡
@@ -28308,8 +28290,6 @@ use_preset_vocabulary: true
 琪林軒
 琪比小美屋
 琪瑤
-琱漆浬
-琱那馬
 琳住去
 琳琳超市
 琴弦廠
@@ -42118,8 +42098,6 @@ use_preset_vocabulary: true
 鵬輝
 鵬達路
 鵬鑫物流
-鵰娜馬
-鵰那馬
 鵲愉閣
 鶇銀大廈
 鶴亭
@@ -43009,7 +42987,6 @@ use_preset_vocabulary: true
 龜崗大馬路
 龜嶺
 龜頭山
-骨
 𠼮個契弟
 𠼮𠼮篩篩
 𢆡姑
@@ -43022,6 +42999,12 @@ use_preset_vocabulary: true
 𤗈高
 𥄫嘢
 𥄫𥄫
+䀹住
+䀹住佢
+㓤咗
+㓤針
+㩒掣
+㩒𨋢
 𧒽崗
 𨃩低
 𨃩腳
@@ -43033,4 +43016,5 @@ use_preset_vocabulary: true
 𨳒你老母
 𨳒死
 𨳒那媽
-𨳒那性
+𨳒那星
+

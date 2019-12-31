@@ -32,7 +32,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.11.09"
+version: "2019.12.31"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -653,7 +653,9 @@ import_tables:
 堷	bau6	
 啤	be1	
 㼰	be1	
+唄	be6
 㠔	be6	
+嚊	be6	
 㠗	bei1	
 陂	bei1	
 卑	bei1	
@@ -773,6 +775,7 @@ import_tables:
 箄	bei6	
 䡟	bei6	
 𡀠	bei6	
+嚊	bei6
 壁	bek3	
 㝸	beng2	
 鉼	beng2	
@@ -3365,6 +3368,7 @@ import_tables:
 𢸶	cyut3	
 𠾼	cyut6	
 打	daa1	5%
+咑	daa1
 打	daa2	
 呆	daai1	
 獃	daai1	
@@ -3417,6 +3421,7 @@ import_tables:
 䙷	daak1	
 㯖	daak1	
 㥀	daak1	
+咑	daak1
 㚮	daam1	
 眈	daam1	
 耽	daam1	
@@ -3667,6 +3672,9 @@ import_tables:
 抌	dam2	
 㷋	dam2	
 㱽	dam2	
+丼	dam2	
+澸	dam2	
+衴	dam2	
 𦂥	dam3	
 髧	dam3	
 揼	dam3	5%
@@ -3924,7 +3932,7 @@ import_tables:
 啲	di1	
 的	dik1	
 嘀	dik1	
-滴	dik1	6%
+滴	dik1	5%
 靮	dik1	
 馰	dik1	
 嫡	dik1	
@@ -15581,6 +15589,7 @@ import_tables:
 訝	ngaa6	
 𦜖	ngaa6	
 御	ngaa6	
+𠊎	ngaai1
 娭	ngaai1	
 捱	ngaai4	
 啀	ngaai4	
@@ -31585,7 +31594,6 @@ import_tables:
 凋零	diu1 ling4	
 雕落	diu1 lok6	
 刁蠻	diu1 maan4	
-丟那媽	diu1 naa5 maa1	
 丟眼角	diu1 ngaan5 gok3	
 丟三拉四	diu1 saam1 laai6 sei3	
 丟生嗮	diu1 saang1 saai3	
@@ -45011,10 +45019,12 @@ import_tables:
 漏罅	lau6 laa3	
 漏網遊魚	lau6 mong5 jau4 jyu4	
 陋室	lau6 sat1	
-咧啡	le3 fe1	
 咧啡	le4 fe4	
+離啡	le4 fe4	
+𠻗啡	le4 fe4	
 咧氣	le4 he3	
 離氣	le4 he3	
+𠻗𠺪	le4 he3	
 咧嗮氣	le4 saai3 he3	
 離嗮氣	le4 saai3 he3	
 哩個	lei1 go3	
@@ -49687,6 +49697,7 @@ import_tables:
 挨晚	ngaai1 maan1	
 挨拼	ngaai1 peng1	
 挨拼椅	ngaai1 peng1 ji2	
+𠊎話	ngaai1 waa2
 嗌交	ngaai3 gaau1	
 嗌救命	ngaai3 gau3 meng6	
 嗌嘢	ngaai3 je5	
