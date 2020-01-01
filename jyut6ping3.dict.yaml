@@ -32,7 +32,7 @@
 
 ---
 name: jyut6ping3
-version: "2019.12.31"
+version: "2020.01.01"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -11466,6 +11466,7 @@ import_tables:
 𦮳	kei5	
 跂	kei5	
 企	kei5	
+徛	kei5	
 𢲈	kek1	
 屐	kek6	
 劇	kek6	
@@ -17783,7 +17784,7 @@ import_tables:
 䔠	sau1	
 收	sau1	
 鄋	sau1	
-搜	sau1	
+搜	sau1	5%
 蒐	sau1	
 嗖	sau1	
 獀	sau1	
@@ -51230,7 +51231,7 @@ import_tables:
 便宜老豆	pin4 ji4 lou5 dau6	
 便宜說話	pin4 ji4 syut3 waa6	
 姘婦	ping1 fu5	
-拼音	ping1 jam1	
+拼音	ping1 jam1	3%
 乒鈴𠾴唥	ping1 ling1 baang4 laang4	
 砰拎棒冷	ping1 ling1 paang1 laang1	
 乒乓波	ping1 pong1 bo1	
