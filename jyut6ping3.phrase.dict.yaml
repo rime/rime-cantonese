@@ -18,7 +18,7 @@
 
 ---
 name: jyut6ping3.phrase
-version: "2020.01.01"
+version: "2020.01.02"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -43308,7 +43308,6 @@ use_preset_vocabulary: true
 神戶勝利船
 慎言謹行
 生死相依
-陞級
 聖埃蒂安
 聖何塞
 十馬九穩
@@ -43409,7 +43408,7 @@ use_preset_vocabulary: true
 玉宇瓊樓
 遠上寒山石徑斜
 粵語詞彙
-嶽陽
+岳陽
 雲計算
 雲霧迷濛
 雲想衣裳花想容

@@ -32,7 +32,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.01.01"
+version: "2020.01.02"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -7729,6 +7729,7 @@ import_tables:
 鰕	haa1	
 閜	haa1	
 岈	haa1	
+㗇	haa1	
 吓	haa2	0%
 蛤	haa4	
 瘕	haa4	
@@ -37737,6 +37738,7 @@ import_tables:
 蝦春	haa1 ceon1	
 蝦腸	haa1 coeng2	
 哈德遜河	haa1 dak1 seon3 ho4	
+㗇得就㗇	haa1 dak1 zau6 haa1	
 蝦得就蝦	haa1 dak1 zau6 haa1	
 蝦膠	haa1 gaau1	
 蝦餃	haa1 gaau2	
@@ -37745,9 +37747,13 @@ import_tables:
 蝦公	haa1 gung1	
 哈哈	haa1 haa1	
 蛤蛤	haa1 haa1	
+㗇㗇霸霸	haa1 haa1 baa3 baa3	
 蝦蝦霸霸	haa1 haa1 baa3 baa3	
 哈希	haa1 hei1	
+㗇人	haa1 jan4	
 蝦人	haa1 jan4	
+㗇人㗇物	haa1 jan4 haa1 mat6
+蝦人蝦物	haa1 jan4 haa1 mat6
 蝦夷	haa1 ji4	
 哈爾濱	haa1 ji5 ban1	
 哈拉子	haa1 laai1 zi2	
