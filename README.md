@@ -15,7 +15,7 @@
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
-## 用法
+## 使用說明
 
 ### 聲調輸入
 
@@ -58,6 +58,8 @@ Linux 同 macOS 系統下打開終端，`cd` 到 [plum](https://github.com/rime/
 ```bash
 bash rime-install emoji
 ```
+
+Android 系統下，只需要前往 https://github.com/rime/rime-emoji/tree/master/opencc 下載入邊嘅三個文件 `emoji.json`、`emoji_category.txt`、`emoji_word.txt`複製到`rime`文件夾嘅`opencc`文件夾入邊。
 
 然後打字嗰陣就可以見到候選詞有 Emoji 了。
 
