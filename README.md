@@ -72,12 +72,14 @@ Android 系統下，只需要前往 <https://github.com/rime/rime-emoji/tree/mas
 - 廣州話正音字典 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8)
 - 常用字廣州話讀音表 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/1992_%E5%B8%B8%E7%94%A8%E5%AD%97%E5%BB%A3%E5%B7%9E%E8%A9%B1%E8%AE%80%E9%9F%B3%E8%A1%A8)
 - 粵語審音配詞字庫 - [原網站](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/) - [資料來源 (sgalal/lexi_can_crawler)](https://github.com/sgalal/lexi_can_crawler)
+- 香港增補字符集 - [原網站](https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/hkscs/)
 
 ### 詞語
 
 - 香港語言學學會粵拼詞表 - [原網站](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
-- open-source Cantonese-to-English dictionary (CC-Canto) - [原網站](http://www.cccanto.org/)
+- 粵典 - [原網站](https://words.hk/)
 - open Cantonese dictionary - [原網站](http://kaifangcidian.com/han/yue)
+- open-source Cantonese-to-English dictionary (CC-Canto) - [原網站](http://www.cccanto.org/)
 
 ## 詞庫製作流程
 
