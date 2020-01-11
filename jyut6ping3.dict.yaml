@@ -14,13 +14,14 @@
 # 2. 粵音小鏡
 # 3. 廣州話正音字典
 # 4. 常用字廣州話讀音表
-# 5. 粵語審音配詞字庫
-#   Website: https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/
+# 5. 粵語審音配詞字庫 https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/
+# 6. 香港增補字符集 https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/hkscs/
 #
 # 詞條數據來源
+# Cantonese dictionary https://words.hk/
 # LSHK Jyutping Word List https://corpus.eduhk.hk/JPwordlist/
-# open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
 # open Cantonese dictionary http://kaifangcidian.com/han/yue
+# open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
 #
 # 碼表製作與校對人員
 # sgal <1727246457@qq.com>
@@ -32,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.01.02"
+version: "2020.01.11"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -42754,7 +42755,6 @@ import_tables:
 撈雞	laau4 gai1	
 撈嘢	laau4 je5	
 撈埋	laau4 maai4	
-撈鬆	laau4 sung1	
 撈靜水	laau4 zing6 seoi2	
 厲埋片面	lai2 maai4 pin3 min6	
 戾手	lai2 sau2	
@@ -53700,8 +53700,10 @@ import_tables:
 蘇蝦	sou1 haa1	
 臊孲	sou1 haa1	
 臊蝦	sou1 haa1	
+臊孲女	sou1 haa1 neoi2	
 臊蝦女	sou1 haa1 neoi2	
 臊蝦女	sou1 haa1 neoi5	
+臊孲仔	sou1 haa1 zai2	
 臊蝦仔	sou1 haa1 zai2	
 蘇蝦仔	sou1 haa1 zai2	
 騷擾	sou1 jiu2	
