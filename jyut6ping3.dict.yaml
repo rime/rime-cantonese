@@ -33,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.01.11"
+version: "2020.01.13"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -42,6 +42,7 @@ import_tables:
 - jyut6ping3.phrase
 ...
 
+# 單字音
 
 㝞	aa1	
 䃁	aa1	
@@ -8536,7 +8537,6 @@ import_tables:
 狘	hyut3	
 瞲	hyut3	
 血	hyut3	
-齧	it6	
 吔	jaa1	
 也	jaa5	
 卄	jaa6	
@@ -13876,6 +13876,7 @@ import_tables:
 貌	maau6	
 𠒇	maau6	
 咪	mai1	
+劘	mai1	
 謎	mai2	
 㝥	mai4	
 䛧	mai4	
@@ -22900,6 +22901,8 @@ import_tables:
 黜	zyut6	
 𠭴	zyut6	
 
+
+# 詞彙
 
 吖嘛	aa1 maa3	
 啊嘛	aa1 maa3	
