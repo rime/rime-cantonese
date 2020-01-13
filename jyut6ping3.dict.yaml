@@ -33,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.01.11"
+version: "2020.01.13"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -38979,7 +38979,7 @@ import_tables:
 入蟄	jap6 zat6	
 入紙	jap6 zi2	
 入咗	jap6 zo2	
-一唔係	jat m4 hai6	
+一唔係	jat1 m4 hai6	
 一把火	jat1 baa2 fo2	
 一把好手	jat1 baa2 hou2 sau2	
 一把眼淚一把鼻涕	jat1 baa2 ngaan5 leoi6 jat1 baa2 bei6 tai3	
@@ -54324,7 +54324,6 @@ import_tables:
 撻數	taat3 sou3	
 撻頭	taat3 tau4	
 撻住對鞋	taat3 zyu6 deoi3 haai4	
-睇重	tai zung6	
 銻煲	tai1 bou1	
 梯型	tai1 jing4	
 梯形	tai1 jing4	
@@ -54496,6 +54495,7 @@ import_tables:
 睇中	tai2 zung1	
 睇鐘數	tai2 zung1 sou3	
 睇中	tai2 zung3	
+睇重	tai2 zung6	
 睇住	tai2 zyu6	
 睇住佢頭	tai2 zyu6 keoi5 tau2	
 睇住來	tai2 zyu6 lai4	
