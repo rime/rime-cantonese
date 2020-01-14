@@ -43455,6 +43455,7 @@ use_preset_vocabulary: true
 
 
 # 含數字和英文的詞彙
+
 # %	pat6 sen1
 # %	poe6 sen1
 # %	pe6 sen1
@@ -43476,7 +43477,7 @@ use_preset_vocabulary: true
 # 67	luk1 cat6
 # 689	luk6 baat3 gau2
 # 7-11	cat1 sap6 jat1
-# 777	cat1 cat1 cat1
+# 2月15日	cat1 cat1 cat1
 # 88牌	baat3 baat3 paai4
 # 97	gau2 cat1
 # 9upper	gau1 ap1 paa4
@@ -44373,9 +44374,11 @@ use_preset_vocabulary: true
 # 背多fun	bui3 do1 fan1
 # 弊家leu	bai6 gaa1 leu1
 # 波boot	bo1 but1
-# 踩roller	caai2 lou1 laa2,jaai2 lou1 laa2
+# 踩roller	caai2 lou1 laa2
+# 踩roller	jaai2 lou1 laa2
 # 唱K	coeng3 kei1
-# 唱卡啦OK	coeng3 kaa1 laa1 ou1 kei1,coeng3 kaa3 laa1 ou1 kei1
+# 唱卡啦OK	coeng3 kaa1 laa1 ou1 kei1
+# 唱卡啦OK	coeng3 kaa3 laa1 ou1 kei1
 # 車cam	ce1 kem1
 # 扯lin旗	ce2 lin1 kei4
 # 出cheat	ceot1 cit1
@@ -44389,7 +44392,7 @@ use_preset_vocabulary: true
 # 打999	daa2 gau2 gau2 gau2
 # 打boxing	daa2 bok1 sing2
 # 打J	daa2 zei1
-# 大M	daai6 em1,daai6 en1
+# 大M	daai6 em1
 # 大sir	daai6 soe4
 # 大V	daai6 wi1
 # 單T	daan1 ti1
@@ -44398,12 +44401,14 @@ use_preset_vocabulary: true
 # 低B仔	dai1 bi1 zai2
 # 啲fd	di1 fen1
 # 啲friend	di1 fen1
-# 跌watt	dit3 wok1,dit3 wot1
+# 跌watt	dit3 wok1
+# 跌watt	dit3 wot1
 # 動L	dung6 eu1
 # 賭J	dou2 zei1
 # 賭jer	dou2 zoe1
 # 哆啦A夢	do1 laa1 ei1 mung6
-# 呃like	ngaak1 lai1,aak1 lai1
+# 呃like	ngaak1 lai1
+# 呃like	aak1 lai1
 # 發ti騰	faat3 ti4 tang4
 # 發T騰	faat3 ti4 tang4
 # 分AB	fan1 ei1 bi1
@@ -44436,8 +44441,9 @@ use_preset_vocabulary: true
 # 接job	zip3 zop1
 # 拮拮friend	gat1 gat1 fen1
 # 卡拉OK	kaa1 laa1 ou1 kei1
-# 卡拉OK	kaa1 laa1 ou1 kei1,kaa3 laa1 ou1 kei1
-# 卡啦OK	kaa1 laa1 ou1 kei1,kaa3 laa1 ou1 kei1
+# 卡拉OK	kaa3 laa1 ou1 kei1
+# 卡啦OK	kaa1 laa1 ou1 kei1
+# 卡啦OK	kaa3 laa1 ou1 kei1
 # 開Band	hoi1 ben1
 # 開check	hoi1 cek1
 # 開cheque	hoi1 cek1
@@ -44449,8 +44455,8 @@ use_preset_vocabulary: true
 # 來M	lei4 em1
 # 攬belt	laam2 biu1
 # 爛gag	laan6 gek1
-# 嚟M	lei4 em1,lai4 em1
-# 靈keng	leng4 keng4
+# 嚟M	lei4 em1
+# 嚟M	lai4 em1
 # 籠liu	lung4 liu1
 # 碌ling	luk1 ling1
 # 落D	lok6 di1
@@ -44478,7 +44484,7 @@ use_preset_vocabulary: true
 # 三T	saam1 ti1
 # 散band	saan3 ben1
 # 騷quali	sou1 ko1 li2
-# 騷quali	sou1 kwo1 li2,sou1 ko1 li2
+# 騷quali	sou1 kwo1 li2
 # 掃chord	sou3 kot1
 # 沙pok	saa1 pok1
 # 沙pop	saa1 pok1
@@ -44499,7 +44505,8 @@ use_preset_vocabulary: true
 # 跳over	tiu3 ou1 faa4
 # 完sem	jyun4 sem6
 # 玩LINE	waan2 laai1
-# 玩SM	waan2 e1 sem1,waan2 e1 si4 em1
+# 玩SM	waan2 e1 sem1
+# 玩SM	waan2 e1 si4 em1
 # 搵人唱卡拉OK	wan2 jan4 coeng3 kaa1 laa1 ou1 kei1
 # 唔do	m4 du1
 # 唔夠quali	m4 gau3 ko1 li2
@@ -44516,7 +44523,7 @@ use_preset_vocabulary: true
 # 一Q清枱	jat1 kiu1 cing1 toi2
 # 一take過	jat1 tik1 gwo3
 # 異維A酸	ji6 wai4 ei1 syun1
-# 郵chop	jau4 cop1,jau4 cok1
+# 郵chop	jau4 cop1
 # 有feel	jau5 fiu1
 # 有heart	jau5 haat1
 # 有point	jau5 pon1
