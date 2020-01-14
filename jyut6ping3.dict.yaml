@@ -23631,9 +23631,9 @@ import_tables:
 矮呆病	ai2 ngoi4 beng6
 矮得得	ai2 dat1 dat1
 矮凳	ai2 dang3
-矮凳仔	ngai2 dang3 zai2
+矮凳仔	ai2 dang3 zai2
 矮櫈	ai2 dang3
-矮櫈仔	ngai2 dang3 zai2
+矮櫈仔	ai2 dang3 zai2
 矮地茶	ai2 dei6 caa4
 矮怢怢	ai2 dat1 dat1
 矮墩墩	ai2 deon1 deon1
@@ -25258,9 +25258,8 @@ import_tables:
 把家	baa2 gaa1
 把酒	baa2 zau2
 把酒言歡	baa2 zau2 jin4 fun1
-把口過油	baa2 hau2 long2 gwo3 jau4
-把口啷過油	baa2 jau2 long2 gwo3 jau4
-把口瑯過油	baa2 hau2 long2 gwo3 jau4
+把口𠺘過油	baa2 hau2 long2 gwo3 jau4
+把口啷過油	baa2 hau2 long2 gwo3 jau4
 把口唔收	baa2 hau2 m4 sau1
 把口唔收	baa2 hau3 m4 sau1
 把口唔修	baa2 hau2 m4 sau1
@@ -25289,7 +25288,6 @@ import_tables:
 把握	baa2 ak1
 把握	baa2 aak1
 把戲	baa2 hei3
-把心唔定	baa2 sam1 ng4 ding6
 把心唔定	baa2 sam1 m4 ding6
 把兄弟	baa2 hing1 dai6
 把盞	baa2 zaan2
@@ -40568,7 +40566,6 @@ import_tables:
 從天而降	cung4 tin1 ji4 gong3
 從頭	cung4 tau4
 從頭到腳	cung4 tau4 dou3 goek3
-從頭到尾	cung4 tau4 dou3 mei3
 從頭到尾	cung4 tau4 dou3 mei5
 從頭開始	cung4 tau4 hoi1 ci2
 從頭再嚟	cung4 tau4 zoi3 lei4
@@ -40668,7 +40665,6 @@ import_tables:
 粗厲	cou1 lai6
 粗糲	cou1 lai6
 粗糧	cou1 loeng4
-粗劣	cou1 lyut6
 粗劣	cou1 lyut3
 粗劣品	cou1 lyut3 ban2
 粗劣作品	cou1 lyut3 zok3 ban2
@@ -41346,7 +41342,6 @@ import_tables:
 打靶佬	daa2 baa2 lou2
 打靶仔	daa2 baa2 zai2
 打白鴿轉	daa2 baak6 gaap3 zyun3
-打白鴿轉	daa2 baak6 gaap3 zyun2
 打白條	daa2 baak6 tiu4
 打敗	daa2 baai6
 打敗仗	daa2 baai6 zoeng3
@@ -41412,7 +41407,6 @@ import_tables:
 打掣	daa2 zai3
 打沉	daa2 cam4
 打成平手	daa2 sing4 ping4 sau2
-打成一片	daa1 cing4 jat1 pin3
 打成一片	daa2 sing4 jat1 pin3
 打赤膊	daa2 cek3 bok3
 打赤腳	daa2 cek3 goek3
@@ -41445,7 +41439,6 @@ import_tables:
 打蛋器	daa2 daan2 hei3
 打倒	daa2 dou2
 打倒褪	daa2 dou3 tan3
-打倒褪	daa2 dou2 tan3
 打倒掟	daa2 dou3 deng3
 打倒掟放	daa2 dou3 deng3
 打到	daa2 dou3
@@ -41835,14 +41828,12 @@ import_tables:
 打水漂	daa2 seoi2 piu1
 打睡	daa2 seoi6
 打思噎	daa2 si1 ik1
-打思噎	daa2 si1 jit3
-打思噎	daa2 si1 zik1
+打思肊	daa2 si1 ik1
 打思噎	daa2 si1 jik1
 打思肊	daa2 si1 jik1
 打死	daa2 sei1
 打死	daa2 sei2
 打死不離親兄弟	daa2 sei2 bat1 lei4 can1 hing1 dai6
-打死狗講價	daa2 sei1 gau2 gong2 gaa3
 打死狗講價	daa2 sei2 gau2 gong2 gaa3
 打死唔信	daa2 sei2 m4 seon3
 打死纈	daa2 sei2 lit3
@@ -41924,10 +41915,11 @@ import_tables:
 打烊	daa2 joeng2
 打烊	daa2 joeng4
 打噎	daa2 ik1
+打肊	daa2 ik1
 打噎	daa2 jik1
+打肊	daa2 jik1
 打野炮	daa2 je5 paau3
 打野戰	daa2 je5 zin3
-打肊	daa2 jik1
 打印	daa2 jan3
 打印服務器	daa2 jan3 fuk6 mou6 hei3
 打印機	daa2 jan3 gei1
@@ -43237,9 +43229,12 @@ import_tables:
 大細眼	daai6 sai3 ngaan5
 大戲	daai6 hei3
 大蝦	daai6 haa1
+大㗇細	daai6 haa1 sai3
 大蝦細	daai6 haa1 sai3
-大蝦細俾屎餵	daai3 haa1 sai3 bei2 si2 wai3
+大㗇細畀屎餵	daai3 haa1 sai3 bei2 si2 wai3
 大蝦細畀屎餵	daai3 haa1 sai3 bei2 si2 wai3
+大㗇細畀屎餵細㗇大冇問題	daai3 haa1 sai3 bei2 si2 wai3 sai3 haa1 daai6 mou5 man6 tai4
+大蝦細畀屎餵細蝦大冇問題	daai3 haa1 sai3 bei2 si2 wai3 sai3 haa1 daai6 mou5 man6 tai4
 大俠	daai6 hap6
 大俠	daai6 haap6
 大峽谷	daai6 haap6 guk1
@@ -64580,7 +64575,6 @@ import_tables:
 行不顧言	hang4 bat1 gu3 jin4
 行不通	haang4 bat1 tung1
 行不由徑	hang4 bat1 jau4 ging3
-行步路打倒褪	haang4 bou6 lou6 daa2 dou2 tan3
 行步路打倒褪	haang4 bou6 lou6 daa2 dou3 tan3
 行草	hang4 cou2
 行差踏錯	haang4 caa1 daap6 co3
@@ -64727,8 +64721,6 @@ import_tables:
 行路	haang4 lou6
 行路	hang4 lou6
 行路打倒褪	haang4 lou6 daa2 dou3 tan3
-行路打倒褪	haang4 lou6 daa2 dou2 tan3
-行路唔帶眼	haang4 lou6 m4 daai3 ngaan2
 行路唔帶眼	haang4 lou6 m4 daai3 ngaan5
 行旅	hang4 leoi5
 行埋	haang4 maai4
@@ -76926,7 +76918,6 @@ import_tables:
 攪出個大頭佛	gaau2 ceot1 go3 daai6 tau4 fat6
 攪錯	gaau2 co3
 攪到	gaau2 dou3
-攪到咁大鑊	gaau2 dou3 gam2 daai6 wok6
 攪到咁大鑊	gaau2 dou3 gam3 daai6 wok6
 攪到咁大劑	gaau2 dou3 gam3 daai6 zai1
 攪到滿天神佛	gaau2 dou3 mun5 tin1 san4 fat6
@@ -130763,8 +130754,7 @@ import_tables:
 同我	tung4 ngo5
 同屋	tung4 nguk1
 同屋	tung4 uk1
-同屋共主	tung4 nguk1 gung6 zyu2
-同屋主	tung4 nguk1 zyu2
+同屋共主	tung4 uk1 gung6 zyu2
 同屋主	tung4 uk1 zyu2
 同屋住	tung4 uk1 zyu6
 同屋住	tung4 uk1 zyu2
@@ -130790,7 +130780,6 @@ import_tables:
 同性相斥	tung4 sing3 soeng1 cik1
 同姓	tung4 sing3
 同學	tung4 hok6
-同學會	tung4 hok6 wui5
 同學會	tung4 hok6 wui6
 同學錄	tung4 hok6 luk6
 同硯	tung4 jin6
@@ -154951,7 +154940,6 @@ import_tables:
 有害無利	jau5 hoi6 mou4 lei6
 有害無益	jau5 hoi6 mou4 jik1
 有咁…得咁…	jau5 gam3 dak1 gam3
-有咁啱得咁蹺	jau5 gam3 ngaam1 dak1 gam3 hiu1
 有咁啱得咁蹺	jau5 gam3 ngaam1 dak1 gam3 kiu2
 有行	jau5 hong4
 有好多	jau5 hou2 do1
@@ -155078,7 +155066,6 @@ import_tables:
 有囉	jau5 lo1
 有碼	jau5 maa5
 有慢	jau5 maan6
-有毛有翼	jau5 mo4 jau5 jik6
 有毛有翼	jau5 mou4 jau5 jik6
 有冇	jau5 mou5
 有冇得	jau5 mou5 dak1
@@ -155098,6 +155085,7 @@ import_tables:
 有面	jau5 min6
 有咩	jau5 me1
 有咩冬瓜豆腐	jat1 me1 dung1 gwaa1 dau6 fu6
+有咩咿喐	jau5 me1 ji1 juk1
 有咩依郁	jau5 me1 ji1 juk1
 有咩用	jau5 me1 jung6
 有哶用	jau5 me1 jung6
@@ -155120,7 +155108,6 @@ import_tables:
 有年	jau5 nin4
 有年頭	jau5 nin4 tau4
 有乜	jau5 mat1
-有乜冬瓜豆腐	jat1 mat1 dung1 gwaa1 dau6 fu6
 有乜冬瓜豆腐	jau5 mat1 dung1 gwaa1 dau6 fu6
 有乜冬瓜豆腐	jau5 me1 dung1 gwaa1 dau6 fu6
 有乜咁巴閉	jau5 mat1 gam3 baa1 bai3
@@ -155217,7 +155204,6 @@ import_tables:
 有神論	jau5 san4 leon6
 有神論者	jau5 san4 leon6 ze2
 有神冇氣	jau5 san4 mou5 hei3
-有神冇氣	jau5 san4 ou5 hei3
 有諗頭	jau5 nam2 tau4
 有生以來	jau5 sang1 ji5 loi4
 有生之年	jau5 sang1 zi1 nin4
@@ -155245,8 +155231,6 @@ import_tables:
 有事	jau5 si6
 有事就兄弟，冇事就契弟	jau5 si6 zau6 hing1 dai6 mou5 si6 zau6 kai3 dai6
 有事慢慢講	jau5 si6 maan6 maan2 gong2
-有事慢慢講	jau5 si6 maan4 maan5 gong2
-有事慢慢講	jau5 si6 maan6 maan6 gong2
 有事鐘無艷，無事夏迎春	jau5 si6 zung1 mou4 jim6 mou4 si6 haa6 jing4 ceon1
 有恃無恐	jau5 ci5 mou4 hung2
 有手有腳	jau5 sau2 jau5 goek3
@@ -155406,7 +155390,6 @@ import_tables:
 有意思	jau5 ji3 si3
 有意無意	jau5 ji3 mou4 ji3
 有意義	jau5 ji3 ji6
-有意栽花花不發，無心插柳柳成陰	jau5 ji3 zoi1 faa1 faa1 bat1 faat3 mou4 sam1 caap3 lau5 lau5 sing4 jam1
 有意栽花花不發，無心插柳柳成蔭	jau5 ji3 zoi1 faa1 faa1 bat1 faat3 mou4 sam1 caap3 lau5 lau5 sing4 jam3
 有意志	jau5 ji3 zi3
 有毅力	jau5 ngai6 lik6
@@ -157385,7 +157368,6 @@ import_tables:
 曱甴	gaat6 zaat2
 曱甴	gaat6 zaat6
 曱甴屎	gaat6 zaat2 si2
-曱甴屎	gaak6 gaat6 si2
 曱甴屎	gaat6 zaat6 si2
 曱甴屋	gaat6 zaat2 uk1
 約伯	joek3 baak3
@@ -161879,9 +161861,8 @@ import_tables:
 正月初三	zing3 jyut6 co1 saam1
 正月初一	zing1 jyut6 co1 jat1
 正在	zing3 zoi6
-正则表达式	zing3 zak1 biu2 daat6 sik1
-正则化	zing3 zak1 faa3
 正則	zing3 zak1
+正則化	zing3 zak1 faa3
 正則表達式	zing3 zak1 biu2 daat6 sik1
 正則參數	zing3 zak1 caam1 sou3
 正站	zing3 zaam6
@@ -161896,7 +161877,6 @@ import_tables:
 正職	zing3 zik1
 正中	zing3 zung1
 正中間	zing3 zung1 gaan1
-正中下懷	zing3 zung1 haa6 waai4
 正中下懷	zing3 zung3 haa6 waai4
 正中央	zing3 zung1 joeng1
 正中要害	zing3 zung3 jiu3 hoi6
