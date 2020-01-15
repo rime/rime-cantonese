@@ -40,6 +40,7 @@ max_phrase_length: 7
 min_phrase_weight: 100
 import_tables:
 - jyut6ping3.phrase
+- jyut6ping3.lettered
 ...
 
 # 單字音
