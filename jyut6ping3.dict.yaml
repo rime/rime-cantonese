@@ -33,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.01.14"
+version: "2020.01.18"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -7005,27 +7005,27 @@ import_tables:
 㫛	gwong3	
 桄	gwong3	
 𩑈	gwong3	
-䉉	gwu1	
-䧸	gwu1	
-呱	gwu1	
-咕	gwu1	
-𠵎	gwu1	
-𡦈	gwu1	
-𥑮	gwu2	
-𥥖	gwu2	
-㧽	gwu3	
-䏗	gwui3	
-莞	gwun1	
-𣻻	gwun1	
-𥕜	gwun1	
-䗆	gwun2	
-䘾	gwun2	
-䪀	gwun2	
-莞	gwun2	
-𤪔	gwun2	
-𠍿	gwun3	
-𤎽	gwun3	
-𥖏	gwun3	
+䉉	gu1	
+䧸	gu1	
+呱	gu1	
+咕	gu1	
+𠵎	gu1	
+𡦈	gu1	
+𥑮	gu2	
+𥥖	gu2	
+㧽	gu3	
+䏗	gui3	
+莞	gun1	
+𣻻	gun1	
+𥕜	gun1	
+䗆	gun2	
+䘾	gun2	
+䪀	gun2	
+莞	gun2	
+𤪔	gun2	
+𠍿	gun3	
+𤎽	gun3	
+𥖏	gun3	
 㳙	gyun1	
 䅌	gyun1	
 䳌	gyun1	
@@ -11839,13 +11839,13 @@ import_tables:
 纊	kwong3	
 鄺	kwong3	
 狂	kwong4	
-㗄	kwu1	
-䙌	kwui2	
-圚	kwui2	
-薈	kwui2	
-䯏	kwut3	
-泧	kwut3	
-萿	kwut3	
+㗄	ku1	
+䙌	kui2	
+圚	kui2	
+薈	kui2	
+䯏	kut3	
+泧	kut3	
+萿	kut3	
 㩲	kyun4	
 䑏	kyun4	
 䟒	kyun4	
@@ -58195,7 +58195,6 @@ import_tables:
 高質量	gou1 zat1 loeng6
 高中	gou1 zung1
 高中	gou1 zung3
-高中	zung1 hok6
 高中生	gou1 zung1 saang1
 高中生	gou1 zung1 sang1
 高中學生	gou1 zung1 hok6 saang1
@@ -62524,7 +62523,6 @@ import_tables:
 桂東縣	gwai3 dung1 jyun6
 桂格	gwai3 gaak3
 桂冠	gwai3 gun1
-桂冠	gwai3 gwun1
 桂花	gwai3 faa1
 桂花蟬	gwai3 faa1 sim4
 桂花糕	gwai3 faa1 gou1
@@ -71766,6 +71764,7 @@ import_tables:
 咭數	kaat1 sou3
 咭紙	kaat1 zi2
 唧車	zik1 ce1
+擳都唔笑	zit1 dou1 m4 siu3
 唧都唔笑	zit1 dou1 m4 siu3
 唧都唔笑	zek1 dou1 m4 siu3
 唧咕	zik1 gu1
@@ -71776,9 +71775,11 @@ import_tables:
 唧屐	zek1 kek6
 唧啾	zik1 zau1
 唧筒	zik1 tung2
+擳筒	zit1 tung2
 唧筒	zit1 tung2
 唧筒座	zik1 tung2 zo6
 唧牙膏	zit1 ngaa4 gou1
+擳魚蛋	zit1 jyu4 daan2
 唧魚蛋	zit1 jyu4 daan2
 笄冠	gai1 gun3
 笄年	gai1 nin4
@@ -77802,6 +77803,7 @@ import_tables:
 擳都唔笑	zit1 dou1 m4 siu3
 擳牙膏	zit1 ngaa4 gou1
 擳牙膏	zit1 aa4 gou1
+擳胳肋底	zit1 gaak3 laak1 dai2
 擮胳肋底	zit1 gaak3 laak1 dai2
 姐弟	ze2 dai6
 姐弟戀	ze2 dai6 lyun2
@@ -77811,8 +77813,8 @@ import_tables:
 姐妹	ze2 mui6
 姐妹花	ze2 mui6 faa1
 姐手姐腳	ze2 sau2 ze2 goek3
-姐係	ze1 hai6
-姐係話	ze1 hai6 waa6
+即係	ze1 hai6
+即係話	ze1 hai6 waa6
 姐丈	ze2 zoeng6
 解百納	gaai2 baak3 naap6
 解綁	gaai2 bong2
@@ -111221,6 +111223,7 @@ import_tables:
 拳頭交	kyun4 tau4 gaau1
 拳王	kyun4 wong4
 拳眼	kyun4 ngaan5
+屌𨳍	diu2 cat6
 𨳒𨳍	diu2 cat6
 𨳒你老母	diu2 nei5 lou5 mou2
 𨳒你老味	diu2 nei5 lou5 mei2
@@ -112215,7 +112218,6 @@ import_tables:
 人壽燕梳	jan4 sau6 jin3 so1
 人數	jan4 sou3
 人衰行路打倒褪	jan4 seoi1 haang4 lou6 daa2 dou3 tan3
-人衰行路打倒褪	jan4 seoi1 haang4 lou6 daa2 dou2 tan3
 人誰無過	jan4 seoi4 mou4 gwo3
 人死	jan4 sei2
 人算不如天算	jan4 syun3 bat1 jyu4 tin1 syun3
@@ -128996,7 +128998,7 @@ import_tables:
 天城文	tin1 sing4 man4
 天秤	tin1 ping4
 天秤座	tin1 ping4 zo6
-天秤座	tin1 cin3 zo6
+天秤座	tin1 cing3 zo6
 天池	tin1 ci4
 天穿日	tin1 cyun1 jat6
 天窗	tin1 coeng1
@@ -129042,7 +129044,6 @@ import_tables:
 天鵝	tin1 ngo4
 天鵝湖	tin1 ngo4 wu4
 天鵝絨	tin1 ngo4 jung2
-天鵝絨	tin1 ngo5 jung4
 天鵝肉	tin1 ngo4 juk6
 天鵝座	tin1 ngo4 zo6
 天兒	tin1 ji4
@@ -134931,7 +134932,6 @@ import_tables:
 委任統治	wai2 jam6 tung2 zi6
 委任證	wai2 jam6 zing3
 委蛇	wai1 ji4
-委蛇	wai1 se4
 委身	wai2 san1
 委實	wai2 sat6
 委托	wai2 tok3
@@ -141894,7 +141894,6 @@ import_tables:
 橡皮	zoeng6 pei4
 橡皮擦	zoeng6 pei4 caat3
 橡皮膏	zoeng6 pei4 gou1
-橡皮筋	zoeng4 pei4 gan1
 橡皮筋	zoeng6 pei4 gan1
 橡皮球	zoeng6 pei4 kau4
 橡皮圈	zoeng6 pei4 hyun1
@@ -160025,7 +160024,6 @@ import_tables:
 張自忠	zoeng1 zi6 zung1
 張嘴	zoeng1 zeoi2
 張作霖	zoeng1 zok3 lam4
-獐頭鼠目	zoeng1 tau4 syu2 muk4
 獐頭鼠目	zoeng1 tau4 syu2 muk6
 彰化	zoeng1 faa3
 彰化市	zoeng1 faa3 si5
@@ -160846,8 +160844,6 @@ import_tables:
 貞烈	zing1 lit6
 貞女	zing1 neoi5
 胗肝	zan1 gon1
-真。	zan1 dim2
-真·	zan1 dim2
 真愛	zan1 oi3
 真版	zan1 baan2
 真棒	zan1 paang5
