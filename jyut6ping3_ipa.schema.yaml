@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.2.1"
+  version: "0.2.2"
   author:
     - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
@@ -110,7 +110,7 @@ speller:
 
 translator:
   dictionary: jyut6ping3
-  spelling_hints: 5
+  spelling_hints: 8
   preedit_format:
     - xform/(^|[ '])(m|ng)+$/$1$2̩$3/          # 唔m̩ 五ŋ̩
     - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
@@ -187,7 +187,6 @@ translator:
 luna_pinyin:
   tag: luna_pinyin
   dictionary: luna_pinyin
-  enable_user_dict: false
   prefix: "`"
   suffix: ";"
   tips: 〔拼音〕
@@ -199,7 +198,6 @@ luna_pinyin:
 stroke:
   tag: stroke
   dictionary: stroke
-  enable_user_dict: false
   prefix: "x"
   suffix: ";"
   tips: 〔筆畫〕
@@ -209,7 +207,6 @@ stroke:
 cangjie5:
   tag: cangjie5
   dictionary: cangjie5
-  enable_user_dict: false
   prefix: "v"
   suffix: ";"
   tips: 〔倉頡五代〕
@@ -223,7 +220,7 @@ cangjie5:
     - "^yyy.*$"
 
 reverse_lookup:
-  tags:  [luna_pinyin, stroke, cangjie5]
+  tags: [luna_pinyin, stroke, cangjie5]
   overwrite_comment: false
   dictionary: jyut6ping3
 
@@ -254,6 +251,6 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "`[a-z]*'?$"
-    stroke: "x[hspnz]*'?$"
-    cangjie5: "v[a-z]*'?$"
+    luna_pinyin: "`[a-z]*;?$"
+    stroke: "x[hspnz]*;?$"
+    cangjie5: "v[a-z]*;?$"
