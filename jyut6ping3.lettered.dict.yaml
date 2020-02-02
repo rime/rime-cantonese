@@ -19,7 +19,7 @@
 
 ---
 name: jyut6ping3.lettered
-version: "2020.01.15"
+version: "2020.02.02"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -224,6 +224,8 @@ check吓	cek1 haa5
 chem	kem1
 ching	si1 hing1
 ching	cing1
+chihuahua	ci6 waa1 waa4
+chihuahua	zi6 waa1 waa4
 chok	cok3
 chok-cheat	cok3 cit1
 chok樣	cok3 joeng2
@@ -255,6 +257,7 @@ con	kon1
 cons	kon1 si2
 contact	kon1 tek4
 cool	ku1
+coolie	gu1 lei1
 cop	kop1
 cosplay	co1 si4 pat6 lai1
 counter	kaan1 taa2
@@ -1081,7 +1084,6 @@ zoom	sum1
 唔do	m4 du1
 唔夠quali	m4 gau3 ko1 li2
 細N	sai3 en1
-細ngai1	sai3 ngai1
 新beyond	san1 bi6 jon1
 休孖day	jau1 maa1 dei1
 亞head	aa3 het1
