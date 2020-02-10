@@ -11895,7 +11895,7 @@ import_tables:
 㖸	laa1	
 啦	laa1	
 砬	laa1	
-那	laa1	
+那	laa1	0%
 鞡	laa1	
 𤰚	laa1	
 揦	laa2	
@@ -11905,11 +11905,11 @@ import_tables:
 罅	laa3	
 𡅈	laa3	
 㧱	laa4	
-那	laa4	
+那	laa4	0%
 㑚	laa5	
 㖠	laa5	
 揦	laa5	5%
-那	laa5	
+那	laa5	0%
 𤥶	laa5	
 𦰡	laa5	
 䏧	laa6	
@@ -14754,8 +14754,8 @@ import_tables:
 靺	mut6	
 𤣻	mut6	
 𧻙	mut6	
-哪	naa1	
-那	naa1	
+哪	naa1	0%
+那	naa1	0%
 𠸎	naa1	
 𢲡	naa1	
 𤶸	naa1	
@@ -14764,7 +14764,7 @@ import_tables:
 乸	naa2	
 㧱	naa4	
 䛔	naa4	
-哪	naa4	
+哪	naa4	5%
 嗱	naa4	
 娜	naa4	
 拏	naa4	
