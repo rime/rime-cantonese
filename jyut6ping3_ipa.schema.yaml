@@ -6,7 +6,6 @@ schema:
   name: 粵語拼音（IPA版）
   version: "0.2.2"
   author:
-    - 佛振 <chen.sst@gmail.com>
     - sgal <1727246457@qq.com>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
