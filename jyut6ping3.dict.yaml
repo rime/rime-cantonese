@@ -22899,6 +22899,7 @@ import_tables:
 吖啶	aa1 ding6
 吖嘛	aa1 maa3
 吖嗱	aa1 naa4
+吖嗪	aa1 ceon4
 啊你	aa3 nei5
 阿嗪	aa1 ceon4
 阿婷	aa3 ting4
@@ -23388,12 +23389,14 @@ import_tables:
 阿媽都唔認得	aa3 maa1 dou1 m4 jing6 dak1
 啊嘛	aa6 maa5
 錒系元素	aa3 hai6 jyun4 sou3
-哎吖	ai1 jaa1
 哎吖	aai1 aa1
-哎吖吖	ai1 jaa1 jaa1
+哎吔吔	ai1 jaa1 jaa1
 哎吖	ai1 aa1
-哎吖	ai1 jaa1
+哎吔	aai1 jaa1
 哎呀	ai1 aa4
+哎呀	ai1 aa5
+哎呀	ai2 aa5
+哎吔	ai1 jaa1
 哎呀	ai1 jaa4
 哎呀	ai1 jaa5
 哎呀	ai2 jaa5
@@ -138086,6 +138089,7 @@ import_tables:
 唔係	m4 hai6
 唔係…嗰皮	m4 hai6 go2 pei4
 唔係…手腳	m4 hai6 sau2 goek3
+唔係啊話	m4 hai6 aa6 waa5
 唔係啊嘛	m4 hai6 aa6 maa5
 唔係噉話	m4 hai6 gam2 waa2
 唔係噉話	m4 hai6 gam2 waa6
@@ -169624,6 +169628,7 @@ import_tables:
 走道	zau2 dou6
 走得	zau2 dak1
 走得幾快吖	zau2 dak1 gei2 faai3 aa1
+走得幾快啊	zau2 dak1 gei2 faai3 aa3
 走得快好世界	zau2 dak1 faai3 hou2 sai3 gaai3
 走得嚤冇鼻哥	zau2 dak1 mo1 mou5 bei6 go1
 走低	zau2 dai1
