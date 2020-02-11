@@ -24,7 +24,7 @@
 # open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
 #
 # 碼表製作與校對人員
-# sgal <1727246457@qq.com>
+# sgal <ayaka@mail.shn.hk>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
@@ -4155,7 +4155,7 @@ import_tables:
 𠰲	eot1	
 㳸	faa1	
 花	faa1	
-華	faa1	
+華	faa1	0%
 蘤	faa1	
 𤾸	faa1	
 化	faa3	
@@ -6622,6 +6622,7 @@ import_tables:
 贛	gung3	
 𡎴	gung3	
 𨫋	gung3	
+𫋐	gung3	
 㓋	gung6	
 共	gung6	
 㧓	gwaa1	
@@ -6899,7 +6900,7 @@ import_tables:
 郤	gwik1	
 郹	gwik1	
 闃	gwik1	
-隙	gwik1	
+隙	gwik1	5%
 隟	gwik1	
 馘	gwik1	
 鵙	gwik1	
@@ -40022,6 +40023,7 @@ import_tables:
 春核	ceon1 wat6
 春花	ceon1 faa1
 春花秋月	ceon1 faa1 cau1 jyut6
+春華秋實	ceon1 faa1 cau1 sat6
 春華秋實	ceon1 waa4 cau1 sat6
 春化	ceon1 faa3
 春畫	ceon1 waa2
@@ -75424,6 +75426,8 @@ import_tables:
 監粗嚟	gaam3 cou1 lai4
 監粗嚟	gaam3 cou1 lei4
 監粗嚟吖	gaam3 cou1 lai4 aa1
+監粗嚟吖	gaam3 cou1 lei4 aa1
+監粗嚟啊	gaam3 cou1 lai4 aa3
 監粗嚟啊	gaam3 cou1 lei4 aa3
 監督	gaam1 duk1
 監督人	gaam1 duk1 jan4
@@ -157657,6 +157661,7 @@ import_tables:
 喐手	juk1 sau2
 喐手打人	juk1 sau2 daa2 jan4
 喐手喐腳	juk1 sau2 juk1 goek3
+喐喐𫋐	juk1 juk1 gung3
 喐喐貢	juk1 juk1 gung3
 喐喐下	juk1 juk1 haa2
 欲罷不能	juk6 baa6 bat1 nang4
