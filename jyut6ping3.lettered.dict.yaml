@@ -10,7 +10,7 @@
 # open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
 #
 # 碼表製作與校對人員
-# sgal <1727246457@qq.com>
+# sgal <ayaka@mail.shn.hk>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
@@ -19,7 +19,7 @@
 
 ---
 name: jyut6ping3.lettered
-version: "2020.02.02"
+version: "2020.02.10"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -402,7 +402,7 @@ get到	get1 dou2
 GG	zi1 zi1
 GiB	gik1
 gip	gip1
-goetgoet聲	goet4 goet2 seng1
+goet-goet聲	goet4 goet2 seng1
 google	gu1 gou4
 Google鼻	gu1 gou4 bei6
 GPS	zi1 pi1 e1 si4
@@ -504,7 +504,7 @@ keep住	kip1 zyu6
 kel-lel	keu4 leu1
 kem	kem4
 kem5	kem5
-kem-kem-哋	kem1 kem1 dei2
+kem-kem哋	kem1 kem1 dei2
 keng	keng4
 killer	kiu1 laa2
 killer	kiu1 laa4

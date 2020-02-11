@@ -4,19 +4,18 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.2.2"
+  version: "0.2.3"
   author:
-    - 佛振 <chen.sst@gmail.com>
-    - sgal <1727246457@qq.com>
+    - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
 
-  description: |
+  description: |-
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
     支援聲調顯示同輸入
-    
+
   dependencies:
     - luna_pinyin
     - stroke
@@ -142,6 +141,7 @@ stroke:
 cangjie5:
   tag: cangjie5
   dictionary: cangjie5
+  enable_user_dict: false
   prefix: "v"
   suffix: ";"
   tips: 〔倉頡五代〕
