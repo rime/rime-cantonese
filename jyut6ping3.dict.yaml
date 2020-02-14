@@ -51,7 +51,6 @@ import_tables:
 䃁	aa1	
 丫	aa1	
 吖	aa1	
-啊	aa3	
 啞	aa1	
 枒	aa1	
 椏	aa1	
@@ -67,6 +66,8 @@ import_tables:
 䢝	aa3	
 亞	aa3	
 俹	aa3	
+呀	aa3	
+啊	aa3	
 啊	aa3	
 埡	aa3	
 婭	aa3	
@@ -2547,6 +2548,7 @@ import_tables:
 鹺	co4	
 坐	co5	
 㔬	coek3	
+㪕	coek3	
 㪬	coek3	
 㲋	coek3	
 䇎	coek3	
@@ -2572,7 +2574,6 @@ import_tables:
 𢂚	coek3	
 𥇍	coek3	
 𦋐	coek3	
-㪕	coek3	
 䅛	coeng1	
 䆫	coeng1	
 䗉	coeng1	
@@ -4616,8 +4617,8 @@ import_tables:
 狒	fei6	
 弗	fik1	
 𠱥	fik1	
-揈	fing6	
 捹	fing6	
+揈	fing6	
 𢝵	fit1	
 𢞵	fit1	
 覅	fiu3	
@@ -5103,6 +5104,7 @@ import_tables:
 蛞	fut3	
 闊	fut3	
 㗎	ga3	
+嘎	ga4	
 噶	ga6	
 㚙	gaa1	
 㹢	gaa1	
@@ -5114,6 +5116,7 @@ import_tables:
 傢	gaa1	
 加	gaa1	
 嘉	gaa1	
+嘎	gaa1	
 噶	gaa1	
 家	gaa1	
 尕	gaa1	
@@ -5167,9 +5170,7 @@ import_tables:
 𡃉	gaa3	
 𢱌	gaa3	
 𣕧	gaa3	
-嘎	gaa1
-嘎	gaa4
-嘎	ga4	
+嘎	gaa4	
 㗇	gaa5	
 㾬	gaai1	
 䃈	gaai1	
@@ -7989,13 +7990,13 @@ import_tables:
 可	ho2	
 呵	ho2	
 哿	ho2	
+嗬	ho2	
 坷	ho2	
 岢	ho2	
 舸	ho2	
 閜	ho2	
 艐	ho3	
 何	ho4	
-嗬	ho2	
 河	ho4	
 渮	ho4	
 荷	ho4	
@@ -8724,6 +8725,7 @@ import_tables:
 寅	jan4	
 殥	jan4	
 芢	jan4	
+𠂊	jan4	
 𣏴	jan4	
 𣲚	jan4	
 㧈	jan5	
@@ -11039,7 +11041,6 @@ import_tables:
 咭	kat1	
 咳	kat1	
 欬	kat1	
-勼	kau1	
 㡚	kau1	
 㳰	kau1	
 㸨	kau1	
@@ -11047,6 +11048,7 @@ import_tables:
 䁱	kau1	
 䑦	kau1	
 䬲	kau1	
+勼	kau1	
 彄	kau1	
 摳	kau1	
 溝	kau1	
@@ -11795,8 +11797,8 @@ import_tables:
 㻒	kwan5	
 䐃	kwan5	
 㚚	kwang1	
-隟	kwik1	
 隙	kwik1	
+隟	kwik1	
 㗥	kwok3	
 㨯	kwok3	
 廓	kwok3	
@@ -11887,7 +11889,6 @@ import_tables:
 𫐆	kyut3	
 𫔎	kyut3	
 𫛞	kyut3	
-𠂊	jan4
 啦	la1	
 嘞	la3	
 嘑	la4	
@@ -12215,8 +12216,8 @@ import_tables:
 㨆	lam6	
 撚	lan2	6%
 𠹌	lan2	
-𨶙	lan2	
 𡳞	lan2	
+𨶙	lan2	
 𠹹	lan4	
 㘄	lang1	
 𠹌	lang1	
@@ -13859,8 +13860,8 @@ import_tables:
 皃	maau6	
 貌	maau6	
 𠒇	maau6	
-咪	mai1	
 劘	mai1	
+咪	mai1	
 謎	mai2	
 㝥	mai4	
 䛧	mai4	
@@ -15407,7 +15408,6 @@ import_tables:
 鏂	ngau1	
 𠥹	ngau1	
 𡂿	ngau1	
-㔾	zit3	
 𠙶	ngau2	
 岰	ngau3	
 䒜	ngau4	
@@ -16752,6 +16752,7 @@ import_tables:
 㲚	saa1	
 㸺	saa1	
 䩖	saa1	
+卅	saa1	
 唦	saa1	
 挲	saa1	
 沙	saa1	
@@ -16765,7 +16766,6 @@ import_tables:
 魦	saa1	
 鯊	saa1	
 𧋊	saa1	
-卅	saa1	
 卅	saa1 aa6	
 𠯢	saa1 aa6	
 啥	saa2	
@@ -17310,6 +17310,7 @@ import_tables:
 瀉	se2	
 舍	se2	
 䉣	se3	
+卌	se3	
 卸	se3	
 厙	se3	
 瀉	se3	
@@ -17318,7 +17319,6 @@ import_tables:
 舍	se3	
 赦	se3	
 騇	se3	
-卌	se3	
 㵃	se4	
 佘	se4	
 畲	se4	
@@ -18342,9 +18342,8 @@ import_tables:
 䈢	soi2	
 㩋	sok1	
 㪩	sok1	
-𢸳	sok1	
 𢱢	sok1	
-𢱢	sok3	
+𢸳	sok1	
 㮦	sok3	
 㮶	sok3	
 䅴	sok3	
@@ -18366,6 +18365,7 @@ import_tables:
 蒴	sok3	
 鎍	sok3	
 鎙	sok3	
+𢱢	sok3	
 𦂗	sok3	
 䘮	song1	
 䮣	song1	
@@ -19641,8 +19641,8 @@ import_tables:
 剭	uk1	
 屋	uk1	
 壅	ung1	
-𢫨	ung2	
 㧬	ung2	
+𢫨	ung2	
 䐥	ung3	
 瓮	ung3	
 甕	ung3	
@@ -22181,6 +22181,7 @@ import_tables:
 瀄	zit1	
 𡁶	zit1	
 𢩦	zit1	
+㔾	zit3	
 㦢	zit3	
 㪿	zit3	
 㫼	zit3	
