@@ -68,7 +68,6 @@ import_tables:
 俹	aa3	
 呀	aa3	
 啊	aa3	
-啊	aa3	
 埡	aa3	
 婭	aa3	
 掗	aa3	
@@ -75041,13 +75040,16 @@ import_tables:
 㗎話	gaa4 waa2
 㗎啦	gaa3 laa1
 㗎喇	gaa3 laa3
+㗎喇	gaa3 la3
+㗎喇噃	gaa3 la3 bo3
 㗎喇	gaa3 laa4
 㗎佬	gaa4 lou2
 𠺢嘛	gaa1 maa3
 㗎嘛	gaa3 maa3
+㗎嘛	gaa6 maa5
 㗎妹	gaa4 mui6
 㗎哶	gaa3 me1
-㗎哶	gaa3 me1
+㗎咩	gaa3 me1
 㗎你	gaa3 nei5
 㗎頭	gaa4 tau4
 㗎喎	gaa3 wo3
@@ -86304,6 +86306,8 @@ import_tables:
 喇叭仔	laa3 baa1 zai2
 喇啩	laa3 gwaa3
 喇啩	la3 gwaa3
+嘞啩	lak3 gwaa3
+嘞啩	la3 gwaa3
 喇合	laa1 hap6
 喇㗎	laa3 gaa3
 喇嘛	laa3 maa3
