@@ -9,6 +9,7 @@
 **拼音方案**
 
 - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
+- [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
 - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
 
 **演示**
