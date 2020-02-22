@@ -36854,7 +36854,6 @@ import_tables:
 稱揚	cing1 joeng4
 稱意	cing3 ji3
 稱譽	cing1 jyu6
-稱贊	cing1 zaan3
 稱讚	cing1 zaan3
 稱之爲	cing1 zi1 wai4
 稱職	cing3 zik1
@@ -39622,7 +39621,7 @@ import_tables:
 傳譯	cyun4 jik6
 傳語	cyun4 jyu5
 傳閱	cyun4 jyut6
-傳贊	cyun4 zaan3
+傳讚	cyun4 zaan3
 傳召	cyun4 ziu6
 傳真	cyun4 zan1
 傳真電報	cyun4 zan1 din6 bou3
@@ -47357,7 +47356,7 @@ import_tables:
 點係	dim2 hai6
 點係啊	dim2 hai6 aa3
 點吓	dim2 haa5
-點吓讚	dim2 haa5 zaan3
+點吓贊	dim2 haa5 zaan3
 點先	dim2 sin1
 點先算	dim2 sin1 syun3
 點相	dim2 soeng3
@@ -85365,7 +85364,7 @@ import_tables:
 誇下海口	kwaa1 haa6 hoi2 hau2
 誇休可爾症	kwaa1 jau1 ho2 ji5 zing3
 誇耀	kwaa1 jiu6
-誇贊	kwaa1 zaan3
+誇讚	kwaa1 zaan3
 誇張	kwaa1 zoeng1
 侉子	kwaa2 zi2
 垮塌	kwaa1 taap3
@@ -126673,7 +126672,6 @@ import_tables:
 頌詩	zung6 si1
 頌文	zung6 man4
 頌揚	zung6 joeng4
-頌贊	zung6 zaan3
 頌讚	zung6 zaan3
 誦讀	zung6 duk6
 誦讀困難症	zung6 duk6 kwan3 naan4 zing3
@@ -159801,20 +159799,22 @@ import_tables:
 贊不絕口	zaan3 bat1 zyut6 hau2
 贊成	zaan3 sing4
 贊成票	zaan3 sing4 piu3
+贊拜	zaan3 bai3
+贊禮	zaan3 lai5
 贊詞	zaan3 ci4
 贊辭	zaan3 ci4
 贊丹	zaan3 daan1
+贊謁	zaan3 jit3 
 贊皇	zaan3 wong4
 贊皇縣	zaan3 wong4 jyun6
-贊美	zaan3 mei5
-贊頌	zaan3 zung6
-贊嘆	zaan3 taan3
-贊嘆不已	zaan3 taan3 bat1 ji5
+讚嘆不已	zaan3 taan3 bat1 ji5
 贊同	zaan3 tung4
+哀贊	oi1 zaan3 
+史贊	si2 zaan3 
+輔贊	fu6 zaan3 
+題贊	tai4 zaan3 
 贊西佩	zaan3 sai1 pui3
 贊饗	zaan3 hoeng2
-贊揚	zaan3 joeng4
-贊譽	zaan3 jyu6
 贊助	zaan3 zo6
 贊助商	zaan3 zo6 soeng1
 㜺鬼	zaan2 gwai2
@@ -159828,7 +159828,6 @@ import_tables:
 讚頌	zaan3 zung3
 讚嘆	zaan3 taan3
 讚歎	zaan3 taan3
-讚同	zaan3 tung4
 讚揚	zaan3 joeng4
 讚譽	zaan3 jyu6
 臧克家	zong1 hak1 gaa1
