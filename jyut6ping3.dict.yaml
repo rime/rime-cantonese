@@ -33,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.02.10"
+version: "2020.03.01"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
