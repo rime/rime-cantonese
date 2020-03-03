@@ -5450,7 +5450,7 @@ import_tables:
 衿	gam1	
 金	gam1	
 䃭	gam2	
-噉	gam2	10000
+噉	gam2	99%
 感	gam2	
 敢	gam2	
 橄	gam2	
@@ -5465,7 +5465,7 @@ import_tables:
 䲺	gam3	
 僸	gam3	
 凎	gam3	
-咁	gam3	10000
+咁	gam3	99%
 唫	gam3	
 噤	gam3	
 淦	gam3	
@@ -7341,7 +7341,7 @@ import_tables:
 克	hak1	
 刻	hak1	
 剋	hak1	
-可	hak1	
+可	hak1	0%
 尅	hak1	
 氪	hak1	
 潶	hak1	
@@ -7757,7 +7757,7 @@ import_tables:
 䔓	heoi2	
 䣱	heoi2	
 冔	heoi2	
-去	heoi2	
+去	heoi2	0%
 咻	heoi2	
 喣	heoi2	
 姁	heoi2	
@@ -13546,7 +13546,7 @@ import_tables:
 菉	luk6	
 蓼	luk6	
 螰	luk6	
-角	luk6	
+角	luk6	0%
 觻	luk6	
 踛	luk6	
 蹗	luk6	
@@ -14939,7 +14939,7 @@ import_tables:
 鎒	nau6	
 𧂭	nau6	
 呢	ne1	
-乜	ne6	
+乜	ne6	0%
 呢	nei1	
 𨉖	nei1	
 㞾	nei4	
@@ -47322,7 +47322,7 @@ import_tables:
 點陣字體	dim2 zan6 zi6 tai2
 點整	dim2 zing2
 點只	dim2 zi2
-點知	dim2 zi1
+點知	dim2 zi1	100%
 點止	dim2 zi2
 點指兵兵	dim2 zi2 bing1 bing1
 點鐘	dim2 zung1
@@ -49415,7 +49415,7 @@ import_tables:
 都昌	dou1 coeng1
 都昌縣	dou1 coeng1 jyun6
 都城	dou1 sing4
-都得	dou1 dak1
+都得	dou1 dak1	100%
 都睇	dou1 tai2
 都督	dou1 duk1
 都多	dou1 do1
@@ -111284,7 +111284,7 @@ import_tables:
 佢啲	keoi5 di1
 佢地	keoi5 dei6
 佢點	keoi5 dim2
-佢哋	keoi5 dei6
+佢哋	keoi5 dei6	100%
 佢哋嘅	keoi5 dei2 ge3
 佢哋嘅	keoi5 dei6 ge3
 佢哋自己	keoi5 dei6 zi6 gei2
@@ -136816,7 +136816,7 @@ import_tables:
 我睇吓	ngo5 tai2 haa5
 我點解	ngo5 dim2 gaai2
 我點知	ngo5 dim2 zi1
-我哋	ngo5 dei6
+我哋	ngo5 dei6	100%
 我哋嘅	ngo5 dei6 ge3
 我哋自己	ngo5 dei6 zi6 gei2
 我哋自己嘅	ngo5 dei6 zi6 gei2 ge3
@@ -139921,7 +139921,7 @@ import_tables:
 喺邊度	hai2 bin1 dou6
 喺處	hai2 syu3
 喺道	hai2 dou6
-喺度	hai2 dou6
+喺度	hai2 dou6	100%
 喺度食	hai2 dou6 sik6
 喺嗰度	hai2 go2 dou6
 喺孔夫子面前賣文章	hai2 hung2 fu1 zi2 min6 cin4 maai6 man4 zoeng1
