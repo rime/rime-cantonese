@@ -12360,10 +12360,8 @@ import_tables:
 𤬏	lau6	
 𧂭	lau6	
 呢	le1	5%
-咧	le1	
 哩	le1	
-咧	le2	
-咧	le3	
+咧	le4	
 𠻗	le4	
 䟩	le5	
 褦	le5	
@@ -13135,7 +13133,6 @@ import_tables:
 炓	liu6	
 燎	liu6	
 𦆲	liu6	
-咯	lo1	
 囉	lo1	
 旯	lo1	
 𦣇	lo1	
@@ -14884,6 +14881,7 @@ import_tables:
 䭆	nak6	
 𥻚	nam1	
 諗	nam2	
+惗	nam2	
 䋻	nam4	
 䌾	nam4	
 淰	nam4	
@@ -42920,7 +42918,7 @@ import_tables:
 大逆不道	daai6 jik6 bat1 dou6
 大年初一	daai6 nin4 co1 jat1
 大娘	daai6 noeng4
-大惗頭	daai6 nam2 tau4
+大諗頭	daai6 nam2 tau4
 大寧	daai6 ning4
 大寧縣	daai6 ning4 jyun6
 大檸樂	daai6 ling2 lok6
@@ -48720,6 +48718,7 @@ import_tables:
 定西市	ding6 sai1 si5
 定息	ding6 sik1
 定係	ding6 hai6
+定喺	ding6 hai2
 定係點	ding6 hai6 dim2
 定係話	ding6 hai6 waa6
 定下	ding6 haa6
@@ -102201,12 +102200,12 @@ import_tables:
 涅石	nip6 sek6
 涅瓦	nip6 ngaa5
 涅瓦河	nip6 ngaa5 ho4
-惗過	nam2 gwo3
-惗好	nam2 hou2
-惗起	nam2 hei2
-惗頭	nam2 tau4
-惗吓	nam2 haa5
-惗住	nam2 zyu6
+諗過	nam2 gwo3
+諗好	nam2 hou2
+諗起	nam2 hei2
+諗頭	nam2 tau4
+諗吓	nam2 haa5
+諗住	nam2 zyu6
 聶耳	nip6 ji5
 聶拉木	nip6 laai1 muk6
 聶拉木縣	nip6 laai1 muk6 jyun6
@@ -139913,7 +139912,6 @@ import_tables:
 習字	zaap6 zi6
 習字帖	zaap6 zi6 tip3
 習作	zaap6 zok3
-喺…度	hai2 dou6
 喺邊	hai2 bin1
 喺邊道	hai2 bin1 dou6
 喺邊度	hai2 bin1 dou6
@@ -140221,7 +140219,7 @@ import_tables:
 係路	hai6 lou6
 係囉	hai6 lo1
 係咪	hai6 mai6
-係咪…先	hai6 mai6 sin1
+係咪先	hai6 mai6 sin1
 係咪先	hai6 mai6 sin1
 係咪真嘅	hai6 mai6 zan1 ge3
 係咩	hai6 me1
