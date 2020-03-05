@@ -178,7 +178,7 @@ import_tables:
 凹	aau3	
 坳	aau3	
 垇	aau3	
-嶴	aau3	
+岙	aau3	
 拗	aau3	
 詏	aau3	
 靿	aau3	
@@ -2683,7 +2683,7 @@ import_tables:
 采	coi3	
 𡤐	coi3	
 𡧳	coi3	
-第	coi4	
+㐧	coi4	
 㒲	coi4	
 䴭	coi4	
 才	coi4	
@@ -2967,7 +2967,7 @@ import_tables:
 𢊍	cyu4	
 𨆼	cyu4	
 㑏	cyu5	
-宁	cyu5	
+㝉	cyu5	
 㿾	cyu5	
 䇠	cyu5	
 䇡	cyu5	
@@ -5827,7 +5827,7 @@ import_tables:
 𤉸	geoi1	
 𩤅	geoi1	
 㩮	geoi2	
-舉	geoi2	
+㪯	geoi2	
 䄔	geoi2	
 䅓	geoi2	
 䶚	geoi2	
@@ -7910,7 +7910,7 @@ import_tables:
 㾜	hip3	
 䁋	hip3	
 䏩	hip3	
-脇	hip3	
+䏮	hip3	
 勰	hip3	
 協	hip3	
 嗋	hip3	
@@ -13000,7 +13000,7 @@ import_tables:
 睖	ling6	
 踜	ling6	
 𤀑	ling6	
-𨋢	lip1	
+䢂	lip1	
 𨋢	lip1	
 㬯	lip6	
 㯿	lip6	
@@ -14441,7 +14441,7 @@ import_tables:
 㟐	mong5	
 㬒	mong5	
 䁳	mong5	
-綱	mong5	
+䋄	mong5	
 䋞	mong5	
 䒎	mong5	
 䒽	mong5	
@@ -14483,7 +14483,7 @@ import_tables:
 摸	mou4	
 摹	mou4	
 旄	mou4	
-無	mou4	
+无	mou4	
 模	mou4	
 橆	mou4	
 毋	mou4	
@@ -16015,7 +16015,7 @@ import_tables:
 噢	ou3	
 墺	ou3	
 奧	ou3	
-嶴	ou3	
+岙	ou3	
 嶴	ou3	
 懊	ou3	
 澳	ou3	
@@ -17413,7 +17413,7 @@ import_tables:
 税	seoi3	0%
 繀	seoi3	
 蛻	seoi3	
-蛻	seoi3	0%
+蜕	seoi3	0%
 裞	seoi3	
 說	seoi3	
 説	seoi3	0%
@@ -19006,7 +19006,7 @@ import_tables:
 毻	teoi3	
 煺	teoi3	
 蛻	teoi3	
-蛻	teoi3	0%
+蜕	teoi3	0%
 退	teoi3	
 駾	teoi3	
 㢈	teoi4	
@@ -20020,28 +20020,28 @@ import_tables:
 㬈	wan1	
 㼔	wan1	
 奫	wan1	
-榲	wan1	0%
+榅	wan1	0%
 榲	wan1	
 殟	wan1	
-氳	wan1	0%
+氲	wan1	0%
 氳	wan1	
 温	wan1	0%
 溫	wan1	
-熅	wan1	0%
+煴	wan1	0%
 熅	wan1	
 瘟	wan1	
 緼	wan1	0%
 縕	wan1	
 蒀	wan1	0%
 蒕	wan1	
-薀	wan1	
+蕰	wan1	
 薀	wan1	
 蝹	wan1	
 豱	wan1	
 贇	wan1	
 輼	wan1	0%
 轀	wan1	
-轀	wan1	
+辒	wan1	
 頵	wan1	
 馧	wan1	
 鰛	wan1	0%
@@ -20202,7 +20202,7 @@ import_tables:
 嗢	wat1	
 尉	wat1	
 屈	wat1	
-榲	wat1	0%
+榅	wat1	0%
 榲	wat1	
 灪	wat1	
 煀	wat1	
@@ -20949,7 +20949,7 @@ import_tables:
 䂑	zai1	
 䜞	zai1	
 䝴	zai1	
-躋	zai1	
+䠁	zai1	
 䪠	zai1	
 䪡	zai1	
 䪢	zai1	
@@ -20970,7 +20970,7 @@ import_tables:
 囝	zai2	
 濟	zai2	
 㝂	zai3	
-濟	zai3	
+㴉	zai3	
 䇽	zai3	
 䎺	zai3	
 䨖	zai3	
@@ -165177,7 +165177,7 @@ import_tables:
 盅頭飯	zung1 tau2 faan6
 盅頭飯	zung1 tau4 faan6
 盅仔飯	zung1 zai2 faan6
-鈡意	zung1 ji3
+鍾意	zung1 ji3
 衷腸	cung1 coeng4
 衷誠	cung1 sing4
 衷情	cung1 cing4
