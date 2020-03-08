@@ -12016,7 +12016,7 @@ import_tables:
 䛏	lai4	
 䵩	lai4	
 來	lai4	
-嚟	lai4	
+嚟	lai4	99%
 屔	lai4	
 廲	lai4	
 犁	lai4	
@@ -12285,6 +12285,7 @@ import_tables:
 褦	le5	
 喱	lei1	
 鬁	lei1	
+嚟	lei4	99%
 㒿	lei4	
 㓯	lei4	
 㥎	lei4	
@@ -46705,7 +46706,7 @@ import_tables:
 睇淡	tai2 taam5
 睇淡	tai2 daam6
 睇檔	tai2 dong3
-睇到	tai2 dou2
+睇到	tai2 dou2	100%
 睇到	tai2 dou3
 睇得	tai2 dak1
 睇得出	tai2 dak1 ceot1
@@ -155671,7 +155672,7 @@ import_tables:
 有碼	jau5 maa5
 有慢	jau5 maan6
 有毛有翼	jau5 mou4 jau5 jik6
-有冇	jau5 mou5
+有冇	jau5 mou5	100%
 有冇得	jau5 mou5 dak1
 有冇搞錯	jau5 mou5 gaau2 co3
 有冇攪錯	jau5 mou5 gaau2 co3
