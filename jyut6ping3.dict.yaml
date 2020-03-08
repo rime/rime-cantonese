@@ -728,7 +728,7 @@ import_tables:
 毖	bei3	
 泌	bei3	
 潷	bei3	
-畀	bei3	
+畀	bei3	90%
 疪	bei3	
 痹	bei3	
 痺	bei3	0%
@@ -29176,6 +29176,9 @@ import_tables:
 庇佑	bei3 jau6
 庇祐	bei3 jau6
 畀…睇	bei2 tai2
+畀佢哋	bei2 keoi5 dei6	90%
+畀我哋	bei2 ngo5 dei6	90%
+畀你哋	bei2 nei5 dei6	90%
 畀差人拉	bei2 caai1 jan4 laai1
 畀啲	bei2 di1
 畀電話	bei2 din6 waa6
@@ -29185,7 +29188,7 @@ import_tables:
 畀返	bei2 faan1
 畀非士	bei2 fei1 si2
 畀高帽佢戴	bei2 gou1 mou2 keoi5 daai3
-畀個	bei2 go3
+畀個	bei2 go3	90%
 畀個冬瓜你做膽	bei2 go3 dung1 gwaa1 nei5 zou6 daam2
 畀個天你做膽	bei2 go3 tin1 nei5 zou6 daam2
 畀龜逗	bei2 gwai1 dau6
@@ -29210,11 +29213,11 @@ import_tables:
 畀鬧到一戙都冇	bei2 naau6 dou3 jat1 dung6 dou1 mou5
 畀鬧到一面屁	bei2 naau6 dou3 jat1 min6 pei3
 畀鬧到一隻屐	bei2 naau6 dou3 jat1 zek3 kek6
-畀你	bei2 nei5
+畀你	bei2 nei5	90%
 畀錢	bei2 cin2
 畀錢我	bei2 cin2 ngo5
 畀佢	bei2 keoi5
-畀人	bei2 jan4
+畀人	bei2 jan4	90%
 畀人白眼	bei2 jan4 baak6 ngaan5
 畀人唱衰	bei2 jan4 coeng3 seoi1
 畀人燉	bei2 jan4 dan6
@@ -29234,7 +29237,7 @@ import_tables:
 畀貼士	bei2 tip1 si2
 畀位	bei2 wai2
 畀問起	bei2 man6 hei2
-畀我	bei2 ngo5
+畀我	bei2 ngo5	90%
 畀唔畀	bei2 m4 bei2
 畀西瓜皮你踩	bei2 sai1 gwaa1 pei4 nei5 caai2
 畀錫壞咗	bei2 sek3 waai6 zo2
@@ -150975,7 +150978,7 @@ import_tables:
 一妻多夫制	jat1 cai1 do1 fu1 zai3
 一妻制	jat1 cai1 zai3
 一期一會	jat1 kei4 jat1 wui6
-一齊	jat1 cai4
+一齊	jat1 cai4	90%
 一齊	jat1 cai2
 一齊送	jat1 cai4 sung3
 一起	jat1 hei2
