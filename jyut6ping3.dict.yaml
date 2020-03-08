@@ -101398,7 +101398,7 @@ import_tables:
 你唔知	nei5 m4 zi1
 你喺	nei5 hai2
 你係	nei5 hai6
-你先	nei5 sin1
+你先	nei5 sin1	90%
 你醒啦	nei5 seng2 laa4
 你醒嗱	nei5 seng2 laa4
 你啊	nei5 aa3
@@ -136644,6 +136644,8 @@ import_tables:
 我行我素	ngo5 hang4 ngo5 sou3
 我好似	ngo5 hou2 ci5
 我話	ngo5 waa6
+我先話	ngo5 sin1 waa6
+我先講	ngo5 sin1 gong2
 我記得	ngo5 gei3 dak1
 我嘅	ngo5 ge3
 我靠	ngo5 kaau3
@@ -140957,7 +140959,7 @@ import_tables:
 先哲	sin1 zit3
 先知	sin1 zi1
 先知先覺	sin1 zi1 sin1 gok3
-先至	sin1 zi3
+先至	sin1 zi3	90%
 先至得	sin1 zi3 dak1
 先至唔會	sin1 zi3 m4 wui5
 先祖	sin1 zou2
@@ -149723,6 +149725,9 @@ import_tables:
 要害	jiu3 hoi6
 要咁	jiu3 gam3
 要行	jiu3 haang4
+要喺	jiu3 hai2	90%
+要係	jiu3 hai6
+要想	jiu3 soeng2
 要好	jiu3 hou2
 要換	jiu3 wun6
 要謊	jiu3 fong1
