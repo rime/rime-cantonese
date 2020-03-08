@@ -6590,7 +6590,7 @@ import_tables:
 䈑	gwaa2	
 寡	gwaa2	
 卦	gwaa3	
-啩	gwaa3	
+啩	gwaa3	90%
 挂	gwaa3	
 掛	gwaa3	
 絓	gwaa3	
@@ -11814,7 +11814,7 @@ import_tables:
 鷢	kyut3	
 轣	kyut3	
 啦	la1	
-嘞	la3	
+嘞	la3	99%
 嘑	la4	
 㖸	laa1	
 啦	laa1	
@@ -14866,7 +14866,7 @@ import_tables:
 伱	nei5	
 你	nei5	
 妳	nei5	
-您	nei5	
+您	nei5	5%
 抳	nei5	
 旎	nei5	
 柅	nei5	
@@ -16689,7 +16689,7 @@ import_tables:
 䨛	saak3	
 摵	saak3	
 梀	saak3	
-索	saak3	
+索	saak3	5%
 𢱢	saak3	
 幓	saam1	
 㰑	saam1	
@@ -18339,7 +18339,7 @@ import_tables:
 鱐	suk1	
 鷫	suk1	
 𤢂	suk1	
-索	suk3	
+索	suk3	0%
 㒔	suk6	
 㯮	suk6	
 㳤	suk6	
@@ -44183,7 +44183,7 @@ import_tables:
 但是你	daan6 si6 nei5
 但書	daan6 syu1
 但說無妨	daan6 syut3 mou4 fong4
-但係	daan6 hai6
+但係	daan6 hai6	100%
 但以理書	daan6 ji5 lei5 syu1
 但願	daan6 jyun6
 但願如此	daan6 jyun6 jyu4 ci2
@@ -44350,7 +44350,7 @@ import_tables:
 噉我	gam2 ngo5
 噉唔係	gam2 m4 hai6
 噉係	gam2 hai6
-噉樣	gam2 joeng2
+噉樣	gam2 joeng2	100%
 噉樣樣	gam2 joeng2 joeng2
 噉要	gam2 jiu3
 噉嘢	gam2 je5
@@ -65211,7 +65211,7 @@ import_tables:
 好慣	hou2 gwaan3
 好鬼	hou2 gwai2
 好鬼衰	hou2 gwai2 seoi1
-好鬼死	hou2 gwai2 sei2
+好鬼死	hou2 gwai2 sei2	100%
 好鬼死難頂	hou2 gwai2 sei2 laan4 ding2
 好攰	hou2 gui6
 好貴	hou2 gwai3
