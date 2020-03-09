@@ -20161,7 +20161,7 @@ import_tables:
 䰀	wo2	
 婐	wo2	
 婑	wo2	
-喎	wo3	
+喎	wo3	90%
 涴	wo3	
 㴕	wo4	
 䒩	wo4	
@@ -58833,7 +58833,7 @@ import_tables:
 嗰陣時	go2 zan6 si2
 嗰朕	go2 zam6
 嗰朕𡃴	go2 zam6 ceoi4
-嗰隻	go2 zek3
+嗰隻	go2 zek3	10000
 嗰隻衰嘢	go2 zek3 seoi1 je5
 嗰隻蟹	go2 zek3 haai5
 嗰隻嘢	go2 zek3 je5
@@ -64311,8 +64311,6 @@ import_tables:
 咁啱線	gam3 ngaam1 sin3
 咁晏	gam3 ngaan3
 咁晏	gam3 aan3
-咁樣	gam2 joeng2
-咁樣樣	gam2 joeng2 joeng2
 咁夜	gam3 je6
 咁遠	gam3 jyun5
 咁早	gam3 zou2
