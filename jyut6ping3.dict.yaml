@@ -29175,9 +29175,9 @@ import_tables:
 庇佑	bei3 jau6
 庇祐	bei3 jau6
 畀…睇	bei2 tai2
-畀佢哋	bei2 keoi5 dei6	90%
-畀我哋	bei2 ngo5 dei6	90%
-畀你哋	bei2 nei5 dei6	90%
+畀佢哋	bei2 keoi5 dei6	1000
+畀我哋	bei2 ngo5 dei6	1000
+畀你哋	bei2 nei5 dei6	1000
 畀差人拉	bei2 caai1 jan4 laai1
 畀啲	bei2 di1
 畀電話	bei2 din6 waa6
@@ -29187,7 +29187,7 @@ import_tables:
 畀返	bei2 faan1
 畀非士	bei2 fei1 si2
 畀高帽佢戴	bei2 gou1 mou2 keoi5 daai3
-畀個	bei2 go3	90%
+畀個	bei2 go3	1000
 畀個冬瓜你做膽	bei2 go3 dung1 gwaa1 nei5 zou6 daam2
 畀個天你做膽	bei2 go3 tin1 nei5 zou6 daam2
 畀龜逗	bei2 gwai1 dau6
@@ -29212,11 +29212,11 @@ import_tables:
 畀鬧到一戙都冇	bei2 naau6 dou3 jat1 dung6 dou1 mou5
 畀鬧到一面屁	bei2 naau6 dou3 jat1 min6 pei3
 畀鬧到一隻屐	bei2 naau6 dou3 jat1 zek3 kek6
-畀你	bei2 nei5	90%
+畀你	bei2 nei5	1000
 畀錢	bei2 cin2
 畀錢我	bei2 cin2 ngo5
 畀佢	bei2 keoi5
-畀人	bei2 jan4	90%
+畀人	bei2 jan4	1000
 畀人白眼	bei2 jan4 baak6 ngaan5
 畀人唱衰	bei2 jan4 coeng3 seoi1
 畀人燉	bei2 jan4 dan6
@@ -29236,7 +29236,7 @@ import_tables:
 畀貼士	bei2 tip1 si2
 畀位	bei2 wai2
 畀問起	bei2 man6 hei2
-畀我	bei2 ngo5	90%
+畀我	bei2 ngo5	1000
 畀唔畀	bei2 m4 bei2
 畀西瓜皮你踩	bei2 sai1 gwaa1 pei4 nei5 caai2
 畀錫壞咗	bei2 sek3 waai6 zo2
@@ -58805,7 +58805,7 @@ import_tables:
 嗰啲	go2 di1
 嗰啲嘢	go2 di1 je5
 嗰度	go2 dou6
-嗰個	go2 go3	90%
+嗰個	go2 go3	10000
 嗰個係	go2 go3 hai6
 嗰個嘢	go2 go3 je5
 嗰間	go2 gaan1
@@ -58827,7 +58827,7 @@ import_tables:
 嗰晚	go2 maan5
 嗰位	go2 wai6
 嗰一晚	go2 jat1 maan5
-嗰陣	go2 zan6	90%
+嗰陣	go2 zan6	1000
 嗰陣	go2 zan2
 嗰陣時	go2 zan6 si4
 嗰陣時	go2 zan6 si2
@@ -74760,7 +74760,7 @@ import_tables:
 㗎喇噃	gaa3 la3 bo3
 㗎喇	gaa3 laa4
 㗎佬	gaa4 lou2
-𠺢嘛	gaa1 maa3	90%
+𠺢嘛	gaa1 maa3	1000
 㗎嘛	gaa3 maa3
 㗎嘛	gaa6 maa5
 㗎妹	gaa4 mui6
@@ -101398,7 +101398,7 @@ import_tables:
 你唔知	nei5 m4 zi1
 你喺	nei5 hai2
 你係	nei5 hai6
-你先	nei5 sin1	90%
+你先	nei5 sin1	1000
 你醒啦	nei5 seng2 laa4
 你醒嗱	nei5 seng2 laa4
 你啊	nei5 aa3
@@ -101969,7 +101969,7 @@ import_tables:
 乜春	mat1 ceon1
 乜東東	mat1 dung1 dung1
 乜東東芫茜蔥	mat1 dung1 dung1 jim4 sai1 cung1
-乜都	mat1 dou1	90%
+乜都	mat1 dou1	1000
 乜都	me1 dou1
 乜都得	mat1 dou1 dak1
 乜都假	mat1 dou1 gaa2
@@ -111127,8 +111127,8 @@ import_tables:
 佢死佢賤	keoi5 sei2 keoi5 zin6
 佢問	keoi5 man6
 佢搵	keoi5 wan2
-佢喺	keoi5 hai2	90%
-佢係	keoi5 hai6	90%
+佢喺	keoi5 hai2	1000
+佢係	keoi5 hai6	1000
 佢係咪	keoi5 hai6 mai6
 佢想	keoi5 soeng2
 佢要	keoi5 jiu3
@@ -140959,7 +140959,7 @@ import_tables:
 先哲	sin1 zit3
 先知	sin1 zi1
 先知先覺	sin1 zi1 sin1 gok3
-先至	sin1 zi3	90%
+先至	sin1 zi3	1000
 先至得	sin1 zi3 dak1
 先至唔會	sin1 zi3 m4 wui5
 先祖	sin1 zou2
@@ -149725,7 +149725,7 @@ import_tables:
 要害	jiu3 hoi6
 要咁	jiu3 gam3
 要行	jiu3 haang4
-要喺	jiu3 hai2	90%
+要喺	jiu3 hai2	1000
 要係	jiu3 hai6
 要想	jiu3 soeng2
 要好	jiu3 hou2
@@ -150984,7 +150984,7 @@ import_tables:
 一妻多夫制	jat1 cai1 do1 fu1 zai3
 一妻制	jat1 cai1 zai3
 一期一會	jat1 kei4 jat1 wui6
-一齊	jat1 cai4	90%
+一齊	jat1 cai4	1000
 一齊	jat1 cai2
 一齊送	jat1 cai4 sung3
 一起	jat1 hei2
@@ -165174,23 +165174,23 @@ import_tables:
 仲尼	zung6 nei4
 仲秋	zung6 cau1
 仲生	zung6 saang1
-仲算	zung6 syun3	90%
-仲未	zung6 mei6	90%
+仲算	zung6 syun3	1000
+仲未	zung6 mei6	1000
 仲未到	zung6 mei6 dou3
 仲問	zung6 man6
-仲唔	zung6 m4	90%
+仲唔	zung6 m4	1000
 仲唔瞓	zung6 m4 fan3
 仲唔落雨就弊咯	zung6 m4 lok6 jyu5 zau6 bai6 lok3
 仲喺	zung6 hai2
 仲喺度	zung6 hai2 dou6
-仲係	zung6 hai6	90%
+仲係	zung6 hai6	1000
 仲細	zung6 sai3
 仲夏	zung6 haa6
 仲夏夜之夢	zung6 haa6 je6 zi1 mung6
-仲想	zung6 soeng2	90%
+仲想	zung6 soeng2	1000
 仲啱	zung6 ngaam1
 仲要	zung6 jiu3
-仲有	zung6 jau5	90%
+仲有	zung6 jau5	1000
 仲有個	zung6 jau5 go3
 仲有冇	zung6 jau5 mou5
 仲有咩	zung6 jau5 me1
