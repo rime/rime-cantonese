@@ -20161,7 +20161,7 @@ import_tables:
 䰀	wo2	
 婐	wo2	
 婑	wo2	
-喎	wo3	
+喎	wo3	90%
 涴	wo3	
 㴕	wo4	
 䒩	wo4	
@@ -44186,7 +44186,7 @@ import_tables:
 但是你	daan6 si6 nei5
 但書	daan6 syu1
 但說無妨	daan6 syut3 mou4 fong4
-但係	daan6 hai6	100%
+但係	daan6 hai6	10000
 但以理書	daan6 ji5 lei5 syu1
 但願	daan6 jyun6
 但願如此	daan6 jyun6 jyu4 ci2
@@ -44353,7 +44353,7 @@ import_tables:
 噉我	gam2 ngo5
 噉唔係	gam2 m4 hai6
 噉係	gam2 hai6
-噉樣	gam2 joeng2	100%
+噉樣	gam2 joeng2	10000
 噉樣樣	gam2 joeng2 joeng2
 噉要	gam2 jiu3
 噉嘢	gam2 je5
@@ -46708,7 +46708,7 @@ import_tables:
 睇淡	tai2 taam5
 睇淡	tai2 daam6
 睇檔	tai2 dong3
-睇到	tai2 dou2	100%
+睇到	tai2 dou2	10000
 睇到	tai2 dou3
 睇得	tai2 dak1
 睇得出	tai2 dak1 ceot1
@@ -47148,7 +47148,7 @@ import_tables:
 點陣字體	dim2 zan6 zi6 tai2
 點整	dim2 zing2
 點只	dim2 zi2
-點知	dim2 zi1	100%
+點知	dim2 zi1	10000
 點止	dim2 zi2
 點指兵兵	dim2 zi2 bing1 bing1
 點鐘	dim2 zung1
@@ -49242,7 +49242,7 @@ import_tables:
 都昌	dou1 coeng1
 都昌縣	dou1 coeng1 jyun6
 都城	dou1 sing4
-都得	dou1 dak1	100%
+都得	dou1 dak1	10000
 都睇	dou1 tai2
 都督	dou1 duk1
 都多	dou1 do1
@@ -58833,7 +58833,7 @@ import_tables:
 嗰陣時	go2 zan6 si2
 嗰朕	go2 zam6
 嗰朕𡃴	go2 zam6 ceoi4
-嗰隻	go2 zek3
+嗰隻	go2 zek3	10000
 嗰隻衰嘢	go2 zek3 seoi1 je5
 嗰隻蟹	go2 zek3 haai5
 嗰隻嘢	go2 zek3 je5
@@ -64311,8 +64311,6 @@ import_tables:
 咁啱線	gam3 ngaam1 sin3
 咁晏	gam3 ngaan3
 咁晏	gam3 aan3
-咁樣	gam2 joeng2
-咁樣樣	gam2 joeng2 joeng2
 咁夜	gam3 je6
 咁遠	gam3 jyun5
 咁早	gam3 zou2
@@ -65214,7 +65212,7 @@ import_tables:
 好慣	hou2 gwaan3
 好鬼	hou2 gwai2
 好鬼衰	hou2 gwai2 seoi1
-好鬼死	hou2 gwai2 sei2	100%
+好鬼死	hou2 gwai2 sei2	10000
 好鬼死難頂	hou2 gwai2 sei2 laan4 ding2
 好攰	hou2 gui6
 好貴	hou2 gwai3
@@ -111100,7 +111098,7 @@ import_tables:
 佢啲	keoi5 di1
 佢地	keoi5 dei6
 佢點	keoi5 dim2
-佢哋	keoi5 dei6	100%
+佢哋	keoi5 dei6	10000
 佢哋嘅	keoi5 dei2 ge3
 佢哋嘅	keoi5 dei6 ge3
 佢哋自己	keoi5 dei6 zi6 gei2
@@ -136627,7 +136625,7 @@ import_tables:
 我睇吓	ngo5 tai2 haa5
 我點解	ngo5 dim2 gaai2
 我點知	ngo5 dim2 zi1
-我哋	ngo5 dei6	100%
+我哋	ngo5 dei6	10000
 我哋嘅	ngo5 dei6 ge3
 我哋自己	ngo5 dei6 zi6 gei2
 我哋自己嘅	ngo5 dei6 zi6 gei2 ge3
@@ -139732,7 +139730,7 @@ import_tables:
 喺邊度	hai2 bin1 dou6
 喺處	hai2 syu3
 喺道	hai2 dou6
-喺度	hai2 dou6	100%
+喺度	hai2 dou6	10000
 喺度食	hai2 dou6 sik6
 喺嗰度	hai2 go2 dou6
 喺孔夫子面前賣文章	hai2 hung2 fu1 zi2 min6 cin4 maai6 man4 zoeng1
@@ -155684,7 +155682,7 @@ import_tables:
 有碼	jau5 maa5
 有慢	jau5 maan6
 有毛有翼	jau5 mou4 jau5 jik6
-有冇	jau5 mou5	100%
+有冇	jau5 mou5	10000
 有冇得	jau5 mou5 dak1
 有冇搞錯	jau5 mou5 gaau2 co3
 有冇攪錯	jau5 mou5 gaau2 co3
