@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.2.3"
+  version: "0.2.4"
   author:
     - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -97,10 +97,10 @@ speller:
 
     # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
     #- derive/^n/l/
-    
+
     # 取消下行註釋，支援 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
     #- derive/^(g|k)w/$1/
-    
+
     # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
     #- derive/^ng$/m/
 
@@ -111,7 +111,7 @@ translator:
   dictionary: jyut6ping3
   spelling_hints: 8
   preedit_format:
-    - xform/(^|[ '])(m|ng)+$/$1$2̩$3/          # 唔m̩ 五ŋ̩
+    - xform/(^|[ '])(m|ng)+$/$1$2̩/            # 唔m̩ 五ŋ̩
     - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
     - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
     - xform/([ptk])v/$1˥/                     # 一jɐt̚
@@ -202,7 +202,7 @@ stroke:
   tips: 〔筆畫〕
   preedit_format:
     - xlit/hspnz/一丨丿丶乙/
-    
+
 cangjie5:
   tag: cangjie5
   dictionary: cangjie5
@@ -231,7 +231,7 @@ trad_tw:
 trad_hk:
   option_name: trad_hk
   opencc_config: t2hk.json
-  
+
 simp_cn:
   option_name: simp_cn
   opencc_config: t2s.json
