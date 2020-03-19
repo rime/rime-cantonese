@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.2.4"
+  version: "0.2.5"
   author:
     - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -186,6 +186,6 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "`[a-z]*;?$"
+    luna_pinyin: "`[a-z']*;?$"
     stroke: "x[hspnz]*;?$"
     cangjie5: "v[a-z]*;?$"
