@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.2.5"
+  version: "0.2.6"
   author:
     - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -112,9 +112,9 @@ translator:
   spelling_hints: 8
   preedit_format:
     - xform/(^|[ '])(m|ng)+$/$1$2̩/            # 唔m̩ 五ŋ̩
-    - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
-    - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
-    - xform/([ptk])v/$1˥/                     # 一jɐt̚
+    - xform/([ptk])qq/$1˨/                    # 熱jiːt˨
+    - xform/([ptk])q/$1˧/                     # 醃jiːp˧
+    - xform/([ptk])v/$1˥/                     # 一jɐt
     - xform/vv/˨˩/                             # 而jiː˨˩
     - xform/v/˥˥/                             # 衣jiː˥˥
     - xform/xx/˩˧/                             # 以jiː˩˧
@@ -122,18 +122,18 @@ translator:
     - xform/qq/˨˨/                            # 二jiː˨˨
     - xform/(^|[ '])q/$1ʔ/                   # 喉塞音
     - xform/q/˧˧/                             # 意jiː˧˧
-    - xform/([PTK])$/$1]$2/                   # 入jɐp̚
+    - xform/([PTK])$/$1/                      # 入jɐp
     - xform/(^|[ '])([jy])u(ng)/$1jʊŋ/        # 用jʊŋ
-    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/ # 月jyːt̚
-    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/    # 奪tyːt̚
-    - xform/(^|[ '])([jy])u([k])/$1jʊ$3]/     # 玉jʊk̚
+    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3/  # 月jyːt
+    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2/     # 奪tyːt
+    - xform/(^|[ '])([jy])u([k])/$1jʊ$3/      # 玉jʊk
     - xform/(^|[ '])(jy)u/$1jYː/              # 元jyːn
     - xform/yu/Yː/                            # 嫩nyːn
-    - xform/y([aeior])/j$1/                   # 一yat/jɐt̚/
+    - xform/y([aeior])/j$1/                   # 一yat/jɐt/
     - xform/(aa|r)([iu])/Aː\U$2/              # 嗎maː
     - xform/a([iu])/ɐ\U$1/                    # 米mɐi
-    - xform/(aa|r)([ptk])/Aː\U$2]/            # 鈪aːk̚
-    - xform/a([ptk])/ɐ\U$1]/                  # 呃ɐk̚
+    - xform/(aa|r)([ptk])/Aː\U$2/             # 鈪aːk
+    - xform/a([ptk])/ɐ\U$1/                   # 呃ɐk
     - xform/(aa|r)/Aː/                        # 嗎maː
     - xform/b/P/                              # 吧paː
     - xform/c/T͡sH/                            # 差tsʰaː
@@ -141,31 +141,31 @@ translator:
     - xform/eu/ɛːU/                           # 掉tɛːu
     - xform/eoi/ɵY/                           # 水sɵy
     - xform/oei/ɵY/                           # 容錯
-    - xform/oe([ptk])/œː$1]/                  # 約jœːk̚
+    - xform/oe([ptk])/œː$1/                   # 約jœːk
     - xform/oe(ng)/œː$1/                      # 容錯
-    - xform/oe([t])/ɵ$1]/                     # 容錯
+    - xform/oe([t])/ɵ$1/                      # 容錯
     - xform/oe([n])/ɵ$1/                      # 容錯
     - xform/oe/œː/                            # 張tsœːŋ
     - xform/oi/ɔːI/                           # 蓋kʰɔːi
     - xform/eo(ng)/œːŋ/                       # 容錯
-    - xform/eo([k])/œː$1]/                    # 容錯
-    - xform/eo([t])/ɵ$1]/                     # 率sɵt̚
+    - xform/eo([k])/œː$1/                     # 容錯
+    - xform/eo([t])/ɵ$1/                      # 率sɵt
     - xform/eon/ɵn/                           # 信sɵn
     - xform/ou/OU/                            # 無mou
-    - xform/u([k])/ʊ$1]/                      # 六lʊk̚
+    - xform/u([k])/ʊ$1/                       # 六lʊk
     - xform/ui/UːI/                           # 回wuːi
     - xform/iu/IːU/                           # 小siːu
     - xform/i(ng)/ɪN/                         # 名mɪŋ
-    - xform/ik/ɪK]/                           # 式sɪk̚
-    - xform/i([pt])/Iː$1]/                    # 結kiːt̚
+    - xform/ik/ɪK/                            # 式sɪk
+    - xform/i([pt])/Iː$1/                     # 結kiːt
     - xform/eo/ɵ/                             # 去hɵy
-    - xform/a/ɐ/                              # 得tɐk̚
+    - xform/a/ɐ/                              # 得tɐk
     - xform/ei/EI/                            # 欸ei
     - xform/i/Iː/                             # 是siː
-    - xform/e([ptk])/ɛː$1]/                   # 壢lɛːk̚
+    - xform/e([ptk])/ɛː$1/                    # 壢lɛːk
     - xform/e/ɛː/                             # 寫sɛː
-    - xform/o([ptk])/ɔː$1]/                   # 莫mɔːk̚
-    - xform/u([pt])/Uː$1]/                    # 活wuːt̚
+    - xform/o([ptk])/ɔː$1/                    # 莫mɔːk
+    - xform/u([pt])/Uː$1/                     # 活wuːt
     - xform/u(ng)/ʊN/                         # 動tʊŋ
     - xform/o/ɔː/                             # 錯tsʰɔː
     - xform/u/Uː/                             # 故kuː
@@ -173,7 +173,7 @@ translator:
     - xform/n/n/                              # 你nei
     - xform/kw/KWH/                           # 群kʷʰɐn
     - xform/gw/KW/                            # 均kʷɐn
-    - xform/g/K/                              # 急kɐp̚
+    - xform/g/K/                              # 急kɐp
     - xform/(^|[ '])([ptk])/$1$2H/            # 噴pʰɐn
     - xform/w/w/                              # 雲wɐn
     - xform/j/j/                              # 人jɐn
@@ -181,7 +181,7 @@ translator:
     - xform/l/l/                              # 里lei
     - xform/s/s/                              # 死sei
     - xform/z/T͡s/                             # 這t͡sɛː
-    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
+    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː|"
 
 luna_pinyin:
   tag: luna_pinyin
@@ -252,5 +252,5 @@ recognizer:
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
     luna_pinyin: "`[a-z']*;?$"
-    stroke: "x[hspnz]*;?$"
-    cangjie5: "v[a-z]*;?$"
+    stroke: "^x[hspnz]*;?$"
+    cangjie5: "^v[a-z]*;?$"
