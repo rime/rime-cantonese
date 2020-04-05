@@ -26449,7 +26449,6 @@ import_tables:
 閉館	bai3 gun2	
 閉恭	bai3 gung1	
 閉關	bai3 gwaan1	
-閉關自守	bai3 gwaan1	
 閉關鎖國	bai3 gwaan1 so2 gwok3	
 閉關自守	bai3 gwaan1 zi6 sau2	
 閉關政策	bai3 gwaan1 zing3 caak3	
@@ -28404,7 +28403,6 @@ import_tables:
 彼此	bei2 ci2	
 彼此彼此	bei2 ci2 bei2 ci2	
 畀錢	bei2 cin2	
-畀錢	bei2 cin2	
 畀錢我	bei2 cin2 ngo5	
 彼倡此和	bei2 coeng3 ci2 wo4	
 彼唱此和	bei2 coeng3 ci2 wo4	
@@ -28458,20 +28456,13 @@ import_tables:
 比堅尼	bei2 gin1 nei4	
 畀個	bei2 go3	1000.0
 畀個冬瓜你做膽	bei2 go3 dung1 gwaa1 nei5 zou6 daam2	
-畀個冬瓜你做膽	bei2 go3 dung1 gwaa1 nei5 zou6 daam2	
-畀個天你做膽	bei2 go3 tin1 nei5 zou6 daam2	
 畀個天你做膽	bei2 go3 tin1 nei5 zou6 daam2	
 比干	bei2 gon1	
 比桿賽	bei2 gon1 coi3	
 比高	bei2 gou1	
 畀高帽佢戴	bei2 gou1 mou2 keoi5 daai3	
 畀龜逗	bei2 gwai1 dau6	
-畀龜逗	bei2 gwai1 dau6	
 畀鬼迷	bei2 gwai2 mai4	
-畀鬼迷	bei2 gwai2 mai4	
-畀鬼矺	bei2 gwai2 zaak3	
-畀鬼磧	bei2 gwai2 zaak3	
-畀鬼責	bei2 gwai2 zaak3	
 畀鬼矺	bei2 gwai2 zaak3	
 畀鬼磧	bei2 gwai2 zaak3	
 畀鬼責	bei2 gwai2 zaak3	
@@ -28493,6 +28484,7 @@ import_tables:
 畀人鬧	bei2 jan4 naau6	
 畀人呃	bei2 jan4 ngaak1	
 畀人拼沉	bei2 jan4 peng1 cam4	
+畀人使	bei2 jan4 sai2	
 畀人識穿	bei2 jan4 sik1 cyun1	
 畀人玩死	bei2 jan4 waan2 sei2	
 比一比	bei2 jat1 bei2	
@@ -28515,8 +28507,6 @@ import_tables:
 比喻	bei2 jyu6	
 比喻義	bei2 jyu6 ji6	
 比卡超	bei2 kaa1 ciu1	
-畀卡	bei2 kaat1	
-畀咭	bei2 kaat1	
 畀卡	bei2 kaat1	
 畀咭	bei2 kaat1	
 畀佢	bei2 keoi5	
@@ -28542,7 +28532,6 @@ import_tables:
 畀利市	bei2 lei6 si6	
 畀利是	bei2 lei6 si6	
 畀雷劈	bei2 leoi4 pek3	
-畀雷劈	bei2 leoi4 pek3	
 比鄰	bei2 leon4	
 比率	bei2 leot2	
 比率	bei2 leot6	
@@ -28557,7 +28546,6 @@ import_tables:
 比唔上	bei2 m4 soeng6	
 畀問起	bei2 man6 hei2	
 媲美	bei2 mei5	
-畀面	bei2 min2	
 畀面	bei2 min2	
 畀面	bei2 min6	
 畀面色佢睇	bei2 min6 sik1 keoi5 tai2	
@@ -28587,8 +28575,6 @@ import_tables:
 比薩斜塔	bei2 saat3 ce3 taap3	
 比薩斜塔	bei2 saat3 ce4 taap3	
 畀西瓜皮你踩	bei2 sai1 gwaa1 pei4 nei5 caai2	
-畀西瓜皮你踩	bei2 sai1 gwaa1 pei4 nei5 caai2	
-畀心機	bei2 sam1 gei1	
 畀心機	bei2 sam1 gei1	
 畀心機做	bei2 sam1 gei1 zou6	
 比溼	bei2 sap1	
@@ -28602,7 +28588,6 @@ import_tables:
 比斯特	bei2 si1 dak6	
 比斯開灣	bei2 si1 hoi1 waan1	
 俾斯麥	bei2 si1 mak6	
-畀人使	bei2 jan4 sai2	
 比試	bei2 si3	
 比氏鶲鶯	bei2 si6 jung1 ang1	
 比色分析	bei2 sik1 fan1 sik1	
@@ -28617,15 +28602,12 @@ import_tables:
 比畫	bei2 waak6	
 比威力	bei2 wai1 lik6	
 畀位	bei2 wai2	
-畀位	bei2 wai2	
 比腕力	bei2 wun2 lik6	
 畀晝作夜	bei2 zau3 zok3 je6	
 秕子	bei2 zi2	
 比值	bei2 zik6	
 比照	bei2 ziu3	
 畀咗	bei2 zo2	
-畀着	bei2 zoek6	
-畀著	bei2 zoek6	
 畀着	bei2 zoek6	
 畀著	bei2 zoek6	
 畀張	bei2 zoeng1	
@@ -28741,7 +28723,6 @@ import_tables:
 備件	bei6 gin2	
 鼻哥	bei6 go1	
 鼻哥窿	bei6 go1 lung1	
-鼻哥窿 	bei6 go1 lung1	
 鼻哥窿擔遮	bei6 go1 lung1 daam1 ze1	
 鼻哥尖	bei6 go1 zim1	
 被告	bei6 gou3	
@@ -29497,9 +29478,9 @@ import_tables:
 便血	bin6 hyut3	
 便人	bin6 jan4	
 便衣	bin6 ji1	
+便衣兵	bin6 ji1 bing1	
 便衣警	bin6 ji1 ging2	
 便衣警察	bin6 ji1 ging2 caat3	
-便衣兵	bin6 ji1 ji3 bing1	
 便宴	bin6 jin3	
 弁言	bin6 jin4	
 辨認	bin6 jing6	
@@ -30619,7 +30600,6 @@ import_tables:
 博聞強記	bok3 man4 koeng4 gei3	
 博聞強識	bok3 man4 koeng4 sik1	
 博物	bok3 mat6	
-博物院	bok3 mat6	
 博物多聞	bok3 mat6 do1 man4	
 博物館	bok3 mat6 gun2	
 博物洽聞	bok3 mat6 hap6 man4	
@@ -35381,7 +35361,6 @@ import_tables:
 斜眼看	ce4 ngaan5 hon3	
 斜睨	ce4 ngai6	
 斜鉤	ce4 ngau1	
-邪惡	ce4 ngok3	
 邪念	ce4 nim6	
 邪惡	ce4 ok3	
 邪惡軸心	ce4 ok3 zuk6 sam1	
@@ -35729,7 +35708,6 @@ import_tables:
 炊事	ceoi1 si6	
 炊事員	ceoi1 si6 jyun4	
 吹熄	ceoi1 sik1	
-吹熄  	ceoi1 sik1	
 吹簫	ceoi1 siu1	
 吹簫乞食	ceoi1 siu1 hat1 sik6	
 吹鬚睩眼	ceoi1 sou1 luk1 ngaan5	
@@ -35859,7 +35837,6 @@ import_tables:
 趣聞	ceoi3 man4	
 翠微	ceoi3 mei4	
 趣味	ceoi3 mei6	
-啐唾沫	ceoi3 mut3	
 翠鳥	ceoi3 niu5	
 脆皮	ceoi3 pei2	
 脆皮	ceoi3 pei4	
@@ -35867,6 +35844,7 @@ import_tables:
 翠屏區	ceoi3 ping4 keoi1	
 覷視	ceoi3 si6	
 趣事	ceoi3 si6	
+啐唾沫	ceoi3 to3 mut3	
 覷糊	ceoi3 wu4	
 趣緻	ceoi3 zi3	
 趣致	ceoi3 zi3	
@@ -37694,7 +37672,7 @@ import_tables:
 千祈	cin1 kei4	
 千奇百怪	cin1 kei4 baak3 gwaai3	
 千祈唔好	cin1 kei4 m4 hou2	
-千祈唔好	cin1 kei4 mou2	
+千祈冇	cin1 kei4 mou2	
 遷離	cin1 lei4	
 千里	cin1 lei5	
 千里搭長棚，沒有不散的宴席	cin1 lei5 daap3 coeng4 paang4 mut6 jau5 bat1 saan3 dik1 jin3 zik6	
@@ -42459,7 +42437,6 @@ import_tables:
 寸草不留	cyun3 cou2 bat1 lau4	
 寸草不生	cyun3 cou2 bat1 sang1	
 寸草春暉	cyun3 cou2 ceon1 fai1	
-寸草春暉	cyun3 cou2 fai1	
 串處理	cyun3 cyu2 lei5	
 串串貢	cyun3 cyun3 gung3	
 吋吋貢	cyun3 cyun3 gung3	
@@ -43049,7 +43026,6 @@ import_tables:
 打吡	daa2 bei2	
 打比	daa2 bei2	
 打畀	daa2 bei2	
-打畀	daa2 bei2	
 打比賽	daa2 bei2 coi3	
 打比郡	daa2 bei2 gwan6	
 打畀我	daa2 bei2 ngo5	
@@ -43180,7 +43156,7 @@ import_tables:
 打賭	daa2 dou2	
 打到	daa2 dou3	
 打倒掟	daa2 dou3 deng3	
-打倒掟放	daa2 dou3 deng3	
+打倒掟放	daa2 dou3 deng3 fong3	
 打到二跳四	daa2 dou3 ji6 tiu3 sei3	
 打倒褪	daa2 dou3 tan3	
 打到豬頭咁	daa2 dou3 zyu1 tau4 gam2	
@@ -43591,8 +43567,8 @@ import_tables:
 打壞	daa2 waai2	
 打壞	daa2 waai6	
 打橫	daa2 waang4	
-打橫寫	daa2 waang4	
-打橫放	daa2 waang4	
+打橫寫	daa2 waang4	se2
+打橫放	daa2 waang4	fong3
 打橫打掂	daa2 waang4 daa2 dim6	
 打橫瞓	daa2 waang4 fan3	
 打橫行	daa2 waang4 haang4	
@@ -44612,7 +44588,6 @@ import_tables:
 大欖涌水塘	daai6 laam5 cung1 seoi2 tong4	
 大欖隧道	daai6 laam5 seoi6 dou6	
 大纜	daai6 laam6	
-大纜都扯唔埋	daai6 laam6 ce2 m4 maai4	
 大纜都扯唔埋	daai6 laam6 dou1 ce2 m4 maai4	
 大纜絞唔埋	daai6 laam6 gaau2 m4 maai4	
 大艦巨砲主義	daai6 laam6 geoi6 paau3 zyu2 ji6	
@@ -46919,7 +46894,7 @@ import_tables:
 德牧	dak1 muk6	
 德昂	dak1 ngong4	
 德昂族	dak1 ngong4 zuk6	
-德涅斯－特河沿岸共和國	dak1 nip6 si1 dak6 ho4 jyun4 ngon6 gung6 wo4 gwok3	
+德涅斯特河沿岸共和國	dak1 nip6 si1 dak6 ho4 jyun4 ngon6 gung6 wo4 gwok3	
 得耐	dak1 noi6	
 德安	dak1 on1	
 德安縣	dak1 on1 jyun6	
@@ -49191,7 +49166,7 @@ import_tables:
 電鋸	din6 goe3	
 電杆	din6 gon1	
 電桿	din6 gon1	
-電信局	din6 guk6	
+電局	din6 guk6	
 電焗爐	din6 guk6 lou4	
 靛冠噪鶥	din6 gun3 cou3 mei4	
 電灌站	din6 gun3 zaam6	
@@ -49245,7 +49220,6 @@ import_tables:
 電影劇本	din6 jing2 kek6 bun2	
 電影明星	din6 jing2 ming4 sing1	
 電影票	din6 jing2 piu3	
-電影明星	din6 jing2 sing1	
 電影製片	din6 jing2 zai3 pin2	
 電影製作	din6 jing2 zai3 zok3	
 電影節	din6 jing2 zit3	
@@ -49411,7 +49385,7 @@ import_tables:
 電熨斗	din6 tong3 dau2	
 電燙斗	din6 tong3 dau2	
 殿堂	din6 tong4	
-殿堂級	din6 tong4	
+殿堂級	din6 tong4 kap1	
 電筒	din6 tung2	
 電臀舞	din6 tyun4 mou5	
 電話	din6 waa2	
@@ -51461,6 +51435,7 @@ import_tables:
 搗碎	dou2 seoi3	
 倒屎	dou2 si2	
 倒屎咁早	dou2 si2 gam3 zou2	
+倒屎塔	dou2 si2 taap3	
 賭城	dou2 sing4	
 倒鎖	dou2 so2	
 倒相	dou2 soeng3	
@@ -52684,7 +52659,6 @@ import_tables:
 洞穴	dung6 jyut6	
 戙旗	dung6 kei4	
 戙企	dung6 kei5	
-戙起牀版	dung6 kei5	
 戙企水魚	dung6 kei5 seoi2 jyu2	
 侗劇	dung6 kek6	
 動力	dung6 lik6	
@@ -54074,7 +54048,6 @@ import_tables:
 反轉豬肚就係屎	faan2 zyun3 zyu1 tou5 zau6 hai6 si2	
 反轉豬肚就是屎	faan2 zyun3 zyu1 tou5 zau6 si6 si2	
 泛白	faan3 baak6	
-販賣部	faan3 bou6	
 泛稱	faan3 cing1	
 泛大洋	faan3 daai6 joeng4	
 泛大陸	faan3 daai6 luk6	
@@ -54098,6 +54071,7 @@ import_tables:
 泛濫	faan3 laam6	
 泛濫成災	faan3 laam6 sing4 zoi1	
 販賣	faan3 maai6	
+販賣部	faan3 maai6 bou6	
 販賣機	faan3 maai6 gei1	
 販賣人口	faan3 maai6 jan4 hau2	
 泛民	faan3 man4	
@@ -54581,7 +54555,6 @@ import_tables:
 發噓聲	faat3 hoe1 seng1	
 法向力	faat3 hoeng3 lik6	
 法向量	faat3 hoeng3 loeng6	
-發開口夢	faat3 hoi1 hai2 hau2 mung6	
 發開口夢	faat3 hoi1 hau2 mung6	
 法海	faat3 hoi2	
 法學	faat3 hok6	
@@ -54800,7 +54773,6 @@ import_tables:
 發吽逗	faat3 ngau6 dau6	
 發呆	faat3 ngoi4	
 法外	faat3 ngoi6	
-發惡	faat3 ngok3	
 發怒	faat3 nou6	
 發惡	faat3 ok3	
 法案	faat3 on3	
@@ -56768,7 +56740,6 @@ import_tables:
 夥伴	fo2 bun6	
 火伴	fo2 bun6	
 火柴	fo2 caai4	
-火柴盒	fo2 caai4	
 火柴盒	fo2 caai4 hap2	
 火柴人	fo2 caai4 jan4	
 火車	fo2 ce1	
@@ -62767,8 +62738,6 @@ import_tables:
 雞肶	gai1 bei2	
 雞脾	gai1 bei2	
 雞髀	gai1 bei2	
-雞髀打人牙骹軟	gai1 bei2 daa2 jan4 ng3 aa4 gaau3 jyun5	
-雞脾打人牙骹軟	gai1 bei2 daa2 jan4 ngaa4 gaau3 jyun5	
 雞髀打人牙骹軟	gai1 bei2 daa2 jan4 ngaa4 gaau3 jyun5	
 雞肶菇	gai1 bei2 gu1	
 雞髀菇	gai1 bei2 gu1	
@@ -64737,8 +64706,7 @@ import_tables:
 九校聯盟	gau2 haau6 lyun4 mang4	
 糾合	gau2 hap6	
 苟合	gau2 hap6	
-狗口長不出象牙	gau2 hau2 coeng2 bat1 ceot1 zoeng6 ngaa4	
-狗口長不出象牙	gau2 hau2 zoeng2 bat1 ceot1 zoeng6 ng3 aa4	
+狗口長不出象牙	gau2 hau2 zoeng2 bat1 ceot1 zoeng6 ngaa4	
 狗吃屎	gau2 hek3 si2	
 九卿	gau2 hing1	
 九竅	gau2 hiu3	
@@ -69607,7 +69575,6 @@ import_tables:
 高利貸	gou1 lei6 taai3	
 高鄰	gou1 leon4	
 高論	gou1 leon6	
-高力豆沙	gou1 lik6 dau6	
 高力豆沙	gou1 lik6 dau6 saa1	
 高陵	gou1 ling4	
 高齡	gou1 ling4	
@@ -71210,7 +71177,6 @@ import_tables:
 公認	gung1 jing6	
 功業	gung1 jip6	
 工業	gung1 jip6	
-工業化	gung1 jip6	
 工業品	gung1 jip6 ban2	
 工業部	gung1 jip6 bou6	
 工業七國集團	gung1 jip6 cat1 gwok3 zaap6 tyun4	
@@ -71417,7 +71383,7 @@ import_tables:
 宮室	gung1 sat1	
 攻守	gung1 sau2	
 公社	gung1 se5	
-公死有肉食，婆死有肉食	gung1 sei2 jau5 juk6 ji6 sik6 po4 sei2 jau5 juk6 sik6	
+公死有肉食，婆死有肉食	gung1 sei2 jau5 juk6 sik6 po4 sei2 jau5 juk6 sik6	
 公石	gung1 sek6	
 供需	gung1 seoi1	
 公需課	gung1 seoi1 fo3	
@@ -79406,7 +79372,6 @@ import_tables:
 險過剃頭	him2 gwo3 tai3 tau4	
 險要	him2 jiu3	
 險球	him2 kau4	
-險惡	him2 ngok3	
 險惡	him2 ok3	
 險些	him2 se1	
 險死還生	him2 sei2 waan4 sang1	
@@ -81337,9 +81302,9 @@ import_tables:
 開天闢地	hoi1 tin1 pik1 dei6	
 開天索價	hoi1 tin1 saak3 gaa3	
 開天索價，落地還錢	hoi1 tin1 saak3 lok6 dei6 waan4 cin4	
-開天殺價落地還錢	hoi1 tin1 saat3 gaa3 lok6 dei6 waan4 cin5	
+開天殺價落地還錢	hoi1 tin1 saat3 gaa3 lok6 dei6 waan4 cin2	
 開天索價	hoi1 tin1 sok3 gaa3	
-開天索價落地還錢	hoi1 tin1 sok3 gaa3 lok6 dei6 waan4 cin5	
+開天索價落地還錢	hoi1 tin1 sok3 gaa3 lok6 dei6 waan4 cin2	
 開庭	hoi1 ting4	
 開拖	hoi1 to1	
 開檯	hoi1 toi2	
@@ -83564,11 +83529,7 @@ import_tables:
 空身	hung1 san1	
 空身伶俐	hung1 san1 ling4 lei6	
 兇神	hung1 san4	
-兇神惡	hung1 san4 ngok3	
-兇神惡殺	hung1 san4 ngok3 saat1	
-兇神惡煞	hung1 san4 ngok3 saat3	
-凶神惡煞	hung1 san4 ngok3 saat3	
-凶神惡殺	hung1 san4 ok3	
+兇神惡	hung1 san4 ok3	
 兇神惡煞	hung1 san4 ok3 saat3	
 空室清野	hung1 sat1 cing1 je5	
 兇手	hung1 sau2	
@@ -84228,8 +84189,8 @@ import_tables:
 紅腿斑秧雞	hung4 teoi2 baan1 joeng1 gai1	
 紅腿小隼	hung4 teoi2 siu2 zeon2	
 紅湯	hung4 tong1	
+紅堂	hung4 tong4	
 紅糖	hung4 tong4	
-紅堂	hung4 tong4 tong2	
 紅土	hung4 tou2	
 紅桃	hung4 tou4	
 雄圖	hung4 tou4	
@@ -97780,7 +97741,7 @@ import_tables:
 靠窗	kaau3 coeng1	
 靠窗座位	kaau3 coeng1 zo6 wai2	
 靠得住	kaau3 dak1 zyu6	
-靠得住，豬乸會上樹	kaau3 dak1 zyu6 zyu1 naa2 dou1 wui5 soeng5 syu6	
+靠得住豬乸都會上樹	kaau3 dak1 zyu6 zyu1 naa2 dou1 wui5 soeng5 syu6	
 靠近	kaau3 gan6	
 靠估	kaau3 gu2	
 靠嚇	kaau3 haak3	
@@ -99447,7 +99408,7 @@ import_tables:
 喬治	kiu4 zi6	
 喬治亞	kiu4 zi6 aa3	
 喬治亞州	kiu4 zi6 aa3 zau1	
-喬治·布殊	kiu4 zi6 bou3 syu4	
+喬治布殊	kiu4 zi6 bou3 syu4	
 喬治敦	kiu4 zi6 deon1	
 喬治一世	kiu4 zi6 jat1 sai3	
 喬治城	kiu4 zi6 sing4	
@@ -99483,7 +99444,6 @@ import_tables:
 卻之不恭	koek3 zi1 bat1 gung1	
 噱頭	koek6 tau4	
 強迫	koeng4 bik1	
-強迫症	koeng4 bik1	
 強逼	koeng4 bik1	
 強迫觀念	koeng4 bik1 gun1 nim6	
 強迫勞動	koeng4 bik1 lou4 dung6	
@@ -101206,7 +101166,6 @@ import_tables:
 讕有嘢	laan2 jau5 je5	
 懶叻	laan2 lek1	
 讕叻	laan2 lek1	
-讕惡爺	laan2 ngok3 je1	
 讕惡爺	laan2 ok3 je1	
 讕使	laan2 sai2	
 懶醒	laan2 sing2	
@@ -101430,7 +101389,6 @@ import_tables:
 爛頭卒	laan6 tau4 zeot1	
 爛頭粥	laan6 tau4 zuk1	
 爛銅爛鐵	laan6 tung4 laan6 tit3	
-爛銅爛鐵　	laan6 tung4 laan6 tit3	
 爛玩	laan6 waan2	
 爛污貨	laan6 wu1 fo3	
 爛糊	laan6 wu4	
@@ -109190,7 +109148,6 @@ import_tables:
 唔嘚	m4 dak1	
 唔得	m4 dak1	
 唔得切	m4 dak1 cit3	
-唔熟唔食	m4 dak1 cit3	
 唔得掂	m4 dak1 dim6	
 唔得閑	m4 dak1 haan4	
 唔得閒	m4 dak1 haan4	
@@ -109219,7 +109176,7 @@ import_tables:
 唔返	m4 faan1	
 唔發	m4 faat3	
 唔發火當病貓	m4 faat3 fo2 dong3 beng6 maau1	
-唔發火當我流	m4 faat3 fo2 dong3 lau4	
+唔發火當我流	m4 faat3 fo2 dong3 ngo5 lau4	
 唔發市	m4 faat3 si5	
 唔瞓	m4 fan3	
 唔忿	m4 fan6	
@@ -109378,13 +109335,20 @@ import_tables:
 唔開胃	m4 hoi1 wai6	
 唔學	m4 hok6	
 唔好	m4 hou2	
+唔好出聲	m4 hou2 ceot1 seng1	
 唔好嘈	m4 hou2 cou4	
+唔好擔心	m4 hou2 daam1 sam1	
+唔好計帶	m4 hou2 gai3 daai3	
+唔好講	m4 hou2 gong2	
+唔好客氣	m4 hou2 haak3 hei3	
+唔好喊	m4 hou2 haam3	
 唔好去死	m4 hou2 heoi3 sei2	
 唔好飲	m4 hou2 jam2	
 唔好意思	m4 hou2 ji3 si1	
 唔好意思	m4 hou2 ji3 si3	
 唔好意頭	m4 hou2 ji3 tau4	
 唔好喐	m4 hou2 juk1	
+唔好預我	m4 hou2 jyu6 ngo5	
 唔好啦	m4 hou2 laa1	
 唔好喇	m4 hou2 laa3	
 唔好老脾	m4 hou2 lou5 pei2	
@@ -110754,7 +110718,6 @@ import_tables:
 萬劫不復	maan6 gip3 bat1 fuk6	
 萬古	maan6 gu2	
 萬古千秋	maan6 gu2 cin1 cau1	
-萬古長青	maan6 gu2 cing1	
 萬古長青	maan6 gu2 coeng4 cing1	
 萬古長新	maan6 gu2 coeng4 san1	
 萬古流芳	maan6 gu2 lau4 fong1	
@@ -111059,7 +111022,7 @@ import_tables:
 盲棋	maang4 kei2	
 盲棋	maang4 kei4	
 盲區	maang4 keoi1	
-盲拳打死老師父	maang4 kyun4 daa2 sei2 si1 fu2	
+盲拳打死老師父	maang4 kyun4 daa2 sei2 lou5 si1 fu2	
 盲流	maang4 lau4	
 盲佬	maang4 lou2	
 盲鰻	maang4 maan4	
@@ -115102,20 +115065,20 @@ import_tables:
 望子成龍	mong6 zi2 sing4 lung4	
 望族	mong6 zuk6	
 望住	mong6 zyu6	
-唔好出聲	mou2 ceot1 seng1	
-唔好嘈	mou2 cou4	
-唔好擔心	mou2 daam1 sam1	
-唔好計帶	mou2 gai3 daai3	
-唔好講	mou2 gong2	
-唔好客氣	mou2 haak3 hei3	
-唔好喊	mou2 haam3	
+冇出聲	mou2 ceot1 seng1	
+冇嘈	mou2 cou4	
+冇擔心	mou2 daam1 sam1	
+冇計帶	mou2 gai3 daai3	
+冇講	mou2 gong2	
+冇客氣	mou2 haak3 hei3	
+冇喊	mou2 haam3	
 帽檐	mou2 jam4	
 冇嘢講	mou2 je5 gong2	
-唔好喐	mou2 juk1	
-唔好預我	mou2 jyu6 ngo5	
+冇喐	mou2 juk1	
+冇預我	mou2 jyu6 ngo5	
 帽沿	mou2 jyun4	
 帽箍兒	mou2 ku1 ji4	
-唔好心急	mou2 sam1 gap1	
+冇心急	mou2 sam1 gap1	
 冇水	mou2 seoi2	
 無所謂	mou2 so2 wai6	
 帽子	mou2 zi2	
@@ -116036,8 +115999,7 @@ import_tables:
 冇咁易	mou5 gam3 ji6	
 冇咁嬲	mou5 gam3 nau1	
 冇咁早	mou5 gam3 zou2	
-冇咁大個頭唔好戴咁大頂帽	mou5 gam5 daai6 go3 tau4 mou2 daai3 gam3 daai6 deng2 mou2	
-冇根蔸	mou5 gan1	
+冇咁大個頭冇戴咁大頂帽	mou5 gam5 daai6 go3 tau4 mou2 daai3 gam3 daai6 deng2 mou2	
 冇根底	mou5 gan1 dai2	
 冇根蔸	mou5 gan1 dau1	
 冇緊要	mou5 gan2 jiu3	
@@ -116097,13 +116059,13 @@ import_tables:
 冇鞋挽屐走	mou5 haai4 waan5 kek6 zau2	
 母函數	mou5 haam4 sou3	
 武俠	mou5 haap6	
-武俠片	mou5 haap6	
 武俠片	mou5 haap6 pin2	
 冇效	mou5 haau6	
 母校	mou5 haau6	
 母系	mou5 hai6	
 母系社會	mou5 hai6 se5 wui2	
 武俠	mou5 hap6	
+武俠片	mou5 hap6 pin2	
 武俠小說	mou5 hap6 siu2 syut3	
 冇口齒	mou5 hau2 ci2	
 武侯	mou5 hau4	
@@ -118449,7 +118411,7 @@ import_tables:
 納吉布	naap6 gat1 bou3	
 納傑夫	naap6 git6 fu1	
 納貢	naap6 gung3	
-納戈爾諾－卡拉巴赫	naap6 gwo1 ji5 nok6 kaa1 laai1 baa1 hak1	
+納戈爾諾卡拉巴赫	naap6 gwo1 ji5 nok6 kaa1 laai1 baa1 hak1	
 納赫雄	naap6 haak1 hung4	
 吶喊	naap6 haam3	
 吶口	naap6 hau2	
@@ -119617,7 +119579,7 @@ import_tables:
 五級	ng5 kap1	
 五級士官	ng5 kap1 si6 gun1	
 五窮六絕	ng5 kung4 luk6 zyut6	
-五窮六絕七翻身	ng5 kung4 luk6 zyut6	
+五窮六絕七翻身	ng5 kung4 luk6 zyut6 cat1 faan1 san1	
 五權憲法	ng5 kyun4 hin3 faat3	
 五柳魚	ng5 lau5 jyu2	
 五柳魚	ng5 lau5 jyu4	
@@ -120941,7 +120903,7 @@ import_tables:
 奀雌雌	ngan1 ci1 ci1	
 奀黐黐	ngan1 ci1 ci1	
 奀切切	ngan1 cit1 cit1	
-奀得滯	ngan1 dak1 zai6 gwaa3	
+奀得滯	ngan1 dak1 zai6	
 奀啲	ngan1 di1	
 奀咕咕	ngan1 gu4 gu4	
 奀妹	ngan1 mui1	
@@ -122014,16 +121976,6 @@ import_tables:
 外族人	ngoi6 zuk6 jan4	
 外轉	ngoi6 zyun2	
 外傳	ngoi6 zyun6	
-惡霸	ngok3 baa3	
-惡啲	ngok3 di1	
-惡頂	ngok3 ding2	
-惡亨亨	ngok3 hang1 hang1	
-惡人們	ngok3 jan4 mun4	
-惡鯁	ngok3 kang2	
-惡晒	ngok3 saai3	
-惡做	ngok3 zou6	
-齶部	ngok6 bou6	
-岳池	ngok6 ci4	
 岳池縣	ngok6 ci4 jyun6	
 嶽得爾歌	ngok6 dak1 ji5 go1	
 樂隊	ngok6 deoi2	
@@ -122045,7 +121997,6 @@ import_tables:
 樂器	ngok6 hei3	
 樂學者	ngok6 hok6 ze2	
 噩耗	ngok6 hou3	
-惡耗	ngok6 hou3	
 樂音	ngok6 jam1	
 鄂爾多斯	ngok6 ji5 do1 si1	
 鄂爾多斯高原	ngok6 ji5 do1 si1 gou1 jyun4	
@@ -123848,6 +123799,7 @@ import_tables:
 惡創	ok3 cong3	
 惡德	ok3 dak1	
 惡鬥	ok3 dau3	
+惡啲	ok3 di1	
 惡頂	ok3 ding2	
 惡毒	ok3 duk6	
 惡化	ok3 faa3	
@@ -123863,14 +123815,17 @@ import_tables:
 惡狠	ok3 han2	
 惡狠狠	ok3 han2 han2	
 惡恨	ok3 han6	
+惡亨亨	ok3 hang1 hang1	
 惡行	ok3 hang6	
 惡口	ok3 hau2	
 惡氣	ok3 hei3	
 惡向膽邊生	ok3 hoeng3 daam2 bin1 sang1	
 惡漢	ok3 hon3	
+惡耗	ok3 hou3	
 惡兇兇	ok3 hung1 hung1	
 惡犬	ok3 hyun2	
 惡人	ok3 jan4	
+惡人們	ok3 jan4 mun4	
 惡人先告狀	ok3 jan4 sin1 gou3 zong6	
 惡人自有惡人磨	ok3 jan4 zi6 jau5 ok3 jan4 mo4	
 惡有惡報	ok3 jau5 ok3 bou3	
@@ -123888,6 +123843,7 @@ import_tables:
 惡語中傷	ok3 jyu5 zung3 soeng1	
 惡啃	ok3 kang2	
 惡骾	ok3 kang2	
+惡鯁	ok3 kang2	
 惡𠽤	ok3 kik1	
 惡辣	ok3 laat6	
 惡浪	ok3 long6	
@@ -123906,6 +123862,7 @@ import_tables:
 惡念	ok3 nim6	
 惡惡實實	ok3 ok3 sat6 sat6	
 惡癖	ok3 pik1	
+惡晒	ok3 saai3	
 惡煞	ok3 saat3	
 惡勢力	ok3 sai3 lik6	
 惡誓	ok3 sai6	
@@ -123944,8 +123901,11 @@ import_tables:
 惡仗	ok3 zoeng3	
 惡作	ok3 zok3	
 惡作劇	ok3 zok3 kek6	
+惡做	ok3 zou6	
 惡俗	ok3 zuk6	
 惡濁	ok3 zuk6	
+齶部	ok6 bou6	
+岳池	ok6 ci4	
 氨吖啶	on1 aa1 ding6	
 安邦	on1 bong1	
 安保	on1 bou2	
@@ -124133,7 +124093,7 @@ import_tables:
 安源	on1 jyun4	
 安源區	on1 jyun4 keoi1	
 安遠	on1 jyun5	
-安遠縣	on1 jyun5	
+安遠縣	on1 jyun5 jyun2	
 安縣	on1 jyun6	
 安卡拉	on1 kaa1 laai1	
 安溪	on1 kai1	
@@ -129768,8 +129728,8 @@ import_tables:
 哨兵	saau3 bing1	
 哨笛	saau3 dek6	
 哨卡	saau3 kaa1	
-哨牙蘇	saau3 ng3 aa4 sou1	
 哨牙	saau3 ngaa4	
+哨牙蘇	saau3 ngaa4 sou1	
 潲水	saau3 seoi2	
 餿水	saau3 seoi2	
 哨所	saau3 so2	
@@ -130452,7 +130412,7 @@ import_tables:
 細嗰時	sai3 go2 si4	
 細個	sai3 go3	
 細個嗰陣	sai3 go3 go2 zan6	
-細個嗰陣時	sai3 go3 go2 zan6	
+細個嗰陣時	sai3 go3 go2 zan6	si4
 細個仔	sai3 go3 zai2	
 細個仔嗰陣	sai3 go3 zai2 go2 zan6	
 勢降	sai3 gong3	
@@ -133048,7 +133008,6 @@ import_tables:
 膝頭	sat1 tau4	
 膝頭大過髀	sat1 tau4 daai6 gwo3 bei2	
 膝頭哥	sat1 tau4 go1	
-膝頭哥對上就係脾	sat1 tau4 go1 deoi3 soeng6 hai6 bei2	
 膝頭哥對上就係髀	sat1 tau4 go1 deoi3 soeng6 zau6 hai6 bei2	
 膝頭哥撟眼淚	sat1 tau4 go1 giu2 ngaan5 leoi6	
 膝頭哥撨眼淚	sat1 tau4 go1 giu2 ngaan5 leoi6	
@@ -136739,7 +136698,6 @@ import_tables:
 順風車	seon6 fung1 ce1	
 順風耳	seon6 fung1 ji5	
 順風旗	seon6 fung1 kei4	
-順風駛𢃇	seon6 fung1 sai2	
 順風駛𢃇	seon6 fung1 sai2 lei5	
 順風順水	seon6 fung1 seon6 seoi2	
 順風轉舵	seon6 fung1 zyun2 to4	
@@ -137520,9 +137478,7 @@ import_tables:
 史上	si2 soeng6	
 史書	si2 syu1	
 史泰博	si2 taai3 bok3	
-倒屎塔	si2 taap3	
 屎塔	si2 taap3	
-屎塔蓋	si2 taap3	
 屎塌蓋	si2 taap3 goi3	
 屎塔蓋	si2 taap3 goi3	
 屎氹	si2 tam5	
@@ -138560,7 +138516,7 @@ import_tables:
 食得鹹魚就要抵得渴	sik6 dak1 haam4 jyu4 zau6 jiu3 dai2 dak1 hot3	
 食得落	sik6 dak1 lok6	
 食得唔好嘥	sik6 dak1 m4 hou2 saai1	
-食得唔好嘥	sik6 dak1 mou2 saai1	
+食得冇嘥	sik6 dak1 mou2 saai1	
 食得禾米多	sik6 dak1 wo4 mai5 do1	
 食豆腐	sik6 dau6 fu6	
 食啲	sik6 di1	
@@ -139291,7 +139247,7 @@ import_tables:
 撣人	sin6 jan4	
 善有善報	sin6 jau5 sin6 bou3	
 善有善報，惡有惡報	sin6 jau5 sin6 bou3 ok3 jau5 ok3 bou3	
-善有善報，惡有惡報，若然不報時晨未到	sin6 jau5 sin6 bou3 ok3 jau5 ok3 bou3 joek6 jin4 bat1 bou3 si4 san4 mei6 dou3	
+善有善報，惡有惡報，若然不報時辰未到	sin6 jau5 sin6 bou3 ok3 jau5 ok3 bou3 joek6 jin4 bat1 bou3 si4 san4 mei6 dou3	
 善意	sin6 ji3	
 善意的謊言	sin6 ji3 dik1 fong1 jin4	
 善言	sin6 jin4	
@@ -146251,7 +146207,7 @@ import_tables:
 睇下先	tai2 haa5 sin1	
 體校	tai2 haau6	
 體系	tai2 hai6	
-體系化	tai2 hai6	
+體系化	tai2 hai6	faa6
 睇起	tai2 hei2	
 睇起來	tai2 hei2 lai4	
 睇起嚟	tai2 hei2 lei4	
@@ -148844,10 +148800,7 @@ import_tables:
 跳皮筋	tiu3 pei4 gan1	
 跳票	tiu3 piu3	
 跳傘	tiu3 saan3	
-跳虱	tiu3 sat1	
 跳蝨	tiu3 sat1	
-跳蝨市場	tiu3 sat1	
-跳虱市場	tiu3 sat1 si5 coeng4	
 跳蝨市場	tiu3 sat1 si5 coeng4	
 跳水	tiu3 seoi2	
 跳繩	tiu3 sing2	
@@ -154329,7 +154282,6 @@ import_tables:
 永吉地區	wing5 gat1 dei6 keoi1	
 永吉縣	wing5 gat1 jyun6	
 永久	wing5 gau2	
-永久性	wing5 gau2	
 永久磁鐵	wing5 gau2 ci4 tit3	
 永久凍土	wing5 gau2 dung3 tou2	
 永久居民	wing5 gau2 geoi1 man4	
@@ -155920,7 +155872,6 @@ import_tables:
 戶外	wu6 ngoi6	
 戶外運動	wu6 ngoi6 wan6 dung6	
 戶外活動	wu6 ngoi6 wut6 dung6	
-怙惡不悛	wu6 ngok3 bat1 syun1	
 滬寧	wu6 ning4	
 滬寧線	wu6 ning4 sin3	
 滬寧鐵路	wu6 ning4 tit3 lou6	
@@ -160453,7 +160404,6 @@ import_tables:
 序幕	zeoi6 mok6	
 罪無可恕	zeoi6 mou4 ho2 syu3	
 聚晤	zeoi6 ng6	
-罪惡	zeoi6 ngok3	
 罪惡	zeoi6 ok3	
 罪惡感	zeoi6 ok3 gam2	
 罪惡滔天	zeoi6 ok3 tou1 tin1	
@@ -168135,7 +168085,7 @@ import_tables:
 中國中心主義	zung1 gwok3 zung1 sam1 zyu2 ji6	
 舂下舂下	zung1 haa5 zung1 haa5	
 中下	zung1 haa6	
-中下層	zung1 haa6	
+中下層	zung1 haa6 cang4	
 中下程度	zung1 haa6 cing4 dou6	
 中下等	zung1 haa6 dang2	
 中下階層	zung1 haa6 gaai1 cang4	
