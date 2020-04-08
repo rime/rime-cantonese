@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.2.8"
+  version: "0.2.9"
   author:
     - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -66,7 +66,7 @@ engine:
     - simplifier
     - simplifier@emoji_suggestion
     - uniquifier
-    - reverse_lookup_filter@reverse_lookup
+    - reverse_lookup_filter
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -220,7 +220,7 @@ cangjie5:
     - "^yyy.*$"
 
 reverse_lookup:
-  tags: [luna_pinyin, stroke, cangjie5]
+  tags: [ luna_pinyin, stroke, cangjie5 ]
   overwrite_comment: false
   dictionary: jyut6ping3
 
