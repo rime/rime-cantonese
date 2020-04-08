@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.2.7"
+  version: "0.2.8"
   author:
     - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -27,7 +27,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - options: [ noop, trad_hk, trad_tw, simp_cn ]
+  - options: [ noop, trad_hk, trad_tw, simplification ]
     states: [ 不轉換, 香港繁體, 臺灣正體, 大陆简体 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -63,7 +63,7 @@ engine:
   filters:
     - simplifier@trad_tw
     - simplifier@trad_hk
-    - simplifier@simp_cn
+    - simplifier
     - simplifier@emoji_suggestion
     - uniquifier
     - reverse_lookup_filter@reverse_lookup
@@ -166,10 +166,6 @@ trad_tw:
 trad_hk:
   option_name: trad_hk
   opencc_config: t2hk.json
-
-simp_cn:
-  option_name: simp_cn
-  opencc_config: t2s.json
 
 emoji_suggestion:
   opencc_config: emoji.json
