@@ -473,6 +473,7 @@ import_tables:
 瓣	baan6	
 辦	baan6	
 𡌶	baan6	
+唪	baang6	
 𠾴	baang6	
 㭭	baat3	
 㺴	baat3	
@@ -2010,6 +2011,7 @@ import_tables:
 出	ceot1	
 黜	ceot1	
 齣	ceot1	
+𠻘	coet2	
 㖢	ci1	
 㞖	ci1	
 㰞	ci1	
@@ -2599,6 +2601,7 @@ import_tables:
 𪂇	coeng1	
 墏	coeng2	
 搶	coeng2	
+磢	coeng2	
 䩨	coeng3	
 䵁	coeng3	
 倡	coeng3	
@@ -5857,6 +5860,7 @@ import_tables:
 𩗗	geoi6	
 夾	gep6	
 𠼻	gi1	
+嘰	gi1	
 㦘	gik1	
 㦸	gik1	
 㯤	gik1	
@@ -11253,6 +11257,7 @@ import_tables:
 𠰠	keoi5	
 𠳔	keoi5	
 𠵇	keu4	
+棘	kik1	
 𠽤	kik1	
 𢲈	kik1	
 䈤	kim4	
@@ -16767,6 +16772,7 @@ import_tables:
 㗂	saang2	
 㨘	saang2	
 㮐	saang2	
+磢	saang2	
 㼳	saang2	
 㾪	saang2	
 䁞	saang2	
@@ -40277,6 +40283,8 @@ import_tables:
 長做長有	coeng4 zou6 coeng4 jau5	
 長足	coeng4 zuk1	
 長足進步	coeng4 zuk1 zeon3 bou6	
+𠻘𠻘聲	coet4 coet2 seng1	
+𠻘一聲	coet2 jat1 seng1	
 啋過你	coi1 gwo3 nei5	
 啋過你把口	coi1 gwo3 nei5 baa2 hau2	
 啋過你把衰口	coi1 gwo3 nei5 baa2 seoi1 hau2	
@@ -166098,6 +166106,8 @@ import_tables:
 象徵主義	zoeng6 zing1 zyu2 ji6	
 像章	zoeng6 zoeng1	
 象箸	zoeng6 zyu6	
+𠻘一聲	zoet2 jat1 seng1	
+𠻘𠻘聲	zoet4 zoet2 seng1	
 災變	zoi1 bin3	
 災變論	zoi1 bin3 leon6	
 災變說	zoi1 bin3 syut3	
