@@ -780,6 +780,8 @@ import_tables:
 餅	beng2	
 柄	beng3	
 病	beng6	
+啤	bi1	
+嗶	bi1	
 㘠	bik1	
 㨽	bik1	
 㷶	bik1	
@@ -21206,6 +21208,7 @@ import_tables:
 跖	zek3	
 隻	zek3	
 蓆	zek6	
+占	zem1	0%
 精	zeng1	
 丼	zeng2	
 井	zeng2	
@@ -22140,6 +22143,9 @@ import_tables:
 唑	zo6	
 坐	zo6	
 座	zo6	
+啫	zoe1	
+朘	zoe1	
+脧	zoe1	
 㒂	zoek3	
 㓸	zoek3	
 㣿	zoek3	
@@ -29005,6 +29011,7 @@ import_tables:
 病株	beng6 zyu1	
 啤哩叭啦	bi1 li1 baa1 laa1	
 嗶哩叭啦	bi1 li1 baa1 laa1	
+嗶哩嗶哩	bi1 li1 b11 li4	
 啤啤	bi4 bi1	
 啤啤吧吧	bi4 bi1 baa4 baa4	
 啤啤車	bi4 bi1 ce1	
@@ -76131,6 +76138,9 @@ import_tables:
 係人都	hai6 jan4 dou1	
 係人都唔	hai6 jan4 dou1 m4	
 係人都知	hai6 jan4 dou1 zi1	
+係由	hai6 jau4	
+係有	hai6 jau5	
+係有啲	hai6 jau5 di1	
 係又點唔係又點	hai6 jau6 dim2 m4 hai6 jau6 dim2	
 係又…唔係又…	hai6 jau6 m4 hai6 jau6	
 係要	hai6 jiu3	
@@ -165394,7 +165404,6 @@ import_tables:
 䘒䘒	zoe1 zoe1	
 啫啫	zoe1 zoe1	
 朘朘	zoe1 zoe1	
-脧脧	zoe1 zoe1	
 啫啫煲	zoe1 zoe1 bou1	
 啫住	zoe1 zyu6	
 啫啫雞煲	zoe4 zoe4 gai1 bou1	
