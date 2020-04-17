@@ -28,7 +28,7 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - options: [ noop, trad_hk, trad_tw, simplification ]
-    states: [ 不轉換, 香港繁體, 臺灣正體, 大陆简体 ]
+    states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: emoji_suggestion
