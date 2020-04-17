@@ -23427,8 +23427,8 @@ import_tables:
 亞洲杯	aa3 zau1 bui1	
 亞洲盃	aa3 zau1 bui1	
 亞洲電視	aa3 zau1 din6 si6	
-亞洲電視本港台	aa3 zau1 din6 si6 bun2 gong2 toi4	
-亞洲電視國際台	aa3 zau1 din6 si6 gwok3 zai3 toi4	
+亞洲電視本港臺	aa3 zau1 din6 si6 bun2 gong2 toi4	
+亞洲電視國際臺	aa3 zau1 din6 si6 gwok3 zai3 toi4	
 亞洲電視有限公司	aa3 zau1 din6 si6 jau5 haan6 gung1 si1	
 亞洲短趾百靈	aa3 zau1 dyun2 zi2 baak3 ling4	
 亞洲國際博覽館	aa3 zau1 gwok3 zai3 bok3 laam5 gun2	
@@ -23440,7 +23440,7 @@ import_tables:
 亞洲四小龍	aa3 zau1 sei3 siu2 lung4	
 亞洲太平洋地區	aa3 zau1 taai3 ping4 joeng4 dei6 keoi1	
 亞洲太平洋經濟合作組織	aa3 zau1 taai3 ping4 joeng4 ging1 zai3 hap6 zok3 zou2 zik1	
-亞洲台	aa3 zau1 toi4	
+亞洲臺	aa3 zau1 toi4	
 亞洲運動會	aa3 zau1 wan6 dung6 wui2	
 亞洲周刊	aa3 zau1 zau1 hon2	
 亞洲足球聯合會	aa3 zau1 zuk1 kau4 lyun4 hap6 wui2	
@@ -24428,7 +24428,6 @@ import_tables:
 巴吞魯日	baa1 tan1 lou5 jat6	
 巴頭探腦	baa1 tau4 taam3 nou5	
 巴鐵	baa1 tit3	
-吧台	baa1 toi2	
 吧檯	baa1 toi2	
 吧托	baa1 tok3	
 吧托女	baa1 tok3 neoi5	
@@ -24620,7 +24619,7 @@ import_tables:
 擺供	baai2 gung3	
 擺樣子	baai2 joeng6 zi2	
 擺柳	baai2 lau5	
-擺擂台	baai2 leoi4 toi4	
+擺擂臺	baai2 leoi4 toi4	
 擺輪	baai2 leon4	
 擺列	baai2 lit6	
 擺了一道	baai2 liu5 jat1 dou6	
@@ -28670,8 +28669,8 @@ import_tables:
 祕書	bei3 syu1	
 秘書	bei3 syu1	
 秘書處	bei3 syu1 cyu3	
-祕書台	bei3 syu1 toi4	
-秘書台	bei3 syu1 toi4	
+祕書臺	bei3 syu1 toi4	
+秘書臺	bei3 syu1 toi4	
 祕書長	bei3 syu1 zoeng2	
 秘書長	bei3 syu1 zoeng2	
 轡頭	bei3 tau4	
@@ -30457,7 +30456,7 @@ import_tables:
 播音	bo3 jam1	
 播音員	bo3 jam1 jyun4	
 播音室	bo3 jam1 sat1	
-播音台	bo3 jam1 toi4	
+播音臺	bo3 jam1 toi4	
 播音筒	bo3 jam1 tung2	
 播映	bo3 jing2	
 簸揚	bo3 joeng4	
@@ -32114,7 +32113,7 @@ import_tables:
 本經	bun2 ging1	
 本傑明	bun2 git6 ming4	
 本港	bun2 gong2	
-本港台	bun2 gong2 toi4	
+本港臺	bun2 gong2 toi4	
 本固枝榮	bun2 gu3 zi1 wing4	
 本國	bun2 gwok3	
 本國人	bun2 gwok3 jan4	
@@ -32240,7 +32239,7 @@ import_tables:
 半點鐘	bun3 dim2 zung1	
 半吊子	bun3 diu3 zi2	
 半島	bun3 dou2	
-半島電視台	bun3 dou2 din6 si6 toi4	
+半島電視臺	bun3 dou2 din6 si6 toi4	
 半島國際學校	bun3 dou2 gwok3 zai3 hok6 haau6	
 半島和東方航海	bun3 dou2 wo4 dung1 fong1 hong4 hoi2	
 半島酒店	bun3 dou2 zau2 dim3	
@@ -32936,7 +32935,7 @@ import_tables:
 踩上門	caai2 soeng5 mun2	
 踩雪屐	caai2 syut3 kek6	
 踹雪屐	caai2 syut3 kek6	
-踩台	caai2 toi4	
+踩臺	caai2 toi4	
 踩踭	caai2 zaang1	
 踩蕉皮	caai2 ziu1 pei4	
 踩住人膊頭	caai2 zyu6 jan4 bok3 tau4	
@@ -32971,7 +32970,6 @@ import_tables:
 柴門	caai4 mun4	
 柴門小戶	caai4 mun4 siu2 wu6	
 柴薪	caai4 san1	
-柴台	caai4 toi4	
 柴臺	caai4 toi4	
 儕嘩嘩	caai4 waa1 waa1	
 柴哇哇	caai4 waa1 waa1	
@@ -37576,7 +37574,6 @@ import_tables:
 潛水者	cim4 seoi2 ze2	
 潛水裝備拖輪箱	cim4 seoi2 zong1 bei6 to1 leon4 soeng1	
 潛艇	cim4 teng5	
-潛台詞	cim4 toi4 ci4	
 潛臺詞	cim4 toi4 ci4	
 潛逃	cim4 tou4	
 潛逃無蹤	cim4 tou4 mou4 zung1	
@@ -38075,7 +38072,6 @@ import_tables:
 前廳	cin4 ting1	
 前庭	cin4 ting4	
 前庭窗	cin4 ting4 coeng1	
-前台	cin4 toi4	
 前臺	cin4 toi4	
 錢塘	cin4 tong4	
 錢塘潮	cin4 tong4 ciu4	
@@ -39532,8 +39528,7 @@ import_tables:
 坐船	co5 syun4	
 坐艇	co5 teng5	
 坐檯	co5 toi2	
-坐臺	co5 toi2	
-坐台小姐	co5 toi2 siu2 ze2	
+坐檯小姐	co5 toi2 siu2 ze2	
 坐穩車	co5 wan2 ce1	
 坐穩船	co5 wan2 syun4	
 坐井觀天	co5 zeng2 gun1 tin1	
@@ -39729,7 +39724,6 @@ import_tables:
 窗體	coeng1 tai2	
 槍替	coeng1 tai3	
 槍頭	coeng1 tau4	
-窗台	coeng1 toi4	
 窗臺	coeng1 toi4	
 槍托	coeng1 tok3	
 槍膛	coeng1 tong4	
@@ -39818,7 +39812,6 @@ import_tables:
 唱錯	coeng3 co3	
 悵悵然	coeng3 coeng3 jin4	
 暢達	coeng3 daat6	
-唱對台戲	coeng3 deoi3 toi4 hei3	
 唱對臺戲	coeng3 deoi3 toi4 hei3	
 唱碟	coeng3 dip2	
 倡導	coeng3 dou6	
@@ -41131,7 +41124,7 @@ import_tables:
 操作系統	cou1 zok3 hai6 tung2	
 操作員	cou1 zok3 jyun4	
 操作規程	cou1 zok3 kwai1 cing4	
-操作台	cou1 zok3 toi4	
+操作臺	cou1 zok3 toi4	
 操作環境	cou1 zok3 waan4 ging2	
 操作者	cou1 zok3 ze2	
 粗壯	cou1 zong3	
@@ -43141,7 +43134,7 @@ import_tables:
 打地鋪	daa2 dei6 pou1	
 打兌	daa2 deoi3	
 打對頭	daa2 deoi3 tau4	
-打對台	daa2 deoi3 toi4	
+打對臺	daa2 deoi3 toi4	
 打對仗	daa2 deoi3 zoeng3	
 打盹	daa2 deon6	
 打頓	daa2 deon6	
@@ -43402,7 +43395,6 @@ import_tables:
 打領帶	daa2 leng5 daai2	
 打雷	daa2 leoi4	
 打壘球	daa2 leoi4 kau4	
-打擂台	daa2 leoi4 toi4	
 打擂臺	daa2 leoi4 toi4	
 打領帶	daa2 ling5 daai3	
 打令	daa2 ling6	
@@ -45137,7 +45129,6 @@ import_tables:
 大條	daai6 tiu4	
 大條道理	daai6 tiu4 dou6 lei5	
 大舵手	daai6 to4 sau2	
-大台	daai6 toi4	
 大臺	daai6 toi4	
 大塘站	daai6 tong2 zaam6	
 大唐	daai6 tong4	
@@ -47329,7 +47320,6 @@ import_tables:
 燈塔市	dang1 taap3 si5	
 燈頭	dang1 tau4	
 燈臺	dang1 toi4	
-登台	dang1 toi4	
 登臺	dang1 toi4	
 登臺表演	dang1 toi4 biu2 jin2	
 登堂入室	dang1 tong4 jap6 sat1	
@@ -48108,7 +48098,7 @@ import_tables:
 地鐵站	dei6 tit3 zaam6	
 地鐵族	dei6 tit3 zuk6	
 地拖	dei6 to1	
-地台	dei6 toi4	
+地臺	dei6 toi4	
 地躺拳	dei6 tong2 kyun4	
 地塘	dei6 tong4	
 地圖	dei6 tou4	
@@ -48486,7 +48476,7 @@ import_tables:
 對頭	deoi3 tau4	
 碓頭	deoi3 tau4	
 對頭人	deoi3 tau4 jan4	
-對台	deoi3 toi4	
+對臺	deoi3 toi4	
 對話	deoi3 waa2	
 對華	deoi3 waa4	
 對話	deoi3 waa6	
@@ -49367,7 +49357,6 @@ import_tables:
 電視片	din6 si6 pin3	
 電視秀	din6 si6 sau3	
 電視塔	din6 si6 taap3	
-電視台	din6 si6 toi4	
 電視臺	din6 si6 toi4	
 電視畫面	din6 si6 waa2 min6	
 電視汁撈飯	din6 si6 zap1 lou1 faan6	
@@ -49396,7 +49385,6 @@ import_tables:
 電船	din6 syun4	
 電塔	din6 taap3	
 電梯	din6 tai1	
-電台	din6 toi4	
 電臺	din6 toi4	
 電熨斗	din6 tong3 dau2	
 電燙斗	din6 tong3 dau2	
@@ -51466,7 +51454,6 @@ import_tables:
 搗騰	dou2 tang4	
 倒頭	dou2 tau4	
 倒退	dou2 teoi3	
-倒台	dou2 toi4	
 倒臺	dou2 toi4	
 賭徒	dou2 tou4	
 搗毀	dou2 wai2	
@@ -51868,7 +51855,7 @@ import_tables:
 稻田鷚	dou6 tin4 lau6	
 稻田葦鶯	dou6 tin4 wai5 ang1	
 道聽途說	dou6 ting1 tou4 syut3	
-道台	dou6 toi4	
+道臺	dou6 toi4	
 盜圖	dou6 tou4	
 道統	dou6 tung2	
 杜威	dou6 wai1	
@@ -52951,7 +52938,6 @@ import_tables:
 斷想	dyun6 soeng2	
 段數	dyun6 sou3	
 斷送	dyun6 sung3	
-斷頭台	dyun6 tau4 toi4	
 斷頭臺	dyun6 tau4 toi4	
 斷腿	dyun6 teoi2	
 斷魂	dyun6 wan4	
@@ -53411,7 +53397,7 @@ import_tables:
 化裝舞會	faa3 zong1 mou5 wui6	
 化妝室	faa3 zong1 sat1	
 化妝箱	faa3 zong1 soeng1	
-化妝台	faa3 zong1 toi4	
+化妝臺	faa3 zong1 toi4	
 快把	faai1 baa2	
 快勞	faai1 lou2	
 快勞夾	faai1 lou2 gaap2	
@@ -54537,7 +54523,7 @@ import_tables:
 法國革命	faat3 gwok3 gaak3 ming6	
 法國鬼	faat3 gwok3 gwai2	
 法國國家巴黎銀行	faat3 gwok3 gwok3 gaa1 baa1 lai4 ngan4 hong4	
-法國國際廣播電台	faat3 gwok3 gwok3 zai3 gwong2 bo3 din6 toi4	
+法國國際廣播電臺	faat3 gwok3 gwok3 zai3 gwong2 bo3 din6 toi4	
 法國航空	faat3 gwok3 hong4 hung1	
 法國航空公司	faat3 gwok3 hong4 hung1 gung1 si1	
 法國號	faat3 gwok3 hou6	
@@ -56499,7 +56485,6 @@ import_tables:
 匪巢	fei2 caau4	
 悱惻	fei2 cak1	
 翡翠	fei2 ceoi3	
-翡翠台	fei2 ceoi3 toi4	
 翡翠臺	fei2 ceoi3 toi4	
 斐迪南	fei2 dik6 naam4	
 匪盜	fei2 dou6	
@@ -59249,7 +59234,6 @@ import_tables:
 服務生	fuk6 mou6 sang1	
 服務提供商	fuk6 mou6 tai4 gung1 soeng1	
 服務提供者	fuk6 mou6 tai4 gung1 ze2	
-服務台	fuk6 mou6 toi4	
 服務臺	fuk6 mou6 toi4	
 服務質量	fuk6 mou6 zat1 loeng6	
 服務中心	fuk6 mou6 zung1 sam1	
@@ -64208,7 +64192,6 @@ import_tables:
 近排	gan6 paai2	
 近排	gan6 paai4	
 近臣	gan6 san4	
-近水樓台	gan6 seoi2 lau4 toi4	
 近水樓臺	gan6 seoi2 lau4 toi4	
 近水樓臺先得月	gan6 seoi2 lau4 toi4 sin1 dak1 jyut6	
 近視	gan6 si6	
@@ -65929,7 +65912,7 @@ import_tables:
 鏡花水月	geng3 faa1 seoi2 jyut6	
 鏡架	geng3 gaa2	
 鏡框	geng3 kwaang1	
-鏡框舞台	geng3 kwaang1 mou5 toi4	
+鏡框舞臺	geng3 kwaang1 mou5 toi4	
 鏡鸞	geng3 lyun4	
 鏡面	geng3 min2	
 鏡面	geng3 min6	
@@ -68318,7 +68301,7 @@ import_tables:
 蓋瓦	goi3 ngaa5	
 蓋上	goi3 soeng5	
 蓋頭	goi3 tau4	
-蓋台廣告	goi3 toi4 gwong2 gou3	
+蓋臺廣告	goi3 toi4 gwong2 gou3	
 蓋碗	goi3 wun2	
 蓋州	goi3 zau1	
 蓋州市	goi3 zau1 si5	
@@ -69107,9 +69090,7 @@ import_tables:
 講題	gong2 tai4	
 港鐵	gong2 tit3	
 港鐵公司	gong2 tit3 gung1 si1	
-港台	gong2 toi4	
 港臺	gong2 toi4	
-講台	gong2 toi4	
 講臺	gong2 toi4	
 講堂	gong2 tong4	
 講話	gong2 waa2	
@@ -69332,7 +69313,7 @@ import_tables:
 高清	gou1 cing1	
 高青	gou1 cing1	
 高清電視	gou1 cing1 din6 si6	
-高清翡翠台	gou1 cing1 fei2 ceoi3 toi4	
+高清翡翠臺	gou1 cing1 fei2 ceoi3 toi4	
 高青縣	gou1 cing1 jyun6	
 高清晰度	gou1 cing1 sik1 dou6	
 高清數字電視	gou1 cing1 sou3 zi6 din6 si6	
@@ -69705,7 +69686,7 @@ import_tables:
 高天鷲	gou1 tin1 zau6	
 高鐵	gou1 tit3	
 高鐵血紅蛋白	gou1 tit3 hyut3 hung4 daan2 baak6	
-高台	gou1 toi4	
+高臺	gou1 toi4	
 高擡	gou1 toi4	
 高擡貴手	gou1 toi4 gwai3 sau2	
 高台縣	gou1 toi4 jyun6	
@@ -70589,7 +70570,7 @@ import_tables:
 官階	gun1 gaai1	
 觀感	gun1 gam2	
 觀紀	gun1 gei2	
-觀景台	gun1 ging2 toi4	
+觀景臺	gun1 ging2 toi4	
 官股	gun1 gu2	
 官官相衛	gun1 gun1 soeng1 wai6	
 官官相護	gun1 gun1 soeng1 wu6	
@@ -70668,7 +70649,7 @@ import_tables:
 官式	gun1 sik1	
 官式訪問	gun1 sik1 fong2 man6	
 觀星	gun1 sing1	
-觀星台	gun1 sing1 toi4	
+觀星臺	gun1 sing1 toi4	
 官商勾結	gun1 soeng1 au1 git3	
 觀想	gun1 soeng2	
 觀賞	gun1 soeng2	
@@ -71568,7 +71549,7 @@ import_tables:
 工作小組	gung1 zok3 siu2 zou2	
 工作天	gung1 zok3 tin1	
 工作檯	gung1 zok3 toi2	
-工作台	gung1 zok3 toi4	
+工作臺	gung1 zok3 toi4	
 工作委員會	gung1 zok3 wai2 jyun4 wui2	
 工作站	gung1 zok3 zaam6	
 工作者	gung1 zok3 ze2	
@@ -72660,7 +72641,6 @@ import_tables:
 櫃面	gwai6 min2	
 饋送	gwai6 sung3	
 跪毯	gwai6 taan2	
-櫃台	gwai6 toi2	
 櫃檯	gwai6 toi2	
 櫃臺	gwai6 toi4	
 跪禱	gwai6 tou2	
@@ -73692,7 +73672,7 @@ import_tables:
 國務院港澳事務辦公室	gwok3 mou6 jyun2 gong2 ou3 si6 mou6 baan6 gung1 sat1	
 國務院國有資產監督管理委員會	gwok3 mou6 jyun2 gwok3 jau5 zi1 caan2 gaam1 duk1 gun2 lei5 wai2 jyun4 wui2	
 國務院新聞辦公室	gwok3 mou6 jyun2 san1 man4 baan6 gung1 sat1	
-國務院台灣事務辦公室	gwok3 mou6 jyun2 toi4 waan1 si6 mou6 baan6 gung1 sat1	
+國務院臺灣事務辦公室	gwok3 mou6 jyun2 toi4 waan1 si6 mou6 baan6 gung1 sat1	
 國務院	gwok3 mou6 jyun6	
 國務委員	gwok3 mou6 wai2 jyun4	
 國務長官	gwok3 mou6 zoeng2 gun1	
@@ -73853,7 +73833,7 @@ import_tables:
 國際民航組織	gwok3 zai3 man4 hong4 zou2 zik1	
 國際貿易	gwok3 zai3 mau6 jik6	
 國際網絡	gwok3 zai3 mong5 lok6	
-國際舞台	gwok3 zai3 mou5 toi4	
+國際舞臺	gwok3 zai3 mou5 toi4	
 國際媒體	gwok3 zai3 mui4 tai2	
 國際外交	gwok3 zai3 ngoi6 gaau1	
 國際奧林匹克委員會	gwok3 zai3 ou3 lam4 pat1 hak1 wai2 jyun4 wui2	
@@ -74092,7 +74072,6 @@ import_tables:
 廣百	gwong2 baak3	
 廣播	gwong2 bo3	
 廣播地址	gwong2 bo3 dei6 zi2	
-廣播電台	gwong2 bo3 din6 toi4	
 廣播電臺	gwong2 bo3 din6 toi4	
 廣播道	gwong2 bo3 dou6	
 廣播員	gwong2 bo3 jyun4	
@@ -74101,7 +74080,7 @@ import_tables:
 廣播網路	gwong2 bo3 mong5 lou6	
 廣播室	gwong2 bo3 sat1	
 廣播事務管理局	gwong2 bo3 si6 mou6 gun2 lei5 guk2	
-廣播台	gwong2 bo3 toi4	
+廣播臺	gwong2 bo3 toi4	
 廣播和未知服務器	gwong2 bo3 wo4 mei6 zi1 fuk6 mou6 hei3	
 廣播節目	gwong2 bo3 zit3 muk6	
 廣博	gwong2 bok3	
@@ -74871,9 +74850,7 @@ import_tables:
 下體	haa6 tai2	
 夏天	haa6 tin1	
 下調	haa6 tiu4	
-下台	haa6 toi4	
 下臺	haa6 toi4	
-下台階	haa6 toi4 gaai1	
 下臺階	haa6 toi4 gaai1	
 夏娃	haa6 waa1	
 下話	haa6 waa5	
@@ -76648,7 +76625,7 @@ import_tables:
 赫茲	hak1 zi1	
 克孜爾千佛洞	hak1 zi1 ji5 cin1 fat6 dung6	
 克孜爾尕哈	hak1 zi1 ji5 gaa1 haa1	
-克孜爾尕哈烽火台	hak1 zi1 ji5 gaa1 haa1 fung1 fo2 toi4	
+克孜爾尕哈烽火臺	hak1 zi1 ji5 gaa1 haa1 fung1 fo2 toi4	
 克孜勒蘇	hak1 zi1 lak6 sou1	
 克孜勒蘇地區	hak1 zi1 lak6 sou1 dei6 keoi1	
 克孜勒蘇河	hak1 zi1 lak6 sou1 ho4	
@@ -78251,7 +78228,6 @@ import_tables:
 後天免疫	hau6 tin1 min5 jik6	
 後天性	hau6 tin1 sing3	
 後庭	hau6 ting4	
-後台	hau6 toi4	
 後臺	hau6 toi4	
 後唐	hau6 tong4	
 后土	hau6 tou2	
@@ -78963,7 +78939,6 @@ import_tables:
 氣頭上	hei3 tau4 soeng6	
 汽艇	hei3 teng5	
 氣田	hei3 tin4	
-戲台	hei3 toi4	
 戲臺	hei3 toi4	
 氣筒	hei3 tung2	
 氣團	hei3 tyun4	
@@ -79004,7 +78979,7 @@ import_tables:
 氣象預報	hei3 zoeng6 jyu6 bou3	
 氣象萬千	hei3 zoeng6 maan6 cin1	
 氣象廳	hei3 zoeng6 teng1	
-氣象台	hei3 zoeng6 toi4	
+氣象臺	hei3 zoeng6 toi4	
 氣象衛星	hei3 zoeng6 wai6 sing1	
 氣象站	hei3 zoeng6 zaam6	
 氣壯山河	hei3 zong3 saan1 ho4	
@@ -80588,7 +80563,7 @@ import_tables:
 香港電影	hoeng1 gong2 din6 jing2	
 香港電影金像獎	hoeng1 gong2 din6 jing2 gam1 zoeng6 zoeng2	
 香港電影資料館	hoeng1 gong2 din6 jing2 zi1 liu2 gun2	
-香港電台	hoeng1 gong2 din6 toi4	
+香港電臺	hoeng1 gong2 din6 toi4	
 香港島	hoeng1 gong2 dou2	
 香港動漫電玩節	hoeng1 gong2 dung6 maan6 din6 wun6 zit3	
 香港動植物公園	hoeng1 gong2 dung6 zik6 mat6 gung1 jyun4	
@@ -80649,7 +80624,7 @@ import_tables:
 香港太空館	hoeng1 gong2 taai3 hung1 gun2	
 香港體育館	hoeng1 gong2 tai2 juk6 gun2	
 香港體育學院	hoeng1 gong2 tai2 juk6 hok6 jyun2	
-香港天文台	hoeng1 gong2 tin1 man4 toi4	
+香港天文臺	hoeng1 gong2 tin1 man4 toi4	
 香港鐵路博物館	hoeng1 gong2 tit3 lou6 bok3 mat6 gun2	
 香港話	hoeng1 gong2 waa2	
 香港域名註冊有限公司	hoeng1 gong2 wik6 meng2 zyu3 caak3 jau5 haan6 gung1 si1	
@@ -82206,7 +82181,7 @@ import_tables:
 看透	hon3 tau3	
 看頭	hon3 tau4	
 漢臺	hon3 toi4	
-看台	hon3 toi4	
+看臺	hon3 toi4	
 漢臺區	hon3 toi4 keoi1	
 漢旺鎮	hon3 wong6 zan3	
 看走眼	hon3 zau2 ngaan5	
@@ -85402,7 +85377,6 @@ import_tables:
 印信	jan3 seon3	
 印數	jan3 sou3	
 印鼠客蚤	jan3 syu2 haak3 zou2	
-印台	jan3 toi4	
 印臺	jan3 toi4	
 印臺區	jan3 toi4 keoi1	
 印堂	jan3 tong4	
@@ -85805,7 +85779,7 @@ import_tables:
 人生如夢	jan4 sang1 jyu4 mung6	
 人生如朝露	jan4 sang1 jyu4 ziu1 lou6	
 人生路不熟	jan4 sang1 lou6 bat1 suk6	
-人生舞台	jan4 sang1 mou5 toi4	
+人生舞臺	jan4 sang1 mou5 toi4	
 人生盛衰	jan4 sang1 sing6 seoi1	
 人生朝露	jan4 sang1 ziu1 lou6	
 人手	jan4 sau2	
@@ -87387,7 +87361,7 @@ import_tables:
 一觸即發	jat1 zuk1 zik1 faat3	
 一觸即潰	jat1 zuk1 zik1 kui2	
 一族	jat1 zuk6	
-一中一台	jat1 zung1 jat1 toi4	
+一中一臺	jat1 zung1 jat1 toi4	
 一中原則	jat1 zung1 jyun4 zak1	
 一盅兩件	jat1 zung1 loeng5 gin6	
 一種	jat1 zung2	
@@ -92382,7 +92356,7 @@ import_tables:
 英國	jing1 gwok3	
 英國電訊公司	jing1 gwok3 din6 seon3 gung1 si1	
 英國管	jing1 gwok3 gun2	
-英國廣播電台	jing1 gwok3 gwong2 bo3 din6 toi4	
+英國廣播電臺	jing1 gwok3 gwong2 bo3 din6 toi4	
 英國廣播公司	jing1 gwok3 gwong2 bo3 gung1 si1	
 英國航空	jing1 gwok3 hong4 hung1	
 英國人	jing1 gwok3 jan4	
@@ -92638,7 +92612,7 @@ import_tables:
 應用力學	jing3 jung6 lik6 hok6	
 應用文	jing3 jung6 man4	
 應用物理	jing3 jung6 mat6 lei5	
-應用平台	jing3 jung6 ping4 toi4	
+應用平臺	jing3 jung6 ping4 toi4	
 應用數學	jing3 jung6 sou3 hok6	
 應佢	jing3 keoi5	
 應力	jing3 lik6	
@@ -94276,7 +94250,6 @@ import_tables:
 楊天命	joeng4 tin1 ming6	
 洋鐵箔	joeng4 tit3 bok6	
 羊駝	joeng4 to4	
-陽台	joeng4 toi4	
 陽臺	joeng4 toi4	
 楊桃	joeng4 tou2	
 洋桃	joeng4 tou2	
@@ -97307,7 +97280,7 @@ import_tables:
 閱兵	jyut6 bing1	
 閱兵典禮	jyut6 bing1 din2 lai5	
 閱兵式	jyut6 bing1 sik1	
-閱兵台	jyut6 bing1 toi4	
+閱兵臺	jyut6 bing1 toi4	
 穴播	jyut6 bo3	
 越幫越忙	jyut6 bong1 jyut6 mong4	
 月報	jyut6 bou3	
@@ -97537,10 +97510,8 @@ import_tables:
 月頭	jyut6 tau4	
 穴頭	jyut6 tau4	
 月頭兒	jyut6 tau4 ji4	
-月台	jyut6 toi4	
 月臺	jyut6 toi4	
-月台幕門	jyut6 toi4 mok6 mun4	
-月台票	jyut6 toi4 piu3	
+月臺幕門	jyut6 toi4 mok6 mun4	
 月臺票	jyut6 toi4 piu3	
 月華	jyut6 waa4	
 穴位	jyut6 wai2	
@@ -98750,7 +98721,7 @@ import_tables:
 棋士	kei4 si6	
 歧視	kei4 si6	
 其先	kei4 sin1	
-祈仙台	kei4 sin1 toi4	
+祈仙臺	kei4 sin1 toi4	
 奇羨	kei4 sin6	
 棋聖	kei4 sing6	
 其所	kei4 so2	
@@ -99964,7 +99935,6 @@ import_tables:
 跨年度	kwaa1 nin4 dou6	
 跨性別者	kwaa1 sing3 bit6 ze2	
 垮塌	kwaa1 taap3	
-垮台	kwaa1 toi4	
 垮臺	kwaa1 toi4	
 誇讚	kwaa1 zaan3	
 誇張	kwaa1 zoeng1	
@@ -100006,7 +99976,7 @@ import_tables:
 跨文化	kwaa3 man4 faa3	
 跨年	kwaa3 nin4	
 跨年度	kwaa3 nin4 dou6	
-跨平台	kwaa3 ping4 toi4	
+跨平臺	kwaa3 ping4 toi4	
 跨線橋	kwaa3 sin3 kiu4	
 跨洲	kwaa3 zau1	
 跨接器	kwaa3 zip3 hei3	
@@ -101741,7 +101711,7 @@ import_tables:
 蠟燭不點不亮	laap6 zuk1 bat1 dim2 bat1 loeng6	
 立足點	laap6 zuk1 dim2	
 蠟燭兩頭燒	laap6 zuk1 loeng5 tau4 siu1	
-蠟燭台	laap6 zuk1 toi4	
+蠟燭臺	laap6 zuk1 toi4	
 立軸	laap6 zuk6	
 立傳	laap6 zyun6	
 辣低	laat3 dai1	
@@ -102825,7 +102795,7 @@ import_tables:
 流離朗蕩	lau4 lei4 long5 dong6	
 流離浪蕩	lau4 lei4 long5 dong6	
 流離失所	lau4 lei4 sat1 so2	
-流理台	lau4 lei5 toi4	
+流理臺	lau4 lei5 toi4	
 流利	lau4 lei6	
 流裏流氣	lau4 leoi5 lau4 hei3	
 流淚	lau4 leoi6	
@@ -102982,7 +102952,6 @@ import_tables:
 留題	lau4 tai4	
 留頭髮	lau4 tau4 faat3	
 劉天華	lau4 tin1 waa4	
-樓台	lau4 toi4	
 樓臺	lau4 toi4	
 流淌	lau4 tong2	
 留堂	lau4 tong4	
@@ -103930,7 +103899,6 @@ import_tables:
 雷霆萬鈞	leoi4 ting4 maan6 gwan1	
 雷霆萬鈞之勢	leoi4 ting4 maan6 gwan1 zi1 sai3	
 雷霆掃毒	leoi4 ting4 sou3 duk6	
-擂台	leoi4 toi4	
 擂臺	leoi4 toi4	
 擂臺賽	leoi4 toi4 coi3	
 雷同	leoi4 tung4	
@@ -105589,7 +105557,6 @@ import_tables:
 繚亂	liu4 lyun6	
 瞭望	liu4 mong6	
 瞭望哨	liu4 mong6 saau3	
-瞭望台	liu4 mong6 toi4	
 瞭望臺	liu4 mong6 toi4	
 嫽女仔	liu4 neoi5 zai2	
 撩女仔	liu4 neoi5 zai2	
@@ -106989,7 +106956,6 @@ import_tables:
 樂天知命	lok6 tin1 zi1 ming6	
 落貼	lok6 tip3	
 駱駝	lok6 to4	
-落台	lok6 toi4	
 落臺	lok6 toi4	
 落托	lok6 tok3	
 落拓	lok6 tok3	
@@ -108073,7 +108039,6 @@ import_tables:
 露天堆棧	lou6 tin1 deoi1 zaan6	
 露天宿營	lou6 tin1 suk1 jing4	
 路條	lou6 tiu4	
-露台	lou6 toi4	
 露臺	lou6 toi4	
 路途	lou6 tou4	
 路途遙遠	lou6 tou4 jiu4 jyun5	
@@ -114165,7 +114130,7 @@ import_tables:
 名重識暗	ming4 zung6 sik1 am3	
 明珠	ming4 zyu1	
 明珠暗投	ming4 zyu1 am3 tau4	
-明珠台	ming4 zyu1 toi4	
+明珠臺	ming4 zyu1 toi4	
 名著	ming4 zyu3	
 茗茶	ming5 caa4	
 冥鈔	ming5 caau1	
@@ -114963,7 +114928,7 @@ import_tables:
 網路架構	mong5 lou6 gaa3 kau3	
 網路應用	mong5 lou6 jing3 jung6	
 網路鏈接層	mong5 lou6 lin6 zip3 cang4	
-網路平台	mong5 lou6 ping4 toi4	
+網路平臺	mong5 lou6 ping4 toi4	
 網路環境	mong5 lou6 waan4 ging2	
 網路節點	mong5 lou6 zit3 dim2	
 網路節點介面	mong5 lou6 zit3 dim2 gaai3 min6	
@@ -114993,7 +114958,7 @@ import_tables:
 網上廣播	mong5 soeng6 gwong2 bo3	
 網上商店	mong5 soeng6 soeng1 dim3	
 妄說	mong5 syut3	
-網台	mong5 toi4	
+網臺	mong5 toi4	
 妄圖	mong5 tou4	
 網通	mong5 tung1	
 妄爲	mong5 wai4	
@@ -115683,9 +115648,9 @@ import_tables:
 無線電廣播	mou4 sin3 din6 gwong2 bo3	
 無線電收發機	mou4 sin3 din6 sau1 faat3 gei1	
 無線電視	mou4 sin3 din6 si6	
-無線電視翡翠台	mou4 sin3 din6 si6 fei2 ceoi3 toi4	
-無線電視台	mou4 sin3 din6 si6 toi4	
-無線電台	mou4 sin3 din6 toi4	
+無線電視翡翠臺	mou4 sin3 din6 si6 fei2 ceoi3 toi4	
+無線電視臺	mou4 sin3 din6 si6 toi4	
+無線電臺	mou4 sin3 din6 toi4	
 無線電通信	mou4 sin3 din6 tung1 seon3	
 無線電話	mou4 sin3 din6 waa2	
 無線電接收機	mou4 sin3 din6 zip3 sau1 gei1	
@@ -116398,10 +116363,8 @@ import_tables:
 冇天裝冇地葬	mou5 tin1 zong1 mou5 dei6 zong3	
 無天裝無地葬	mou5 tin1 zong1 mou5 dei6 zong3	
 冇拖冇欠	mou5 to1 mou5 him3	
-舞台	mou5 toi4	
 舞臺	mou5 toi4	
-舞台音樂	mou5 toi4 jam1 ngok6	
-舞台劇	mou5 toi4 kek6	
+舞臺音樂	mou5 toi4 jam1 ngok6	
 舞臺劇	mou5 toi4 kek6	
 冇話	mou5 waa6	
 冇壞	mou5 waai6	
@@ -119651,7 +119614,6 @@ import_tables:
 伍廷芳	ng5 ting4 fong1	
 五臺	ng5 toi4	
 五臺縣	ng5 toi4 jyun6	
-五台山	ng5 toi4 saan1	
 五臺山	ng5 toi4 saan1	
 五臺市	ng5 toi4 si5	
 五通橋	ng5 tung1 kiu4	
@@ -124585,9 +124547,9 @@ import_tables:
 哌替啶	paai3 tai3 ding6	
 派帖	paai3 tip2	
 派帖	paai3 tip3	
-派台	paai3 toi4	
-派台歌	paai3 toi4 go1	
-派台歌曲	paai3 toi4 go1 kuk1	
+派臺	paai3 toi4	
+派臺歌	paai3 toi4 go1	
+派臺歌曲	paai3 toi4 go1 kuk1	
 派糖	paai3 tong2	
 派位	paai3 wai2	
 派遺	paai3 wai4	
@@ -125178,10 +125140,10 @@ import_tables:
 泡水館	paau3 seoi2 gun2	
 炮塔	paau3 taap3	
 砲艇	paau3 teng5	
-炮台	paau3 toi4	
-砲台	paau3 toi4	
+炮臺	paau3 toi4	
 砲臺	paau3 toi4	
-炮台山	paau3 toi4 saan1	
+砲臺	paau3 toi4	
+炮臺山	paau3 toi4 saan1	
 泡湯	paau3 tong1	
 泡溫泉	paau3 wan1 cyun4	
 炮仔	paau3 zai2	
@@ -126502,7 +126464,6 @@ import_tables:
 平添	ping4 tim1	
 平天下	ping4 tin1 haa6	
 屏條	ping4 tiu4	
-平台	ping4 toi4	
 平臺	ping4 toi4	
 平躺	ping4 tong2	
 平塘	ping4 tong4	
@@ -126765,7 +126726,7 @@ import_tables:
 破涕爲笑	po3 tai3 wai4 siu3	
 破題	po3 tai4	
 破天荒	po3 tin1 fong1	
-破台	po3 toi4	
+破臺	po3 toi4	
 破土	po3 tou2	
 破土典禮	po3 tou2 din2 lai5	
 破銅爛鐵	po3 tung4 laan6 tit3	
@@ -130237,7 +130198,7 @@ import_tables:
 洗手乳	sai2 sau2 jyu5	
 洗手盆	sai2 sau2 pun4	
 洗手盤	sai2 sau2 pun4	
-洗手台	sai2 sau2 toi4	
+洗手臺	sai2 sau2 toi4	
 洗漱	sai2 sau3	
 使死咩	sai2 sei2 me1	
 洗水衫	sai2 seoi2 saam1	
@@ -131672,7 +131633,7 @@ import_tables:
 新聞網	san1 man4 mong5	
 新聞媒體	san1 man4 mui4 tai2	
 新民市	san1 man4 si5	
-新聞台	san1 man4 toi4	
+新聞臺	san1 man4 toi4	
 新聞周刊	san1 man4 zau1 hon2	
 新聞週刊	san1 man4 zau1 hon2	
 新聞紙	san1 man4 zi2	
@@ -131824,7 +131785,7 @@ import_tables:
 新城	san1 sing4	
 申城	san1 sing4	
 新城病	san1 sing4 beng6	
-新城電台	san1 sing4 din6 toi4	
+新城電臺	san1 sing4 din6 toi4	
 新城鄉	san1 sing4 hoeng1	
 新城縣	san1 sing4 jyun6	
 新城區	san1 sing4 keoi1	
@@ -133414,8 +133375,8 @@ import_tables:
 收銀處	sau1 ngan2 cyu5	
 收銀機	sau1 ngan2 gei1	
 收銀員	sau1 ngan2 jyun4	
-收銀台	sau1 ngan2 toi2	
-收銀台	sau1 ngan2 toi4	
+收銀臺	sau1 ngan2 toi2	
+收銀臺	sau1 ngan2 toi4	
 收銀機	sau1 ngan4 gei1	
 收訖	sau1 ngat6	
 羞惱	sau1 nou5	
@@ -137077,7 +137038,7 @@ import_tables:
 司令部	si1 ling6 bou6	
 司令官	si1 ling6 gun1	
 司令員	si1 ling6 jyun4	
-司令台	si1 ling6 toi4	
+司令臺	si1 ling6 toi4	
 撕裂	si1 lit6	
 私了	si1 liu5	
 尸羅	si1 lo4	
@@ -140758,7 +140719,6 @@ import_tables:
 消退	siu1 teoi3	
 消停	siu1 ting4	
 蕭條	siu1 tiu4	
-燒台炮	siu1 toi4 paau3	
 燒檯炮	siu1 toi4 paau3	
 燒壞瓦	siu1 waai6 ngaa5	
 燒壞腦	siu1 waai6 nou5	
@@ -142141,7 +142101,7 @@ import_tables:
 相認	soeng1 jing6	
 商業	soeng1 jip6	
 商業版本	soeng1 jip6 baan2 bun2	
-商業電台	soeng1 jip6 din6 toi4	
+商業電臺	soeng1 jip6 din6 toi4	
 商業化	soeng1 jip6 faa3	
 商業發票	soeng1 jip6 faat3 piu3	
 商業計劃	soeng1 jip6 gai3 waak6	
@@ -142811,7 +142771,6 @@ import_tables:
 上天無路，入地無門	soeng5 tin1 mou4 lou6 jap6 dei6 mou4 mun4	
 上天堂	soeng5 tin1 tong4	
 上庭	soeng5 ting4	
-上台	soeng5 toi4	
 上臺	soeng5 toi4	
 上堂	soeng5 tong4	
 上膛	soeng5 tong4	
@@ -145025,7 +144984,7 @@ import_tables:
 旋轉力	syun4 zyun2 lik6	
 旋轉木馬	syun4 zyun2 muk6 maa5	
 旋轉門	syun4 zyun2 mun4	
-旋轉台	syun4 zyun2 toi4	
+旋轉臺	syun4 zyun2 toi4	
 旋轉運動	syun4 zyun2 wan6 dung6	
 旋轉指標	syun4 zyun2 zi2 biu1	
 旋轉軸	syun4 zyun2 zuk6	
@@ -146077,7 +146036,7 @@ import_tables:
 嗒嗒聲	taap3 taap3 sing1	
 䂿䂿趯	taap3 taap3 tik1	
 塌臺	taap3 toi4	
-塔台	taap3 toi4	
+塔臺	taap3 toi4	
 褟縧子	taap3 tou1 zi2	
 塔扎	taap3 zaat3	
 塔尖	taap3 zim1	
@@ -147964,7 +147923,6 @@ import_tables:
 天文學家	tin1 man4 hok6 gaa1	
 天文望遠鏡	tin1 man4 mong6 jyun4 geng3	
 天文數字	tin1 man4 sou3 zi6	
-天文台	tin1 man4 toi4	
 天文臺	tin1 man4 toi4	
 天明	tin1 ming4	
 天命	tin1 ming6	
@@ -148099,7 +148057,6 @@ import_tables:
 天天	tin1 tin1	
 天庭	tin1 ting4	
 天庭飽滿	tin1 ting4 baau2 mun5	
-天台	tin1 toi2	
 天臺	tin1 toi2	
 天台	tin1 toi4	
 天台縣	tin1 toi4 jyun6	
@@ -148456,9 +148413,7 @@ import_tables:
 亭亭玉立	ting4 ting4 juk6 laap6	
 婷婷玉立	ting4 ting4 juk6 laap6	
 亭亭玉立	ting4 ting4 juk6 lap6	
-亭台	ting4 toi4	
 亭臺	ting4 toi4	
-亭台樓閣	ting4 toi4 lau4 gok3	
 亭臺樓閣	ting4 toi4 lau4 gok3	
 亭臺樓榭	ting4 toi4 lau4 ze6	
 庭堂	ting4 tong4	
@@ -148784,7 +148739,7 @@ import_tables:
 眺望	tiu3 mong6	
 眺望樓	tiu3 mong6 lau4	
 眺望塔	tiu3 mong6 taap3	
-眺望台	tiu3 mong6 toi4	
+眺望臺	tiu3 mong6 toi4	
 跳舞	tiu3 mou5	
 跳舞機	tiu3 mou5 gei1	
 跳舞蘭	tiu3 mou5 laan4	
@@ -149182,61 +149137,54 @@ import_tables:
 檯底	toi2 dai2	
 檯燈	toi2 dang1	
 檯腳	toi2 goek3	
-台球	toi2 kau4	
-台球桌	toi2 kau4 coek3	
+臺球	toi2 kau4	
+臺球桌	toi2 kau4 coek3	
 檯裙	toi2 kwan4	
 檯頭	toi2 tau4	
 檯檯凳凳	toi2 toi2 dang3 dang3	
 檯檯櫈櫈	toi2 toi2 dang3 dang3	
 檯子	toi2 zi2	
 檯薦	toi2 zin2	
-台巴子	toi4 baa1 zi2	
+臺巴子	toi4 baa1 zi2	
 台伯河	toi4 baak3 ho4	
-台胞	toi4 baau1	
 臺胞	toi4 baau1	
-台胞證	toi4 baau1 zing3	
-台幣	toi4 bai6	
+臺胞證	toi4 baau1 zing3	
 臺幣	toi4 bai6	
-台北	toi4 bak1	
 臺北	toi4 bak1	
-台北金馬影展	toi4 bak1 gam1 maa5 jing2 zin2	
-台北縣	toi4 bak1 jyun6	
+臺北金馬影展	toi4 bak1 gam1 maa5 jing2 zin2	
 臺北縣	toi4 bak1 jyun6	
-台北市	toi4 bak1 si5	
 臺北市	toi4 bak1 si5	
-台標	toi4 biu1	
-台磅	toi4 bong6	
+臺標	toi4 biu1	
+臺磅	toi4 bong6	
 檯布	toi4 bou3	
-台詞	toi4 ci4	
+臺詞	toi4 ci4	
 臺詞	toi4 ci4	
 台前	toi4 cin4	
 台前縣	toi4 cin4 jyun6	
-台菜	toi4 coi3	
+臺菜	toi4 coi3	
 薹草	toi4 cou2	
 薹草屬	toi4 cou2 suk6	
 台柱	toi4 cyu5	
 臺柱	toi4 cyu5	
 臺柱子	toi4 cyu5 zi2	
-台大	toi4 daai6	
 臺大	toi4 daai6	
 檯底	toi4 dai2	
 檯燈	toi4 dang1	
 臺地	toi4 dei6	
-台諜	toi4 dip6	
 臺諜	toi4 dip6	
-台獨	toi4 duk6	
-台東	toi4 dung1	
+臺獨	toi4 duk6	
 臺東	toi4 dung1	
-台東縣	toi4 dung1 jyun6	
+臺東	toi4 dung1	
 臺東縣	toi4 dung1 jyun6	
-台端	toi4 dyun1	
+臺東縣	toi4 dung1 jyun6	
+臺端	toi4 dyun1	
 臺徽	toi4 fai1	
-台費	toi4 fai3	
+臺費	toi4 fai3	
 臺甫	toi4 fu2	
 臺虎鉗	toi4 fu2 kim4	
 臺風	toi4 fung1	
 颱風	toi4 fung1	
-台階	toi4 gaai1	
+臺階	toi4 gaai1	
 臺階	toi4 gaai1	
 臺鑒	toi4 gaam3	
 臺斤	toi4 gan1	
@@ -149248,83 +149196,69 @@ import_tables:
 台江區	toi4 gong1 keoi1	
 擡槓	toi4 gong3	
 擡高	toi4 gou1	
-台下	toi4 haa6	
-台客	toi4 haak3	
+臺下	toi4 haa6	
+臺客	toi4 haak3	
 擡起	toi4 hei2	
-台戲	toi4 hei3	
-台海	toi4 hoi2	
+臺戲	toi4 hei3	
 臺海	toi4 hoi2	
 苔衣	toi4 ji1	
 臺兒莊	toi4 ji4 zong1	
-台型	toi4 jing4	
+臺型	toi4 jing4	
 擡轎	toi4 kiu2	
 擡轎佬	toi4 kiu2 lou2	
 擡橋	toi4 kiu4	
 擡拳	toi4 kyun4	
 擡拳道	toi4 kyun4 dou6	
 跆拳道	toi4 kyun4 dou6	
-台盟	toi4 mang4	
 臺盟	toi4 mang4	
 檯面	toi4 min2	
 臺面呢	toi4 min2 nei4	
-台妹	toi4 mui1	
+臺妹	toi4 mui1	
 臺媒	toi4 mui4	
-台南	toi4 naam4	
 臺南	toi4 naam4	
 臺南府	toi4 naam4 fu2	
 臺南府市	toi4 naam4 fu2 si5	
-台南縣	toi4 naam4 jyun6	
 臺南縣	toi4 naam4 jyun6	
-台南市	toi4 naam4 si5	
 臺南市	toi4 naam4 si5	
-台安	toi4 on1	
+檯安	toi4 on1	
 檯安縣	toi4 on1 jyun6	
 臺盆	toi4 pun4	
 台山	toi4 saan1	
 台山市	toi4 saan1 si5	
 台山話	toi4 saan1 waa2	
 臺山話	toi4 saan1 waa2	
-台西	toi4 sai1	
 臺西	toi4 sai1	
-台西鄉	toi4 sai1 hoeng1	
 臺西鄉	toi4 sai1 hoeng1	
 臺視	toi4 si6	
-台式	toi4 sik1	
-台式電腦	toi4 sik1 din6 nou5	
+臺式	toi4 sik1	
+臺式電腦	toi4 sik1 din6 nou5	
 臺式機	toi4 sik1 gei1	
 苔蘚	toi4 sin2	
-台商	toi4 soeng1	
 臺商	toi4 soeng1	
 臺上	toi4 soeng6	
-台上一分鐘，台下十年功	toi4 soeng6 jat1 fan1 zung1 toi4 haa6 sap6 nin4 gung1	
 臺上一分鐘，臺下十年功	toi4 soeng6 jat1 fan1 zung1 toi4 haa6 sap6 nin4 gung1	
-台上三分鐘，台下十年功	toi4 soeng6 saam1 fan1 zung1 toi4 haa6 sap6 nin4 gung1	
+臺上三分鐘，臺下十年功	toi4 soeng6 saam1 fan1 zung1 toi4 haa6 sap6 nin4 gung1	
 擡頭	toi4 tau4	
 擡頭做人	toi4 tau4 zou6 jan4	
 檯檯櫈櫈	toi4 toi4 dang3 dang3	
-台灣	toi4 waan1	
 臺灣	toi4 waan1	
 臺灣白喉噪鶥	toi4 waan1 baak6 hau4 cou3 mei4	
 臺灣斑翅鶥	toi4 waan1 baan1 ci3 mei4	
 臺灣斑胸鉤嘴鶥	toi4 waan1 baan1 hung1 ngau1 zeoi2 mei4	
 臺灣鵯	toi4 waan1 bei1	
 臺灣戴菊	toi4 waan1 daai3 guk1	
-台灣大學	toi4 waan1 daai6 hok6	
 臺灣大學	toi4 waan1 daai6 hok6	
 臺灣島	toi4 waan1 dou2	
 臺灣短翅鶯	toi4 waan1 dyun2 ci3 ang1	
-台灣高速鐵路	toi4 waan1 gou1 cuk1 tit3 lou6	
 臺灣高速鐵路	toi4 waan1 gou1 cuk1 tit3 lou6	
-台灣關係法	toi4 waan1 gwaan1 hai6 faat3	
 臺灣關係法	toi4 waan1 gwaan1 hai6 faat3	
-台灣人	toi4 waan1 jan4	
 臺灣人	toi4 waan1 jan4	
 臺灣擬啄木鳥	toi4 waan1 ji5 doek3 muk6 niu5	
-台灣葉鼻蝠	toi4 waan1 jip6 bei6 fuk1	
+臺灣葉鼻蝠	toi4 waan1 jip6 bei6 fuk1	
 臺灣藍鵲	toi4 waan1 laam4 zoek3	
 臺灣林鴝	toi4 waan1 lam4 keoi4	
-台灣問題	toi4 waan1 man6 tai4	
-台灣牌	toi4 waan1 paai2	
+臺灣問題	toi4 waan1 man6 tai4	
+臺灣牌	toi4 waan1 paai2	
 臺灣山鷓鴣	toi4 waan1 saan1 ze3 gu1	
 臺灣省	toi4 waan1 saang2	
 臺灣土狗	toi4 waan1 tou2 gau2	
@@ -149341,17 +149275,15 @@ import_tables:
 台州地區	toi4 zau1 dei6 keoi1	
 台州市	toi4 zau1 si5	
 台姐	toi4 ze1	
-台資	toi4 zi1	
+臺資	toi4 zi1	
 臺資	toi4 zi1	
 臺子	toi4 zi2	
-台座	toi4 zo6	
-台中	toi4 zung1	
+臺座	toi4 zo6	
 檯鐘	toi4 zung1	
 臺中	toi4 zung1	
-台中縣	toi4 zung1 jyun6	
 臺中縣	toi4 zung1 jyun6	
 臺中市	toi4 zung1 si5	
-台幣	toi5 bai6	
+臺幣	toi5 bai6	
 怠惰	toi5 do6	
 怠忽	toi5 fat1	
 怠工	toi5 gung1	
@@ -153815,7 +153747,7 @@ import_tables:
 暈陀陀	wan4 to4 to4	
 芸薹	wan4 toi4	
 蕓薹	wan4 toi4	
-雲台花園	wan4 toi4 faa1 jyun4	
+雲臺花園	wan4 toi4 faa1 jyun4	
 芸苔屬	wan4 toi4 suk6	
 蕓薹屬	wan4 toi4 suk6	
 芸苔子	wan4 toi4 zi2	
@@ -155180,7 +155112,7 @@ import_tables:
 黃庭堅	wong4 ting4 gin1	
 黃庭經	wong4 ting4 ging1	
 黃鐵礦	wong4 tit3 kwong3	
-黃台之瓜	wong4 toi4 zi1 gwaa1	
+黃臺之瓜	wong4 toi4 zi1 gwaa1	
 黃糖	wong4 tong4	
 黃糖糕	wong4 tong4 gou1	
 黃滔	wong4 tou1	
@@ -156854,7 +156786,6 @@ import_tables:
 債務人	zaai3 mou6 jan4	
 債務證券	zaai3 mou6 zing3 hyun3	
 債務證書	zaai3 mou6 zing3 syu1	
-債台高築	zaai3 toi4 gou1 zuk1	
 債臺高築	zaai3 toi4 gou1 zuk1	
 債戶	zaai3 wu6	
 債仔	zaai3 zai2	
@@ -157067,7 +156998,6 @@ import_tables:
 暫態	zaam6 taai3	
 站頭	zaam6 tau4	
 暫停	zaam6 ting4	
-站台	zaam6 toi4	
 站臺	zaam6 toi4	
 站穩	zaam6 wan2	
 站穩腳步	zaam6 wan2 goek3 bou6	
@@ -157662,7 +157592,7 @@ import_tables:
 找贖	zaau2 suk6	
 找她	zaau2 taa1	
 找頭	zaau2 tau4	
-找台階兒	zaau2 toi4 gaai1 ji4	
+找臺階兒	zaau2 toi4 gaai1 ji4	
 爪哇	zaau2 waa1	
 爪哇八哥	zaau2 waa1 baat3 go1	
 爪哇池鷺	zaau2 waa1 ci4 lou6	
@@ -158426,7 +158356,7 @@ import_tables:
 震騰騰	zan3 tang4 tang4	
 震天動地	zan3 tin1 dung6 dei6	
 震天價響	zan3 tin1 gaa3 hoeng2	
-鎮台	zan3 toi4	
+鎮臺	zan3 toi4	
 鎮痛	zan3 tung3	
 鎮痛藥	zan3 tung3 joek6	
 鎮痛劑	zan3 tung3 zai1	
@@ -160094,7 +160024,7 @@ import_tables:
 追訴	zeoi1 sou3	
 追訴時效	zeoi1 sou3 si4 haau6	
 錐體	zeoi1 tai2	
-追台	zeoi1 toi4	
+追臺	zeoi1 toi4	
 追討	zeoi1 tou2	
 錐套	zeoi1 tou3	
 追懷	zeoi1 waai4	
@@ -161360,7 +161290,7 @@ import_tables:
 紫金縣	zi2 gam1 jyun6	
 紫金牛	zi2 gam1 ngau4	
 紫金山	zi2 gam1 saan1	
-紫金山天文台	zi2 gam1 saan1 tin1 man4 toi4	
+紫金山天文臺	zi2 gam1 saan1 tin1 man4 toi4	
 紫禁城	zi2 gam3 seng4	
 紫禁城	zi2 gam3 sing4	
 紙巾	zi2 gan1	
@@ -162146,7 +162076,7 @@ import_tables:
 字一色	zi6 jat1 sik1	
 自幼	zi6 jau3	
 自由	zi6 jau4	
-自由亞洲電台	zi6 jau4 aa3 zau1 din6 toi4	
+自由亞洲電臺	zi6 jau4 aa3 zau1 din6 toi4	
 自由搏擊	zi6 jau4 bok3 gik1	
 自由黨	zi6 jau4 dong2	
 自由度	zi6 jau4 dou6	
@@ -163745,7 +163675,7 @@ import_tables:
 偵聽	zing1 ting1	
 偵聽器	zing1 ting1 hei3	
 偵聽員	zing1 ting1 jyun4	
-偵聽台	zing1 ting1 toi4	
+偵聽臺	zing1 ting1 toi4	
 精挑細選	zing1 tiu1 sai3 syun2	
 征討	zing1 tou2	
 征途	zing1 tou4	
@@ -164266,7 +164196,7 @@ import_tables:
 政治異議人士	zing3 zi6 ji6 ji5 jan4 si6	
 政治權利	zing3 zi6 kyun4 lei6	
 政治立場	zing3 zi6 laap6 coeng4	
-政治舞台	zing3 zi6 mou5 toi4	
+政治舞臺	zing3 zi6 mou5 toi4	
 政治危機	zing3 zi6 ngai4 gei1	
 政治生活	zing3 zi6 sang1 wut6	
 政治思想	zing3 zi6 si1 soeng2	
@@ -167484,7 +167414,6 @@ import_tables:
 築堤	zuk1 tai4	
 竹田	zuk1 tin4	
 竹田鄉	zuk1 tin4 hoeng1	
-燭台	zuk1 toi4	
 燭臺	zuk1 toi4	
 囑託	zuk1 tok3	
 竹塘	zuk1 tong4	
@@ -167932,7 +167861,7 @@ import_tables:
 中國特色社會主義	zung1 gwok3 dak6 sik1 se5 wui2 zyu2 ji6	
 中國地球物理學會	zung1 gwok3 dei6 kau4 mat6 lei5 hok6 wui2	
 中國地震局	zung1 gwok3 dei6 zan3 guk6	
-中國地震台	zung1 gwok3 dei6 zan3 toi4	
+中國地震臺	zung1 gwok3 dei6 zan3 toi4	
 中國地質大學	zung1 gwok3 dei6 zat1 daai6 hok6	
 中國地質調查局	zung1 gwok3 dei6 zat1 diu6 caa4 guk6	
 中國電信	zung1 gwok3 din6 seon3	
@@ -167966,7 +167895,7 @@ import_tables:
 中國國家環保局	zung1 gwok3 gwok3 gaa1 waan4 bou2 guk6	
 中國國家環境保護總局	zung1 gwok3 gwok3 gaa1 waan4 ging2 bou2 wu6 zung2 guk6	
 中國國民黨革命委員會	zung1 gwok3 gwok3 man4 dong2 gaak3 ming6 wai2 jyun4 wui2	
-中國國際廣播電台	zung1 gwok3 gwok3 zai3 gwong2 bo3 din6 toi4	
+中國國際廣播電臺	zung1 gwok3 gwok3 zai3 gwong2 bo3 din6 toi4	
 中國國際航空公司	zung1 gwok3 gwok3 zai3 hong4 hung1 gung1 si1	
 中國國際貿易促進委員會	zung1 gwok3 gwok3 zai3 mau6 jik6 cuk1 zeon3 wai2 jyun4 wui2	
 中國國際信托投資公司	zung1 gwok3 gwok3 zai3 seon3 tok3 tau4 zi1 gung1 si1	
@@ -168072,7 +168001,7 @@ import_tables:
 中國象棋	zung1 gwok3 zoeng6 kei4	
 中國作家協會	zung1 gwok3 zok3 gaa1 hip3 wui2	
 中國作協	zung1 gwok3 zok3 hip3	
-中國中央電視台	zung1 gwok3 zung1 joeng1 din6 si6 toi4	
+中國中央電視臺	zung1 gwok3 zung1 joeng1 din6 si6 toi4	
 中國中心主義	zung1 gwok3 zung1 sam1 zyu2 ji6	
 舂下舂下	zung1 haa5 zung1 haa5	
 中下	zung1 haa6	
@@ -168178,7 +168107,7 @@ import_tables:
 中央處理器	zung1 joeng1 cyu2 lei5 hei3	
 中央處理器	zung1 joeng1 cyu5 lei5 hei3	
 中央全會	zung1 joeng1 cyun4 wui2	
-中央電視台	zung1 joeng1 din6 si6 toi4	
+中央電視臺	zung1 joeng1 din6 si6 toi4	
 中央分車帶	zung1 joeng1 fan1 ce1 daai3	
 中央軍事委員會	zung1 joeng1 gwan1 si6 wai2 jyun4 wui2	
 中央軍委	zung1 joeng1 gwan1 wai2	
@@ -168804,7 +168733,7 @@ import_tables:
 總體規劃	zung2 tai2 kwai1 waak6	
 總體目標	zung2 tai2 muk6 biu1	
 總體上說	zung2 tai2 soeng6 syut3	
-總台	zung2 toi4	
+總臺	zung2 toi4	
 總圖	zung2 tou4	
 總統	zung2 tung2	
 總統大選	zung2 tung2 daai6 syun2	
@@ -169598,7 +169527,6 @@ import_tables:
 主治醫師	zyu2 zi6 ji1 si1	
 主席	zyu2 zik6	
 主席國	zyu2 zik6 gwok3	
-主席台	zyu2 zik6 toi4	
 主席臺	zyu2 zik6 toi4	
 主席團	zyu2 zik6 tyun4	
 主戰	zyu2 zin3	
@@ -170108,7 +170036,7 @@ import_tables:
 轉插	zyun3 caap3	
 轉插頭	zyun3 caap3 tau2	
 轉車	zyun3 ce1	
-轉車台	zyun3 ce1 toi4	
+轉車臺	zyun3 ce1 toi4	
 轉趨	zyun3 ceoi1	
 轉速	zyun3 cuk1	
 轉速錶	zyun3 cuk1 biu1	
@@ -170172,7 +170100,6 @@ import_tables:
 轉頭	zyun3 tau2	
 轉頭	zyun3 tau4	
 鑽頭	zyun3 tau4	
-轉台	zyun3 toi4	
 轉臺	zyun3 toi4	
 轉堂	zyun3 tong4	
 轉彎	zyun3 waan1	
@@ -170181,7 +170108,7 @@ import_tables:
 轉會	zyun3 wui2	
 轉換	zyun3 wun6	
 鑽井	zyun3 zeng2	
-鑽井平台	zyun3 zeng2 ping4 toi4	
+鑽井平臺	zyun3 zeng2 ping4 toi4	
 轉子	zyun3 zi2	
 轉字鎖	zyun3 zi6 so2	
 轉接頭	zyun3 zip3 tau2	
