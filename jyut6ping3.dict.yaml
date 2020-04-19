@@ -33,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.03.08"
+version: "2020.04.19"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -464,6 +464,7 @@ import_tables:
 蝂	baan2	
 鈑	baan2	
 闆	baan2	
+坂	baan2	
 阪	baan2	
 魬	baan2	
 扮	baan3	
@@ -4170,7 +4171,7 @@ import_tables:
 䡊	faan2	
 反	faan2	
 返	faan2	
-阪	faan2	
+阪	faan2	0%
 𠆩	faan2	
 㛯	faan3	
 㤆	faan3	
@@ -25840,6 +25841,8 @@ import_tables:
 板式塔	baan2 sik1 taap3	
 板上釘釘	baan2 soeng6 deng1 deng1	
 板書	baan2 syu1	
+坂田	baan2 tin4	
+坂田街道	baan2 tin4 gaai6 dou6	
 板條	baan2 tiu4	
 板條箱	baan2 tiu4 soeng1	
 版圖	baan2 tou4	
@@ -43824,7 +43827,7 @@ import_tables:
 大斑啄木鳥	daai6 baan1 doek3 muk6 niu5	
 大班椅	daai6 baan1 ji2	
 大斑鶺鴒	daai6 baan1 zek3 ling4	
-大坂	daai6 baan2	
+大坂	daai6 baan2	0%
 大阪	daai6 baan2	
 大阪府	daai6 baan2 fu2	
 大板牙	daai6 baan2 ngaa4	
