@@ -33,7 +33,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.04.19"
+version: "2020.04.21"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -47671,7 +47671,6 @@ import_tables:
 竇利是	dau3 lei6 si6	
 鬥叻	dau3 lek1	
 鬥靚	dau3 leng3	
-斗零	dau3 ling4	
 鬥龍船	dau3 lung4 syun4	
 鬥木	dau3 muk6	
 鬥木佬	dau3 muk6 lou2	
@@ -58711,7 +58710,7 @@ import_tables:
 灰翅噪鶥	fui1 ci3 cou3 mei4	
 灰翅鶇	fui1 ci3 dung1	
 灰匙	fui1 ci4	
-灰斗	fui1 dau3	
+灰斗	fui1 dau2	
 灰度	fui1 dou6	
 灰短腳鵯	fui1 dyun2 goek3 bei1	
 灰飛煙滅	fui1 fei1 jin1 mit6	
@@ -60890,7 +60889,7 @@ import_tables:
 佳得樂	gaai1 dak1 lok6	
 街燈	gaai1 dang1	
 街斗	gaai1 dau2	
-街斗	gaai1 dau3	
+街鬥	gaai1 dau3	
 階地	gaai1 deng6	
 街渡	gaai1 dou2	
 街艔	gaai1 dou2	
@@ -62157,7 +62156,7 @@ import_tables:
 交警	gaau1 ging2	
 交結	gaau1 git3	
 膠結	gaau1 git3	
-交個波畀…	gaau1 go3 bo1 bei2	
+交個波畀	gaau1 go3 bo1 bei2	
 交角	gaau1 gok3	
 交割	gaau1 got3	
 轇轕	gaau1 got3	
@@ -97832,7 +97831,6 @@ import_tables:
 扻波	kam2 bo1	
 冚斗	kam2 dau2	
 𢫏斗	kam2 dau2	
-冚斗	kam2 dau3	
 冚竇	kam2 dau3	
 冚檔	kam2 dong3	
 𢫏檔	kam2 dong3	
@@ -137264,7 +137262,6 @@ import_tables:
 史特勞斯	si2 dak6 lou4 si1	
 史特龍	si2 dak6 lung4	
 屎斗	si2 dau2	
-屎斗	si2 dau3	
 史迪威	si2 dik6 wai1	
 史黛西	si2 doi6 sai1	
 使到	si2 dou3	
@@ -156532,7 +156529,6 @@ import_tables:
 鮓斗	zaa2 dau2	
 鮓豆	zaa2 dau2	
 苴斗貨	zaa2 dau2 fo3	
-鮓斗	zaa2 dau3	
 渣嘢	zaa2 je5	
 苴嘢	zaa2 je5	
 鮓嘢	zaa2 je5	
