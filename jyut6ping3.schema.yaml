@@ -162,12 +162,10 @@ reverse_lookup:
 trad_tw:
   option_name: trad_tw
   opencc_config: t2tw.json
-  tips: all  # 不需要提示則註釋該行
 
 trad_hk:
   option_name: trad_hk
   opencc_config: t2hk.json
-  tips: all  # 不需要提示則註釋該行
 
 emoji_suggestion:
   opencc_config: emoji.json
