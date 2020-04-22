@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.04.22"
+version: "2020.04.23"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -1593,7 +1593,6 @@ import_tables:
 博	bok3	
 嚗	bok3	
 嚩	bok3	0%
-坣	bok3	
 壆	bok3	
 愽	bok3	
 懪	bok3	
@@ -21106,18 +21105,13 @@ import_tables:
 呣	m2	
 㐚	m4	0%
 䫓	m4	
-䮏	m4	
-呉	m4	0%
 呣	m4	3%
 唔	m4	
 嘸	m4	3%
 夻	m4	0%
-娪	m4	0%
-祦	m4	0%
 禑	m4	0%
 筽	m4	0%
 脵	m4	0%
-茣	m4	0%
 𠗐	m4	
 𩺰	m4	
 㐏	m5	0%
@@ -56694,7 +56688,6 @@ import_tables:
 大驚	daai6 geng1	
 大驚失色	daai6 geng1 sat1 sik1	
 大驚小怪	daai6 geng1 siu2 gwaai3	
-大驚小怪	daai6 geng1 siu2 gwai3	
 大頸泡	daai6 geng2 paau1	
 大舉	daai6 geoi2	
 大舉進攻	daai6 geoi2 zeon3 gung1	
@@ -56706,7 +56699,6 @@ import_tables:
 大件事	daai6 gin6 si6	
 大驚失色	daai6 ging1 sat1 sik1	
 大驚小怪	daai6 ging1 siu2 gwaai3	
-大驚小怪	daai6 ging1 siu2 gwai3	
 大結局	daai6 git3 guk6	
 大叫	daai6 giu3	
 大哥	daai6 go1	
