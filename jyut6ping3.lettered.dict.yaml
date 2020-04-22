@@ -19,7 +19,7 @@
 
 ---
 name: jyut6ping3.lettered
-version: "2020.02.10"
+version: "2020.04.22"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -142,6 +142,7 @@ bi-li-ba-la	bi4 li4 baa4 laa4
 bi-li-ba-la	bi4 li1 baa4 laa4
 bi-li-ba-la	bi1 li1 baa1 laa1
 bi-li-bek-lek	bi4 li1 bek4 lek4
+bilibili	bi1 li1 bi1 li4
 bingo	bing1 gou4
 bio	baai6 o1
 bit	bit1
@@ -898,6 +899,7 @@ VR	wi1 aau1
 VR	wi1 aau1 lou4
 V溝	wi1 kau1
 V領	wi1 leng5
+wifi	waai1 faai1
 wang	wang1
 wasabi	waa6 saa1 bi4
 wasabi	waat6 saa1 bi4

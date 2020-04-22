@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.2.9"
+  version: "0.3.0"
   author:
     - sgal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -111,7 +111,8 @@ translator:
   dictionary: jyut6ping3
   spelling_hints: 8
   preedit_format:
-    - xform/(^|[ '])(m|ng)+$/$1$2̩/            # 唔m̩ 五ŋ̩
+    - xform/(^|[ '])(m)+$/$1$2̩/               # 唔m̩
+    - xform/(^|[ '])(ng)+$/$1$2̍/             # 五ŋ̍
     - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
     - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
     - xform/([ptk])v/$1˥/                     # 一jɐt̚
@@ -227,10 +228,12 @@ reverse_lookup:
 trad_tw:
   option_name: trad_tw
   opencc_config: t2tw.json
+  tips: all  # 不需要提示則註釋該行
 
 trad_hk:
   option_name: trad_hk
   opencc_config: t2hk.json
+  tips: all  # 不需要提示則註釋該行
 
 emoji_suggestion:
   opencc_config: emoji.json
