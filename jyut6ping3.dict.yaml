@@ -11735,7 +11735,7 @@ import_tables:
 㻒	kwan5	
 䐃	kwan5	
 㚚	kwang1	
-隙	kwik1	3%
+隙	kwik1	
 隟	kwik1	
 㗥	kwok3	
 㨯	kwok3	
@@ -16240,6 +16240,7 @@ import_tables:
 𠝭	peng2	
 平	peng4	3%
 噼	pet1	0%
+坺	pet6	
 㱸	pik1	
 䑀	pik1	
 䡶	pik1	
@@ -24415,7 +24416,7 @@ import_tables:
 芧	cyu5	
 祝	zau3	3%
 砫	cyu5	
-貯	cyu2	
+貯	cyu2	3%
 筯	zyu6	
 撞	cong4	0%
 幢	dung6	
@@ -86510,7 +86511,8 @@ import_tables:
 飲料	jam2 liu2	
 飲料	jam2 liu6	
 飲料店	jam2 liu6 dim3	
-飲馬投錢	jam2 maa5 tau4 cin4	
+飲馬	jam3 maa5	
+飲馬投錢	jam3 maa5 tau4 cin4	
 飲悶酒	jam2 mun6 zau2	
 飲奶	jam2 naai5	
 飲晒	jam2 saai3	
