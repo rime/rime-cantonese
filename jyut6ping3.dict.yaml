@@ -174,13 +174,6 @@ import_tables:
 軶	aak3	
 鈪	aak3	
 阿	aak3	3%
-㟯	aak6	0%
-㣂	aak6	
-䩹	aak6	
-䱮	aak6	
-磀	aak6	0%
-𡅅	aak6	
-恰	aam1	0%
 菡	aam2	0%
 㘙	aam4	
 㺂	aam4	
@@ -23191,36 +23184,9 @@ import_tables:
 逜	ng6	
 遻	ng6	0%
 𤵐	ng6	
-丫	ngaa1	0%
 枒	ngaa1	
-椏	ngaa1	0%
-錏	ngaa1	
-鐚	ngaa1	0%
-雅	ngaa1	0%
-鴉	ngaa1	0%
-唖	ngaa2	0%
-啞	ngaa2	0%
-掗	ngaa2	0%
+椏	ngaa1	
 禡	ngaa2	3%
-㚳	ngaa3	
-㢌	ngaa3	0%
-㰳	ngaa3	
-亜	ngaa3	0%
-亞	ngaa3	0%
-埡	ngaa3	0%
-妿	ngaa3	0%
-婭	ngaa3	0%
-掗	ngaa3	0%
-氬	ngaa3	0%
-稏	ngaa3	
-襾	ngaa3	0%
-錒	ngaa3	0%
-阿	ngaa3	0%
-齾	ngaa3	
-𥮳	ngaa3	
-𥺼	ngaa3	
-𦩒	ngaa3	
-𩤃	ngaa3	
 㧎	ngaa4	
 䄰	ngaa4	
 伢	ngaa4	
@@ -23263,14 +23229,6 @@ import_tables:
 齖	ngaa6	
 𦜖	ngaa6	
 𧧝	ngaa6	
-劸	ngaai1	0%
-哎	ngaai1	0%
-唉	ngaai1	0%
-唲	ngaai1	0%
-埃	ngaai1	0%
-娭	ngaai1	0%
-挨	ngaai1	0%
-溾	ngaai1	
 𠊎	ngaai1	
 㿄	ngaai3	
 䅬	ngaai3	
@@ -23320,11 +23278,6 @@ import_tables:
 騃	ngaai6	0%
 鴱	ngaai6	
 眲	ngaak1	0%
-軛	ngaak1	0%
-軶	ngaak1	0%
-阸	ngaak1	0%
-𧦠	ngaak1	
-詻	ngaak3	0%
 㟯	ngaak6	0%
 㣂	ngaak6	
 䩹	ngaak6	
@@ -23396,15 +23349,8 @@ import_tables:
 罌	ngaang1	0%
 䤝	ngaang6	
 硬	ngaang6	
-鞕	ngaang6	0%
-㳌	ngaap3	
-㾎	ngaap3	
-䆘	ngaap3	
-圔	ngaap3	
-庘	ngaap3	0%
-押	ngaap3	0%
+鞕	ngaang6	0%				
 擪	ngaap3	
-鴨	ngaap3	0%
 䝟	ngaat3	
 䰲	ngaat3	
 劜	ngaat3	0%
@@ -23849,19 +23795,6 @@ import_tables:
 嚙	ngit6	3%
 囓	ngit6	0%
 齧	ngit6	0%
-㺢	ngo1	
-妸	ngo1	0%
-婀	ngo1	0%
-屙	ngo1	
-柯	ngo1	0%
-牱	ngo1	0%
-珂	ngo1	0%
-痾	ngo1	0%
-軻	ngo1	0%
-阿	ngo1	0%
-妸	ngo2	0%
-婀	ngo2	0%
-猗	ngo2	0%
 㘥	ngo4	0%
 䄉	ngo4	
 䕏	ngo4	
@@ -23909,41 +23842,7 @@ import_tables:
 臥	ngo6	
 餓	ngo6	
 𢛶	ngo6	
-㗒	ngoi1	
-哀	ngoi1	0%
-唉	ngoi1	0%
-埃	ngoi1	0%
-欸	ngoi1	0%
-凒	ngoi2	0%
-凱	ngoi2	0%
-噯	ngoi2	0%
-堨	ngoi2	0%
-挨	ngoi2	0%
-欸	ngoi2	0%
-毐	ngoi2	0%
 皚	ngoi2	
-藹	ngoi2	0%
-靄	ngoi2	0%
-靉	ngoi2	0%
-㦈	ngoi3	0%
-䔽	ngoi3	
-䨠	ngoi3	
-僾	ngoi3	0%
-噯	ngoi3	0%
-堨	ngoi3	0%
-壒	ngoi3	0%
-嬡	ngoi3	0%
-愛	ngoi3	0%
-懓	ngoi3	0%
-曖	ngoi3	0%
-濭	ngoi3	
-璦	ngoi3	0%
-皧	ngoi3	0%
-瞹	ngoi3	0%
-薆	ngoi3	0%
-靉	ngoi3	0%
-馤	ngoi3	0%
-鱫	ngoi3	0%
 㱯	ngoi4	
 䶣	ngoi4	
 呆	ngoi4	
@@ -24024,20 +23923,6 @@ import_tables:
 𨯫	ngok6	
 𩓥	ngok6	
 咢	ngok6	0%
-安	ngon1	0%
-桉	ngon1	0%
-氨	ngon1	0%
-胺	ngon1	0%
-銨	ngon1	0%
-鞍	ngon1	0%
-𤇼	ngon1	
-𤥃	ngon1	
-𩣑	ngon1	
-按	ngon3	0%
-摁	ngon3	0%
-案	ngon3	0%
-桉	ngon3	0%
-洝	ngon3	
 㸩	ngon4	
 㟁	ngon6	
 㷳	ngon6	
@@ -24698,21 +24583,6 @@ import_tables:
 蝁	ok3	
 𢙣	ok3	
 𤦩	ok3	
-㗁	ok6	
-㟧	ok6	
-㬽	ok6	0%
-䥃	ok6	0%
-偔	ok6	0%
-卾	ok6	0%
-捳	ok6	0%
-湂	ok6	0%
-蕚	ok6	0%
-覨	ok6	0%
-讍	ok6	0%
-遌	ok6	0%
-𨕬	ok6	
-𨯫	ok6	
-咢	ok6	0%
 㫨	on1	
 䀂	on1	
 䢿	on1	
@@ -24739,12 +24609,6 @@ import_tables:
 胺	on3	
 荌	on3	
 㸩	on4	
-㟁	on6	
-㷳	on6	
-䮗	on6	
-堓	on6	0%
-婩	on6	
-貋	on6	0%
 㒕	ong1	
 㹧	ong1	
 姎	ong1	
@@ -24761,14 +24625,6 @@ import_tables:
 軮	ong3	
 醠	ong3	
 㟅	ong4	
-䀚	ong4	
-䒢	ong4	
-岇	ong4	0%
-昻	ong4	0%
-䭺	ong5	
-戅	ong6	0%
-㖖	ot6	
-䯵	ot6	
 㩠	ou1	
 䥝	ou1	
 擙	ou1	
@@ -24811,20 +24667,7 @@ import_tables:
 襖	ou3	
 鐭	ou3	0%
 隩	ou3	
-𥜌	ou3	
-㾲	ou4	0%
-䮯	ou4	
-獓	ou4	0%
-翶	ou4	0%
-螯	ou4	
-鷔	ou4	0%
-𣊁	ou4	
-㟼	ou6	
-㠂	ou6	
-㥿	ou6	
-嫯	ou6	0%
-謸	ou6	0%
-𨫼	ou6	
+𥜌	ou3		
 䔤	paa1	0%
 䯲	paa1	
 啪	paa1	3%
@@ -38332,7 +38175,7 @@ import_tables:
 板牙	baan2 ngaa4	
 板岩	baan2 ngaam4	
 板眼	baan2 ngaan5	
-板鴨	baan2 ngaap3	
+板鴨	baan2 aap3	
 板皮	baan2 pei4	
 扳手	baan2 sau2	
 版稅	baan2 seoi3	
@@ -39126,7 +38969,7 @@ import_tables:
 北京國家游泳中心	bak1 ging1 gwok3 gaa1 jau4 wing6 zung1 sam1	
 北京國家體育場	bak1 ging1 gwok3 gaa1 tai2 juk6 coeng4	
 北京廣播學院	bak1 ging1 gwong2 bo3 hok6 jyun2	
-北京烤鴨	bak1 ging1 haau1 ngaap3	
+北京烤鴨	bak1 ging1 haau1 aap3	
 北京核武器研究所	bak1 ging1 hat6 mou5 hei3 jin4 gau3 so2	
 北京汽車製造廠有限公司	bak1 ging1 hei3 ce1 zai3 zou6 cong2 jau5 haan6 gung1 si1	
 北京航空學院	bak1 ging1 hong4 hung1 hok6 jyun2	
@@ -72919,8 +72762,8 @@ import_tables:
 加納	gaa1 naap6	
 迦納	gaa1 naap6	
 加納	gaa1 nap6	
-家鴨	gaa1 ngaap3	
-家鴨綠頭鴨	gaa1 ngaap3 luk6 tau4 ngaap3	
+家鴨	gaa1 aap3	
+家鴨綠頭鴨	gaa1 aap3 luk6 tau4 aap3	
 嘉年華	gaa1 nin4 waa4	
 嘉年華會	gaa1 nin4 waa4 wui2	
 家娘	gaa1 noeng4	
@@ -75366,7 +75209,7 @@ import_tables:
 雞腎	gai1 san6	
 雞手鴨腳	gai1 sau2 aap3 goek3	
 鷄手鴨腳	gai1 sau2 aap3 goek3	
-雞手鴨腳	gai1 sau2 ngaap3 goek3	
+雞手鴨腳	gai1 sau2 aap3 goek3	
 雞嗉	gai1 seoi3	
 雞歲	gai1 seoi3	
 雞碎	gai1 seoi3	
@@ -75388,7 +75231,7 @@ import_tables:
 雞腿	gai1 teoi2	
 雞腿菇	gai1 teoi2 gu1	
 雞湯	gai1 tong1	
-雞同鴨講	gai1 tong4 ngaap3 gong2	
+雞同鴨講	gai1 tong4 aap3 gong2	
 雞同鴨講	gai1 tung4 aap3 gong2	
 雞屋	gai1 uk1	
 雞糊	gai1 wu2	
@@ -80556,8 +80399,8 @@ import_tables:
 腳誤	goek3 ng6	
 腳丫	goek3 ngaa1	
 腳眼	goek3 ngaan5	
-腳鴨子	goek3 ngaap3 zi2	
-腳坳	goek3 ngaau3	
+腳鴨子	goek3 aap3 zi2	
+腳坳	goek3 aau3	
 腳內檔	goek3 noi6 dong3	
 腳心	goek3 sam1	
 腳手架	goek3 sau2 gaa2	
@@ -83982,7 +83825,7 @@ import_tables:
 公正	gung1 zing3	
 公証	gung1 zing3	
 公證	gung1 zing3	
-公正不阿	gung1 zing3 bat1 ngo1	
+公正不阿	gung1 zing3 bat1 o1	
 公證處	gung1 zing3 cyu3	
 公証行	gung1 zing3 hong2	
 公證行	gung1 zing3 hong2	
@@ -88304,7 +88147,7 @@ import_tables:
 敲門	haau1 mun4	
 尻門子	haau1 mun4 zi2	
 敲門磚	haau1 mun4 zyun1	
-烤鴨	haau1 ngaap3	
+烤鴨	haau1 aap3	
 烤盤	haau1 pun4	
 敲山震虎	haau1 saan1 zan3 fu2	
 吼聲	haau1 seng1	
@@ -91768,7 +91611,7 @@ import_tables:
 去路	heoi3 lou6	
 去唔去	heoi3 m4 heoi3	
 去馬	heoi3 maa5	
-去賣鹹鴨蛋	heoi3 maai6 haam4 ngaap3 daan6	
+去賣鹹鴨蛋	heoi3 maai6 haam4 aap3 daan6	
 去蕪存菁	heoi3 mou4 cyun4 cing1	
 去蕪存菁	heoi3 mou4 cyun4 zing1	
 去你	heoi3 nei5	
@@ -91799,7 +91642,7 @@ import_tables:
 去咗	heoi3 zo2	
 去咗見周公	heoi3 zo2 gin3 zau1 gung1	
 去咗飲	heoi3 zo2 jam2	
-去咗賣鹹鴨蛋	heoi3 zo2 maai6 haam4 ngaap3 daan6	
+去咗賣鹹鴨蛋	heoi3 zo2 maai6 haam4 aap3 daan6	
 去做乜	heoi3 zou6 mat1	
 㗾哆	heoi4 doe1	
 㗾㗾聲	heoi4 heoi2 seng1	
@@ -102089,6 +101932,7 @@ import_tables:
 醫學專家	ji1 hok6 zyun1 gaa1	
 醫好	ji1 hou2	
 依泣	ji1 jaap1	
+咿呦	ji1 jaau1
 咿㕭	ji1 jaau1	
 伊人	ji1 jan4	
 伊挹	ji1 jap1	
@@ -118411,7 +118255,7 @@ import_tables:
 羅文	lo4 man4	
 羅紋	lo4 man4	
 螺紋	lo4 man4	
-羅紋鴨	lo4 man4 ngaap3	
+羅紋鴨	lo4 man4 aap3	
 羅密歐	lo4 mat6 au1	
 羅密歐與朱麗葉	lo4 mat6 au1 jyu5 zyu1 lai6 jip6	
 羅懋登	lo4 mau6 dang1	
@@ -120864,7 +120708,7 @@ import_tables:
 陸探微	luk6 taam3 mei4	
 六碳糖	luk6 taan3 tong4	
 綠頭巾	luk6 tau4 gan1	
-綠頭鴨	luk6 tau4 ngaap3	
+綠頭鴨	luk6 tau4 aap3	
 綠苔	luk6 toi4	
 六韜	luk6 tou1	
 六韜三略	luk6 tou1 saam1 loek6	
@@ -122924,7 +122768,7 @@ import_tables:
 賣鹹蛋	maai6 haam4 daan2	
 賣鹹魚	maai6 haam4 jyu2	
 賣鹹魚	maai6 haam4 jyu4	
-賣鹹鴨蛋	maai6 haam4 ngaap3 daan6	
+賣鹹鴨蛋	maai6 haam4 aap3 daan6	
 邁克爾	maai6 hak1 ji5	
 賣口乖	maai6 hau2 gwaai1	
 邁向	maai6 hoeng3	
@@ -133041,13 +132885,16 @@ import_tables:
 硬着頭皮	ngaang6 zoek6 tau4 pei4	
 硬著頭皮	ngaang6 zoek6 tau4 pei4	
 硬仗	ngaang6 zoeng3	
-鴨春	ngaap3 ceon1	
+鴨春	aap3 ceon1	
+擪高褲腳	ngaap3 gou1 fu3 goek3	
 押高褲腳	ngaap3 gou1 fu3 goek3	
+擪高衫袖	ngaap3 gou1 saam1 zau6	
 押高衫袖	ngaap3 gou1 saam1 zau6	
-押後	ngaap3 hau6	
-押後處理	ngaap3 hau6 cyu5 lei5	
+押後	aap3 hau6	
+押後處理	aap3 hau6 cyu5 lei5	
+擪屎片	ngaap3 si2 pin2	
 押屎片	ngaap3 si2 pin2	
-鴨咀帽	ngaap3 zeoi2 mou2	
+鴨咀帽	aap3 zeoi2 mou2	
 餲堪堪	ngaat3 ham1 ham1	
 逆意	ngaat6 ji3	
 扤牙	ngaat6 ngaa2	
@@ -133824,14 +133671,14 @@ import_tables:
 嚙齒類	ngit6 ci2 leoi6	
 齧齒類	ngit6 ci2 leoi6	
 齧牙	ngit6 ngaa4	
-痾蛋	ngo1 daan2	
-阿諛	ngo1 jyu4	
-屙爛屎	ngo1 laan6 si2	
-屙尿	ngo1 niu6	
-屙屁	ngo1 pei3	
-屙屎	ngo1 si2	
-屙殊殊	ngo1 syu4 syu4	
-屙肚	ngo1 tou5	
+屙蛋	o1 daan2	
+阿諛	o1 jyu4	
+屙爛屎	o1 laan6 si2	
+屙尿	o1 niu6	
+屙屁	o1 pei3	
+屙屎	o1 si2	
+屙殊殊	o1 syu4 syu4	
+屙肚	o1 tou5	
 俄巴底亞書	ngo4 baa1 dai2 aa3 syu1	
 俄備得	ngo4 bei6 dak1	
 峨邊彞族自治縣	ngo4 bin1 ji4 zuk6 zi6 zi6 jyun6	
@@ -153098,7 +152945,7 @@ import_tables:
 燒你數簿	siu1 nei5 sou3 bou2	
 燒你數簿	siu1 nei5 sou3 bou6	
 燒硬	siu1 ngaang6	
-燒鴨	siu1 ngaap3	
+燒鴨	siu1 aap3	
 燒鵝	siu1 ngo2	
 燒鵝	siu1 ngo4	
 燒腦	siu1 nou5	
@@ -162055,7 +161902,7 @@ import_tables:
 螳螂	tong4 long4	
 螳螂捕蟬	tong4 long4 bou6 sim4	
 螳螂捕蟬，黃雀在後	tong4 long4 bou6 sim4 wong4 zoek3 zoi6 hau6	
-唐老鴨	tong4 lou5 ngaap3	
+唐老鴨	tong4 lou5 aap3	
 唐文	tong4 man2	
 唐文宗	tong4 man4 zung1	
 糖蜜	tong4 mat6	
@@ -162666,7 +162513,7 @@ import_tables:
 逃難所	tou4 naan6 so2	
 塗鴉	tou4 ngaa1	
 圖瓦盧	tou4 ngaa5 lou4	
-塗鴨	tou4 ngaap3	
+塗鴨	tou4 aap3	
 陶藝	tou4 ngai6	
 檮杌	tou4 ngat6	
 圖案	tou4 on3	
@@ -162780,7 +162627,6 @@ import_tables:
 肚兒	tou5 ji4	
 肚腩	tou5 naam5	
 肚腍	tou5 nam4	
-肚屙	tou5 ngo1	
 肚餓	tou5 ngo6	
 肚屙	tou5 o1	
 肚痾	tou5 o1	
@@ -179526,7 +179372,7 @@ import_tables:
 造岩礦物	zou6 ngaam4 kwong3 mat6	
 做眼	zou6 ngaan5	
 做眼色	zou6 ngaan5 sik1	
-做鴨	zou6 ngaap3	
+做鴨	zou6 aap3	
 造詣	zou6 ngai6	
 做牛做馬	zou6 ngau4 zou6 maa5	
 做愛	zou6 oi3	
