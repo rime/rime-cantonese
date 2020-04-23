@@ -52,8 +52,6 @@ import_tables:
 丫	aa1	
 厊	aa1	0%
 吖	aa1	
-呀	aa1	
-啊	aa1	
 啞	aa1	
 孲	aa1	
 枒	aa1	
@@ -78,8 +76,6 @@ import_tables:
 亜	aa3	0%
 亞	aa3	
 俹	aa3	
-吖	aa3	
-呀	aa3	
 呵	aa3	3%
 啊	aa3	
 埡	aa3	
@@ -97,10 +93,8 @@ import_tables:
 𥺼	aa3	
 𦩒	aa3	
 𩤃	aa3	
-呀	aa4	3%
-啊	aa4	0%
-咓	aa5	0%
-啊	aa6	3%
+呀	aa4
+咓	aa5
 劸	aai1	0%
 哎	aai1	
 唉	aai1	
@@ -7812,8 +7806,6 @@ import_tables:
 傢	gaa1	
 加	gaa1	
 嘉	gaa1	
-嘎	gaa1	3%
-嘠	gaa1	0%
 噶	gaa1	3%
 家	gaa1	
 尕	gaa1	
@@ -7858,7 +7850,7 @@ import_tables:
 䑝	gaa2	
 假	gaa2	
 叚	gaa2	
-嘎	gaa2	3%
+㗎	gaa2	
 嘏	gaa2	
 夏	gaa2	3%
 婽	gaa2	
@@ -7892,8 +7884,8 @@ import_tables:
 𡃉	gaa3	
 𢱌	gaa3	
 𣕧	gaa3	
-㗎	gaa4	
 嘎	gaa4	3%
+嘠	gaa4	0%
 㗇	gaa5	
 㾬	gaai1	
 䃈	gaai1	
@@ -10828,7 +10820,6 @@ import_tables:
 趉	gyut6	
 㗇	haa1	
 吓	haa1	
-呀	haa1	0%
 哈	haa1	
 岈	haa1	3%
 煆	haa1	
@@ -10845,7 +10836,6 @@ import_tables:
 𧇍	haa1	
 𧎚	haa1	
 吓	haa2	5%
-啊	haa2	3%
 嗄	haa2	0%
 襾	haa2	0%
 㙈	haa3	
@@ -10853,7 +10843,6 @@ import_tables:
 䠍	haa4	0%
 䪗	haa4	
 䫗	haa4	
-啊	haa4	3%
 徦	haa4	0%
 暇	haa4	3%
 瑕	haa4	
@@ -20108,7 +20097,6 @@ import_tables:
 𦆲	liu6	
 咯	lo1	3%
 囉	lo1	
-囖	lo1	
 旯	lo1	3%
 𦣇	lo1	
 㒩	lo2	
@@ -20137,7 +20125,6 @@ import_tables:
 䊨	lo4	
 儸	lo4	
 剆	lo4	0%
-囉	lo4	
 囖	lo4	
 摞	lo4	3%
 撋	lo4	
@@ -112524,7 +112511,6 @@ import_tables:
 喇喇臨	laa4 laa4 lam4	
 拿拿淋	laa4 laa4 lam4	
 喇喇聲	laa4 laa4 seng1	
-嗱嗱聲	laa4 laa4 seng1	
 喇臨	laa4 lam4	
 啦聲	laa4 seng1	
 嗱喳	laa5 zaa2	
