@@ -114,6 +114,7 @@ import_tables:
 犽	aa6	
 閕	aa6	0%
 𠻺	aa6	
+𦜖	aa6	
 劸	aai1	0%
 哎	aai1	
 唉	aai1	
@@ -23191,36 +23192,15 @@ import_tables:
 逜	ng6	
 遻	ng6	0%
 𤵐	ng6	
-丫	ngaa1	0%
 枒	ngaa1	
-椏	ngaa1	0%
-錏	ngaa1	
-鐚	ngaa1	0%
 雅	ngaa1	0%
 鴉	ngaa1	0%
-唖	ngaa2	0%
-啞	ngaa2	0%
-掗	ngaa2	0%
 禡	ngaa2	3%
 㚳	ngaa3	
 㢌	ngaa3	0%
-㰳	ngaa3	
-亜	ngaa3	0%
-亞	ngaa3	0%
-埡	ngaa3	0%
 妿	ngaa3	0%
-婭	ngaa3	0%
-掗	ngaa3	0%
 氬	ngaa3	0%
-稏	ngaa3	
-襾	ngaa3	0%
-錒	ngaa3	0%
-阿	ngaa3	0%
 齾	ngaa3	
-𥮳	ngaa3	
-𥺼	ngaa3	
-𦩒	ngaa3	
-𩤃	ngaa3	
 㧎	ngaa4	
 䄰	ngaa4	
 伢	ngaa4	
@@ -23252,8 +23232,6 @@ import_tables:
 邷	ngaa5	0%
 雅	ngaa5	
 御	ngaa6	
-掗	ngaa6	
-椏	ngaa6	
 犽	ngaa6	
 瓦	ngaa6	0%
 砑	ngaa6	
@@ -23360,17 +23338,9 @@ import_tables:
 羬	ngaam4	0%
 麙	ngaam4	0%
 麣	ngaam4	0%
-䁙	ngaan3	
-䨃	ngaan3	0%
-䳛	ngaan3	
 䳡	ngaan3	
 䳺	ngaan3	
 妟	ngaan3	0%
-晏	ngaan3	0%
-暥	ngaan3	0%
-鴳	ngaan3	0%
-鷃	ngaan3	0%
-𠹵	ngaan3	
 㗴	ngaan4	
 㘖	ngaan4	
 楌	ngaan4	
@@ -23402,9 +23372,7 @@ import_tables:
 䆘	ngaap3	
 圔	ngaap3	
 庘	ngaap3	0%
-押	ngaap3	0%
 擪	ngaap3	
-鴨	ngaap3	0%
 䝟	ngaat3	
 䰲	ngaat3	
 劜	ngaat3	0%
@@ -23412,7 +23380,6 @@ import_tables:
 堨	ngaat3	0%
 壓	ngaat3	0%
 嫼	ngaat3	0%
-押	ngaat3	0%
 揠	ngaat3	0%
 猒	ngaat3	0%
 猰	ngaat3	0%
@@ -23613,22 +23580,9 @@ import_tables:
 䝈	ngak1	
 䠎	ngak1	
 䮸	ngak1	
-偓	ngak1	0%
-厄	ngak1	0%
-呃	ngak1	0%
-啞	ngak1	0%
-喔	ngak1	0%
-媉	ngak1	0%
-幄	ngak1	0%
-扼	ngak1	0%
-握	ngak1	0%
-搤	ngak1	0%
 搹	ngak1	0%
-楃	ngak1	0%
-渥	ngak1	0%
 眲	ngak1	
 砨	ngak1	
-腛	ngak1	0%
 阨	ngak1	0%
 阸	ngak1	0%
 隘	ngak1	0%
@@ -23641,36 +23595,19 @@ import_tables:
 䳺	ngam1	
 厂	ngam1	0%
 媕	ngam1	0%
-庵	ngam1	0%
-痷	ngam1	
 盦	ngam1	0%
 盫	ngam1	0%
-腤	ngam1	0%
-菴	ngam1	0%
-蓭	ngam1	0%
 誝	ngam1	0%
-諳	ngam1	0%
 韽	ngam1	0%
 鵪	ngam1	0%
 鶕	ngam1	0%
 𡁏	ngam1	
 𥂝	ngam1	
 𩜠	ngam1	
-㽢	ngam2	
 唵	ngam2	0%
-垵	ngam2	
-揜	ngam2	0%
-晻	ngam2	0%
 罯	ngam2	
 闇	ngam2	0%
-隌	ngam2	0%
 黬	ngam2	0%
-黯	ngam2	0%
-䬓	ngam3	
-晻	ngam3	0%
-暗	ngam3	0%
-腤	ngam3	0%
-闇	ngam3	0%
 黬	ngam3	0%
 䜙	ngam4	0%
 吟	ngam4	0%
