@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.04.23"
+version: "2020.04.25"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -19017,16 +19017,13 @@ import_tables:
 浰	lei6	0%
 涖	lei6	
 猁	lei6	
-珥	lei6	
 痢	lei6	
 脷	lei6	
 莅	lei6	
 莉	lei6	
 蒞	lei6	
 蜊	lei6	0%
-衈	lei6	
 詈	lei6	
-誀	lei6	0%
 離	lei6	
 鬁	lei6	3%
 鯏	lei6	0%
@@ -19168,7 +19165,6 @@ import_tables:
 縷	leoi5	
 纍	leoi5	
 耒	leoi5	0%
-脮	leoi5	0%
 腂	leoi5	0%
 膂	leoi5	
 膐	leoi5	0%
@@ -19189,18 +19185,13 @@ import_tables:
 鑸	leoi5	
 閭	leoi5	0%
 頛	leoi5	
-餒	leoi5	
-鮾	leoi5	0%
-鯘	leoi5	0%
 鸓	leoi5	
 麿	leoi5	0%
 𥚃	leoi5	
 𧃒	leoi5	
 㔣	leoi6	
 㔧	leoi6	
-㨅	leoi6	
 㴃	leoi6	
-㵖	leoi6	
 䉪	leoi6	
 䓞	leoi6	
 䣦	leoi6	
@@ -19237,7 +19228,6 @@ import_tables:
 酹	leoi6	0%
 銇	leoi6	
 錑	leoi6	0%
-錗	leoi6	0%
 鑢	leoi6	
 類	leoi6	
 𧭜	leoi6	
@@ -19358,8 +19348,6 @@ import_tables:
 㮚	leot6	
 䔁	leot6	
 䔞	leot6	
-䖓	leot6	0%
-䟜	leot6	
 䡃	leot6	
 䬆	leot6	
 侓	leot6	0%
@@ -19390,7 +19378,6 @@ import_tables:
 聿	leot6	
 膟	leot6	
 葎	leot6	
-袦	leot6	0%
 遹	leot6	0%
 驈	leot6	0%
 鱊	leot6	0%
@@ -19429,7 +19416,6 @@ import_tables:
 𤄿	lik1	
 㔏	lik6	
 㠣	lik6	
-㥾	lik6	
 㬏	lik6	
 㱹	lik6	
 㷴	lik6	
@@ -19457,7 +19443,6 @@ import_tables:
 嚦	lik6	
 壢	lik6	
 屴	lik6	
-愵	lik6	0%
 扚	lik6	
 擽	lik6	0%
 攊	lik6	0%
@@ -19468,7 +19453,6 @@ import_tables:
 櫪	lik6	0%
 歴	lik6	0%
 歷	lik6	
-氼	lik6	0%
 瀝	lik6	
 爏	lik6	0%
 瓅	lik6	0%
@@ -19545,7 +19529,6 @@ import_tables:
 𢅖	lim4	
 𢅳	lim4	
 𤅄	lim4	
-㜤	lim5	
 㪘	lim5	0%
 㯬	lim5	
 㰈	lim5	
@@ -19576,9 +19559,6 @@ import_tables:
 薟	lim6	0%
 蘞	lim6	0%
 襝	lim6	0%
-𤦬	lim6	
-𦁤	lim6	
-脌	lin1	0%
 㮟	lin2	
 䟢	lin2	
 摙	lin2	
@@ -19630,7 +19610,6 @@ import_tables:
 㼑	lin6	
 䃛	lin6	
 堜	lin6	
-姩	lin6	
 媡	lin6	0%
 楝	lin6	
 浰	lin6	
@@ -19663,7 +19642,6 @@ import_tables:
 㸳	ling4	
 㾉	ling4	
 䄥	ling4	
-䆨	ling4	
 䈊	ling4	
 䉁	ling4	
 䉄	ling4	
@@ -19702,9 +19680,6 @@ import_tables:
 姈	ling4	
 婈	ling4	
 孁	ling4	0%
-寕	ling4	0%
-寗	ling4	0%
-寜	ling4	0%
 岭	ling4	
 岺	ling4	0%
 崚	ling4	
@@ -19785,17 +19760,14 @@ import_tables:
 龗	ling4	0%
 𠸖	ling4	
 𡡷	ling4	
-𡩋	ling4	
 𣌟	ling4	
 𤅷	ling4	
 𤊥	ling4	
 𤦫	ling4	
-𤪥	ling4	
 𤫊	ling4	
 𤫩	ling4	
 𥩔	ling4	
-𦉢	ling4	
-𧭈	ling4	
+𦉢	ling4		
 𨤍	ling4	
 𩆜	ling4	
 䔭	ling5	
@@ -19804,30 +19776,22 @@ import_tables:
 岭	ling5	0%
 嶺	ling5	
 彾	ling5	
-橣	ling5	0%
-矃	ling5	0%
 袊	ling5	0%
 阾	ling5	0%
 領	ling5	
 令	ling6	
-侫	ling6	0%
 倰	ling6	0%
-倿	ling6	0%
 另	ling6	
 呤	ling6	
 堎	ling6	0%
-寕	ling6	0%
-寗	ling6	0%
 愣	ling6	
 擰	ling6	0%
 楞	ling6	3%
-澝	ling6	0%
 炩	ling6	
 睃	ling6	
 睖	ling6	
 稜	ling6	3%
 踜	ling6	
-𤀑	ling6	
 䢂	lip1	
 𨋢	lip1	
 㬯	lip6	
@@ -19835,27 +19799,20 @@ import_tables:
 㲱	lip6	
 㼲	lip6	
 䉭	lip6	
-䌰	lip6	
-䎎	lip6	
 䜲	lip6	
 䝓	lip6	
 䪉	lip6	
-䯀	lip6	
 儠	lip6	
 巤	lip6	0%
-帇	lip6	0%
 擸	lip6	3%
-湼	lip6	0%
 犣	lip6	
 猟	lip6	0%
 獦	lip6	0%
 獵	lip6	
 聗	lip6	0%
 臘	lip6	0%
-菍	lip6	0%
 躐	lip6	
 邋	lip6	
-錜	lip6	0%
 鬛	lip6	0%
 鬣	lip6	
 鱲	lip6	
@@ -29831,6 +29788,7 @@ import_tables:
 聉	waat6	0%
 螖	waat6	
 黠	waat6	0%
+喴	wi1
 㗏	wai1	
 㙎	wai1	
 㣦	wai1	
@@ -60606,7 +60564,6 @@ import_tables:
 點火開關	dim2 fo2 hoi1 gwaan1	
 點貨	dim2 fo3	
 點覆	dim2 fuk1	
-嚸解	dim2 gaai2	
 點解	dim2 gaai2	
 點解又	dim2 gaai2 jau6	
 點解要	dim2 gaai2 jiu3	
