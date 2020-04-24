@@ -23745,8 +23745,8 @@ import_tables:
 榐	nin6	0%
 碾	nin6	0%
 輾	nin6	0%
-拎	ning1	0%
-擰	ning1	3%
+拎	ning1	
+擰	ning1	
 𢴕	ning1	
 㝕	ning4	
 㲰	ning4	
@@ -122446,7 +122446,7 @@ import_tables:
 擘大個口得個窿	maak3 daai6 go3 hau2 dak1 go3 lung1	
 擘大口	maak3 daai6 hau2	
 擘大口得個窿	maak3 daai6 hau2 dak1 go3 lung1	
-擘大喉嚨嗌	maak3 daai6 hau4 lung4 ngaai3	
+擘大喉嚨嗌	maak3 daai6 hau4 lung4 aai3	
 擘大眼	maak3 daai6 ngaan5	
 擘大眼講大話	maak3 daai6 ngaan5 gong2 daai6 waa6	
 擘大眼瀨尿	maak3 daai6 ngaan5 laai6 niu6	
@@ -131908,20 +131908,14 @@ import_tables:
 挨拼	ngaai1 peng1	
 挨拼椅	ngaai1 peng1 ji2	
 𠊎話	ngaai1 waa2	
-嗌交	ngaai3 gaau1	
 嗌交	aai3 gaau1	
-嗌救命	ngaai3 gau3 meng6	
 嗌救命	aai3 gau3 meng6	
-嗌嘢	ngaai3 je5	
 嗌嘢	aai3 je5	
-嗌嘢食	ngaai3 je5 sik6	
 嗌嘢食	aai3 je5 sik6	
-嗌名	ngaai3 meng4	
 嗌名	aai3 meng4	
-嗌通街	ngaai3 tung1 gaai1	
 嗌通街	aai3 tung1 gaai1	
-嗌痛	ngaai3 tung3	
 嗌痛	aai3 tung3	
+嗌人	aai3 jan4	
 捱白飯	ngaai4 baak6 faan6	
 挨板子	ngaai4 baan2 zi2	
 崖壁	ngaai4 bik1	
@@ -161386,7 +161380,7 @@ import_tables:
 湯勺	tong1 zoek3	
 劏豬	tong1 zyu1	
 劏豬凳	tong1 zyu1 dang3	
-劏豬噉嗌	tong1 zyu1 gam2 ngaai3	
+劏豬噉嗌	tong1 zyu1 gam2 aai3	
 躺槍	tong2 coeng1	
 躺倒	tong2 dou2	
 惝恍	tong2 fong2	
