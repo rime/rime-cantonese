@@ -18267,16 +18267,9 @@ import_tables:
 鎼	laa3	0%
 鏬	laa3	0%
 𡅈	laa3	
-㧱	laa4	
 嚹	laa4	0%
-㑚	laa5	
-㖠	laa5	
 喇	laa5	3%
-揦	laa5	5%
-郍	laa5	0%
-𤥶	laa5	
-𦰡	laa5	
-䏧	laa6	
+揦	laa5	5%	
 孻	laai1	
 拉	laai1	
 鞡	laai1	
@@ -18289,15 +18282,9 @@ import_tables:
 落	laai3	0%
 藾	laai3	0%
 㜨	laai4	0%
-䍲	laai4	
+䍲	laai4	0%
 腉	laai4	0%
-㚷	laai5	
 㜷	laai5	
-㭆	laai5	0%
-廼	laai5	0%
-疓	laai5	0%
-𠄎	laai5	0%
-𡛾	laai5	
 𣧂	laai5	
 㲕	laai6	
 㸊	laai6	
@@ -18341,55 +18328,34 @@ import_tables:
 𨅏	laam3	
 𨈇	laam3	
 㑣	laam4	
-㑲	laam4	0%
-㓓	laam4	
 㞩	laam4	
-㣮	laam4	0%
-㭷	laam4	0%
 㲯	laam4	
-㽖	laam4	
 䆾	laam4	
-䔜	laam4	0%
-䛁	laam4	
 䰐	laam4	
-侽	laam4	0%
 儖	laam4	0%
 厱	laam4	0%
 嚂	laam4	0%
-娚	laam4	0%
 婪	laam4	
 嵐	laam4	
 惏	laam4	0%
 懢	laam4	0%
 灆	laam4	
-煵	laam4	0%
 燣	laam4	0%
 燷	laam4	0%
 璼	laam4	0%
-畘	laam4	0%
 礛	laam4	0%
 礷	laam4	0%
 籃	laam4	
 繿	laam4	
 葻	laam4	0%
 藍	laam4	
-蚦	laam4	0%
 襤	laam4	
-遖	laam4	0%
-𠲸	laam4	
-𡎜	laam4	
 𡺤	laam4	
-𣏵	laam4	
-𦮗	laam4	
-𨩇	laam4	
 𩖞	laam4	
 㧛	laam5	0%
 㩜	laam5	
 㰓	laam5	0%
 㰖	laam5	
-㵜	laam5	0%
-䈒	laam5	
-䊖	laam5	
 擥	laam5	
 攬	laam5	
 杬	laam5	0%
@@ -18404,7 +18370,6 @@ import_tables:
 㺌	laam6	
 䌫	laam6	
 嚂	laam6	
-婻	laam6	
 檻	laam6	
 漤	laam6	0%
 濫	laam6	
@@ -18441,15 +18406,12 @@ import_tables:
 闌	laan4	
 韊	laan4	0%
 㦨	laan5	
-㫱	laan5	
 嬾	laan5	0%
 孄	laan5	0%
 孏	laan5	0%
 懶	laan5	
 譋	laan5	0%
 讕	laan5	0%
-赧	laan5	
-㬮	laan6	
 㱫	laan6	
 䃹	laan6	
 瀾	laan6	3%
@@ -18470,15 +18432,10 @@ import_tables:
 㘝	laap6	
 㡴	laap6	
 㧜	laap6	
-㨥	laap6	
-㵊	laap6	
 㼃	laap6	0%
 䂰	laap6	
 䃳	laap6	
-䇱	laap6	
-䈫	laap6	
 䗶	laap6	
-䪏	laap6	0%
 䶘	laap6	
 垃	laap6	
 岦	laap6	0%
@@ -18503,7 +18460,6 @@ import_tables:
 錯	laap6	0%
 鑞	laap6	
 鱲	laap6	0%
-𠺶	laap6	
 喇	laat3	3%
 瘌	laat3	
 鬎	laat3	
@@ -18537,7 +18493,6 @@ import_tables:
 䴃	laau4	
 巙	laau4	0%
 撈	laau4	
-詉	laau4	0%
 賿	laau4	0%
 蹘	laau4	0%
 𥒚	laau4	
@@ -18552,14 +18507,10 @@ import_tables:
 䄵	lai4	0%
 䉫	lai4	
 䔣	lai4	
-䘦	lai4	
-䛏	lai4	
 䣓	lai4	0%
 䵩	lai4	
 來	lai4	0%
 嚟	lai4	99%
-埿	lai4	0%
-屔	lai4	
 廲	lai4	
 犁	lai4	
 犂	lai4	0%
@@ -18588,7 +18539,6 @@ import_tables:
 豊	lai5	0%
 邐	lai5	3%
 醴	lai5	
-鉨	lai5	0%
 鱧	lai5	
 𧬹	lai5	
 㑦	lai6	
@@ -18649,7 +18599,6 @@ import_tables:
 蠇	lai6	0%
 蠣	lai6	
 蠫	lai6	0%
-迡	lai6	
 迣	lai6	
 隸	lai6	
 鱱	lai6	
@@ -18692,8 +18641,7 @@ import_tables:
 冧	lam3	
 㝝	lam4	
 㣩	lam4	0%
-㵉	lam4	0%
-䋻	lam4	
+㵉	lam4	0%	
 䫐	lam4	
 啉	lam4	
 崊	lam4	0%
@@ -18703,7 +18651,6 @@ import_tables:
 淋	lam4	
 瀮	lam4	0%
 瀶	lam4	0%
-焾	lam4	0%
 琳	lam4	
 痳	lam4	0%
 碄	lam4	
@@ -18714,7 +18661,6 @@ import_tables:
 𧯴	lam4	
 㐭	lam5	
 㛦	lam5	
-䄒	lam5	
 䕲	lam5	
 凜	lam5	
 壈	lam5	
@@ -18735,25 +18681,22 @@ import_tables:
 𠹌	lan2	
 𡳞	lan2	
 𨶙	lan2	
-囜	lan4	0%
 𠹹	lan4	
 㘄	lang1	
 舲	lang1	3%
 𠹌	lang1	
 𠹌	lang3	
-㴰	lang4	
-䏻	lang4	
 䮚	lang6	
 㕸	lap1	
 凹	lap1	0%
 笠	lap1	
 粒	lap1	0%
-苙	lap1	
-㵫	lap6	
+苙	lap1		
 岦	lap6	
 搚	lap6	
 立	lap6	
-竔	lap6	
+竔	lap6
+竔	sing1
 笠	lap6	0%
 苙	lap6	0%
 鱲	lap6	
@@ -18774,8 +18717,6 @@ import_tables:
 瘤	lau2	3%
 靵	lau2	0%
 㐬	lau4	
-㖻	lau4	
-㝹	lau4	0%
 㡞	lau4	
 㳅	lau4	
 㺏	lau4	
@@ -18788,7 +18729,6 @@ import_tables:
 䝀	lau4	
 䝏	lau4	
 䣚	lau4	
-䨲	lau4	0%
 䫫	lau4	
 䬟	lau4	
 䮫	lau4	
@@ -18881,10 +18821,6 @@ import_tables:
 㟺	lau5	
 㧕	lau5	
 㪹	lau5	
-㳶	lau5	
-㺲	lau5	
-䏔	lau5	
-啂	lau5	0%
 塿	lau5	
 嶁	lau5	
 懰	lau5	
@@ -18914,8 +18850,6 @@ import_tables:
 㶯	lau6	
 㽌	lau6	
 䄂	lau6	
-䅶	lau6	
-䋴	lau6	
 塯	lau6	
 嬼	lau6	0%
 屚	lau6	0%
@@ -18928,7 +18862,6 @@ import_tables:
 瘺	lau6	
 瘻	lau6	
 翏	lau6	
-譳	lau6	0%
 蹓	lau6	
 遛	lau6	
 鎦	lau6	3%
@@ -18960,10 +18893,8 @@ import_tables:
 鬁	lei1	
 㒿	lei4	
 㓯	lei4	
-㢱	lei4	0%
 㥎	lei4	
 㰚	lei4	
-㳽	lei4	
 䄜	lei4	
 䅻	lei4	
 䊍	lei4	
@@ -18997,7 +18928,6 @@ import_tables:
 棃	lei4	
 樆	lei4	
 氂	lei4	3%
-沵	lei4	0%
 漓	lei4	
 漦	lei4	
 灕	lei4	
@@ -19012,14 +18942,12 @@ import_tables:
 筣	lei4	
 篱	lei4	
 籬	lei4	
-籾	lei4	0%
 縭	lei4	
 纚	lei4	3%
 罹	lei4	
 艃	lei4	0%
 藜	lei4	0%
 蘺	lei4	
-蚭	lei4	0%
 蜊	lei4	
 蟍	lei4	0%
 蠫	lei4	0%
@@ -19032,7 +18960,6 @@ import_tables:
 錅	lei4	0%
 鏫	lei4	0%
 鑗	lei4	
-镾	lei4	0%
 離	lei4	
 霾	lei4	0%
 驪	lei4	
@@ -19045,9 +18972,6 @@ import_tables:
 𠩺	lei4	
 𠼝	lei4	
 𡺉	lei4	
-𤤗	lei4	
-𥿡	lei4	
-𦲁	lei4	
 𨤳	lei4	
 𪈳	lei4	
 兣	lei4 hak1	0%
@@ -19073,7 +18997,6 @@ import_tables:
 理	lei5	
 瓼	lei5	0%
 粴	lei5	
-苨	lei5	
 裏	lei5	
 裡	lei5	
 邐	lei5	
@@ -19450,7 +19373,6 @@ import_tables:
 嵂	leot6	
 律	leot6	
 慄	leot6	
-抐	leot6	0%
 搮	leot6	
 栗	leot6	
 溧	leot6	
@@ -20929,23 +20851,10 @@ import_tables:
 酹	lyut6	
 鋝	lyut6	0%
 呣	m2	
-㐚	m4	0%
-䫓	m4	
 呣	m4	3%
 唔	m4	
 嘸	m4	3%
-夻	m4	0%
-禑	m4	0%
-筽	m4	0%
-脵	m4	0%
-𠗐	m4	
-𩺰	m4	
-㐏	m5	0%
-丒	m5	0%
-旿	m5	0%
 呣	m6	
-忢	m6	0%
-窹	m6	0%
 嗎	ma3	
 么	maa1	
 嗎	maa1	
@@ -147919,8 +147828,7 @@ import_tables:
 水壺	seoi2 wu2	
 水滸	seoi2 wu2	
 水滸全傳	seoi2 wu2 cyun4 zyun6	
-水滸後傳	seoi2 wu2 hau6 zyun6	
-水滸傳	seoi2 wu2 zyun3	
+水滸後傳	seoi2 wu2 hau6 zyun6		
 水滸傳	seoi2 wu2 zyun6	
 水戶市	seoi2 wu6 si5	
 水站	seoi2 zaam6	
