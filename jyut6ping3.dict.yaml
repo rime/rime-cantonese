@@ -34942,7 +34942,8 @@ import_tables:
 阿爾茨海默症	aa3 ji5 ci4 hoi2 mak6 zing3	
 阿爾都塞	aa3 ji5 dou1 sak1	
 阿爾法	aa3 ji5 faat3	
-阿爾法粒子	aa3 ji5 faat3 lap1 zi2	
+阿爾法粒子	aa3 ji5 faat3 nap1 zi2	
+阿爾法粒子	aa3 ji5 faat3 lap1 zi2	0%
 亞爾發和奧米加	aa3 ji5 faat3 wo4 ou3 mai5 gaa1	
 阿爾加維	aa3 ji5 gaa1 wai4	
 阿爾蓋達	aa3 ji5 goi3 daat6	
@@ -42222,7 +42223,8 @@ import_tables:
 波蘭斯基	bo1 laan4 si1 gei1	
 波瀾壯闊	bo1 laan4 zong3 fut3	
 波鱲	bo1 laap6	
-波粒二象性	bo1 lap1 ji6 zoeng6 sing3	
+波粒二象性	bo1 nap1 ji6 zoeng6 sing3	
+波粒二象性	bo1 lap1 ji6 zoeng6 sing3	0%
 波樓	bo1 lau2	
 玻璃	bo1 lei1	
 玻璃板	bo1 lei1 baan2	
@@ -55591,7 +55593,8 @@ import_tables:
 帶賽	daai3 coi3	
 帶隊	daai3 deoi2	
 帶電	daai3 din6	
-帶電粒子	daai3 din6 lap1 zi2	
+帶電粒子	daai3 din6 nap1 zi2	
+帶電粒子	daai3 din6 lap1 zi2	0%
 帶調	daai3 diu6	
 戴袋	daai3 doi2	
 帶動	daai3 dung6	
@@ -56506,11 +56509,11 @@ import_tables:
 大林	daai6 lam4	
 大霖頭	daai6 lam4 tau4	
 大林鎮	daai6 lam4 zan3	
-大粒	daai6 lap1	
-大粒嘢	daai6 lap1 je5	
-大粒佬	daai6 lap1 lou2	
-大粒墨	daai6 lap1 mak2	
-大粒癦	daai6 lap1 mak2	
+大粒	daai6 lap1	0%
+大粒嘢	daai6 lap1 je5	0%
+大粒佬	daai6 lap1 lou2	0%
+大粒墨	daai6 lap1 mak2	0%
+大粒癦	daai6 lap1 mak2	0%
 大褸	daai6 lau1	
 大樓	daai6 lau4	
 大理	daai6 lei5	
@@ -57573,7 +57576,8 @@ import_tables:
 單企人	daan1 kei5 jan4	
 殫竭	daan1 kit3	
 單曲	daan1 kuk1	
-丹粒	daan1 lap1	
+丹粒	daan1 nap1	
+丹粒	daan1 lap1	0%
 單利	daan1 lei6	
 單輪車	daan1 leon4 ce1	
 殫力	daan1 lik6	
@@ -62412,8 +62416,10 @@ import_tables:
 多渠道	do1 keoi4 dou6	
 多虧	do1 kwai1	
 多禮	do1 lai5	
-多粒子	do1 lap1 zi2	
-多粒子系統	do1 lap1 zi2 hai6 tung2	
+多粒子	do1 lap1 zi2	0%
+多粒子系統	do1 lap1 zi2 hai6 tung2	0%
+多粒子	do1 nap1 zi2	
+多粒子系統	do1 nap1 zi2 hai6 tung2	
 多利	do1 lei6	
 多利亞	do1 lei6 aa3	
 多慮	do1 leoi6	
@@ -64648,8 +64654,10 @@ import_tables:
 端硯	dyun1 jin6	
 端陽節	dyun1 joeng4 zit3	
 端賴	dyun1 laai6	
-端粒	dyun1 lap1	
-端粒脢	dyun1 lap1 mui4	
+端粒	dyun1 lap1	0%
+端粒	dyun1 lap1 mui4	0%
+端粒	dyun1 nap1	
+端粒脢	dyun1 nap1 mui4	
 端量	dyun1 loeng4	
 端面	dyun1 min6	
 端木	dyun1 muk6	
@@ -65808,7 +65816,8 @@ import_tables:
 反艦艇	faan2 laam6 teng5	
 反艦艇巡航導彈	faan2 laam6 teng5 ceon4 hong4 dou6 daan2	
 反例	faan2 lai6	
-反粒子	faan2 lap1 zi2	
+反粒子	faan2 nap1 zi2	
+反粒子	faan2 lap1 zi2	0%
 返利	faan2 lei6	
 反領	faan2 leng5	
 反臉無情	faan2 lim5 mou4 cing4	
@@ -66996,7 +67005,8 @@ import_tables:
 分崩離兮	fan1 bang1 lei4 hai4	
 分崩離析	fan1 bang1 lei4 sik1	
 分泌	fan1 bei3	
-分泌顆粒	fan1 bei3 fo2 lap1	
+分泌顆粒	fan1 bei3 fo2 nap1	
+分泌顆粒	fan1 bei3 fo2 lap1	0%
 分泌物	fan1 bei3 mat6	
 分泌腺	fan1 bei3 sin3	
 分餅仔	fan1 beng2 zai2	
@@ -67599,7 +67609,8 @@ import_tables:
 奮勇作戰	fan5 jung5 zok3 zin3	
 憤怨	fan5 jyun3	
 憤慨	fan5 koi3	
-坋粒	fan5 lap1	
+坋粒	fan5 nap1	
+坋粒	fan5 lap1	0%
 奮力	fan5 lik6	
 奮袂	fan5 mai6	
 奮勉	fan5 min5	
@@ -68722,9 +68733,9 @@ import_tables:
 火辣	fo2 laat6	
 火辣辣	fo2 laat6 laat6	
 火犁	fo2 lai4	
-顆粒	fo2 lap1	
-顆粒物	fo2 lap1 mat6	
-顆粒無收	fo2 lap1 mou4 sau1	
+顆粒	fo2 lap1	0%
+顆粒物	fo2 lap1 mat6	0%
+顆粒無收	fo2 lap1 mou4 sau1	0%
 火流星	fo2 lau4 sing1	
 火輪	fo2 leon4	
 火輪船	fo2 leon4 syun4	
@@ -74133,7 +74144,8 @@ import_tables:
 郊區	gaau1 keoi1	
 膠箍	gaau1 ku1	
 交困	gaau1 kwan3	
-膠粒	gaau1 lap1	
+膠粒	gaau1 nap1	
+膠粒	gaau1 lap1	0%
 交流	gaau1 lau4	
 交流電	gaau1 lau4 din6	
 膠輪	gaau1 leon4	
@@ -77071,7 +77083,8 @@ import_tables:
 基本完成	gei1 bun2 jyun4 sing4	
 基本原則	gei1 bun2 jyun4 zak1	
 基本概念	gei1 bun2 koi3 nim6	
-基本粒子	gei1 bun2 lap1 zi2	
+基本粒子	gei1 bun2 nap1 zi2	
+基本粒子	gei1 bun2 lap1 zi2	0%
 基本利率	gei1 bun2 lei6 leot2	
 基本需要	gei1 bun2 seoi1 jiu3	
 基本上	gei1 bun2 soeng6	
@@ -81489,7 +81502,8 @@ import_tables:
 高妹	gou1 mui1	
 高難	gou1 naan4	
 高能	gou1 nang4	
-高能粒子	gou1 nang4 lap1 zi2	
+高能粒子	gou1 nang4 nap1 zi2	
+高能粒子	gou1 nang4 lap1 zi2	0%
 高能烈性炸藥	gou1 nang4 lit6 sing3 zaa3 joek6	
 高能量	gou1 nang4 loeng6	
 高雅	gou1 ngaa5	
@@ -82309,7 +82323,8 @@ import_tables:
 掬飲	guk1 jam2	
 鞠育	guk1 juk6	
 穀雨	guk1 jyu5	
-穀粒	guk1 lap1	
+穀粒	guk1 nap1	
+穀粒	guk1 lap1	0%
 穀類	guk1 leoi6	
 輂輦	guk1 lin5	
 穀梁	guk1 loeng4	
@@ -85048,7 +85063,8 @@ import_tables:
 果決	gwo2 kyut3	
 果欄	gwo2 laan1	
 果欄	gwo2 laan4	
-顆粒	gwo2 lap1	
+顆粒	gwo2 nap1	
+顆粒	gwo2 lap1	0%
 果嶺	gwo2 ling5	
 果料兒	gwo2 liu2 ji4	
 果洛	gwo2 lok3	
@@ -87276,7 +87292,7 @@ import_tables:
 函購	haam4 kau3	
 涵蓋	haam4 koi3	
 涵括	haam4 kut3	
-鹹粒	haam4 lap1	
+鹹粒	haam4 lap1	0%
 鹹龍	haam4 lung2	
 鹹味	haam4 mei6	
 鹹赧赧	haam4 naan2 naan2	
@@ -90171,7 +90187,8 @@ import_tables:
 希格斯	hei1 gaak3 si1	
 希格斯玻色子	hei1 gaak3 si1 bo1 sik1 zi2	
 希格斯機制	hei1 gaak3 si1 gei1 zai3	
-希格斯粒子	hei1 gaak3 si1 lap1 zi2	
+希格斯粒子	hei1 gaak3 si1 nap1 zi2	
+希格斯粒子	hei1 gaak3 si1 lap1 zi2	0%
 欺君犯上	hei1 gwan1 faan6 soeng6	
 欺君罔上	hei1 gwan1 mong5 soeng6	
 嘻哈	hei1 haa1	
@@ -91048,7 +91065,8 @@ import_tables:
 虛構小說	heoi1 kau3 siu2 syut3	
 虛誇	heoi1 kwaa1	
 虛缺號	heoi1 kyut3 hou6	
-虛粒子	heoi1 lap1 zi2	
+虛粒子	heoi1 nap1 zi2	
+虛粒子	heoi1 lap1 zi2	0%
 墟里	heoi1 lei5	
 虛齡	heoi1 ling4	
 虛文	heoi1 man4	
@@ -98743,8 +98761,10 @@ import_tables:
 一覽無遺	jat1 laam5 mou4 wai4	
 一攬子	jat1 laam5 zi2	
 一來到	jat1 lai4 dou3	
-一粒嘢	jat1 lap1 je5	
-一粒老鼠屎壞了一鍋粥	jat1 lap1 lou5 syu2 si2 waai6 liu5 jat1 wo1 zuk1	
+一粒嘢	jat1 nap1 je5	
+一粒嘢	jat1 lap1 je5	0%
+一粒老鼠屎壞了一鍋粥	jat1 nap1 lou5 syu2 si2 waai6 liu5 jat1 wo1 zuk1	
+一粒老鼠屎壞了一鍋粥	jat1 lap1 lou5 syu2 si2 waai6 liu5 jat1 wo1 zuk1	0%
 一流	jat1 lau4	
 一樓一	jat1 lau4 jat1	
 一樓一鳯	jat1 lau4 jat1 fung6	
@@ -101349,12 +101369,14 @@ import_tables:
 贏家	jeng4 gaa1	
 贏開巷	jeng4 hoi1 hong6	
 贏餘	jeng4 jyu4	
-贏粒糖輸間廠	jeng4 lap1 tong4 syu1 gaan1 cong2	
+贏粒糖輸間廠	jeng4 nap1 tong4 syu1 gaan1 cong2	
+贏粒糖輸間廠	jeng4 lap1 tong4 syu1 gaan1 cong2	0%
 贏利	jeng4 lei6	
 贏面	jeng4 min2	
 贏面	jeng4 min6	
 贏咗	jeng4 zo2	
-贏咗粒糖，輸咗間廠	jeng4 zo2 lap1 tong2 syu1 zo2 gaan1 cong2	
+贏咗粒糖，輸咗間廠	jeng4 zo2 nap1 tong2 syu1 zo2 gaan1 cong2	
+贏咗粒糖，輸咗間廠	jeng4 zo2 lap1 tong2 syu1 zo2 gaan1 cong2	0%
 銳不可當	jeoi6 bat1 ho2 dong1	
 銳步	jeoi6 bou6	
 銳化	jeoi6 faa3	
@@ -106556,7 +106578,7 @@ import_tables:
 玉林	juk6 lam4	
 玉林地區	juk6 lam4 dei6 keoi1	
 玉林市	juk6 lam4 si5	
-肉粒	juk6 lap1	
+肉粒	juk6 lap1	0%
 肉瘤	juk6 lau4	
 玉里	juk6 lei5	
 玉里鎮	juk6 lei5 zan3	
@@ -108401,7 +108423,8 @@ import_tables:
 懸浮窗	jyun4 fau4 coeng1	
 懸浮列車	jyun4 fau4 lit6 ce1	
 懸浮物	jyun4 fau4 mat6	
-懸浮微粒	jyun4 fau4 mei4 lap1	
+懸浮微粒	jyun4 fau4 mei4 nap1	
+懸浮微粒	jyun4 fau4 mei4 lap1	0%
 懸浮粒子	jyun4 fau4 nap1 zi2	
 猿玃	jyun4 fok3	
 圓方	jyun4 fong1	
@@ -108828,7 +108851,7 @@ import_tables:
 原子核	jyun4 zi2 hat6	
 原子核反應堆	jyun4 zi2 hat6 faan2 jing3 deoi1	
 原子印	jyun4 zi2 jan3	
-原子粒	jyun4 zi2 lap1	
+原子粒	jyun4 zi2 lap1	0%
 原子論	jyun4 zi2 leon6	
 原子量	jyun4 zi2 loeng6	
 原子爐	jyun4 zi2 lou4	
@@ -109149,7 +109172,8 @@ import_tables:
 乙狀結腸	jyut3 zong6 git3 coeng4	
 乙種	jyut3 zung2	
 乙種促效劑	jyut3 zung2 cuk1 haau6 zai1	
-乙種粒子	jyut3 zung2 lap1 zi2	
+乙種粒子	jyut3 zung2 nap1 zi2	
+乙種粒子	jyut3 zung2 lap1 zi2	0%
 乙種射線	jyut3 zung2 se6 sin3	
 月巴	jyut6 baa1	
 月白	jyut6 baak6	
@@ -110233,7 +110257,8 @@ import_tables:
 求求其其	kau4 kau4 kei4 kei4	
 求其	kau4 kei4	
 球菌	kau4 kwan2	
-球粒隕石	kau4 lap1 wan5 sek6	
+球粒隕石	kau4 nap1 wan5 sek6	
+球粒隕石	kau4 lap1 wan5 sek6	0%
 球類	kau4 leoi6	
 球類運動	kau4 leoi6 wan6 dung6	
 求憐經	kau4 lin4 ging1	
@@ -114300,28 +114325,42 @@ import_tables:
 撚狗	lan2 gau2	
 撚頭	lan2 tau4	
 掕掕跳	lang3 lang3 tiu3	
-粒白細胞	lap1 baak6 sai3 baau1	
+粒白細胞	nap1 baak6 sai3 baau1	
+粒白細胞	lap1 baak6 sai3 baau1	0%
 凹凸	lap1 dat6	
 笠記	lap1 gei3	
-粒徑	lap1 ging3	
+粒徑	nap1 ging3	
+粒徑	lap1 ging3	0%
 笠高帽	lap1 gou1 mou2	
 笠嘢	lap1 je5	
-粒粒	lap1 lap1	
+粒粒	lap1 lap1	0%
+粒粒	nap1 nap1	
 笠衫	lap1 saam1	
-粒細胞	lap1 sai3 baau1	
+粒細胞	nap1 sai3 baau1	
+粒細胞	lap1 sai3 baau1	0%
 笠細路仔	lap1 sai3 lou6 zai2	
-粒聲都唔出	lap1 seng1 dou1 m4 ceot1	
-粒聲唔出	lap1 seng1 m4 ceot1	
+粒聲都唔出	lap1 seng1 dou1 m4 ceot1	0%
+粒聲唔出	lap1 seng1 m4 ceot1	0%
+粒聲都唔出	nap1 seng1 dou1 m4 ceot1	
+粒聲唔出	nap1 seng1 m4 ceot1	
 笠水	lap1 seoi2	
-粒聲都唔出	lap1 sing1 dou1 m4 ceot1	
+粒聲都唔出	lap1 sing1 dou1 m4 ceot1	0%
+粒聲都唔出	nap1 sing1 dou1 m4 ceot1	
 笠遮	lap1 ze1	
-粒子	lap1 zi2	
-粒子束	lap1 zi2 cuk1	
-粒子加速器	lap1 zi2 gaa1 cuk1 hei3	
-粒子流	lap1 zi2 lau4	
-粒子物理	lap1 zi2 mat6 lei5	
-粒子物理學	lap1 zi2 mat6 lei5 hok6	
-粒狀	lap1 zong6	
+粒子	lap1 zi2	0%
+粒子束	lap1 zi2 cuk1	0%
+粒子加速器	lap1 zi2 gaa1 cuk1 hei3	0%
+粒子流	lap1 zi2 lau4	0%
+粒子物理	lap1 zi2 mat6 lei5	0%
+粒子物理學	lap1 zi2 mat6 lei5 hok6	0%
+粒狀	lap1 zong6	0%
+粒子	nap1 zi2	
+粒子束	nap1 zi2 cuk1	
+粒子加速器	nap1 zi2 gaa1 cuk1 hei3	
+粒子流	nap1 zi2 lau4	
+粒子物理	nap1 zi2 mat6 lei5	
+粒子物理學	nap1 zi2 mat6 lei5 hok6	
+粒狀	nap1 zong6	
 立秋	lap6 cau1	
 立春	lap6 ceon1	
 立場	lap6 coeng4	
@@ -115741,7 +115780,8 @@ import_tables:
 驢駒	leoi4 keoi1	
 驢駒子	leoi4 keoi1 zi2	
 雷厲風行	leoi4 lai6 fung1 hang4	
-雷粒	leoi4 lap1	
+雷粒	leoi4 lap1	0%
+雷粒	leoi4 nap1	
 累累	leoi4 leoi4	
 驢騾	leoi4 lo4	
 雷朗	leoi4 long5	
@@ -123263,8 +123303,10 @@ import_tables:
 米蘭花	mai5 laan4 faa1	
 米林	mai5 lam4	
 米林縣	mai5 lam4 jyun6	
-米粒	mai5 lap1	
-米粒組織	mai5 lap1 zou2 zik1	
+米粒	mai5 nap1	
+米粒組織	mai5 nap1 zou2 zik1	
+米粒	mai5 lap1	0%
+米粒組織	mai5 lap1 zou2 zik1	0%
 米利班德	mai5 lei6 baan1 dak1	
 米羅	mai5 lo4	
 米老鼠	mai5 lou5 syu2	
@@ -123421,7 +123463,8 @@ import_tables:
 麥淇淋	mak6 kei4 lam4	
 默劇	mak6 kek6	
 默拉皮	mak6 laai1 pei4	
-麥粒腫	mak6 lap1 zung2	
+麥粒腫	mak6 nap1 zung2	
+麥粒腫	mak6 lap1 zung2	0%
 麥理浩	mak6 lei5 hou6	
 麥理浩爵士	mak6 lei5 hou6 zoek3 si6	
 墨累	mak6 leoi6	
@@ -124689,8 +124732,10 @@ import_tables:
 靡爛	mei4 laan6	
 糜爛性毒劑	mei4 laan6 sing3 duk6 zai1	
 微辣	mei4 laat6	
-微粒	mei4 lap1	
-微粒體	mei4 lap1 tai2	
+微粒	mei4 lap1	0%
+微粒體	mei4 lap1 tai2	0%
+微粒	mei4 nap1	
+微粒體	mei4 nap1 tai2	
 微利	mei4 lei6	
 微量	mei4 loeng6	
 微量白蛋白	mei4 loeng6 baak6 daan2 baak6	
@@ -124934,7 +124979,8 @@ import_tables:
 美麗新世界	mei5 lai6 san1 sai3 gaai3	
 美麗華酒店	mei5 lai6 waa4 zau2 dim3	
 美林集團	mei5 lam4 zaap6 tyun4	
-美粒果	mei5 lap1 gwo2	
+美粒果	mei5 lap1 gwo2	0%
+美粒果	mei5 nap1 gwo2	
 尾流	mei5 lau4	
 美利濱	mei5 lei6 ban1	
 美利堅	mei5 lei6 gin1	
@@ -135299,7 +135345,7 @@ import_tables:
 暖洋洋	nyun5 joeng4 joeng4	
 暖融融	nyun5 jung4 jung4	
 暖笠笠	nyun5 lap1 lap1	
-暖粒粒	nyun5 lap1 lap1	
+暖粒粒	nyun5 lap1 lap1	0%
 暖流	nyun5 lau4	
 暖爐	nyun5 lou4	
 暖男	nyun5 naam4	
@@ -139738,7 +139784,8 @@ import_tables:
 紗麗	saa1 lai6	
 莎麗	saa1 lai6	
 沙林	saa1 lam4	
-沙粒	saa1 lap1	
+沙粒	saa1 lap1	0%
+沙粒	saa1 nap1	
 沙漏	saa1 lau6	
 砂漏	saa1 lau6	
 沙梨	saa1 lei2	
@@ -142172,7 +142219,8 @@ import_tables:
 世道	sai3 dou6	
 細分	sai3 fan1	
 細粉	sai3 fan2	
-細顆粒物	sai3 fo2 lap1 mat6	
+細顆粒物	sai3 fo2 lap1 mat6	0%
+細顆粒物	sai3 fo2 nap1 mat6	
 世風	sai3 fung1	
 世風日下	sai3 fung1 jat6 haa6	
 世家	sai3 gaa1	
@@ -142300,7 +142348,7 @@ import_tables:
 細菌武器	sai3 kwan2 mou5 hei3	
 細菌性痢疾	sai3 kwan2 sing3 lei6 zat6	
 細菌戰	sai3 kwan2 zin3	
-細粒	sai3 lap1	
+細粒	sai3 lap1	0%
 勢利	sai3 lei6	
 勢利眼	sai3 lei6 ngaan5	
 勢利小人	sai3 lei6 siu2 jan4	
@@ -149360,7 +149408,8 @@ import_tables:
 弒父	si3 fu6	
 嗜痂成癖	si3 gaa1 sing4 pik1	
 嗜鹼性球	si3 gaan2 sing3 kau4	
-嗜鹼性粒細胞	si3 gaan2 sing3 lap1 sai3 baau1	
+嗜鹼性粒細胞	si3 gaan2 sing3 lap1 sai3 baau1	0%
+嗜鹼性粒細胞	si3 gaan2 sing3 nap1 sai3 baau1	
 試金	si3 gam1	
 試金石	si3 gam1 sek6	
 試鏡	si3 geng3	
@@ -149447,7 +149496,8 @@ import_tables:
 試想	si3 soeng2	
 嗜酸乳干菌	si3 syun1 jyu5 gon1 kwan2	
 嗜酸性球	si3 syun1 sing3 kau4	
-嗜酸性粒細胞	si3 syun1 sing3 lap1 sai3 baau1	
+嗜酸性粒細胞	si3 syun1 sing3 nap1 sai3 baau1	
+嗜酸性粒細胞	si3 syun1 sing3 lap1 sai3 baau1	0%
 試算表	si3 syun3 biu2	
 試探	si3 taam3	
 試題	si3 tai4	
@@ -150989,8 +151039,10 @@ import_tables:
 扇區	sin3 keoi1	
 線鉗	sin3 kim4	
 線纜	sin3 laam6	
-線粒體	sin3 lap1 tai2	
-霰粒腫	sin3 lap1 zung2	
+線粒體	sin3 lap1 tai2	0%
+霰粒腫	sin3 lap1 zung2	0%
+線粒體	sin3 nap1 tai2	
+霰粒腫	sin3 nap1 zung2	
 線絡	sin3 lok3	
 跣落	sin3 lok6	
 跣落去	sin3 lok6 heoi3	
@@ -163165,8 +163217,8 @@ import_tables:
 脫臼	tyut3 kau5	
 脫期	tyut3 kei4	
 脫困	tyut3 kwan3	
-脫粒	tyut3 lap1	
-脫粒機	tyut3 lap1 gei1	
+脫粒	tyut3 lap1	0%
+脫粒機	tyut3 lap1 gei1	0%
 脫漏	tyut3 lau6	
 脫離	tyut3 lei4	
 脫離苦海	tyut3 lei4 fu2 hoi2	
@@ -167568,7 +167620,8 @@ import_tables:
 胡椒薄荷	wu4 ziu1 bok6 ho4	
 胡椒粉	wu4 ziu1 fan2	
 胡椒球	wu4 ziu1 kau4	
-胡椒粒	wu4 ziu1 lap1	
+胡椒粒	wu4 ziu1 nap1	
+胡椒粒	wu4 ziu1 lap1	0%
 胡椒噴霧	wu4 ziu1 pan3 mou6	
 胡椒屬	wu4 ziu1 suk6	
 胡椒子	wu4 ziu1 zi2	
@@ -170567,7 +170620,7 @@ import_tables:
 執滯	zap1 zai6	
 執正	zap1 zeng3	
 執正啲	zap1 zeng3 di1	
-執字粒	zap1 zi6 lap1	
+執字粒	zap1 zi6 lap1	0%
 執字粒	zap1 zi6 nap1	
 執政	zap1 zing3	
 執政黨	zap1 zing3 dong2	
@@ -170592,7 +170645,8 @@ import_tables:
 質因數	zat1 jan1 sou3	
 枳入	zat1 jap6	
 質疑	zat1 ji4	
-質粒	zat1 lap1	
+質粒	zat1 lap1	0%
+質粒	zat1 nap1	
 質料	zat1 liu2	
 質料	zat1 liu6	
 質量	zat1 loeng6	
@@ -171061,7 +171115,8 @@ import_tables:
 酒曲	zau2 kuk1	
 走啦	zau2 laa1	
 酒凹	zau2 lap1	
-酒粒	zau2 lap1	
+酒粒	zau2 lap1	0%
+酒粒	zau2 nap1	
 走甩	zau2 lat1	
 走甩雞	zau2 lat1 gai1	
 走甩咗	zau2 lat1 zo2	
@@ -173294,7 +173349,8 @@ import_tables:
 子規	zi2 kwai1	
 子羣	zi2 kwan4	
 紫林鴿	zi2 lam4 gaap3	
-子粒	zi2 lap1	
+子粒	zi2 nap1	
+子粒	zi2 lap1	0%
 紙簍	zi2 lau5	
 指令	zi2 ling6	
 指令名字	zi2 ling6 ming4 zi6	
@@ -174088,7 +174144,7 @@ import_tables:
 自立門戶	zi6 laap6 mun4 wu6	
 自立自強	zi6 laap6 zi6 koeng4	
 字林	zi6 lam4	
-字粒	zi6 lap1	
+字粒	zi6 lap1	0%
 自立	zi6 lap6	
 自立門戶	zi6 lap6 mun4 wu6	
 字樓	zi6 lau2	
@@ -177094,7 +177150,7 @@ import_tables:
 坐地起價	zo6 dei6 hei2 gaa3	
 坐墩	zo6 deon1	
 坐定	zo6 ding6	
-坐定粒六	zo6 ding6 lap6 luk6	
+坐定粒六	zo6 ding6 lap6 luk6	0%
 坐定粒六	zo6 ding6 nap1 luk6	
 助動車	zo6 dung6 ce1	
 助動詞	zo6 dung6 ci4	
@@ -180225,7 +180281,8 @@ import_tables:
 中心人物	zung1 sam1 jan4 mat6	
 中心語	zung1 sam1 jyu5	
 中心區	zung1 sam1 keoi1	
-中心粒	zung1 sam1 lap1	
+中心粒	zung1 sam1 lap1	0%
+中心粒	zung1 sam1 nap1	
 中心埋置關係從句	zung1 sam1 maai4 zi3 gwaan1 hai6 cung4 geoi3	
 中心內容	zung1 sam1 noi6 jung4	
 中心思想	zung1 sam1 si1 soeng2	
@@ -180276,7 +180333,8 @@ import_tables:
 宗聖公	zung1 sing3 gung1	
 宗聖侯	zung1 sing3 hau4	
 中性人	zung1 sing3 jan4	
-中性粒細胞	zung1 sing3 lap1 sai3 baau1	
+中性粒細胞	zung1 sing3 lap1 sai3 baau1	0%
+中性粒細胞	zung1 sing3 nap1 sai3 baau1	
 中性名詞	zung1 sing3 ming4 ci4	
 忠誠	zung1 sing4	
 棕繩	zung1 sing4	
@@ -181038,8 +181096,10 @@ import_tables:
 朱麗亞	zyu1 lai6 aa3	
 朱麗葉	zyu1 lai6 jip6	
 茱麗葉	zyu1 lai6 jip6	
-朱粒	zyu1 lap1	
-朱粒水泡	zyu1 lap1 seoi2 pou5	
+朱粒	zyu1 lap1	0%
+朱粒水泡	zyu1 lap1 seoi2 pou5	0%
+朱粒	zyu1 nap1	
+朱粒水泡	zyu1 nap1 seoi2 pou5	
 瀦留	zyu1 lau4	
 珠流	zyu1 lau4	
 誅流	zyu1 lau4	
