@@ -1,4 +1,4 @@
-<div lang="yue">
+<div lang="yue-HK">
 
 # Rime 粵語拼音方案
 
