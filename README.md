@@ -6,7 +6,7 @@
 
 本配方係 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
-Telegram 用戶交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)
+Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 **拼音方案**
 
@@ -46,7 +46,7 @@ Telegram 用戶交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)
 
 ### 用字標準切換
 
-本方案默認採用 OpenCC 用字標準，喺方案選單中顯示為「不轉換」。亦都支援香港繁體、臺灣正體同大陆简体。要切換用字標準，撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣，就會顯示選單，然後就可以揀用字標準嘞。
+本方案默認採用 OpenCC 用字標準，喺方案選單中顯示為「傳統漢字」。亦都支援香港傳統漢字、臺灣傳統漢字同大陆简化汉字。要切換用字標準，撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣，就會顯示選單，然後就可以揀用字標準嘞。
 
 **注意**：OpenCC 中默認「涌」同「湧」係異體字關係，但係粵語中湧讀 jung2，涌讀 cung1，係兩隻唔同嘅字。所以喺開啟香港字體後無論打 cung1 定係 jung2 都淨係出「湧」，打唔出「涌」，因為所有嘅「涌」都轉成咗「湧」。要想打出「涌」字，要將用字標準切換返「不轉換」再打 cung1 先得。
 
