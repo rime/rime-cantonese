@@ -4,9 +4,9 @@
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "0.3.0"
+  version: "0.3.1"
   author:
-    - sgal <ayaka@mail.shn.hk>
+    - sgalal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
@@ -15,6 +15,7 @@ schema:
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
     支援 IPA 顯示同聲調輸入
+    Telegram 用户交流組 https://t.me/rime_cantonese
 
   dependencies:
     - luna_pinyin
@@ -72,14 +73,27 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    - derive/([123456])//         # 忽略声调
-    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
+    # 取消下兩行註釋，支援疑影不分
+    #- derive/^ng([aeiou])/$1/
+    #- derive/^([aeiou])/ng$1/
+
+    # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
+    #- derive/^n(?!g)/l/
+
+    # 取消下行註釋，支援 gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
+    #- derive/^(g|k)w/$1/
+
+    # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
+    #- derive/^ng([123456])$/m$1/
+
+    - derive/[123456]//           # 忽略声调
     - xform/1/v/                  # 陰平
     - xform/4/vv/                 # 陽平
     - xform/2/x/                  # 陰上
     - xform/5/xx/                 # 陽上
     - xform/3/q/                  # 陰去
     - xform/6/qq/                 # 陽去
+    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
     - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/             # 容錯 jyu -> ju
     - derive/yu/y/                # 容錯 jyu -> jy
@@ -91,28 +105,13 @@ speller:
     - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
     - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
 
-    # 取消下兩行註釋，支援疑影不分
-    #- derive/^ng([aeiou])/$1/
-    #- derive/^([aeiou])/ng$1/
-
-    # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
-    #- derive/^n/l/
-
-    # 取消下行註釋，支援 gw-、kw- 併入 g-、k- ，如「國」讀若「各」、「廓」讀若「確」
-    #- derive/^(g|k)w/$1/
-
-    # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
-    #- derive/^ng$/m/
-
-    # 取消下行註釋，支援聲母簡拼
-    #- abbrev/^(gw|kw|ng).+$/$1/
-
 translator:
   dictionary: jyut6ping3
+  prism: jyut6ping3_ipa
   spelling_hints: 8
   preedit_format:
     - xform/(^|[ '])(m)+$/$1$2̩/               # 唔m̩
-    - xform/(^|[ '])(ng)+$/$1$2̍/             # 五ŋ̍
+    - xform/(^|[ '])(ng)+$/$1$2̍/              # 五ŋ̍
     - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
     - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
     - xform/([ptk])v/$1˥/                     # 一jɐt̚

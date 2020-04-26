@@ -39,7 +39,7 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 ```yaml
     # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
-    - derive/^n/l/
+    - derive/^n(?!g)/l/
 ```
 
 然後重新部署，試下打 lei hou，發現都出得到「你好」嘞。
