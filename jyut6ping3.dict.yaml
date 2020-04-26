@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.04.25"
+version: "2020.04.26"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
