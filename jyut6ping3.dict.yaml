@@ -139,7 +139,6 @@ import_tables:
 軶	aak3	
 鈪	aak3	
 阿	aak3	3%
-啱	aam1	0%
 菡	aam2	0%
 殷	aan1	0%
 俺	aan2	3%
@@ -374,7 +373,6 @@ import_tables:
 邑	ap1	3%
 醃	ap1	3%
 鰪	ap1	0%
-噏	ap1	
 扤	at1	0%
 䉩	au1	
 䉱	au1	
@@ -383,7 +381,6 @@ import_tables:
 䥲	au1	
 䫜	au1	
 䳼	au1	
-勾	au1	0%
 區	au1	
 嘔	au1	3%
 慪	au1	3%
@@ -399,8 +396,6 @@ import_tables:
 蚼	au1	
 謳	au1	
 軪	au1	0%
-鈎	au1	0%
-鉤	au1	0%
 鏂	au1	
 鴎	au1	0%
 鷗	au1	
@@ -61939,6 +61934,7 @@ import_tables:
 吊桶	diu3 tung2	
 吊環	diu3 waan4	
 吊威也	diu3 wai1 jaa2	
+吊威吔	diu3 wai1 jaa2	
 吊威亞	diu3 wai1 aa2	
 弔慰	diu3 wai3	
 吊胃口	diu3 wai6 hau2	
