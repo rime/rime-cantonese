@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.04.26"
+version: "2020.04.27"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -345,9 +345,7 @@ import_tables:
 闇	am3	
 黬	am3	0%
 黯	am3	0%
-奀	an1	3%
 䅰	an2	
-䟴	an3	
 䭡	an3	
 䴍	ang1	
 甇	ang1	0%
@@ -18634,7 +18632,6 @@ import_tables:
 𥵚	lak6	
 冧	lam1	
 𣺉	lam1	
-諗	lam2	0%
 冧	lam3	
 㝝	lam4	
 㣩	lam4	0%
@@ -81120,7 +81117,7 @@ import_tables:
 高舉	gou1 geoi2	
 高舉遠蹈	gou1 geoi2 jyun5 dou6	
 高踞	gou1 geoi3	
-高句麗	gou1 geoi3 lai6	
+高句麗	gou1 ngau1 lai6	
 高見	gou1 gin3	
 高潔	gou1 git3	
 高歌	gou1 go1	
@@ -163088,7 +163085,7 @@ import_tables:
 屋子	uk1 zi2	
 屋租	uk1 zou1	
 屋主	uk1 zyu2	
-䟴身䟴勢	un3 san1 an3 sai3	
+䟴身䟴勢	ngan3 san1 ngan3 sai3	
 㧬火	ung2 fo2	
 𢫨火	ung2 fo2	
 㧬開	ung2 hoi1	
