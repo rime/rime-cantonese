@@ -28,6 +28,8 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 [![iOS 下載地址](https://img.shields.io/badge/AppStore%E4%B8%8B%E8%BC%89-ios-black?style=for-the-badge&logo=apple)](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977)
 
+[Mac 平臺安裝教程](https://github.com/rime/rime-cantonese/wiki/Mac-%E5%B9%B3%E8%87%BA%E5%AE%89%E8%A3%9D%E6%95%99%E7%A8%8B)
+
 ## 使用説明
 
 ### 聲調輸入
