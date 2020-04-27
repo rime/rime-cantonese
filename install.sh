@@ -18,6 +18,8 @@ if [ `uname` == "Darwin" ]; then
 fi
 mkdir -p "${RIME_DIR}"
 
+[ -f "${RIME_DIR}/default.custom.yaml" ] && { mv "${RIME_DIR}/default.custom.yaml" "${RIME_DIR}/default.custom.yaml.bak"; }
+
 SYMLINK_CONFIGS=(
     "jyut6ping3.dict.yaml"
     "jyut6ping3.lettered.dict.yaml"
