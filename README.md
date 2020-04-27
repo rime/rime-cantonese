@@ -43,7 +43,7 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 ### 添加模糊音支援
 
-本方案預設**唔支援**任何模糊音同懶音，即區分 n-/l-、&empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3.dict.yaml`，拉到下面 `speller:algebra` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
+本方案預設**唔支援**任何模糊音同懶音，即區分 n-/l-, &empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3.dict.yaml`，拉到下面 `speller:algebra` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
 
 ```yaml
     # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
@@ -94,9 +94,5 @@ Android 系統下，只需要前往 <https://github.com/rime/rime-emoji/tree/mas
 - 粵典 - [原網站](https://words.hk/)
 - open Cantonese dictionary - [原網站](http://kaifangcidian.com/han/yue)
 - open-source Cantonese-to-English dictionary (CC-Canto) - [原網站](http://www.cccanto.org/)
-
-## 詞庫製作流程
-
-本方案詞庫製作流程詳見本倉庫 [`build`](https://github.com/sgalal/rime-cantonese/tree/build) 分支。
 
 </div>
