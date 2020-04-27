@@ -20,6 +20,15 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
+
+## 發行版安裝下載地址
+
+[![exe](https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-windows-blue?style=for-the-badge&logo=windows)](https://od.lk/f/MjZfMTk1Mjc0Njdf)
+
+[![apk](https://img.shields.io/badge/apk%E4%B8%8B%E8%BC%89-Android-brightgreen?style=for-the-badge&logo=android)](https://od.lk/f/MjZfMTk1Mjc0NzFf)
+
+[![appStore](https://img.shields.io/badge/AppStore%E4%B8%8B%E8%BC%89-ios-black?style=for-the-badge&logo=apple)](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977)
+
 ## 使用説明
 
 ### 聲調輸入
