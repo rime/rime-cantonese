@@ -21,9 +21,9 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
 
-## 發行版安裝下載地址
+## 下載地址
 
-[![exe](https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-windows-blue?style=for-the-badge&logo=windows)](https://od.lk/f/MjZfMTk1Mjc0Njdf)
+[![exe](https://img.shields.io/badge/exe%E4%B8%8B%E8%BC%89-windows-blue?style=for-the-badge&logo=windows)](https://od.lk/f/MjZfMTk1Mjc0Njdf)
 
 [![apk](https://img.shields.io/badge/apk%E4%B8%8B%E8%BC%89-Android-brightgreen?style=for-the-badge&logo=android)](https://od.lk/f/MjZfMTk1Mjc0NzFf)
 
