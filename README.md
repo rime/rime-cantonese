@@ -29,6 +29,45 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 [![appStore](https://img.shields.io/badge/AppStore%E4%B8%8B%E8%BC%89-ios-black?style=for-the-badge&logo=apple)](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977)
 
+## Mac OS 安裝步驟
+**第一步：** 去呢度安裝鼠須管輸入法 https://rime.im/ ;
+
+**第二步：** 安裝plum，操作就係，打開你個terminal，複製粘貼運行呢個命令：
+
+`curl -fsSL https://git.io/rime-install | bash`
+
+其中佢可能會彈出叫你安裝git，要撳允許，冇git裝唔到plum
+
+註：點樣打開Terminal? https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac
+
+或者ctrl-enter 用spotlight 打 terminal 撳出嚟都得；
+
+**第三步：** 運行下面兩個命令嚟安裝rime-cantonese碼表：
+```
+cd plum
+bash rime-install cantonese
+```
+
+**第四步：** 你見到佢下載安裝完個cantonse碼表之後，要右上角撳呢個鼠須管輸入法嘅用戶設定。然後你會見到有好多文件，其中有一個叫 default.yaml;
+
+![](https://i.imgur.com/gjr9kXX.jpg)
+
+**第五步：** 打開呢個default.yaml文件，可以見到下面有一排字，其中幾行係噉嘅。
+
+![](https://i.imgur.com/b3wbFhZ.jpg)
+
+將嗰行schema嘅字複製多一行，改成：
+
+`- schema: jyut6ping3`
+
+唔要嗰啲方案，例如luna_pinyin嗰啲，刪嗮佢都得;
+
+**第六步：** 撳多次呢兩粒掣，完成;
+
+![](https://i.imgur.com/6a9CS1R.jpg)
+
+跟住你撳個  ⌘ （定係 ctrl）再加 \`，就可以睇到「粵語拼音」嘞
+
 ## 使用説明
 
 ### 聲調輸入
