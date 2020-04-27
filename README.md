@@ -20,14 +20,13 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
-
 ## 下載地址
 
-[![exe](https://img.shields.io/badge/exe%E4%B8%8B%E8%BC%89-windows-blue?style=for-the-badge&logo=windows)](https://od.lk/f/MjZfMTk1Mjc0Njdf)
+[![Windows 下載地址](https://img.shields.io/badge/exe%E4%B8%8B%E8%BC%89-windows-blue?style=for-the-badge&logo=windows)](https://od.lk/f/MjZfMTk1Mjc0Njdf)
 
-[![apk](https://img.shields.io/badge/apk%E4%B8%8B%E8%BC%89-Android-brightgreen?style=for-the-badge&logo=android)](https://od.lk/f/MjZfMTk1Mjc0NzFf)
+[![Android 下載地址](https://img.shields.io/badge/apk%E4%B8%8B%E8%BC%89-Android-brightgreen?style=for-the-badge&logo=android)](https://od.lk/f/MjZfMTk1Mjc0NzFf)
 
-[![appStore](https://img.shields.io/badge/AppStore%E4%B8%8B%E8%BC%89-ios-black?style=for-the-badge&logo=apple)](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977)
+[![iOS 下載地址](https://img.shields.io/badge/AppStore%E4%B8%8B%E8%BC%89-ios-black?style=for-the-badge&logo=apple)](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977)
 
 ## 使用説明
 
@@ -44,7 +43,7 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 ### 添加模糊音支援
 
-本方案預設 **唔支援** 任何模糊音同懶音，即區分 n-/l-、&empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3.dict.yaml`，拉到下面 `speller:algebra` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
+本方案預設**唔支援**任何模糊音同懶音，即區分 n-/l-、&empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3.dict.yaml`，拉到下面 `speller:algebra` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
 
 ```yaml
     # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
@@ -55,7 +54,7 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 ### 用字標準切換
 
-本方案預設採用 OpenCC 用字標準，喺方案選單中顯示為「傳統漢字」。亦都支援香港傳統漢字、臺灣傳統漢字同大陆简化汉字。要切換用字標準，撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣，就會顯示選單，然後就可以揀用字標準嘞。
+本方案預設採用 OpenCC 用字標準，喺方案選單中顯示為「傳統漢字」。亦都支援**香港傳統漢字**、**臺灣傳統漢字**同**大陆简化汉字**。要切換用字標準，撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣，就會顯示選單，然後就可以揀用字標準嘞。
 
 **注意**：OpenCC 中預設「涌」同「湧」係異體字關係，但係粵語中湧讀 jung2，涌讀 cung1，係兩隻唔同嘅字。所以喺開啟香港字體後無論打 cung1 定係 jung2 都淨係出「湧」，打唔出「涌」，因為所有嘅「涌」都轉成咗「湧」。要想打出「涌」字，要將用字標準切換返「不轉換」再打 cung1 先得。
 
@@ -77,7 +76,7 @@ Android 系統下，只需要前往 <https://github.com/rime/rime-emoji/tree/mas
 
 然後打字嗰陣就可以見到候選詞有 Emoji 了。
 
-## 數據來源
+## 資料來源
 
 ### 字音
 
