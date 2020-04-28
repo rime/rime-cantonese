@@ -32,7 +32,7 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 一行過安裝口令：（只限mac同埋linux)
 ```
-curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese custom:add:schema=jyut6ping3
+curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese cantonese:add:schema=jyut6ping3
 ```
 
 ## 使用説明
