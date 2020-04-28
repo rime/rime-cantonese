@@ -6,6 +6,9 @@ recipe:
     - schema=jyut6ping3
   description: >-
     Add schema to list of enabled schemas.
+    
+install_files: >-
+    
 patch_files:
   default.custom.yaml:
     - patch/+:
