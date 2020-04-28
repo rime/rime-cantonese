@@ -26,7 +26,6 @@ SYMLINK_CONFIGS=(
     "jyut6ping3.phrase.dict.yaml"
     "jyut6ping3.schema.yaml"
     "jyut6ping3_ipa.schema.yaml"
-    "default.custom.yaml"
 )
 
 for file in "${SYMLINK_CONFIGS[@]}"; do
