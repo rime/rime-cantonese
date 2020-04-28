@@ -6,7 +6,7 @@
 
 本配方係 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
-Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
+**Telegram 用户交流組**：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 **拼音方案**
 
@@ -20,15 +20,14 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
-## 下載地址
+## 安裝
 
-[![Windows 下載地址](https://img.shields.io/badge/exe%E4%B8%8B%E8%BC%89-windows-blue?style=for-the-badge&logo=windows)](https://od.lk/f/MjZfMTk1Mjc0Njdf)
+詳細教程請見[安裝教程](https://github.com/rime/rime-cantonese/releases)。
 
-[![Android 下載地址](https://img.shields.io/badge/apk%E4%B8%8B%E8%BC%89-Android-brightgreen?style=for-the-badge&logo=android)](https://od.lk/f/MjZfMTk1Mjc0NzFf)
+如果macOS平臺安裝出現問題，可以改用
+[Mac 平臺手動配置教程](https://github.com/rime/rime-cantonese/wiki/Mac-%E5%B9%B3%E8%87%BA%E5%AE%89%E8%A3%9D%E6%95%99%E7%A8%8B)來手動配置安裝。
 
-[![iOS 下載地址](https://img.shields.io/badge/AppStore%E4%B8%8B%E8%BC%89-ios-black?style=for-the-badge&logo=apple)](https://apps.apple.com/cn/app/irime%E8%BE%93%E5%85%A5%E6%B3%95-%E5%B0%8F%E9%B9%A4%E5%8F%8C%E6%8B%BC%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95/id1142623977)
-
-[Mac 平臺安裝教程](https://github.com/rime/rime-cantonese/wiki/Mac-%E5%B9%B3%E8%87%BA%E5%AE%89%E8%A3%9D%E6%95%99%E7%A8%8B)
+如果有遇到任何問題，歡迎加入上面嘅 Telegram 交流組尋求幫助。
 
 ## 使用説明
 
