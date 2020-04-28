@@ -1,0 +1,13 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: add
+  args:
+    - schema=jyut6ping3
+  description: >-
+    Add schema to list of enabled schemas.
+patch_files:
+  default.custom.yaml:
+    - patch/+:
+        schema_list/+:
+          - schema: ${schema:-jyut6ping3}
