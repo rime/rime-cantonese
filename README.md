@@ -30,6 +30,11 @@ Telegram 用户交流組：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
 [Mac 平臺安裝教程](https://github.com/rime/rime-cantonese/wiki/Mac-%E5%B9%B3%E8%87%BA%E5%AE%89%E8%A3%9D%E6%95%99%E7%A8%8B)
 
+一行過安裝口令：
+```
+curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese custom:add:schema=jyut6ping3
+```
+
 ## 使用説明
 
 ### 聲調輸入
