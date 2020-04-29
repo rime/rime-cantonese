@@ -24,9 +24,6 @@
 
 詳細教程請見[安裝教程](https://github.com/rime/rime-cantonese/releases)。
 
-如果macOS平臺安裝出現問題，可以改用
-[Mac 平臺手動配置教程](https://github.com/rime/rime-cantonese/wiki/Mac-%E5%B9%B3%E8%87%BA%E5%AE%89%E8%A3%9D%E6%95%99%E7%A8%8B)來手動配置安裝。
-
 如果有遇到任何問題，歡迎加入上面嘅 Telegram 交流組尋求幫助。
 
 ## 使用説明
