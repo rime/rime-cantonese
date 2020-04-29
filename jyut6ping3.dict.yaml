@@ -27507,7 +27507,7 @@ import_tables:
 嗍	sok3	
 嗦	sok3	0%
 嗽	sok3	3%
-塑	sok3	3%
+塑	sok3	
 揱	sok3	
 搠	sok3	
 數	sok3	
@@ -61781,6 +61781,7 @@ import_tables:
 貂蟬	diu1 sim4	
 丟疏	diu1 so1	
 丟疏咗	diu1 so1 zo2	
+雕塑	diu1 sok3	
 雕塑	diu1 sou3	
 貂鼠	diu1 syu2	
 椆苕	diu1 tiu4	
@@ -66860,7 +66861,7 @@ import_tables:
 酚醛	fan1 cyun4	
 酚醛膠	fan1 cyun4 gaau1	
 酚醛塑料	fan1 cyun4 sok3 liu2	
-酚醛塑料	fan1 cyun4 sou3 liu4	
+酚醛塑料	fan1 cyun4 sou3 liu2	
 分擔	fan1 daam1	
 芬達	fan1 daat6	
 分得出	fan1 dak1 ceot1	
@@ -138958,6 +138959,7 @@ import_tables:
 泡沫	pou5 mut3	
 泡沫	pou5 mut6	
 泡沫經濟	pou5 mut6 ging1 zai3	
+泡沫塑料	pou5 mut6 sok3 liu2
 泡沫塑料	pou5 mut6 sou3 liu2	
 抱男孫	pou5 naam4 syun1	
 抱你	pou5 nei5	
@@ -155370,6 +155372,7 @@ import_tables:
 數列	sou3 lit6	
 塑料	sou3 liu2	
 塑料袋	sou3 liu2 doi2	
+塑料袋	sok3 liu2 doi2	
 掃羅	sou3 lo4	
 數量	sou3 loeng6	
 數量詞	sou3 loeng6 ci4	
