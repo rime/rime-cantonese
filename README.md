@@ -4,7 +4,7 @@
 
 配方：℞ `cantonese`
 
-本配方係 [rime/rime-jyutping](https://github.com/rime/rime-jyutping) 嘅帶聲調版同 IPA 顯示版。配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
+配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
 **Telegram 用户交流組**：[t.me/rime_cantonese](https://t.me/rime_cantonese)。
 
@@ -58,24 +58,6 @@
 本方案預設採用 OpenCC 用字標準，喺方案選單中顯示為「傳統漢字」。亦都支援**香港傳統漢字**、**臺灣傳統漢字**同**大陆简化汉字**。要切換用字標準，撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣，就會顯示選單，然後就可以揀用字標準嘞。
 
 **注意**：OpenCC 中預設「涌」同「湧」係異體字關係，但係粵語中湧讀 jung2，涌讀 cung1，係兩隻唔同嘅字。所以喺開啟香港字體後無論打 cung1 定係 jung2 都淨係出「湧」，打唔出「涌」，因為所有嘅「涌」都轉成咗「湧」。要想打出「涌」字，要將用字標準切換返「不轉換」再打 cung1 先得。
-
-### 添加 Emoji 支援
-
-Windows 系統下打開【小狼毫】輸入法設定 -> 獲取更多輸入方案，然後運行下面命令：
-
-```bash
-emoji
-```
-
-Linux 同 macOS 系統下打開終端，`cd` 到 [plum](https://github.com/rime/plum) 路徑下，然後運行下面命令：
-
-```bash
-bash rime-install emoji
-```
-
-Android 系統下，只需要前往 <https://github.com/rime/rime-emoji/tree/master/opencc> 下載入邊嘅三個文件 `emoji.json`、`emoji_category.txt`、`emoji_word.txt`，複製到 `rime` 文件夾嘅 `opencc` 文件夾入邊。
-
-然後打字嗰陣就可以見到候選詞有 Emoji 了。
 
 ## 資料來源
 
