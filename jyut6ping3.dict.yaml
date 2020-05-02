@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.04.29"
+version: "2020.05.02"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -41177,8 +41177,6 @@ import_tables:
 便秘	bin6 bei3	
 便便	bin6 bin6	
 辨別	bin6 bit6	
-辨别	bin6 bit6	
-辯別	bin6 bit6	
 辨別力	bin6 bit6 lik6	
 辯駁	bin6 bok3	
 便步走	bin6 bou6 zau2	
@@ -58668,7 +58666,6 @@ import_tables:
 得中	dak1 zung3	
 得主	dak1 zyu2	
 特別	dak6 bit6	
-特别	dak6 bit6	
 特別版	dak6 bit6 baan2	
 特別待遇	dak6 bit6 doi6 jyu6	
 特別法	dak6 bit6 faat3	
@@ -66822,7 +66819,6 @@ import_tables:
 分辨善惡	fan1 bin6 sin6 ok3	
 分辨真假	fan1 bin6 zan1 gaa2	
 分別	fan1 bit6	
-分别	fan1 bit6	
 分別爲聖	fan1 bit6 wai4 sing3	
 分表	fan1 biu2	
 分波多工	fan1 bo1 do1 gung1	
@@ -151279,7 +151275,6 @@ import_tables:
 性變態	sing3 bin3 taai3	
 性病	sing3 bing6	
 性別	sing3 bit6	
-性别	sing3 bit6	
 性別比	sing3 bit6 bei2	
 性別角色	sing3 bit6 gok3 sik1	
 性別認同障礙	sing3 bit6 jing6 tung4 zoeng3 ngoi6	
