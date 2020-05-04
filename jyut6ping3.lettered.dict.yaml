@@ -16,7 +16,6 @@
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
 # tanxpyox <tanxpyox@gmail.com>
-# ziloeng
 #
 
 ---
@@ -115,7 +114,7 @@ BB	bi4 bi1
 BBA	bi1 bi1 ei1
 BBQ	bi1 bi1 kiu1
 BB車	bi4 bi1 ce1
-BB床	bi4 bi1 cong4
+BB牀	bi4 bi1 cong4
 BB彈	bi1 bi1 daan2
 BB櫈	bi4 bi1 dang3
 BB骨	bi4 bi1 gwat1
@@ -1129,6 +1128,11 @@ zoom	sum1
 做lab	zou6 lep1
 做part-time	zou6 paat1 taai1
 做show	zou6 sou3
+
+
+## 以下詞條來自 A Dictionary Of Cantonese Slang
+## 尚待校正整理
+
 46709394	sei2 lou2 ceot1 lai4 gaau2 saam1 gaau2 sei3
 AA制	ei1 ei1 zai3
 AV	ei1 vi1
