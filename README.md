@@ -62,7 +62,7 @@
 - 五筆畫：<kbd>x</kbd>
 - 倉頡五代：<kbd>v</kbd>
 
-## 資料來源
+## 資料參考
 
 ### 字音
 
@@ -80,5 +80,6 @@
 - 粵典 - [原網站](https://words.hk/)
 - open Cantonese dictionary - [原網站](http://kaifangcidian.com/han/yue)
 - open-source Cantonese-to-English dictionary (CC-Canto) - [原網站](http://www.cccanto.org/)
+- Kingsley Bolton, Christopher Hutton《A Dictionary of Cantonese Slang》
 
 </div>

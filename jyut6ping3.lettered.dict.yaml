@@ -3,23 +3,25 @@
 #
 # Jyut6ping3 - 粵拼詞庫
 # 
-# 詞條數據來源
+# 詞條數據參考
 # LSHK Jyutping Word List https://corpus.eduhk.hk/JPwordlist/
 # Cantonese dictionary https://words.hk/
 # open Cantonese dictionary http://kaifangcidian.com/han/yue
 # open-source Cantonese-to-English dictionary (CC-Canto) http://www.cccanto.org/
+# Kingsley Bolton, Christopher Hutton《A Dictionary of Cantonese Slang》
 #
 # 碼表製作與校對人員
 # sgal <ayaka@mail.shn.hk>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
+# tanxpyox <tanxpyox@gmail.com>
 # ziloeng
 #
 
 ---
 name: jyut6ping3.lettered
-version: "2020.04.29"
+version: "2020.05.04"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1127,3 +1129,229 @@ zoom	sum1
 做lab	zou6 lep1
 做part-time	zou6 paat1 taai1
 做show	zou6 sou3
+46709394	sei2 lou2 ceot1 lai4 gaau2 saam1 gaau2 sei3
+AA制	ei1 ei1 zai3
+AV	ei1 vi1
+AV女優	ei1 vi1 neoi5 jau1
+AV女郎	ei1 vi1 neoi5 long4
+A鐘	ei1 zung1
+BB	bi4 bi1
+BB機	bi1 bi1 gei1
+Bing-Ling-Bang-Lang	bing4 ling1 baang4 laang4
+Bu你阿麼	bu4 ni2 aaa3 mo1
+B仔	bi1 zai2
+B仔水	bi1 zai2 seoi2
+B哩吧啦	bi1 li1 baa1 laa1
+Call	ko1
+Call台	ko1 toi4
+Call鐘	ko1 zung1
+Cool	ku1
+C眼	si1 ngaan5
+D	di1
+Do	du1
+Do嘢	du1 je5
+D場	di1 coeng4
+E仔	i1 zai2
+Face	fei1 si2
+Fan屎	fen1 si2
+Feel	fiu1
+Fi-li-fe-le	fi4 li1 fe4 le4
+Fing	fing6
+Fing霸	fing6 baa3
+Fing頭丸	fing6 tau4 jyun2
+Fing頭場	fing6 tau4 coeng4
+Friend	fen1
+Friend過打band	fen1 gwo3 daa2 ben1
+Gut屎	gat1 si2
+Happy	hep1 pi2
+Hap唔Happy呀	hep1 m4 hep1 pi2
+High	haai1
+In	in1
+Inc	in1 cu4
+In咗	in1 zo2
+Jam嘢	zem1 je5
+K	kei1
+Ke	ke1
+Keeper	kip1 paa2
+Kind	kaai1
+K仔	kei1 zai2
+K場	kei1 coeng4
+Le-fe	le5 fe5
+Le-hea	le2 he3
+Like	lai1 ki2
+Lui低	leoi1 dai1
+M	em1
+M-come	em1 kam1
+MB	em1 bi1
+Mind	maai1
+Mood	mut1
+M到	em1 dou3
+NG	en1 zi1
+OK	o1 ke1
+OL	ou1 e1 lou4
+O仔	ou1 zai2
+O記	ou1 gei3
+P	pi1
+PK	pi1 kei1
+PR	pi1 aa1
+PR	pi1 aa1 lou4
+Q	kiu1
+Quali	ko1 li2
+Q版	kiu1 baan2
+R	aau1
+R晒頭	aau1 saai3 tau4
+R講	aau1 gong2
+SOSO	sou1 sou4
+We-We Wet Wet	wi1 wi1 wet1 wet1
+Wet	wet1
+Wet場	wet1 coeng4
+Wet妹	wet1 mui1
+We哇鬼叫	wi1 waa1 gwai2 giu3
+X佢鹵味黑過鬼呀	diu2 keoi5 lou5 mei2 hak1 gwo3 gwai2 aa3
+YP仔	waai1 pi1 zai2
+Yap	jaap3
+bel開	beu6 hoi1
+cheap	cip1
+cheap到痺	cip1 dou3 bei3
+e	e1
+e都冇得e	e1 dou1 mou5 dak1 e1
+fit到漏油	fit1 dou3 lau4 jau4
+gap	gep1
+gap汁	gep1 zap1
+ichiban	ji1 ci1 baang1
+lin	nin1
+lin	lin1
+lin好大	nin1 hou2 daai6
+lin的	nin1 dik1
+lin頭	nin1 tau4
+lin頭硬	nin1 tau4 ngaang6
+lur	loe2
+lur口水講過	loe1 hau2 seoi2 gong2 gwo3
+lur飯應	loe1 faan6 jing3
+mag仔	met1 zai2
+man	men1
+mark	maak1
+mark出街	maak1 ceot1 gaai1
+now攪	nau2 gaau6
+on9	ngong6 gau1
+on99	ngong6 gau1 gau1
+on9仔	ngong6 gau1 zai2
+onlun9	ngong6 lan2 gau1
+out	au1
+outday	au1 dei1
+pat-pat	pet1 pet1
+pea	pe5
+pet-pet	pet1 pet1
+pok	pok1
+pop	pok1
+port	pot1
+short	sot1
+short總掣	sot1 zung2 zai3
+taste	tei1 si2
+un-un吓	an3 an3 haa2
+un-un吓	an3 an3 haa5
+un-un腳	an3 an3 goek3
+un腳	an3 goek3
+un身un勢	un3 san1 an3 sai3
+update	ap1 dei1
+一筆OUT銷	jat1 bat1 au1 siu1
+一抽二lun	jat1 cau1 ji6 lang3
+一抽二lung	jat1 cau1 ji6 lang3
+亞head	aa3 het1
+低B仔	dai1 bi1 zai2
+何B仔	ho4 bi1 zai2
+做PR	zou6 pi1 aa1 lou4
+傻gap	so4 gep1
+冇mood	mou5 mut1
+冇啦lun	mou5 laa1 lang3
+出籠liu	ceot1 lung4 liu1
+半lang-kang	bun3 lang1 keng1
+去hea	heoi3 he3
+去soso	heoi3 sou1 sou4
+吞pop	tan1 pok1
+唔do	m4 du1
+啱key	aam1 ki1
+喺邊度Wet	hai2 bin1 dou6 wet1
+塊gap	faai3 gep1
+夠pop	gaau3 pok1
+奀chichi	ngan1 ci1 ci1
+女keeper	neoi2 ki1 paa2
+好Yeah	hou2 je1
+對lin好大	deoi3 nin1 hou2 daai6
+巴K閉	baa1 kei1 bai3
+巴X閉	baa1 iks1
+心up	sam1 ngap1
+戇dog-dog	ngong6 gau1 gau1
+我唔do	ngo5 m4 du1
+扁pat-pat	bin2 pet6 pet6
+打card	daa2 kaat1
+扯lin旗	ce2 lin1 kei4
+揸fit	zaa1 fit1
+揸lift人	zaa1 lip1 jaa4
+搞串個party	gaau2 cyun3 go3 paa1 ti4
+搞寸個party	gaau2 cyun3 go3 paa1 ti4
+攪串個party	gaau2 cyun3 go3 paa1 ti4
+攪寸個party	gaau2 cyun3 go3 paa1 ti4
+攰lai-lai	gui6 laai4 laai4
+散band	saan3 ben1
+新beyond	san1 bi6 jon1
+有D驚	jau5 di1 geng1
+有taste	jau5 tei1 si2
+柒fing-fing	cat6 fing6 fing6
+條條fing	tiu4 tiu2 fing6
+死lur冇用	sei2 loe2 mou5 jung6
+沙pop	saa1 pok1
+淋bat-bat	nam4 bet6 bet6
+玩LINE	waan2 laai1
+玩串個party	waan2 cyun3 go3 paa1 ti1
+甩cut	lak1 kak1
+甩甩cut-cut	lak1 lak1 kak1 kak1
+發ti騰	faat3 ti4 tang5
+發t騰	faat3 ti4 tang5
+白sai-sai	baak6 saai4 saai4
+碌Ling	luk1 ling1
+空liu-liu	hung1 liu1 liu1
+符fit	fu4 fit2
+籮Pet	lo1 pet1
+蛇gwe	se4 gwe1
+行Q開	haang4 kiu1 hoi1
+識do	sik1 du1
+豬仔Plan	zyu1 zai2 plen1
+買full鐘	maai5 fu1 zung1
+起pok	hei2 pok1
+開Band	hoi1 ben1
+阿head	aa3 het1
+隻dup	zek3 dap6
+隻lin好大	zek3 nin1 hou2 daai6
+青BB	ceng1 bi1 bi1
+靚kent	leng1 keng1
+食mon-mon	sik6 mung1 mung1
+食port	sik6 pot1
+食人唔lur骨	sik6 jan4 m4 loe1 gwat1
+騷quali	sou1 ko1 li2
+鳩fing-fing	gau1 fing6 fing6
+麻Q煩	maa4 kiu1 faan4
+𡃁kent	leng1 keng1
+三P	saam1 pi1
+十四K	sap6 sei3 kei1
+去K	heoi3 kei1
+去social	heoi3 sou1 sou4
+去wet	heoi3 wet1
+唱K	coeng3 kei1
+夠power	gaau3 paau1 aa2
+實Q	sat6 kiu1
+巴Q閉	baa1 kiu1 bai3
+巴X閉	baa1 ik1 si4 bai3
+戇qq	ngong6 kiu1 kiu1
+揸fit人	zaa1 fit1 jan4
+撻Q	taat3 kiu1
+有feel	jau5 fiu1
+玩SM	waan2 es1 em1
+發t籐	faat3 ti4 tang5
+碌card	luk1 kaat1
+落D	lok6 di1
+鋤D	co4 di2
+開P	hoi1 pi1
+隻dup	zek3 dap1
+食mum-mum	sik6 mum1 mum1
+食tea	sik6 ti1
