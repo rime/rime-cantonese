@@ -35,7 +35,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.05.04"
+version: "2020.05.06"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -132321,7 +132321,6 @@ import_tables:
 押屎片	ngaap3 si2 pin2	
 鴨咀帽	aap3 zeoi2 mou2	
 餲堪堪	ngaat3 ham1 ham1	
-逆意	ngaat6 ji3	
 扤牙	ngaat6 ngaa2	
 壓牙	ngaat6 ngaa4	
 𢯎講	ngaau1 gong2	
