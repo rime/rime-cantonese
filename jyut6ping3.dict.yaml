@@ -35,7 +35,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.05.06"
+version: "2020.05.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -844,7 +844,7 @@ import_tables:
 𤒹	bat1	
 𥷑	bat1	
 秡	bat3	0%
-鼻	bat6	
+鼻	bat6	3%
 㚕	bat6	
 㢶	bat6	
 㢸	bat6	
@@ -6791,6 +6791,7 @@ import_tables:
 忿	fan6	3%
 秎	fan6	
 揈	fang4	0%
+沸	fat1	3%
 㗵	fat1	
 㦌	fat1	
 㧮	fat1	
@@ -22906,7 +22907,8 @@ import_tables:
 餀	ngaai6	
 騃	ngaai6	0%
 鴱	ngaai6	
-眲	ngaak1	0%
+眲	ngaak1	
+呃	ngaak1	
 㟯	ngaak6	0%
 㣂	ngaak6	
 䩹	ngaak6	
@@ -23114,6 +23116,7 @@ import_tables:
 𣫛	ngai6	
 𦐒	ngai6	
 眲	ngak1	
+呃	ngak1	
 𡁏	ngam1	
 𩜠	ngam1	
 䜙	ngam4	0%
@@ -23156,6 +23159,7 @@ import_tables:
 誾	ngan4	
 鄞	ngan4	
 銀	ngan4	
+仁	ngan4	3%
 闦	ngan4	0%
 齗	ngan4	
 齦	ngan4	
@@ -84856,7 +84860,10 @@ import_tables:
 裹脅	gwo2 hip3	
 裹挾	gwo2 hip6	
 果仁	gwo2 jan4	
+果仁	gwo2 ngan4
 果仁兒	gwo2 jan4 ji4	
+花生仁	faa1 sang1 jan4
+花生仁	faa1 sang1 ngan4
 果焰糕點	gwo2 jim6 gou1 dim2	
 果然	gwo2 jin4	
 果蠅	gwo2 jing4	
@@ -88924,6 +88931,7 @@ import_tables:
 幸好	hang6 hou2	
 杏紅	hang6 hung4	
 杏仁	hang6 jan4	
+杏仁	hang6 ngan4	
 杏仁餅	hang6 jan4 beng2	
 杏仁茶	hang6 jan4 caa4	
 杏仁豆腐	hang6 jan4 dau6 fu6	
