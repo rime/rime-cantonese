@@ -32,7 +32,7 @@ build_script:
   - .\build.bat data hant installer
 
 artifacts:
-  - path: output\archives\*installer.exe
+  - path: C:\projects\weasel\output\archives\output\archives\weasel-*-installer.exe
     name: Weasel
 
 deploy:
