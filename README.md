@@ -11,10 +11,11 @@
 **Gitter 交流室**：[![Gitter](https://badges.gitter.im/rime-cantonese/community.svg)](https://gitter.im/rime-cantonese/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 **拼音方案**
-
-- [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
-- [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
-- [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
+- 本方案**只係**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
+    - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
+    - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
+    - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
+- 另外有由第三方開發者製作，只供教育用途嘅分歧拼音方案補丁，方便用家從其他方案過渡至粵拼。詳情請參閱[呢度](https://github.com/tanxpyox/rime-cantonese-schemes)。
 
 **演示**
 
