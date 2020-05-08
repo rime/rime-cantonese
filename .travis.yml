@@ -12,7 +12,7 @@ script: make
 
 after_success:
   - make archive
-  - git tag $TRAVIS_BUILD_NUMBER
+  - git tag $TRAVIS_TAG
 
 before_deploy:
   - "./travis-before-deploy.sh"
