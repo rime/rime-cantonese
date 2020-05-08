@@ -11,7 +11,7 @@ environment:
   PLATFORM_TOOLSET: v141_xp
 
 cache:
-  - boost.cached -> .ci/appveyor_build_boost.bat
+  - .ci/boost.cached -> .ci/appveyor_build_boost.bat
   - C:\Libraries\boost_1_69_0\stage -> appveyor_build_boost.bat
   - C:\Libraries\boost_1_69_0\stage_x64 -> appveyor_build_boost.bat
 
