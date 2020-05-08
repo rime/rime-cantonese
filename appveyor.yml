@@ -30,6 +30,7 @@ install:
 build_script:
   - if "%APPVEYOR_REPO_TAG%" == "false" set WEASEL_BUILD=%APPVEYOR_BUILD_NUMBER%
   - .\build.bat data hant installer
+  - cd C:\projects\rime-cantonese
 
 artifacts:
   - path: C:\projects\weasel\output\archives\output\archives\weasel-*-installer.exe
