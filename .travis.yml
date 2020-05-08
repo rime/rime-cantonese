@@ -19,8 +19,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key:
-    secure: XOF/azBET+kOPZo0ARQ+CTW3+BLMnB/BoXweq4riy5lCMtdH29C02xtkvPC3Fd7y5abYYCA+lp7q9W5Mz94fP2YOPaUImzyWeA402C/bYnb8NrLYHUTEp9mIE9C+lyxCFUJEKU0VQZnU+zlHF4s2Lh1WGJpnzkbovAL+GJaBEpeq71BQ4zTPhkmbZ11t9zHdscaKKfB48r+WFSQ29tIfuj8K5Ee/Bp/TWrJeqiaTKOyGaEH3sYna0LmJuvjCjFaUKI4Atn7dhToMTReU3fG9NvrgEfJm4tc8h9L5XZtZL3hAyt4iYQ/bHMEeKEJFIIJG+0ylrPDtCV0lNQaDPssCX3Nw4wrRXpd9gpF4o8Z4oJiEchxaFQwExRy2Z0eMptzHU9I5hIf5E6+370A8XSdPwXrUtkId5IYC51TiS1JNa9qj9NeibgKNAi1FwM7Qy7eRb8YewE6iN4c9By5EAS6w9OkHtXJ53P6fvApbtQTzW5Yzg/dgLrCwa9UOFM+waVaTi9qAwzePQr1mHCPIoJTZV8MzRVumoq+ALodNHDO/h77ugIOFvFOqTCUCyQa9vC62VhchcN3Q+nb7xNCohcwF2QJNAfMRok60hJULrgjYr+Xriz2H4t/TyXrz1X2gHpzr1SYwMGconf6v1yCUV3TXni5ovhMO0AjIV3x3w/4qShE=
+  api_key: ${GITHUB_TOKEN}
   file_glob: true
   file: package/archives/*.zip
   on:
