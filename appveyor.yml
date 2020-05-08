@@ -1,0 +1,47 @@
+clone_depth: 1
+pull_requests:
+  do_not_increment_build_number: true
+
+skip_tags: true
+
+version: '{branch} build {build}'
+image: Visual Studio 2017
+
+environment:
+  BOOST_ROOT: C:\Libraries\boost_1_69_0
+  CMAKE_GENERATOR: Visual Studio 15 2017
+  PLATFORM_TOOLSET: v141_xp
+
+cache:
+  - boost.cached -> appveyor_build_boost.bat
+  - C:\Libraries\boost_1_69_0\stage -> appveyor_build_boost.bat
+  - C:\Libraries\boost_1_69_0\stage_x64 -> appveyor_build_boost.bat
+
+init:
+  - git --version
+  - git config --global core.autocrlf true
+
+install:
+  - git clone -q --depth=1 --branch=master https://github.com/rime/weasel.git C:\projects\weasel
+  - copy /y .ci\build.bat C:\projects\weasel
+  - cd C:\projects\weasel
+  - .\appveyor.install.bat
+
+build_script:
+  - if "%APPVEYOR_REPO_TAG%" == "false" set WEASEL_BUILD=%APPVEYOR_BUILD_NUMBER%
+  - .\build.bat data hant installer
+
+artifacts:
+  - path: output\archives\*installer.exe
+    name: Weasel
+
+deploy:
+  release: %APPVEYOR_REPO_TAG_NAME%
+  provider: GitHub
+  auth_token:
+    secure: kNbaFjiXqhC4z/x80jWG8KOoDedhLlFkOa1V87h82JJsPwD1zwDlnyJfC/whcpgp
+  draft: false
+  prerelease: false
+  on:
+    branch: master                 # release from master branch only
+    APPVEYOR_REPO_TAG: true
