@@ -11,7 +11,7 @@ environment:
   PLATFORM_TOOLSET: v141_xp
 
 cache:
-  - .ci/boost.cached -> .ci/appveyor_build_boost.bat
+  - weasel\boost.cached -> .ci\appveyor_build_boost.bat
   - C:\Libraries\boost_1_69_0\stage -> appveyor_build_boost.bat
   - C:\Libraries\boost_1_69_0\stage_x64 -> appveyor_build_boost.bat
 
@@ -20,7 +20,8 @@ init:
   - git config --global core.autocrlf true
 
 install:
-  - git clone -q --depth=1 --branch=master https://github.com/rime/weasel.git weasel\
+  - if exist "weasel\" cd weasel & git init & git remote add origin https://github.com/rime/weasel & git fetch & git checkout -ft origin/master & cd ..
+  - if not exist "weasel\" git clone -q --depth=1 --branch=master https://github.com/rime/weasel.git weasel\
   - copy /y .ci\build.bat weasel\
   - cd weasel
   - .\appveyor.install.bat
