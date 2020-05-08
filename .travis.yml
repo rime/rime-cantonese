@@ -12,12 +12,12 @@ script: make
 
 after_success:
   - make archive
-  - cd ..
-  - cd ..
-  - git tag $TRAVIS_TAG
 
 before_deploy:
   - "./travis-before-deploy.sh"
+  - cd ..
+  - cd ..
+  - git tag $TRAVIS_TAG
 
 deploy:
   provider: releases
