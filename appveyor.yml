@@ -36,7 +36,6 @@ artifacts:
     name: Weasel
 
 deploy:
-  release: %APPVEYOR_REPO_TAG_NAME%
   provider: GitHub
   auth_token:
     secure: kNbaFjiXqhC4z/x80jWG8KOoDedhLlFkOa1V87h82JJsPwD1zwDlnyJfC/whcpgp
