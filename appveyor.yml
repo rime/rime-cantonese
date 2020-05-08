@@ -11,7 +11,7 @@ environment:
   PLATFORM_TOOLSET: v141_xp
 
 cache:
-  - boost.cached -> appveyor_build_boost.bat
+  - boost.cached -> .ci/appveyor_build_boost.bat
   - C:\Libraries\boost_1_69_0\stage -> appveyor_build_boost.bat
   - C:\Libraries\boost_1_69_0\stage_x64 -> appveyor_build_boost.bat
 
@@ -31,7 +31,7 @@ build_script:
   - cd C:\projects\rime-cantonese
 
 artifacts:
-  - path: \weasel\output\archives\output\archives\weasel-*-installer.exe
+  - path: \weasel\output\archives\weasel-*-installer.exe
     name: Weasel
 
 deploy:
