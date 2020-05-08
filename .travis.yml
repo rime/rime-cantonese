@@ -1,0 +1,28 @@
+language: objective-c
+os: osx
+compiler: clang
+
+install:
+  - git clone --depth=50 --branch=master https://github.com/rime/squirrel.git rime/squirrel
+  - cd rime/squirrel
+  - git submodule update --init --recursive
+  - "./travis-install.sh"
+
+script: make
+
+after_success:
+  - make archive
+
+before_deploy:
+  - "./travis-before-deploy.sh"
+  - cd ..
+  - cd ..
+
+deploy:
+  provider: releases
+  api_key: ${GITHUB_TOKEN}
+  file_glob: true
+  file: rime/squirrel/package/archives/*.zip
+  on:
+    tags: true
+  skip_cleanup: 'true'
