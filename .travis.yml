@@ -12,6 +12,8 @@ script: make
 
 after_success:
   - make archive
+  - cd ..
+  - cd ..
   - git tag $TRAVIS_TAG
 
 before_deploy:
@@ -21,7 +23,7 @@ deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
-  file: package/archives/*.zip
+  file: rime/squirrel/package/archives/*.zip
   on:
     tags: true
   skip_cleanup: 'true'
