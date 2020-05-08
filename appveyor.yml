@@ -20,9 +20,9 @@ init:
   - git config --global core.autocrlf true
 
 install:
-  - git clone -q --depth=1 --branch=master https://github.com/rime/weasel.git C:\projects\weasel
-  - copy /y .ci\build.bat C:\projects\weasel
-  - cd C:\projects\weasel
+  - git clone -q --depth=1 --branch=master https://github.com/rime/weasel.git weasel\
+  - copy /y .ci\build.bat weasel\
+  - cd weasel
   - .\appveyor.install.bat
 
 build_script:
@@ -31,7 +31,7 @@ build_script:
   - cd C:\projects\rime-cantonese
 
 artifacts:
-  - path: C:\projects\weasel\output\archives\output\archives\weasel-*-installer.exe
+  - path: \weasel\output\archives\output\archives\weasel-*-installer.exe
     name: Weasel
 
 deploy:
