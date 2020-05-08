@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.3.1"
+  version: "0.3.2"
   author:
     - sgalal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -35,7 +35,7 @@ switches:
     states: [ 。，, ．， ]
   - name: emoji_suggestion
     reset: 1
-    states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+    states: [ 無 Emoji, 有 Emoji ]
 
 engine:
   processors:
