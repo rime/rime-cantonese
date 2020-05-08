@@ -17,7 +17,6 @@ before_deploy:
   - "./travis-before-deploy.sh"
   - cd ..
   - cd ..
-  - git tag $TRAVIS_TAG
 
 deploy:
   provider: releases
