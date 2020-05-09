@@ -172,7 +172,7 @@ emoji_suggestion:
   tips: all
 
 punctuator:
-  import_preset: default
+  import_preset: symbols
 
 key_binder:
   import_preset: default
