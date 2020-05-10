@@ -65,6 +65,15 @@
 - 五筆畫：<kbd>x</kbd>
 - 倉頡五代：<kbd>v</kbd>
 
+### 符號輸入
+
+本方案支援中州韻符號輸入引擎：
+- 輸入方法：<kbd> / </kbd> + `符號代碼`
+- 符號代碼可參照用戶資料夾內嘅`symbols.yaml`
+
+- 由於symbols.yaml大部分嘅指令都係以北京官話爲基礎（如：箭咀「↑」，指令作 `/jt` <ruby> 箭 <rp>(</rp><rt>jiàn</rt><rp>)</rp> 頭 <rp>(</rp><rt>tóu</rt><rp>)</rp> </ruby>， 而非`/zz`<ruby> 箭 <rp>(</rp><rt>zin³</rt><rp>)</rp> 咀 <rp>(</rp><rt>zeoi²</rt><rp>)</rp> </ruby>)，所以我哋提供咗一個[英語/粵語嘅符號模板](https://gist.github.com/tanxpyox/d5317a8b22288c2f6019c1e18fc4fe08)方便大家自定義。
+
+
 ## 資料參考
 
 ### 字音
