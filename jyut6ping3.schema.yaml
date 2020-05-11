@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "0.3.2"
+  version: "0.3.3"
   author:
     - sgalal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -172,7 +172,7 @@ emoji_suggestion:
   tips: all
 
 punctuator:
-  import_preset: symbols
+  import_preset: symbols_cantonese
 
 key_binder:
   import_preset: default
