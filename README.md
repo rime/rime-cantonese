@@ -12,7 +12,7 @@
 
 **拼音方案**
 
-- 本方案**只係**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
+- 本方案**凈**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
     - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
     - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
     - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
@@ -75,24 +75,11 @@
 [`symbols_cantonese.yaml`](symbols_cantonese.yaml)
 -->
 
-## 資料參考
+## 字音及詞庫數據來源
 
-### 字音
+見本倉庫 [Wiki](https://github.com/rime/rime-cantonese/wiki)
 
-- LSHK 字音表 - [資料 (laubonghaudoi/cantonese_orthography)](https://github.com/laubonghaudoi/cantonese_orthography/blob/master/LSHK%20Jyutping%20-%20Char%20-%20JP.csv)
-- 粵音小鏡 - [資料 (laubonghaudoi/cantonese_orthography)](https://github.com/laubonghaudoi/cantonese_orthography/blob/master/%E7%B2%B5%E9%9F%B3%E5%B0%8F%E9%8F%A1(20160723).xls)
-- 廣州話正音字典 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/2004_%E5%BB%A3%E5%B7%9E%E8%A9%B1%E6%AD%A3%E9%9F%B3%E5%AD%97%E5%85%B8)
-- 常用字廣州話讀音表 - [資料來源 (jyutnet/cantonese-books-data)](https://github.com/jyutnet/cantonese-books-data/tree/master/1992_%E5%B8%B8%E7%94%A8%E5%AD%97%E5%BB%A3%E5%B7%9E%E8%A9%B1%E8%AE%80%E9%9F%B3%E8%A1%A8)
-- 粵語審音配詞字庫 - [原網站](https://humanum.arts.cuhk.edu.hk/Lexis/lexi-can/) - [資料來源 (sgalal/lexi_can_crawler)](https://github.com/sgalal/lexi_can_crawler)
-- 電腦用漢字粵語拼音表 - [資料來源 (lshk-org/jyutping-table)](https://github.com/lshk-org/jyutping-table)
-- 香港增補字符集 - [原網站](https://www.ogcio.gov.hk/tc/our_work/business/tech_promotion/ccli/hkscs/)
+## 貢獻指南
 
-### 詞語
-
-- 香港語言學學會粵拼詞表 - [原網站](https://corpus.eduhk.hk/JPwordlist/) - [資料來源 (sgalal/lshk-word-list-crawler)](https://github.com/sgalal/lshk-word-list-crawler)
-- 粵典 - [原網站](https://words.hk/)
-- open Cantonese dictionary - [原網站](http://kaifangcidian.com/han/yue)
-- open-source Cantonese-to-English dictionary (CC-Canto) - [原網站](http://www.cccanto.org/)
-- Kingsley Bolton, Christopher Hutton《A Dictionary of Cantonese Slang》
-
+如果有任何修改意見，或者你想一齊參與呢個項目幫我哋手，可以直接新開一個 issue 提出，亦都可以加入上面嘅 Telegram 用戶組直接反饋意見。
 </div>
