@@ -22978,8 +22978,6 @@ import_tables:
 𢯎	ngaau1
 𢲷	ngaau1
 𥅟	ngaau1
-拗	ngaau3	3%
-詏	ngaau3	3%
 𠴳	ngaau3
 㿰	ngaau4
 䵅	ngaau4
@@ -136652,22 +136650,22 @@ import_tables:
 𢯎晒頭	ngaau1 saai3 tau4
 𢯎水吹	ngaau1 seoi2 ceoi1
 𢯎頭	ngaau1 tau4
-拗胡	ngaau1 wu1
-拗胡婆	ngaau1 wu1 po2
-拗薑	ngaau2 goeng1
-拗腰	ngaau2 jiu1
-拗心白菜	ngaau2 sam1 baak6 coi3
-拗手瓜	ngaau2 sau2 gwaa1
-拗斷	ngaau2 tyun5
-拗蔗鬚	ngaau2 ze3 sou1
-拗到掂	ngaau3 dou3 dim6
+拗胡	aau1 wu1
+拗胡婆	aau1 wu1 po2
+拗薑	aau2 goeng1
+拗腰	aau2 jiu1
+拗心白菜	aau2 sam1 baak6 coi3
+拗手瓜	aau5 sau2 gwaa1
+拗斷	aau2 tyun5
+拗蔗鬚	aau2 ze3 sou1
+拗到掂	aau3 dou3 dim6
 毆幾多棍	ngaau3 gei2 do1 gwan3
 毆幾多碌	ngaau3 gei2 do1 luk1
-拗頸	ngaau3 geng2
-拗撬	ngaau3 giu6
-拗口	ngaau3 hau2
-拗氣	ngaau3 hei3
-拗數	ngaau3 sou3
+拗頸	aau3 geng2
+拗撬	aau3 giu6
+拗口	aau3 hau2
+拗氣	aau3 hei3
+拗數	aau3 sou3
 牛百葉	ngaau4 baak3 jip6
 熬出頭	ngaau4 ceot1 tau4
 淆底	ngaau4 dai2
@@ -136725,16 +136723,16 @@ import_tables:
 咬我食	ngaau5 ngo5 sik6
 咬實牙根	ngaau5 sat6 ngaa4 gan1
 咬實牙關	ngaau5 sat6 ngaa4 gwaan1
-拗手瓜	ngaau5 sau2 gwaa1
+拗手瓜	aau5 sau2 gwaa1
 咬唇妝	ngaau5 seon4 zong1
 咬舌自盡	ngaau5 sit3 zi6 zeon6
 咬傷	ngaau5 soeng1
-拗彎	ngaau5 waan1
+拗彎	aau5 waan1
 咬雲	ngaau5 wan4
 咬蔗啦去	ngaau5 ze3 laa1 heoi3
 咬字	ngaau5 zi6
 咬字清晰	ngaau5 zi6 cing1 sik1
-拗直	ngaau5 zik6
+拗直	aau5 zik6
 咬嚼	ngaau5 zoek3
 咬着耳朵	ngaau5 zoek6 ji5 do2
 咬著耳朵	ngaau5 zoek6 ji5 do2
@@ -150445,9 +150443,9 @@ import_tables:
 手指尾	sau2 zi2 mei1
 手指屘	sau2 zi2 mei1
 手指模	sau2 zi2 mou4
-手指拗出	sau2 zi2 ngaau2 ceot1
-手指拗出唔拗入	sau2 zi2 ngaau2 ceot1 m4 ngaau2 jap6
-手指拗入唔拗出	sau2 zi2 ngaau2 jap6 m4 ngaau2 ceot1
+手指拗出	sau2 zi2 aau2 ceot1
+手指拗出唔拗入	sau2 zi2 aau2 ceot1 m4 aau2 jap6
+手指拗入唔拗出	sau2 zi2 aau2 jap6 m4 aau2 ceot1
 手指頭	sau2 zi2 tau4
 手指指	sau2 zi2 zi2
 首字母	sau2 zi6 mou5
@@ -176068,7 +176066,7 @@ import_tables:
 僧帽猴	zang1 mou6 hau4
 僧尼	zang1 nei4
 睜眼	zang1 ngaan5
-爭拗	zang1 ngaau3
+爭拗	zang1 aau3
 曾外祖父	zang1 ngoi6 zou2 fu6
 曾外祖母	zang1 ngoi6 zou2 mou5
 增年	zang1 nin4
