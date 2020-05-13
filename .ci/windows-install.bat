@@ -1,7 +1,3 @@
-REM Windows weasel + Cantonese schema installation script
-REM Author 
-REM   - tanxpyox <tanxpyox@gmail.com>
-
 @echo off
 
 REM Install weasel
