@@ -2,16 +2,18 @@
 
 # Rime 粵語拼音方案
 
-![](https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-brightgreen?style=for-the-badge&logo=github)&nbsp;
+[![](https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-brightgreen?style=for-the-badge&logo=github)&nbsp;](https://github.com/rime/rime-cantonese/issues)
+![](https://img.shields.io/github/v/release/rime/rime-cantonese?color=darkgreen&label=%E7%A9%A9%E5%AE%9A%E7%99%BC%E4%BD%88%E7%89%88%E6%9C%AC&style=for-the-badge)&nbsp;
 ![](https://img.shields.io/github/repo-size/rime/rime-cantonese.svg?label=詞庫統計&style=for-the-badge)&nbsp;
+![](https://img.shields.io/github/commit-activity/m/rime/rime-cantonese?color=darkblue&label=%E8%B2%A2%E7%8D%BB&logo=%E8%B2%A2%E7%8D%BB%E7%B5%B1%E8%A8%88&style=for-the-badge)&nbsp;
 
 配方：℞ `cantonese`
 
 配方入邊 `jyut6ping3` 係聲調顯示版方案，`jyut6ping3_ipa` 係 IPA 顯示版方案。
 
-**Telegram 用户交流組**：[![t.me/rime_cantonese](https://img.shields.io/badge/rime_cantonese-blue?style=flat&logo=telegram)](https://t.me/rime_cantonese)
+**Telegram 用户交流組**：[![t.me/rime_cantonese](https://img.shields.io/badge/rime_cantonese-blue?style=flat-square&logo=telegram)](https://t.me/rime_cantonese)
 
-**Gitter 交流室**：[![Gitter](https://img.shields.io/badge/rime_cantonese-blueviolet?style=flat&logo=gitter)](https://gitter.im/rime-cantonese/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+**Gitter 交流室**：[![Gitter](https://img.shields.io/badge/rime_cantonese-blueviolet?style=flat-square&logo=gitter)](https://gitter.im/rime-cantonese/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 **拼音方案**
 
