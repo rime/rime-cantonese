@@ -35,14 +35,12 @@
 
 ---
 name: jyut6ping3
-version: "2020.05.12"
+version: "2020.05.14"
 sort: by_weight
 use_preset_vocabulary: true
-max_phrase_length: 7
-min_phrase_weight: 100
 import_tables:
-- jyut6ping3.phrase
-- jyut6ping3.lettered
+  - jyut6ping3.phrase
+  - jyut6ping3.lettered
 ...
 
 # 單字音
@@ -142584,7 +142582,7 @@ import_tables:
 平庸之輩	ping4 jung4 zi1 bui3
 平輿	ping4 jyu4
 瓶盂	ping4 jyu4
-平輿縣	ping4 jyu4 jyun6	
+平輿縣	ping4 jyu4 jyun6
 評語	ping4 jyu5
 評語欄	ping4 jyu5 laan4
 平原	ping4 jyun4
