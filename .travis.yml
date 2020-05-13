@@ -9,13 +9,15 @@ script:
   - wget -P ./build https://raw.githubusercontent.com/rime/rime-cantonese/master/.ci/windows-install.bat
   - wget -P ./build/data https://raw.githubusercontent.com/tanxpyox/rime-cantonese-prelude/master/default.custom.yaml
   - 7z a windows-installer.zip ./build/*
-  - ls
 
 deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
-  file: windows-installer.zip
+  file: 
+    - windows-installer.zip
+    - .ci/mac-install.sh
+    - .ci/ibus-install.sh
   on:
     tags: true
   skip_cleanup: 'true'
