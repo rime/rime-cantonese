@@ -1,13 +1,13 @@
 install:
-  - cd
+  - sudo apt-get install p7zip-full
   - curl -fsSL  https://git.io/rime-install | bash -s -- cantonese emoji sgalal/rime-opencc-32bit-latest
 
 script:
   - mkdir build/data
   - cp -rf ~/.config/ibus/rime/ build/data
-  - wget -p ./build https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
-  - wget -p ./build https://raw.githubusercontent.com/rime/rime-cantonese/master/.ci/windows-install.bat
-  - wget -p ./build/data https://raw.githubusercontent.com/tanxpyox/rime-cantonese-prelude/master/default.custom.yaml
+  - wget -P ./build https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
+  - wget -P ./build https://raw.githubusercontent.com/rime/rime-cantonese/master/.ci/windows-install.bat
+  - wget -P ./build/data https://raw.githubusercontent.com/tanxpyox/rime-cantonese-prelude/master/default.custom.yaml
   - 7z a windows-installer.zip ./build/*
 
 deploy:
