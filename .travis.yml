@@ -1,28 +1,20 @@
-language: objective-c
-os: osx
-compiler: clang
-
 install:
-  - git clone --depth=50 --branch=master https://github.com/rime/squirrel.git rime/squirrel
-  - cd rime/squirrel
-  - git submodule update --init --recursive
-  - "./travis-install.sh"
+  - cd
+  - curl -fsSL  https://git.io/rime-install | bash -s -- cantonese emoji sgalal/rime-opencc-32bit-latest
 
-script: make
-
-after_success:
-  - make archive
-
-before_deploy:
-  - "./travis-before-deploy.sh"
-  - cd ..
-  - cd ..
+script:
+  - mkdir build/data
+  - cp -rf ~/.config/ibus/rime/ build/data
+  - wget -p ./build https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
+  - wget -p ./build https://raw.githubusercontent.com/rime/rime-cantonese/master/.ci/windows-install.bat
+  - wget -p ./build/data https://raw.githubusercontent.com/tanxpyox/rime-cantonese-prelude/master/default.custom.yaml
+  - 7z a windows-installer.zip ./build/*
 
 deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
-  file: rime/squirrel/package/archives/*.zip
+  file: windows-installer.zip
   on:
     tags: true
   skip_cleanup: 'true'

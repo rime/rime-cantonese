@@ -4,13 +4,13 @@
 #   - tanxpyox <tanxpyox@gmail.com>
 
 @echo off
-RIMEDIR=~/Library/rime/
+RIMEDIR=~/Library/Rime/
 
 # install homebrew
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh
 
 # install squirrel frontend
-brew cask install squirrel 
+brew cask install squirrel
 
 # check for user lib
 if [ ! -d ${RIMEDIR} ]; then
