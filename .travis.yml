@@ -1,23 +1,37 @@
 install:
   - sudo apt-get install p7zip-full
-  - curl -fsSL  https://git.io/rime-install | bash -s -- cantonese emoji sgalal/rime-opencc-32bit-latest
+
+before_script:
+  - PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=patch/menu/page_size,value=6 custom:add:schema=jyut6ping3"
+  - WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
+  - SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip
 
 script:
   - mkdir -p build/data
-  - cp -rf ~/.config/ibus/rime/* build/data
-  - wget -P ./build https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
-  - wget -P ./build https://raw.githubusercontent.com/rime/rime-cantonese/master/.ci/windows-install.bat
-  - wget -P ./build/data https://raw.githubusercontent.com/tanxpyox/rime-cantonese-prelude/master/default.custom.yaml
-  - 7z a windows-installer.zip ./build/*
+  - mkdir build/windows
+  - mkdir build/mac
+  # Download IME files (and 32-bit OpenCC)
+  - export rime_dir=build/data
+  - curl -fsSL  https://git.io/rime-install | bash -s -- ${PACKAGES}
+  # Prepare Windows installation script, installer exe
+  - wget -P ./build/windows ${WEASEL_LINK}
+  - cp ci/windows-install.bat ./build/windows
+  # Download Mac installation script, Mac package and unzip
+  - wget $SQUIRREL_LINK
+  - 7z e Squirrel*.zip -obuild/mac/
+  - cp ci/mac-install.sh ./build/mac
+  # Build archives
+  - 7z a windows-${TRAVIS_TAG}-installer.zip ./build/data ./build/windows/*
+  - 7z a mac-${TRAVIS_TAG}-installer.zip ./build/mac/*
 
 deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
-  file: 
-    - windows-installer.zip
-    - .ci/mac-install.sh
-    - .ci/ibus-install.sh
+  file:
+    - windows-*installer.zip
+    - mac-*installer.zip
+    - ci/ibus-install.sh
   on:
     tags: true
   skip_cleanup: 'true'
