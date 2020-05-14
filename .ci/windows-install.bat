@@ -2,7 +2,7 @@
 REM Install weasel
 
 echo Installing Weasel Frontend...
-FOR /f "tokens=*" %%G IN ('dir /b *installer.exe') DO /S %%G 
+FOR /f "tokens=*" %%G IN ('dir /b *installer.exe') DO /t %%G 
 
 REM Set environment variable
 SET RIMEDIR=%APPDATA%\rime\
