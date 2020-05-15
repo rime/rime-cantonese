@@ -2,7 +2,7 @@ install:
   - sudo apt-get install p7zip-full
 
 before_script:
-  - PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=patch/installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
+  - PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
   - WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
   - SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip
 
