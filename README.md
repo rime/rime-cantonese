@@ -4,8 +4,6 @@
 
 [![](https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-brightgreen?style=for-the-badge&logo=github)&nbsp;](https://github.com/rime/rime-cantonese/issues)
 [![](https://img.shields.io/github/v/release/rime/rime-cantonese?color=darkgreen&label=%E7%A9%A9%E5%AE%9A%E7%99%BC%E4%BD%88%E7%89%88%E6%9C%AC&style=for-the-badge)&nbsp;](https://github.com/rime/rime-cantonese/releases)
-![](https://img.shields.io/github/repo-size/rime/rime-cantonese.svg?label=詞庫統計&style=for-the-badge)&nbsp;
-![](https://img.shields.io/github/commit-activity/m/rime/rime-cantonese?color=darkblue&label=%E8%B2%A2%E7%8D%BB&logo=%E8%B2%A2%E7%8D%BB%E7%B5%B1%E8%A8%88&style=for-the-badge)&nbsp;
 
 配方：℞ `cantonese`
 
