@@ -142,9 +142,10 @@ translator:
     - xform/eu/ɛːU/                           # 掉tɛːu
     - xform/eoi/ɵY/                           # 水sɵy
     - xform/oei/ɵY/                           # 容錯
-    - xform/oe([ptk])/œː$1]/                  # 約jœːk̚
+    - xform/oe([pk])/œː$1]/                   # 約jœːk̚
     - xform/oe(ng)/œː$1/                      # 容錯
-    - xform/oe([t])/ɵ$1]/                     # 容錯
+    - xform/.oe([t])/ɵ$1]/                    # 容錯
+    - xform/^oet/œːt]/                        # 兼容新讀音 /œːt̚/
     - xform/oe([n])/ɵ$1/                      # 容錯
     - xform/oe/œː/                            # 張tsœːŋ
     - xform/oi/ɔːI/                           # 蓋kʰɔːi
