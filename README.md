@@ -74,16 +74,17 @@
 
 本方案支援特殊符號輸入，輸入方法係 <kbd>/</kbd> + 符號代碼。
 
-<!-- 
-[`symbols.yaml`](https://github.com/rime/rime-prelude/blob/master/symbols.yaml)
-[`symbols_cantonese.yaml`](symbols_cantonese.yaml)
--->
+符號代碼睇呢度：
 
-## 字音及詞庫數據來源
+- [`symbols.yaml`](https://github.com/rime/rime-prelude/blob/master/symbols.yaml)
+- [`symbols_cantonese.yaml`](symbols_cantonese.yaml)
 
-見本倉庫 [Wiki](https://github.com/rime/rime-cantonese/wiki)
+## 字音及詞庫資料來源
+
+見本倉庫 [Wiki](https://github.com/rime/rime-cantonese/wiki)。
 
 ## 貢獻指南
 
 如果有任何修改意見，或者你想一齊參與呢個項目幫我哋手，可以直接[新開一個 issue 提出](https://github.com/rime/rime-cantonese/issues)，亦都可以加入上面嘅 [Telegram 用戶組](https://t.me/rime_cantonese)直接反饋意見。
+
 </div>
