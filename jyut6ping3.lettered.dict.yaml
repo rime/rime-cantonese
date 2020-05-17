@@ -16,11 +16,10 @@
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
 # tanxpyox <tanxpyox@gmail.com>
-#
 
 ---
 name: jyut6ping3.lettered
-version: "2020.05.04"
+version: "2020.05.17"
 sort: by_weight
 use_preset_vocabulary: true
 ...
