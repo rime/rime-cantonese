@@ -144,7 +144,7 @@ translator:
     - xform/oei/ɵY/                           # 容錯
     - xform/oe([pk])/œː$1]/                   # 約jœːk̚
     - xform/oe(ng)/œː$1/                      # 容錯
-    - xform/.oe([t])/ɵ$1]/                    # 容錯
+    - xform/(.)oe([t])/$1ɵ$2]/                # 容錯
     - xform/^oet/œːt]/                        # 兼容新讀音 /œːt̚/
     - xform/oe([n])/ɵ$1/                      # 容錯
     - xform/oe/œː/                            # 張tsœːŋ
