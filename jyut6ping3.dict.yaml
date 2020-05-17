@@ -105,7 +105,6 @@ import_tables:
 溾	aai1
 欸	aai2
 毐	aai2	0%
-矮	aai2	0%
 㿄	aai3
 䅬	aai3
 伌	aai3	0%
@@ -202,7 +201,6 @@ import_tables:
 坳	aau1	0%
 抓	aau1	0%
 柪	aau1
-𢯎	aau1	3%
 㑃	aau2
 㘭	aau2
 拗	aau2
@@ -227,7 +225,6 @@ import_tables:
 㙠	ai1
 繄	ai1	0%
 鷖	ai1	0%
-𠼮	ai1	3%
 㢊	ai2
 欸	ai2	0%
 矮	ai2
@@ -406,7 +403,7 @@ import_tables:
 毆	au2
 𠙶	au2
 嘔	au3	3%
-岰	au3
+岰	au3	0%
 慪	au3
 漚	au3
 㸭	baa1
@@ -22890,7 +22887,6 @@ import_tables:
 哎	ngaai6	0%
 唉	ngaai6
 娾	ngaai6
-睚	ngaai6	0%
 艾	ngaai6
 芆	ngaai6	0%
 苅	ngaai6
@@ -22941,6 +22937,7 @@ import_tables:
 楌	ngaan4
 研	ngaan4	3%
 硏	ngaan4	0%
+碾	ngaan4
 虤	ngaan4
 訮	ngaan4	0%
 詽	ngaan4	0%
@@ -22960,6 +22957,7 @@ import_tables:
 硬	ngaang6
 鞕	ngaang6	0%
 擪	ngaap3
+餲	ngaat3
 㩵	ngaat6
 䦪	ngaat6	0%
 嚙	ngaat6
@@ -23162,8 +23160,6 @@ import_tables:
 猌	ngan6
 靱	ngan6	0%
 韌	ngan6	3%
-哽	ngang2	0%
-𬒔	ngang2	0%
 䙬	ngang3
 嗑	ngap1	3%
 噏	ngap1
@@ -23395,7 +23391,7 @@ import_tables:
 枊	ngong6
 㖖	ngot6
 䯵	ngot6
-擙	ngou1	3%
+擙	ngou1
 𦪈	ngou4
 㾲	ngou4	0%
 䦋	ngou4
@@ -23442,7 +23438,6 @@ import_tables:
 慠	ngou6
 敖	ngou6	3%
 澆	ngou6	3%
-翱	ngou6	0%
 謷	ngou6
 謸	ngou6	0%
 遨	ngou6
