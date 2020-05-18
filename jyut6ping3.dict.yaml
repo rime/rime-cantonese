@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.05.17"
+version: "2020.05.18"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -16080,7 +16080,7 @@ import_tables:
 挐	jyu4
 揄	jyu4
 擩	jyu4	3%
-於	jyu4	3%
+於	jyu4	0%
 旟	jyu4
 曘	jyu4
 杅	jyu4
@@ -30581,7 +30581,7 @@ import_tables:
 弙	wu1	0%
 惡	wu1
 扵	wu1	0%
-於	wu1
+於	wu1	3%
 杇	wu1
 歍	wu1
 汙	wu1
@@ -59021,7 +59021,6 @@ import_tables:
 低腰	dai1 jiu1
 低腰褲	dai1 jiu1 fu3
 羝羊觸藩	dai1 joeng4 zuk1 faan4
-低于	dai1 jyu1
 低於	dai1 jyu1
 低語	dai1 jyu5
 低級	dai1 kap1
@@ -71457,7 +71456,7 @@ import_tables:
 富陽	fu3 joeng4
 富陽市	fu3 joeng4 si5
 富翁	fu3 jung1
-富于	fu3 jyu1
+富於	fu3 jyu1
 富於想像	fu3 jyu1 soeng2 zoeng6
 富餘	fu3 jyu4
 賦予	fu3 jyu5
@@ -77481,7 +77480,6 @@ import_tables:
 緊隨其後	gan2 ceoi4 kei4 hau6
 僅此	gan2 ci2
 僅此而已	gan2 ci2 ji4 ji5
-僅次于	gan2 ci3 jyu1
 僅次於	gan2 ci3 jyu1
 緊俏	gan2 ciu3
 堇菜	gan2 coi3
@@ -91325,7 +91323,7 @@ import_tables:
 合陽縣	hap6 joeng4 jyun6
 合用	hap6 jung6
 合於	hap6 jyu1
-合于時宜	hap6 jyu1 si4 ji4
+合於時宜	hap6 jyu1 si4 ji4
 合規	hap6 kwai1
 合羣	hap6 kwan4
 合群	hap6 kwan4
@@ -97244,7 +97242,6 @@ import_tables:
 好整以暇	hou2 zing2 ji5 haa6
 好着	hou2 zoek3
 好像	hou2 zoeng6
-好象	hou2 zoeng6
 好在	hou2 zoi6
 好早	hou2 zou2
 好嘈	hou2 zou4
@@ -105374,7 +105371,7 @@ import_tables:
 義勇軍	ji6 jung5 gwan1
 義勇軍進行曲	ji6 jung5 gwan1 zeon3 hang4 kuk1
 易用性	ji6 jung6 sing3
-易于	ji6 jyu1
+易於	ji6 jyu1
 易於反掌	ji6 jyu1 faan2 zoeng2
 易如翻掌	ji6 jyu4 faan1 zoeng2
 易如反掌	ji6 jyu4 faan2 zoeng2
@@ -109811,7 +109808,7 @@ import_tables:
 用以	jung6 ji5
 用刑	jung6 jing4
 用藥	jung6 joek6
-用于	jung6 jyu1
+用於	jung6 jyu1
 用語	jung6 jyu5
 用完	jung6 jyun4
 用完即棄	jung6 jyun4 zik1 hei3
@@ -110821,7 +110818,7 @@ import_tables:
 預估	jyu6 gu2
 裕固	jyu6 gu3
 裕固族	jyu6 gu3 zuk6
-寓管理于服務之中	jyu6 gun2 lei5 jyu1 fuk6 mou6 zi1 zung1
+寓管理於服務之中	jyu6 gun2 lei5 jyu1 fuk6 mou6 zi1 zung1
 寓工作於娛樂	jyu6 gung1 zok3 jyu1 jyu4 lok6
 愈合	jyu6 hap6
 癒合	jyu6 hap6
@@ -150774,7 +150771,7 @@ import_tables:
 壽命	sau6 ming6
 授命	sau6 ming6
 壽命不長	sau6 ming6 bat1 coeng4
-受命于天	sau6 ming6 jyu1 tin1
+受命於天	sau6 ming6 jyu1 tin1
 壽木	sau6 muk6
 受難	sau6 naan6
 受難紀念	sau6 naan6 gei2 nim6
@@ -150788,7 +150785,7 @@ import_tables:
 受騙上當	sau6 pin3 soeng5 dong3
 壽屏	sau6 ping2
 受聘	sau6 ping3
-受聘于	sau6 ping3 jyu1
+受聘於	sau6 ping3 jyu1
 售票	sau6 piu3
 售票處	sau6 piu3 cyu3
 售票處	sau6 piu3 cyu5
@@ -179372,7 +179369,7 @@ import_tables:
 恣欲	zi3 juk6
 智育	zi3 juk6
 智勇雙全	zi3 jung5 soeng1 cyun4
-置于	zi3 jyu1
+置於	zi3 jyu1
 至於	zi3 jyu1
 志願	zi3 jyun6
 志願兵	zi3 jyun6 bing1
