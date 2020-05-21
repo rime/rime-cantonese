@@ -32,6 +32,7 @@ deploy:
     - windows-*installer.zip
     - mac-*installer.zip
     - ci/ibus-install.sh
+    - ci/default.custom.yaml
   on:
     tags: true
   skip_cleanup: 'true'
