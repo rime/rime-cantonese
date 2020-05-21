@@ -1,10 +1,14 @@
 <div lang="yue-HK">
 
-# Rime 粵語拼音方案
+<h1 align="center">Rime 粵語拼音方案</h1>
 
-[![](https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-brightgreen?style=for-the-badge&logo=github)&nbsp;](https://github.com/rime/rime-cantonese/issues)
-[![](https://img.shields.io/github/v/release/rime/rime-cantonese?color=darkgreen&label=%E7%A9%A9%E5%AE%9A%E7%99%BC%E4%BD%88%E7%89%88%E6%9C%AC&style=for-the-badge)&nbsp;](https://github.com/rime/rime-cantonese/releases)
-[![](https://img.shields.io/travis/com/rime/rime-cantonese?label=%E5%B0%81%E8%A3%9D%E7%A8%8B%E5%BC%8F&logo=travis-ci&logoColor=white&style=for-the-badge)](https://travis-ci.com/github/rime/rime-cantonese)
+<p align="center">
+<a href="https://github.com/rime/rime-cantonese/issues"><img src="https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-1dd3b0?style=for-the-badge&logo=github"/></a>
+<a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/github/v/release/rime/rime-cantonese?color=38618c&label=%E7%A9%A9%E5%AE%9A%E7%99%BC%E4%BD%88%E7%89%88%E6%9C%AC&style=for-the-badge"/></a>
+<a href="https://travis-ci.com/github/rime/rime-cantonese"><img src="https://img.shields.io/travis/com/rime/rime-cantonese?label=%E5%B0%81%E8%A3%9D%E7%A8%8B%E5%BC%8F&logo=travis-ci&logoColor=white&style=for-the-badge"/></a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/badge/%E6%8E%88%E6%AC%8A%E6%A2%9D%E6%AC%BE-CC--BY--4.0-blue?logo=creative-commons&logoColor=white&style=for-the-badge" /></a>
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</p>
 
 配方：℞ `cantonese`
 
@@ -17,9 +21,9 @@
 **拼音方案**
 
 - 本方案**凈**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
-    - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
-    - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
-    - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
+  - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
+  - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
+  - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
 - 另外有由第三方開發者製作，只供教育用途嘅分歧拼音方案補丁，方便用家從其他方案過渡至粵拼。詳情請參閱[呢度](https://github.com/tanxpyox/rime-cantonese-schemes)。
 
 **演示**
@@ -52,8 +56,8 @@
 本方案預設**唔支援**任何模糊音同懶音，即區分 n-/l-, &empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3_ipa.schema.yaml`（IPA 版），拉到下面 `speller:algebra` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
 
 ```yaml
-    # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
-    - derive/^n(?!g)/l/
+# 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
+- derive/^n(?!g)/l/
 ```
 
 然後重新部署，試下打 lei hou，發現都出得到「你好」嘞。
