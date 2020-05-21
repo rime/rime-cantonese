@@ -13,7 +13,7 @@ echo Installing Weasel frontend...
 for %%x in (*.exe) do (%%x /S)
 
 SET /P TRADITIONAL=Configure Traditional Chinese (Y/[N])?
-IF /I %TRADITIONAL% NEQ "N" "%RIMEPROGRAM%\WeaselSetup.exe" /T
+IF /I "%TRADITIONAL%" NEQ "N" "%RIMEPROGRAM%\WeaselSetup.exe" /T
 
 REM Checks of user directory
 if not exist %RIMEDIR% mkdir %RIMEDIR%
