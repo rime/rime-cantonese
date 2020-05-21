@@ -13,7 +13,10 @@ echo Installing Weasel frontend...
 for %%x in (*.exe) do (%%x /S)
 
 SET /P TRADITIONAL=Configure Traditional Chinese (Y/[N])?
-IF /I "%TRADITIONAL%" NEQ "N" "%RIMEPROGRAM%\WeaselSetup.exe" /T
+IF /I "%TRADITIONAL%" NEQ "N" (
+  "%RIMEPROGRAM%\WeaselSetup.exe" /t
+  echo Configuration completed.
+)
 
 REM Checks of user directory
 if not exist %RIMEDIR% mkdir %RIMEDIR%
@@ -24,8 +27,9 @@ xcopy /E /Y data %RIMEDIR%
 
 REM Deploy
 
-echo Deploying...
+echo Deploying... This may take quite a while...
 "%RIMEPROGRAM%\WeaselDeployer.exe" /deploy
 
+rundll32 user32.dll,MessageBeep
 echo Done!
 pause
