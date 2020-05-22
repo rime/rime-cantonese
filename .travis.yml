@@ -1,38 +1,29 @@
+os:
+  - linux
+  - windows
+
 install:
   - sudo apt-get install p7zip-full
 
 before_script:
-  - PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
-  - WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
-  - SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip
+  - chmod u+x .ci/*
+  - bash .ci/VERSION.sh
 
 script:
-  - mkdir -p build/data
-  - mkdir build/windows
-  - mkdir build/mac
-  # Download IME files (and 32-bit OpenCC)
-  - export rime_dir=build/data
-  - curl -fsSL  https://git.io/rime-install | bash -s -- ${PACKAGES}
-  # Prepare Windows installation script, installer exe
-  - wget -P ./build/windows ${WEASEL_LINK}
-  - cp ci/windows-install.bat ./build/windows
-  # Download Mac installation script, Mac package and unzip
-  - wget $SQUIRREL_LINK
-  - 7z e Squirrel*.zip -obuild/mac/
-  - cp ci/mac-install.sh ./build/mac
-  # Build archives
-  - 7z a windows-${TRAVIS_TAG}-installer.zip ./build/data ./build/windows/*
-  - 7z a mac-${TRAVIS_TAG}-installer.zip ./build/mac/*
+  - mkdir output
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then bash .ci/build_linux.sh      ; fi
+
+before_deploy:
+  - cp .ci/ibus-install.sh output/
+  - cp .ci/default.custom.yaml output/
+  - ls output
 
 deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
   file:
-    - windows-*installer.zip
-    - mac-*installer.zip
-    - ci/ibus-install.sh
-    - ci/default.custom.yaml
+    - output/*
   on:
     tags: true
   skip_cleanup: 'true'
