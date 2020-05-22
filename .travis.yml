@@ -22,8 +22,6 @@ script:
   - if [ "$TRAVIS_OS_NAME" = "windows" ]; then ".ci/build_windows.sh" ; fi
 
 after_success:
-  - cp .ci/ibus-install.sh output/
-  - cp .ci/default.custom.yaml output/
   - ls output
 
 deploy:
