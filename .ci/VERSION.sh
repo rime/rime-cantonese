@@ -1,6 +1,5 @@
 #!/bin/bash
 # Set environment variables
-
 export WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
 export SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip
 export WEASEL_VERSION=weasel-0.14.3
