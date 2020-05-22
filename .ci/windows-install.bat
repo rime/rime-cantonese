@@ -22,7 +22,7 @@ IF /I "%TRADITIONAL%" NEQ "N" (
 REM Checks of user directory
 if not exist %RIMEDIR% mkdir %RIMEDIR%
 
-echo Copying IME files...
+echo Copying IME files to %RIMEDIR%
 REM Copies bundled schema files into user directory
 xcopy /E /Y data %RIMEDIR%
 
