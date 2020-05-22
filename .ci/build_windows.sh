@@ -9,4 +9,4 @@ wget -P ./build/windows ${WEASEL_LINK}
 wget https://github.com/tanxpyox/7z.sfx-backup/blob/master/7zS.sfx?raw=true
 cp .ci/windows-install.bat ./build/windows
 7z a windows-installer.7z ./build/windows/*
-cat 7z.sfx .ci/config.txt windows-installer.7z > output/windows-${TRAVIS_TAG}-installer.exe
+cat 7zS.sfx .ci/config.txt windows-installer.7z > output/windows-${TRAVIS_TAG}-installer.exe
