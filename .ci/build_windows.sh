@@ -1,10 +1,11 @@
 #!/bin/bash
 
-mkdir -p build/data
-mkdir build/windows
+mkdir -p build/windows/data
 # Download IME files (and 32-bit OpenCC)
-export rime_dir=build/data
+export rime_dir=build/windows/data
 curl -fsSL  https://git.io/rime-install | bash -s -${WEASEL_PACKAGES}
 # Prepare Windows installation script, installer exe
 wget -P ./build/windows ${WEASEL_LINK}
 cp .ci/windows-install.bat ./build/windows
+
+7z a output/windows-${TRAVIS_TAG}-installer.zip ./build/windows/*
