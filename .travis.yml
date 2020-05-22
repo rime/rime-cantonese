@@ -1,38 +1,35 @@
-install:
-  - sudo apt-get install p7zip-full
+language: cpp
 
-before_script:
-  - PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
-  - WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
-  - SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip
+os:
+  - linux
+  - windows
+
+before_install:
+  - export WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-0.14.3.0-installer.exe
+  - export SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip
+  - export WEASEL_VERSION=weasel-0.14.3
+  - export SQUIRREL_VERSION=squirrel-0.14.0
+  - export WEASEL_PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
+  - export TRAVIS_TAG=$TRAVIS_TAG
+
+install:
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install p7zip-full; fi
 
 script:
-  - mkdir -p build/data
-  - mkdir build/windows
-  - mkdir build/mac
-  # Download IME files (and 32-bit OpenCC)
-  - export rime_dir=build/data
-  - curl -fsSL  https://git.io/rime-install | bash -s -- ${PACKAGES}
-  # Prepare Windows installation script, installer exe
-  - wget -P ./build/windows ${WEASEL_LINK}
-  - cp ci/windows-install.bat ./build/windows
-  # Download Mac installation script, Mac package and unzip
-  - wget $SQUIRREL_LINK
-  - 7z e Squirrel*.zip -obuild/mac/
-  - cp ci/mac-install.sh ./build/mac
-  # Build archives
-  - 7z a windows-${TRAVIS_TAG}-installer.zip ./build/data ./build/windows/*
-  - 7z a mac-${TRAVIS_TAG}-installer.zip ./build/mac/*
+  - mkdir output
+  - chmod u+x .ci/*
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then ".ci/build_linux.sh"     ; fi
+  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then ".ci/build_windows.sh" ; fi
+
+after_success:
+  - ls output
 
 deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
   file:
-    - windows-*installer.zip
-    - mac-*installer.zip
-    - ci/ibus-install.sh
-    - ci/default.custom.yaml
+    - output/*
   on:
     tags: true
   skip_cleanup: 'true'
