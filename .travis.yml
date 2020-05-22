@@ -20,7 +20,7 @@ script:
   - chmod u+x .ci/*
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then ".ci/build_linux.sh"    ; fi
 
-before_deploy:
+after_success:
   - cp .ci/ibus-install.sh output/
   - cp .ci/default.custom.yaml output/
   - ls output
