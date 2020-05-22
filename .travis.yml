@@ -7,11 +7,11 @@ install:
 
 before_script:
   - chmod u+x .ci/*
-  - bash .ci/VERSION.sh
+  - ".ci/VERSION.sh"
 
 script:
   - mkdir output
-  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then bash .ci/build_linux.sh      ; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then ".ci/build_linux.sh"    ; fi
 
 before_deploy:
   - cp .ci/ibus-install.sh output/
