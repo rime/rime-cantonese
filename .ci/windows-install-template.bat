@@ -5,15 +5,15 @@ reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" 
 
 echo Preparing installation environment...
 SET RIMEDIR=%APPDATA%\rime\
-SET VERSION=weasel-0.14.3
-SET RIMEPROGRAM=%ProgramFiles(x86)%\Rime\%VERSION%\
-IF %OS%==32BIT SET RIMEPROGRAM=%ProgramFiles%\Rime\%VERSION%\
+SET VERSION=weasel-${WEASEL_VERSION}
+SET RIMEPROGRAM=%ProgramFiles%\Rime\%VERSION%\
+IF %OS%==64BIT SET RIMEPROGRAM=%ProgramFiles(x86)%\Rime\%VERSION%\
 
 echo Installing Weasel frontend...
 
 SET /P TRADITIONAL=Configure Traditional Chinese (Y/[N])?
 IF /I "%TRADITIONAL%" NEQ "N" (
-    for %%x in (*.exe) do (%%x /S /T)
+  for %%x in (*.exe) do (%%x /S /T)
 ) else (
   for %%x in (*.exe) do (%%x /S)
 )
