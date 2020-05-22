@@ -1,4 +1,5 @@
 @echo off
+cd %~dp0
 
 echo Checking system architecture...
 reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" > NUL && set OS=32BIT || set OS=64BIT
