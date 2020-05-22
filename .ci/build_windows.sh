@@ -7,5 +7,4 @@ curl -fsSL  https://git.io/rime-install | bash -s -${WEASEL_PACKAGES}
 # Prepare Windows installation script, installer exe
 wget -P ./build/windows ${WEASEL_LINK}
 cp .ci/windows-install.bat ./build/windows
-
 7z a output/windows-${TRAVIS_TAG}-installer.zip ./build/windows/*
