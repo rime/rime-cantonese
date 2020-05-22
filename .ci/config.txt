@@ -1,6 +1,5 @@
 ;!@Install@!UTF-8!
 Title="小狼毫輸入法引擎+廣東話方案安裝器"
-BeginPrompt="安唔安裝小狼毫引擎同埋廣東話輸入法？"
 RunProgram="windows-install.bat"
 Path="%tmp%\\weasel-install"
 ;!@InstallEnd@!
