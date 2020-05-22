@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir -p build/windows/data
-cat .ci/windows-install-templat.bat | envsubst > ./build/windows/windows-install.bat
+cat .ci/windows-install-template.bat | envsubst > ./build/windows/windows-install.bat
 # Download IME files (and 32-bit OpenCC)
 export rime_dir=build/windows/data
 curl -fsSL  https://git.io/rime-install | bash -s -- ${WEASEL_PACKAGES}
