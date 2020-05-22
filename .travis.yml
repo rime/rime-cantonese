@@ -10,6 +10,7 @@ before_install:
   - export WEASEL_VERSION=weasel-0.14.3
   - export SQUIRREL_VERSION=squirrel-0.14.0
   - export WEASEL_PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
+  - export TRAVIS_TAG=$TRAVIS_TAG
 
 install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install p7zip-full; fi
