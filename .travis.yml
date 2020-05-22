@@ -16,6 +16,7 @@ install:
 
 script:
   - mkdir output
+  - chmod u+x .ci/*
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then ".ci/build_linux.sh"    ; fi
 
 before_deploy:
