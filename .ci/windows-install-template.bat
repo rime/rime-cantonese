@@ -13,7 +13,7 @@ echo Installing Weasel frontend...
 
 SET /P TRADITIONAL=Configure Traditional Chinese (Y/[N])?
 IF /I "%TRADITIONAL%" NEQ "N" (
-    for %%x in (*.exe) do (%%x /S /T)
+  for %%x in (*.exe) do (%%x /S /T)
 ) else (
   for %%x in (*.exe) do (%%x /S)
 )
