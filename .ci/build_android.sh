@@ -12,9 +12,10 @@ export rime_dir=assets/rime
 curl -fsSL  https://git.io/rime-install | bash -s -- ${TRIME_PACKAGES}
 cp .ci/defaut.custom.yaml $rime_dir
 
-aapt list ${APK_NAME}
-aapt add ${APK_NAME} $rime_dir/*
 
+aapt add ${APK_NAME} $rime_dir/*
+echo Finished adding files, check:
+aapt list ${APK_NAME}
 # Installing IME Files...
 
 # aapt2 add output/${ANDROID_PACKAGE_NAME} $rimedir/*
