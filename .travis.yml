@@ -39,9 +39,9 @@ install:
 script:
   - mkdir output
   - chmod u+x .ci/*
-  - if   [ "$TRAVIS_OS_NAME" = "linux"   && "$TRAVIS_DIST" = "xenial" ]; then ".ci/build_linux.sh"  ;
-  - elif [ "$TRAVIS_OS_NAME" = "linux"   && "$TRAVIS_DIST" = "trusty" ]; then ".ci/build_android.sh";
-  - elif [ "$TRAVIS_OS_NAME" = "windows" ];                              then ".ci/build_windows.sh"; fi
+  - if   [[ "$TRAVIS_OS_NAME" = "linux"   && "$TRAVIS_DIST" = "xenial" ]]; then ".ci/build_linux.sh"  ;
+  - elif [[ "$TRAVIS_OS_NAME" = "linux"   && "$TRAVIS_DIST" = "trusty" ]]; then ".ci/build_android.sh";
+  - elif [  "$TRAVIS_OS_NAME" = "windows" ];                               then ".ci/build_windows.sh"; fi
 
 after_success:
   - ls output # debug
