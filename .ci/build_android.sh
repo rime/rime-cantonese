@@ -3,6 +3,7 @@
 
 # Preparing apk
 export PATH=/usr/local/android-sdk/build-tools/25.0.2/:$PATH
+export ORI_NAME=android.apk
 export APK_NAME=output/android-${TRAVIS_TAG}.apk
 wget --output-document=${APK_NAME} ${TRIME_LINK}
 
@@ -20,8 +21,16 @@ echo Finished adding files, check:
 aapt list ${APK_NAME}
 
 # zipalign
-zipalign -f 4 ${APK_NAME}
+zipalign -v 4 ${ORI_NAME} ${APK_NAME}
 
 # Sign apk
-echo y | keytool -genkeypair -dname "cn=Tanxpyox, ou=Rime-Cantonese, o=RCWorkGroup, c=HK" -alias rime-can-key -keypass ${GITHUB_TOKEN} -keystore key.jks -storepass ${GITHUB_TOKEN} -validity 20000
-apksigner sign --ks key.jks $APK_NAME
+
+export KEYPASS=openssl rand -base64 12
+export STOREPASS=openssl rand -base64 12
+
+keytool -genkey -alias key \
+    -keyalg RSA -keystore keystore.jks \
+    -dname "CN=tanxpyox, OU=JavaSoft, O=Sun, L=Cupertino, S=California, C=US" \
+    -storepass ${STOREPASS} -keypass ${KEYPASS}
+
+apksigner sign --ks keystore.jks $APK_NAME
