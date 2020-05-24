@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo ${TRAVIS_DIST}
-
 mkdir -p build/windows/data
 # Prepare installation script from env variables
 cat .ci/windows-install-template.bat | envsubst > ./build/windows/windows-install.bat
