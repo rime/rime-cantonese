@@ -11,10 +11,9 @@ mkdir -p assets/rime
 export rime_dir=assets/rime
 curl -fsSL  https://git.io/rime-install | bash -s -- ${TRIME_PACKAGES}
 
-aapt2 dump resources ${APK_NAME}
+aapt list ${APK_NAME}
+aapt add ${APK_NAME} $rime_dir/*
 
-mkdir compiled
-aapt2 compile $rime_dir -o compiled/
 # Installing IME Files...
 
 # aapt2 add output/${ANDROID_PACKAGE_NAME} $rimedir/*
