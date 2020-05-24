@@ -1,8 +1,15 @@
-language: cpp
-
-os:
-  - linux
-  - windows
+jobs:
+  include:
+    - dist: xenial
+      language: ruby
+    - dist: trusty
+      language: android
+      jdk: openjdk8
+      android:
+        components:
+          - build-tools-25.0.2
+    - os: windows
+      language: cpp
 
 before_install:
   - export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
@@ -10,15 +17,18 @@ before_install:
   - export WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-${WEASEL_VERSION}.0-installer.exe
   - export SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-${SQUIRREL_VERSION}.zip
   - export WEASEL_PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
+  - export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
+  - export TRIME_PACKAGES=":preset cantonese emoji sgalal/rime-opencc-32bit-latest"
   - export SFXHEADER=7zSD.sfx
 
 install:
-  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install p7zip-full; fi
+  - if [[ "$TRAVIS_OS_NAME" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then sudo apt-get install p7zip-full; fi
 
 script:
   - mkdir output
   - chmod u+x .ci/*
-  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then ".ci/build_linux.sh"     ; fi
+  - if [[ "$TRAVIS_OS_NAME" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then ".ci/build_linux.sh"     ; fi
+  - if [[ "$TRAVIS_OS_NAME" = "linux" && "$TRAVIS_DIST" = "trusty" ]]; then ".ci/build_android.sh"   ; fi
   - if [ "$TRAVIS_OS_NAME" = "windows" ]; then ".ci/build_windows.sh" ; fi
 
 after_success:
