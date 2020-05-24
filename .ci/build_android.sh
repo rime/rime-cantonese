@@ -4,7 +4,7 @@
 # Preparing apk
 export PATH=/usr/local/android-sdk/build-tools/25.0.2/:$PATH
 export APK_NAME=output/android-${TRAVIS_TAG}.apk
-wget ${TRIME_LINK} -o ${APK_NAME}
+wget --output-document=${APK_NAME} ${TRIME_LINK} 
 
 # Downloading IME files
 mkdir -p assets/rime
