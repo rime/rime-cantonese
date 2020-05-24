@@ -5,6 +5,9 @@ jobs:
     - dist: trusty
       language: android
       jdk: openjdk8
+      android:
+        components:
+          - build-tools-26.0.2
     - os: windows
       language: cpp
 
