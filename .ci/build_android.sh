@@ -20,8 +20,8 @@ echo Finished adding files, check:
 aapt list ${APK_NAME}
 
 # zipalign
-zipalign -f ${APK_NAME}
+zipalign -f 4 ${APK_NAME}
 
 # Sign apk
-echo y | keytool -genkeypair -dname "cn=Tanxpyox, ou=Rime-Cantonese, o=RCWorkGroup, c=HK" -alias rime-can-key -keypass ${GITHUB_TOKEN} -keystore key.jks -validity 20000
+echo y | keytool -genkeypair -dname "cn=Tanxpyox, ou=Rime-Cantonese, o=RCWorkGroup, c=HK" -alias rime-can-key -keypass ${GITHUB_TOKEN} -keystore key.jks -storepass ${GITHUB_TOKEN} -validity 20000
 apksigner sign --ks key.jks $APK_NAME
