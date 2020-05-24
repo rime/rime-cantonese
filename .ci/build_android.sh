@@ -5,7 +5,7 @@
 export PATH=/usr/local/android-sdk/build-tools/25.0.2/:$PATH
 export ORI_NAME=android.apk
 export APK_NAME=output/android-${TRAVIS_TAG}.apk
-wget --output-document=${APK_NAME} ${TRIME_LINK}
+wget --output-document=${ORI_NAME} ${TRIME_LINK}
 
 # Downloading IME files
 mkdir -p assets/rime
@@ -14,19 +14,18 @@ curl -fsSL  https://git.io/rime-install | bash -s -- ${TRIME_PACKAGES}
 cp .ci/default.custom.yaml $rime_dir
 
 # add IME files
-aapt add ${APK_NAME} $rime_dir/*
-aapt remove ${APK_NAME} $rime_dir/opencc/*
-aapt add ${APK_NAME} $rime_dir/opencc/*
+aapt add ${ORI_NAME} $rime_dir/*
+aapt remove ${ORI_NAME} $rime_dir/opencc/*
+aapt add ${ORI_NAME} $rime_dir/opencc/*
 echo Finished adding files, check:
-aapt list ${APK_NAME}
+aapt list ${ORI_NAME}
 
 # zipalign
 zipalign -v 4 ${ORI_NAME} ${APK_NAME}
 
 # Sign apk
-
-export KEYPASS=openssl rand -base64 12
-export STOREPASS=openssl rand -base64 12
+export KEYPASS=$( openssl rand -base64 12 )
+export STOREPASS=$( openssl rand -base64 12)
 
 keytool -genkey -alias key \
     -keyalg RSA -keystore keystore.jks \
