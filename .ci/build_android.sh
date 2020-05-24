@@ -10,10 +10,10 @@ wget --output-document=${APK_NAME} ${TRIME_LINK}
 mkdir -p assets/rime
 export rime_dir=assets/rime
 curl -fsSL  https://git.io/rime-install | bash -s -- ${TRIME_PACKAGES}
-cp .ci/defaut.custom.yaml $rime_dir
+cp .ci/default.custom.yaml $rime_dir
 
 
-aapt add ${APK_NAME} $rime_dir/*
+aapt add ${APK_NAME} $rime_dir
 echo Finished adding files, check:
 aapt list ${APK_NAME}
 # Installing IME Files...
