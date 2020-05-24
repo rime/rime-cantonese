@@ -14,6 +14,7 @@ cp .ci/default.custom.yaml $rime_dir
 
 
 aapt add ${APK_NAME} $rime_dir/*
+aapt remove ${APK_NAME} $rime_dir/opencc/*
 aapt add ${APK_NAME} $rime_dir/opencc/*
 echo Finished adding files, check:
 aapt list ${APK_NAME}
