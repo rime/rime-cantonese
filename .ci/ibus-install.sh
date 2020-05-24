@@ -4,7 +4,6 @@
 # Author
 #   - tanxpyox <tanxpyox@gmail.com>
 
-@echo off
 RIMEDIR=~/.config/ibus/rime/
 
 echo Installing ibus-rime frontend ...

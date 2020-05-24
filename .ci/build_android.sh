@@ -20,16 +20,16 @@ aapt add ${ORI_NAME} $rime_dir/opencc/*
 echo Finished adding files, check:
 aapt list ${ORI_NAME}
 
-# zipalign
+# Zip-align to 32-bit
 zipalign -v 4 ${ORI_NAME} ${APK_NAME}
 
 # Sign apk
 export KEYPASS=$( openssl rand -base64 12 )
-export STOREPASS=$( openssl rand -base64 12)
+export STOREPASS=$( openssl rand -base64 12 )
 
 keytool -genkey -alias key \
     -keyalg RSA -keystore keystore.jks \
-    -dname "CN=tanxpyox, OU=JavaSoft, O=Sun, L=Cupertino, S=California, C=US" \
+    -dname "CN=tanxpyox, OU=RimeCantonese, O=Rime, L=SikSyuTong, S=Rime, C=ZungJyun" \
     -storepass ${STOREPASS} -keypass ${KEYPASS}
 
 apksigner sign --ks keystore.jks --ks-pass pass:${STOREPASS} --key-pass pass:${KEYPASS} ${APK_NAME}
