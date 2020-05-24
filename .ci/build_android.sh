@@ -23,5 +23,5 @@ aapt list ${APK_NAME}
 zipalign -f ${APK_NAME}
 
 # Sign apk
-echo y | keytool -genkeypair -dname "cn=Tanxpyox, ou=Rime-Cantonese, o=RCWorkGroup, c=HK" -alias business -keypass ${KEYPASS} -keystore ./key.ks -storepass ${STOREPASS} -validity 20000
-apksigner sign --ks key.ks $APK_NAME
+echo y | keytool -genkeypair -dname "cn=Tanxpyox, ou=Rime-Cantonese, o=RCWorkGroup, c=HK" -alias rime-can-key -keypass ${GITHUB_TOKEN} -keystore key.jks -validity 20000
+apksigner sign --ks key.jks $APK_NAME
