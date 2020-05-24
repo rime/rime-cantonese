@@ -1,13 +1,11 @@
 jobs:
   include:
-    - os: linux
-      dist: xenial
-      lang: ruby
-    - os: linux
-      dist: trusty
-      lang: android
+    - dist: xenial
+      language: ruby
+    - dist: trusty
+      language: android
     - os: windows
-      lang: cpp
+      language: cpp
 
 before_install:
   - export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
