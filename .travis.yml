@@ -1,8 +1,13 @@
-language: cpp
-
-os:
-  - linux
-  - windows
+jobs:
+  include:
+    - os: linux
+      dist: xenial
+      lang: ruby
+    - os: linux
+      dist: trusty
+      lang: android
+    - os: windows
+      lang: cpp
 
 before_install:
   - export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
@@ -10,6 +15,7 @@ before_install:
   - export WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-${WEASEL_VERSION}.0-installer.exe
   - export SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-${SQUIRREL_VERSION}.zip
   - export WEASEL_PACKAGES="cantonese emoji sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3"
+  - export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
   - export SFXHEADER=7zSD.sfx
 
 install:
