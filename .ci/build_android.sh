@@ -32,4 +32,4 @@ keytool -genkey -alias key \
     -dname "CN=tanxpyox, OU=JavaSoft, O=Sun, L=Cupertino, S=California, C=US" \
     -storepass ${STOREPASS} -keypass ${KEYPASS}
 
-apksigner sign --ks keystore.jks --ks-pass pass:$STOREPASS $APK_NAME
+apksigner sign --ks keystore.jks --ks-pass pass:${STOREPASS} --key-pass pass:${KEYPASS} ${APK_NAME}
