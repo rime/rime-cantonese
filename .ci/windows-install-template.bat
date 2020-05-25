@@ -9,12 +9,12 @@ SET VERSION=weasel-${WEASEL_VERSION}
 SET RIMEPROGRAM=%ProgramFiles%\Rime\%VERSION%\
 IF %OS%==64BIT SET RIMEPROGRAM=%ProgramFiles(x86)%\Rime\%VERSION%\
 
-SET /P TRADITIONAL=Configure Traditional Chinese (Y/[N])?
+CHOICE /T 40 /C yn /D y /M "Configure Traditional Chinese"
 echo Installing Weasel frontend...
-IF /I "%TRADITIONAL%" NEQ "N" (
-  for %%x in (*.exe) do (%%x /S /T)
-) else (
+IF ERRORLEVEL 2 (
   for %%x in (*.exe) do (%%x /S)
+) else (
+  for %%x in (*.exe) do (%%x /S /T)
 )
 
 if not exist %RIMEDIR% mkdir %RIMEDIR%
