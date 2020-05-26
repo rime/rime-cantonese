@@ -113,8 +113,8 @@ translator:
   prism: jyut6ping3_ipa
   spelling_hints: 8
   preedit_format:
-    - xform/(^|[ '])(m)+$/$1$2̩/               # 唔m̩
-    - xform/(^|[ '])(ng)+$/$1$2̍/              # 五ŋ̍
+    - xform/(^|[ '])(m)(qq?|xx?|vv?)?($|[ '])/$1$2̩$3$4/            # 唔m̩
+    - xform/(^|[ '])(ng)(qq?|xx?|vv?)?($|[ '])/$1$2̍$3$4/           # 五ŋ̍
     - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
     - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
     - xform/([ptk])v/$1˥/                     # 一jɐt̚
