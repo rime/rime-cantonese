@@ -73283,7 +73283,6 @@ import_tables:
 家財	gaa1 coi4
 家財百萬	gaa1 coi4 baak3 maan6
 加粗	gaa1 cou1
-家嘈屋閉	gaa1 cou4 nguk1 bai3
 家嘈屋閉	gaa1 cou4 uk1 bai3
 加速	gaa1 cuk1
 家畜	gaa1 cuk1
@@ -73337,7 +73336,6 @@ import_tables:
 家訓	gaa1 fan3
 噶霏	gaa1 fei1
 加菲貓	gaa1 fei1 maau1
-家肥屋潤	gaa1 fei4 nguk1 jeon6
 家肥屋潤	gaa1 fei4 uk1 jeon6
 家肥屋潤	gaa1 fei4 uk1 jyun6
 傢伙	gaa1 fo2
@@ -100353,7 +100351,7 @@ import_tables:
 入伍生	jap6 ng5 sang1
 入硬	jap6 ngaang6
 入銀仔	jap6 ngan2 zai2
-入屋叫人人廟拜神	jap6 nguk1 giu3 jan4 jap6 miu2 baai3 san4
+入屋叫人人廟拜神	jap6 uk1 giu3 jan4 jap6 miu2 baai3 san4
 入涅	jap6 nip6
 入內	jap6 noi6
 入腦	jap6 nou5
@@ -137524,9 +137522,6 @@ import_tables:
 臥室	ngo6 sat1
 餓死	ngo6 sei2
 餓死老婆燻臭屋	ngo6 sei2 lou5 po4 fan1 cau3 uk1
-餓死老婆熏臭屋	ngo6 sei2 lou5 po4 wan1 cau3 nguk1
-餓死老婆瘟臭屋	ngo6 sei2 lou5 po4 wan1 cau3 nguk1
-餓死老婆薰臭屋	ngo6 sei2 lou5 po4 wan1 cau3 nguk1
 餓死老婆熏臭屋	ngo6 sei2 lou5 po4 wan1 cau3 uk1
 餓死老婆瘟臭屋	ngo6 sei2 lou5 po4 wan1 cau3 uk1
 餓死老婆薰臭屋	ngo6 sei2 lou5 po4 wan1 cau3 uk1
@@ -138111,8 +138106,8 @@ import_tables:
 傲視同儕	ngou6 si6 tung4 cai4
 鏊子	ngou6 zi2
 傲自	ngou6 zi6
-屋契	nguk1 kai3
-屋漏兼逢夜雨	nguk1 lau6 gim1 fung4 je6 jyu5
+屋契	uk1 kai3
+屋漏兼逢夜雨	uk1 lau6 gim1 fung4 je6 jyu5
 呢便	ni1 bin1
 呢邊	ni1 bin1
 呢便	ni1 bin6
@@ -159484,7 +159479,7 @@ import_tables:
 上鉤	soeng5 ngau1
 上鉤兒	soeng5 ngau1 ji4
 上岸	soeng5 ngon6
-上屋搬下屋唔見一籮穀	soeng5 nguk1 bun1 haa6 nguk1 m4 gin3 jat1 lo4 guk1
+上屋搬下屋唔見一籮穀	soeng5 uk1 bun1 haa6 uk1 m4 gin3 jat1 lo4 guk1
 上腦	soeng5 nou5
 上跑道	soeng5 paau2 dou6
 上鋪	soeng5 pou2
@@ -187841,7 +187836,6 @@ import_tables:
 轉位	zyun3 wai2
 轉會	zyun3 wui2
 轉換	zyun3 wun6
-轉車	zyun3 ze1
 鑽井	zyun3 zeng2
 鑽井平臺	zyun3 zeng2 ping4 toi4
 轉子	zyun3 zi2
