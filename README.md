@@ -33,6 +33,8 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
+* 其他拼音方案嘅排版工具：[`tanxpyox/rime-cantonese-schemes-editor`](https://github.com/tanxpyox/rime-cantonese-schemes-editor)
+
 ## 安裝
 
 詳細教程請見[安裝教程](https://github.com/rime/rime-cantonese/releases)。
