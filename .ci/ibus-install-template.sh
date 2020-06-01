@@ -15,6 +15,6 @@ if [ ! -d ${RIMEDIR} ]; then
 fi
 
 echo Installing IME files ...
-curl -fsSL https://git.io/rime-install | bash -s -- :preset emoji sgalal/rime-opencc-latest cantonese custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3
+curl -fsSL https://git.io/rime-install | bash -s -- ${IBUS_PACKAGES}
 
 echo Done!
