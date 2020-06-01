@@ -7,10 +7,11 @@ mkdir -p build/mac
 # Download Mac installation script, Mac package and unzip
 wget $SQUIRREL_LINK
 7z e Squirrel*.zip -obuild/mac/
-cp .ci/mac-install.sh ./build/mac
+cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/mac-install.sh
+
 # Build archives
 7z a output/mac-${TRAVIS_TAG}-installer.zip ./build/mac/*
 
 # Copy default.custom.yaml and ibus-install.sh into output queue
-cp .ci/ibus-install.sh output/
+cat .ci/ibus-install-template.sh | envsubst '${IBUS_PACKAGES}' > ./output/ibus-install.sh
 cp .ci/default.custom.yaml output/
