@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.05.19"
+version: "2020.06.01"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -8686,9 +8686,9 @@ import_tables:
 鯦	gau6
 𠴰	gau6
 痂	ge1	0%
-嘅	ge2
+嘅	ge2	3%
 𠸏	ge2
-嘅	ge3	100%
+嘅	ge3	97%
 㙋	gei1	0%
 㙨	gei1
 㚦	gei1
@@ -17572,7 +17572,7 @@ import_tables:
 襁	koeng5
 謽	koeng5
 鏹	koeng5
-嘅	koi2
+嘅	koi2	0%
 慨	koi2	0%
 㪡	koi3
 㮣	koi3
@@ -17580,7 +17580,7 @@ import_tables:
 匃	koi3
 匄	koi3
 咳	koi3	0%
-嘅	koi3
+嘅	koi3	0%
 愒	koi3
 愾	koi3
 慨	koi3
@@ -68225,7 +68225,6 @@ import_tables:
 分冊	fan1 caak3
 分拆	fan1 caak3
 分餐	fan1 caan1
-分書	fan1 cai1
 昏沉	fan1 cam4
 分層	fan1 cang4
 分巡兵備道	fan1 ceon4 bing1 bei6 dou6
@@ -90484,7 +90483,6 @@ import_tables:
 堪察加柳鶯	ham1 caat3 gaa1 lau5 ang1
 堪稱	ham1 cing1
 憨豆先生	ham1 dau2 sin1 saang1
-校勘	ham1 gaau3
 憨厚	ham1 hau5
 坎坷	ham1 ho1
 坎坷不平	ham1 ho1 bat1 ping4
@@ -109034,7 +109032,6 @@ import_tables:
 釀造學	joeng6 zou6 hok6
 養足	joeng6 zuk1
 喲女	jou1 neoi2
-搖身一變	jui4 san1 jat1 bin3
 喐不得其正	juk1 bat1 dak1 kei4 zing3
 郁不得其正	juk1 bat1 dak1 kei4 zing3
 喐親	juk1 can1
@@ -154711,7 +154708,6 @@ import_tables:
 識才	sik1 coi4
 適才	sik1 coi4
 識才尊賢	sik1 coi4 zyun1 jin4
-識趣	sik1 cui3
 淅川	sik1 cyun1
 識穿	sik1 cyun1
 淅川縣	sik1 cyun1 jyun6
@@ -154951,7 +154947,6 @@ import_tables:
 息爭	sik1 zang1
 適者生存	sik1 ze2 sang1 cyun4
 識精	sik1 zeng1
-識趣	sik1 zeoi3
 式子	sik1 zi2
 拭子	sik1 zi2
 色子	sik1 zi2
