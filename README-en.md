@@ -21,7 +21,7 @@ Schema name: ℞ `cantonese`
 
 **Romanisation Scheme**
 
-- This **only** supports the *LSHK Jyutping System* (**粵拼** in Chinese):
+- This schema **only** supports the *LSHK Jyutping System* (**粵拼** in Chinese):
     - [Jyutping 粵拼 | LSHK](https://www.lshk.org/jyutping)
     - [Jyutping: The Linguistics Society of Hong Kong Cantonese Romanization Scheme](https://www.jyutping.org/en/jyutping/)
     - [Jyutping](https://en.wikipedia.org/wiki/Jyutping)
