@@ -1,3 +1,4 @@
+[English](README-en.md)
 <div lang="yue-HK">
 
 <h1 align="center">Rime 粵語拼音方案</h1>
