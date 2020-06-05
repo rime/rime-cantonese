@@ -5095,6 +5095,7 @@ import_tables:
 蟘	dak6
 鴏	dak6	0%
 𣏾	dak6
+樴	dak6
 䏙	dam1
 揼	dam1
 㕪	dam2
@@ -76749,7 +76750,6 @@ import_tables:
 今歲	gam1 seoi3
 甘笋	gam1 seon2
 甘筍	gam1 seon2
-甘荀	gam1 seon2
 金筍	gam1 seon2
 甘醇	gam1 seon4
 金絲	gam1 si1
@@ -116469,7 +116469,7 @@ import_tables:
 立傳	laap6 zyun6
 辣親	laat3 can1
 辣低	laat3 dai1
-爇雞	laat3 gai1
+焫雞	naat3 gai1
 辣㷫	laat3 hing3
 辣興	laat3 hing3
 瘌痢	laat3 lei1
@@ -120964,7 +120964,6 @@ import_tables:
 羅斯涅夫	lo4 si1 nip6 fu1
 螺絲批	lo4 si1 pai1
 螺絲頭	lo4 si1 tau2
-鏍銯頭	lo4 si1 tau2
 羅斯托夫	lo4 si1 tok3 fu1
 羅斯托克	lo4 si1 tok3 hak1
 螺絲積	lo4 si1 zik1
@@ -135591,12 +135590,8 @@ import_tables:
 牙剪	ngaa4 zin2
 伢崽	ngaa4 zoi2
 瓦煲	ngaa5 bou1
-瓦背	ngaa5 bui2
-瓦背頂	ngaa5 bui2 deng2
 瓦背	ngaa5 bui3
-瓦背頂	ngaa5 bui3 deng1
 瓦背頂	ngaa5 bui3 deng2
-瓦背	ngaa5 bun2
 瓦罉	ngaa5 caang1
 瓦鐺	ngaa5 caang1
 瓦𦉘	ngaa5 caang1
@@ -145326,11 +145321,8 @@ import_tables:
 生蠔	saang1 hou4
 生人	saang1 jan4
 生人霸死地	saang1 jan4 baa3 sei2 dei6
-生人唔生膽	saang1 jan4 m4 saang1 daam1
 生人唔生膽	saang1 jan4 m4 saang1 daam2
-生人唔生膽	saang1 jan4 m4 sang1 daam2
 生人勿近	saang1 jan4 mat6 gan6
-生人唔生膽	saang1 jan5 m4 saang1 daam2
 生日	saang1 jat6
 生日蛋糕	saang1 jat6 daan6 gou1
 生日快樂	saang1 jat6 faai3 lok6
@@ -145369,7 +145361,7 @@ import_tables:
 生累街坊，死累朋友	saang1 leoi6 gaai1 fong1 sei2 leoi6 pang4 jau5
 生纈	saang1 lit3
 生娘	saang1 loeng4
-生孃	saang1 loeng4
+生孃	saang1 noeng4
 生路	saang1 lou6
 生龍活虎	saang1 lung4 wut6 fu2
 生埋腦筍	saang1 maai4 nou5 seon2
@@ -145411,7 +145403,6 @@ import_tables:
 生蛇	saang1 se4
 生石灰	saang1 sek6 fui1
 生石膏	saang1 sek6 gou1
-生鉎	saang1 seng3
 生鍟	saang1 seng3
 生水	saang1 seoi2
 生水芋頭	saang1 seoi2 wu6 tau2
@@ -164441,7 +164432,7 @@ import_tables:
 恬不知恥	tim4 bat1 zi1 ci2
 恬波	tim4 bo1
 甜橙	tim4 caang2
-甜情密意	tim4 cin4 mat6 ji3
+甜情密意	tim4 cing4 mat6 ji3
 恬暢	tim4 coeng3
 甜菜	tim4 coi3
 菾菜	tim4 coi3
@@ -168382,7 +168373,7 @@ import_tables:
 甕城	ung3 sing4
 甕中之鱉	ung3 zung1 zi1 bit3
 甕中捉鱉	ung3 zung1 zuk3 bit3
-瓮缸	ung5 gong1
+瓮缸	ung3 gong1
 嘩變	waa1 bin3
 蛙突	waa1 dat6
 窪地	waa1 dei6
@@ -168921,7 +168912,6 @@ import_tables:
 劃艇	waak6 teng5
 畫圖	waak6 tou4
 畫畫	waak6 waa2
-畫壞鐘馗	waak6 waai3 dung1 kwai4
 畫壞鍾馗	waak6 waai6 zung1 kwai4
 劃位	waak6 wai2
 畫則師	waak6 zak1 si1
