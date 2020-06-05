@@ -19,7 +19,7 @@
 
 ---
 name: jyut6ping3.lettered
-version: "2020.05.17"
+version: "2020.06.06"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -64,6 +64,7 @@ ace	ei1 si2
 ACO	ei1 si1 ou1
 agent	ei1 zeon2
 AK	ei1 kei1
+AK47	ei1 kei1 sei3 cat1
 all-back	o1 bek1
 alt	ot1
 alt	o6 toeng1 nik4
@@ -1313,7 +1314,8 @@ update	ap1 dei1
 白sai-sai	baak6 saai4 saai4
 碌Ling	luk1 ling1
 空liu-liu	hung1 liu1 liu1
-符fit	fu4 fit2
+符fit	fu4 fit1
+有符fit	jau5 fu4 fit1
 籮Pet	lo1 pet1
 蛇gwe	se4 gwe1
 行Q開	haang4 kiu1 hoi1
