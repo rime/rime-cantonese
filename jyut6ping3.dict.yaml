@@ -403,7 +403,7 @@ import_tables:
 毆	au2
 𠙶	au2
 嘔	au3	3%
-熰	au1
+熰	au3	3%
 岰	au3	0%
 慪	au3
 漚	au3
@@ -26022,7 +26022,8 @@ import_tables:
 醒	seng2	3%
 姓	seng3	0%
 腥	seng3	0%
-鍟	seng3	0%
+鍟	seng3	
+鉎	seng3
 城	seng4	3%
 成	seng4	0%
 㥠	seoi1
@@ -53307,7 +53308,7 @@ import_tables:
 幢幢	cong4 cong4
 藏藏掖掖	cong4 cong4 jik6 jik6
 牀單	cong4 daan1
-牀笫	cong4 si6
+牀笫	cong4 zi2
 牀墊	cong4 din3
 藏躲	cong4 do2
 藏鋒	cong4 fung1
@@ -130578,7 +130579,7 @@ import_tables:
 帽匠	mou2 zoeng6
 慕思	mou3 si1
 慕絲	mou3 si1
-爆肽	baau3 taai1
+爆呔	baau3 taai1
 模壓	mou4 aat3
 無把握	mou4 baa2 aak1
 膜拜	mou4 baai3
@@ -135569,7 +135570,6 @@ import_tables:
 伢伢	ngaa4 ngaa1
 孲𤘅	ngaa4 ngaa1
 伢伢仔	ngaa4 ngaa1 zai2
-牙吖仔	ngaa4 aa1 zai2
 牙牙仔	ngaa4 ngaa1 zai2
 牙牙學語	ngaa4 ngaa4 hok6 jyu5
 牙牙語	ngaa4 ngaa4 jyu5
@@ -135603,7 +135603,9 @@ import_tables:
 牙剪	ngaa4 zin2
 伢崽	ngaa4 zoi2
 瓦煲	ngaa5 bou1
+瓦背	ngaa5 bui2
 瓦背	ngaa5 bui3
+瓦背頂	ngaa5 bui2 deng2
 瓦背頂	ngaa5 bui3 deng2
 瓦罉	ngaa5 caang1
 瓦鐺	ngaa5 caang1
@@ -145416,6 +145418,7 @@ import_tables:
 生蛇	saang1 se4
 生石灰	saang1 sek6 fui1
 生石膏	saang1 sek6 gou1
+生鉎	saang1 seng3
 生鍟	saang1 seng3
 生水	saang1 seoi2
 生水芋頭	saang1 seoi2 wu6 tau2
