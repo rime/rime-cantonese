@@ -403,6 +403,7 @@ import_tables:
 毆	au2
 𠙶	au2
 嘔	au3	3%
+熰	au1
 岰	au3	0%
 慪	au3
 漚	au3
@@ -38231,7 +38232,6 @@ import_tables:
 爆坼	baau3 caak2
 㿺㿭	baau3 caak3
 爆㿭	baau3 caak3
-爆圻	baau3 caak3
 爆坼	baau3 caak3
 爆拆	baau3 caak3
 爆㿭膏	baau3 caak3 gou1
@@ -38293,7 +38293,6 @@ import_tables:
 爆裂物	baau3 lit6 mat6
 爆料	baau3 liu2
 爆馬檻	baau3 maa5 laam2
-爆馬欄	baau3 maa5 laam2
 爆馬欖	baau3 maa5 laam2
 爆馬纜	baau3 maa5 laam2
 爆咪	baau3 mai1
@@ -53300,7 +53299,7 @@ import_tables:
 幢幢	cong4 cong4
 藏藏掖掖	cong4 cong4 jik6 jik6
 牀單	cong4 daan1
-牀笫	cong4 dai6
+牀笫	cong4 si6
 牀墊	cong4 din3
 藏躲	cong4 do2
 藏鋒	cong4 fung1
@@ -53317,7 +53316,7 @@ import_tables:
 牀下底踢毽	cong4 haa6 dai2 tek3 jin2
 牀口	cong4 hau2
 藏器待時	cong4 hei3 doi6 si4
-牀檐	cong4 jam2
+牀檐	cong4 jim4
 牀友	cong4 jau2
 藏有	cong4 jau5
 藏掖	cong4 jik6
@@ -70149,7 +70148,7 @@ import_tables:
 攫奪	fok3 dyut6
 霍夫曼	fok3 fu1 maan6
 霍加狓	fok3 gaa1 pei1
-㺢㹢狓	fok3 gaa1 pei4
+㺢㹢狓	fok3 gaa1 pei1
 霍格沃茨	fok3 gaak3 juk1 ci4
 霍金	fok3 gam1
 霍金斯	fok3 gam1 si1
@@ -75774,7 +75773,7 @@ import_tables:
 搞活	gaau2 wut6
 狡詐	gaau2 zaa3
 搞砸	gaau2 zaap3
-狗隻	gaau2 ze3
+狗隻	gau2 zek3
 搞正	gaau2 zeng3
 攪正	gaau2 zeng3
 絞盡腦汁	gaau2 zeon6 nou5 zap1
@@ -82746,7 +82745,7 @@ import_tables:
 降職	gong3 zik1
 鋼箭	gong3 zin3
 鋼珠	gong3 zyu1
-狂掃	gong4 fu3
+狂掃	kwong4 sou3
 割包	got3 baau1
 割包皮	got3 baau1 pei4
 葛布	got3 bou3
@@ -83288,7 +83287,7 @@ import_tables:
 藁本	gou2 bun2
 稿酬	gou2 cau4
 藁草	gou2 cou2
-狗都唔吼	gou2 dou1 m4 hau1
+狗都唔吼	gau2 dou1 m4 hau1
 稿費	gou2 fai3
 稿件	gou2 gin2
 稿件	gou2 gin6
@@ -116071,7 +116070,6 @@ import_tables:
 爛泥	laan6 nai4
 爛泥扶不上牆	laan6 nai4 fu4 bat1 soeng5 coeng4
 爛泥扶唔上壁	laan6 nai4 fu4 m4 soeng5 bek3
-爛泥扶唔上柄	laan6 nai4 fu4 m4 soeng5 bek3
 爛泥糊不上牆	laan6 nai4 wu4 bat1 soeng5 coeng4
 爛女	laan6 neoi2
 爛牙	laan6 ngaa4
@@ -116088,7 +116086,7 @@ import_tables:
 爛舌頭	laan6 sit3 tau4
 爛數	laan6 sou3
 爛熟	laan6 suk6
-爛船都仲有三斤釘	laan6 syu4 dou1 zung6 jau5 saam1 gan1 deng1
+爛船都仲有三斤釘	laan6 syun4 dou1 zung6 jau5 saam1 gan1 deng1
 爛船拆埋都有三斤釘	laan6 syun4 caak3 maai4 dou1 jau5 saam1 gan1 deng1
 爛船都有三分釘	laan6 syun4 dou1 jau5 saam1 fan1 deng1
 爛船都有三斤釘	laan6 syun4 dou1 jau5 saam1 gan1 deng1
@@ -117357,7 +117355,7 @@ import_tables:
 蔞葉	lau1 jip6
 褸裙	lau1 kwan2
 褸裙	lau1 kwan4
-琉璃獸	lau1 lei1 sau3
+琉璃獸	lau4 lei4 sau3
 懰𢤩	lau1 lik1
 嬲尾	lau1 mei1
 褸尾	lau1 mei1
@@ -122011,7 +122009,7 @@ import_tables:
 落妝	lok6 zong1
 落莊	lok6 zong1
 落葬	lok6 zong3
-熝粥	lok6 zuk1
+熝粥	luk6 zuk1
 落足	lok6 zuk1
 落足工夫	lok6 zuk1 gung1 fu1
 落足眼力	lok6 zuk1 ngaan5 lik6
@@ -130570,7 +130568,7 @@ import_tables:
 帽匠	mou2 zoeng6
 慕思	mou3 si1
 慕絲	mou3 si1
-爆肽	mou3 zaai1
+爆肽	baau3 taai1
 模壓	mou4 aat3
 無把握	mou4 baa2 aak1
 膜拜	mou4 baai3
@@ -135531,7 +135529,6 @@ import_tables:
 牙痕	ngaa4 han4
 牙行	ngaa4 hang4
 牙血	ngaa4 hyut3
-牙䟫䟫	ngaa4 jaang3 jaang2
 牙𨅝𨅝	ngaa4 jaang3 jaang3
 牙音	ngaa4 jam1
 牙人	ngaa4 jan4
@@ -135560,7 +135557,7 @@ import_tables:
 伢伢	ngaa4 ngaa1
 孲𤘅	ngaa4 ngaa1
 伢伢仔	ngaa4 ngaa1 zai2
-牙吖仔	ngaa4 ngaa1 zai2
+牙吖仔	ngaa4 aa1 zai2
 牙牙仔	ngaa4 ngaa1 zai2
 牙牙學語	ngaa4 ngaa4 hok6 jyu5
 牙牙語	ngaa4 ngaa4 jyu5
@@ -137181,7 +137178,7 @@ import_tables:
 牛𦟌	ngau4 zin2
 牛精	ngau4 zing1
 牛噍牡丹	ngau4 ziu6 maau5 daan1
-牛嚼牡丹	ngau4 ziu6 maau5 daan1
+牛嚼牡丹	ngau4 zoek6 maau5 daan1
 牛𡁻牡丹	ngau4 ziu6 maau5 daan1
 牛樟	ngau4 zoeng1
 藕斷絲連	ngau5 dyun6 si1 lin4
@@ -168930,7 +168927,7 @@ import_tables:
 畫則師	waak6 zak1 si1
 或者	waak6 ze2
 畫則	waak6 zik1
-玩寳州	waan1 ban1 zau1
+玩寳州	waan2 ban1 zau1
 彎速	waan1 cuk1
 彎刀	waan1 dou1
 彎度	waan1 dou6
@@ -168990,7 +168987,7 @@ import_tables:
 玩下手	waan2 haa5 sau2
 玩下玩下	waan2 haa5 waan2 haa5
 挽鞋	waan2 haai4
-玩後庭	waan2 hau6 ting1
+玩後庭	waan2 hau6 ting4
 綰起頭髮	waan2 hei2 tau4 faat3
 玩興	waan2 hing3
 玩開	waan2 hoi1
@@ -169255,7 +169252,7 @@ import_tables:
 豢圉	waan6 jyu5
 宦騎	waan6 ke4
 轘裂	waan6 lit6
-玩麻雀	waan6 maa4 zoek2
+玩麻雀	waan2 maa4 zoek2
 患晚期	waan6 maan5 kei4
 幻滅	waan6 mit6
 宦門	waan6 mun4
@@ -170223,7 +170220,7 @@ import_tables:
 惠存	wai6 cyun4
 胃蛋白酶	wai6 daan2 baak6 mui4
 爲得人	wai6 dak1 jan4
-爲得朋友	wai6 dak1 pang4 jau3
+爲得朋友	wai6 dak1 pang4 jau5
 惠特曼	wai6 dak6 maan6
 衛隊	wai6 deoi2
 爲的是	wai6 dik1 si6
@@ -174324,7 +174321,7 @@ import_tables:
 爭天共地	zaang1 tin1 gung2 dei6
 爭天共地	zaang1 tin1 gung6 dei6
 爭天共地	zaang1 ting1 gung6 dei6
-爭位企	zaang1 wai2 kei3
+爭位企	zaang1 wai2 kei5
 崢嶸	zaang1 wing4
 崢嶸歲月	zaang1 wing4 seoi3 jyut6
 錚錚鐵漢	zaang1 zaang1 tit3 hon3
@@ -187293,7 +187290,7 @@ import_tables:
 住年妹	zyu6 nin4 mui6
 住手	zyu6 sau2
 住舍	zyu6 se3
-熟食小販	zyu6 sik6 siu2 faan2
+熟食小販	suk6 sik6 siu2 faan2
 住所	zyu6 so2
 住宿	zyu6 suk1
 箸筒	zyu6 tung4
