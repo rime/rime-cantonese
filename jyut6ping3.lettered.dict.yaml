@@ -24,7 +24,7 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 
-# 含數字和英文的詞彙
+# 含數字同英文嘅詞彙
 
 %	pat6 sen1
 %	poe6 sen1
