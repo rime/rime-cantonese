@@ -35827,8 +35827,7 @@ import_tables:
 哽心哽肺	ang2 sam1 ang2 fai3
 哽住哽住	ang2 zyu6 ang2 zyu6
 㾘㾘聲	ang4 ang2 seng1
-噏得就噏	ap1 dak1 zau6 ap1
-噏得出	ap1 dak1 zeot1
+噏得出	ngap1 dak1 zeot1
 罨耷	ap1 dap1
 罨汁	ap1 zap1
 醃臢	ap1 zap1
@@ -47334,7 +47333,6 @@ import_tables:
 車貼	ce1 tip3
 車條	ce1 tiu4
 車胎	ce1 toi1
-車呔	ce1 toi2
 奢華	ce1 waa4
 車位	ce1 wai2
 車禍	ce1 wo5
@@ -48600,7 +48598,7 @@ import_tables:
 出恭入敬	ceot1 gung1 jap6 ging3
 出公數	ceot1 gung1 sou3
 出軌	ceot1 gwai2
-出軌行爲	ceot1 gwai2 hong4 wai4
+出軌行爲	ceot1 gwai2 hang4 wai4
 出櫃	ceot1 gwai6
 出過	ceot1 gwo3
 出國	ceot1 gwok3
@@ -49380,9 +49378,8 @@ import_tables:
 詞窮	ci4 kung4
 遲來先上岸	ci4 lai4 sin1 soeng5 ngon6
 遲嚟先上岸	ci4 lai4 sin1 soeng5 ngon6
-遲嚟先上岸	ci4 lai4 sin1 soeng5 on6
-遲嚟先上渡	ci4 lai4 sin1 soeng6 dou2
-遲嚟先上岸	ci4 lai4 sin1 soeng6 ngon6
+遲嚟先上渡	ci4 lai4 sin1 soeng5 dou2
+遲嚟先上岸	ci4 lai4 sin1 soeng5 ngon6
 遲嚟先走	ci4 lai4 sin1 zau2
 磁流體	ci4 lau4 tai2
 遲嚟先上岸	ci4 lei4 sin1 soeng5 ngon6
@@ -51671,7 +51668,7 @@ import_tables:
 鋤死	co4 sei2
 鋤書	co4 syu1
 鋤頭	co4 tau2
-鋤頭唔響蕃薯唔香	co4 tau2 ng4 hoeng2 faan1 syu2 ng4 hoeng1
+鋤頭唔響蕃薯唔香	co4 tau2 m4 hoeng2 faan1 syu2 m4 hoeng1
 鋤頭	co4 tau4
 坐霸王車	co5 baa3 wong4 ce1
 坐班	co5 baan1
@@ -51738,7 +51735,7 @@ import_tables:
 卓別林	coek3 bit6 lam4
 桌布	coek3 bou3
 鵲報	coek3 bou3
-鵲巢鳩佔	coek3 caau4 kau1 zim3
+鵲巢鳩佔	coek3 caau4 gau1 zim3
 戳刺感	coek3 ci3 gam2
 灼灼	coek3 coek3
 綽綽有餘	coek3 coek3 jau5 jyu4
@@ -58856,7 +58853,7 @@ import_tables:
 低質	dai1 zat1
 低脂	dai1 zi1
 低賤	dai1 zin6
-低張	dai1 zoeng3
+低張	dai1 zoeng1
 低莊	dai1 zong1
 低俗	dai1 zuk6
 低俗化	dai1 zuk6 faa3
@@ -60358,7 +60355,6 @@ import_tables:
 𢭃泥	dau6 nai4
 豆泥餐廳	dau6 nai4 caan1 teng1
 豆泥嘢	dau6 nai4 je5
-豆泥	dau6 nei6
 豆芽	dau6 ngaa4
 豆芽菜	dau6 ngaa4 coi3
 豆芽夢	dau6 ngaa4 mung6
@@ -60394,10 +60390,10 @@ import_tables:
 豆漿店	dau6 zoeng1 dim3
 𢭃住	dau6 zyu6
 爹爹	de1 de1
-嗲哋	de1 dei6
-爹哋	de1 dei6
+嗲哋	de1 di4
+爹哋	de1 di4
 爹地	de1 dei6
-嗲哋媽咪	de1 di3 maa1 mi3
+嗲哋媽咪	de1 di4 maa1 mi4
 爹哋	de1 di4
 爹啲	de1 di4
 爹地	de1 di4
@@ -67131,7 +67127,7 @@ import_tables:
 法壓壺	faat3 aat3 wu2
 發暗	faat3 am3
 發暗話	faat3 am3 waa6
-發噏風	faat3 ap1 fung1
+發噏風	faat3 ngap1 fung1
 發白日夢	faat3 baak3 jat6 mung6
 發白	faat3 baak6
 發白日夢	faat3 baak6 jat6 mung6
@@ -77601,7 +77597,7 @@ import_tables:
 鳩佔鵲巢	gau1 zim3 zoek3 caau4
 鳩朘	gau1 zoe1
 九廿幾	gau2 aa6 gei2
-狗噏	gau2 ap1
+狗噏	gau2 ngap1
 九巴	gau2 baa1
 九品	gau2 ban2
 久不久	gau2 bat1 gau2
@@ -110113,8 +110109,7 @@ import_tables:
 愈吹愈盛	jyu6 ceoi1 jyu6 sing6
 御賜	jyu6 ci3
 遇刺	jyu6 ci3
-遇刺	jyu6 cik3
-遇刺身亡	jyu6 cik3 san1 mong4
+遇刺身亡	jyu6 ci3 san1 mong4
 籲請	jyu6 cing2
 預設	jyu6 cit3
 預設值	jyu6 cit3 zik6
@@ -112084,7 +112079,6 @@ import_tables:
 吸蟲綱	kap1 cung4 gong1
 噏耷	kap1 daap3
 扱得好冚	kap1 dak1 hou2 ham6
-噏得就噏	kap1 dak1 zau6 kap1
 吸地	kap1 dei6
 吸頂燈	kap1 deng2 dang1
 給的	kap1 dik1
@@ -152668,7 +152662,6 @@ import_tables:
 斯文倓定	si1 man4 daam6 ding6
 斯文淡定	si1 man4 daam6 ding6
 斯文男子生雞精，密實姑娘假正經	si1 man4 naam4 zi2 sang1 gai1 zing1 mat6 sat6 gu1 noeng4 gaa2 zing3 ging1
-斯文淡定	si1 man4 taam5 ding6
 斯密	si1 mat6
 私密	si1 mat6
 絲襪	si1 mat6
@@ -153719,7 +153712,6 @@ import_tables:
 示寂	si6 zik6
 事證	si6 zing3
 豉椒炒魷	si6 ziu1 caau2 jau2
-鼓椒少魷	si6 ziu1 siu3 jau2
 視障	si6 zoeng3
 視像	si6 zoeng6
 事在必行	si6 zoi6 bit1 hang4
