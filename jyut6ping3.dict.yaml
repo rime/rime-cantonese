@@ -55494,7 +55494,6 @@ import_tables:
 打假	daa2 gaa2
 打假波	daa2 gaa2 bo1
 打架	daa2 gaa3
-打假波	daa2 gaa3 bo1
 打街波	daa2 gaai1 bo1
 打嗝	daa2 gaak3
 打嗝兒	daa2 gaak3 ji4
@@ -55712,7 +55711,6 @@ import_tables:
 打鑼	daa2 lo2
 打鑼都搵唔倒	daa2 lo2 dou1 wan2 m4 dou2
 打鑼都搵唔到	daa2 lo2 dou1 wan2 m4 dou2
-打鑼都搵唔倒	daa2 lo2 dou1 wan3 m4 dou2
 打鑼噉搵	daa2 lo2 gam2 wan2
 打鑼咁搵你	daa2 lo2 gam2 wan2 nei5
 打鑼打鼓	daa2 lo4 daa2 gu2
@@ -55833,7 +55831,7 @@ import_tables:
 打思肊	daa2 si1 ik1
 打思噎	daa2 si1 jik1
 打思肊	daa2 si1 jik1
-打死	daa2 si2
+打死	daa2 sei2
 打屎窟	daa2 si2 fat1
 打色	daa2 sik1
 打骰	daa2 sik1
@@ -56746,8 +56744,6 @@ import_tables:
 大海溝	daai6 hoi2 kau1
 大海欖	daai6 hoi2 laam2
 大海撈針	daai6 hoi2 laau4 zam1
-大海撈針	daai6 hoi2 lau4 zam1
-大海撈針	daai6 hoi2 lou1 zam1
 大學	daai6 hok6
 大學部	daai6 hok6 bou6
 大學本科	daai6 hok6 bun2 fo1
@@ -57404,7 +57400,7 @@ import_tables:
 大水喉	daai6 seoi2 hau4
 大信封	daai6 seon3 fung1
 大醇小疵	daai6 seon4 siu2 ci1
-大帥	daai6 seot1
+大帥	daai6 seoi3
 大師	daai6 si1
 大師級	daai6 si1 kap1
 大司農	daai6 si1 nung4
@@ -59686,7 +59682,6 @@ import_tables:
 氹氹𡃈	dam4 dam4 kwaak1
 揼揼轉	dam4 dam4 zyun3
 氹氹轉	dam4 dam4 zyun3
-氹氹轉	dam4 tam5 zyun3
 氹波拿	dam6 bo1 naa4
 𨂽波鐘	dam6 bo1 zung1
 䂿䂿趯	dam6 dam6 dek3
@@ -62585,7 +62580,6 @@ import_tables:
 跌眼鏡	dit3 ngaan5 geng2
 跌破眼鏡	dit3 po3 ngaan5 geng2
 跌撲	dit3 pok3
-跌晒眼鏡	dit3 saai3 ngaan5 geng3
 跌勢	dit3 sai3
 跌失	dit3 sat1
 跌水	dit3 seoi2
@@ -62598,7 +62592,7 @@ import_tables:
 跌至谷底	dit3 zi3 guk1 dai2
 跌咗	dit3 zo2
 跌咗個橙執返個桔	dit3 zo2 go3 caang2 zap1 faan1 go3 gat1
-跌咗落地嗱番乍沙	dit3 zo2 lok6 dei6 naa4 faan1 zaa6 saa1
+跌咗落地揦番乍沙	dit3 zo2 lok6 dei6 laa2 faan1 zaa6 saa1
 跌足	dit3 zuk1
 迭部	dit6 bou6
 迭部縣	dit6 bou6 jyun6
@@ -62830,7 +62824,7 @@ import_tables:
 吊蘭	diu3 laan4
 吊臘鴨	diu3 laap6 aap2
 吊臘鴨	diu3 laap6 aap3
-釣泥猛	diu3 lai4 maang5
+釣泥鯭	diu3 nai4 maang1
 吊樓	diu3 lau4
 弔文	diu3 man4
 弔民伐罪	diu3 man4 fat6 zeoi6
@@ -62841,7 +62835,6 @@ import_tables:
 吊門	diu3 mun4
 吊門桔	diu3 mun4 gat1
 吊泥鯭	diu3 nai4 maang1
-吊泥艋	diu3 nai4 maang5
 釣餌	diu3 nei6
 吊鉤	diu3 ngau1
 釣鉤	diu3 ngau1
@@ -62871,7 +62864,7 @@ import_tables:
 釣艇	diu3 teng5
 吊桶	diu3 tung2
 吊環	diu3 waan4
-吊威亞	diu3 wai1 aa3
+吊威亞	diu3 wai1 aa2
 吊威也	diu3 wai1 jaa2
 吊威吔	diu3 wai1 jaa2
 弔慰	diu3 wai3
@@ -63074,7 +63067,6 @@ import_tables:
 多舊魚	do1 gau6 jyu2
 法國大餐	do1 gau6 jyu2
 多幾錢重	do1 gei2 cin4 cung5
-多計	do1 gei3
 多句嘴	do1 geoi3 zeoi2
 多極化	do1 gik6 faa3
 多哥	do1 go1
@@ -63759,7 +63751,6 @@ import_tables:
 擋住	dong2 zyu6
 當臭四	dong3 cau3 sei3
 檔次	dong3 ci3
-當場	dong3 coeng4
 當掉	dong3 diu6
 檔口	dong3 hau2
 當隠形	dong3 jan2 jing4
@@ -68635,7 +68626,6 @@ import_tables:
 忽魯謨斯	fat1 lou5 mou4 si1
 窟窿	fat1 lung1
 窟窿	fat1 lung4
-巿民	fat1 man4
 忽聞	fat1 man4
 忽微	fat1 mei4
 祓魔師	fat1 mo1 si1
@@ -69359,7 +69349,7 @@ import_tables:
 肥馬輕裘	fei4 maa5 hing1 kau4
 肥美	fei4 mei5
 肥妹	fei4 mui1
-肥仔肥妹	fei4 mui6 fei4 mui6
+肥仔肥妹	fei4 zai2 fei4 mui1
 肥滿	fei4 mun5
 肥奶奶	fei4 naai4 naai2
 肥淰淰	fei4 nam6 nam6
@@ -71315,7 +71305,7 @@ import_tables:
 婦孺	fu5 jyu4
 婦孺皆知	fu5 jyu4 gaai1 zi1
 婦聯	fu5 lyun4
-婦聯會	fu5 lyun4 wui6
+婦聯會	fu5 lyun4 wui2
 婦女	fu5 neoi5
 婦女能頂半邊天	fu5 neoi5 nang4 ding2 bun3 bin1 tin1
 婦女事務委員會	fu5 neoi5 si6 mou6 wai2 jyun4 wui2
@@ -72083,7 +72073,7 @@ import_tables:
 服務質量	fuk6 mou6 zat1 loeng6
 服務中心	fuk6 mou6 zung1 sam1
 服滿	fuk6 mun5
-伏匿匿	fuk6 nei1 nei1
+伏匿匿	buk6 nei1 nei1
 服硬	fuk6 ngaang6
 伏牛山	fuk6 ngau4 saan1
 伏臥	fuk6 ngo6
@@ -72733,8 +72723,7 @@ import_tables:
 俸祿	fung2 luk6
 俸銀	fung2 ngan2
 俸恤	fung2 seot1
-月白風清	fung3 baak6 fung1 cing1
-月白風清	fung3 baak6 fung3 cing1
+月白風清	jyut6 baak6 fung1 cing1
 諷刺	fung3 ci3
 諷刺畫	fung3 ci3 waa2
 風火水電	fung3 fo2 seoi2 din6
@@ -73681,13 +73670,14 @@ import_tables:
 架構	gaa3 kau3
 假期	gaa3 kei4
 架橋	gaa3 kiu4
-㗎嘞	gaa3 la3
-㗎喇噃	gaa3 la3 bo3
-㗎喇咩	gaa3 la3 me1
-㗎嘞咩	gaa3 la3 me1
-㗎啦	gaa3 laa1
-㗎喇	gaa3 laa3
-㗎喇	gaa3 laa4
+㗎嘞	ga3 la3
+㗎嘞	ga3 lak3
+㗎喇噃	ga3 la3 bo3
+㗎喇咩	ga3 la3 me1
+㗎嘞咩	ga3 la3 me1
+㗎啦	ga3 laa1
+㗎喇	ga3 laa3
+㗎喇	ga3 laa4
 駕臨	gaa3 lam4
 假柳	gaa3 lau5
 加哩	gaa3 le1
@@ -73702,10 +73692,10 @@ import_tables:
 架兩	gaa3 loeng2
 架樑	gaa3 loeng2
 嫁唔出	gaa3 m4 ceot1
-㗎嘛	gaa3 maa3
-㗎嘛	gaa3 maa5
+㗎嘛	ga3 maa3
+㗎嘛	ga3 maa5
 價碼	gaa3 maa5
-㗎咩	gaa3 me1
+㗎咩	ga3 me1
 㗎哶	gaa3 me1
 價目	gaa3 muk6
 㗎你	gaa3 nei5
@@ -185502,7 +185492,6 @@ import_tables:
 重點	zung6 dim2
 仲多	zung6 do1
 重度	zung6 dou6
-重蹈覆轍	zung6 dou6 fuk1 cit3
 誦讀	zung6 duk6
 誦讀困難症	zung6 duk6 kwan3 naan4 zing3
 仲加	zung6 gaa1
@@ -186836,7 +186825,7 @@ import_tables:
 絕殺	zyut6 saat3
 絕世	zyut6 sai3
 絕世佳人	zyut6 sai3 gaai1 jan4
-絕世好穚	zyut6 sai3 hou2 giu1
+絕世好轎	zyut6 sai3 hou2 kiu2
 絕詩	zyut6 si1
 絕色	zyut6 sik1
 絕食	zyut6 sik6
