@@ -79805,9 +79805,7 @@ import_tables:
 見面	gin3 min6
 見面禮	gin3 min6 lai5
 見難而上	gin3 naan4 ji4 soeng5
-見牙不見眼	gin3 ngaa4 bat1 gin3 ngaan2
 見牙不見眼	gin3 ngaa4 bat1 gin3 ngaan5
-見牙唔見牙	gin3 ngaa4 m4 gin3 ngaa4
 見牙唔見眼	gin3 ngaa4 m4 gin3 ngaan5
 見我	gin3 ngo5
 見外	gin3 ngoi2
@@ -92508,7 +92506,6 @@ import_tables:
 吃閒飯	hek3 haan4 faan6
 吃口吃舌	hek3 hau2 hek3 sit6
 吃後悔藥	hek3 hau6 fui3 joek6
-吃香	hek3 heon1
 吃香	hek3 hoeng1
 吃香喝辣	hek3 hoeng1 hot3 laat6
 吃喝	hek3 hot3
@@ -92806,9 +92803,8 @@ import_tables:
 去咗飲	heoi3 zo2 jam2
 去咗賣鹹鴨蛋	heoi3 zo2 maai6 haam4 aap3 daan6
 去做乜	heoi3 zou6 mat1
-㗾㗾聲	heoi4 heoi4 seng1
-㗾㗾聲	heo4 hoe2 seng1
-香燈	heon1 dang1
+㗾㗾聲	hoe4 hoe2 seng1
+香燈	hoeng1 dang1
 嘻嘻哈哈	hi1 hi1 haa1 haa1
 嘻嘻㗾㗾	hi4 hi1 hoe4 hoe4
 謙卑	him1 bei1
@@ -93807,7 +93803,6 @@ import_tables:
 何許	ho4 heoi2
 何許人	ho4 heoi2 jan4
 何去何從	ho4 heoi3 ho4 cung4
-㗾㗾聲	ho4 hoe4 seng1
 何鴻燊	ho4 hung4 san1
 何人	ho4 jan4
 何日	ho4 jat6
@@ -100189,7 +100184,7 @@ import_tables:
 一夫當關，萬夫莫開	jat1 fu1 dong1 gwaan1 maan6 fu1 mok6 hoi1
 一夫一妻	jat1 fu1 jat1 cai1
 一夫一妻制	jat1 fu1 jat1 cai1 zai3
-一仆一趢	jat1 fu6 jat1 luk1
+一仆一趢	jat1 puk1 jat1 luk1
 一闊三大	jat1 fut3 saam1 daai6
 一家	jat1 gaa1
 一家大細	jat1 gaa1 daai6 sai3
@@ -101016,12 +101011,12 @@ import_tables:
 一醉解千愁	jat1 zeoi3 gaai2 cin1 sau4
 一准	jat1 zeon2
 一準	jat1 zeon2
-一齊	jat1 zi1
+一齊	jat1 cai4
 一知半解	jat1 zi1 bun3 gaai2
 一枝獨秀	jat1 zi1 duk6 sau3
 一支公	jat1 zi1 gung1
 一枝公	jat1 zi1 gung1
-一齊嚟	jat1 zi1 lei4
+一齊嚟	jat1 cai4 lei4
 一之爲甚	jat1 zi1 wai4 sam6
 一之謂甚	jat1 zi1 wai6 sam6
 一枝之棲	jat1 zi1 zi1 cai1
@@ -102083,7 +102078,7 @@ import_tables:
 猶子	jau4 zi2
 遊子	jau4 zi2
 油紙遮	jau4 zi2 ze1
-啞子食黃蓮	jau4 zi2 zi6 gei2 zi1
+啞子食黃蓮	jau4 zi2 sik6 wong4 lin4
 油漬	jau4 zi3
 猶自	jau4 zi6
 尤自可	jau4 zi6 ho2
@@ -102416,7 +102411,7 @@ import_tables:
 有氣質	jau5 hei3 zat1
 有險可守	jau5 him2 ho2 sau2
 有興趣	jau5 hing3 ceoi3
-有何不可	jau5 ho2 bat1 ho2
+有何不可	jau5 ho4 bat1 ho2
 有可能	jau5 ho2 nang4
 有何貴幹	jau5 ho4 gwai3 gon3
 有何指教	jau5 ho4 zi2 gaau3
@@ -102938,7 +102933,7 @@ import_tables:
 右翼	jau6 jik6
 又煙又酒	jau6 jin1 jau6 zau2
 右舷	jau6 jin4
-右㕭	jau6 jiu1
+右㕭	jau6 jaau1
 又要	jau6 jiu3
 又要馬兒好，又要馬兒不吃草	jau6 jiu3 maa5 ji4 hou2 jau6 jiu3 maa5 ji4 bat1 hek3 cou2
 又要馬兒跑，又要馬兒不吃草	jau6 jiu3 maa5 ji4 paau2 jau6 jiu3 maa5 ji4 bat1 hek3 cou2
@@ -102959,7 +102954,7 @@ import_tables:
 又乜又物	jau6 mat1 jau6 mat6
 右面	jau6 min6
 又名	jau6 ming4
-右撓	jau6 naau5
+右撓	jau6 jaau1
 又呢又嚕	jau6 nei1 jau6 lou3
 右眼	jau6 ngaan5
 右肴	jau6 ngaau1
@@ -103003,7 +102998,7 @@ import_tables:
 右箭頭鍵	jau6 zin3 tau4 gin6
 佑助	jau6 zo6
 右轉	jau6 zyun3
-椰殼	je2 hok3
+椰殼	je4 hok3
 椰青	je4 ceng1
 椰菜	je4 coi3
 椰菜花	je4 coi3 faa1
@@ -103042,7 +103037,7 @@ import_tables:
 爺們兒	je4 mun4 ji4
 椰奶	je4 naai5
 野女	je4 neoi2
-耶撚	je4 nin2
+耶撚	je4 nan2
 爺娘	je4 noeng4
 耶西	je4 sai1
 耶洗別	je4 sai2 bit6
@@ -103624,12 +103619,11 @@ import_tables:
 伊吾縣	ji1 ng4 jyun6
 醫五臟廟	ji1 ng5 zong6 miu2
 𡄵牙	ji1 ngaa4
-依牙鬆䚗	ji1 ngaa4 sung1 gong1
+依牙鬆䚗	ji1 ngaa4 sung1 gong3
 依牙鬆槓	ji1 ngaa4 sung1 gong3
 依牙鬆鋼	ji1 ngaa4 sung1 gong3
 𪘲牙聳䚗	ji1 ngaa4 sung1 gong3
-依牙鬆槓	ji1 ngaa4 sung1 gung3
-依牙鬆弶	ji1 ngaa4 sung1 koeng5
+依牙鬆弶	ji1 ngaa4 sung1 gong3
 衣鉤	ji1 ngau1
 衣鉤兒	ji1 ngau1 ji4
 依我看	ji1 ngo5 hon3
@@ -103986,7 +103980,7 @@ import_tables:
 而泣	ji4 jap1
 夷猶	ji4 jau4
 咦咿	ji4 ji1
-衣衣哎哎	ji4 ji1 aai1 aai1
+衣衣哎哎	ji4 ji1 aai4 aai4
 咦咦哽哽	ji4 ji1 ang4 ang4
 咦咿哦哦	ji4 ji1 ngo4 ngo4
 咦咿𠹷𠹷	ji4 ji1 ngo4 ngo4
@@ -104345,7 +104339,6 @@ import_tables:
 以老大自居	ji5 lou5 daai6 zi6 geoi1
 擬鹵素	ji5 lou5 sou3
 耳窿	ji5 lung1
-耳窿	ji5 lung4
 耳聾	ji5 lung4
 以馬內利	ji5 maa5 noi6 lei6
 以貌取人	ji5 maau6 ceoi2 jan4
@@ -108238,7 +108231,7 @@ import_tables:
 洋脊	joeng4 zek3
 楊俊	joeng4 zeon3
 楊枝甘露	joeng4 zi1 gam1 lou6
-鍚紙	joeng4 zi2
+錫紙	sek3 zi2
 洋紫荊	joeng4 zi2 ging1
 揚子江	joeng4 zi2 gong1
 揚子鱷	joeng4 zi2 ngok6
@@ -108407,7 +108400,7 @@ import_tables:
 恙蟲病	joeng6 cung4 beng6
 樣單	joeng6 daan1
 釀豆腐	joeng6 dau6 fu6
-養法	joeng6 faat3
+養法	joeng5 faat3
 樣機	joeng6 gei1
 釀蟹箝	joeng6 haai5 kim4
 讓開	joeng6 hoi1
@@ -108426,8 +108419,8 @@ import_tables:
 樣貌	joeng6 maau6
 釀母菌	joeng6 mou5 kwan2
 釀酶	joeng6 mui4
-養女	joeng6 neoi5
-養眼	joeng6 ngaan5
+養女	joeng5 neoi5
+養眼	joeng5 ngaan5
 讓我們	joeng6 ngo5 mun4
 嚷劈	joeng6 pek3
 樣衰	joeng6 seoi1
@@ -143263,7 +143256,6 @@ import_tables:
 耍手	saa2 sau2
 灑手兼擰頭	saa2 sau2 gim1 ning6 tau2
 耍手兼擰頭	saa2 sau2 gim1 ning6 tau2
-耍手擰頭	saa2 sau2 ling6 tau4
 灑手擰頭	saa2 sau2 ning6 tau2
 耍手擰頭	saa2 sau2 ning6 tau2
 耍手擰頭	saa2 sau2 ning6 tau4
@@ -149667,7 +149659,6 @@ import_tables:
 受難日	sau6 naan6 jat6
 受難者	sau6 naan6 ze2
 受納	sau6 naap6
-受唔起	sau6 ng4 hei2
 受硬唔受軟	sau6 ngaang6 m4 sau6 jyun5
 壽寧	sau6 ning4
 壽寧縣	sau6 ning4 jyun6
@@ -150190,7 +150181,6 @@ import_tables:
 死人尋舊路	sei2 jan4 cam4 gau6 lou6
 死人燈籠	sei2 jan4 dang1 lung4
 死人都	sei2 jan4 dou1
-死人兼冧屋	sei2 jan4 gim1 lam1 uk1
 死人兼冧屋	sei2 jan4 gim1 lam3 uk1
 死人骨	sei2 jan4 gwat1
 死人野	sei2 jan4 je5
@@ -153820,7 +153810,6 @@ import_tables:
 析毫剖釐	sik1 hou4 fau2 lei4
 飾胸鷸	sik1 hung1 wat6
 識飲識食	sik1 jam2 sik1 sik6
-識飲識食	sik1 jam2 zi3 sik6
 適人	sik1 jan4
 識人好過識字	sik1 jan4 hou2 gwo3 sik1 zi6
 識人要帶眼	sik1 jan4 jiu3 daai3 ngaan5
@@ -163846,7 +163835,7 @@ import_tables:
 天文學	tin1 man4 hok6
 天文學大成	tin1 man4 hok6 daai6 sing4
 天文學家	tin1 man4 hok6 gaa1
-天文望遠鏡	tin1 man4 mong6 jyun6 geng3
+天文望遠鏡	tin1 man4 mong6 jyun5 geng3
 天文數字	tin1 man4 sou3 zi6
 天文臺	tin1 man4 toi4
 天明	tin1 ming4
@@ -164169,7 +164158,6 @@ import_tables:
 聽診器	ting1 can2 hei3
 聽取	ting1 ceoi2
 聽隨	ting1 ceoi4
-聽朝早	ting1 ciu4 zou2
 聽窗	ting1 coeng1
 聽牆根	ting1 coeng4 gan1
 聽牆根兒	ting1 coeng4 gan1 ji4
@@ -164257,7 +164245,6 @@ import_tables:
 聽會	ting3 wui2
 聽執	ting3 zap1
 聽之任之	ting3 zi1 jam6 zi1
-聽朝早	ting3 ziu1 zou2
 聽障	ting3 zoeng3
 聽衆	ting3 zung3
 聽訟	ting3 zung6
@@ -164392,8 +164379,6 @@ import_tables:
 貼錢	tip3 cin2
 貼錢買難受	tip3 cin2 maai5 naan4 sau6
 貼錢買難受	tip3 cin2 maai5 naan6 sau6
-貼錢買難受	tip3 cin2 maai5 no4 sau6
-貼錢賣難受	tip3 cin2 maai6 naan6 sau6
 貼切	tip3 cit3
 貼錯門神	tip3 co3 mun4 san4
 貼錯門神	tip3 cok3 mun4 san4
@@ -169782,7 +169767,6 @@ import_tables:
 雲安縣	wan4 on1 jyun6
 魂魄	wan4 paak3
 魂魄唔齊	wan4 paak3 m4 cai4
-魂魄唔齊	wan4 paak3 m4 zi1
 雲豹	wan4 paau3
 雲盤	wan4 pun2
 雲沙	wan4 saa1
@@ -170590,7 +170574,6 @@ import_tables:
 和順	wo4 seon6
 和順縣	wo4 seon6 jyun6
 和事佬	wo4 si6 lou2
-和事老	wo4 si6 lou5
 和事酒	wo4 si6 zau2
 和食	wo4 sik6
 和善	wo4 sin6
