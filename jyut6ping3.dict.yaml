@@ -112662,7 +112662,6 @@ import_tables:
 旗艦店	kei4 laam6 dim3
 奇麗	kei4 lai6
 淇淋	kei4 lam4
-騎樓	kei4 lau2
 奇離	kei4 lei4
 其利斷金	kei4 lei6 dyun3 gam1
 麒麟	kei4 leon2
@@ -116711,7 +116710,7 @@ import_tables:
 甩咗	lat1 zo2
 甩鍾	lat1 zung1
 摟錢	lau1 cin2
-褸錯人皮	lau1 cok3 jan4 pei4
+褸錯人皮	lau1 co3 jan4 pei4
 褸裙	lau1 gwan4
 褸口褸面	lau1 hau2 lau1 min6
 嬲好定笑好	lau1 hou2 ding6 siu3 hou2
@@ -131141,7 +131140,7 @@ import_tables:
 冇心肝	mou5 sam1 gon1
 冇心裝載	mou5 sam1 zong1 zoi3
 武生	mou5 sang1
-冇蝨搵蝨撓	mou5 sat1 wan2 sat1 naau5
+冇蝨搵蝨撓	mou5 sat1 wan2 sat1 naau4
 冇修	mou5 sau1
 冇收	mou5 sau1
 冇手	mou5 sau2
@@ -138572,7 +138571,7 @@ import_tables:
 嫩滑	nyun6 waat6
 嫩雀	nyun6 zoek2
 嫰雀	nyun6 zoek3
-屙遏尿	o1 aat3 niu6
+屙餲尿	o1 aat3 niu6
 痾遏尿	o1 at1 niu6
 痾不甩	o1 bat1 lat1
 痾拔甩	o1 bat6 lat1
@@ -140975,7 +140974,7 @@ import_tables:
 霹靂火	pik1 lik1 fo2
 霹靂舞	pik1 lik1 mou5
 霹靂啪啦	pik1 lik1 paak1 laa1
-霹靂拍勒	pik1 lik1 paak3 lak6
+霹靂啪嘞	pik1 lik1 paak1 laak1
 霹靂州	pik1 lik1 zau1
 辟味	pik1 mei6
 劈面	pik1 min6
@@ -145198,9 +145197,8 @@ import_tables:
 西蘭花	sai1 laan4 faa1
 西冷	sai1 laang1
 西冷牛扒	sai1 laang1 ngau4 paa2
-西冷牛扒	sai1 laang1 ngau4 paa4
 西冷扒	sai1 laang1 paa2
-西冷牛扒	sai1 laang5 ngau4 paa4
+西冷牛扒	sai1 laang5 ngau4 paa2
 西林	sai1 lam4
 西林縣	sai1 lam4 jyun6
 西林區	sai1 lam4 keoi1
@@ -146827,7 +146825,6 @@ import_tables:
 新貴	san1 gwai3
 新軍	san1 gwan1
 身光頸靚	san1 gwong1 geng2 leng3
-身光頸靚	san1 gwong1 geng2 zing6
 新喀里多尼亞	san1 haak3 lei5 do1 nei4 aa3
 身陷	san1 haam6
 身陷囹圄	san1 haam6 ling4 jyu5
@@ -154469,7 +154466,6 @@ import_tables:
 先得	sin1 dak1
 仙都唔仙	sin1 dou1 m4 sin1
 仙都唔仙下	sin1 dou1 m4 sin1 haa5
-仙都唔仙吓	sin1 dou1 m4 sin1 haa5
 仙島	sin1 dou2
 先睹爲快	sin1 dou2 wai4 faai3
 先到先得	sin1 dou3 sin1 dak1
@@ -155476,8 +155472,8 @@ import_tables:
 成本效益	sing4 bun2 haau6 jik1
 成半	sing4 bun3
 成親	sing4 can1
-成層	sing4 cang4
-成層樓	sing4 cang4 lau2
+成層	seng4 cang4
+成層樓	seng4 cang4 lau2
 乘車	sing4 ce1
 乘除	sing4 ceoi4
 城池	sing4 ci4
@@ -160977,7 +160973,7 @@ import_tables:
 說着玩	syut3 zoek6 wun6
 說着玩兒	syut3 zoek6 wun6 ji4
 雪仗	syut3 zoeng3
-雪藏	syut3 zong6
+雪藏	syut3 cong4
 雪中送炭	syut3 zung1 sung3 taan3
 雪種	syut3 zung2
 雪珠	syut3 zyu1
@@ -161138,7 +161134,6 @@ import_tables:
 太空卡	taai3 hung1 kaat1
 太空咭	taai3 hung1 kaat1
 太空褸	taai3 hung1 lau1
-太空褸	taai3 hung1 leoi5
 太空漫步	taai3 hung1 maan6 bou6
 太空舞步	taai3 hung1 mou5 bou6
 太空衫	taai3 hung1 saam1
@@ -161392,7 +161387,6 @@ import_tables:
 貪平	taam1 peng4
 貪便宜	taam1 pin4 ji2
 貪便宜	taam1 pin4 ji4
-貪平	taam1 ping4
 貪心	taam1 sam1
 貪心不足	taam1 sam1 bat1 zuk1
 貪心不足蛇吞象	taam1 sam1 bat1 zuk1 se4 tan1 zoeng6
@@ -161446,7 +161440,6 @@ import_tables:
 探風	taam3 fung1
 探家	taam3 gaa1
 探監	taam3 gaam1
-探監	taam3 gaam3
 探究	taam3 gau3
 探究式	taam3 gau3 sik1
 探見	taam3 gin3
@@ -162560,7 +162553,7 @@ import_tables:
 騰騰	tang4 tang4
 藤條	tang4 tiu2
 藤條炆豬肉	tang4 tiu2 man1 zyu1 juk6
-藤條燘豬肉	tang4 tiu2 mui5 zyu1 juk6
+藤條燜豬肉	tang4 tiu2 man1 zyu1 juk6
 疼痛	tang4 tung3
 騰雲駕霧	tang4 wan4 gaa3 mou6
 滕王閣	tang4 wong4 gok3
@@ -162634,7 +162627,7 @@ import_tables:
 偷稅	tau1 seoi3
 偷師	tau1 si1
 偷食	tau1 sik6
-偷食禁果	tau1 sik6 kam1 gwo2
+偷食禁果	tau1 sik6 gam3 gwo2
 偷食唔抹嘴	tau1 sik6 m4 maat3 zeoi2
 偷竊	tau1 sit3
 偷竊狂	tau1 sit3 kwong4
@@ -163042,7 +163035,6 @@ import_tables:
 頭暈身㷫	tau4 wan4 san1 hing3
 頭暈身熱	tau4 wan4 san1 jit6
 頭暈暈	tau4 wan4 wan4
-頭暈暈	tau4 wan6 wan6
 頭鑊	tau4 wok2
 投壺	tau4 wu2
 頭回	tau4 wui4
@@ -170869,7 +170861,7 @@ import_tables:
 黃金桃	wong4 gam1 tou2
 黃金屋	wong4 gam1 uk1
 黃金週	wong4 gam1 zau1
-黃黚黚	wong4 gam4 gam4
+黃黚黚	wong4 kam4 kam4
 黃巾	wong4 gan1
 黃巾軍	wong4 gan1 gwan1
 黃巾起義	wong4 gan1 hei2 ji6
@@ -182766,7 +182758,6 @@ import_tables:
 作美	zok3 mei5
 作夢	zok3 mung6
 作牙	zok3 ngaa4
-作嘔	zok3 ngau2
 作弄	zok3 nung6
 作愛	zok3 oi3
 作惡	zok3 ok3
@@ -184987,7 +184978,7 @@ import_tables:
 中華臺北	zung1 waa4 toi4 bak1
 中華鷓鴣	zung1 waa4 ze3 gu1
 中華字海	zung1 waa4 zi6 hoi2
-盅惑仔	zung1 waak6 zai2
+蠱惑仔	gu2 waak6 zai2
 中環	zung1 waan4
 中環街市	zung1 waan4 gaai1 si5
 中環廣場	zung1 waan4 gwong2 coeng4
@@ -185441,7 +185432,7 @@ import_tables:
 仲裁	zung6 coi4
 重大	zung6 daai6
 重大貢獻	zung6 daai6 gung3 hin3
-從低做起	zung6 dai1 zou6 hei2
+從低做起	cung4 dai1 zou6 hei2
 頌德	zung6 dak1
 仲得了	zung6 dak1 liu5
 重得了	zung6 dak1 liu5
@@ -185485,7 +185476,7 @@ import_tables:
 重要問題	zung6 jiu3 man6 tai4
 重要性	zung6 jiu3 sing3
 頌揚	zung6 joeng4
-從容	zung6 jung4
+縱容	zung6 jung4
 重用	zung6 jung6
 重於泰山	zung6 jyu1 taai3 saan1
 仲遠	zung6 jyun5
