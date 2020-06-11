@@ -19,7 +19,7 @@
 
 ---
 name: jyut6ping3.lettered
-version: "2020.06.06"
+version: "2020.06.11"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -1316,6 +1316,7 @@ update	ap1 dei1
 空liu-liu	hung1 liu1 liu1
 符fit	fu4 fit1
 有符fit	jau5 fu4 fit1
+冇符fit	mou5 fu4 fit1
 籮Pet	lo1 pet1
 蛇gwe	se4 gwe1
 行Q開	haang4 kiu1 hoi1
