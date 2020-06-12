@@ -16797,6 +16797,7 @@ import_tables:
 䭫	kai2
 䭬	kai2
 启	kai2
+呇	kai2
 唘	kai2	0%
 啓	kai2
 啔	kai2	0%
@@ -21136,6 +21137,7 @@ import_tables:
 蟁	man1
 抆	man2
 聞	man2	0%
+呇	man3
 𠍁	man3
 𠽊	man3
 㐎	man4	0%
@@ -23147,6 +23149,7 @@ import_tables:
 撢	ngam4
 玵	ngam4
 雸	ngam4
+唅	ngam4	0%
 㜝	ngam5
 䯥	ngam6
 喑	ngam6	3%
@@ -35356,25 +35359,26 @@ import_tables:
 嗌通街	aai3 tung1 gaai1
 嗌痛	aai3 tung3
 唉唉聲	aai4 aai2 seng1
-呃呃騙騙	aak1 aak1 pin3 pin3
-呃呃氹氹	aak1 aak1 tam3 tam3
-呃呃𠱁𠱁	aak1 aak1 tam3 tam3
+呃呃騙騙	ngaak1 ngaak1 pin3 pin3
+呃呃氹氹	ngaak1 ngaak1 tam3 tam3
+呃呃𠱁𠱁	ngaak1 ngaak1 tam3 tam3
+呃呃𧨾𧨾	ngaak1 ngaak1 tam3 tam3
 握別	aak1 bit6
-呃錢	aak1 cin2
-呃秤	aak1 cing3
-呃稱	aak1 cing3
-呃飯食	aak1 faan6 sik6
+呃錢	ngaak1 cin2
+呃秤	ngaak1 cing3
+呃稱	ngaak1 cing3
+呃飯食	ngaak1 faan6 sik6
 扼頸	aak1 geng2
 厄境	aak1 ging2
 厄瓜多	aak1 gwaa1 do1
 厄瓜多爾	aak1 gwaa1 do1 ji5
-呃鬼	aak1 gwai2
-呃鬼食豆腐	aak1 gwai2 sik6 dau6 fu6
-呃蝦條	aak1 haa1 tiu2
+呃鬼	ngaak1 gwai2
+呃鬼食豆腐	ngaak1 gwai2 sik6 dau6 fu6
+呃蝦條	ngaak1 haa1 tiu2
 扼喉撫背	aak1 hau4 fu2 bui3
-呃飲呃食	aak1 jam2 aak1 sik6
-呃人	aak1 jan4
-呃人喎	aak1 jan4 wo3
+呃飲呃食	ngaak1 jam2 ngaak1 sik6
+呃人	ngaak1 jan4
+呃人喎	ngaak1 jan4 wo3
 握有	aak1 jau5
 厄爾布魯士	aak1 ji5 bou3 lou5 si6
 厄爾尼諾	aak1 ji5 nei4 nok6
@@ -35389,9 +35393,10 @@ import_tables:
 握力	aak1 lik6
 厄洛斯	aak1 lok6 si1
 厄難	aak1 naan6
-呃晒	aak1 saai3
+呃晒	ngaak1 saai3
+呃嗮	ngaak1 saai3
 扼殺	aak1 saat3
-呃神騙鬼	aak1 san4 pin3 gwai2
+呃神騙鬼	ngaak1 san4 pin3 gwai2
 厄什塔	aak1 sap6 taap3
 握實	aak1 sat6
 扼守	aak1 sau2
@@ -35695,9 +35700,9 @@ import_tables:
 縊殺	ai3 saat3
 縊死	ai3 sei2
 翳滯	ai3 zai6
-呃錢	ak1 cin4
+呃錢	ngaak1 cin4
 齷齪	ak1 cuk1
-呃得就呃	ak1 dak1 zau6 ak1
+呃得就呃	ngaak1 dak1 zau6 ngaak1
 厄瓜多爾	ak1 gwaa1 do1 ji5
 呃人	ak1 jan4
 啞然無生	ak1 jin4 mou4 sang1
@@ -41277,7 +41282,7 @@ import_tables:
 扁桃樹	pin1 tou4 syu6
 扁桃果	pin1 tou4 gwo2
 貶謫	bin2 zaak6
-扁舟	bin2 zau1
+扁舟	pin1 zau1
 扁嘴	bin2 zeoi2
 扁嘴海雀	bin2 zeoi2 hoi2 zoek3
 貶職	bin2 zik1
@@ -60743,6 +60748,7 @@ import_tables:
 趯佬	dek3 lou2
 趯路	dek3 lou2
 趯路	dek3 lou6
+趯走	dek3 zau2
 趯唔切	dek3 m4 cit3
 笛卡兒	dek6 kaa1 ji4
 笛卡兒座標制	dek6 kaa1 ji4 zo6 biu1 zai3
@@ -62762,8 +62768,9 @@ import_tables:
 𨳒你老味	diu2 nei5 lou5 mei2
 𨳒你鹵味	diu2 nei5 lou5 mei2
 屌你老尾冚家剷	diu2 nei5 lou5 mei2 ham6 gaa1 caan2
-燒你收簿	diu2 nei5 lou5 moi2
-你鹵味	diu2 nei5 lou5 mou2
+燒你收簿	siu1 nei5 sau1 bou2
+你老尾	nei5 lou5 mou2
+你鹵味	nei5 lou5 mou2
 屌你老母	diu2 nei5 lou5 mou2
 㓤埋你老母	gat1 maai4 nei5 lou5 mou2
 𨳒你老母	diu2 nei5 lou5 mou2
@@ -72633,9 +72640,9 @@ import_tables:
 風水輪流轉	fung1 seoi2 leon4 lau4 zyun2
 風水輪流轉	fung1 seoi2 leon4 lau4 zyun3
 風水佬	fung1 seoi2 lou2
-風水佬呃你十年八年	fung1 seoi2 lou2 ak1 nei5 sap6 nin4 baat3 nin4
-風水佬呃你十年八年，唔呃得一世	fung1 seoi2 lou2 ak1 nei5 sap6 nin4 baat3 nin4 m4 ak1 dak1 jat1 sai3
-風水佬唔呃得十年八年	fung1 seoi2 lou2 m1 aak1 dak1 sap6 nin4 baat3 nin4
+風水佬呃你十年八年	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
+風水佬呃你十年八年，唔呃得一世	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4 m4 ngaak1 dak1 jat1 sai3
+風水佬唔呃得十年八年	fung1 seoi2 lou2 m4 ngaak1 dak1 sap6 nin4 baat3 nin4
 風水佬呃你十年八年	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
 風水尾	fung1 seoi2 mei2
 風水尾	fung1 seoi2 mei5
@@ -77246,7 +77253,7 @@ import_tables:
 更衣	gang1 ji1
 更衣室	gang1 ji1 sat1
 羹藜含糗	gang1 lai4 ham4 cau3
-羹藜唅糗	gang1 lai4 ham6 cau3
+羹藜唅糗	gang1 lai4 ham4 cau3
 粳米	gang1 mai5
 更名	gang1 ming4
 庚午	gang1 ng5
@@ -111749,7 +111756,7 @@ import_tables:
 卡債	kaat1 zaai3
 咭紙	kaat1 zi2
 交叉	kaau1 caa1
-靠呃	kaau3 ak1
+靠呃	kaau3 ngaak1
 靠北	kaau3 bak1
 靠不住	kaau3 bat1 zyu6
 靠邊	kaau3 bin1
@@ -114764,13 +114771,13 @@ import_tables:
 喇喇臨	laa4 laa4 lam4
 喇喇聲	laa4 laa4 seng1
 喇臨	laa4 lam4
-拿手	laa4 sau2
+拿手	naa4 sau2
 啦聲	laa4 seng1
-剌𠛱	laa5 zaa2
 嗱喳	laa5 zaa2
 揦苴	laa5 zaa2
 揦鮓	laa5 zaa2
 藞䕢	laa5 zaa2
+藞䕢麪	laa5 zaa2 min6
 揦鮓麪	laa5 zaa2 min6
 拉巴	laai1 baa1
 拉巴特	laai1 baa1 dak6
@@ -135886,14 +135893,14 @@ import_tables:
 僞造者	ngai6 zou6 ze2
 魏忠賢	ngai6 zung1 jin4
 呃神騙鬼	ngak1 san4 pin3 gwai2
-奄列	ngam1 lit6
-揞脈	ngam2 mak6
-揞住	ngam2 zyu6
-揞住良心	ngam2 zyu6 loeng4 sam1
-揞住嘴笑	ngam2 zyu6 zeoi2 siu3
-暗啞底	ngam3 aa2 dai2
-暗渠	ngam3 keoi4
-暗啞抵	ngam3 ngaa2 dai2
+奄列	am1 lit6
+揞脈	am2 mak6
+揞住	am2 zyu6
+揞住良心	am2 zyu6 loeng4 sam1
+揞住嘴笑	am2 zyu6 zeoi2 siu3
+暗啞底	am3 aa2 dai2
+暗渠	am3 keoi4
+暗啞抵	am3 aa2 dai2
 吟噆	ngam4 cam4
 吟沉	ngam4 cam4
 唅沈	ngam4 cam4
@@ -139539,9 +139546,9 @@ import_tables:
 趴街	paa1 gaai1
 趴下	paa1 haa6
 趴晒地	paa1 saai3 dei2
-派士砵	paa1 si2 but3
+派士砵	paa3 si6 but3
 趴時	paa1 si4
-扒啼	paa1 ti4
+扒𢚖	paa1 ti4
 扒飯	paa2 faan6
 扒房	paa2 fong4
 怕醜	paa3 cau2
@@ -152918,8 +152925,8 @@ import_tables:
 屎渠	si2 keoi4
 屎竅	si2 kiu2
 屎橋	si2 kiu2
-死竅	si2 kiu4
-死橋	si2 kiu4
+死竅	si2 kiu2
+死橋	si2 kiu2
 使困擾	si2 kwan3 jiu2
 屎淋尿瀨	si2 lam4 niu6 laai6
 史料	si2 liu2
@@ -153203,7 +153210,7 @@ import_tables:
 時期	si4 kei4
 時區	si4 keoi1
 噝哩沙啦	si4 li1 saa4 laa4
-㖷哩𡄽𠼱	si4 li1 soe4 loe4
+噝哩𡄽𠼱	si4 li1 soe4 loe4
 時令	si4 ling6
 蒔籮	si4 lo4
 蒔羅	si4 lo4
@@ -162127,7 +162134,7 @@ import_tables:
 睇少	tai2 siu2
 睇相佬	tai2 soeng1 lou2
 睇相	tai2 soeng3
-睇相佬呃你十年八年	tai2 soeng3 lou2 aak1 nei5 sap6 nin4 baat3 nin4
+睇相佬呃你十年八年	tai2 soeng3 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
 睇上眼	tai2 soeng5 ngaan5
 睇數	tai2 sou3
 睇餸食飯	tai2 sung3 sik6 faan6
@@ -162548,8 +162555,7 @@ import_tables:
 佮佮冚	tap1 tap1 ham6
 塔塔冚	tap1 tap1 ham6
 甩拖	tat1 to1
-偷呃拐騙	tau1 aak1 gwaai2 pin3
-偷呃拐騙	tau1 ak1 gwaai2 pin3
+偷呃拐騙	tau1 ngaak1 gwaai2 pin3
 偷薄	tau1 bok6
 透薄	tau1 bok6
 偷步	tau1 bou6
@@ -172791,7 +172797,6 @@ import_tables:
 炸両	zaa3 loeng5
 炸兩	zaa3 loeng5
 詐聾扮啞	zaa3 lung4 baan6 aa2
-詐聾扮啞	zaa3 lung4 baan6 ngaa2
 詐唔知	zaa3 m4 zi1
 詐媽嬌	zaa3 maa1 giu1
 咋嘛	zaa3 maa3
@@ -186764,3 +186769,115 @@ import_tables:
 絕招	zyut6 ziu1
 絕章	zyut6 zoeng1
 絕種	zyut6 zung2
+呃呃騙騙	ngaak1 ngaak1 pin3 pin3
+呃呃氹氹	ngaak1 ngaak1 tam3 tam3
+呃呃𠱁𠱁	ngaak1 ngaak1 tam3 tam3
+呃呃𧨾𧨾	ngaak1 ngaak1 tam3 tam3
+呃錢	ngaak1 cin2
+呃秤	ngaak1 cing3
+呃稱	ngaak1 cing3
+呃飯食	ngaak1 faan6 sik6
+呃鬼	ngaak1 gwai2
+呃鬼食豆腐	ngaak1 gwai2 sik6 dau6 fu6
+呃蝦條	ngaak1 haa1 tiu2
+呃飲呃食	ngaak1 jam2 ngaak1 sik6
+呃人	ngaak1 jan4
+呃人喎	ngaak1 jan4 wo3
+呃晒	ngaak1 saai3
+呃嗮	ngaak1 saai3
+呃神騙鬼	ngaak1 san4 pin3 gwai2
+呃錢	ngaak1 cin4
+呃得就呃	ngaak1 dak1 zau6 ngaak1
+畀人呃	bei2 jan4 ngaak1
+風水佬呃你十年八年	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
+風水佬呃你十年八年，唔呃得一世	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4 m4 ngaak1 dak1 jat1 sai3
+風水佬唔呃得十年八年	fung1 seoi2 lou2 m4 ngaak1 dak1 sap6 nin4 baat3 nin4
+靠呃	kaau3 ngaak1
+呃錢呃糧票	ngaak1 cin2 ngaak1 loeng4 piu3
+呃食	ngaak1 sik6
+睇相佬呃你十年八年	tai2 soeng3 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
+偷呃拐騙	tau1 ngaak1 gwaai2 pin3
+呃呃騙騙	ngak1 ngak1 pin3 pin3
+呃呃氹氹	ngak1 ngak1 tam3 tam3
+呃呃𠱁𠱁	ngak1 ngak1 tam3 tam3
+呃呃𧨾𧨾	ngak1 ngak1 tam3 tam3
+呃錢	ngak1 cin2
+呃秤	ngak1 cing3
+呃稱	ngak1 cing3
+呃飯食	ngak1 faan6 sik6
+呃鬼	ngak1 gwai2
+呃鬼食豆腐	ngak1 gwai2 sik6 dau6 fu6
+呃蝦條	ngak1 haa1 tiu2
+呃飲呃食	ngak1 jam2 ngak1 sik6
+呃人	ngak1 jan4
+呃人喎	ngak1 jan4 wo3
+呃晒	ngak1 saai3
+呃嗮	ngak1 saai3
+呃神騙鬼	ngak1 san4 pin3 gwai2
+呃錢	ngak1 cin4
+呃得就呃	ngak1 dak1 zau6 ngak1
+畀人呃	bei2 jan4 ngak1
+風水佬呃你十年八年	fung1 seoi2 lou2 ngak1 nei5 sap6 nin4 baat3 nin4
+風水佬呃你十年八年，唔呃得一世	fung1 seoi2 lou2 ngak1 nei5 sap6 nin4 baat3 nin4 m4 ngak1 dak1 jat1 sai3
+風水佬唔呃得十年八年	fung1 seoi2 lou2 m4 ngak1 dak1 sap6 nin4 baat3 nin4
+靠呃	kaau3 ngak1
+呃錢呃糧票	ngak1 cin2 ngak1 loeng4 piu3
+呃食	ngak1 sik6
+睇相佬呃你十年八年	tai2 soeng3 lou2 ngak1 nei5 sap6 nin4 baat3 nin4
+偷呃拐騙	tau1 ngak1 gwaai2 pin3
+眲眲騙騙	ngaak1 ngaak1 pin3 pin3
+眲眲氹氹	ngaak1 ngaak1 tam3 tam3
+眲眲𠱁𠱁	ngaak1 ngaak1 tam3 tam3
+眲眲𧨾𧨾	ngaak1 ngaak1 tam3 tam3
+眲錢	ngaak1 cin2
+眲秤	ngaak1 cing3
+眲稱	ngaak1 cing3
+眲飯食	ngaak1 faan6 sik6
+眲鬼	ngaak1 gwai2
+眲鬼食豆腐	ngaak1 gwai2 sik6 dau6 fu6
+眲蝦條	ngaak1 haa1 tiu2
+眲飲眲食	ngaak1 jam2 ngaak1 sik6
+眲人	ngaak1 jan4
+眲人喎	ngaak1 jan4 wo3
+眲晒	ngaak1 saai3
+眲嗮	ngaak1 saai3
+眲神騙鬼	ngaak1 san4 pin3 gwai2
+眲錢	ngaak1 cin4
+眲得就眲	ngaak1 dak1 zau6 ngaak1
+畀人眲	bei2 jan4 ngaak1
+風水佬眲你十年八年	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
+風水佬眲你十年八年，唔眲得一世	fung1 seoi2 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4 m4 ngaak1 dak1 jat1 sai3
+風水佬唔眲得十年八年	fung1 seoi2 lou2 m4 ngaak1 dak1 sap6 nin4 baat3 nin4
+靠眲	kaau3 ngaak1
+眲錢眲糧票	ngaak1 cin2 ngaak1 loeng4 piu3
+眲食	ngaak1 sik6
+睇相佬眲你十年八年	tai2 soeng3 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
+偷眲拐騙	tau1 ngaak1 gwaai2 pin3
+眲眲騙騙	ngak1 ngak1 pin3 pin3
+眲眲氹氹	ngak1 ngak1 tam3 tam3
+眲眲𠱁𠱁	ngak1 ngak1 tam3 tam3
+眲眲𧨾𧨾	ngak1 ngak1 tam3 tam3
+眲錢	ngak1 cin2
+眲秤	ngak1 cing3
+眲稱	ngak1 cing3
+眲飯食	ngak1 faan6 sik6
+眲鬼	ngak1 gwai2
+眲鬼食豆腐	ngak1 gwai2 sik6 dau6 fu6
+眲蝦條	ngak1 haa1 tiu2
+眲飲眲食	ngak1 jam2 ngak1 sik6
+眲人	ngak1 jan4
+眲人喎	ngak1 jan4 wo3
+眲晒	ngak1 saai3
+眲嗮	ngak1 saai3
+眲神騙鬼	ngak1 san4 pin3 gwai2
+眲錢	ngak1 cin4
+眲得就眲	ngak1 dak1 zau6 ngak1
+畀人眲	bei2 jan4 ngak1
+風水佬眲你十年八年	fung1 seoi2 lou2 ngak1 nei5 sap6 nin4 baat3 nin4
+風水佬眲你十年八年，唔眲得一世	fung1 seoi2 lou2 ngak1 nei5 sap6 nin4 baat3 nin4 m4 ngak1 dak1 jat1 sai3
+風水佬唔眲得十年八年	fung1 seoi2 lou2 m4 ngak1 dak1 sap6 nin4 baat3 nin4
+靠眲	kaau3 ngak1
+眲錢眲糧票	ngak1 cin2 ngak1 loeng4 piu3
+眲食	ngak1 sik6
+睇相佬眲你十年八年	tai2 soeng3 lou2 ngak1 nei5 sap6 nin4 baat3 nin4
+偷眲拐騙	tau1 ngak1 gwaai2 pin3
