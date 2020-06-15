@@ -1,112 +1,23 @@
 # Rime schema
 # encoding: utf-8
 
+__include: jyut6ping3.schema:/
+
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "2020.05.25"
+  version: "2020.06.15"
   author:
     - sgalal <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
     - tanxpyox <tanxpyox@gmail.com>
-
   description: |-
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
     支援 IPA 顯示同聲調輸入
     Telegram 用户交流組 https://t.me/rime_cantonese
-
-  dependencies:
-    - luna_pinyin
-    - stroke
-    - cangjie5
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - options: [ noop, trad_hk, trad_tw, simplification ]
-    states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
-    # 取消下行註釋，預設香港傳統漢字 [其他選項：0,1,2,3 --> 對應上表]
-    #reset: 1
-  - name: ascii_punct
-    states: [ 。，, ．， ]
-  - name: emoji_suggestion
-    reset: 1
-    states: [ 無 Emoji, 有 Emoji ]
-
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - affix_segmentor@luna_pinyin
-    - affix_segmentor@stroke
-    - affix_segmentor@cangjie5
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - script_translator
-    - script_translator@luna_pinyin
-    - table_translator@stroke
-    - table_translator@cangjie5
-  filters:
-    - simplifier@trad_tw
-    - simplifier@trad_hk
-    - simplifier
-    - simplifier@emoji_suggestion
-    - uniquifier
-    - reverse_lookup_filter
-
-speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
-  algebra:
-    # 取消下兩行註釋，支援疑影不分
-    #- derive/^ng([aeiou])/$1/
-    #- derive/^([aeiou])/ng$1/
-
-    # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
-    #- derive/^n(?!g)/l/
-
-    # 取消下行註釋，支援 gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
-    #- derive/^(g|k)w/$1/
-
-    # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
-    #- derive/^ng([123456])$/m$1/
-
-    - derive/[123456]//           # 忽略声调
-    - xform/1/v/                  # 陰平
-    - xform/4/vv/                 # 陽平
-    - xform/2/x/                  # 陰上
-    - xform/5/xx/                 # 陽上
-    - xform/3/q/                  # 陰去
-    - xform/6/qq/                 # 陽去
-    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
-    - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
-    - derive/^jyu/ju/             # 容錯 jyu -> ju
-    - derive/yu/y/                # 容錯 jyu -> jy
-    - derive/eoi$/oey/            # 容錯
-    - derive/eoi$/eoy/            # 容錯
-    - derive/eo/oe/               # 容錯 eo/oe 不分
-    - derive/oe(ng|k)$/eo$1/      # 容錯
-    - derive/aa$/a/               # 容錯
-    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
-    - abbrev/^([a-z]{2}).+$/$1/   # 首2字母簡拼
 
 translator:
   dictionary: jyut6ping3
@@ -186,71 +97,3 @@ translator:
     - xform/s/s/                              # 死sei
     - xform/z/T͡s/                             # 這t͡sɛː
     - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
-
-luna_pinyin:
-  tag: luna_pinyin
-  dictionary: luna_pinyin
-  prefix: "`"
-  suffix: ";"
-  tips: 〔拼音〕
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
-
-stroke:
-  tag: stroke
-  dictionary: stroke
-  prefix: "x"
-  suffix: ";"
-  tips: 〔筆畫〕
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
-
-cangjie5:
-  tag: cangjie5
-  dictionary: cangjie5
-  enable_user_dict: false
-  prefix: "v"
-  suffix: ";"
-  tips: 〔倉頡五代〕
-  preedit_format:
-    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
-  disable_user_dict_for_patterns:
-    - "^z.*$"
-    - "^yyy.*$"
-
-reverse_lookup:
-  tags: [ luna_pinyin, stroke, cangjie5 ]
-  overwrite_comment: false
-  dictionary: jyut6ping3
-
-trad_tw:
-  option_name: trad_tw
-  opencc_config: t2tw.json
-
-trad_hk:
-  option_name: trad_hk
-  opencc_config: t2hk.json
-
-emoji_suggestion:
-  opencc_config: emoji.json
-  option_name: emoji_suggestion
-  tips: all
-
-punctuator:
-  import_preset: symbols_cantonese
-
-key_binder:
-  import_preset: default
-
-recognizer:
-  import_preset: default
-  patterns:
-    punct: "^/([0-9]0?|[a-z]+)$"
-    luna_pinyin: "`[a-z']*;?$"
-    stroke: "^x[hspnz]*;?$"
-    cangjie5: "^v[a-z]*;?$"
