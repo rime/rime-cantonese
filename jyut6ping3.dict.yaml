@@ -41268,6 +41268,7 @@ import_tables:
 扁撻撻	bin2 tet6 tet6
 扁踢踢	bin2 tet6 tet6
 扁桃	bin2 tou4
+扁桃果	bin2 tou4 gwo2
 扁桃腺	bin2 tou4 sin3
 扁桃體	bin2 tou4 tai2
 扁桃體炎	bin2 tou4 tai2 jim4
@@ -44267,9 +44268,7 @@ import_tables:
 半價	bun3 gaa3
 半間不界	bun3 gaan1 bat1 gaai3
 半金屬	bun3 gam1 suk6
-半斤八両	bun3 gan1 baat3 loeng2
 半斤八兩	bun3 gan1 baat3 loeng2
-半斤八両	bun3 gan1 baat3 loeng5
 半斤八兩	bun3 gan1 baat3 loeng5
 半句	bun3 geoi3
 半腱肌	bun3 gin3 gei1
@@ -49031,7 +49030,6 @@ import_tables:
 此處	ci2 cyu3
 此地	ci2 dei6
 此地無銀	ci2 dei6 mou4 ngan4
-此地無銀三百両	ci2 dei6 mou4 ngan4 saam1 baak3 loeng2
 此地無銀三百兩	ci2 dei6 mou4 ngan4 saam1 baak3 loeng2
 始點	ci2 dim2
 此電腦	ci2 din6 nou5
@@ -67427,6 +67425,7 @@ import_tables:
 法拉利	faat3 laai1 lei2
 法拉利	faat3 laai1 lei6
 法拉盛	faat3 laai1 sing6
+法蘭西	faat3 laan1 sai1
 法蘭西皇帝	faat3 laan1 sai1 wong4 dai3
 法蘭	faat3 laan4
 法蘭德斯	faat3 laan4 dak1 si1
@@ -67439,7 +67438,6 @@ import_tables:
 法蘭克福證券交易所	faat3 laan4 hak1 fuk1 zing3 hyun3 gaau1 jik6 so2
 法蘭克林	faat3 laan4 hak1 lam4
 法蘭絨	faat3 laan4 jung2
-法蘭西	faat3 laan1 sai1
 法蘭西	faat3 laan4 sai1
 法蘭西多士	faat3 laan4 sai1 do1 si2
 法蘭西共和國	faat3 laan4 sai1 gung6 wo4 gwok3
@@ -70221,9 +70219,7 @@ import_tables:
 放誕不羈	fong3 daan3 bat1 gei1
 放誕不拘	fong3 daan3 bat1 keoi1
 放低	fong3 dai1
-放低幾両	fong3 dai1 gei2 loeng2
 放低幾兩	fong3 dai1 gei2 loeng2
-放低二両	fong3 dai1 ji6 loeng2
 放低二兩	fong3 dai1 ji6 loeng2
 放低二兩	fong3 dai1 ji6 loeng5
 放得下	fong3 dak1 haa6
@@ -77028,7 +77024,6 @@ import_tables:
 斤嘢	gan1 je5
 筋肉	gan1 juk6
 根源	gan1 jyun4
-斤両	gan1 loeng2
 斤兩	gan1 loeng2
 筋絡	gan1 lok6
 跟佬	gan1 lou2
@@ -135998,7 +135993,6 @@ import_tables:
 銀樓	ngan4 lau4
 銀臉長尾山雀	ngan4 lim5 coeng4 mei5 saan1 zoek3
 銀蓮花	ngan4 lin4 faa1
-銀両	ngan4 loeng2
 銀兩	ngan4 loeng2
 銀兩	ngan4 loeng5
 銀亮	ngan4 loeng6
@@ -141072,7 +141066,6 @@ import_tables:
 偏疼	pin1 tang4
 偏頭痛	pin1 tau4 tung3
 偏聽偏信	pin1 ting1 pin1 seon3
-扁桃果	bin2 tou4 gwo2
 篇韻	pin1 wan5
 偏護	pin1 wu6
 編撰	pin1 zaan3
@@ -143494,7 +143487,7 @@ import_tables:
 三九四零五二	saam1 gau2 sei3 ling4 ng5 ji6
 三九天	saam1 gau2 tin1
 三幾	saam1 gei2
-三幾両	saam1 gei2 loeng5
+三幾兩	saam1 gei2 loeng5
 三句不離	saam1 geoi3 bat1 lei4
 三句不離本行	saam1 geoi3 bat1 lei4 bun2 hong4
 三句話不離本行	saam1 geoi3 waa2 bat1 lei4 bun2 hong4
@@ -150459,7 +150452,6 @@ import_tables:
 四輪馬車	sei3 leon4 maa5 ce1
 四靈	sei3 ling4
 四兩撥千斤	sei3 loeng2 but3 cin1 gan1
-四両撥千斤	sei3 loeng2 but6 cin1 gan1
 四兩撥千斤	sei3 loeng2 but6 cin1 gan1
 四六七零九三九四	sei3 luk6 cat1 ling4 gau2 saam1 gau2 sei3
 四氯化碳	sei3 luk6 faa3 taan3
@@ -172755,9 +172747,7 @@ import_tables:
 炸雷	zaa3 leoi4
 詐領	zaa3 ling5
 炸裂	zaa3 lit6
-炸両	zaa3 loeng2
 炸兩	zaa3 loeng2
-炸両	zaa3 loeng5
 炸兩	zaa3 loeng5
 詐聾扮啞	zaa3 lung4 baan6 aa2
 詐唔知	zaa3 m4 zi1
