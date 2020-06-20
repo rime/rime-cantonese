@@ -22855,7 +22855,7 @@ import_tables:
 𤵐	ng6
 枒	ngaa1
 椏	ngaa1
-禡	ngaa2	3%
+禡	ngaa4	3%
 㧎	ngaa4
 䄰	ngaa4
 伢	ngaa4
@@ -50214,7 +50214,6 @@ import_tables:
 前男友	cin4 naam4 jau5
 前女友	cin4 neoi5 jau5
 前額	cin4 ngaak6
-錢罌	cin4 ngaang1
 前年	cin4 nin2
 前年	cin4 nin4
 前腦	cin4 nou5
@@ -84693,7 +84692,7 @@ import_tables:
 工子	gung1 zi2
 工字	gung1 zi2
 公子哥兒	gung1 zi2 go1 ji4
-公治	gung1 zi3
+公治	gung1 zi6
 工字鋼	gung1 zi6 gong3
 工字型	gung1 zi6 jing4
 工字形	gung1 zi6 jing4
@@ -104019,7 +104018,6 @@ import_tables:
 咿咿哦哦	ji4 ji1 ngo4 ngo4
 咿咿𠹷𠹷	ji4 ji1 ngo4 ngo4
 𠲖𠲖哦哦	ji4 ji1 ngo4 ngo4
-依依鵝鵝	ji4 ji1 ngo5 ngo5
 咿咿哦哦	ji4 ji1 o4 o4
 宜咿哦哦	ji4 ji1 o4 o4
 而已	ji4 ji5
@@ -116762,9 +116760,9 @@ import_tables:
 摟當	lau3 dong3
 嘍口	lau3 hau2
 溜口	lau3 hau2
-留口	lau3 hau2
-留口留舌	lau3 hau2 lau3 sit6
-留口佬	lau3 hau2 lou2
+留口	lau4 hau2
+留口留舌	lau4 hau2 lau4 sit6
+留口佬	lau4 hau2 lou2
 瘤鴨	lau4 aap3
 流鶯	lau4 ang1
 留壩	lau4 baa3
@@ -121898,7 +121896,7 @@ import_tables:
 老虎蟹	lou5 fu2 haai5
 老虎蟹都	lou5 fu2 haai5 dou1
 老虎鉗	lou5 fu2 kim2
-老虎乸	lou5 fu2 laa2
+老虎乸	lou5 fu2 naa2
 老虎唔發威當病貓	lou5 fu2 m4 faat3 wai1 dong3 beng6 maau1
 老虎乸	lou5 fu2 naa2
 老虎伍茲	lou5 fu2 ng5 zi1
@@ -134012,8 +134010,9 @@ import_tables:
 你身份證	nei5 san1 fan2 zing3
 你身上	nei5 san1 soeng6
 你死我活	nei5 sei2 ngo5 wut6
-你醒啦	nei5 seng2 laa4
-你醒嗱	nei5 seng2 laa4
+你醒啦	nei5 seng2 laa1
+你醒喇	nei5 seng2 laa3
+你醒喇	nei5 seng2 laa4
 你試下	nei5 si3 haa5
 你事	nei5 si6
 你先	nei5 sin1	1000.0
@@ -137139,13 +137138,13 @@ import_tables:
 戇喪	ngong6 song3
 戇頭戇腦	ngong6 tau4 ngong6 nou5
 戇直	ngong6 zik6
-擙落來	ngou1 lok6 lai4
-擙落嚟	ngou1 lok6 lei4
-擙唔到	ngou1 m4 dou2
-懊悔	ngou3 fui3
-懊悔不已	ngou3 fui3 bat1 ji5
-懊惱	ngou3 nou5
-懊喪	ngou3 song3
+擙落來	ou1 lok6 lai4
+擙落嚟	ou1 lok6 lei4
+擙唔到	ou1 m4 dou2
+懊悔	ou3 fui3
+懊悔不已	ou3 fui3 bat1 ji5
+懊惱	ou3 nou5
+懊喪	ou3 song3
 鰲抃	ngou4 bin6
 敖貝得	ngou4 bui3 dak1
 鰲背負山	ngou4 bui3 fu6 saan1
@@ -148031,7 +148030,7 @@ import_tables:
 十問九唔應	sap6 man6 gau2 m4 jing1
 十問九唔應	sap6 man6 gau2 m4 jing3
 拾物	sap6 mat6
-入面	sap6 min6
+十面	sap6 min6
 十面埋伏	sap6 min6 maai4 fuk6
 十拿九穩	sap6 naa4 gau2 wan2
 十五	sap6 ng5
@@ -181365,7 +181364,7 @@ import_tables:
 左下方	zo2 haa6 fong1
 左下角	zo2 haa6 gok3
 阻嚇	zo2 haak3
-左行	zo2 haang1
+左行	zo2 haang4
 左口魚	zo2 hau2 jyu2
 左口魚	zo2 hau2 jyu4
 左後	zo2 hau6
