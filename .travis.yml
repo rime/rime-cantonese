@@ -1,3 +1,5 @@
+if: tag IS present OR branch = master
+
 jobs:
   include:
 # For Mac pkg and Linux installation script
