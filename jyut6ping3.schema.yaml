@@ -32,12 +32,13 @@ switches:
   - options: [ noop, trad_hk, trad_tw, simplification ]
     states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
     # 取消下行註釋，預設香港傳統漢字 [其他選項：0,1,2,3 --> 對應上表]
-    #reset: 1 
+    #reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: emoji_suggestion
-    reset: 1
-    states: [ 無 Emoji, 有 Emoji ]
+    # 取消下行註釋，預設啓動 emoji
+    #reset: 1
+    states: [ 冇 Emoji, 有 Emoji ]
 
 engine:
   processors:
