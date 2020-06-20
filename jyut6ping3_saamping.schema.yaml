@@ -1,0 +1,59 @@
+# Rime schema
+# encoding: utf-8
+
+__include: jyut6ping3.schema:/
+
+schema:
+  schema_id: jyut6ping3_saamping
+  name: 粵語拼音（三拼）
+  version: "2020.06.15"
+  author:
+    - sgalal <ayaka@mail.shn.hk>
+    - LeiMaau <leimaau@qq.com>
+    - chaaklau <chaakming@gmail.com>
+    - laubonghaudoi <laubonghaudoi@icloud.com>
+    - tanxpyox <tanxpyox@gmail.com>
+  description: |-
+    採用香港語言學學會粵語拼音方案
+    https://www.lshk.org/jyutping
+    支援三拼輸入
+    Telegram 用户交流組 https://t.me/rime_cantonese
+
+speller:
+  algebra/+:
+    - derive/ng/x/
+    - derive/kw/q/
+    - derive/gw/q/
+    - derive/aa/r/
+    - derive/eo/v/
+    - derive/oe/v/
+
+translator:
+  dictionary: jyut6ping3
+  prism: jyut6ping3_saamping
+  spelling_hints: 8
+  preedit_format:
+    # 暫時唔支持 xx/qq/vv/x/q/v 轉換成聲調
+    # - xform/vv($|[ '])/$1⁴/
+    # - xform/xx($|[ '])/$1⁵/
+    # - xform/qq($|[ '])/$1⁶/
+    # - xform/v($|[ '])/$1¹/
+    # - xform/x($|[ '])/$1²/
+    # - xform/q($|[ '])/$1³/
+
+    # - xform/x/ng/
+    # - xform/([^ aeioury'])vng/$1oeng/
+    # - xform/([^ aeioury'])vv([tyin])/$1eo$2/
+    # - xform/([^ aeioury'])v/$1oe/
+    # - xform/r/aa/
+    # - xform/(^|[ '])q/$1(g|k)w
+    # - xform/y(?!u)/yu/
+    # - xform/(^|[ '])yu/$1jyu/
+
+# 停用【x】，【v】掣反查功能
+recognizer:
+  import_preset: default
+  patterns/=:
+    punct: "^/([0-9]0?|[a-z]+)$"
+    # 可將 luna_pinyin 改做 cangjie5 或者 stroke 嚟啓用倉頡或者五筆反查
+    luna_pinyin: "`[a-z']*;?$"
