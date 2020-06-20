@@ -1,3 +1,7 @@
+branches:
+  only:
+  - master
+
 jobs:
   include:
 # For Mac pkg and Linux installation script
