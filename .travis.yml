@@ -1,6 +1,4 @@
-branches:
-  only:
-  - master
+if: tag IS present OR branch = master
 
 jobs:
   include:
