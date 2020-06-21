@@ -25,17 +25,28 @@ fi
 # Set sort order by locale (default: "C"=radical-stroke)
 LC_ALL="C"
 
-for file in ${candidates[@]}
-do
-  echo ===============================
+chmod u+w ${candidates[@]}
+
+echo ===============================
+for file in ${candidates[@]}; do
   echo $file
-  awk '{if(!x["..."] && $0 != "...") {print > "a.tmp";} else if($0 == "...") {print > "a.tmp";x["..."]++;} else if($0=="" || !x[$0]++) {print > "b.tmp"}}' $file
-  echo  "  : uniquified"
+  awk '{
+    if (!x["..."] && $0!="...") {
+      print > "a.tmp";
+    } else if ($0=="...") {
+      print > "a.tmp"
+      x["..."]++
+    } else if ($0=="" || !x[$0]++) {
+      print > "b.tmp"
+    }
+  }' $file &&\
+    echo  "  : uniquified"
   if [ $(echo $goodToSort | grep -w $file) ]; then
-    sort -k2,2 -k1,1 -o b.tmp b.tmp
-    echo "  : sorted"
+    sort -k2,2 -k1,1 -o b.tmp b.tmp &&\
+      echo "  : sorted"
   fi
-  cat a.tmp b.tmp > $file
+  cat a.tmp b.tmp > $file &&\
+    echo  "  - changes merged"
   rm a.tmp b.tmp
-  echo  "  - changes merged"
+  echo ===============================
 done
