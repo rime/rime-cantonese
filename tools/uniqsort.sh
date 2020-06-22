@@ -2,11 +2,7 @@
 # Remove duplicates && Sort entries BY PRONUNCIATION (if available); else, BY CHINESE CHARACTERS
 
 # Base list--to be 'uniquified'
-candidates=(
-  jyut6ping3.dict.yaml
-  jyut6ping3.lettered.dict.yaml
-  jyut6ping3.phrase.dict.yaml
-)
+candidates=($( ls *.dict.yaml ))
 
 # Add files to this list if they are ALSO READY TO BE SORTED
 goodToSort=(
@@ -23,7 +19,7 @@ if [ $OSTYPE=="msys" ]; then
 fi
 
 # Set sort order by locale (default: "C"=radical-stroke)
-LC_ALL="C"
+if [ -z ${LC_ALL} ]; then LC_ALL="C"; fi
 
 chmod u+w ${candidates[@]}
 
