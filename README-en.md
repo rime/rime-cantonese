@@ -23,7 +23,7 @@ Schema name: ℞ `cantonese`
     - [Jyutping 粵拼 | LSHK](https://www.lshk.org/jyutping)
     - [Jyutping: The Linguistics Society of Hong Kong Cantonese Romanization Scheme](https://www.jyutping.org/en/jyutping/)
     - [Jyutping](https://en.wikipedia.org/wiki/Jyutping)
-- For users of other romanization schemes (e.g. Yale, EduHK), please download the relevant patch file [here](https://github.com/tanxpyox/rime-cantonese-schemes).
+- For users of other romanization schemes (e.g. Yale, EduHK), please download the corresponding patch file [here](https://github.com/tanxpyox/rime-cantonese-schemes).
 
 **Demo**
 
@@ -48,13 +48,13 @@ While tone markers are not obligatory for typing characters, you may use the fol
 1. v: High level, e.g. `siv` → 「詩」; High level checked, e.g. `sikv` →「色」
 2. x: Medium rising, e.g. `six` →「史」
 3. q: Medium level, e.g. `siq`→「試」; Medium level checked, e.g. `sekq` →「錫」
-4. vv: Low falling, e.g. sivv →「時」
+4. vv: Low falling, e.g. `sivv` →「時」
 5. xx: Low rising, e.g. `sixx` →「市」
 6. qq: Low level, e.g. `siqq`→「事」; Low level checked, e.g. `sikqq` →「食」
 
 ### Fuzzy input
 
-This schema **does not support by default** any fuzzy or 'lazy' pronunciations, i.e. pairs like **n-/l-** and **&empty;-/ng-** are contrastive. If you want the schema to accommodate for fuzzy pronunciations, uncomment the relevant lines under the `speller:algebra` section in the schema file. e.g. If you want the input method to support the **n-/l-** → **l-** merger, use:
+This schema **does not support by default** any fuzzy or 'lazy' pronunciations, i.e. pairs like **n-/l-** and **&empty;-/ng-** are contrastive. If you want the schema to accommodate for fuzzy pronunciations, uncomment the relevant lines under the `speller/algebra:` section in the schema file. e.g. If you want the input method to support the **n-/l-** → **l-** merger, use:
 
 ```yaml
 # 取消下行註釋, 支援 n- 併入 l- , 如「你」讀若「理」
@@ -65,7 +65,7 @@ and redeploy. Then voila, `lei hou` will now be recognized internally as 'nei ho
 
 ### Regional Character Variations
 
-This schema uses the OpenCC standard character set by default--coded as「傳統漢字」in the file. If you want to switch over to the Hong Kong, Taiwan or Mainland Chinese standard, click <kbd>Ctrl</kbd> + <kbd>`</kbd> and choose the relevant standard from the options list.
+This schema uses the OpenCC standard character set by default--coded as「傳統漢字」in the file. If you want to switch over to the Hong Kong, Taiwanese or Mainland Chinese standard, click <kbd>Ctrl</kbd> + <kbd>`</kbd> and choose the relevant standard from the options list.
 
 ### Reverse lookup
 

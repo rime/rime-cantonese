@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Remove duplicates && Sort entries BY PRONUNCIATION (if available); else, BY CHINESE CHARACTERS
+# Remove duplicates && Sort entries BY PRONUNCIATION (if available);
+#                         else, BY CHINESE CHARACTERS
 
 # Base list--to be 'uniquified'
 candidates=($( ls *.dict.yaml ))
@@ -12,11 +13,6 @@ goodToSort=(
   ## jyut6ping3.dict.yaml
   ## jyut6ping3.lettered.dict.yaml
 )
-
-# Override Win32 sort.exe if on Git Bash
-if [ $OSTYPE=="msys" ]; then
-  PATH="/usr/bin:$PATH"
-fi
 
 # Set sort order by locale (default: "C"=radical-stroke)
 if [ -z ${LC_ALL} ]; then LC_ALL="C"; fi
@@ -38,7 +34,7 @@ for file in ${candidates[@]}; do
   }' $file &&\
     echo  "  : uniquified"
   if [ $(echo $goodToSort | grep -w $file) ]; then
-    sort -k2,2 -k1,1 -o b.tmp b.tmp &&\
+    /usr/bin/sort -k2,2 -k1,1 -o b.tmp b.tmp &&\
       echo "  : sorted"
   fi
   cat a.tmp b.tmp > $file &&\

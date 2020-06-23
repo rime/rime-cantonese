@@ -22,11 +22,11 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 **拼音方案**
 
-- 本方案**凈**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
+- 本方案**凈係**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
     - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
     - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
     - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
-- 另外有由第三方開發者製作，只供教育用途嘅分歧拼音方案補丁，方便用户從其他方案過渡至粵拼。詳情請參閱[呢度](https://github.com/tanxpyox/rime-cantonese-schemes)。
+- 其他拼音方案嘅補丁：詳情請參閱 [`tanxpyox/rime-cantonese-schemes`](https://github.com/tanxpyox/rime-cantonese-schemes)。
 
 **演示**
 
@@ -48,16 +48,16 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 輸入個陣可以忽略聲調，如果想打埋聲調，對應鍵位係：
 
-1. v：陰平，打 siv 出「詩」；上陰入，打 sikv 出「色」
-2. x：陰上，打 six 出「史」
-3. q：陰去，打 siq 出「試」；下陰入，打 sekq 出「錫」
-4. vv：陽平，打 sivv 出「時」
-5. xx：陽上，打 sixx 出「市」
-6. qq：陽去，打 siqq 出「事」；陽入，打 sikqq 出「食」
+1. v：陰平，打 `siv` 出「詩」；上陰入，打 `sikv` 出「色」
+2. x：陰上，打 `six` 出「史」
+3. q：陰去，打 `siq` 出「試」；下陰入，打 `sekq` 出「錫」
+4. vv：陽平，打 `sivv` 出「時」
+5. xx：陽上，打 `sixx` 出「市」
+6. qq：陽去，打 `siqq` 出「事」；陽入，打 `sikqq` 出「食」
 
 ### 添加模糊音支援
 
-本方案預設**唔支援**任何模糊音同懶音，即區分 n-/l-, &empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3_ipa.schema.yaml`（IPA 版），拉到下面 `speller:algebra` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
+本方案預設**唔支援**任何模糊音同懶音，即區分 n-/l-, &empty;-/ng- 等常見懶音。如果想支援模糊音，先打開 `jyut6ping3.schema.yaml` 或者 `jyut6ping3_ipa.schema.yaml`（IPA 版），拉到下面 `speller/algebra:` 部分，可以見到幾行註釋咗嘅代碼。想要支援某個或者幾個模糊音，就將相應嘅嗰行代碼取消註釋（刪咗前面個 `#` 去），例如要支援 n-/l- 不分，就改成噉：
 
 ```yaml
 # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
