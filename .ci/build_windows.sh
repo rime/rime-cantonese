@@ -10,7 +10,7 @@ export rime_dir=build/windows/data
 curl -fsSL  https://git.io/rime-install | bash -s -- ${WEASEL_PACKAGES}
 
 # Prepare installer exe
-wget -P ./build/windows ${WEASEL_LINK}
+wget -P ./build/windows ${WEASEL_LINK} --no-check-certificate
 
 # Packing sfx installer...
 wget https://github.com/tanxpyox/7z.sfx-backup/raw/master/${SFXHEADER}
