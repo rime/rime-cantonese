@@ -34546,9 +34546,7 @@ import_tables:
 亞歐大陸	aa3 au1 daai6 luk6
 亞歐大陸腹地	aa3 au1 daai6 luk6 fuk1 dei6
 亞歐大陸橋	aa3 au1 daai6 luk6 kiu4
-亞爸	aa3 baa1
 阿巴	aa3 baa1
-阿爸	aa3 baa1
 阿爸父	aa3 baa1 fu6
 阿巴嘎旗	aa3 baa1 gaa1 kei4
 阿巴拉契亞	aa3 baa1 laai1 kai3 aa3
@@ -36595,7 +36593,7 @@ import_tables:
 迫擊炮	baak1 gik1 paau3
 迫害	baak1 hoi6
 迫於形勢	baak1 jyu1 jing4 sai3
-啪紐	baak1 nau2
+啪紐	paak1 nau2
 廹鈕	baak1 nau2
 迫紐	baak1 nau2
 迫鈕	baak1 nau2
@@ -37007,7 +37005,7 @@ import_tables:
 白膠漿	baak6 gaau1 zoeng1
 帛金	baak6 gam1
 白金	baak6 gam1
-鉑金	baak6 gam1
+鉑金	bok6 gam1
 白金漢宮	baak6 gam1 hon3 gung1
 白金漢郡	baak6 gam1 hon3 gwan6
 白金卡	baak6 gam1 kaa1
@@ -37150,7 +37148,6 @@ import_tables:
 白眶斑翅鶥	baak6 kwaang1 baan1 ci3 mei4
 白眶鶲鶯	baak6 kwaang1 jung1 ang1
 白眶雀鶥	baak6 kwaang1 zoek3 mei4
-白賴嘥	baak6 laai4 saai4
 白賴晒	baak6 laai4 saai4
 白賴𤿂	baak6 laai4 saai4
 白欖	baak6 laam2
@@ -41981,7 +41978,7 @@ import_tables:
 鏢客	biu1 haak3
 飆口水	biu1 hau2 seoi2
 錶殼	biu1 hok3
-彪悍	biu1 hon6
+彪悍	biu1 hon5
 標汗	biu1 hon6
 滮汗	biu1 hon6
 飆汗	biu1 hon6
@@ -43053,7 +43050,7 @@ import_tables:
 補血劑	bou2 hyut3 zai1
 保人	bou2 jan4
 保佑	bou2 jau6
-保有	bou2 jau6
+保有	bou2 jau5
 保祐	bou2 jau6
 保爾	bou2 ji5
 保爾森	bou2 ji5 sam1
@@ -43234,7 +43231,7 @@ import_tables:
 補遺	bou2 wai4
 保衛	bou2 wai6
 保衞	bou2 wai6
-寶位	bou2 wai6
+寶位	bou2 wai2
 保惠師	bou2 wai6 si1
 保衛祖國	bou2 wai6 zou2 gwok3
 保溫	bou2 wan1
@@ -43333,7 +43330,7 @@ import_tables:
 報串	bou3 cyun3
 報寸	bou3 cyun3
 報大數	bou3 daai6 sou3
-死人燈籠	bou3 daai6 sou3
+死人燈籠	sei2 jan4 dang1 lung4
 報單	bou3 daan1
 報答	bou3 daap3
 布達拉宮	bou3 daat6 laai1 gung1
@@ -44612,7 +44609,7 @@ import_tables:
 差一點兒	caa1 jat1 dim2 ji4
 差一皮	caa1 jat1 pei4
 叉嘢	caa1 je5
-猜嘢	caa1 je5
+猜嘢	caai1 je5
 差異	caa1 ji6
 差異性	caa1 ji6 sing3
 叉形	caa1 jing4
@@ -48222,7 +48219,6 @@ import_tables:
 隨之	ceoi4 zi1
 隨之而後	ceoi4 zi1 ji4 hau6
 隨之而來	ceoi4 zi1 ji4 loi4
-捶子	ceoi4 zi2
 錘子	ceoi4 zi2
 除子	ceoi4 zi2
 徐子珊	ceoi4 zi2 saan1
@@ -48387,7 +48383,7 @@ import_tables:
 秦都區	ceon4 dou1 keoi1
 循道宗	ceon4 dou6 zung1
 循化	ceon4 faa3
-馴化	ceon4 faa3
+馴化	seon4 faa3
 循化縣	ceon4 faa3 jyun6
 循化撒拉族自治縣	ceon4 faa3 saat3 laai1 zuk6 zi6 zi6 jyun6
 循法	ceon4 faat3
@@ -48505,6 +48501,7 @@ import_tables:
 出品	ceot1 ban2
 出品人	ceot1 ban2 jan4
 出殯	ceot1 ban3
+出邊	ceot1 bin1
 出便	ceot1 bin6
 出邊	ceot1 bin6
 出兵	ceot1 bing1
