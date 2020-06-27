@@ -53749,7 +53749,6 @@ import_tables:
 束裝	cuk1 zong1
 沖壓	cung1 aat3
 充班	cung1 baan1
-冲茶	cung1 caa4
 沖茶	cung1 caa4
 充撐	cung1 caang1
 充橕場面	cung1 caang1 coeng4 min2
@@ -53824,7 +53823,6 @@ import_tables:
 沖個涼	cung1 go3 loeng4
 充公	cung1 gung1
 充軍	cung1 gwan1
-冲滾水	cung1 gwan2 seoi2
 沖滾水	cung1 gwan2 seoi2
 衝口而出	cung1 hau2 ji4 ceot1
 沖喜	cung1 hei2
@@ -53858,7 +53856,6 @@ import_tables:
 蔥嶺	cung1 leng5
 衝力	cung1 lik6
 沖齡	cung1 ling4
-冲涼	cung1 loeng4
 沖涼	cung1 loeng4
 沖涼房	cung1 loeng4 foeng2
 沖涼房	cung1 loeng4 fong2
@@ -116280,6 +116277,7 @@ import_tables:
 臨牀特徵	lam4 cong4 dak6 zing1
 臨牀經驗	lam4 cong4 ging1 jim6
 臨牀實驗	lam4 cong4 sat6 jim6
+林冲	lam4 cung1
 林沖	lam4 cung1
 林村	lam4 cyun1
 臨川	lam4 cyun1
@@ -143144,7 +143142,7 @@ import_tables:
 沙哩弄銃	saa4 li1 lung3 cung3
 沙哩儱偅	saa4 li1 lung4 cung3
 沙哩儱偅	saa4 li1 lung6 cung3
-沙哩弄冲	saa4 li1 lung6 cung3
+沙哩弄沖	saa4 li1 lung6 cung3
 沙哩弄銃	saa4 li1 lung6 cung3
 沙沙聲	saa4 saa2 seng1
 沙沙滾	saa4 saa4 gwan2
