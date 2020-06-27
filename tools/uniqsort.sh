@@ -8,37 +8,33 @@ candidates=($( ls *.dict.yaml ))
 # Add files to this list if they are ALSO READY TO BE SORTED
 goodToSort=(
   jyut6ping3.phrase.dict.yaml
-  # Do not use this script on the following dictionaries, as they contain
-  # new entries that are not yet good to merge
-  ## jyut6ping3.dict.yaml
-  ## jyut6ping3.lettered.dict.yaml
+  # jyut6ping3.dict.yaml
+  # jyut6ping3.lettered.dict.yaml
 )
 
 # Set sort order by locale (default: "C"=radical-stroke)
-if [ -z ${LC_ALL} ]; then LC_ALL="C"; fi
+if [ -z "$LC_ALL" ]; then LC_ALL=C; fi
 
 chmod u+w ${candidates[@]}
 
-echo ===============================
 for file in ${candidates[@]}; do
+  echo ===============================
   echo $file
   awk '{
-    if (!x["..."] && $0!="...") {
+    if (!x["..."]) {
       print > "a.tmp";
-    } else if ($0=="...") {
-      print > "a.tmp"
-      x["..."]++
+      if ($0=="...") x["..."]++
     } else if ($0=="" || !x[$0]++) {
       print > "b.tmp"
     }
-  }' $file &&\
-    echo  "  : uniquified"
-  if [ $(echo $goodToSort | grep -w $file) ]; then
-    /usr/bin/sort -k2,2 -k1,1 -o b.tmp b.tmp &&\
-      echo "  : sorted"
+  }' $file && echo "  : uniquified" || continue
+  if [ $(echo ${goodToSort[@]} | grep -w $file) ]; then
+    /usr/bin/sort -k2,2 -k1,1 -o b.tmp b.tmp && echo "  : sorted" || continue
   fi
-  cat a.tmp b.tmp > $file &&\
-    echo  "  - changes merged"
+  cat a.tmp b.tmp > $file && echo "  - changes merged"
   rm a.tmp b.tmp
-  echo ===============================
 done
+echo ===============================
+
+# Clean up
+rm *tmp 2> /dev/null 
