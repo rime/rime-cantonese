@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.06.30"
+version: "2020.07.01"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1257,7 +1257,7 @@ import_tables:
 𠹶	bing4
 䗒	bing6
 並	bing6
-併	bing6	3%
+併	bing6
 倂	bing6	0%
 傡	bing6	0%
 垪	bing6	0%
@@ -4143,7 +4143,7 @@ import_tables:
 麄	cou1
 麤	cou1
 取	cou2	3%
-娶	cou2	3%
+娶	cou2
 愺	cou2	0%
 慅	cou2	0%
 懆	cou2
@@ -4205,6 +4205,8 @@ import_tables:
 鏪	cou4	0%
 鐰	cou4
 𥕢	cou4
+儲	cou5
+聚	cou5
 造	cou5	3%
 𢲵	cou5
 𢵄	cou5
@@ -24645,7 +24647,7 @@ import_tables:
 𡞲	ping1
 瓶	ping2
 䀻	ping3
-併	ping3	0%
+併	ping3
 倂	ping3	0%
 娉	ping3	3%
 并	ping3
@@ -40482,7 +40484,6 @@ import_tables:
 比年	bei2 nin4
 比埃茲巴伯	bei2 oi1 zi1 baa1 baak3
 比安	bei2 on1
-比併	bei2 ping3
 比拼	bei2 ping3
 畀晒	bei2 saai3
 比薩	bei2 saat3
@@ -41649,6 +41650,7 @@ import_tables:
 冰爪	bing1 zaau2
 兵制	bing1 zai3
 冰鎮	bing1 zan3
+并州	bing1 zau1
 冰洲石	bing1 zau1 sek6
 冰袖	bing1 zau6
 兵卒	bing1 zeot1
@@ -41727,47 +41729,22 @@ import_tables:
 秉燭	bing2 zuk1
 秉燭夜遊	bing2 zuk1 je6 jau4
 丙種射線	bing2 zung2 se6 sin3
-並把	bing3 baa2
-並不在乎	bing3 bat1 zoi6 fu4
 摒除	bing3 ceoi4
-並稱	bing3 cing1
-並坐	bing3 co5
-並處	bing3 cyu2
-併存	bing3 cyun4
-並蒂	bing3 dai3
-並蒂蓮	bing3 dai3 lin4
-併發	bing3 faat3
 迸發	bing3 faat3
 迸發出	bing3 faat3 ceot1
 併發症	bing3 faat3 zing3
-並駕齊驅	bing3 gaa3 cai4 keoi1
-並舉	bing3 geoi2
-並激	bing3 gik1
 柄國	bing3 gwok3
 併捲機	bing3 gyun2 gei1
-並系羣	bing3 hai6 kwan4
-併系羣	bing3 hai6 kwan4
-並行	bing3 hang4
-並行不悖	bing3 hang4 bat1 bui6
-並行程序	bing3 hang4 cing4 zeoi6
-並行計算	bing3 hang4 gai3 syun3
-並行口	bing3 hang4 hau2
-並口	bing3 hau2
 摒棄	bing3 hei3
-並入	bing3 jap6
 併入	bing3 jap6
 丙一鑊	bing3 jat1 wok6
 併購	bing3 kau3
 柄權	bing3 kyun4
 迸流	bing3 lau4
-並聯	bing3 lyun4
-並未	bing3 mei6
 併紗	bing3 saa1
 柄臣	bing3 san4
 併吞	bing3 tan1
-並條	bing3 tiu4
 併集	bing3 zaap6
-並臻	bing3 zeon1
 柄政	bing3 zing3
 乒嘭	bing4 baang4
 砰嘭	bing4 baang4
@@ -41781,21 +41758,37 @@ import_tables:
 砰呤嘭唥	bing4 ling1 baang4 laang4
 砰呤𠾴唥	bing4 ling1 baang4 laang4
 𠹶呤𠾴唥	bing4 ling1 baang4 laang4
+並把	bing6 baa2
 並不	bing6 bat1
+並不在乎	bing6 bat1 zoi6 fu4
 病變	bing6 bin3
 並且	bing6 ce2
+並稱	bing6 cing1
+並坐	bing6 co5
+並處	bing6 cyu2
 並存	bing6 cyun4
 並蒂	bing6 dai3
+並蒂蓮	bing6 dai3 lin4
 並非	bing6 fei1
 並駕齊驅	bing6 gaa3 cai4 keoi1
+並舉	bing6 geoi2
+並激	bing6 gik1
 並肩	bing6 gin1
 並肩而行	bing6 gin1 ji4 hang4
 並肩作戰	bing6 gin1 zok3 zin3
+並系羣	bing6 hai6 kwan4
+並行	bing6 hang4
+並行不悖	bing6 hang4 bat1 bui6
+並行程序	bing6 hang4 cing4 zeoi6
+並行計算	bing6 hang4 gai3 syun3
+並行口	bing6 hang4 hau2
+並口	bing6 hau2
 並用	bing6 jung6
 並立	bing6 laap6
 病理學	bing6 lei5 hok6
 並列	bing6 lit6
 並列譯文	bing6 lit6 jik6 man4
+並聯	bing6 lyun4
 並未	bing6 mei6
 病魔	bing6 mo1
 病魔纏身	bing6 mo1 cin4 san1
@@ -41806,6 +41799,8 @@ import_tables:
 並排	bing6 paai4
 病逝	bing6 sai6
 病體	bing6 tai2
+並條	bing6 tiu4
+並臻	bing6 zeon1
 並進	bing6 zeon3
 並重	bing6 zung6
 必不可缺	bit1 bat1 ho2 kyut3
