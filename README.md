@@ -22,7 +22,7 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 **拼音方案**
 
-- 本方案**凈係**支持「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
+- 本方案**凈係**支援「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
     - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
     - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
     - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
