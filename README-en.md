@@ -68,11 +68,12 @@ and redeploy. Then voila, `lei hou` will now be recognized internally as 'nei ho
 This schema uses the OpenCC standard character set by default--coded as「傳統漢字」in the file. If you want to switch over to the Hong Kong, Taiwanese or Mainland Chinese standard, click <kbd>Ctrl</kbd> + <kbd>`</kbd> and choose the relevant standard from the options list.
 
 ### Emoji input
-Click <kbd>Ctrl</kbd> + <kbd>`</kbd> and then <kbd>2</kbd> to access the settings menu. Then, from the menu, choose【有emoji】to enable emoji input - doing so will allow the system to recognize and convert certain Chinese words into their corresponding emoji icons.
+
+Click <kbd>Ctrl</kbd> + <kbd>`</kbd> and then <kbd>2</kbd> to access the settings menu. Then, from the menu, choose 【有emoji】 to enable emoji input - doing so will allow the system to recognize and convert certain Chinese words into their corresponding emoji icons.
 
 The full list of emoji icons can be found [here](https://github.com/rime/rime-emoji/tree/master/opencc).
 
-Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to permenantly enable emoji input.
+Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to permanently enable emoji input.
 
 ```yaml
 - name: emoji_suggestion

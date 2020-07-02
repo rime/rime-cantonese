@@ -71,11 +71,12 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 本方案預設採用 OpenCC 用字標準，喺方案選單中顯示為「傳統漢字」。亦都支援**香港傳統漢字**、**臺灣傳統漢字**同**大陆简化汉字**。要切換用字標準，撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣，就會顯示選單，然後就可以揀用字標準嘞。
 
 ### Emoji 輸入
-撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣打開選單，然後撳 <kbd>2</kbd>，揀【有emoji】就可以啓用emoji——當你打一個中文詞嘅時候，選字表就會出現對應嘅emoji符號嘞。
 
-Emoji碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/opencc)搵到。
+撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣打開選單，然後撳 <kbd>2</kbd>，揀【有 Emoji】就可以啓用 emoji——當你打一個中文詞嘅時候，選字表就會出現對應嘅 emoji 符號嘞。
 
-如果想永久啓用emoji嘅話，可以修改 `jyut6ping3.schema.yaml` 嘅 `switches` 做：
+emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/opencc)搵到。
+
+如果想永久啓用 emoji 嘅話，可以修改 `jyut6ping3.schema.yaml` 嘅 `switches` 做：
 
 ```yaml
 - name: emoji_suggestion

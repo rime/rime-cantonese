@@ -6,7 +6,7 @@ schema:
   name: 粵語拼音
   version: "2020.05.25"
   author:
-    - sgalal <ayaka@mail.shn.hk>
+    - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
@@ -31,7 +31,7 @@ switches:
     states: [ 半角, 全角 ]
   - options: [ noop, trad_hk, trad_tw, simplification ]
     states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
-    # 取消下行註釋，預設香港傳統漢字 [其他選項：0,1,2,3 --> 對應上表]
+    # 取消下行註釋，預設香港傳統漢字 [其他選項：0, 1, 2, 3 --> 對應上表]
     #reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
