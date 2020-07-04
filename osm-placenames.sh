@@ -7,7 +7,7 @@ overpass_api="https://lz4.overpass-api.de/api/interpreter?data=%s"
 queries=(
 	"osm_hk_ways"
 	"
-		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\", \"name:en\", ::id)][timeout:25];
+		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\", \"name:en\", ::id; false)][timeout:25];
 
 		relation(913110);out;map_to_area->.mySearchArea;
 		(
