@@ -9,7 +9,7 @@ queries=(
 	"
 		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\", \"name:en\", ::id; false)][timeout:25];
 
-		relation(913110);out;map_to_area->.mySearchArea;
+		relation(913110);map_to_area->.mySearchArea;
 		(
 			way[\"highway\"][\"name:zh\"](area.mySearchArea);
 		)->.myWays;
