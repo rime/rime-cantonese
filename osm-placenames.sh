@@ -59,7 +59,7 @@ do
 
 	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXX")
 	echo "${cut_temp_out}"
-	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' | sort | uniq > "${cut_temp_out}"
+	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' | sed "s/;/\n/g" | LANG=C sort | uniq > "${cut_temp_out}"
 	echo "----"
 
 	# must be LANG=C. en_US.utf8: grep does not like \u9fff.
