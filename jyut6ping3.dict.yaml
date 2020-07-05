@@ -37749,9 +37749,7 @@ import_tables:
 扮晒串	baan6 saai3 cyun3
 扮嗮蟹	baan6 saai3 haai5
 扮晒蟹	baan6 saai3 haai5
-扮嗮嘢	baan6 saai3 je5
 扮晒嘢	baan6 saai3 je5
-扮晒野	baan6 saai3 je5
 扮晒魚蝦蟹	baan6 saai3 jyu4 haa1 haai5
 辦身後事	baan6 san1 hau6 si6
 扮死狗	baan6 sei2 gau2
@@ -68378,7 +68376,7 @@ import_tables:
 瞓唔着	fan3 m4 zoek6
 瞓唔着覺	fan3 m4 zoek6 gaau3
 訓民正音	fan3 man4 zing3 jam1
-瞓乜頸	fan3 me1 geng2
+瞓歪頸	fan3 me2 geng2
 瞓䣸	fan3 nam6
 糞尿	fan3 niu6
 糞耙	fan3 paa4
@@ -102488,7 +102486,6 @@ import_tables:
 有乜噏乜	jau5 mat1 ngap1 mat1
 有乜事幹	jau5 mat1 si6 gon3
 有咩	jau5 me1
-有乜冬瓜豆腐	jau5 me1 dung1 gwaa1 dau6 fu6
 有咩冬瓜豆腐	jau5 me1 dung1 gwaa1 dau6 fu6
 有咩依郁	jau5 me1 ji1 juk1
 有咩咿喐	jau5 me1 ji1 juk1
@@ -115779,7 +115776,7 @@ import_tables:
 厲埋片面	lai2 maai4 pin3 min6
 戾埋片面	lai2 maai4 pin3 min6
 捩埋片面	lai2 maai4 pin3 min6
-戾乜面	lai2 me1 min6
+戾歪面	lai2 me2 min6
 戾手	lai2 sau2
 捩手	lai2 sau2
 戾橫折曲	lai2 waang4 zit3 kuk1
@@ -125440,7 +125437,7 @@ import_tables:
 勐海縣	maang5 hoi2 jyun6
 猛人	maang5 jan4
 猛一看	maang5 jat1 hon3
-猛野	maang5 je5
+猛嘢	maang5 je5
 猛然	maang5 jin4
 猛禽	maang5 kam4
 錳礦	maang5 kwong3
@@ -126729,7 +126726,6 @@ import_tables:
 乜因由	mat1 jan1 jau4
 乜人	mat1 jan4
 乜嘢	mat1 je5
-乜野	mat1 je5
 乜嘢料呀	mat1 je5 liu2 aa3
 乜嘢料啊	mat1 je5 liu2 aa3
 乜嘢新鮮蘿蔔皮	mat1 je5 san1 sin1 lo4 baak6 pei5
@@ -127107,14 +127103,13 @@ import_tables:
 哶班	me1 baan1
 咩筆	me1 bat1
 咩車	me1 ce1
-乜斜	me1 ce4
+歪斜	me2 ce4
 孭重飛	me1 cung5 fei1
 孭帶	me1 daai2
 孭凳仔	me1 dang3 zai2
 咩碟	me1 dip2
 孭袋	me1 doi2
 孭袋	me1 doi6
-乜都	me1 dou1
 咩都	me1 dou1
 咩都假	me1 dou1 gaa2
 咩都唔驚	me1 dou1 m4 geng1
@@ -127123,16 +127118,13 @@ import_tables:
 咩叫	me1 giu3
 咩歌	me1 go1
 咩角色	me1 gok3 sik1
-乜公司	me1 gung1 si1
+乜公司	mat1 gung1 si1
 咩公司	me1 gung1 si1
 咩鬼	me1 gwai2
 孭起	me1 hei2
 哶戲	me1 hei3
-乜人	me1 jan4
 咩人	me1 jan4
-乜野	me1 je5
 咩嘢	me1 je5
-咩野	me1 je5
 咩嘢嚟㗎	me1 je5 lai4 gaa3
 咩嘢環境啊	me1 je5 waan4 ging2 aa3
 咩意思	me1 ji3 si1
@@ -127150,7 +127142,7 @@ import_tables:
 哶毛	me1 mou4
 咩冇	me1 mou5
 咩衫	me1 saam1
-乜水	me1 seoi2
+咩水	me1 seoi2
 咩事	me1 si6
 咩事啊	me1 si6 aa3
 咩視頻	me1 si6 pan4
@@ -127158,7 +127150,7 @@ import_tables:
 孭臊蝦仔	me1 sou1 haa1 zai2
 孭數	me1 sou3
 孭書包	me1 syu1 baau1
-乜說話	me1 syut3 waa6
+咩說話	me1 syut3 waa6
 孭鐵	me1 tit3
 咩圖	me1 tou4
 咩圖片	me1 tou4 pin2
@@ -130629,14 +130621,12 @@ import_tables:
 冇有	mou5 jau5
 冇有怕	mou5 jau5 paa3
 冇嘢	mou5 je5
-冇野	mou5 je5
 冇嘢吖	mou5 je5 aa1
 冇嘢啊	mou5 je5 aa3
 冇嘢啊嘛	mou5 je5 aa6 maa5
 冇嘢矴口	mou5 je5 deng3 hau2
 冇嘢到	mou5 je5 dou3
 冇嘢講	mou5 je5 gong2
-冇野講	mou5 je5 gong2
 冇嘢好講	mou5 je5 hou2 gong2
 冇嘢傾	mou5 je5 king1
 嘢撈	mou5 je5 lou1
@@ -130766,8 +130756,6 @@ import_tables:
 冇乜點	mou5 mat1 dim2
 冇乜好死	mou5 mat1 hou2 sei2
 冇乜嘢	mou5 mat1 je5
-冇乜野	mou5 mat1 je5
-無乜嘢	mou5 mat1 je5
 冇乜料	mou5 mat1 liu2
 冇乜兩句	mou5 mat1 loeng5 geoi3
 冇乜所謂	mou5 mat1 so2 wai6
@@ -137452,7 +137440,6 @@ import_tables:
 擰開	ning6 hoi1
 佞人	ning6 jan4
 擰螺絲	ning6 lo4 si1
-擰乜面	ning6 me1 min6
 擰歪面	ning6 me2 min6
 擰嗮頭	ning6 saai3 tau2
 佞臣	ning6 san4
@@ -143018,7 +143005,6 @@ import_tables:
 曬友	saai3 jau5
 晒嘢	saai3 je5
 曬嘢	saai3 je5
-曬野	saai3 je5
 曬衣繩	saai3 ji1 sing4
 曬衣繩子	saai3 ji1 sing4 zi2
 曬熱頭	saai3 jit6 tau2
@@ -143039,7 +143025,6 @@ import_tables:
 曬馬檻	saai3 maa5 laam5
 晒馬檻	saai3 maa5 lam2
 曬馬檻	saai3 maa5 lam2
-晒命	saai3 meng6
 曬命	saai3 meng6
 晒銀時	saai3 ngan4 si4
 曬棚	saai3 paang2
@@ -143047,7 +143032,6 @@ import_tables:
 曬衫	saai3 saam1
 曬衫夾	saai3 saam1 gip2
 曬傷	saai3 soeng1
-晒相	saai3 soeng2
 曬相	saai3 soeng2
 曬相舖	saai3 soeng2 pou2
 曬書櫃	saai3 syu1 gwai6
