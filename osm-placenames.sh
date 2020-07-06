@@ -10,8 +10,21 @@ queries=(
 		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\", \"name:en\", ::id; false)][timeout:25];
 
 		relation(913110);map_to_area->.mySearchArea;
+		relation(3676813);map_to_area->.HKOceanPark;
 		(
-			way[\"highway\"][\"name:zh\"](area.mySearchArea);
+			way
+				[\"highway\"]
+				[\"highway\"!=\"bus_stop\"]
+				[\"highway\"!=\"construction\"]
+				[\"highway\"!=\"corridor\"]
+				[\"highway\"!=\"proposed\"]
+				[\"highway\"!=\"steps\"]
+				[\"access\"!=\"private\"] // example: way 197288490, located in Disneyland
+				[\"area\"!=\"yes\"] // example: way 160323969, a dog park
+				[\"name:zh\"]
+				(area.mySearchArea)
+			;
+			- way(area.HKOceanPark); // example: way 657704846, located in Ocean Park
 		)->.myWays;
 
 		.myWays out tags;
