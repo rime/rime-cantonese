@@ -72,7 +72,13 @@ do
 
 	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXX")
 	echo "${cut_temp_out}"
-	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' | sed "s/;/\n/g" | LANG=C sort | uniq > "${cut_temp_out}"
+	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' \
+		| sed "s/;/\n/g" \
+		| sed -E "s/－.+段//g" \
+		| LANG=C sort \
+		| uniq \
+		> "${cut_temp_out}"
+	# sed: for names such as '衛奕信徑;港島徑' and '青山公路－荃灣段'
 	echo "----"
 
 	# must be LANG=C. en_US.utf8: grep does not like \u9fff.
