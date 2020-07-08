@@ -75,9 +75,7 @@ do
 	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' \
 		| sed "s/;/\n/g" \
 		| sed -E "s/－.+段//g" \
-		| LANG=C sort \
-		| uniq \
-		> "${cut_temp_out}"
+		| LANG=C sort --unique --output="${cut_temp_out}"
 	# sed: for names such as '衛奕信徑;港島徑' and '青山公路－荃灣段'
 	echo "----"
 
