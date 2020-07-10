@@ -2,7 +2,6 @@
 
 # https://github.com/rime/rime-cantonese/issues/69
 
-date=$(date -I)
 overpass_api="https://lz4.overpass-api.de/api/interpreter?data=%s"
 queries=(
 	"osm_hk_ways"
@@ -31,6 +30,8 @@ queries=(
 	"
 )
 queries_len=${#queries[@]}
+cjk_range=$'\u4e00-\u9fff'
+date=$(date -I)
 rime_dictionary_file_name="/tmp/jyut6ping3.%s.dict.yaml"
 rime_dictionary_header="# Rime dictionary
 # encoding: utf-8
@@ -54,7 +55,6 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 "
-cjk_range=$'\u4e00-\u9fff'
 
 for ((i = 0; i <= $((queries_len - 1)); i += 2))
 do
