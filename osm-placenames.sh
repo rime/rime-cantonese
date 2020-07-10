@@ -31,7 +31,7 @@ queries=(
 )
 queries_len=${#queries[@]}
 cjk_range=$'\u4e00-\u9fff'
-date=$(date -I)
+date=$(date "+%Y-%m-%d")
 rime_dictionary_file_name="/tmp/jyut6ping3.%s.dict.yaml"
 rime_dictionary_header="# Rime dictionary
 # encoding: utf-8
@@ -66,21 +66,21 @@ do
 	echo "----"
 
 	# download OpenStreetMap data from the Overpass API
-	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXX")
+	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXXX")
 	echo "${wget_temp_out}"
 	wget "${url}" -O "${wget_temp_out}"
 	echo "----"
 
-	# cut: get fields 1, 2, and 3 ('name:zh', 'alt_name:zh', 'old_name:zh')
-	# sed: '衛奕信徑;港島徑'→ '衛奕信徑' '港島徑'
+	# sed: convert tab and semicolon to newline
+	#      '衛奕信徑;港島徑'→ '衛奕信徑' '港島徑'
 	# sed: '青山公路－荃灣段'→'青山公路'
 	# sort: sort and uniquify
-	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXX")
+	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXXX")
 	echo "${cut_temp_out}"
-	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' \
-		| sed "s/;/\n/g" \
+	cat "${wget_temp_out}" \
+		| sed "s/[\t;]/\n/g" \
 		| sed -E "s/－.+段//g" \
-		| LANG=C sort --unique --output="${cut_temp_out}"
+		| LANG=C sort -u -o "${cut_temp_out}"
 	echo "----"
 
 	# print names that contain non-漢字 (BMP first set)
