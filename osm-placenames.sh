@@ -65,24 +65,30 @@ do
 	echo "${query}"
 	echo "----"
 
+	# download OpenStreetMap data from the Overpass API
 	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXX")
 	echo "${wget_temp_out}"
 	wget "${url}" -O "${wget_temp_out}"
 	echo "----"
 
+	# cut: get fields 1, 2, and 3 ('name:zh', 'alt_name:zh', 'old_name:zh')
+	# sed: '衛奕信徑;港島徑'→ '衛奕信徑' '港島徑'
+	# sed: '青山公路－荃灣段'→'青山公路'
+	# sort: sort and uniquify
 	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXX")
 	echo "${cut_temp_out}"
 	cut "${wget_temp_out}" --fields=1,2,3 --output-delimiter=$'\n' \
 		| sed "s/;/\n/g" \
 		| sed -E "s/－.+段//g" \
 		| LANG=C sort --unique --output="${cut_temp_out}"
-	# sed: for names such as '衛奕信徑;港島徑' and '青山公路－荃灣段'
 	echo "----"
 
-	# must be LANG=C. en_US.utf8: grep does not like \u9fff.
+	# print names that contain non-漢字 (BMP first set)
+	# LANG=C is needed. en_US.utf8→grep does not like \u9fff.
 	LANG=C grep -E "[^${cjk_range}]" "${cut_temp_out}" | less
 	echo "----"
 
+	# save complete list to $out
 	out=$(printf "${rime_dictionary_file_name}" "${name}")
 	echo "${out}"
 	printf "${rime_dictionary_header}" "${name}" "${date}" >> "${out}"
