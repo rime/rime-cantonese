@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.07.01"
+version: "2020.07.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -63838,7 +63838,7 @@ import_tables:
 刀光劍影	dou1 gwong1 gim3 jing2
 刀光血影	dou1 gwong1 hyut3 jing2
 都喺	dou1 hai2
-都喺道	dou1 hai2 dou6
+都喺度	dou1 hai2 dou6
 都係	dou1 hai6
 都係噉	dou1 hai6 gam2
 都係咁	dou1 hai6 gam3
@@ -89353,7 +89353,6 @@ import_tables:
 喺邊道	hai2 bin1 dou6
 喺啲	hai2 di1
 喺度	hai2 dou6	10000.0
-喺道	hai2 dou6
 喺度食	hai2 dou6 sik6
 喺嗰度	hai2 go2 dou6
 喺口唇邊	hai2 hau2 seon4 bin1
@@ -123546,7 +123545,6 @@ import_tables:
 唔喺	m4 hai2
 唔喺處	m4 hai2 cyu3
 唔喺度	m4 hai2 dou6
-唔喺道	m4 hai2 dou6
 唔喺處	m4 hai2 syu3
 唔喺屋企	m4 hai2 uk1 kei2
 唔係	m4 hai6
@@ -136287,7 +136285,6 @@ import_tables:
 我纔	ngo5 coi4
 我等	ngo5 dang2
 我哋	ngo5 dei6	10000.0
-我哋	ngo5 dei6
 我地	ngo5 dei6
 我哋嘅	ngo5 dei6 ge3
 我地嘅	ngo5 dei6 ge3
@@ -185042,7 +185039,6 @@ import_tables:
 仲好	zung6 hou2
 重任	zung6 jam6
 仲有	zung6 jau5	1000.0
-重有	zung6 jau5
 仲有個	zung6 jau5 go3
 仲有咩	zung6 jau5 me1
 仲有冇	zung6 jau5 mou5
@@ -185069,9 +185065,8 @@ import_tables:
 重文輕武	zung6 man4 hing1 mou5
 仲問	zung6 man6
 仲未	zung6 mei6	1000.0
-重未	zung6 mei6
 仲未到	zung6 mei6 dou3
-重未死過	zung6 mei6 sei2 gwo3
+仲未死過	zung6 mei6 sei2 gwo3
 重名	zung6 ming4
 重望	zung6 mong6
 仲冇咁嬲	zung6 mou5 gam3 nau1
