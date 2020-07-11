@@ -6,7 +6,7 @@ __include: jyut6ping3.schema:/
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "2020.06.15"
+  version: "2020.07.10"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -24,76 +24,76 @@ translator:
   prism: jyut6ping3_ipa
   spelling_hints: 8
   preedit_format:
-    - xform/(^|[ '])(m)(qq?|xx?|vv?)?($|[ '])/$1$2̩$3$4/            # 唔m̩
-    - xform/(^|[ '])(ng)(qq?|xx?|vv?)?($|[ '])/$1$2̍$3$4/           # 五ŋ̍
-    - xform/([ptk])qq/$1˨/                    # 熱jiːt̚˨
-    - xform/([ptk])q/$1˧/                     # 醃jiːp̚˧
-    - xform/([ptk])v/$1˥/                     # 一jɐt̚
-    - xform/vv/˨˩/                             # 而jiː˨˩
-    - xform/v/˥/                              # 衣jiː˥
-    - xform/xx/˩˧/                             # 以jiː˩˧
-    - xform/x/˧˥/                              # 倚jiː˧˥
-    - xform/qq/˨/                             # 二jiː˨
+    - xform/(^|[ '])(m)(qq?|xx?|vv?)?($|[ '])/$1$2̩$3$4/            # 唔 m̩
+    - xform/(^|[ '])(ng)(qq?|xx?|vv?)?($|[ '])/$1$2̍$3$4/           # 五 ŋ̍
+    - xform/([ptk])qq/$1˨/                    # 熱 jiːt̚˨
+    - xform/([ptk])q/$1˧/                     # 醃 jiːp̚˧
+    - xform/([ptk])v/$1˥/                     # 一 jɐt̚
+    - xform/vv/˨˩/                            # 而 jiː˨˩
+    - xform/v/˥/                              # 衣 jiː˥
+    - xform/xx/˩˧/                            # 以 jiː˩˧
+    - xform/x/˧˥/                             # 倚 jiː˧˥
+    - xform/qq/˨/                             # 二 jiː˨
     - xform/(^|[ '])q/$1ʔ/                    # 喉塞音
-    - xform/q/˧/                              # 意jiː˧
-    - xform/([PTK])$/$1]$2/                   # 入jɐp̚
-    - xform/(^|[ '])([jy])u(ng)/$1jʊŋ/        # 用jʊŋ
-    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/ # 月jyːt̚
-    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/    # 奪tyːt̚
-    - xform/(^|[ '])([jy])u([k])/$1jʊ$3]/     # 玉jʊk̚
-    - xform/(^|[ '])(jy)u/$1jYː/              # 元jyːn
-    - xform/yu/Yː/                            # 嫩nyːn
-    - xform/y([aeior])/j$1/                   # 一yat/jɐt̚/
-    - xform/(aa|r)([iu])/Aː\U$2/              # 嗎maː
-    - xform/a([iu])/ɐ\U$1/                    # 米mɐi
-    - xform/(aa|r)([ptk])/Aː\U$2]/            # 鈪aːk̚
-    - xform/a([ptk])/ɐ\U$1]/                  # 呃ɐk̚
-    - xform/(aa|r)/Aː/                        # 嗎maː
-    - xform/b/P/                              # 吧paː
-    - xform/c/T͡sH/                            # 差tsʰaː
-    - xform/d/T/                              # 打taː
-    - xform/eu/ɛːU/                           # 掉tɛːu
-    - xform/eoi/ɵY/                           # 水sɵy
-    - xform/oei/ɵY/                           # 容錯
+    - xform/q/˧/                              # 意 jiː˧
+    - xform/([PTK])$/$1]$2/                   # 入 jɐp̚
+    - xform/(^|[ '])([jy])u(ng)/$1joŋ/        # 用 joŋ
+    - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/ # 月 jyːt̚
+    - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/    # 奪 tyːt̚
+    - xform/(^|[ '])([jy])u([k])/$1jo$3]/     # 玉 jok̚
+    - xform/(^|[ '])(jy)u/$1jYː/              # 元 jyːn
+    - xform/yu/Yː/                            # 嫩 nyːn
+    - xform/y([aeior])/j$1/                   # 一 yat/jɐt̚/
+    - xform/(aa|r)([iu])/Aː\U$2/              # 嗎 maː
+    - xform/a([iu])/ɐ\U$1/                    # 米 mɐi
+    - xform/(aa|r)([ptk])/Aː\U$2]/            # 鈪 aːk̚
+    - xform/a([ptk])/ɐ\U$1]/                  # 呃 ɐk̚
+    - xform/(aa|r)/Aː/                        # 嗎 maː
+    - xform/b/P/                              # 吧 paː
+    - xform/c/T͡sH/                            # 差 tsʰaː
+    - xform/d/T/                              # 打 taː
+    - xform/eu/ɛːU/                           # 掉 tɛːu
+    - xform/eoi/ɵY/                           # 水 sɵy
+    - xform/oei/ɵY/                           # eo/oe 混淆
     - xform/oe([pk])/œː$1]/                   # 約jœːk̚
-    - xform/oe(ng)/œː$1/                      # 容錯
-    - xform/(.)oe([t])/$1ɵ$2]/                # 容錯
+    - xform/oe(ng)/œː$1/                      # eo/oe 混淆
+    - xform/(.)oe([t])/$1ɵ$2]/                # eo/oe 混淆
     - xform/^oet/œːt]/                        # 兼容新讀音 /œːt̚/
-    - xform/oe([n])/ɵ$1/                      # 容錯
-    - xform/oe/œː/                            # 張tsœːŋ
-    - xform/oi/ɔːI/                           # 蓋kʰɔːi
-    - xform/eo(ng)/œːŋ/                       # 容錯
-    - xform/eo([k])/œː$1]/                    # 容錯
-    - xform/eo([t])/ɵ$1]/                     # 率sɵt̚
-    - xform/eon/ɵn/                           # 信sɵn
-    - xform/ou/OU/                            # 無mou
-    - xform/u([k])/ʊ$1]/                      # 六lʊk̚
-    - xform/ui/UːI/                           # 回wuːi
-    - xform/iu/IːU/                           # 小siːu
-    - xform/i(ng)/ɪN/                         # 名mɪŋ
-    - xform/ik/ɪK]/                           # 式sɪk̚
-    - xform/i([pt])/Iː$1]/                    # 結kiːt̚
-    - xform/eo/ɵ/                             # 去hɵy
-    - xform/a/ɐ/                              # 得tɐk̚
-    - xform/ei/EI/                            # 欸ei
-    - xform/i/Iː/                             # 是siː
-    - xform/e([ptk])/ɛː$1]/                   # 壢lɛːk̚
-    - xform/e/ɛː/                             # 寫sɛː
-    - xform/o([ptk])/ɔː$1]/                   # 莫mɔːk̚
-    - xform/u([pt])/Uː$1]/                    # 活wuːt̚
-    - xform/u(ng)/ʊN/                         # 動tʊŋ
-    - xform/o/ɔː/                             # 錯tsʰɔː
-    - xform/u/Uː/                             # 故kuː
-    - xform/ng/N/                             # 我ŋɔː
-    - xform/n/n/                              # 你nei
-    - xform/kw/KWH/                           # 群kʷʰɐn
-    - xform/gw/KW/                            # 均kʷɐn
-    - xform/g/K/                              # 急kɐp̚
-    - xform/(^|[ '])([ptk])/$1$2H/            # 噴pʰɐn
-    - xform/w/w/                              # 雲wɐn
-    - xform/j/j/                              # 人jɐn
-    - xform/m/m/                              # 美mei
-    - xform/l/l/                              # 里lei
-    - xform/s/s/                              # 死sei
-    - xform/z/T͡s/                             # 這t͡sɛː
-    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
+    - xform/oe([n])/ɵ$1/                      # eo/oe 混淆
+    - xform/oe/œː/                            # 張 tsœːŋ
+    - xform/oi/ɔːI/                           # 蓋 kʰɔːi
+    - xform/eo(ng)/œːŋ/                       # eo/oe 混淆
+    - xform/eo([k])/œː$1]/                    # eo/oe 混淆
+    - xform/eo([t])/ɵ$1]/                     # 率 sɵt̚
+    - xform/eon/ɵn/                           # 信 sɵn
+    - xform/ou/OU/                            # 無 mou
+    - xform/u([k])/o$1]/                      # 六 lok̚
+    - xform/ui/UːI/                           # 回 wuːi
+    - xform/iu/IːU/                           # 小 siːu
+    - xform/i(ng)/eN/                         # 名 meŋ
+    - xform/ik/eK]/                           # 式 sek̚
+    - xform/i([pt])/Iː$1]/                    # 結 kiːt̚
+    - xform/eo/ɵ/                             # 去 hɵy
+    - xform/a/ɐ/                              # 得 tɐk̚
+    - xform/ei/EI/                            # 欸 ei
+    - xform/i/Iː/                             # 是 siː
+    - xform/e([ptk])/ɛː$1]/                   # 壢 lɛːk̚
+    - xform/e/ɛː/                             # 寫 sɛː
+    - xform/o([ptk])/ɔː$1]/                   # 莫 mɔːk̚
+    - xform/u([pt])/Uː$1]/                    # 活 wuːt̚
+    - xform/u(ng)/oN/                         # 動 toŋ
+    - xform/o/ɔː/                             # 錯 tsʰɔː
+    - xform/u/Uː/                             # 故 kuː
+    - xform/ng/N/                             # 我 ŋɔː
+    - xform/n/n/                              # 你 nei
+    - xform/kw/KWH/                           # 群 kʷʰɐn
+    - xform/gw/KW/                            # 均 kʷɐn
+    - xform/g/K/                              # 急 kɐp̚
+    - xform/(^|[ '])([ptk])/$1$2H/            # 噴 pʰɐn
+    - xform/w/w/                              # 雲 wɐn
+    - xform/j/j/                              # 人 jɐn
+    - xform/m/m/                              # 美 mei
+    - xform/l/l/                              # 里 lei
+    - xform/s/s/                              # 死 sei
+    - xform/z/T͡s/                             # 這 t͡sɛː
+    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIeɔOœɵUoYː]|pmftnŋlkhʰsʃjwʷɐaeɛieɔoœɵuoyː̚|"

@@ -19061,8 +19061,8 @@ import_tables:
 瀝	lek6	3%
 癧	lek6
 𠠝	lek6
-舔	lem2
 舐	lem2	0%
+舔	lem2
 僆	leng1
 愣	leng1	3%
 𡃁	leng1
@@ -34473,7 +34473,7 @@ import_tables:
 乴	zyut6	0%
 崒	zyut6
 崪	zyut6	0%
-拙	zyut6	0%
+拙	zyut6
 捽	zyut6	0%
 撅	zyut6
 枠	zyut6	0%
@@ -34486,7 +34486,6 @@ import_tables:
 輟	zyut6	0%
 黜	zyut6	0%
 𠭴	zyut6
-
 
 # 詞彙
 丫巴兒	aa1 baa1 ji4
