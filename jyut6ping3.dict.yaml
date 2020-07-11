@@ -18307,6 +18307,7 @@ import_tables:
 癩	laai3
 落	laai3	0%
 藾	laai3	0%
+顂	laai4
 㜨	laai4	0%
 䍲	laai4	0%
 腉	laai4	0%
@@ -37144,7 +37145,6 @@ import_tables:
 白眶斑翅鶥	baak6 kwaang1 baan1 ci3 mei4
 白眶鶲鶯	baak6 kwaang1 jung1 ang1
 白眶雀鶥	baak6 kwaang1 zoek3 mei4
-白賴嘥	baak6 laai4 saai4
 白賴𤿂	baak6 laai4 saai4
 白欖	baak6 laam2
 白欖	baak6 laam5
@@ -52067,7 +52067,6 @@ import_tables:
 唱散	coeng3 saan2
 暢散	coeng3 saan2
 暢散紙	coeng3 saan2 zi2
-唱生哂	coeng3 saang1 saai3
 唱生晒	coeng3 saang1 saai3
 唱衰	coeng3 seoi1
 唱衰佢	coeng3 seoi1 keoi5
@@ -52274,7 +52273,6 @@ import_tables:
 長裙	coeng4 kwan4
 長拳	coeng4 kyun4
 長䧒䧒	coeng4 laai4 laai4
-長拉拉	coeng4 laai4 laai4
 長癩癩	coeng4 laai4 laai4
 長賴賴	coeng4 laai4 laai4
 長流流	coeng4 lau4 lau4
@@ -114811,8 +114809,7 @@ import_tables:
 癩皮病	laai3 pei4 beng6
 癩皮狗	laai3 pei4 gau2
 癩渣	laai3 zaa1
-殀殀哂哂	laai4 laai4 saai4 saai4
-賴賴哂哂	laai4 laai4 saai4 saai4
+賴賴𤿂𤿂	laai4 laai4 saai4 saai4
 賴比瑞亞	laai6 bei2 seoi6 aa3
 賴昌星	laai6 coeng1 sing1
 賴牀	laai6 cong4
@@ -134919,7 +134916,7 @@ import_tables:
 啱嗮	ngaam1 saai3
 啱晒	ngaam1 saai3
 啱晒合尺	ngaam1 saai3 ho4 ce1
-啱哂你	ngaam1 saai3 nei5
+啱晒你	ngaam1 saai3 nei5
 啱使	ngaam1 sai2
 啱心水	ngaam1 sam1 seoi2
 啱身	ngaam1 san1
