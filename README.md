@@ -1,36 +1,38 @@
 # essay-cantonese
 
-## Expected behaviour
+## `essay-cantonese.txt`
 
-- `gamx` → the first candidate should be 噉
-- 而家 > 宜家
+### Expected behaviour
 
-## Build Essay
+- `gamx` → 噉 ✅️
+- 而家 > 宜家 ✅️
+- 留低 > 婁底 ✅️
+- `zo` → 咗 ✅️
+- 嗰個 > 哥哥 ❌
 
-Input:
+### Build
 
-- `essay.txt`
-- `cifu-freq.txt`
+Prepare `cifu-freq.txt`:
 
 Run:
 
-`cd essay`
+```sh
+cd essay
+wget https://github.com/rime/rime-essay/raw/master/essay.txt
+python build.py
+```
 
-`python build.py`
+Result: `essay-cantonese.txt`.
 
-`make zhwiki.dict.yaml`
+### Usage
 
-Result:
-
-`essay-cantonese.txt`
-
-## Usage
-
-Go to `jyut6ping3.yaml`:
+Modify `jyut6ping3.dict.yaml`:
 
 ```diff
 -use_preset_vocabulary: true
 +vocabulary: essay-cantonese
 ```
 
-Delete `1000.0`
+```
+sed -i "s/\t1000.+$//g" jyut6ping3.dict.yaml
+```
