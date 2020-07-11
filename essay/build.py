@@ -11,6 +11,6 @@ def write_dict(d, path):
 
 a = load_dict('essay.txt')
 b = load_dict('cifu-freq.txt')
-b = {k: int(v * 4822928 / 12448) for k, v in b.items()}  # ref: freq('的')
+b = {k: int(v * 4822928 / (48693 + 12448)) for k, v in b.items()}  # Align freq: 的 = 的 + 嘅
 
 write_dict({**a, **b}, 'essay-cantonese.txt')

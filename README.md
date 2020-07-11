@@ -5,7 +5,7 @@
 - `gamx` → the first candidate should be 噉
 - 而家 > 宜家
 
-## Build
+## Build Essay
 
 Input:
 
@@ -13,6 +13,10 @@ Input:
 - `cifu-freq.txt`
 
 Run:
+
+`cd essay`
+
+`python build.py`
 
 `make zhwiki.dict.yaml`
 
