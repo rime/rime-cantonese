@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2020.05.25"
+  version: "2020.07.10"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -113,12 +113,12 @@ translator:
   dictionary: jyut6ping3
   spelling_hints: 8
   preedit_format:
-    - xform/([aeioumngptk])vv/$1⁴/
-    - xform/([aeioumngptk])xx/$1⁵/
-    - xform/([aeioumngptk])qq/$1⁶/
-    - xform/([aeioumngptk])v/$1¹/
-    - xform/([aeioumngptk])x/$1²/
-    - xform/([aeioumngptk])q/$1³/
+    - xform/([aeioumngptk])vv/${1}4/
+    - xform/([aeioumngptk])xx/${1}5/
+    - xform/([aeioumngptk])qq/${1}6/
+    - xform/([aeioumngptk])v/${1}1/
+    - xform/([aeioumngptk])x/${1}2/
+    - xform/([aeioumngptk])q/${1}3/
 
 luna_pinyin:
   tag: luna_pinyin
