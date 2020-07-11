@@ -43736,7 +43736,6 @@ import_tables:
 捕拿	bou6 naa4
 捕鳥蛛	bou6 niu5 zyu1
 暴怒	bou6 nou6
-暴曬	bou6 saai3
 曝曬	bou6 saai3
 捕殺	bou6 saat3
 步哨	bou6 saau3
@@ -94638,7 +94637,7 @@ import_tables:
 開晒	hoi1 saai3
 開晒車	hoi1 saai3 ce1
 開晒巷	hoi1 saai3 hong6
-開晒巷	hoi1 saai6 hong6
+開晒巷	hoi1 saai3 hong2
 開三次方	hoi1 saam1 ci3 fong1
 開山	hoi1 saan1
 開山鼻祖	hoi1 saan1 bei6 zou2
@@ -96419,6 +96418,7 @@ import_tables:
 好朋友	hou2 pang4 jau5
 好平	hou2 peng4
 好評	hou2 ping4
+好晒	hou2 saai3
 好曬	hou2 saai3
 好犀利	hou2 sai1 lei6
 好使	hou2 sai2
@@ -101174,7 +101174,6 @@ import_tables:
 日內瓦	jat6 noi6 ngaa5
 日內瓦公約	jat6 noi6 ngaa5 gung1 joek3
 日偏食	jat6 pin1 sik6
-日晒雨淋	jat6 saai3 jyu5 lam4
 日曬雨淋	jat6 saai3 jyu5 lam4
 日曬傷	jat6 saai3 soeng1
 逸散	jat6 saan3
@@ -123266,7 +123265,7 @@ import_tables:
 亂爬	lyun6 paa4
 亂跑	lyun6 paau2
 亂蓬蓬	lyun6 pung4 pung4
-亂曬	lyun6 saai3
+亂晒	lyun6 saai3
 亂嗮大龍	lyun6 saai3 daai6 lung4
 亂嗮坑	lyun6 saai3 haang1
 亂晒坑	lyun6 saai3 haang1
@@ -139270,6 +139269,7 @@ import_tables:
 怕你有毛	paa3 nei5 jau5 mou4
 怕你有牙	paa3 nei5 jau5 ngaa4
 怕怕	paa3 paa3
+怕晒	paa3 saai3
 怕曬	paa3 saai3
 怕生	paa3 saang1
 怕羞	paa3 sau1
@@ -142992,16 +142992,13 @@ import_tables:
 曬黑	saai3 hak1
 曬黑網	saai3 hak1 mong5
 曬黑族	saai3 hak1 zuk6
-晒行馬	saai3 hang4 maa5
 曬行馬	saai3 hang4 maa5
 曬幸福	saai3 hang6 fuk1
 曬友	saai3 jau5
-晒嘢	saai3 je5
 曬嘢	saai3 je5
 曬衣繩	saai3 ji1 sing4
 曬衣繩子	saai3 ji1 sing4 zi2
 曬熱頭	saai3 jit6 tau2
-晒月光	saai3 jyut6 gwong1
 曬月光	saai3 jyut6 gwong1
 晒冷	saai3 laang1
 曬冷	saai3 laang1
@@ -143010,16 +143007,13 @@ import_tables:
 曬料	saai3 liu2
 曬駱駝	saai3 lok6 to4
 曬晾	saai3 long6
-晒馬	saai3 maa5
 曬馬	saai3 maa5
 矖馬	saai3 maa5
-晒馬檻	saai3 maa5 laam2
 曬馬檻	saai3 maa5 laam2
 曬馬檻	saai3 maa5 laam5
-晒馬檻	saai3 maa5 lam2
 曬馬檻	saai3 maa5 lam2
 曬命	saai3 meng6
-晒銀時	saai3 ngan4 si4
+曬銀時	saai3 ngan4 si4
 曬棚	saai3 paang2
 曬棚	saai3 paang4
 曬衫	saai3 saam1
@@ -143030,11 +143024,9 @@ import_tables:
 曬書櫃	saai3 syu1 gwai6
 曬太陽	saai3 taai3 joeng4
 曬圖	saai3 tou4
-晒蓆	saai3 zek6
+曬蓆	saai3 zek6
 曬蓆	saai3 zek6
 曬蓆	saai3 zik6
-晒招	saai3 ziu1
-晒蕉	saai3 ziu1
 曬蕉	saai3 ziu1
 矖招	saai3 ziu1
 舐犢	saai5 duk6
@@ -162712,7 +162704,6 @@ import_tables:
 踢皮球	tek3 pei4 kau4
 踢嗮腳	tek3 saai3 goek3
 踢晒腳	tek3 saai3 goek3
-踢曬腳	tek3 saai3 goek3
 踢死兔	tek3 sei2 tou3
 踢拖	tek3 to1
 踢着腳	tek3 zoek6 goek3
@@ -175081,8 +175072,8 @@ import_tables:
 走票	zau2 piu3
 酒舖	zau2 pou2
 酒鋪	zau2 pou2
-走曬	zau2 saai3
-走曬音	zau2 saai3 jam1
+走晒	zau2 saai3
+走晒音	zau2 saai3 jam1
 走山	zau2 saan1
 走散	zau2 saan2
 走散	zau2 saan3
