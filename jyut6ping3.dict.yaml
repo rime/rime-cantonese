@@ -34,7 +34,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.07.11"
+version: "2020.07.12"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -64168,7 +64168,6 @@ import_tables:
 到黑	dou3 haak1
 妒恨	dou3 han6
 倒行逆施	dou3 hang4 jik6 si1
-到喉唔到肺	dou3 hau4 m14 dou3 fai3
 到喉唔到肺	dou3 hau4 m4 dou3 fai3
 倒後	dou3 hau6
 倒後鏡	dou3 hau6 geng3
@@ -68368,7 +68367,7 @@ import_tables:
 瞓囉	fan3 lo1
 瞓來瞓去	fan3 loi4 fan3 heoi3
 瞓唔到	fan3 m4 dou2
-瞓唔安食唔落	fan3 m4 on1 sik6 m14 lok6
+瞓唔安食唔落	fan3 m4 on1 sik6 m4 lok6
 瞓唔着	fan3 m4 zoek6
 瞓唔着覺	fan3 m4 zoek6 gaau3
 訓民正音	fan3 man4 zing3 jam1
@@ -120608,7 +120607,6 @@ import_tables:
 兩睇	loeng5 tai2
 兩頭	loeng5 tau4
 兩頭兒	loeng5 tau4 ji4
-兩頭唔到岸	loeng5 tau4 m14 dou3 ngon6
 兩頭唔到岸	loeng5 tau4 m4 dou3 ngon6
 兩頭蛇	loeng5 tau4 se4
 兩頭揗	loeng5 tau4 tan4
@@ -123325,7 +123323,6 @@ import_tables:
 劣質	lyut6 zat1
 劣績斑斑	lyut6 zik1 baan1 baan1
 唔唔	m1 m1
-唔知	m14 zi1
 唔知米價	m3 zi1 mai5 gaa3
 唔辦	m4 baan6
 唔包	m4 baau1
@@ -123359,7 +123356,6 @@ import_tables:
 唔似樣	m4 ci5 joeng2
 唔清	m4 cing1
 唔清楚	m4 cing1 co2
-唔清唔楚	m4 cing1 m14 co2
 唔清唔楚	m4 cing1 m4 co2
 唔切	m4 cit3
 唔撤	m4 cit3
@@ -123394,7 +123390,6 @@ import_tables:
 唔得了	m4 dak1 liu5
 唔等使	m4 dang2 sai2
 唔等洗	m4 dang2 sai2
-唔嗲唔吊	m4 de2 m14 diu3
 唔嗲唔吊	m4 de2 m4 diu3
 唔對路	m4 deoi3 lou6
 唔啲吖	m4 di1 aa3
@@ -123490,7 +123485,6 @@ import_tables:
 唔見咗	m4 gin3 zo2
 唔健康	m4 gin6 hong1
 唔經大腦	m4 ging1 daai6 nou5
-唔經唔覺	m4 ging1 m14 gok3
 唔經唔覺	m4 ging1 m4 gok3
 唔驚唔覺	m4 ging1 m4 gok3
 唔叫	m4 giu3
@@ -123766,7 +123760,6 @@ import_tables:
 唔使啦	m4 sai2 laa1
 唔使喇	m4 sai2 laa3
 唔使來	m4 sai2 lei4
-唔使唔該	m4 sai2 m14 goi1
 唔使唔該	m4 sai2 m4 goi1
 唔使問亞貴	m4 sai2 man6 aa3 gwai3
 唔使問阿桂	m4 sai2 man6 aa3 gwai3
@@ -123860,7 +123853,6 @@ import_tables:
 唔數	m4 sou2
 唔熟	m4 suk6
 唔熟行	m4 suk6 hong4
-唔熟唔食	m4 suk6 m14 sik6
 唔熟唔食	m4 suk6 m4 sik6
 黃皮樹了哥	m4 suk6 m4 sik6
 唔熟性	m4 suk6 sing3
@@ -123876,7 +123868,6 @@ import_tables:
 唔聽笛	m4 teng1 dek2
 唔妥	m4 to2
 唔妥	m4 to5
-唔湯唔水	m4 tong1 m14 seoi2
 唔湯唔水	m4 tong1 m4 seoi2
 唔通	m4 tung1
 唔通氣	m4 tung1 hei3
