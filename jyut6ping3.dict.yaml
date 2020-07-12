@@ -38861,7 +38861,6 @@ import_tables:
 笨人	ban6 jan4
 笨撚	ban6 lan2
 笨撚柒	ban6 lan2 cat6
-笨奶	ban6 naai
 笨奶	ban6 naai4
 笨鳥先飛	ban6 niu5 sin1 fei1
 笨實	ban6 sat6
@@ -42149,7 +42148,6 @@ import_tables:
 表姊妹	biu2 zi2 mui6
 表字	biu2 zi6
 表徵	biu2 zing1
-表証	biu2 zing3
 表證	biu2 zing3
 表彰	biu2 zoeng1
 表章	biu2 zoeng1
@@ -43264,7 +43262,6 @@ import_tables:
 保值	bou2 zik6
 保荐	bou2 zin3
 保薦	bou2 zin3
-保証	bou2 zing3
 保證	bou2 zing3
 保證金	bou2 zing3 gam1
 保證人	bou2 zing3 jan4
@@ -44842,7 +44839,6 @@ import_tables:
 查字典	caa4 zi6 din2
 查字法	caa4 zi6 faat3
 茶晶	caa4 zing1
-查証	caa4 zing3
 查證	caa4 zing3
 搽咗面懵膏	caa4 zo2 min6 mung2 gou1
 茶座	caa4 zo6
@@ -45855,7 +45851,6 @@ import_tables:
 炒鑊	caau2 wok6
 炒鑊勁	caau2 wok6 ging6
 炒黃牛	caau2 wong4 ngau4
-炒黄牛	caau2 wong4 ngau4
 炒匯	caau2 wui6
 炒齋河	caau2 zaai1 ho2
 吵嘴	caau2 zeoi2
@@ -49512,7 +49507,6 @@ import_tables:
 持之以恆	ci4 zi1 ji5 hang4
 池子	ci4 zi2
 辭職	ci4 zik1
-持証人	ci4 zing3 jan4
 持證人	ci4 zing3 jan4
 池沼	ci4 ziu2
 慈照寺	ci4 ziu3 zi6
@@ -49684,7 +49678,6 @@ import_tables:
 簽字筆	cim1 zi6 bat1
 簽字費	cim1 zi6 fai3
 簽字者	cim1 zi6 ze2
-簽証	cim1 zing3
 簽證	cim1 zing3
 簽證機	cim1 zing3 gei1
 簽咗	cim1 zo2
@@ -56109,9 +56102,8 @@ import_tables:
 帶回	daai3 wui4
 帶走	daai3 zau2
 帶遮	daai3 ze1
-大隻廣	daai3 zek3 gong2
 大隻講	daai3 zek3 gong2
-大隻廣	daai3 zek3 gwong
+大隻廣	daai3 zek3 gwong2
 大隻騾騾	daai3 zek3 leoi4 leoi4
 戴罪立功	daai3 zeoi6 laap6 gung1
 帶子	daai3 zi2
@@ -75961,7 +75953,7 @@ import_tables:
 計咗下	gai3 zo2 haa5
 筀竹	gai3 zuk1
 繼續	gai3 zuk6
-咁滯	gam zai6
+咁滯	gam3 zai6
 金鈪	gam1 aak2
 金鈪	gam1 aak3
 金甌	gam1 au1
@@ -79047,7 +79039,6 @@ import_tables:
 矩陣	geoi2 zan6
 舉止	geoi2 zi2
 舉薦	geoi2 zin3
-舉証	geoi2 zing3
 舉證	geoi2 zing3
 舉足輕重	geoi2 zuk1 hing1 cung5
 舉足輕重	geoi2 zuk1 hing1 zung6
@@ -84621,11 +84612,9 @@ import_tables:
 弓箭手	gung1 zin3 sau2
 工整	gung1 zing2
 公正	gung1 zing3
-公証	gung1 zing3
 公證	gung1 zing3
 公正不阿	gung1 zing3 bat1 o1
 公證處	gung1 zing3 cyu3
-公証行	gung1 zing3 hong2
 公證行	gung1 zing3 hong2
 公證人	gung1 zing3 jan4
 公勺	gung1 zoek3
@@ -85402,7 +85391,6 @@ import_tables:
 閨門旦	gwai1 mun4 daan2
 歸納	gwai1 naap6
 歸納法	gwai1 naap6 faat3
-歸納論証	gwai1 naap6 leon6 zing3
 歸納論證	gwai1 naap6 leon6 zing3
 歸納推理	gwai1 naap6 teoi1 lei5
 閨女	gwai1 neoi2
@@ -86633,9 +86621,6 @@ import_tables:
 過造	gwo3 zou6
 過鐘	gwo3 zung1
 過主	gwo3 zyu2
-光鮮	gwoeng1 sin1
-光頭佬	gwoeng1 tau4 lou2
-光頭仔	gwoeng1 tau4 zai2
 國賓	gwok3 ban1
 國賓館	gwok3 ban1 gun2
 國柄	gwok3 beng3
@@ -87250,7 +87235,6 @@ import_tables:
 光頭	gwong1 tau4
 光頭黨	gwong1 tau4 dong2
 光頭佬	gwong1 tau4 lou2
-光頭仔	gwong1 tau4 zai1
 光頭仔	gwong1 tau4 zai2
 光天化日	gwong1 tin1 faa3 jat6
 光天化日之下	gwong1 tin1 faa3 jat6 zi1 haa6
@@ -98915,7 +98899,6 @@ import_tables:
 印字格	jan3 zi6 gaak3
 印字機	jan3 zi6 gei1
 印跡	jan3 zik1
-印証	jan3 zing3
 印證	jan3 zing3
 印章	jan3 zoeng1
 印象	jan3 zoeng6
@@ -99418,7 +99401,6 @@ import_tables:
 人跡罕至	jan4 zik1 hon2 zi3
 人尖兒	jan4 zim1 ji4
 人精	jan4 zing1
-人証	jan4 zing3
 人證	jan4 zing3
 仁政	jan4 zing3
 人證物證	jan4 zing3 mat6 zing3
@@ -99545,7 +99527,6 @@ import_tables:
 引致	jan5 zi3
 引薦	jan5 zin3
 引徵	jan5 zing1
-引証	jan5 zing3
 引證	jan5 zing3
 引着	jan5 zoek6
 引種	jan5 zung2
@@ -101935,7 +101916,7 @@ import_tables:
 揉制	jau4 zai3
 鞣製	jau4 zai3
 油浸禾花雀	jau4 zam3 wo4 faa1 zoek3
-油浸黄花雀	jau4 zam3 wong4 faa1 zoek3
+油浸黃花雀	jau4 zam3 wong4 faa1 zoek3
 鞣質	jau4 zat1
 遊走	jau4 zau2
 油井	jau4 zeng2
@@ -105434,7 +105415,6 @@ import_tables:
 驗傷	jim6 soeng1
 驗算	jim6 syun3
 驗資	jim6 zi1
-驗証	jim6 zing3
 驗證	jim6 zing3
 驗證碼	jim6 zing3 maa5
 艷照	jim6 ziu3
@@ -105610,7 +105590,6 @@ import_tables:
 演義	jin2 ji6
 演繹	jin2 jik6
 演繹法	jin2 jik6 faat3
-演繹論証	jin2 jik6 leon6 zing3
 演繹論證	jin2 jik6 leon6 zing3
 演員	jin2 jyun4
 演員陣容	jin2 jyun4 zan6 jung4
@@ -106749,7 +106728,6 @@ import_tables:
 認罰	jing6 fat6
 認繳資本	jing6 giu2 zi1 bun2
 認腳	jing6 goek3
-認股証	jing6 gu2 zing3
 認股證	jing6 gu2 zing3
 認捐	jing6 gyun1
 認可	jing6 ho2
@@ -111490,7 +111468,7 @@ import_tables:
 卡式	kaa1 sik1
 卡式帶	kaa1 sik1 daai2
 卡式機	kaa1 sik1 gei1
-卡式証	kaa1 sik1 zing3
+卡式證	kaa1 sik1 zing3
 卡仙尼	kaa1 sin1 nei4
 卡桑德拉	kaa1 song1 dak1 laai1
 卡塔赫納	kaa1 taap3 haak1 naap6
@@ -112271,9 +112249,7 @@ import_tables:
 求職	kau4 zik1
 求職信	kau4 zik1 seon3
 求職者	kau4 zik1 ze2
-求証	kau4 zing3
 求證	kau4 zing3
-球証	kau4 zing3
 球證	kau4 zing3
 求助	kau4 zo6
 球座	kau4 zo6
@@ -116363,9 +116339,7 @@ import_tables:
 臨潭	lam4 taam4
 臨潭縣	lam4 taam4 jyun6
 臨頭	lam4 tau4
-臨天光賴尿	lam4 tin1 gwong1 laai6 liu6
 臨天光瀨尿	lam4 tin1 gwong1 laai6 niu6
-臨天光賴尿	lam4 tin1 gwong1 laai6 niu6
 臨帖	lam4 tip2
 臨帖	lam4 tip3
 臨眺	lam4 tiu3
@@ -118465,7 +118439,6 @@ import_tables:
 論盡	leon6 zeon6
 論資排輩	leon6 zi1 paai4 bui3
 論戰	leon6 zin3
-論証	leon6 zing3
 論證	leon6 zing3
 論著	leon6 zyu3
 栗斑杜鵑	leot6 baan1 dou6 gyun1
@@ -126953,7 +126926,6 @@ import_tables:
 密織	mat6 zik1
 密植	mat6 zik6
 蜜餞	mat6 zin3
-物証	mat6 zing3
 物證	mat6 zing3
 密接	mat6 zip3
 密詔	mat6 ziu3
@@ -131429,7 +131401,6 @@ import_tables:
 目鏡	muk6 geng3
 目擊	muk6 gik1
 目擊者	muk6 gik1 ze2
-目擊証人	muk6 gik1 zing3 jan4
 目擊證人	muk6 gik1 zing3 jan4
 木劍	muk6 gim3
 目見	muk6 gin3
@@ -136070,7 +136041,6 @@ import_tables:
 牛頭馬面	ngau4 tau4 maa5 min6
 牛肚	ngau4 tou5
 牛蛙	ngau4 waa1
-牛王	ngau4 woeng4
 牛王	ngau4 wong4
 牛黃	ngau4 wong4
 牛王妹	ngau4 wong4 mui1
@@ -137106,12 +137076,8 @@ import_tables:
 念舊	nim6 gau6
 唸經	nim6 ging1
 念經	nim6 ging1
-唸口簧	nim6 hau2 woeng2
 唸口簧	nim6 hau2 wong2
 唸口黃	nim6 hau2 wong2
-唸口黄	nim6 hau2 wong2
-念口簧	nim6 hau2 wong2
-念口黃	nim6 hau2 wong2
 唸口簧	nim6 hau2 wong4
 唸口黃	nim6 hau2 wong4
 念學位	nim6 hok6 wai2
@@ -140850,7 +140816,6 @@ import_tables:
 遍地	pin3 dei6
 遍地開花	pin3 dei6 hoi1 faa1
 遍地黃金	pin3 dei6 wong4 gam1
-遍地黄金	pin3 dei6 wong4 gam1
 片糖	pin3 dong4
 片斷	pin3 dyun6
 片段	pin3 dyun6
@@ -141758,7 +141723,6 @@ import_tables:
 龐茲	pong4 zi1
 旁枝末節	pong4 zi1 mut6 zit3
 膀子	pong4 zi2
-旁証	pong4 zing3
 旁證	pong4 zing3
 蚌埠	pong5 fau6
 蚌埠市	pong5 fau6 si5
@@ -148955,9 +148919,7 @@ import_tables:
 首席信息官	sau2 zik6 seon3 sik1 gun1
 首席運營官	sau2 zik6 wan6 jing4 gun1
 首席執行官	sau2 zik6 zap1 hang4 gun1
-搜証	sau2 zing3
 搜證	sau2 zing3
-蒐証	sau2 zing3
 蒐證	sau2 zing3
 守正不阿	sau2 zing3 bat1 o1
 守節	sau2 zit3
@@ -153900,7 +153862,6 @@ import_tables:
 食荼臥棘	sik6 tou4 ngo6 gik1
 食環	sik6 waan4
 食環署	sik6 waan4 cyu5
-食皇家飯	sik6 woeng4 gaa1 faan6
 食枉米	sik6 wong2 mai5
 食皇家飯	sik6 wong4 gaa1 faan6
 食黃泥	sik6 wong4 nai4
@@ -163256,7 +163217,6 @@ import_tables:
 天公地道	tin1 gung1 dei6 dou6
 天公造美	tin1 gung1 zou6 mei5
 天癸	tin1 gwai3
-天光	tin1 gwoeng1
 天國	tin1 gwok3
 天光	tin1 gwong1
 天光大白	tin1 gwong1 daai6 baak6
@@ -164153,7 +164113,6 @@ import_tables:
 鐵嘴雞	tit3 zeoi2 gai1
 鐵嘴沙鴴	tit3 zeoi2 saa1 hang4
 鐵枝	tit3 zi1
-鐵証	tit3 zing3
 鐵證	tit3 zing3
 鐵證如山	tit3 zing3 jyu4 saan1
 鐵勺	tit3 zoek3
@@ -170957,7 +170916,6 @@ import_tables:
 烏燈黑火	wu1 dang1 hak1 fo2
 烏豆	wu1 dau2
 污點	wu1 dim2
-污點証人	wu1 dim2 zing3 jan4
 污點證人	wu1 dim2 zing3 jan4
 烏鵰	wu1 diu1
 烏鵰鴞	wu1 diu1 hiu1
@@ -171680,7 +171638,6 @@ import_tables:
 回鄉卡	wui4 hoeng1 kaat1
 回鄉咭	wui4 hoeng1 kaat1
 茴香籽	wui4 hoeng1 zi2
-回鄉証	wui4 hoeng1 zing3
 回鄉證	wui4 hoeng1 zing3
 回響	wui4 hoeng2
 迴響	wui4 hoeng2
@@ -172642,7 +172599,6 @@ import_tables:
 眨動	zaam2 dung6
 斬犯	zaam2 faan2
 斬雞頭燒黃紙	zaam2 gai1 tau4 siu1 wong4 zi2
-斬雞頭燒黄紙	zaam2 gai1 tau4 siu1 wong4 zi2
 斬雞頭換雞腳	zaam2 gai1 tau4 wun6 gai1 goek3
 斬件	zaam2 gin2
 斬件	zaam2 gin6
@@ -176690,7 +176646,7 @@ import_tables:
 肢解	zi1 gaai2
 資格	zi1 gaak3
 資格賽	zi1 gaak3 coi3
-資格証	zi1 gaak3 zing3
+資格證	zi1 gaak3 zing3
 之間	zi1 gaan1
 知更鳥	zi1 gaang1 niu5
 知更雀	zi1 gaang1 zoek2
@@ -179854,7 +179810,6 @@ import_tables:
 正教真詮	zing3 gaau3 zan1 cyun4
 正根	zing3 gan1
 政紀	zing3 gei2
-証據	zing3 geoi3
 證據	zing3 geoi3
 正極	zing3 gik6
 幀檢驗序列	zing3 gim2 jim6 zeoi6 lit6
@@ -179876,7 +179831,6 @@ import_tables:
 政局	zing3 guk6
 證管會	zing3 gun2 wui6
 政工	zing3 gung1
-証供	zing3 gung1
 證供	zing3 gung1
 正宮娘娘	zing3 gung1 noeng4 noeng4
 正攻砲	zing3 gung1 paau3
@@ -179922,7 +179876,6 @@ import_tables:
 正因	zing3 jan1
 正印	zing3 jan3
 正人	zing3 jan4
-証人	zing3 jan4
 證人	zing3 jan4
 正人君子	zing3 jan4 gwan1 zi2
 證人席	zing3 jan4 zik6
@@ -179980,11 +179933,9 @@ import_tables:
 正路	zing3 lou6
 正六邊形	zing3 luk6 bin1 jing4
 正文	zing3 man4
-証物	zing3 mat6
 證物	zing3 mat6
 正面	zing3 min6
 正名	zing3 ming4
-証明	zing3 ming4
 證明	zing3 ming4
 證明完畢	zing3 ming4 jyun4 bat1
 證明力	zing3 ming4 lik6
@@ -183452,7 +183403,6 @@ import_tables:
 足踝	zuk1 waa5
 祝允明	zuk1 wan5 ming4
 捉黃腳雞	zuk1 wong4 goek3 gai1
-捉黄腳雞	zuk1 wong4 goek3 gai1
 竹芋	zuk1 wu6
 屬垣有耳	zuk1 wun4 jau5 ji5
 竹製	zuk1 zai3
