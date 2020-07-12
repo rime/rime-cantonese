@@ -24,8 +24,10 @@ translator:
   prism: jyut6ping3_ipa
   spelling_hints: 8
   preedit_format:
+    # 鼻音獨立成韻
     - xform/(^|[ '])(m)(qq?|xx?|vv?)?($|[ '])/$1$2̩$3$4/            # 唔 m̩
     - xform/(^|[ '])(ng)(qq?|xx?|vv?)?($|[ '])/$1$2̍$3$4/           # 五 ŋ̍
+    # 聲調
     - xform/([ptk])qq/$1˨/                    # 熱 jiːt̚˨
     - xform/([ptk])q/$1˧/                     # 醃 jiːp̚˧
     - xform/([ptk])v/$1˥/                     # 一 jɐt̚
@@ -36,11 +38,12 @@ translator:
     - xform/qq/˨/                             # 二 jiː˨
     - xform/(^|[ '])q/$1ʔ/                    # 喉塞音
     - xform/q/˧/                              # 意 jiː˧
+    # 聲韻母
     - xform/([PTK])$/$1]$2/                   # 入 jɐp̚
-    - xform/(^|[ '])([jy])u(ng)/$1joŋ/        # 用 joŋ
+    - xform/(^|[ '])([jy])u(ng)/$1jOŋ/        # 用 joŋ
     - xform/(^|[ '])(jy|[jy])u([t])/$1jYː$3]/ # 月 jyːt̚
     - xform/([dtlgkhzcsj])yu([t])/$1Yː$2]/    # 奪 tyːt̚
-    - xform/(^|[ '])([jy])u([k])/$1jo$3]/     # 玉 jok̚
+    - xform/(^|[ '])([jy])u([k])/$1jO$3]/     # 玉 jok̚
     - xform/(^|[ '])(jy)u/$1jYː/              # 元 jyːn
     - xform/yu/Yː/                            # 嫩 nyːn
     - xform/y([aeior])/j$1/                   # 一 yat/jɐt̚/
@@ -55,7 +58,7 @@ translator:
     - xform/eu/ɛːU/                           # 掉 tɛːu
     - xform/eoi/ɵY/                           # 水 sɵy
     - xform/oei/ɵY/                           # eo/oe 混淆
-    - xform/oe([pk])/œː$1]/                   # 約jœːk̚
+    - xform/oe([pk])/œː$1]/                   # 約 jœːk̚
     - xform/oe(ng)/œː$1/                      # eo/oe 混淆
     - xform/(.)oe([t])/$1ɵ$2]/                # eo/oe 混淆
     - xform/^oet/œːt]/                        # 兼容新讀音 /œːt̚/
@@ -67,11 +70,11 @@ translator:
     - xform/eo([t])/ɵ$1]/                     # 率 sɵt̚
     - xform/eon/ɵn/                           # 信 sɵn
     - xform/ou/OU/                            # 無 mou
-    - xform/u([k])/o$1]/                      # 六 lok̚
+    - xform/u([k])/O$1]/                      # 六 lok̚
     - xform/ui/UːI/                           # 回 wuːi
     - xform/iu/IːU/                           # 小 siːu
-    - xform/i(ng)/eN/                         # 名 meŋ
-    - xform/ik/eK]/                           # 式 sek̚
+    - xform/i(ng)/EN/                         # 名 meŋ
+    - xform/ik/EK]/                           # 式 sek̚
     - xform/i([pt])/Iː$1]/                    # 結 kiːt̚
     - xform/eo/ɵ/                             # 去 hɵy
     - xform/a/ɐ/                              # 得 tɐk̚
@@ -81,7 +84,7 @@ translator:
     - xform/e/ɛː/                             # 寫 sɛː
     - xform/o([ptk])/ɔː$1]/                   # 莫 mɔːk̚
     - xform/u([pt])/Uː$1]/                    # 活 wuːt̚
-    - xform/u(ng)/oN/                         # 動 toŋ
+    - xform/u(ng)/ON/                         # 動 toŋ
     - xform/o/ɔː/                             # 錯 tsʰɔː
     - xform/u/Uː/                             # 故 kuː
     - xform/ng/N/                             # 我 ŋɔː
@@ -96,4 +99,4 @@ translator:
     - xform/l/l/                              # 里 lei
     - xform/s/s/                              # 死 sei
     - xform/z/T͡s/                             # 這 t͡sɛː
-    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIeɔOœɵUoYː]|pmftnŋlkhʰsʃjwʷɐaeɛieɔoœɵuoyː̚|"
+    - "xlit|PmfTnNlKhHsʃjwWɐAEɛIɪɔOœɵUʊYː]|pmftnŋlkhʰsʃjwʷɐaeɛiɪɔoœɵuʊyː̚|"
