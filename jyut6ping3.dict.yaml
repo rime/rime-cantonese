@@ -18301,7 +18301,7 @@ import_tables:
 拉	laai1
 鞡	laai1
 𡝰	laai1
-舐	laai2	0%
+舐	laai2
 𦧺	laai2
 厲	laai3	0%
 癘	laai3	0%
@@ -19063,7 +19063,6 @@ import_tables:
 瀝	lek6	3%
 癧	lek6
 𠠝	lek6
-舐	lem2	0%
 舔	lem2
 𦧷	lem2
 僆	leng1
@@ -19511,7 +19510,7 @@ import_tables:
 𢟍	lik6
 𤃉	lik6
 令	lim1	0%
-舐	lim2	0%
+簾	lim2	0%
 蹨	lim3	0%
 㝺	lim4
 㡘	lim4
@@ -26718,7 +26717,7 @@ import_tables:
 示	si6
 礻	si6	0%
 耆	si6	3%
-舐	si6	0%
+舐	si5	0%
 蒔	si6
 褆	si6
 視	si6
@@ -114739,7 +114738,7 @@ import_tables:
 拉茲莫夫斯基	laai1 zi1 mok6 fu1 si1 gei1
 拉錯	laai1 zo3
 拉住	laai1 zyu6
-瀨大鑊	laai2 daai6 wok6
+舐大鑊	laai2 daai6 wok6
 舐鞋底	laai2 haai4 dai2
 𦧺鞋底	laai2 haai4 dai2
 舐閪	laai2 hai1
@@ -117765,8 +117764,8 @@ import_tables:
 叻仔	lek1 zai2
 瀝滘	lek6 gaau3
 瀝滘站	lek6 gaau3 zaam6
-舐屎忽	lem2 si2 fat1
-舐嘴	lem2 zeoi2
+舔屎忽	lem2 si2 fat1
+舔嘴	lem2 zeoi2
 僆琼	leng1 keng1
 僆模	leng1 mou4
 𡃁模	leng1 mou4
@@ -172197,7 +172196,6 @@ import_tables:
 渣甸山	zaa1 din6 saan1
 渣都冇	zaa1 dou1 mou5
 渣都冇得剩	zaa1 dou1 mou5 dak1 zing6
-渣都冇得剩	zaa1 dou1 mouk2 dak1 zing6
 揸筷子	zaa1 faai3 zi2
 揸弗	zaa1 fit1
 揸弗人	zaa1 fit1 jan4
