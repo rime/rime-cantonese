@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2020.07.07"
+  version: "2020.05.25"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -29,10 +29,10 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - options: [ variants_hk, simplification ]
-    states: [ 傳統漢字, 简化汉字 ]
-    # 將下行註釋 0 改作 1，預設出简化汉字
-    reset: 0
+  - options: [ noop, trad_hk, trad_tw, simplification ]
+    states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
+    # 修改下行註釋，改變預設用字 [0, 1, 2, 3 --> 對應上表]
+    reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: emoji_suggestion
@@ -66,6 +66,7 @@ engine:
     - table_translator@stroke
     - table_translator@cangjie5
   filters:
+    - simplifier@trad_tw
     - simplifier@variants_hk
     - simplifier
     - simplifier@emoji_suggestion
@@ -159,6 +160,10 @@ reverse_lookup:
   tags: [ luna_pinyin, stroke, cangjie5 ]
   overwrite_comment: false
   dictionary: jyut6ping3
+
+trad_tw:
+  option_name: trad_tw
+  opencc_config: t2tw.json
 
 variants_hk:
   option_name: variants_hk

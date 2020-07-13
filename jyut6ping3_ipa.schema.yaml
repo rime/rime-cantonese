@@ -6,7 +6,7 @@ __include: jyut6ping3.schema:/
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "2020.07.07"
+  version: "2020.06.15"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
