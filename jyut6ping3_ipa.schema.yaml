@@ -6,13 +6,14 @@ __include: jyut6ping3.schema:/
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "2020.07.10"
+  version: "2020.07.15"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
     - tanxpyox <tanxpyox@gmail.com>
+    - William915 <William915@gmail.com>
   description: |-
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
