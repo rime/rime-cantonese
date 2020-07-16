@@ -40529,10 +40529,8 @@ import_tables:
 祕傳	bei3 cyun4
 痹到死	bei3 dou3 sei2
 祕方	bei3 fong1
-秘方	bei3 fong1
 袐方	bei3 fong1
 祕技	bei3 gei6
-秘技	bei3 gei6
 祕結	bei3 git3
 庇古	bei3 gu2
 庇蔭	bei3 jam3
@@ -40541,46 +40539,36 @@ import_tables:
 祕而不宣	bei3 ji4 bat1 syun1
 泌乳	bei3 jyu5
 祕笈	bei3 kap1
-秘笈	bei3 kap1
 祕訣	bei3 kyut3
-秘訣	bei3 kyut3
 賁臨	bei3 lam4
 比鄰	bei3 leon4
 祕撈	bei3 lou1
-秘撈	bei3 lou1
 祕魯	bei3 lou5
-秘魯	bei3 lou5
-秘魯苦蘵	bei3 lou5 fu2 zik1
+祕魯苦蘵	bei3 lou5 fu2 zik1
 祕聞	bei3 man4
 祕密	bei3 mat6
-秘密	bei3 mat6
 祕密警察	bei3 mat6 ging2 caat3
-秘密警察	bei3 mat6 ging2 caat3
-秘密會社	bei3 mat6 wui2 se5
-秘密活動	bei3 mat6 wut6 dung6
+祕密會社	bei3 mat6 wui2 se5
+祕密活動	bei3 mat6 wut6 dung6
 泌尿	bei3 niu6
 泌尿系統	bei3 niu6 hai6 tung2
 泌尿器	bei3 niu6 hei3
 臂紗	bei3 saa1
 庇西特拉圖	bei3 sai1 dak6 laai1 tou4
-秘辛	bei3 san1
+祕辛	bei3 san1
 匕首	bei3 sau2
 祕史	bei3 si2
-秘史	bei3 si2
 祕書	bei3 syu1
-秘書	bei3 syu1
-秘書處	bei3 syu1 cyu3
+祕書處	bei3 syu1 cyu3
 祕書臺	bei3 syu1 toi4
-秘書臺	bei3 syu1 toi4
 祕書長	bei3 syu1 zoeng2
-秘書長	bei3 syu1 zoeng2
 轡頭	bei3 tau4
 臂彎	bei3 waan1
 庇護	bei3 wu6
 庇護工場	bei3 wu6 gung1 coeng4
 庇護所	bei3 wu6 so2
 費盡心思	bei3 zeon6 sam1 si1
-秘籍	bei3 zik6
+祕籍	bei3 zik6
 痹證	bei3 zing3
 臂章	bei3 zoeng1
 被迫	bei6 baak1
@@ -41386,7 +41374,6 @@ import_tables:
 辯白	bin6 baak6
 便閉	bin6 bai3
 便祕	bin6 bei3
-便秘	bin6 bei3
 便便	bin6 bin6
 辨別	bin6 bit6
 辨別力	bin6 bit6 lik6
@@ -43223,7 +43210,7 @@ import_tables:
 補鑊唔見枳	bou2 wok6 m4 gin3 zat1
 保皇黨	bou2 wong4 dong2
 寶葫蘆	bou2 wu4 lou2
-寶葫蘆的秘密	bou2 wu4 lou2 dik1 bei3 mat6
+寶葫蘆的祕密	bou2 wu4 lou2 dik1 bei3 mat6
 保戶	bou2 wu6
 保護	bou2 wu6
 保護費	bou2 wu6 fai3
@@ -48087,7 +48074,6 @@ import_tables:
 隨口講	ceoi4 hau2 gong2
 隨口噏	ceoi4 hau2 ngap1
 隨口噏當祕笈	ceoi4 hau2 ngap1 dong3 bei3 kap1
-隨口噏當秘笈	ceoi4 hau2 ngap1 dong3 bei3 kap1
 隨口胡謅	ceoi4 hau2 wu4 zau1
 隨後	ceoi4 hau6
 徐熙娣	ceoi4 hei1 tai5
@@ -52843,7 +52829,7 @@ import_tables:
 財物	coi4 mat6
 財貿	coi4 mau6
 財務	coi4 mou6
-財務秘書	coi4 mou6 bei3 syu1
+財務祕書	coi4 mou6 bei3 syu1
 財務大臣	coi4 mou6 daai6 san4
 財務公司	coi4 mou6 gung1 si1
 財務軟件	coi4 mou6 jyun5 gin2
@@ -70924,7 +70910,7 @@ import_tables:
 副班長	fu3 baan1 zoeng2
 富不過三代	fu3 bat1 gwo3 saam1 doi6
 褲髀	fu3 bei2
-副秘書長	fu3 bei3 syu1 zoeng2
+副祕書長	fu3 bei3 syu1 zoeng2
 副標題	fu3 biu1 tai4
 富布賴特	fu3 bou3 laai6 dak6
 庫布里克	fu3 bou3 lei5 hak1
@@ -77492,7 +77478,6 @@ import_tables:
 鳩硬冇親戚	gau1 ngaang6 mou5 can1 cik1
 鳩噏	gau1 ngap1
 鳩噏當祕笈	gau1 ngap1 dong3 bei3 kap1
-鳩噏當秘笈	gau1 ngap1 dong3 bei3 kap1
 鳩山	gau1 saan1
 鳩山由紀夫	gau1 saan1 jau4 gei2 fu1
 㞗屎	gau1 si2
@@ -85443,7 +85428,6 @@ import_tables:
 鬼揞眼	gwai2 am2 ngaan5
 鬼把戲	gwai2 baa2 hei3
 詭祕	gwai2 bei3
-詭秘	gwai2 bei3
 詭辯	gwai2 bin6
 詭辯家	gwai2 bin6 gaa1
 詭辯術	gwai2 bin6 seot6
@@ -98649,8 +98633,7 @@ import_tables:
 忍不住	jan2 bat1 zyu6
 忍不住手	jan2 bat1 zyu6 sau2
 隱祕	jan2 bei3
-隱秘	jan2 bei3
-隱秘難言	jan2 bei3 naan4 jin4
+隱祕難言	jan2 bei3 naan4 jin4
 隱避	jan2 bei6
 隱病不報	jan2 beng6 bat1 bou3
 隱棲動物學	jan2 cai1 dung6 mat6 hok6
@@ -99754,7 +99737,7 @@ import_tables:
 一筆還一筆	jat1 bat1 waan4 jat1 bat1
 一不做二不休	jat1 bat1 zou6 ji6 bat1 jau1
 一不做，二不休	jat1 bat1 zou6 ji6 bat1 jau1
-一秘	jat1 bei3
+一祕	jat1 bei3
 一臂之力	jat1 bei3 zi1 lik6
 一鼻孔出氣	jat1 bei6 hung2 ceot1 hei3
 一病不起	jat1 beng6 bat1 hei2
@@ -110214,7 +110197,7 @@ import_tables:
 鉛筆心	jyun4 bat1 sam1
 鉛筆芯	jyun4 bat1 sam1
 懸臂	jyun4 bei3
-玄秘	jyun4 bei3
+玄祕	jyun4 bei3
 完備	jyun4 bei6
 原被告	jyun4 bei6 gou3
 完備性	jyun4 bei6 sing3
@@ -113089,7 +113072,7 @@ import_tables:
 瓊中黎族苗族自治縣	king4 zung1 lai4 zuk6 miu4 zuk6 zi6 zi6 jyun6
 喼弗	kip1 fit1
 揭揭聲	kit1 kit1 seng1
-揭秘	kit3 bei3
+揭祕	kit3 bei3
 藒車	kit3 ce1
 擷取	kit3 ceoi2
 揭出	kit3 ceot1
@@ -123063,7 +123046,7 @@ import_tables:
 聯合公報	lyun4 hap6 gung1 bou3
 聯合軍演	lyun4 hap6 gwan1 jin2
 聯合國	lyun4 hap6 gwok3
-聯合國秘書處	lyun4 hap6 gwok3 bei3 syu1 cyu3
+聯合國祕書處	lyun4 hap6 gwok3 bei3 syu1 cyu3
 聯合國大會	lyun4 hap6 gwok3 daai6 wui2
 聯合國教科文組織	lyun4 hap6 gwok3 gaau3 fo1 man4 zou2 zik1
 聯合國氣候變化框架公約	lyun4 hap6 gwok3 hei3 hau6 bin3 faa3 kwaang1 gaa2 gung1 joek3
@@ -126044,7 +126027,7 @@ import_tables:
 文不加點	man4 bat1 gaa1 dim2
 文筆流暢	man4 bat1 lau4 coeng3
 民不聊生	man4 bat1 liu4 sang1
-文秘	man4 bei3
+文祕	man4 bei3
 民變	man4 bin3
 民變峯起	man4 bin3 fung1 hei2
 民兵	man4 bing1
@@ -139046,7 +139029,6 @@ import_tables:
 奧巴馬	ou3 baa1 maa5
 澳幣	ou3 bai6
 奧祕	ou3 bei3
-奧秘	ou3 bei3
 奧布里	ou3 bou3 lei5
 奧切諾斯	ou3 cit3 nok6 si1
 奧塞羅	ou3 coi3 lo4
@@ -146861,10 +146843,9 @@ import_tables:
 神不守舍	san4 bat1 sau2 se5
 神不知鬼不覺	san4 bat1 zi1 gwai2 bat1 gok3
 神祕	san4 bei3
-神秘	san4 bei3
-神秘化	san4 bei3 faa3
+神祕化	san4 bei3 faa3
 神祕莫測	san4 bei3 mok6 caak1
-神秘主義	san4 bei3 zyu2 ji6
+神祕主義	san4 bei3 zyu2 ji6
 神兵	san4 bing1
 晨報	san4 bou3
 臣僕	san4 buk6
@@ -151879,7 +151860,7 @@ import_tables:
 斯賓塞	si1 ban1 coi3
 斯賓諾莎	si1 ban1 nok6 saa1
 施比受更有福	si1 bei2 sau6 gang3 jau5 fuk1
-私秘	si1 bei3
+私祕	si1 bei3
 撕逼	si1 bik1
 施秉	si1 bing2
 施秉縣	si1 bing2 jyun6
@@ -152074,7 +152055,7 @@ import_tables:
 私隱權	si1 jan2 kyun4
 私人	si1 jan4
 詩人	si1 jan4
-私人秘書	si1 jan4 bei3 syu1
+私人祕書	si1 jan4 bei3 syu1
 私人鑰匙	si1 jan4 joek6 si4
 私人樓	si1 jan4 lau2
 私人醒	si1 jan4 sing2
@@ -155993,7 +155974,7 @@ import_tables:
 小不忍則亂大謀	siu2 bat1 jan2 zak1 lyun6 daai6 mau4
 少不了	siu2 bat1 liu5
 少不免	siu2 bat1 min5
-小秘	siu2 bei3
+小祕	siu2 bei3
 小病	siu2 beng6
 小辮	siu2 bin1
 小辮兒	siu2 bin1 ji4
