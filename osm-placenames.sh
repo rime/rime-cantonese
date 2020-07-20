@@ -103,7 +103,6 @@ queries=(
 	"
 )
 queries_len=${#queries[@]}
-cjk_range=$'\u4e00-\u9fff'
 date=$(date "+%Y.%m.%d")
 rime_dictionary_file_name="./jyut6ping3.%s.dict.yaml"
 rime_dictionary_header="# Rime dictionary
@@ -158,7 +157,7 @@ do
 
 	# print names that contain non-漢字 (BMP first set)
 	# LANG=C is needed. en_US.utf8→grep does not like \u9fff.
-	LANG=C grep -E "[^${cjk_range}]" "${cut_temp_out}" | less
+	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${cut_temp_out}" | less
 	echo "----"
 
 	# save complete list to $out
