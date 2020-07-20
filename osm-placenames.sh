@@ -133,12 +133,18 @@ do
 	name=${queries[${i}]}
 	query=${queries[$((i + 1))]}
 	url=$(printf "${overpass_api}" "${query}")
-	echo "${name}"
+
+	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXXX")
+	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXXX")
+	out=$(printf "${rime_dictionary_file_name}" "${name}")
+
+	# ----
+
+	printf "\\e[97;46m${name}\\e[0m\n"
 	echo "${query}"
 	echo "----"
 
 	# download OpenStreetMap data from the Overpass API
-	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXXX")
 	echo "${wget_temp_out}"
 	wget "${url}" -O "${wget_temp_out}"
 	echo "----"
@@ -147,7 +153,6 @@ do
 	#      '衛奕信徑;港島徑'→ '衛奕信徑' '港島徑'
 	# sed: '青山公路－荃灣段'→'青山公路'
 	# sort: sort and uniquify
-	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXXX")
 	echo "${cut_temp_out}"
 	cat "${wget_temp_out}" \
 		| sed "s/[\t;]/\n/g" \
@@ -155,13 +160,12 @@ do
 		| LANG=C sort -u -o "${cut_temp_out}"
 	echo "----"
 
-	# print names that contain non-漢字 (BMP first set)
+	# print names that contain non-漢字 (基本區)
 	# LANG=C is needed. en_US.utf8→grep does not like \u9fff.
 	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${cut_temp_out}" | less
 	echo "----"
 
 	# save complete list to $out
-	out=$(printf "${rime_dictionary_file_name}" "${name}")
 	echo "${out}"
 	printf "${rime_dictionary_header}" "${name}" "${date}" >> "${out}"
 	cat "${cut_temp_out}" >> "${out}"
