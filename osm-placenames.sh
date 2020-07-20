@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-# https://github.com/rime/rime-cantonese/issues/69
+# request for HK street names:
+#   https://github.com/rime/rime-cantonese/issues/69
+# test queries at:
+#   https://overpass-turbo.eu/
+#   (must unescape quotation marks)
 
 overpass_api="https://lz4.overpass-api.de/api/interpreter?data=%s"
 queries=(
