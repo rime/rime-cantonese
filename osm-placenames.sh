@@ -136,6 +136,7 @@ do
 
 	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXXX")
 	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXXX")
+	grep_nonHani_temp_out=$(mktemp -t "rime-cantonese.${name}.nonHani.$$.XXXX")
 	out=$(printf "${rime_dictionary_file_name}" "${name}")
 
 	# ----
@@ -162,7 +163,9 @@ do
 
 	# print names that contain non-漢字 (基本區)
 	# LANG=C is needed. en_US.utf8→grep does not like \u9fff.
-	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${cut_temp_out}" | less
+	echo "${grep_nonHani_temp_out}"
+	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${cut_temp_out}" > "${grep_nonHani_temp_out}"
+	less "${grep_nonHani_temp_out}"
 	echo "----"
 
 	# save complete list to $out
