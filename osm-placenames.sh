@@ -32,6 +32,75 @@ queries=(
 
 		.myWays out tags;
 	"
+
+	"osm_mo_ways"
+	"
+		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\"; false)][timeout:25];
+
+		relation(1867188);map_to_area->.mySearchArea;
+		(
+			way
+				[\"highway\"]
+				[\"highway\"!=\"bus_stop\"]
+				[\"highway\"!=\"construction\"]
+				[\"highway\"!=\"corridor\"]
+				[\"highway\"!=\"proposed\"]
+				[\"highway\"!=\"steps\"]
+				[\"access\"!=\"private\"]
+				[\"area\"!=\"yes\"]
+				[\"name:zh\"]
+				(area.mySearchArea)
+			;
+		)->.myWays;
+
+		.myWays out tags;
+	"
+
+	"osm_cn-gd_ways"
+	"
+		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\"; false)][timeout:25];
+
+		relation(911844);map_to_area->.mySearchArea;
+		(
+			way
+				[\"highway\"]
+				[\"highway\"!=\"bus_stop\"]
+				[\"highway\"!=\"construction\"]
+				[\"highway\"!=\"corridor\"]
+				[\"highway\"!=\"proposed\"]
+				[\"highway\"!=\"steps\"]
+				[\"access\"!=\"private\"]
+				[\"area\"!=\"yes\"]
+				[\"name:zh\"]
+				(area.mySearchArea)
+			;
+		)->.myWays;
+
+		.myWays out tags;
+	"
+
+	"osm_cn-gx_ways"
+	"
+		[out:csv(\"name:zh\", \"alt_name:zh\", \"old_name:zh\"; false)][timeout:25];
+
+		relation(286342);map_to_area->.mySearchArea;
+		(
+			way
+				[\"highway\"]
+				[\"highway\"!=\"bus_stop\"]
+				[\"highway\"!=\"construction\"]
+				[\"highway\"!=\"corridor\"]
+				[\"highway\"!=\"proposed\"]
+				[\"highway\"!=\"steps\"]
+				[\"access\"!=\"private\"]
+				[\"area\"!=\"yes\"]
+				[\"name:zh\"]
+				(area.mySearchArea)
+			;
+		)->.myWays;
+
+		.myWays out tags;
+	"
 )
 queries_len=${#queries[@]}
 cjk_range=$'\u4e00-\u9fff'
