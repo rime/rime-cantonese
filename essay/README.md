@@ -23,19 +23,10 @@ python build.py
 opencc -c ./hk2t.json -i essay-cantonese.txt -o essay-cantonese.txt
 python merge_freq.py
 wget https://github.com/rime/rime-cantonese/raw/master/jyut6ping3.dict.yaml
+perl -pi -e "s/use_preset_vocabulary: true/vocabulary: essay-cantonese/g" jyut6ping3.dict.yaml
+perl -pi -e "s/\t1000.+$//g" jyut6ping3.dict.yaml
 ```
-
-Result: `essay-cantonese.txt`.
 
 ### Usage
 
-Modify `jyut6ping3.dict.yaml`:
-
-```diff
--use_preset_vocabulary: true
-+vocabulary: essay-cantonese
-```
-
-```
-sed -i "s/\t1000.+$//g" jyut6ping3.dict.yaml
-```
+Copy `jyut6ping3.dict.yaml` and `essay-cantonese.txt` to the rime user directory.
