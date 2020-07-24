@@ -22,6 +22,7 @@ wget https://github.com/rime/rime-essay/raw/master/essay.txt
 python build.py
 opencc -c ./hk2t.json -i essay-cantonese.txt -o essay-cantonese.txt
 python merge_freq.py
+wget https://github.com/rime/rime-cantonese/raw/master/jyut6ping3.dict.yaml
 ```
 
 Result: `essay-cantonese.txt`.
