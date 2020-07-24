@@ -1,0 +1,19 @@
+{
+  "name": "Traditional Chinese (Hong Kong variant) to Traditional Chinese",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "HKVariantsRev.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "HKVariantsRev.txt"
+      }] 
+    }
+  }]
+}
