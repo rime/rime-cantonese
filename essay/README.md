@@ -1,18 +1,16 @@
 # essay-cantonese
 
-## `essay-cantonese.txt`
+## Expected behaviour
 
-### Expected behaviour
+- [x] `gamx` → 噉
+- [x] 而家 > 宜家
+- [x] 留低 > 婁底
+- [x] `zo` → 咗
+- [ ] 嗰個 > 哥哥
 
-- `gamx` → 噉 ✅️
-- 而家 > 宜家 ✅️
-- 留低 > 婁底 ✅️
-- `zo` → 咗 ✅️
-- 嗰個 > 哥哥 ❌
+## Build
 
-### Build
-
-Prepare `cifu-freq.txt`:
+Prepare `cifu-freq.txt`.
 
 Run:
 
@@ -27,6 +25,6 @@ perl -pi -e "s/use_preset_vocabulary: true/vocabulary: essay-cantonese/g" jyut6p
 perl -pi -e "s/\t1000.+$//g" jyut6ping3.dict.yaml
 ```
 
-### Usage
+## Usage
 
 Copy `jyut6ping3.dict.yaml` and `essay-cantonese.txt` to the rime user directory.
