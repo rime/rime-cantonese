@@ -55849,8 +55849,9 @@ import_tables:
 打橫行	daa2 waang4 hang4
 打橫嚟	daa2 waang4 lei4
 打橫嚟	daa2 waang4 lai4
-打橫來講	daa2 waang4 lai4 gong2
+打橫來講	daa2 waang4 loi4 gong2
 打橫嚟講	daa2 waang4 lai4 gong2
+打橫嚟講	daa2 waang4 lei4 gong2
 打橫嚟	daa2 waang4 lei4
 打橫嚟講	daa2 waang4 lei4 gong2
 打橫炮	daa2 waang4 paau3
@@ -62264,7 +62265,7 @@ import_tables:
 定存	ding6 cyun4
 定單	ding6 daan1
 定啲	ding6 di1
-定啲來	ding6 di1 lai4
+定啲嚟	ding6 di1 lai4
 定啲嚟	ding6 di1 lei4
 定點	ding6 dim2
 定點廠	ding6 dim2 cong2
@@ -62504,7 +62505,7 @@ import_tables:
 跌落地下，揦返拃沙	dit3 lok6 dei6 haa2 laa2 faan1 zaa6 saa1
 跌落地揦返拃沙	dit3 lok6 dei6 laa2 faan1 zaa6 saa1
 跌落去	dit3 lok6 heoi3
-跌落來	dit3 lok6 lai4
+跌落嚟	dit3 lok6 lai4
 跌落嚟	dit3 lok6 lei4
 跌眼鏡	dit3 ngaan5 geng2
 跌破眼鏡	dit3 po3 ngaan5 geng2
@@ -62703,11 +62704,9 @@ import_tables:
 釣竿	diu3 gon1
 吊槓	diu3 gong3
 吊高	diu3 gou1
-吊高來賣	diu3 gou1 lai4 maai6
+吊高來賣	diu3 gou1 loi4 maai6
 吊高嚟賣	diu3 gou1 lai4 maai6
-釣高嚟賣	diu3 gou1 lai4 maai6
 吊高嚟賣	diu3 gou1 lei4 maai6
-釣高嚟賣	diu3 gou1 lei4 maai6
 弔古	diu3 gu2
 吊掛	diu3 gwaa3
 吊詭	diu3 gwai2
@@ -62720,7 +62719,7 @@ import_tables:
 釣客	diu3 haak3
 弔孝	diu3 haau3
 吊起	diu3 hei2
-吊起來賣	diu3 hei2 lai4 maai6
+吊起來賣	diu3 hei2 loi4 maai6
 吊起嚟賣	diu3 hei2 lai4 maai6
 吊起嚟賣	diu3 hei2 lei4 maai6
 吊靴鬼	diu3 hoe1 gwai2
@@ -63272,7 +63271,7 @@ import_tables:
 墮落	do6 lok6
 惰落	do6 lok6
 墮落雞	do6 lok6 gai1
-惰落來	do6 lok6 lai4
+惰落嚟	do6 lok6 lai4
 惰落嚟	do6 lok6 lei4
 墮馬	do6 maa5
 惰性	do6 sing3
@@ -63683,7 +63682,7 @@ import_tables:
 當耳邊風	dong3 ji5 bin1 fung1
 檔期	dong3 kei4
 當佢冇到	dong3 keoi5 mou5 dou3
-當佢冇來	dong3 keoi5 mou5 lai4
+當佢冇來	dong3 keoi5 mou5 loi4
 當佢冇嚟	dong3 keoi5 mou5 lai4
 當佢冇嚟	dong3 keoi5 mou5 lei4
 當樓	dong3 lau2
@@ -63907,7 +63906,7 @@ import_tables:
 堵車	dou2 ce1
 倒車擋	dou2 ce1 dong3
 倒春寒	dou2 ceon1 hon4
-倒出來	dou2 ceot1 lai4
+倒出嚟	dou2 ceot1 lai4
 倒出嚟	dou2 ceot1 lei4
 賭錢	dou2 cin2
 倒錢落海	dou2 cin2 lok6 hoi2
@@ -66308,21 +66307,17 @@ import_tables:
 翻企	faan1 kei2
 返企	faan1 kei2
 翻卷	faan1 kyun4
-翻來	faan1 lai4
+翻來	faan1 loi4
 翻嚟	faan1 lai4
-返來	faan1 lai4
 返嚟	faan1 lai4
-翻來覆去	faan1 lai4 fuk1 heoi2
+翻來覆去	faan1 loi4 fuk1 heoi2
 番荔枝	faan1 lai6 zi1
-翻嚟	faan1 lei4
-返來	faan1 lei4
 返嚟	faan1 lei4
 翻領	faan1 leng5
 翻臉	faan1 lim5
 翻臉不認人	faan1 lim5 bat1 jing6 jan4
 返來	faan1 loi4
 翻來覆去	faan1 loi4 fuk1 heoi3
-返老還童	faan1 lou5 syun4 tung4
 翻老賬	faan1 lou5 zoeng3
 番路	faan1 lou6
 番路鄉	faan1 lou6 hoeng1
@@ -70200,7 +70195,7 @@ import_tables:
 放唔低	fong3 m4 dai1
 放唔落	fong3 m4 lok6
 放馬	fong3 maa5
-放馬過來	fong3 maa5 gwo3 lai4
+放馬過來	fong3 maa5 gwo3 loi4
 放馬過嚟	fong3 maa5 gwo3 lai4
 放馬過嚟	fong3 maa5 gwo3 lei4
 放馬後炮	fong3 maa5 hau6 paau3
@@ -74135,7 +74130,6 @@ import_tables:
 格林威治標準時間	gaak3 lam4 wai1 zi6 biu1 zeon2 si4 gaan3
 格林威治村	gaak3 lam4 wai1 zi6 cyun1
 隔籬二叔婆	gaak3 lei1 ji6 suk1 bo4
-隔來	gaak3 lei4
 隔篱	gaak3 lei4
 隔籬	gaak3 lei4
 隔離	gaak3 lei4
@@ -74380,7 +74374,7 @@ import_tables:
 鑑察	gaam3 caat3
 鑒察	gaam3 caat3
 監粗	gaam3 cou1
-監粗來	gaam3 cou1 lai4
+監粗來	gaam3 cou1 loi4
 監粗嚟	gaam3 cou1 lai4
 監粗嚟吖	gaam3 cou1 lai4 aa1
 監粗嚟啊	gaam3 cou1 lai4 aa3
