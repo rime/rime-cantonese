@@ -1,0 +1,29 @@
+# Rime schema
+# encoding: UTF-8
+
+schema:
+  schema_id: jyut6ping3_unspaced
+  name: 無空格粵拼
+  version: "0.1"
+
+engine:
+  processors:
+    - speller
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - script_translator
+
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  delimiter: " '"
+  algebra:
+    - xform/[=1-6]//
+
+translator:
+  dictionary: jyut6ping3_unspaced
+  spelling_hints: 20
+  comment_format:
+    - xform/=/ /

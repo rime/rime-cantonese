@@ -23,6 +23,7 @@ schema:
     - luna_pinyin
     - stroke
     - cangjie5
+    - jyut6ping3_unspaced
 
 switches:
   - name: ascii_mode
@@ -158,9 +159,11 @@ cangjie5:
     - "^yyy.*$"
 
 reverse_lookup:
+  dictionary: jyut6ping3_unspaced
+  comment_format:
+    - xform/=/ /
   tags: [ luna_pinyin, stroke, cangjie5 ]
   overwrite_comment: false
-  dictionary: jyut6ping3
 
 variants_hk:
   option_name: variants_hk
