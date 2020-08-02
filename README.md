@@ -27,7 +27,7 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
     - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
     - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
     - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
-- 其他拼音方案嘅補丁：詳情請參閱 [`tanxpyox/rime-cantonese-schemes`](https://github.com/tanxpyox/rime-cantonese-schemes)。
+- 其他拼音方案嘅補丁：詳情請參閱 [`CanCLID/rime-cantonese-schemes`](https://github.com/CanCLID/rime-cantonese-schemes)。
 
 **演示**
 
@@ -35,7 +35,7 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
-* 其他拼音方案嘅排版工具：[`tanxpyox/rime-cantonese-schemes-editor`](https://github.com/tanxpyox/rime-cantonese-schemes-editor)
+* 其他拼音方案嘅排版工具：[`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 
 ## 安裝
 

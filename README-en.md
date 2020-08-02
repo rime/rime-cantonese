@@ -23,7 +23,7 @@ Schema name: ℞ `cantonese`
     - [Jyutping 粵拼 | LSHK](https://www.lshk.org/jyutping)
     - [Jyutping: The Linguistics Society of Hong Kong Cantonese Romanization Scheme](https://www.jyutping.org/en/jyutping/)
     - [Jyutping](https://en.wikipedia.org/wiki/Jyutping)
-- For users of other romanization schemes (e.g. Yale, EduHK), please download the corresponding patch file [here](https://github.com/tanxpyox/rime-cantonese-schemes).
+- For users of other romanization schemes (e.g. Yale, EduHK), please download the corresponding patch file [here](https://github.com/CanCLID/rime-cantonese-schemes).
 
 **Demo**
 
@@ -31,7 +31,7 @@ Schema name: ℞ `cantonese`
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
-* Please find the typesetting tools for other romanization schemes here: [`tanxpyox/rime-cantonese-schemes-editor`](https://github.com/tanxpyox/rime-cantonese-schemes-editor)
+* Please find the typesetting tools for other romanization schemes here: [`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 
 ## Installation
 
