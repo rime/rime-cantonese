@@ -5,8 +5,6 @@
 <a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/github/v/release/rime/rime-cantonese?color=38618c&style=for-the-badge"/></a>
 <a href="https://travis-ci.com/github/rime/rime-cantonese"><img src="https://img.shields.io/travis/com/rime/rime-cantonese?label=Deploy&logo=travis-ci&logoColor=white&style=for-the-badge"/></a>
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/github/license/rime/rime-cantonese?color=blue&label=License&logo=creative-commons&logoColor=white&style=for-the-badge"/></a>
-<br/>
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </p>
 
 Schema name: ℞ `cantonese`
@@ -106,3 +104,7 @@ Please find the detailed description in the [Wiki](https://github.com/rime/rime-
 ## Contribution
 
 We welcome all forms of contributions. Feel free to leave us a [GitHub issue (or pull request)](https://github.com/rime/rime-cantonese/issues), or a message in our [Telegram group](https://t.me/rime_cantonese) if you find any bug or have any suggestion in general.
+
+---
+
+This work is maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
