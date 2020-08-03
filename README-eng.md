@@ -1,3 +1,5 @@
+[粵語](README.md) | [官話](README-cmn.md)
+
 <h1 align="center">Rime Cantonese Input</h1>
 
 <p align="center">
