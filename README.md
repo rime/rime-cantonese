@@ -41,7 +41,7 @@
 
 如果有遇到任何問題，歡迎加入上面嘅 Telegram 交流組搵幫手。
 
-## 使用説明
+## 使用說明
 
 ### 聲調輸入
 
@@ -111,7 +111,7 @@ emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/ope
 
 ---
 
-本方案由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 維護，循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發放。（條文以英文版本爲準）
+本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 維護，循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈。（條文以英文版本爲準）
 </div>
 
 This work is maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
