@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2020.07.15"
+  version: "2020.08.03"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -32,7 +32,7 @@ switches:
     states: [ 半角, 全角 ]
   - options: [ noop, variants_hk, trad_tw, simplification ]
     states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
-    # 修改下行註釋，改變預設用字 [0, 1, 2, 3 --> 對應上表]
+    # 修改下行，改變預設用字 [0, 1, 2, 3 --> 對應上表]
     reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -78,14 +78,14 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    # 取消下兩行註釋，支援疑影不分
+    # 取消下兩行註釋，支援疑影交替： ng- 通 Ø-，Ø- 通 ng-
     #- derive/^ng([aeiou])/$1/
     #- derive/^([aeiou])/ng$1/
 
-    # 取消下行註釋，支援 n- 併入 l- ，如「你」讀若「理」
+    # 取消下行註釋，支援泥來合流： n- 併入 l- ，如「你」讀若「理」
     #- derive/^n(?!g)/l/
 
-    # 取消下行註釋，支援 gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
+    # 取消下行註釋，支援圓唇輔音合口韻缺位： gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
     #- derive/^(g|k)w/$1/
 
     # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
@@ -126,7 +126,7 @@ luna_pinyin:
   dictionary: luna_pinyin
   prefix: "`"
   suffix: ";"
-  tips: 〔普通話拼音〕
+  tips: 〔官話拼音〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
