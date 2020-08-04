@@ -1,4 +1,4 @@
-[English](README-eng.md) | [官話](README-cmn.md)
+[English](README-en.md) | [官話](README-cmn.md)
 
 <div lang="yue-HK">
 
@@ -31,7 +31,7 @@
 
 | 粵語拼音                   | 粵語拼音（IPA 版）        |
 | -------------------------- | ------------------------- |
-| ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
+| ![聲調版](./demo/tone.gif) | ![IPA 版](./demo/ipa.gif) |
 
 * 其他拼音方案嘅排版工具：[`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 
@@ -41,7 +41,7 @@
 
 如果有遇到任何問題，歡迎加入上面嘅 Telegram 交流組搵幫手。
 
-## 使用說明
+## 使用説明
 
 ### 聲調輸入
 
@@ -88,7 +88,7 @@ emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/ope
 
 本方案支援普通話拼音、筆畫、倉頡反查，反查掣：
 
-- 朙月拼音：<kbd>`</kbd>
+- 普通話拼音：<kbd>`</kbd>
 - 筆畫：<kbd>x</kbd>
 - 倉頡五代：<kbd>v</kbd>
 
