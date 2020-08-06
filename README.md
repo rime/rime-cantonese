@@ -89,7 +89,7 @@ emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/ope
 本方案支援普通話拼音、粵語兩分、筆畫、倉頡反查，反查掣：
 
 - 普通話拼音：<kbd>`</kbd>
-- 粵語兩分：<kbd>r</kbd>
+- [粵語兩分](https://github.com/CanCLID/rime-loengfan)：<kbd>r</kbd>（需另行安裝）
 - 筆畫：<kbd>x</kbd>
 - 倉頡五代：<kbd>v</kbd>
 
