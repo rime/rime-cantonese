@@ -86,9 +86,10 @@ emoji 碼表請見[此處](https://github.com/rime/rime-emoji/tree/master/opencc
 
 ### 反查
 
-本方案支援普通話拼音、筆畫、倉頡反查，反查鍵：
+本方案支援普通話拼音、粵語兩分、筆畫、倉頡反查，反查鍵：
 
 - 普通話拼音：<kbd>`</kbd>
+- 粵語兩分：<kbd>r</kbd>
 - 筆畫：<kbd>x</kbd>
 - 倉頡五代：<kbd>v</kbd>
 
