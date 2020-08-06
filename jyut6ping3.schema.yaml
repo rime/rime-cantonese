@@ -168,7 +168,7 @@ cangjie5:
     - "^yyy.*$"
 
 reverse_lookup:
-  tags: [ luna_pinyin, stroke, cangjie5 ]
+  tags: [ luna_pinyin, loengfan, stroke, cangjie5 ]
   overwrite_comment: false
   dictionary: jyut6ping3
 
