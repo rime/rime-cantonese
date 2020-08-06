@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2020.08.03"
+  version: "2020.08.06"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -21,6 +21,7 @@ schema:
 
   dependencies:
     - luna_pinyin
+    - loengfan
     - stroke
     - cangjie5
 
@@ -55,6 +56,7 @@ engine:
     - ascii_segmentor
     - matcher
     - affix_segmentor@luna_pinyin
+    - affix_segmentor@loengfan
     - affix_segmentor@stroke
     - affix_segmentor@cangjie5
     - abc_segmentor
@@ -64,6 +66,7 @@ engine:
     - punct_translator
     - script_translator
     - script_translator@luna_pinyin
+    - script_translator@loengfan
     - table_translator@stroke
     - table_translator@cangjie5
   filters:
@@ -132,6 +135,13 @@ luna_pinyin:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
+loengfan:
+  tag: loengfan
+  dictionary: loengfan
+  prefix: "r"
+  suffix: ";"
+  tips: 〔粵語兩分〕
+
 stroke:
   tag: stroke
   dictionary: stroke
@@ -186,5 +196,6 @@ recognizer:
   patterns:
     punct: "^/([0-9]0?|[a-z]+)$"
     luna_pinyin: "`[a-z']*;?$"
+    loengfan: "r[a-z']*;?$"
     stroke: "^x[hspnz]*;?$"
     cangjie5: "^v[a-z]*;?$"
