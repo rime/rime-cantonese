@@ -58431,7 +58431,7 @@ import_tables:
 答錄機	daap3 luk6 gei1
 答唔切	daap3 m4 cit3
 答問	daap3 man6
-答哶	daap3 me1
+答咩	daap3 me1
 搭鉤	daap3 ngau1
 答我	daap3 ngo5
 答案	daap3 on3
@@ -59811,7 +59811,7 @@ import_tables:
 等離子體	dang2 lei4 zi2 tai2
 等唔切	dang2 m4 cit3
 等埋	dang2 maai4
-等哶	dang2 me1
+等咩	dang2 me1
 等額比基金	dang2 ngaak6 bei2 gei1 gam1
 等我	dang2 ngo5
 等我嚟	dang2 ngo5 lai4
@@ -61064,7 +61064,7 @@ import_tables:
 啲歌	di1 go1
 啲人	di1 jan4
 啲嘢	di1 je5
-啲哶	di1 me1
+啲咩	di1 me1
 啲名	di1 meng2
 啲朋友	di1 pang4 jau5
 啲喎	di1 wo3
@@ -73562,7 +73562,7 @@ import_tables:
 架樑	gaa3 loeng2
 嫁唔出	gaa3 m4 ceot1
 價碼	gaa3 maa5
-㗎哶	gaa3 me1
+㗎咩	gaa3 me1
 價目	gaa3 muk6
 㗎你	gaa3 nei5
 嫁女	gaa3 neoi2
@@ -89307,7 +89307,6 @@ import_tables:
 係乜東東	hai6 mat1 dung1 dung1
 係乜係物	hai6 mat1 hai6 mat6
 係咩	hai6 me1
-係哶	hai6 me1
 係呢	hai6 ne1
 係你	hai6 nei5
 係你先至好講啊	hai6 nei5 sin1 zi3 hou2 gong2 aa3
@@ -102345,7 +102344,6 @@ import_tables:
 有咩依郁	jau5 me1 ji1 juk1
 有咩咿喐	jau5 me1 ji1 juk1
 有咩用	jau5 me1 jung6
-有哶用	jau5 me1 jung6
 有眉目	jau5 mei4 muk6
 有味	jau5 mei6
 有魅力	jau5 mei6 lik6
@@ -108839,7 +108837,7 @@ import_tables:
 用唔用	jung6 m4 jung6
 用唔用到	jung6 m4 jung6 dou2
 用唔晒	jung6 m4 saai3
-用哶	jung6 me1
+用咩	jung6 me1
 用命	jung6 ming6
 用武	jung6 mou5
 用武之地	jung6 mou5 zi1 dei6
@@ -114395,7 +114393,7 @@ import_tables:
 喇啩	laa3 gwaa3
 罅隙	laa3 kwik1
 喇嘛	laa3 maa3
-喇哶	laa3 me1
+喇咩	laa3 me1
 喇沙	laa3 saa1
 喇沙書院	laa3 saa1 syu1 jyun2
 喇喇亂	laa4 laa2 lyun6
@@ -126401,7 +126399,6 @@ import_tables:
 問米婆	man6 mai5 po2
 問乜	man6 mat1
 問咩	man6 me1
-問哶	man6 me1
 問名	man6 ming4
 問你怕未	man6 nei5 paa3 mei6
 問你死未	man6 nei5 sei2 mei6
@@ -126882,9 +126879,7 @@ import_tables:
 謬種流傳	mau6 zung2 lau4 cyun4
 咩吖	me1 aa1
 咩啊	me1 aa3
-哶啊	me1 aa3
 咩班	me1 baan1
-哶班	me1 baan1
 咩筆	me1 bat1
 咩車	me1 ce1
 孭重飛	me1 cung5 fei1
@@ -126904,7 +126899,7 @@ import_tables:
 咩公司	me1 gung1 si1
 咩鬼	me1 gwai2
 孭起	me1 hei2
-哶戲	me1 hei3
+咩戲	me1 hei3
 咩人	me1 jan4
 咩嘢	me1 je5
 咩嘢嚟㗎	me1 je5 lai4 gaa3
@@ -126917,11 +126912,10 @@ import_tables:
 咩嚟先	me1 lai4 sin1
 咩靚價	me1 leng3 gaa3
 咩料	me1 liu2
-哶唔錯	me1 m4 co3
+咩唔錯	me1 m4 co3
 咩咩	me1 me1
 咩名	me1 meng2
-哶名	me1 meng2
-哶毛	me1 mou4
+咩毛	me1 mou4
 咩冇	me1 mou5
 咩衫	me1 saam1
 咩水	me1 seoi2
@@ -139017,7 +139011,7 @@ import_tables:
 扒嘢	paa3 je5
 怕癢	paa3 joeng5
 怕老婆	paa3 lou5 po4
-怕哶	paa3 me1
+怕咩	paa3 me1
 怕你	paa3 nei5
 怕你呀	paa3 nei5 aa4
 怕你有毛	paa3 nei5 jau5 mou4
@@ -153573,7 +153567,6 @@ import_tables:
 食物銀行	sik6 mat6 ngan4 hong4
 食物中毒	sik6 mat6 zung3 duk6
 食咩	sik6 me1
-食哶	sik6 me1
 食尾糊	sik6 mei5 wu2
 食尾糊	sik6 mei5 wu4
 食麪	sik6 min6
@@ -157801,7 +157794,7 @@ import_tables:
 上路	soeng5 lou6
 上馬	soeng5 maa5
 上萬	soeng5 maan6
-上哶班	soeng5 me1 baan1
+上咩班	soeng5 me1 baan1
 上面	soeng5 min6
 上面落嚟	soeng5 min6 lok6 lei4
 上網	soeng5 mong5
@@ -179397,7 +179390,7 @@ import_tables:
 整亂	zing2 lyun6
 整唔切	zing2 m4 cit3
 整乜嘢鬼	zing2 mat1 je5 gwai2
-整哶	zing2 me1
+整咩	zing2 me1
 整木	zing2 muk6
 整年累月	zing2 nin4 leoi5 jyut6
 整編	zing2 pin1
@@ -182742,7 +182735,6 @@ import_tables:
 造物	zou6 mat6
 造物主	zou6 mat6 zyu2
 做咩	zou6 me1
-做哶	zou6 me1
 做眉做眼	zou6 mei4 zou6 ngaan5
 做磨心	zou6 mo4 sam1
 做磨心	zou6 mo6 sam1
