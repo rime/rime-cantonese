@@ -25,6 +25,7 @@
     - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
     - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
     - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
+- IPA 顯示版以 Bauer, Robert S., and Paul K. Benedict. *Modern Cantonese Phonology*. Berlin: Mouton de Gruyter, 1997. 為準 (詳見 Section 1.3 Cantonese rimes, 48-92)
 - 其他拼音方案嘅補丁：詳情請參閱 [`CanCLID/rime-cantonese-schemes`](https://github.com/CanCLID/rime-cantonese-schemes)。
 
 **演示**
