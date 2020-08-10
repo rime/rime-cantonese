@@ -71,11 +71,11 @@ translator:
     - xform/eo([t])/ɵ$1]/                     # 率 sɵt̚
     - xform/eon/ɵn/                           # 信 sɵn
     - xform/ou/OU/                            # 無 mou
-    - xform/u([k])/O$1]/                      # 六 lok̚
+    - xform/u([k])/O$1]/                      # 六 lok̚ (Bauer & Benedict 1997, 49, 91)
     - xform/ui/UːI/                           # 回 wuːi
     - xform/iu/IːU/                           # 小 siːu
-    - xform/i(ng)/EN/                         # 名 meŋ
-    - xform/ik/EK]/                           # 式 sek̚
+    - xform/i(ng)/EN/                         # 名 meŋ (Bauer & Benedict 1997, 49, 84-85)
+    - xform/ik/EK]/                           # 式 sek̚ (Bauer & Benedict 1997, 49, 84-85)
     - xform/i([pt])/Iː$1]/                    # 結 kiːt̚
     - xform/eo/ɵ/                             # 去 hɵy
     - xform/a/ɐ/                              # 得 tɐk̚
@@ -85,7 +85,7 @@ translator:
     - xform/e/ɛː/                             # 寫 sɛː
     - xform/o([ptk])/ɔː$1]/                   # 莫 mɔːk̚
     - xform/u([pt])/Uː$1]/                    # 活 wuːt̚
-    - xform/u(ng)/ON/                         # 動 toŋ
+    - xform/u(ng)/ON/                         # 動 toŋ (Bauer & Benedict 1997, 49, 91)
     - xform/o/ɔː/                             # 錯 tsʰɔː
     - xform/u/Uː/                             # 故 kuː
     - xform/ng/N/                             # 我 ŋɔː
