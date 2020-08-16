@@ -12,7 +12,6 @@
 </p>
 
 本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發同維護，循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈。（條文以英文版本爲準）
-</div>
 
 This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
@@ -117,3 +116,5 @@ emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/ope
 ## 貢獻指南
 
 如果有任何修改意見，或者你想一齊參與呢個項目幫我哋手，可以直接[新開一個 issue 提出](https://github.com/rime/rime-cantonese/issues)，亦都可以加入上面嘅 [Telegram 交流組](https://t.me/rime_cantonese)直接反饋意見。
+
+</div>
