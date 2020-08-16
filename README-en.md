@@ -9,6 +9,11 @@
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/github/license/rime/rime-cantonese?color=blue&label=License&logo=creative-commons&logoColor=white&style=for-the-badge"/></a>
 </p>
 
+
+This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+---
+
 Schema name: ℞ `cantonese`
 
 `jyut6ping3` is the Jyutping input method schema, while `jyut6ping3_ipa` is the IPA typesetting version.
@@ -107,7 +112,3 @@ Please find the detailed description in the [Wiki](https://github.com/rime/rime-
 ## Contribution
 
 We welcome all forms of contributions. Feel free to leave us a [GitHub issue (or pull request)](https://github.com/rime/rime-cantonese/issues), or a message in our [Telegram group](https://t.me/rime_cantonese) if you find any bug or have any suggestion in general.
-
----
-
-This work is maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
