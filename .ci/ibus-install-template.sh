@@ -6,7 +6,8 @@
 
 RIMEDIR=~/.config/ibus/rime/
 
-echo Installing ibus-rime frontend ...
+echo Installing ibus-rime frontend with APT -- 
+echo You may need to enter your system password to proceed...
 sudo apt-get install curl git ibus-rime -y
 
 # check for user lib
