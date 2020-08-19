@@ -104,6 +104,7 @@ queries=(
 	"
 )
 queries_len=${#queries[@]}
+
 date=$(date "+%Y.%m.%d")
 rime_dictionary_file_name="./jyut6ping3.%s.dict.yaml"
 rime_dictionary_header="# Rime dictionary
