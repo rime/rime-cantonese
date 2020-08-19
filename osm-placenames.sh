@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 # request for HK street names:
 #   https://github.com/rime/rime-cantonese/issues/69
