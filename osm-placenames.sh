@@ -128,6 +128,7 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 "
+opencc_config="/usr/share/opencc/s2t.json"
 
 for ((i = 0; i <= $((queries_len - 1)); i += 2))
 do
@@ -138,6 +139,7 @@ do
 	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXXX")
 	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXXX")
 	grep_nonHani_temp_out=$(mktemp -t "rime-cantonese.${name}.nonHani.$$.XXXX")
+	opencc_temp_out=$(mktemp -t "rime-cantonese.${name}.opencc.$$.XXXX")
 	out=$(printf "${rime_dictionary_file_name}" "${name}")
 
 	# ----
@@ -167,6 +169,13 @@ do
 	echo "${grep_nonHani_temp_out}"
 	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${cut_temp_out}" > "${grep_nonHani_temp_out}"
 	less "${grep_nonHani_temp_out}"
+	echo "----"
+
+	# convert with OpenCC
+	echo "${opencc_temp_out}"
+	echo "${opencc_config}"
+	opencc --input "${grep_nonHani_temp_out}" --config "${opencc_config}" --output "${opencc_temp_out}"
+	#diff --side-by-side --suppress-common-lines "${grep_nonHani_temp_out}" "${opencc_temp_out}" | less
 	echo "----"
 
 	# save complete list to $out
