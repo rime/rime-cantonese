@@ -113,11 +113,13 @@ rime_dictionary_header="# Rime dictionary
 # Jyut6ping3 - 粵拼詞庫
 #
 # 碼表製作與校對人員
-# sgal <ayaka@mail.shn.hk>
+# sgalal <sgalal.me@outlook.com>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
 # tanxpyox <tanxpyox@gmail.com>
+# William915 <William915@gmail.com>
+# szc126 (@szc126)
 #
 # Data © OpenStreetMap and its contributors.
 # Data licensed under the Open Data Commons Open Database License (ODbL).
