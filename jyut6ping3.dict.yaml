@@ -36,7 +36,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.07.30"
+version: "2020.08.22"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -183096,7 +183096,7 @@ import_tables:
 祝酒詞	zuk1 zau2 ci4
 竹蔗	zuk1 ze3
 祝謝	zuk1 ze6
-捉着	zuk1 zeok6
+捉着	zuk1 zoek6
 竹枝	zuk1 zi1
 觸肢	zuk1 zi1
 竹枝詞	zuk1 zi1 ci4
