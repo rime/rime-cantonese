@@ -1,8 +1,17 @@
 #awk -f osm-placenames.awk /tmp/rime-cantonese.osm_hk_ways.cut.
 
 BEGIN {
-	# readings
-	rs["昂坪360"] = "ngong4 ping4 saam1 luk6 ling4/ngong5 ping4 saam1 luk6 ling4";
+	# 讀音
+	rs["昂坪360救援徑"] = "ngong4 ping4 saam1 luk6 ling4 gau3 wun4 ging3/ngong5 ping4 saam1 luk6 ling4 gau3 wun4 ging3";
+}
+
+# 含非基本區字
+/[^一-鿿]/ {
+	# 若無其讀音
+	if ($0 in rs == 0) {
+		# 除之
+		next;
+	}
 }
 
 {
