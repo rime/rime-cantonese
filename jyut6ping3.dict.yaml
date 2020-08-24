@@ -36,7 +36,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.08.22"
+version: "2020.08.24"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -55605,11 +55605,11 @@ import_tables:
 打籃球	daa2 laam4 kau4
 打蘭	daa2 laan4
 打爛	daa2 laan6
-打爛沙盆問到䐁	daa2 laan6 saa1 pun4 man6 dou3 duk1
 打爛沙盆問到㞘	daa2 laan6 saa1 pun4 man6 dou3 duk1
 打爛沙盆問到㞘唞	daa2 laan6 saa1 pun4 man6 dou3 duk1
-打爛沙盆璺到䐁	daa2 laan6 saa1 pun4 man6 dou3 duk1
+打爛沙盆問到䐁	daa2 laan6 saa1 pun4 man6 dou3 duk1
 打爛沙盆璺到㞘	daa2 laan6 saa1 pun4 man6 dou3 duk1
+打爛沙盆璺到䐁	daa2 laan6 saa1 pun4 man6 dou3 duk1
 打爛沙盤問到㞘	daa2 laan6 saa1 pun4 man6 dou3 duk1
 打爛砂盆問到㞘	daa2 laan6 saa1 pun4 man6 dou3 duk1
 打爛齋鉢	daa2 laan6 zaai1 but3
@@ -64465,7 +64465,6 @@ import_tables:
 篤病	duk1 beng6
 督標	duk1 biu1
 㧻波	duk1 bo1
-厾背脊	duk1 bui3 zek3
 㧻背脊	duk1 bui3 zek3
 督察	duk1 caat3
 督察大隊	duk1 caat3 daai6 deoi6
@@ -93426,11 +93425,11 @@ import_tables:
 可能	ho2 nang4
 可能係	ho2 nang4 hai6
 可能性	ho2 nang4 sing3
-可愛啲	ho2 oi3 di1
 可念	ho2 nim6
 可惱	ho2 nou5
 可哀	ho2 oi1
 可愛	ho2 oi3
+可愛啲	ho2 oi3 di1
 可怕	ho2 paa3
 可鄙	ho2 pei2
 可編程	ho2 pin1 cing4
@@ -112075,7 +112074,6 @@ import_tables:
 球粒隕石	kau4 nap1 wan5 sek6
 球芽甘藍	kau4 ngaa4 gam1 laam4
 求偶	kau4 ngau5
-求愛	kau4 oi3
 求愛	kau4 oi3
 球拍	kau4 paak2
 球拍	kau4 paak3
@@ -136028,6 +136026,7 @@ import_tables:
 鵝掌楸	ngo4 zoeng2 cau1
 俄中	ngo4 zung1
 俄中朝	ngo4 zung1 ciu4
+我班同學	ngo5 baan1 tung4 hok6
 我比	ngo5 bei2
 我比你	ngo5 bei2 nei5
 我必	ngo5 bit1
@@ -136090,6 +136089,7 @@ import_tables:
 我會㗎嘞	ngo5 wui5 gaa3 laak3
 我隻	ngo5 zek3
 我醉欲眠	ngo5 zeoi3 juk6 min4
+我知	ngo5 zi1
 我只	ngo5 zi2
 我只要	ngo5 zi2 jiu3
 我自己	ngo5 zi6 gei2
@@ -136154,17 +136154,7 @@ import_tables:
 餓肚	ngo6 tou5
 餓肚子	ngo6 tou5 zi2
 臥位	ngo6 wai2
-我班同學	ngo5 baan1 tung4 hok6
-我知	ngo5 zi1
 噯氣	ngoi2 hei3
-愛計較	oi3 gai3 gaau3
-愛靚唔愛命	oi3 leng3 m4 oi3 meng6
-愛美神導彈	oi3 mei5 san4 dou6 daan2
-愛美神飛彈	oi3 mei5 san4 fei1 daan2
-愛錫	oi3 sek3
-愛他死	oi3 taa1 sei2
-璦琿	oi3 wan4
-愛滋基摩	oi3 zi1 gei1 mo1
 呆板	ngoi4 baan2
 呆扳手	ngoi4 baan2 sau2
 呆笨	ngoi4 ban6
@@ -138211,6 +138201,7 @@ import_tables:
 愛撫	oi3 fu2
 愛瘋	oi3 fung1
 愛家	oi3 gaa1
+愛計較	oi3 gai3 gaau3
 愛經	oi3 ging1
 愛崗敬業	oi3 gong1 ging3 jip6
 愛管閒事	oi3 gun2 haan4 si6
@@ -138304,11 +138295,13 @@ import_tables:
 愛斯基摩人	oi3 si1 gei1 mo1 jan4
 愛惜	oi3 sik1
 愛上	oi3 soeng6
+愛他死	oi3 taa1 sei2
 愛屋及鳥	oi3 uk1 kap6 niu5
 愛屋及烏	oi3 uk1 kap6 wu1
 愛玩	oi3 waan2
 愛維養	oi3 wai4 joeng5
 愛衛會	oi3 wai6 wui2
+璦琿	oi3 wan4
 愛窩窩	oi3 wo1 wo1
 愛烏罕	oi3 wu1 hon2
 愛護	oi3 wu6
@@ -138320,6 +138313,7 @@ import_tables:
 愛滋病	oi3 zi1 beng6
 愛滋病毒	oi3 zi1 beng6 duk6
 愛滋病人	oi3 zi1 beng6 jan4
+愛滋基摩	oi3 zi1 gei1 mo1
 愛之欲其生，惡之欲其死	oi3 zi1 juk6 kei4 sang1 wu3 zi1 juk6 kei4 sei2
 愛之如命	oi3 zi1 jyu4 ming6
 愛知縣	oi3 zi1 jyun6
@@ -163185,7 +163179,6 @@ import_tables:
 天峨縣	tin1 ngo4 jyun6
 天鵝湖	tin1 ngo4 wu4
 天鵝座	tin1 ngo4 zo6
-天愛	tin1 oi3
 天外	tin1 ngoi6
 天外有天	tin1 ngoi6 jau5 tin1
 天外來客	tin1 ngoi6 loi4 haak3
@@ -163193,6 +163186,7 @@ import_tables:
 天寧	tin1 ning4
 天寧區	tin1 ning4 keoi1
 天怒人怨	tin1 nou6 jan4 jyun3
+天愛	tin1 oi3
 天安門	tin1 on1 mun4
 天安門廣場	tin1 on1 mun4 gwong2 coeng4
 天安門開了	tin1 on1 mun4 hoi1 liu5
@@ -183096,7 +183090,6 @@ import_tables:
 祝酒詞	zuk1 zau2 ci4
 竹蔗	zuk1 ze3
 祝謝	zuk1 ze6
-捉着	zuk1 zoek6
 竹枝	zuk1 zi1
 觸肢	zuk1 zi1
 竹枝詞	zuk1 zi1 ci4
@@ -183118,6 +183111,7 @@ import_tables:
 竹節	zuk1 zit3
 祝捷	zuk1 zit6
 觸礁	zuk1 ziu1
+捉着	zuk1 zoek6
 足足	zuk1 zuk1
 足總	zuk1 zung2
 祝頌	zuk1 zung6
