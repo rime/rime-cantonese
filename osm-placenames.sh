@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+#set -e
 
 # request for HK street names:
 #   https://github.com/rime/rime-cantonese/issues/69
@@ -139,11 +139,15 @@ do
 	query=${queries[$((i + 1))]}
 	url=$(printf "${overpass_api}" "${query}")
 
-	wget_temp_out=$(mktemp -t "rime-cantonese.${name}.wget.$$.XXXX")
-	cut_temp_out=$(mktemp -t "rime-cantonese.${name}.cut.$$.XXXX")
-	grep_nonHani_temp_out=$(mktemp -t "rime-cantonese.${name}.nonHani.$$.XXXX")
-	opencc_temp_out=$(mktemp -t "rime-cantonese.${name}.opencc.$$.XXXX")
+	dl_out=$(mktemp -t "rime-cantonese.${name}.dl.$$.XXXX")
+	tidy_out=$(mktemp -t "rime-cantonese.${name}.tidy.$$.XXXX")
+	nonHani_out=$(mktemp -t "rime-cantonese.${name}.nonHani.$$.XXXX")
+	awk_out=$(mktemp -t "rime-cantonese.${name}.awk.$$.XXXX")
+	opencc_out=$(mktemp -t "rime-cantonese.${name}.opencc.$$.XXXX")
+	opencc_diff_out=$(mktemp -t "rime-cantonese.${name}.openccDiff.$$.XXXX")
 	out=$(printf "${rime_dictionary_file_name}" "${name}")
+
+	return=""
 
 	# ----
 
@@ -152,38 +156,52 @@ do
 	echo "----"
 
 	# download OpenStreetMap data from the Overpass API
-	echo "${wget_temp_out}"
-	wget "${url}" -O "${wget_temp_out}"
+	echo "${dl_out}"
+	wget "${url}" -O "${dl_out}" --user-agent="https://github.com/rime/rime-cantonese"
 	echo "----"
+	return="${dl_out}"
 
 	# sed: convert tab and semicolon to newline
-	#      '衛奕信徑;港島徑'→ '衛奕信徑' '港島徑'
+	#      '衛奕信徑;港島徑'→'衛奕信徑' '港島徑'
 	# sed: '青山公路－荃灣段'→'青山公路'
 	# sort: sort and uniquify
-	echo "${cut_temp_out}"
-	cat "${wget_temp_out}" \
+	echo "${tidy_out}"
+	cat "${return}" \
 		| sed "s/[\t;]/\n/g" \
 		| sed -E "s/－.+段//g" \
-		| LANG=C sort -u -o "${cut_temp_out}"
+		| LANG=C sort -u -o "${tidy_out}"
 	echo "----"
+	return="${tidy_out}"
 
-	# print names that contain non-漢字 (基本區)
+	# print entries that contain non-基本區 characters
 	# LANG=C is needed. en_US.utf8→grep does not like \u9fff.
-	echo "${grep_nonHani_temp_out}"
-	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${cut_temp_out}" > "${grep_nonHani_temp_out}"
-	less "${grep_nonHani_temp_out}"
+	echo "${nonHani_out}"
+	LANG=C grep -E [^$'\u4e00'-$'\u9fff'] "${return}" > "${nonHani_out}"
+	less "${nonHani_out}"
 	echo "----"
+	#return=
+
+	# add readings
+	# remove entries that contain non-基本區 characters
+	echo "${awk_out}"
+	awk -f osm-placenames.awk "${return}" > "${awk_out}"
+	echo "----"
+	return="${awk_out}"
 
 	# convert with OpenCC
-	echo "${opencc_temp_out}"
+	# print difference
+	echo "${opencc_out}"
+	echo "${opencc_diff_out}"
 	echo "${opencc_config}"
-	opencc --input "${grep_nonHani_temp_out}" --config "${opencc_config}" --output "${opencc_temp_out}"
-	#diff --side-by-side --suppress-common-lines "${grep_nonHani_temp_out}" "${opencc_temp_out}" | less
+	opencc --input "${return}" --config "${opencc_config}" --output "${opencc_out}"
+	diff --side-by-side --suppress-common-lines "${return}" "${opencc_out}" > "${opencc_diff_out}"
+	less "${opencc_diff_out}"
 	echo "----"
+	return="${opencc_out}"
 
-	# save complete list to $out
+	# write dictionary to $out
 	echo "${out}"
 	printf "${rime_dictionary_header}" "${name}" "${date}" >> "${out}"
-	cat "${cut_temp_out}" >> "${out}"
+	cat "${return}" >> "${out}"
 	echo "----"
 done
