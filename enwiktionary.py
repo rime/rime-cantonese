@@ -7,7 +7,7 @@ import re
 OUT_FILE_NAME = "jyut6ping3.enwiktionary.%s.txt"
 
 def is_lettered(text):
-	return re.match(r'[A-Za-z0-9]', text)
+	return re.findall(r'[A-Za-z0-9Α-Ωα-ω]', text)
 
 def get_latest_dump():
 	# TODO
@@ -35,11 +35,38 @@ def main(args):
 			#print(entry['title'])
 			for template in entry['templates']:
 				if 'c' in template['parameters']:
+					title = entry['title']
 					args_c = template['parameters']['c']
-					args_c = re.sub(r'(\d)-(\d)', r'\2', args_c) # 移除變調前聲調
+
+					# remove commas for phrases
+					# (double-duty commas. i really hate this)
+					# [[金玉其外，敗絮其中]] [[司馬昭之心——路人皆知]]
+					if '，' in title or '——' in title:
+						args_c = re.sub(r', ', r' ', args_c)
+					# remove spaces surrounding commas elsewhere
+					# (this is bad formatting)
+					args_c = re.sub(r' *, *', r',', args_c)
+					# remove HTML comments
+					# [[𡚸]] [[林口]] [[搶]]
+					args_c = re.sub(r'<!--(.*)-->', r'', args_c)
+					# remove tone before change
+					args_c = re.sub(r'(\d)-(\d)', r'\2', args_c)
+
+					# ignore entries with empty |c=
+					# [[㓱]]
+					if args_c == '':
+						continue
+
+					# ignore entries with ellipsis
+					# [[一會……一會……]]
+					if '…' in title:
+						continue
+
+					# split by comma
 					args_c = args_c.split(',')
-					out[type][entry['title']] = args_c
-					#print(args_c)
+
+					# save
+					out[type][title] = args_c
 
 	for type in out:
 		with open(OUT_FILE_NAME % (type), 'w') as file:
