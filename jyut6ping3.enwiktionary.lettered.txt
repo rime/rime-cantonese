@@ -136,6 +136,7 @@ IP位址	aai1 pi1 wai6 zi2
 IP地址	aai1 pi1 dei6 zi2
 JJ	zoe1 zoe1
 K	ke1
+K	kei1
 K仔	kei1 zai2
 K他命	kei1 taa1 ming6
 K房	kei1 fong2
