@@ -66,7 +66,10 @@ def main(args):
 					args_c = args_c.split(',')
 
 					# save
-					out[type][title] = args_c
+					# [[嘅]] ge3 ge2
+					if not title in out[type]:
+						out[type][title] = []
+					out[type][title] += args_c
 
 	for type in out:
 		with open(OUT_FILE_NAME % (type), 'w') as file:
