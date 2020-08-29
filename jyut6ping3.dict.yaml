@@ -36,7 +36,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.08.24"
+version: "2020.08.29"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -129780,7 +129780,6 @@ import_tables:
 無米粥	mou4 mai5 zuk1
 無聞無味	mou4 man4 mou4 mei6
 無問題	mou4 man6 tai4
-無乜	mou4 mat1
 無物	mou4 mat6
 無密碼	mou4 mat6 maa5
 無咩	mou4 me1
@@ -130513,7 +130512,6 @@ import_tables:
 冇問	mou5 man6
 冇問題	mou5 man6 tai4
 冇乜	mou5 mat1
-無乜	mou5 mat1
 冇乜把炮	mou5 mat1 baa2 paau3
 冇乜點	mou5 mat1 dim2
 冇乜好死	mou5 mat1 hou2 sei2
@@ -130597,7 +130595,6 @@ import_tables:
 武平	mou5 ping4
 武平縣	mou5 ping4 jyun6
 冇譜	mou5 pou2
-嘸啥	mou5 saa2
 冇晒	mou5 saai3
 冇晒表情	mou5 saai3 biu2 cing4
 冇晒符	mou5 saai3 fu4
