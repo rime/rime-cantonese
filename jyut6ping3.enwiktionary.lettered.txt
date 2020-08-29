@@ -1,0 +1,331 @@
++1	gaa1 jat1
+0	ling4
+0.5	ling4 dim2 ng5
+00後	ling4 ling4 hau6
+0仔	ling4 zai2
+1	jat1
+10	jat1 ling4
+10000米	jat1 maan6 mai5
+100米	jat1 baak3 mai5
+100米欄	jat1 baak3 mai5 laan4
+100米跨欄	jat1 baak3 mai5 kwaa1 laan4
+10月	sap6 jyut6
+110	jat1 jat1 ling4
+110米欄	baak3 jat1 mai5 laan4
+110米欄	jat1 baak3 jat1 sap6 mai5 laan4
+110米跨欄	baak3 jat1 mai5 kwaa1 laan4
+110米跨欄	jat1 baak3 jat1 sap6 mai5 kwaa1 laan4
+119	jat1 jat1 gau2
+11區	sap6 jat1 keoi1
+11月	sap6 jat1 jyut6
+120	jat1 ji6 ling4
+12月	sap6 ji6 jyut6
+1500米	cin1 ng5 mai5
+1500米	jat1 cin1 ng5 baak3 mai5
+1812年戰爭	jat1 baat3 jat1 ji6 nin4 zin3 zang1
+1仔	jat1 zai2
+1月	jat1 jyut6
+1號電池	jat1 hou6 din6 ci4
+200米	ji6 baak3 mai5
+200米	loeng5 baak3 mai5
+20國集團	ji6 sap6 gwok3 zaap6 tyun4
+233	ji6 saam1 saam1
+2月	ji6 jyut6
+2號電池	ji6 hou6 din6 ci4
+3000米障礙	saam1 cin1 mai5 zoeng3 ngoi6
+3D	saam1 di1
+3D打印	saam1 di1 daa2 jan3
+3D打印機	saam1 di1 daa2 jan3 gei1
+3P	saam1 pi1
+3月	saam1 jyut6
+3號電池	saam1 hou6 din6 ci4
+400米	sei3 baak3 mai5
+400米欄	sei3 baak3 mai5 laan4
+400米跨欄	sei3 baak3 mai5 kwaa1 laan4
+4×100米	sei3 sing4 jat1 baak3 mai5
+4×400米	sei3 sing4 sei3 baak3 mai5
+4月	sei3 jyut6
+4號電池	sei3 hou6 din6 ci4
+5000米	ng5 cin1 mai5
+555	wu1 wu1 wu1
+5月	ng5 jyut6
+5號電池	ng5 hou6 din6 ci4
+666	luk6 luk6 luk6
+689	luk6 baat3 gau2
+69	luk6 sap6 gau2
+6月	luk6 jyut6
+7	cat6
+70後	cat1 ling4 hau6
+70後	cat1 sap6 hau6
+7仔	cat1 zai2
+7月	cat1 jyut6
+7號電池	cat1 hou6 din6 ci4
+800米	baat3 baak3 mai5
+80後	baat3 ling4 hau6
+80後	baat3 sap6 hau6
+8月	baat3 jyut6
+9	gau1
+90後	gau2 ling4 hau6
+90後	gau2 sap6 hau6
+9月	gau2 jyut6
+AA	ei1 ei1
+AAA電池	saam1 ei1 din6 ci4
+AA制	ei1 ei1 zai3
+AA電池	ei1 ei1 din6 ci4
+ABC群島	ei1 bi1 si1 kwan4 dou2
+ABO血型系統	ei1 bi1 ou1 hyut3 jing4 hai6 tung2
+AB型血	ei1 bi1 jing4 hyut3
+APP	ei1 pi1 pi1
+ATM機	ei1 ti1 em1 gei1
+ATP酶	ei1 ti1 pi1 mui4
+AV	ei1 wi1
+AV畫質	ei1 wi1 waa2 zat1
+A型肝炎	ei1 jing4 gon1 jim4
+A型血	ei1 jing4 hyut3
+A片	ei1 pin2
+A站	ei1 zaam6
+A肝	ei1 gon1
+A股	ei1 gu2
+A菜	ei1 coi3
+A貨	ei1 fo3
+A面	ei1 min2
+B	bi1
+BB	bi4 bi1
+BB仔	bi4 bi1 zai2
+BB女	bi4 bi1 neoi2
+BB槍	bi1 bi1 coeng1
+BB機	bi1 bi1 gei1
+BB霜	bi1 bi1 soeng1
+BP機	bi1 pi1 gei1
+B型肝炎	bi1 jing4 gon1 jim4
+B型血	bi1 jing4 hyut3
+B站	bi1 zaam6
+B細胞	bi1 sai3 baau1
+B肝	bi1 gon1
+B股	bi1 gu2
+B超	bi1 ciu1
+B面	bi1 min2
+CD	si1 di1
+CD光盤	si1 di1 gwong1 pun2
+CD光盤	si1 di1 gwong1 pun4
+CD播放器	si1 di1 bo3 fong3 hei3
+CD播放機	si1 di1 bo3 fong3 gei1
+CD機	si1 di1 gei1
+CF卡	si1 e1 fu4 kaat1
+CLS	ci1 lan2 sin3
+C型肝炎	si1 jing4 gon1 jim4
+C站	si1 zaam6
+C端	si1 dyun1
+C語言	si1 jyu5 jin4
+C調	si1 diu6
+D	di1
+DNA	di1 en1 ei1
+DNA病毒	di1 en1 ei1 beng6 duk6
+DNA酶	di1 en1 ei1 mui4
+DVD播放器	di1 wi1 di1 bo3 fong3 hei3
+DVD機	di1 wi1 di1 gei1
+D日	di1 jat6
+E仔	ji1 zai2
+E編碼	ji1 pin1 maa5
+GG	zi1 zi1
+G力	zi1 lik6
+G樓	zi1 lau2
+G點	zi1 dim2
+H股	ik1 cyu4 gu2
+IP位址	aai1 pi1 wai6 zi2
+IP地址	aai1 pi1 dei6 zi2
+JJ	zoe1 zoe1
+K	ke1
+K	kei1
+K仔	kei1 zai2
+K他命	kei1 taa1 ming6
+K房	kei1 fong2
+K歌	kei1 go1
+K線	kei1 sin3
+K金	ke1 gam1
+M	em1
+MK	em1 kei1
+MP3	em1 pi1 saam1
+MP3播放器	em1 pi1 saam1 bo3 fong3 hei3
+MP3播放機	em1 pi1 saam1 bo3 fong3 gei1
+MP4	em1 pi1 sei3
+MP4播放器	em1 pi1 sei3 bo3 fong3 hei3
+M到	em1 dou3
+M巾	em1 gan1
+M痛	em1 tung3
+M記	em1 gei3
+N	en1
+NP困難	en1 pi1 kwan3 naan4
+NP完全	en1 pi1 jyun4 cyun4
+NP難	en1 pi1 naan4
+N端	en1 dyun1
+N體問題	en1 tai2 man6 tai4
+OK	ou1 kei1
+OL	ou1 e1 lou4
+OT	ou1 ti1
+O嘴	ou1 zeoi2
+O型血	ou1 jing4 hyut3
+O記	ou1 gei3
+PCB板	pi1 si1 bi1 baan2
+PC卡	pi1 si1 kaat1
+PC機	pi1 si1 gei1
+PIN碼	pin1 maa5
+PK	pi1 kei1
+P波	pi1 bo1
+P牌	pi1 paai4
+P牌仔	pi1 paai4 zai2
+Q	kiu1
+Q因子	kiu1 jan1 zi2
+Q型流感	kiu1 jing4 lau4 gam2
+Q棍	kiu1 gwan3
+Q熱	kiu1 jit6
+Q版	kiu1 baan2
+RNA病毒	aa1 lou4 en1 ei1 beng6 duk6
+RNA酶	aa1 lou4 en1 ei1 mui4
+SD卡	e1 si4 di1 kaat1
+SIM卡	sim1 kaat1
+SI制	e1 saai1 zai3
+SI制	e1 si4 aai1 zai3
+SI單位制	e1 saai1 daan1 wai2 zai3
+SI單位制	e1 si4 aai1 daan1 wai2 zai3
+TNT當量	ti1 en1 ti1 dong1 loeng6
+T恤	ti1 seot1
+T恤衫	ti1 seot1 saam1
+T骨	ti1 gwat1
+UGG靴子	ju1 zi1 zi1 hoe1 zi2
+VCD機	wi1 si1 di1 gei1
+V字手勢	wi1 zi6 sau2 sai3
+V系	wi1 hai6
+V領	wi1 leng5
+XO醬	ik1 si4 ou1 zoeng3
+XO醬	ik1 sou1 zoeng3
+X光	ik1 si4 gwong1
+X光	oi3 hak1 si1 gwong1
+X光片	ik1 si4 gwong1 pin2
+X染色體	ik1 si4 jim5 sik1 tai2
+X軸	ik1 si4 zuk6
+YP仔	waai1 pi1 zai2
+Y世代	waai1 sai3 doi6
+Y染色體	waai1 jim5 sik1 tai2
+Y軸	waai1 zuk6
+Z軸	ji6 set1 zuk6
+band	ben1
+bio	baai6 o1
+call機	ko1 gei1
+case	kei1 si2
+check	cek1
+chok	cok3
+chok樣	cok3 joeng2
+chur	coe2
+cut線	kat1 sin3
+d	di1
+e化	ji1 faa3
+e商務	ji1 soeng1 mou6
+e商店	ji1 soeng1 dim3
+e商業	ji1 soeng1 jip6
+e地址	ji1 dei6 zi2
+e學習	ji1 hok6 zaap6
+e客票	ji1 haak3 piu3
+e招聘	ji1 ziu1 ping3
+e書本	ji1 syu1 bun2
+fax機	fek1 si2 gei1
+fit	fit1
+friend	fen1
+gas爐	ge1 si2 lou4
+gel頭	zeu1 tau4
+hall	ho1
+hang機	heng1 gei1
+hea	he3
+hold住	hou1 zyu6
+jm9	zou6 mat1 gau1
+kam	kang3
+keep住	kip1 zyu6
+likey	lai1 ki2
+mouse	maau1 si2
+mouse	mau1 si2
+n	en1
+on9	ngong6 gau1
+pH計	pi1 ik1 cyu4 gai3
+part-time	paak1 taai1
+part-time	paak1 taam1
+part-time	paat1 taai1
+part-time	paat1 taam1
+po	pou1
+p值	pi1 zik6
+p進數	pi1 zeon3 sou3
+quali	kwo1 li2
+sales	seu1 si2
+short	sot1
+sit堂	sit1 tong4
+size	saai1 si2
+soc	sou2
+soci	sou6 si6
+un	an1
+van仔	wen1 zai2
+yo女	jou1 neoi2
+Β函數	bei1 taa4 haam4 sou3
+α射線	aau1 faa4 se6 sin3
+α粒子	aau1 faa4 nap1 zi2
+α衰變	aau1 faa4 seoi1 bin3
+β-胡蘿蔔素	bei1 taa4 wu4 lo4 baak6 sou3
+β粒子	bei1 taa4 lap1 zi2
+β衰變	bei1 taa4 seoi1 bin3
+δ鍵	deu1 taa4 gin6
+λ點	laam1 daa4 dim2
+μ子	miu1 zi2
+π鍵	paai1 gin6
+σ鍵	sik1 maa4 gin6
+τ子	taau1 zi2
+φ鍵	faai1 gin6
+三K黨	saam1 kei1 dong2
+三P	saam1 pi1
+三Q	saan1 kiu4
+低B	dai1 bi1
+何B仔	ho4 bi1 zai2
+做gym	zou6 zim1
+卡拉OK	kaa1 laa1 ou1 kei1
+卡拉OK	kaa1 laai1 ou1 kei1
+卡拉OK機	kaa1 laa1 ou1 kei1 gei1
+卡拉OK機	kaa1 laai1 ou1 kei1 gei1
+呃like	aak1 lai1
+唱K	coeng3 kei1
+啱key	ngaam1 ki1
+夾band	gaap3 ben1
+孖Q	maa1 kiu1
+戇Q	ngong6 kiu1
+打call	daa2 ko1
+散band	saan3 ben1
+歌詞MV	go1 ci4 em1 wi1
+煎pan	zin1 pen1
+爆RAM	baau3 wem1
+爛gag	laan6 gek1
+紅Van	hung4 wen1
+綠Van	luk6 wen1
+維A	wai4 ei1
+維A酸	wai4 ei1 syun1
+維B	wai4 bi1
+維C	wai4 ci1
+維D	wai4 di1
+維E	wai4 ji1
+維K	wai4 kei1
+維他命A	wai4 taa1 ming6 ei1
+維他命B	wai4 taa1 ming6 bi1
+維他命B1	wai4 taa1 ming6 bi1 jat1
+維他命B12	wai4 taa1 ming6 bi1 sap6 ji6
+維他命B2	wai4 taa1 ming6 bi1 ji6
+維他命B3	wai4 taa1 ming6 bi1 saam1
+維他命B5	wai4 taa1 ming6 bi1 ng5
+維他命B6	wai4 taa1 ming6 bi1 luk6
+維他命B7	wai4 taa1 ming6 bi1 cat1
+維他命B9	wai4 taa1 ming6 bi1 gau2
+維他命C	wai4 taa1 ming6 si1
+維他命D	wai4 taa1 ming6 di1
+維他命E	wai4 taa1 ming6 ji1
+維他命K	wai4 taa1 ming6 kei1
+落D	lok6 di1
+貨Van	fo3 wen1
+阿Q	aa3 kiu1
+阿Q精神	aa3 kiu1 zing1 san4
+阿Sir	aa3 se4
+阿Sir	aa3 soe4
+降C大調	gong3 si1 daai6 diu6
