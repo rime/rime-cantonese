@@ -36,7 +36,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.09.02"
+version: "2020.09.09"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -88451,7 +88451,7 @@ import_tables:
 咸豐縣	haam4 fung1 jyun6
 咸豐年	haam4 fung1 nin4
 咸豐年咁耐	haam4 fung1 nin4 gam3 noi6
-鹽倉土地鹹夾濕	jiim4 cong1 tou2 dei6 haam4 gaap3 sap1
+鹽倉土地鹹夾濕	jim4 cong1 tou2 dei6 haam4 gaap3 sap1
 咸柑桔	haam4 gam1 gat1
 鹹柑桔	haam4 gam1 gat1
 咸鏡	haam4 geng3
@@ -89125,7 +89125,6 @@ import_tables:
 校方	haau6 fong1
 校褲	haau6 fu3
 校服	haau6 fuk6
-校服都未除	haau6 fuk6 dou1 mei6 ceoi4
 校服褲	haau6 fuk6 fu3
 校服裙	haau6 fuk6 kwan4
 校風	haau6 fung1
@@ -99459,7 +99458,7 @@ import_tables:
 入廠	jap6 cong2
 入廠大修	jap6 cong2 daai6 sau1
 入得廚房出得廳堂	jap6 dak1 cyu4 fong2 ceot1 dak1 teng1 tong4
-入得廚房出得廳堂	jap6 dap1 ceoi4 fong2 ceot1 dak1 teng1 tong4
+入得廚房出得廳堂	jap6 dak1 ceoi4 fong2 ceot1 dak1 teng1 tong4
 入電油	jap6 din6 jau4
 入定	jap6 ding6
 入黨	jap6 dong2
@@ -100040,7 +100039,7 @@ import_tables:
 一腳踏兩船	jat1 goek3 daap6 loeng5 syun4
 一腳牛屎	jat1 goek3 ngau4 si2
 一腳踢	jat1 goek3 tek3
-鐵拐李打足球一腳踢	tit3 gwaai2 daa2 zuk1 kau4 jat1 goek3 tek3
+鐵拐李打足球一腳踢	tit3 gwaai2 lei5 daa2 zuk1 kau4 jat1 goek3 tek3
 一腳踢開	jat1 goek3 tek3 hoi1
 一改	jat1 goi2
 一改故轍	jat1 goi2 gu3 cit3
@@ -100201,7 +100200,6 @@ import_tables:
 一應俱全	jat1 jing1 keoi1 cyun4
 一應	jat1 jing3
 一應俱全	jat1 jing3 keoi1 cyun4
-一言驚醒夢中人	jat1 jin4 ging1 sing2 mung6 zung1 jan4
 一葉扁舟	jat1 jip6 pin1 zau1
 一葉知秋	jat1 jip6 zi1 cau1
 一葉障目	jat1 jip6 zoeng3 muk6
@@ -111387,7 +111385,6 @@ import_tables:
 靠窗	kaau3 coeng1
 靠窗座位	kaau3 coeng1 zo6 wai2
 靠得住	kaau3 dak1 zyu6
-靠得住豬乸都會上樹	kaau3 dak1 zyu6 zyu1 naa2 dou1 wui5 soeng5 syu6
 靠得住豬乸都會上樹	kaau3 dak1 zyu6 zyu1 naa2 dou1 wui5 soeng5 syu6
 靠得住豬乸會上樹	kaau3 dak1 zyu6 zyu1 naa2 wui5 soeng5 syu6
 靠近	kaau3 gan6
@@ -177515,7 +177512,6 @@ import_tables:
 自己的事自己做	zi6 gei2 dik1 si6 zi6 gei2 zou6
 自己動手	zi6 gei2 dung6 sau2
 自己放	zi6 gei2 fong3
-潮州音樂	ciu4 zau1 jam1 ngok6
 自己顧自己	zi6 gei2 gu3 zi6 gei2
 自己工	zi6 gei2 gung1
 自己去	zi6 gei2 heoi3
