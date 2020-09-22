@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2020.08.06"
+  version: "2020.09.22"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -12,7 +12,9 @@ schema:
     - laubonghaudoi <laubonghaudoi@icloud.com>
     - tanxpyox <tanxpyox@gmail.com>
     - William915 <William915@gmail.com>
-    - scz126 (@scz126)
+    - szc126 (@szc126)
+    - Bing Jeung <bing@ososo.io>
+    - Ayaka Mikazuki <ayaka@mail.shn.hk>
 
   description: |-
     採用香港語言學學會粵語拼音方案

@@ -18,10 +18,12 @@
 # tanxpyox <tanxpyox@gmail.com>
 # William915 <William915@gmail.com>
 # szc126 (@szc126)
+# Bing Jeung <bing@ososo.io>
+# Ayaka Mikazuki <ayaka@mail.shn.hk>
 
 ---
 name: jyut6ping3.lettered
-version: "2020.09.08"
+version: "2020.09.22"
 sort: by_weight
 use_preset_vocabulary: true
 ...

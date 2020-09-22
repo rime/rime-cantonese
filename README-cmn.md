@@ -25,7 +25,7 @@
 
 **拼音方案**
 
-- 本方案**僅僅**支援「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
+- 本方案**僅**支援「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
     - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
     - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
     - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
@@ -71,7 +71,7 @@
 
 ### 用字標準切換
 
-本方案預設採用 OpenCC 用字標準（選單中顯示為「傳統漢字」）。也支援**香港傳統漢字**、**臺灣傳統漢字**和**大陆简化汉字**。要切換用字標準，請按 <kbd>Ctrl</kbd> + <kbd>`</kbd> 然後在菜單選擇。
+本方案預設採用 OpenCC 用字標準（選單中顯示為「傳統漢字」）。也支援**香港傳統漢字**、**臺灣傳統漢字**和**大陆简化汉字**。要切換用字標準，請按 <kbd>Ctrl</kbd> + <kbd>`</kbd> 然後在菜單中選擇希望使用的用字標準。
 
 ### Emoji 輸入
 
@@ -112,6 +112,6 @@ emoji 碼表請見[此處](https://github.com/rime/rime-emoji/tree/master/opencc
 
 ## 貢獻指南
 
-如果有任何修改意見，或希望參與本項目，可以直接[在 issue 分頁中提出](https://github.com/rime/rime-cantonese/issues)，也可以在上述 [Telegram 交流組](https://t.me/rime_cantonese)中直接反饋意見。
+若有任何修改意見，或希望參與本項目，可以直接[在 issue 分頁中提出](https://github.com/rime/rime-cantonese/issues)，也可以在上述 [Telegram 交流組](https://t.me/rime_cantonese)中直接反饋意見。
 
 </div>
