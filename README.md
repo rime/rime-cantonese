@@ -11,9 +11,7 @@
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/github/license/rime/rime-cantonese?color=blue&label=%E6%8E%88%E6%AC%8A%E6%A2%9D%E6%AC%BE&logo=creative-commons&logoColor=white&style=for-the-badge"/></a>
 </p>
 
-本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發同維護，循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈。（條文以英文版本爲準）
-
-This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發同維護，主體部分循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈，`jyut6ping3.maps` 循「[開放資料庫授權-1.0](https://opendatacommons.org/licenses/odbl/)」協議發佈。
 
 ---
 

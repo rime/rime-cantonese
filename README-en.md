@@ -9,8 +9,7 @@
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/github/license/rime/rime-cantonese?color=blue&label=License&logo=creative-commons&logoColor=white&style=for-the-badge"/></a>
 </p>
 
-
-This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)), and released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)). The main part of this work is released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). `jyut6ping3.maps` is released under a [Open Data Commons Open Database v1.0 License](https://opendatacommons.org/licenses/odbl/)。
 
 ---
 
