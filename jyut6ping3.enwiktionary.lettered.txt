@@ -28,6 +28,7 @@
 1號電池	jat1 hou6 din6 ci4
 200米	ji6 baak3 mai5
 200米	loeng5 baak3 mai5
+2019冠狀病毒病	ji6 ling4 jat1 gau2 gun1 zong6 beng6 duk6 beng6
 20國集團	ji6 sap6 gwok3 zaap6 tyun4
 233	ji6 saam1 saam1
 2月	ji6 jyut6
@@ -127,6 +128,7 @@ DVD機	di1 wi1 di1 gei1
 D日	di1 jat6
 E仔	ji1 zai2
 E編碼	ji1 pin1 maa5
+G	gik1
 GG	zi1 zi1
 G力	zi1 lik6
 G樓	zi1 lau2
@@ -240,7 +242,11 @@ hold住	hou1 zyu6
 jm9	zou6 mat1 gau1
 kam	kang3
 keep住	kip1 zyu6
+lag機	lek1 gei1
+lag機	lik1 gei1
 likey	lai1 ki2
+m	em1
+mon	mon1
 mouse	maau1 si2
 mouse	mau1 si2
 n	en1
@@ -255,6 +261,7 @@ p值	pi1 zik6
 p進數	pi1 zeon3 sou3
 quali	kwo1 li2
 sales	seu1 si2
+sharp醒	saap1 sing2
 short	sot1
 sit堂	sit1 tong4
 size	saai1 si2
