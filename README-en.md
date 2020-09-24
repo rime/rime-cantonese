@@ -6,7 +6,6 @@
 <a href="https://github.com/rime/rime-cantonese/issues"><img src="https://img.shields.io/badge/Contributions-Welcomed-1dd3b0?style=for-the-badge&logo=github"/></a>
 <a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/github/v/release/rime/rime-cantonese?color=38618c&style=for-the-badge"/></a>
 <a href="https://travis-ci.com/github/rime/rime-cantonese"><img src="https://img.shields.io/travis/com/rime/rime-cantonese?label=Deploy&logo=travis-ci&logoColor=white&style=for-the-badge"/></a>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/github/license/rime/rime-cantonese?color=blue&label=License&logo=creative-commons&logoColor=white&style=for-the-badge"/></a>
 </p>
 
 This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)). The main part of this work is released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). `jyut6ping3.maps` is released under a [Open Data Commons Open Database v1.0 License](https://opendatacommons.org/licenses/odbl/)。
@@ -88,7 +87,7 @@ Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to
 
 ### Reverse lookup
 
-This schema also allows the user to lookup Cantonese words with Mandarin Pinyin, Loengfan, stroke order and Cangjie code. Click the following button in edit mode to enable the respective reverse lookup option:
+This schema also allows the user to lookup Cantonese words with Mandarin Pinyin, [Loengfan](https://github.com/CanCLID/rime-loengfan), stroke order and Cangjie code. Click the following button in edit mode to enable the respective reverse lookup option:
 
 - Mandarin Pinyin: <kbd>`</kbd>
 - Loengfan: <kbd>r</kbd>

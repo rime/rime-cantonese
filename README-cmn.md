@@ -8,7 +8,6 @@
 <a href="https://github.com/rime/rime-cantonese/issues"><img src="https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-1dd3b0?style=for-the-badge&logo=github"/></a>
 <a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/github/v/release/rime/rime-cantonese?color=38618c&label=%E7%A9%A9%E5%AE%9A%E7%99%BC%E4%BD%88%E7%89%88%E6%9C%AC&style=for-the-badge"/></a>
 <a href="https://travis-ci.com/github/rime/rime-cantonese"><img src="https://img.shields.io/travis/com/rime/rime-cantonese?label=%E5%B0%81%E8%A3%9D%E7%A8%8B%E5%BC%8F&logo=travis-ci&logoColor=white&style=for-the-badge"/></a>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://img.shields.io/github/license/rime/rime-cantonese?color=blue&label=%E6%8E%88%E6%AC%8A%E6%A2%9D%E6%AC%BE&logo=creative-commons&logoColor=white&style=for-the-badge"/></a>
 </p>
 
 本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發及維護，主體部分循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈，`jyut6ping3.maps` 循「[開放資料庫授權-1.0](https://opendatacommons.org/licenses/odbl/)」協議發佈。
@@ -90,7 +89,7 @@ emoji 碼表請見[此處](https://github.com/rime/rime-emoji/tree/master/opencc
 
 ### 反查
 
-本方案支援普通話拼音、粵語兩分、筆畫、倉頡反查，反查鍵：
+本方案支援普通話拼音、[粵語兩分](https://github.com/CanCLID/rime-loengfan)、筆畫、倉頡反查，反查鍵：
 
 - 普通話拼音：<kbd>`</kbd>
 - 粵語兩分：<kbd>r</kbd>
