@@ -28,1270 +28,1265 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 
-# 含數字同英文嘅詞彙
+# 含數字或英文嘅詞彙
 
 %	pat6 sen1
-%	poe6 sen1
 %	pe6 sen1
+%	poe6 sen1
 133	jat1 saam1 saam1
 21點	jaa6 jat1 dim2
 21三體綜合症	ji6 jat1 saam1 tai2 zung3 hap6 zing3
 26	ji6 luk1
-3C	saam1 si1
 3P	saam1 pi1
+3C	saam1 si1
+46709394	sei2 lou2 ceot1 lai4 gaau2 saam1 gaau2 sei3
+489	sei3 baat3 gau2
 420	sei3 ji6 ling4
 426	sei3 ji6 luk6
 438	sei3 saam1 baat3
 4424	sei3 sei3 ji6 sei3
-489	sei3 baat3 gau2
-55	ng5 ng5
-56k	ng5 sap6 luk6 kei1
 56k	ng5 aa6 luk6 kei1
+55	ng5 ng5
 5p仔	ng5 pi1 zai2
+56k	ng5 sap6 luk6 kei1
 67	luk1 cat6
 689	luk6 baat3 gau2
-7-11	cat1 sap6 jat1
 777	cat1 cat1 cat1
+7-11	cat1 sap6 jat1
 88牌	baat3 baat3 paai4
-97	gau2 cat1
 9upper	gau1 ap1 paa4
-A0	ei1 ling4
-A4紙	ei1 fo1 zi2
+97	gau2 cat1
+argue	aa1 giu4
+ARCH	aa1 ki2
+archi	aa1 ki2
+assignment	aa3 saai1 man2
+assignment	aa3 saai1 man4
+account	aa6 kaan1
+ARCH	aak1 ki2
+archi	aak1 ki2
+auntie	aan1 ti4
+Audi	aau1 di2
+am	am4
+AB膠	ei1 bi1 gaau1
+ABC	ei1 bi1 si1
+AB制	ei1 bi1 zai3
 AA膠	ei1 ei1 gaau1
 AA制	ei1 ei1 zai3
-ABC	ei1 bi1 si1
-AB膠	ei1 bi1 gaau1
-AB制	ei1 bi1 zai3
-ac	ei1 si1
-account	aa6 kaan1
-ace	ei1 si2
-ACO	ei1 si1 ou1
-agent	ei1 zeon2
+A4紙	ei1 fo1 zi2
+A貨	ei1 fo3
+A咖	ei1 gaa3
+A圈兒	ei1 hyun1 ji4
+A咖	ei1 kaa1
 AK	ei1 kei1
 AK47	ei1 kei1 sei3 cat1
-all-back	o1 bek1
-alt	ot1
-alt	o6 toeng1 nik4
-am	am4
+A0	ei1 ling4
 A-math	ei1 met1
-anyway	en1 ni4 wei4
-an機	en1 gei1
 AO	ei1 ou1
-app	ep1
-apps	ep1 si2
-ARCH	aa1 ki2
-ARCH	aak1 ki2
-archi	aa1 ki2
-archi	aak1 ki2
-argue	aa1 giu4
-assignment	aa3 saai1 man4
-assignment	aa3 saai1 man2
+A片	ei1 pin2
+ac	ei1 si1
+ACO	ei1 si1 ou1
+ace	ei1 si2
 ATM	ei1 ti1 em1
-Audi	aau1 di2
-auntie	aan1 ti4
+AV	ei1 vi1
+AV女優	ei1 vi1 neoi5 jau1
+AV女郎	ei1 vi1 neoi5 long4
 AV	ei1 wi1
 AV女優	ei1 wi1 neoi5 jau1
-A貨	ei1 fo3
-A咖	ei1 kaa1
-A咖	ei1 gaa3
-A片	ei1 pin2
-A圈兒	ei1 hyun1 ji4
-A仔	ei1 zai2
 A站	ei1 zaam6
+A仔	ei1 zai2
 A準	ei1 zeon2
+agent	ei1 zeon2
 A字膊	ei1 zi6 bok3
-baby	bei1 bi4
-baby-fat	bei1 bi1 fet1
-backup	bek1 ap1
-ball	bo1
-ban	ben1
-ban	beng1
-Band仔	ben1 zai2
-Bang一聲	baang4 jat1 seng1
-banner	ben1 naa2
+A鐘	ei1 zung1
+an機	en1 gei1
+anyway	en1 ni4 wei4
+app	ep1
+apps	ep1 si2
+all-back	o1 bek1
+alt	o6 toeng1 nik4
+alt	ot1
 bar	baa1
-barcode	baa1 kuk1
+bra	baa1
 bar-king	baa1 king1
-BB	bi1 bi1
-BB	bit1 bit1
-BB	bi4 bi1
-BBA	bi1 bi1 ei1
-BBQ	bi1 bi1 kiu1
-BB車	bi4 bi1 ce1
-BB牀	bi4 bi1 cong4
-BB彈	bi1 bi1 daan2
-BB櫈	bi4 bi1 dang3
-BB骨	bi4 bi1 gwat1
-BB話	bi4 bi1 waa2
-BB機	bi1 bi1 gei1
-BB衫	bi4 bi1 saam1
-BB仔	bi4 bi1 zai2
-beat	bit1
-bell開	beu6 hoi1
+barcode	baa1 kuk1
+buy	baai1
+bi	baai6
+bio	baai6 o1
+Bang一聲	baang4 jat1 seng1
+byte	bai1
+bug	bak1
+budget	bat1 zik4
+baby-fat	bei1 bi1 fet1
+baby	bei1 bi4
+backup	bek1 ap1
+ban	ben1
+banner	ben1 naa2
 Benz	ben1 si2
-Ben屎	ben1 si2
 Ben士	ben1 si2
+Ben屎	ben1 si2
+Band仔	ben1 zai2
+ban	beng1
 bet-bet	bet4 bet4
 bet-bet	bet6 bet6
-bi	baai6
-bi-bi-ba-ba	bi4 bi4 baa4 baa4
-bi-bi-ba-ba	bi4 bi1 baa4 baa4
+bell開	beu6 hoi1
+bel開	beu6 hoi1
+BB	bi1 bi1
 bi-bi-ba-ba	bi1 bi1 baa1 baa1
+BB彈	bi1 bi1 daan2
+BBA	bi1 bi1 ei1
+BB機	bi1 bi1 gei1
+BBQ	bi1 bi1 kiu1
 bibu	bi1 bu3
-bibu	bi1 bu6
 bibu-bibu	bi1 bu3 bi1 bu3
-bibu-bibu	bi1 bu6 bi1 bu6
 bibu車	bi1 bu3 ce1
-bid	bit1
-Big-4	bik1 fo1
-bi-li-ba-la	bi4 li4 baa4 laa4
-bi-li-ba-la	bi4 li1 baa4 laa4
+bibu	bi1 bu6
+bibu-bibu	bi1 bu6 bi1 bu6
+B超	bi1 ciu1
+briefing	bi1 fing2
+B型超聲	bi1 jing4 ciu1 sing1
+B哩吧啦	bi1 li1 baa1 laa1
 bi-li-ba-la	bi1 li1 baa1 laa1
-bi-li-bek-lek	bi4 li1 bek4 lek4
 bilibili	bi1 li1 bi1 li4
+BT	bi1 ti1
+B站	bi1 zaam6
+B仔	bi1 zai2
+B仔水	bi1 zai2 seoi2
+BB	bi4 bi1
+bi-bi-ba-ba	bi4 bi1 baa4 baa4
+BB車	bi4 bi1 ce1
+BB牀	bi4 bi1 cong4
+BB櫈	bi4 bi1 dang3
+BB骨	bi4 bi1 gwat1
+BB衫	bi4 bi1 saam1
+BB話	bi4 bi1 waa2
+BB仔	bi4 bi1 zai2
+bi-bi-ba-ba	bi4 bi4 baa4 baa4
+bi-li-ba-la	bi4 li1 baa4 laa4
+bi-li-bek-lek	bi4 li1 bek4 lek4
+bi-li-ba-la	bi4 li4 baa4 laa4
+Big-4	bik1 fo1
 bingo	bing1 gou4
-bio	baai6 o1
+Bing-Ling-Bang-Lang	bing4 ling1 baang4 laang4
+beat	bit1
+bid	bit1
 bit	bit1
-board	bot1
-Board-game	bot1 gem1
+BB	bit1 bit1
+ball	bo1
 body-check	bo1 di1 cek1
 body-massage	bo1 di1 mat6 saa1 ci4
+boy	boi1
+boxing油	bok1 sing2 jau4
+board	bot1
+Board-game	bot1 gem1
+buffet	bou6 fei1
+bully	bu1 li4
+Bu你阿麼	bu4 ni2 aa3 mo1
+bu你阿麼	bu4 ni5 aa3 mo1
 boo-jark	bu4 zaak1
 book	buk1
 book機票	buk1 gei1 piu3
-book酒店	buk1 zau2 dim3
-book位	buk1 wai2
 book唔到位	buk1 m4 dou2 wai2
+book位	buk1 wai2
+book酒店	buk1 zau2 dim3
 boot	but1
 boot機	but1 gei1
-boutique	pou6 tit1
-boxing油	bok1 sing2 jau4
-boy	boi1
-bra	baa1
-briefing	bi1 fing2
-BT	bi1 ti1
-budget	bat1 zik4
 buffet	pou6 fei1
-buffet	bou6 fei1
-bug	bak1
-bully	bu1 li4
-buy	baai1
-bu你阿麼	bu4 ni5 aa3 mo1
-byte	bai1
-B超	bi1 ciu1
-B型超聲	bi1 jing4 ciu1 sing1
-B仔	bi1 zai2
-B站	bi1 zaam6
-C6	si1 luk6
-C9	si1 naai1
-cafe	kat6 fei1
-café	kat6 fei1
-cake	kik1
-call	ko1
-call白車	ko1 baak6 ce1
-call機	ko1 gei1
-call台	ko1 toi4
-Call鐘	ko1 zung1
-cam	kem1
-camp	kem1
-camp-camp-哋	kem1 kem1 dei2
-camtrulia	gaam6 cou1 li4 jaa4
-camtrulia	kam6 cou1 li4 jaa4
-cam帶	kem1 daai2
-cam鍊	kem1 lin2
-cam鏈	kem1 lin2
-cancer	ken1 saa2
-cancer	ken1 saa4
-cap	kep1
-cap	kep6
-cap帽	kep1 mou2
-cap水	kep1 seoi2
-care	ke1 aa4
-carry	ke1 wi4
-case	kei1 si2
-cash	ke1 syu4
-casual	ke1 sou4
-catalog	ket1 taa4 lok4
-catalogue	ket1 taa4 lok4
-cc	si1 si1
-CCTV	si1 si1 ti1 wi1
-cert	soet1
+boutique	pou6 tit1
 cha-cha	caa1 caa4
-chalk粉	cok1 fan2
-challenge	cek1 lin6 zi6
 charge	caa1 zi6
-cheap	cip1
-cheap精	cip1 zing1
-cheap嘢	cip1 je5
+chup一聲	cap6 jat1 seng1
 check	cek1
-check-in	cek1 jin1
 check-out	cek1 au1
 check下	cek1 haa5
-chem	kem1
-ching	si1 hing1
-ching	cing1
+check-in	cek1 jin1
+challenge	cek1 lin6 zi6
+CLS	ci1 lan2 sin3
 chihuahua	ci6 waa1 waa4
-chihuahua	zi6 waa1 waa4
+cik-caat	cik4 caak4
+cik-caat	cik4 caat4
+ching	cing1
+cheap	cip1
+cheap到痺	cip1 dou3 bei3
+cheap嘢	cip1 je5
+cheap精	cip1 zing1
+cosplay	co1 si4 pat6 lai1
+chur	coe2
+chalk粉	cok1 fan2
 chok	cok3
 chok-cheat	cok3 cit1
 chok樣	cok3 joeng2
-chord	kot1
-chup一聲	cap6 jat1 seng1
-chur	coe2
-CIB	si1 aai1 bi1
-CID	si1 aai1 di1
-cik-caat	cik4 caat4
-cik-caat	cik4 caak4
-civil	si1 fou2
+camtrulia	gaam6 cou1 li4 jaa4
+coolie	gu1 lei1
+counter	kaan1 taa2
+com	kam1
+common-sense	kam1 man1
+comment	kam1 men4
+camtrulia	kam6 cou1 li4 jaa4
+command	kam6 maan1
+club	kap1
+cut	kat1
+cut線	kat1 sin3
+cutter	kat1 taa2
+cafe	kat6 fei1
+café	kat6 fei1
+close	kat6 lou4 si4
+cult	kau1
+care	ke1 aa4
+casual	ke1 sou4
+cash	ke1 syu4
+carry	ke1 wi4
+case	kei1 si2
+cam	kem1
+camp	kem1
+chem	kem1
 claim	kem1
 claim保險	kem1 bou2 him2
+cam帶	kem1 daai2
+camp-camp-哋	kem1 kem1 dei2
+cam鍊	kem1 lin2
+cam鏈	kem1 lin2
 claim稅	kem1 seoi3
+cancer	ken1 saa2
+cancer	ken1 saa4
+cap	kep1
+cap帽	kep1 mou2
+cap水	kep1 seoi2
+cap	kep6
+catalog	ket1 taa4 lok4
+catalogue	ket1 taa4 lok4
+cake	kik1
 click	kik1
 click入去	kik1 jap6 heoi3
-close	kat6 lou4 si4
-CLS	si1 eu1 e1 si4
-CLS	ci1 lan2 sin3
-club	kap1
-cm	si1 em1
-code	kuk1
-com	kam1
-command	kam6 maan1
-comment	kam1 men4
+cream	kim1
+cue	kiu1
+cute	kiu1
+cue卡	kiu1 kaat1
+cue咭	kiu1 kaat1
+cute-cute	kiu1 kiu1
+coupon	kiu1 pon4
+cutie	kiu1 ti2
+Call	ko1
+call	ko1
+call白車	ko1 baak6 ce1
+call機	ko1 gei1
+course	ko1 si4
+Call台	ko1 toi4
+call台	ko1 toi4
+Call鐘	ko1 zung1
 comment	kom1 men4
-common-sense	kam1 man1
 con	kon1
 cons	kon1 si2
 contact	kon1 tek4
-cool	ku1
-coolie	gu1 lei1
 cop	kop1
-cosplay	co1 si4 pat6 lai1
-counter	kaan1 taa2
-coupon	kiu1 pon4
-course	ko1 si4
-cream	kim1
-cue	kiu1
-cue咭	kiu1 kaat1
-cue卡	kiu1 kaat1
-cult	kau1
+chord	kot1
+Cool	ku1
+cool	ku1
 cushion	ku1 seon2
-cut	kat1
-cute	kiu1
-cute-cute	kiu1 kiu1
-cutie	kiu1 ti2
-cutter	kat1 taa2
-cut線	kat1 sin3
-CV	si1 wi1
+code	kuk1
 cyber	saai1 baa4
+CIB	si1 aai1 bi1
+CID	si1 aai1 di1
 C疊	si1 daap6
-C盤	si1 pun4
+cm	si1 em1
+CLS	si1 eu1 e1 si4
+civil	si1 fou2
+ching	si1 hing1
+C6	si1 luk6
+C9	si1 naai1
 C眼	si1 ngaan5
-D	di1
+C盤	si1 pun4
+cc	si1 si1
+CCTV	si1 si1 ti1 wi1
+CV	si1 wi1
+cert	soet1
+chihuahua	zi6 waa1 waa4
 darling	daa1 ling2
+down	daan1
+down機	daan1 gei1
+download	daan1 lou1
+down	daang1
+download	daang1 lou1
+dup	daap3
+dum	dam2
+dump	dam2
+dum	dam3
+dum雞	dam3 gai1
+dum	dam6
+dub	dap1
+dup	dap1
+dup車	dap1 ce1
+dud	dat1
+der	de1
+defer	de6 foe1
 data	dei1 taa4
 day-one	dei1 wan1
-DC9	di1 si1 gau2
-DD	di1 di1
-DD	dit1 dit1
-Dee	di2
-defer	de6 foe1
-del	di6
 dem	dem1
 demo	dem1 mou2
-der	de1
-di-di-de-de	di4 di4 de4 de4
-disco	dit1 si4 kou4
-DJ	di1 zei1
+D	di1
+D場	di1 coeng4
+DD	di1 di1
 DNA	di1 en1 ei1
 DNA鑒定	di1 en1 ei1 gaam3 ding6
-do	du1
-down	daang1
-down	daan1
-download	daang1 lou1
-download	daan1 lou1
-down機	daan1 gei1
-Do嘢	du1 je5
 DQ	di1 kiu1
+DC9	di1 si1 gau2
 DT	di1 ti1
-dub	dap1
-dud	dat1
+DVD	di1 wi1 di1
+DJ	di1 zei1
+Dee	di2
+di-di-de-de	di4 di4 de4 de4
+del	di6
+DD	dit1 dit1
+disco	dit1 si4 kou4
 due時	diu1 si4
-dum	dam2
-dum	dam3
-dum	dam6
-dump	dam2
-dum雞	dam3 gai1
-dup	dap1
-dup	daap3
-dup車	dap1 ce1
 dur	doe6
 dur皮	doe6 pei4
-DVD	di1 wi1 di1
-D場	di1 coeng4
+Do	du1
+do	du1
+Do嘢	du1 je5
+e	e1
 e1	e1
+er	e1
+er都冇得er	e1 dou1 mou5 dak1 e1
+e都冇得e	e1 dou1 mou5 dak1 e1
 e4	e4
-econ	ji6 kon1
+er	e4
+er	e6
 em4	em4
-email	ji1 meu1
-email	ji1 me1 lou4
-emoji	ji6 mou1 zi4
+engine	en1 zin2
+even	i1 fan4
+E仔	i1 zai2
 emoji	i6 mo1 zi4
 emoji	i6 mou1 zi4
-emoji	ji6 mo1 zi4
-engine	en1 zin2
-EO	ji1 ou1
-er	e1
-er	e6
-er	e4
-er都冇得er	e1 dou1 mou5 dak1 e1
-er都冇得er	nge1 dou1 mou5 dak1 nge1
-EVA膠	ji1 wi1 ei1 gaau1
-even	ji1 fan4
-even	i1 fan4
 ex	ik6 si4
 E沖C	ji1 cung1 si1
+even	ji1 fan4
+email	ji1 me1 lou4
+email	ji1 meu1
+EO	ji1 ou1
+EVA膠	ji1 wi1 ei1 gaau1
 E仔	ji1 zai2
-Face	fei1 si2
-Fact-check	fek1 cek1
-fail	feu1
-fake	fik1
+econ	ji6 kon1
+emoji	ji6 mo1 zi4
+emoji	ji6 mou1 zi4
+er都冇得er	nge1 dou1 mou5 dak1 nge1
+FF	e1 fu4 e1 fu4
+file	faai1 lou2
+function	fan1 seon4
+function	fang1 seon4
 fang6	fang6
-fans	fen1 si2
-fan屎	fen1 si2
-fax	fek1
-fax	fek1 si2
-fax機	fek1 si2 gei1
-fd	fen1
+foul	fau1
+foul出局	fau1 ceot1 guk6
 fe	fe4
 fea	fe4
-feel	fiu1
+Face	fei1 si2
+fax	fek1
+Fact-check	fek1 cek1
+fax	fek1 si2
+fax機	fek1 si2 gei1
+firm	fem1
+Friend	fen1
+fd	fen1
+friend	fen1
+Friend過打band	fen1 gwo3 daa2 ben1
+friend過打band	fen1 gwo3 daa2 ben1
+friend過夾band	fen1 gwo3 gaap3 ben1
+Fan屎	fen1 si2
+fans	fen1 si2
+fan屎	fen1 si2
 fet	fet6
-FF	e1 fu4 e1 fu4
-figure	fik1 gaa4
-Fik	fik6
-file	faai1 lou2
+fail	feu1
+free-size	fi1 saai1 si2
+free晒士	fi1 saai1 si2
+Fi-li-fe-le	fi4 li1 fe4 le4
 fi-li-fe-le	fi4 li1 fe4 le4
 fi-li-fe-le	fi4 li1 fek4 lek4
-Fing霸	fing6 baa3
-firm	fem1
-fit	fit1
-fit到漏油	fit1 dou3 lau6 jau2
+fake	fik1
+figure	fik1 gaa4
+Fik	fik6
 flick	fik6
+Fing	fing6
+Fing霸	fing6 baa3
+Fing頭場	fing6 tau4 coeng4
+Fing頭丸	fing6 tau4 jyun2
+fit	fit1
+fit到漏油	fit1 dou3 lau4 jau4
+fit到漏油	fit1 dou3 lau6 jau2
+Feel	fiu1
+feel	fiu1
+fuse	fiu1 si2
 follow	fo1 lou4
 for	fo6
 form	fom1
-foul	fau1
-foul出局	fau1 ceot1 guk6
-free-size	fi1 saai1 si2
-free晒士	fi1 saai1 si2
-friend	fen1
-friend過打band	fen1 gwo3 daa2 ben1
-friend過夾band	fen1 gwo3 gaap3 ben1
 fu	fu3
-function	fan1 seon4
-function	fang1 seon4
-fuse	fiu1 si2
+guard臭	gaat1 cau3
+gap	gap1
+gup	gap6
+Gut屎	gat1 si2
+gas	ge1 si2
+gas爐	ge1 si2 lou4
+ge	ge3
 gag	gek1
 game	gem1
 gap	gep1
-gap	gap1
+gap汁	gep1 zap1
 gap-gap聲	gep4 gep2 seng1
-gas	ge1 si2
-gas爐	ge1 si2 lou4
-GB	gik1
-ge	ge3
-gel	zeu1
-gel頭雀	zeu1 tau4 zoek2
-geog	zok1 gaa2
 get	get1
 get到	get1 dou2
-GG	zi1 zi1
+GB	gik1
 GiB	gik1
 gip	gip1
+Gurkha	goe1 gaa4
+Gurkha兵	goe1 gaa4 bing1
+gur	goe4
 goet-goet聲	goet4 goet2 seng1
 google	gu1 gou4
 Google鼻	gu1 gou4 bei6
-GPS	zi1 pi1 e1 si4
-Gurkha	goe1 gaa4
-Gurkha兵	goe1 gaa4 bing1
-gram	gwem1
 grant-loan	gwaan1 lung1
 grant-loan	gwaang1 lung1
+gram	gwem1
 group	gwup1
-guard臭	gaat1 cau3
-gup	gap6
-gur	goe4
-gym房	zim1 fong2
+gel	zeu1
+gel頭雀	zeu1 tau4 zoek2
 G點	zi1 dim2
 G弦褲	zi1 jin4 fu3
-hack	hek1
-hacker	hek1 kaa2
-hae	he3
-hall	ho1
-ham	hem1
-hang機	heng1 gei1
-happy	hep1 pi2
-Hap唔Happy呀	hep1 m4 hep1 pi2 aa3
-harddisk	haat1 di1
-hater	hei1 taa4
-He	he3
-hea	he3
-hee-hee-hur-hur	hi4 hi1 hoe4 hoe4
-hehe	hi1 hi1
-hello	haa1 lou3
-hello	haa1 lou2
-hi	haai1
-hi-fi	haai1 faai1
-high	haai1
-highlight	haai1 lai1
-high-tea	haai1 ti1
-high-tech	haai1 tek1
-high大咗	haai1 daai6 zo2
-high卡士	haai1 kaa1 si2
-hihi	haai1 haai1
-hints	hin1 si2
-hit	hit1
-hoodie	hu1 di2
-house	hau1 si2
-hum-hum聲	ham4 ham2 seng1
-hur	hoe4
-hurt	hoet1
+GPS	zi1 pi1 e1 si4
+GG	zi1 zi1
+gym房	zim1 fong2
+geog	zok1 gaa2
 H股	ei1 cyu3 gu2
 H漫	ei1 cyu3 maan6
-ichiban	jit1 ci1 baan1
-ichiban	it1 ci1 baan1
-ichiban	jit1 zi1 baan1
-icon	aai1 kon2
+hello	haa1 lou2
+hello	haa1 lou3
+High	haai1
+hi	haai1
+high	haai1
+high大咗	haai1 daai6 zo2
+hi-fi	haai1 faai1
+hihi	haai1 haai1
+high卡士	haai1 kaa1 si2
+highlight	haai1 lai1
+high-tech	haai1 tek1
+high-tea	haai1 ti1
+harddisk	haat1 di1
+hum-hum聲	ham4 ham2 seng1
+house	hau1 si2
+He	he3
+hae	he3
+hea	he3
+hater	hei1 taa4
+hack	hek1
+hacker	hek1 kaa2
+ham	hem1
+hang機	heng1 gei1
+Hap唔Happy呀	hep1 m4 hep1 pi2
+Hap唔Happy呀	hep1 m4 hep1 pi2 aa3
+Happy	hep1 pi2
+happy	hep1 pi2
+hehe	hi1 hi1
+hee-hee-hur-hur	hi4 hi1 hoe4 hoe4
+hints	hin1 si2
+hit	hit1
+hall	ho1
+hur	hoe4
+hurt	hoet1
+hoodie	hu1 di2
+II	aai1 aai1
 ID	aai1 di1
 IDD	aai1 di1 di1
-idea	aai6 di1 jaa4
-idea	aai6 di1 aa4
-II	aai1 aai1
-in	in1
-in	jin1
-Inch	in1 cyu4
-in-charge	in1 caa1 zi6
-intern	in1 toeng2
-intern	jin1 toeng2
-IP	aai1 pi1
+i雞寶	aai1 gai1 bou2
 IQ	aai1 kiu1
 IQ題	aai1 kiu1 tai4
-Isuzu	ji6 sou1 sou4
+icon	aai1 kon2
+IP	aai1 pi1
 IT	aai1 ti1
 IT狗	aai1 ti1 gau2
-i雞寶	aai1 gai1 bou2
-J	zei1
-jacket	zek1 kit6
-jacket	zek1 ket6
-jam	zem1
-jam嘢	zem1 je5
+idea	aai6 di1 aa4
+idea	aai6 di1 jaa4
+In	in1
+in	in1
+in-charge	in1 caa1 zi6
+Inc	in1 cu4
+Inch	in1 cyu4
+intern	in1 toeng2
+In咗	in1 zo2
+ichiban	it1 ci1 baan1
+ichiban	ji1 ci1 baang1
+Isuzu	ji6 sou1 sou4
+in	jin1
+intern	jin1 toeng2
+ichiban	jit1 ci1 baan1
+ichiban	jit1 zi1 baan1
 jar	zaa1
+J	zei1
+J圖	zei1 tou4
+JJ	zei1 zei1
+jacket	zek1 ket6
+jacket	zek1 kit6
+jetso	zek1 sou4
+jam	zem1
+Jam嘢	zem1 je5
+jam嘢	zem1 je5
 jeep仔	zip1 zai2
+jip	zip4
 jer	zoe1
-jer-jer	zoe4 zoe1
 jer-jer	zoe1 zoe1
 jer住	zoe1 zyu6
-jetso	zek1 sou4
-jip	zip4
-JJ	zei1 zei1
+jer-jer	zoe4 zoe1
 join	zoi1
 join	zong1
-joker	zuk1 kaa2
 joule	zu1
 jupas	zu1 pat6 si4
-J圖	zei1 tou4
-K	kei1
+joker	zuk1 kaa2
+Kind	kaai1
 kai	kaai1
 kai子	kaai1 zi2
-KB	kei1 bi1
-K-car	kei1 kaa1
+Ke	ke1
 ke	ke1
+K金	ke1 gam1
+K	kei1
+K壓	kei1 aat3
+K巴	kei1 baa1
+KB	kei1 bi1
+K場	kei1 coeng4
+K粉	kei1 fan2
+K房	kei1 fong2
+K金	kei1 gam1
+K歌	kei1 go1
+K客	kei1 haak3
+K-car	kei1 kaa1
+kilo	kei1 lou2
+KO	kei1 ou1
+KOL	kei1 ou1 eu1
+K書	kei1 syu1
+K他命	kei1 taa1 ming6
+K仔	kei1 zai2
+kem-kem哋	kem1 kem1 dei2
+kem	kem4
+kem5	kem5
+keng	keng4
+kel-lel	keu4 leu1
+kilo	ki1 lou2
+king	king1
 keep	kip1
 Keeper	kip1 paa2
 keep住	kip1 zyu6
-kel-lel	keu4 leu1
-kem	kem4
-kem5	kem5
-kem-kem哋	kem1 kem1 dei2
-keng	keng4
 killer	kiu1 laa2
 killer	kiu1 laa4
-kilo	ki1 lou2
-kilo	kei1 lou2
-king	king1
-KO	kei1 ou1
-KOL	kei1 ou1 eu1
-K巴	kei1 baa1
-K場	kei1 coeng4
-K房	kei1 fong2
-K粉	kei1 fan2
-K歌	kei1 go1
-K金	kei1 gam1
-K金	ke1 gam1
-K客	kei1 haak3
-K書	kei1 syu1
-K他命	kei1 taa1 ming6
-K壓	kei1 aat3
-K仔	kei1 zai2
 L	eu1
-lab	lep1
-label	lei1 bou2
-lag機	lek1 gei1
-lag機	lik1 gei1
-lai-lai閒	laai5 laai5 haan4
-LAN線	len1 sin3
-laser	lei1 saa2
 last-day	laa6 sat6 dei1
+live	laai1
+license	laai1 san2
+lai-lai閒	laai5 laai5 haan4
 latte	laat6 tei1
+Like	lai1
+Like	lai1 ki2
+likey	lai1 ki2
+lump-sum	lam1 sam1
+lunch	lan1 cyu2
+lunch	lan1 cyu4
 latte	lat6 tei1
+LM	lau4 ming4
 le	le1
-legging	lik1 ging4
+level	le1 fou2
 lego	le1 gou4
+les	le1 si4
+Le-hea	le2 he3
+Le-fe	le5 fe5
+label	lei1 bou2
+laser	lei1 saa2
+lag機	lek1 gei1
 lego	lek1 gou4
 lem	lem2
-les	le1 si4
-level	le1 fou2
-license	laai1 san2
-Like	lai1
-likey	lai1 ki2
+LAN線	len1 sin3
+Lui低	leoi1 dai1
+lun	leon1
+lab	lep1
+lag機	lik1 gei1
+legging	lik1 ging4
 lim	lim1
 limit	lim1 mit4
 lin	lin1
 lin頭	lin1 tau4
-live	laai1
-LM	lau4 ming4
-load	lou1
+lur飯應	loe1 faan6 jing3
+lur口水講過	loe1 hau2 seoi2 gong2 gwo3
+lur	loe2
 long-d	long1 di1
-look	luk1
+load	lou1
 louvre	lu1 faa2
 lu	lu3
-lump-sum	lam1 sam1
-lun	leon1
-lunch	lan1 cyu2
-lunch	lan1 cyu4
-叉lunch	caa1 lan4 cyu4
+look	luk1
+lin	nin1
+lin的	nin1 dik1
+lin好大	nin1 hou2 daai6
+lin頭	nin1 tau4
+lin頭硬	nin1 tau4 ngaang6
 M	em1
-m	mit1
-mag仔	met1 zai2
-man	men1
+MB	em1 bi1
+MBA	em1 bi1 ei1
+M到	em1 dou3
+M巾	em1 gan1
+M記	em1 gei3
+M-come	em1 kam1
+MK	em1 kei1
+MK車	em1 kei1 ce1
+MK名	em1 kei1 meng2
+MK妹	em1 kei1 mui1
+MK頭	em1 kei1 tau4
+MK仔	em1 kei1 zai2
+mp3	em1 pi1 fi1
+mp3	em1 pi1 saam1
+M痛	em1 tung3
+MV	em1 wi1
+M字額	em1 zi6 ngaak3
+Mind	maai1
+mind	maai1
 mark	maak1
 Mark出街	maak1 ceot1 gaai1
+mark出街	maak1 ceot1 gaai1
 mark低	maak1 dai1
 Mark哥褸	maak1 go1 lau1
 mark實	maak1 sat6
 mark住	maak1 zyu6
-maths	met1 si2
+mouse	maau1 si2
+mum-mum	mam1 mam1
+mouse	mau1 si2
 MB	mek1
-MB	mep1
-MBA	em1 bi1 ei1
-meet	mit1
-memo	mi1 mou2
-menu	men1 niu2
 MiB	mek1
+man	men1
+menu	men1 niu2
+MB	mep1
 MiB	mep1
-mind	maai1
-Miss	mit1 si4
+maths	met1 si2
+mag仔	met1 zai2
+memo	mi1 mou2
 miss	mi1 si4
+m	mit1
+meet	mit1
+Miss	mit1 si4
 Missy	mit1 si4
-MK	em1 kei1
-MK車	em1 kei1 ce1
-MK妹	em1 kei1 mui1
-MK名	em1 kei1 meng2
-MK頭	em1 kei1 tau4
-MK仔	em1 kei1 zai2
 ml	miu1
-mocha	mok1 kaa4
-mock	mok1
 model	mo1 dou4
-modem	mou1 dem4
-molamola	mou1 laa3 mou1 laa3
-molamola	mou1 laa1 mou1 laa4
+mock	mok1
+mocha	mok1 kaa4
 mon	mon1
 mon貼	mon1 tip3
+modem	mou1 dem4
+molamola	mou1 laa1 mou1 laa4
+molamola	mou1 laa3 mou1 laa3
+Mood	mut1
 mood	mut1
-mouse	mau1 si2
-mouse	maau1 si2
-mp3	em1 pi1 fi1
-mp3	em1 pi1 saam1
-mum-mum	mam1 mam1
-MV	em1 wi1
-M到	em1 dou3
-M記	em1 gei3
-M巾	em1 gan1
-M痛	em1 tung3
-M字額	em1 zi6 ngaak3
 N	en1
-navy	nei1 fi2
+N車	en1 ce1
+N年	en1 nin4
+N耐	en1 noi6
+N線	en1 sin3
 NG	en1 zi1
+No-1	lam1 baa1 wan1
+notebook	luk1 buk1
+NICAM	nai1 kem4
+now攪	nau2 gaau6
+navy	nei1 fi2
 ngang-ngang聲	ngang4 ngang2 seng1
 ngek-ngek	ngek1 ngek1
 ngok-ngok脆	ngok1 ngok1 ceoi3
-NICAM	nai1 kem4
 niu	niu3
-No-1	lam1 baa1 wan1
 notebook	nuk1 buk1
-notebook	luk1 buk1
-N車	en1 ce1
-N耐	en1 noi6
-N年	en1 nin4
-N線	en1 sin3
-ocamp	ou1 kem1
-oe	oe1
-OEM	ou1 ji1 em1
-oet4	oet4
-oet4	oek4
-oet4	oet6
-offer	o1 faa4
-OK	ou1 kei1
-OK繃	ou1 kei1 bang1
-OK鏡	ou1 kei1 geng3
-OL	ou1 e1 lou4
-OL	ou1 eu1
-on9	ngong6 gau1
-on99	ngong6 gau1 gau1
-on9仔	ngong6 gau1 zai2
-OP	ou1 pi1
-open	ou1 pan4
-oppa	ok6 baa1
-OT	ou1 ti1
 out	au1
 outdate	au1 dei1
 outday	au1 dei1
 outlet	au1 let4
+on9	ngong6 gau1
+on99	ngong6 gau1 gau1
+on9仔	ngong6 gau1 zai2
+onlun9	ngong6 lan2 gau1
+offer	o1 faa4
+OK	o1 ke1
+oe	oe1
+oet4	oek4
+oet4	oet4
+oet4	oet6
+oppa	ok6 baa1
+OL	ou1 e1 lou4
+OL	ou1 eu1
 over	ou1 faa4
 over機	ou1 faa4 gei1
 O記	ou1 gei3
-O咀	ou1 zeoi2
+OEM	ou1 ji1 em1
 O型腿	ou1 jing4 teoi2
+OK	ou1 kei1
+OK繃	ou1 kei1 bang1
+OK鏡	ou1 kei1 geng3
+ocamp	ou1 kem1
+open	ou1 pan4
+OP	ou1 pi1
+OT	ou1 ti1
 O仔	ou1 zai2
+O咀	ou1 zeoi2
 O嘴	ou1 zeoi2
-P	pi1
-pack	pek1
-pad	pet1
-pair	pe1
-pan	pen1
-pancake	pen1 kik1
-pantry	pen1 cyu4
-paper	pei1 paa4
+physics	fi1 sik4
+pass	paa1 si2
+pass	paa1 si4
+passport	paa1 si4 pot1
+party	paa1 ti4
+passport	paa3 si6 but3
 Parkour	paa6 ku1 aa4
+pi	paai1
 part	paat1
-parti	paat6 tit1
 partner	paat1 naa4
 part-time	paat1 taai1
-party	paa1 ti4
 party	paat1 ti4
-pass	paa1 si4
-pass	paa1 si2
-passport	paa3 si6 but3
-passport	paa1 si4 pot1
-pat	pet6
-patient	pei1 seon4
-pat-pat	pet1 pet1
-PC	pi1 si1
-PE	pi1 ji1
-pedal	pet1 dou4
-pedal	pe1 dou4
+parti	paat6 tit1
+pub	pap1
+puzzle	pat1 sou4
+plan	pat6 len1
 percent	pat6 sen1
-percent	poe6 sen1
+pair	pe1
+pedal	pe1 dou4
+pea	pe5
+prefer	pe6 foe1
+paper	pei1 paa4
+patient	pei1 seon4
+pack	pek1
+pan	pen1
+pantry	pen1 cyu4
+pancake	pen1 kik1
+pad	pet1
+pedal	pet1 dou4
 Petpet	pet1 pet1
+pat-pat	pet1 pet1
+pet-pet	pet1 pet1
+pat	pet6
+P	pi1
+PR	pi1 aa1
+PR	pi1 aa1 lou4
+pH值	pi1 ei1 cyu3 zik6
+pm	pi1 em1
+prefect	pi1 fek4
+prefect	pi1 fet4
+PE	pi1 ji1
 PE褲	pi1 ji1 fu3
 PE衫	pi1 ji1 saam1
 PE堂	pi1 ji1 tong4
-PG	pi1 zi1
-PG	pi1 zyu1
-physics	fi1 sik4
-pH值	pi1 ei1 cyu3 zik6
-pi	paai1
-pick-up	pik1 ap1
-pink	ping1
-pizza	pi1 saa4
-pizza	pi1 saa2
 PK	pi1 kei1
-plan	pat6 len1
-pm	pi1 em1
-po	pou1
-point	pon1
-pok	pok1
-polo	pou1 lou2
-pop	pok1
-port	pot1
-post	pou1 si2
-post	pou1
-PR	pi1 aa1 lou4
-prefect	pi1 fet4
-prefect	pi1 fek4
-prefer	pi6 foe1
-prefer	pe6 foe1
-present	pi6 sen1
-print	pin1
-printer	pin1 taa2
-professor	pou1 fe1 saa4
-professor	pou1 fe1 saa2
-professor	pou1 fet1 saa4
-professor	pou1 fet1 saa2
-program	pou1 gwem4
-project	po1 zek4
-projector	pou6 zek1 taa2
-projector	pou6 zek1 taa4
-promo	pou6 mou1
-proposal	pou6 pou1 sou4
-psycho	saai6 ko1
-ptbf	pi1 ti1 bi1 e1 fu4
-ptgf	pi1 ti1 zi1 e1 fu4
-PTU	pi1 ti1 jiu1
-pub	pap1
-pure	piu1 aa4
-pure	piu1
-Push	pu1 syu4
-puzzle	pat1 sou4
-pu你阿麼	pu4 ni5 aa3 mo1
 P民	pi1 man4
 P牌	pi1 paai4
-P圖	pi1 tou4
+pizza	pi1 saa2
+pizza	pi1 saa4
+PC	pi1 si1
 P相	pi1 soeng2
+ptbf	pi1 ti1 bi1 e1 fu4
+PTU	pi1 ti1 jiu1
+ptgf	pi1 ti1 zi1 e1 fu4
+P圖	pi1 tou4
+PG	pi1 zi1
+PG	pi1 zyu1
+prefer	pi6 foe1
+present	pi6 sen1
+pick-up	pik1 ap1
+print	pin1
+printer	pin1 taa2
+pink	ping1
+pure	piu1
+pure	piu1 aa4
+project	po1 zek4
+percent	poe6 sen1
+pok	pok1
+pop	pok1
+point	pon1
+port	pot1
+po	pou1
+post	pou1
+professor	pou1 fe1 saa2
+professor	pou1 fe1 saa4
+professor	pou1 fet1 saa2
+professor	pou1 fet1 saa4
+program	pou1 gwem4
+polo	pou1 lou2
+post	pou1 si2
+promo	pou6 mou1
+proposal	pou6 pou1 sou4
+projector	pou6 zek1 taa2
+projector	pou6 zek1 taa4
+Push	pu1 syu4
+pu你阿麼	pu4 ni5 aa3 mo1
+psycho	saai6 ko1
 Q	kiu1
-QC	kiu1 si1
-QQ	kiu1 kiu1
 QR-code	kiu1 aau1 kuk1
-quali	kwo1 li2
-quali	ko1 li2
-quit	kwit1
-quiz	kwi1 zi4
-quota	kou1 taa2
 Q版	kiu1 baan2
+QQ	kiu1 kiu1
+QC	kiu1 si1
+Quali	ko1 li2
+quali	ko1 li2
+quota	kou1 taa2
+quiz	kwi1 zi4
+quit	kwit1
+quali	kwo1 li2
 R	aau1
+R講	aau1 gong2
+R晒頭	aau1 saai3 tau4
+round	waan1
+router	waau1 taa2
 RAM	wem1
 refer	wi6 foe1
 Roll機	wou1 gei1
-round	waan1
-router	waau1 taa2
+sis	e1 si4 aai1 e1 si4
+spa	sa4 baa1
+style	sa4 daai1 jou4
+stat	sa4 dei1
+stupid	sa4 diu1 bat4
 sa	saa4
-sauna	son1 naa4
-saak	saak3
-sales	seu1 si2
-save	sei1 fu4
-saxophone	sik1 si6 fung1
-saxphone	sik1 fung1
 scan	saa4 ken1
 scanner	saa4 ken1 naa2
 science	saai1 jan4 si4
-search	soe1 cyu4
-seed	sit1
-sell	seu1
+size	saai1 si2
+saak	saak3
+sharp	saap1
+sharp醒	saap1 sing2
+site	sai1
+suppose	sap6 pou1 si4
+sub仔	sap6 zai2
+surprise	sat6 paai1 si4
+Seven	se1 fan2
+Seven	se1 wan2
+save	sei1 fu4
 sem	sem6
 send	sen1
 sense	sen1 si2
-ser	soe1
-server	soe1 faa2
 set	set1
 set頭	set1 tau4
-Seven	se1 fan2
-Seven	se1 wan2
-share	soe1 aa4
-sharp	saap1
-sharp醒	saap1 sing2
+sell	seu1
+sales	seu1 si2
 shift	si1 fu4
-short	sot1
-short-short哋	sot1 sot1 dei2
-Short總掣	sot1 zung2 zai3
-shot	sot1
-show	sou1
-show-hand	sou1 hen1
-show-quali	sou1 kwo1 li2
-show-quali	sou1 ko1 li2
+syllabus	si1 li4 baa4
 si-li-sir-lur	si4 li1 soe4 loe4
+stupid	si6 diu1 bat4
+snooker	si6 luk1 gaa2
+small-potato	si6 mo1 pou6 tei1 tou4
+sweet	si6 wit1
+saxphone	sik1 fung1
+saxophone	sik1 si6 fung1
 single	sing1 gou4
 sink盤	sing1 pun2
-sir	soe4
-sis	e1 si4 aai1 e1 si4
+seed	sit1
 sit	sit1
-site	sai1
 sit-up	sit1 ap1
-size	saai1 si2
-small-potato	si6 mo1 pou6 tei1 tou4
-snooker	si6 luk1 gaa2
-so	sou4
-soci	sou6 si6
-social	sou1 sou4
-solo	sou1 lou4
 sor	so1
 sorli	so1 li4
-sorry	so1 wi4
 sorry	so1 li4
 sorry囉	so1 li4 lo1
-sosad	sou1 set1
 source	so1 si2
-souven	sou1 fan2
-spa	sa4 baa1
-stat	sa4 dei1
-stupid	sa4 diu1 bat4
-stupid	si6 diu1 bat4
-style	sa4 daai1 jou4
-sub仔	sap6 zai2
-suppose	sap6 pou1 si4
-sure	su1 aa4
-surprise	sat6 paai1 si4
-survey	soe6 fei1
+sorry	so1 wi4
+ser	soe1
+share	soe1 aa4
+search	soe1 cyu4
+server	soe1 faa2
 survey	soe1 fei4
-sweet	si6 wit1
-syllabus	si1 li4 baa4
-T	ti1
-TA	ti1 ei1
-tab	tep1
-tablet	tep1 let4
-tablet	tep1 lat4
-tag	tek1
-take	tik1
-take嘢	tik1 je5
-talk	tok1
-talk得	tok1 dak1
-target	taa1 get4
-taste	tei1 si2
-TB	ti1 bi1
-T-back	ti1 bek1
-tea	ti1
-team	tim1
-tee	ti1
-temp	tem6
-term	tem1
-test	tet1
+sir	soe4
+survey	soe6 fei1
+sauna	son1 naa4
+short	sot1
+shot	sot1
+short-short哋	sot1 sot1 dei2
+Short總掣	sot1 zung2 zai3
+short總掣	sot1 zung2 zai3
+show	sou1
+souven	sou1 fan2
+show-hand	sou1 hen1
+show-quali	sou1 ko1 li2
+show-quali	sou1 kwo1 li2
+solo	sou1 lou4
+sosad	sou1 set1
+So-so	sou1 sou4
+social	sou1 sou4
+so	sou4
+soci	sou6 si6
+sure	su1 aa4
+troll	cou1
+tup車	dap1 ce1
 thank-you	fen1 kiu4
-tissue	ti1 su4
+touch-wood	taa1 cyu6 wut1
+target	taa1 get4
 title	taai1 tou4
 title	tai1 tou4
-toilet	toi1 let4
-toilet	to1 let4
-top	top1
-total	tou1 tou4
-touch-wood	taa1 cyu6 wut1
+taste	tei1 si2
+tag	tek1
+term	tem1
+temp	tem6
+tab	tep1
+tablet	tep1 lat4
+tablet	tep1 let4
+test	tet1
+T	ti1
+tea	ti1
+tee	ti1
+T-back	ti1 bek1
+TB	ti1 bi1
+T尺	ti1 cek3
+TA	ti1 ei1
+T骨	ti1 gwat1
+T骨牛扒	ti1 gwat1 ngau4 paa2
+T骨扒	ti1 gwat1 paa2
+T恤	ti1 seot1
+T裇	ti1 seot1
+tissue	ti1 su4
+T字褲	ti1 zi6 fu3
+T字帳	ti1 zi6 zoeng3
+take	tik1
+take嘢	tik1 je5
+team	tim1
+tutor	tiu1 taa2
+tutor	tiu1 taa4
+tutor	tiu6 to1
 toffee	to1 fei2
 toffee	to1 fei4
 toffee糖	to1 fei4 tong2
 toffee糖	to1 fei4 tong4
-troll	cou1
-tune	tun1
-tup車	dap1 ce1
+toilet	to1 let4
 turn	toeng1
-tutor	tiu1 taa2
-tutor	tiu1 taa4
-tutor	tiu6 to1
-T尺	ti1 cek3
-T骨	ti1 gwat1
-T骨扒	ti1 gwat1 paa2
-T骨牛扒	ti1 gwat1 ngau4 paa2
-T裇	ti1 seot1
-T恤	ti1 seot1
-T字褲	ti1 zi6 fu3
-T字帳	ti1 zi6 zoeng3
-UFO	ju1 e1 fu4 ou1
-UFO	ju1 e1 fou1
-un	an3
-uncl	an1 kou4
-uncle	ang1 kou4
-under	an1 daa4
+toilet	toi1 let4
+talk	tok1
+talk得	tok1 dak1
+top	top1
+total	tou1 tou4
+tune	tun1
 under	an1 daa2
-UNO	ju1 en1 ou1
-UNO	ju1 nou2
+under	an1 daa4
+uncl	an1 kou4
+un	an3
+un-un腳	an3 an3 goek3
+un-un吓	an3 an3 haa2
+un-un下	an3 an3 haa5
+un腳	an3 goek3
+un身un勢	an3 san1 an3 sai3
+uncle	ang1 kou4
 up	ap1
 update	ap1 dei1
 upload	ap1 lou1
+U凸內褲	ju1 dat6 noi6 fu3
+UFO	ju1 e1 fou1
+UFO	ju1 e1 fu4 ou1
 USB	ju1 e1 si4 bi1
 USB記憶棒	ju1 e1 si4 bi1 gei3 jik1 paang5
 USB手指	ju1 e1 si4 bi1 sau2 zi2
-U盤	ju1 pun2
-U凸內褲	ju1 dat6 noi6 fu3
-U形轉彎	ju1 jing4 zyun3 waan1
+UNO	ju1 en1 ou1
 U型枕	ju1 jing4 zam2
+U形轉彎	ju1 jing4 zyun3 waan1
+UNO	ju1 nou2
+U盤	ju1 pun2
+vaseline	faa1 si6 ling2
+vocab	fou6 kep1
 van	wen1
 van仔	wen1 zai2
 van仔	weng1 zai2
-VCD	wi1 si1 di1
-vocab	fou6 kep1
-vodka	wuk1 kaa2
-volt	wuk1
-vaseline	faa1 si6 ling2
 VR	wi1 aau1
 VR	wi1 aau1 lou4
 V溝	wi1 kau1
 V領	wi1 leng5
-wifi	waai1 faai1
-wang	wang1
+VCD	wi1 si1 di1
+volt	wuk1
+vodka	wuk1 kaa2
 wasabi	waa6 saa1 bi4
+wifi	waai1 faai1
 wasabi	waat6 saa1 bi4
-watt	wok1
+wang	wang1
 weng	weng6
+Wet	wet1
 wet	wet1
+Wet場	wet1 coeng4
 wet場	wet1 coeng4
+Wet妹	wet1 mui1
 wet妹	wet1 mui1
+We哇鬼叫	wi1 waa1 gwai2 giu3
+We-We-Wet-Wet	wi1 wi1 wet1 wet1
 WeWeWetWet	wi1 wi1 wet1 wet1
-wing	wing1
+WP	win1 pei1
 win-place	win1 pei1
+wing	wing1
 work	woek1
+watt	wok1
 wou	wou1
 wouwou	wou1 wou1
 wowo	wou1 wou1
-WP	win1 pei1
-X	ik1 si4
 XO	ik1 ou1
-XO醬	ik1 sou1 zoeng3
+X	ik1 si4
 X光	ik1 si4 gwong1
-Y	waai1
+XO醬	ik1 sou1 zoeng3
+young	jaang1
+Yap	jaap3
 yap	jaap3
 yap	jaap6
 yeah	je1
-Yeast	jit1 si2
 Yen	jen1
+Yeast	jit1 si2
 Yo	jo3
 yo	jou1
-young	jaang1
 YouTube	ju1 tup1
 YouTuber	ju1 tup1 baa4
+Y	waai1
 YP仔	waai1 pi1 zai2
 Z	ji6 set1
 Z	set1
-zip	zip4
 zoom	sum1
-阿ger	aa3 zoe4
+zip	zip4
+亞head	aa3 het1
 阿head	aa3 het1
 阿Q	aa3 kiu1
 阿Q正傳	aa3 kiu1 zing3 zyun6
+亞sir	aa3 soe4
 阿sir	aa3 soe4
-昂坪360	ngong4 ping4 saam1 luk6 ling4
-昂坪360	ngong5 ping4 saam1 luk6 ling4
+阿ger	aa3 zoe4
+呃like	aak1 lai1
+啱key	aam1 ki1
 巴比Q	baa1 bei2 kiu1
 芭比Q	baa1 bei2 kiu1
+巴X閉	baa1 ik1 si4 bai3
+巴X閉	baa1 iks1 bai3
+巴K閉	baa1 kei1 bai3
+巴Q閉	baa1 kiu1 bai3
+白sai-sai	baak6 saai4 saai4
 扮cool	baan6 ku1
 爆seed	baau3 sit1
-背多fun	bui3 do1 fan1
 弊家leu	bai6 gaa1 leu1
+扁pat-pat	bin2 pet6 pet6
 波boot	bo1 but1
+背多fun	bui3 do1 fan1
+半lang-kang	bun3 lang1 keng1
+叉lunch	caa1 lan4 cyu4
 踩roller	caai2 lou1 laa2
-踩roller	jaai2 lou1 laa2
-唱K	coeng3 kei1
-唱卡啦OK	coeng3 kaa1 laa1 ou1 kei1
-唱卡啦OK	coeng3 kaa3 laa1 ou1 kei1
+齊B短裙	cai4 bi1 dyun2 kwan4
+齊B小短裙	cai4 bi1 siu2 dyun2 kwan4
+柒fing-fing	cat6 fing6 fing6
 車cam	ce1 kem1
 扯lin旗	ce2 lin1 kei4
+青BB	ceng1 bi1 bi1
+吹BB	ceoi1 bi1 bi1
 出cheat	ceot1 cit1
+出籠liu	ceot1 lung4 liu1
 出pool	ceot1 pu1
 出show	ceot1 sou1
-出籠liu	ceot1 lung4 liu1
+青BB	cing1 bi1 bi1
+青山open-day	cing1 saan1 ou1 pan1 dei1
 鋤大D	co4 daai6 di2
-船P	syun4 pi1
-吹BB	ceoi1 bi1 bi1
-搭van仔	daap3 weng1 zai2
-打999	daa2 gau2 gau2 gau2
+鋤D	co4 di2
+坐box	co5 bok1 si2
+唱卡啦OK	coeng3 kaa1 laa1 ou1 kei1
+唱卡啦OK	coeng3 kaa3 laa1 ou1 kei1
+唱K	coeng3 kei1
 打boxing	daa2 bok1 sing2
+打999	daa2 gau2 gau2 gau2
+打card	daa2 kaat1
 打J	daa2 zei1
 大M	daai6 em1
 大sir	daai6 soe4
 大V	daai6 wi1
 單T	daan1 ti1
-等到2046	dang2 dou3 ji6 ling4 sei3 luk6
+搭van仔	daap3 weng1 zai2
 低B	dai1 bi1
 低B仔	dai1 bi1 zai2
+等到2046	dang2 dou3 ji6 ling4 sei3 luk6
+對lin好大	deoi3 nin1 hou2 daai6
 啲fd	di1 fen1
 啲friend	di1 fen1
 跌watt	dit3 wok1
 跌watt	dit3 wot1
-動L	dung6 eu1
+哆啦A夢	do1 laa1 ei1 mung6
 賭J	dou2 zei1
 賭jer	dou2 zoe1
-哆啦A夢	do1 laa1 ei1 mung6
-呃like	ngaak1 lai1
-呃like	aak1 lai1
-發ti騰	faat3 ti4 tang4
+動L	dung6 eu1
+塊gap	faai3 gep1
 發T騰	faat3 ti4 tang4
+發ti騰	faat3 ti4 tang4
+發t籐	faat3 ti4 tang4
+發t騰	faat3 ti4 tang4
 分AB	fan1 ei1 bi1
-搞寸個party	gaau2 cyun3 go3 paat1 ti4
-格格jel-jel	gaak3 gaak3 zeu1 zeu1
-夠pop	gaau3 pok1
-夠power	gau3 paau1 waa4
-夠quali	gau3 ko1 li2
-谷M	guk1 em1
-果jam	gwo2 zem1
-好friend	hou2 fen1
-好grade	hou2 gwei1
-好high	hou2 haai1
-好pay	hou2 pei1
-好Yeah	hou2 je1
-好啱key	hou2 ngaam1 ki1
-何B仔	ho4 bi1 zai2
-紅A	hung4 ei1
-紅van	hung4 wen1
-呼吸plan	fu1 kap1 pat6 len1
 貨van	fo3 wen1
-雞nan1	gai1 nan1
+呼吸plan	fu1 kap1 pat6 len1
+符fit	fu4 fit1
+格格jel-jel	gaak3 gaak3 zeu1 zeu1
 夾band	gaap3 ben1
-煎pan	zin1 pen1
+搞串個party	gaau2 cyun3 go3 paa1 ti4
+搞寸個party	gaau2 cyun3 go3 paa1 ti4
+攪串個party	gaau2 cyun3 go3 paa1 ti4
+攪寸個party	gaau2 cyun3 go3 paa1 ti4
+搞寸個party	gaau2 cyun3 go3 paat1 ti4
+攪gag	gaau2 gek1
+攪爛gag	gaau2 laan6 gek1
+夠power	gaau3 paau1 aa2
+夠pop	gaau3 pok1
+雞nan1	gai1 nan1
+㓤㓤friend	gat1 gat1 fen1
+拮拮friend	gat1 gat1 fen1
+鳩fing-fing	gau1 fing6 fing6
+夠quali	gau3 ko1 li2
+夠power	gau3 paau1 waa4
 見board	gin3 bot1
 講爛gag	gong2 laan6 gek1
-攪gag	gaau2 gek1
-攪串個party	gaau2 cyun3 go3 paa1 ti4
-攪爛gag	gaau2 laan6 gek1
-接job	zip3 zop1
-拮拮friend	gat1 gat1 fen1
-卡拉OK	kaa1 laa1 ou1 kei1
-卡拉OK	kaa3 laa1 ou1 kei1
-卡啦OK	kaa1 laa1 ou1 kei1
-卡啦OK	kaa3 laa1 ou1 kei1
+攰lai-lai	gui6 laai4 laai4
+谷M	guk1 em1
+果jam	gwo2 zem1
+行Q開	haang4 kiu1 hoi1
+喺邊度Wet	hai2 bin1 dou6 wet1
+起pok	hei2 pok1
+輕keng	heng1 keng4
+去hea	heoi3 he3
+去K	heoi3 kei1
+去social	heoi3 sou1 sou4
+去soso	heoi3 sou1 sou4
+去wet	heoi3 wet1
+何B仔	ho4 bi1 zai2
 開Band	hoi1 ben1
 開check	hoi1 cek1
 開cheque	hoi1 cek1
 開OT	hoi1 ou1 ti1
-開P	hoi1 pi1
 開party	hoi1 paa1 ti4
+開P	hoi1 pi1
 開turbo	hoi1 toe1 bou2
-柯P	o1 pi1
-嚟M	lei4 em1
-攬belt	laam2 biu1
-爛gag	laan6 gek1
-嚟M	lai4 em1
-籠liu	lung4 liu1
-碌ling	luk1 ling1
-落D	lok6 di1
-綠van	luk6 wen1
-買full鐘	maai5 fu1 zung1
-冇mood	mou5 mut1
-冇point	mou5 pon1
-冇say	mou5 sei1
-美國51區	mei5 gwok3 ng5 jat1 keoi1
-民族LOOK	man4 zuk6 luk1
-派grade	paai3 gwei1
-劈K	pek3 kei1
-齊B短裙	cai4 bi1 dyun2 kwan4
-齊B小短裙	cai4 bi1 siu2 dyun2 kwan4
-㓤㓤friend	gat1 gat1 fen1
-青BB	cing1 bi1 bi1
-青BB	ceng1 bi1 bi1
-青山open-day	cing1 saan1 ou1 pan1 dei1
-輕keng	heng1 keng4
-去wet	heoi3 wet1
+好friend	hou2 fen1
+好grade	hou2 gwei1
+好high	hou2 haai1
+好Yeah	hou2 je1
+好啱key	hou2 ngaam1 ki1
+好pay	hou2 pei1
+空liu-liu	hung1 liu1 liu1
+紅A	hung4 ei1
+紅van	hung4 wen1
 圈a	hyun1 ei1
-嘥gas	saai1 ge1 si2
-三C	saam1 si1
-三P	saam1 pi1
-三T	saam1 ti1
-散band	saan3 ben1
-騷quali	sou1 ko1 li2
-騷quali	sou1 kwo1 li2
-掃chord	sou3 kot1
-沙pok	saa1 pok1
-沙pop	saa1 pok1
-傻B	so4 bi1
-傻X	so4 caa1
-刪post	saan1 pou1
-蛇gwe	se4 gwe1
-生cancer	saang1 ken1 saa2
-十四K	sap6 sei3 kei1
-石Q	sek6 kiu1
-食port	sik6 pot1
-實Q	sat6 kiu1
-識do	sik1 du1
-士die佬	si6 daai1 lou2
-鬆pat-pat	sung1 pat6 pat6
-撻Q	taat3 kiu1
-騰訊QQ	tang4 seon3 kiu1 kiu1
-跳over	tiu3 ou1 faa4
-完sem	jyun4 sem6
-玩LINE	waan2 laai1
-玩SM	waan2 e1 sem1
-玩SM	waan2 e1 si4 em1
-搵人唱卡拉OK	wan2 jan4 coeng3 kaa1 laa1 ou1 kei1
-唔do	m4 du1
-唔夠quali	m4 gau3 ko1 li2
-細N	sai3 en1
-新beyond	san1 bi6 jon1
-休孖day	jau1 maa1 dei1
-亞head	aa3 het1
-亞sir	aa3 soe4
-啱feel	ngaam1 fiu1
-啱feel	ngaam1 feel
-啱key	ngaam1 ki1
+踩roller	jaai2 lou1 laa2
+一筆OUT銷	jat1 bat1 au1 siu1
 一Q清袋	jat1 kiu1 cing1 doi2
 一Q清枱	jat1 kiu1 cing1 toi2
 一take過	jat1 tik1 gwo3
-異維A酸	ji6 wai4 ei1 syun1
+休孖day	jau1 maa1 dei1
 郵chop	jau4 cop1
+有D驚	jau5 di1 geng1
 有feel	jau5 fiu1
+有符fit	jau5 fu4 fit1
 有heart	jau5 haat1
 有point	jau5 pon1
 有say	jau5 sei1
 有so	jau5 sou4
-揸fit	zaa1 fit1
-揸fit人	zaa1 fit1 jan4
-揸lift人	zaa1 lip1 jan4
-齋talk	zaai1 tok1
-照X光	ziu3 ik1 si4 gwong1
-真人show	zan1 jan4 sou1
-隻dup	zek3 dap1
-中途轉gay	zung1 tou4 zyun3 gei1
-豬仔Plan	zyu1 zai2 pat6 len1
-戇dog-dog	ngong6 dok1 dok1
-戇qq	ngong6 kiu1 kiu1
+有taste	jau5 tei1 si2
+異維A酸	ji6 wai4 ei1 syun1
+完sem	jyun4 sem6
+粵B	jyut6 bi1
+粵C	jyut6 ci1
+粵D	jyut6 di1
+粵F	jyut6 e1 fu4
+粵A	jyut6 ei1
+粵E	jyut6 ji1
+粵G	jyut6 zi1
+卡啦OK	kaa1 laa1 ou1 kei1
+卡拉OK	kaa1 laa1 ou1 kei1
+卡啦OK	kaa3 laa1 ou1 kei1
+卡拉OK	kaa3 laa1 ou1 kei1
+攬belt	laam2 biu1
+爛gag	laan6 gek1
+嚟M	lai4 em1
+甩cut	lak1 kak1
+甩甩cut-cut	lak1 lak1 kak1 kak1
+嚟M	lei4 em1
+靚kent	leng1 keng1
+𡃁kent	leng1 keng1
+籮Pet	lo1 pet1
+落D	lok6 di1
+碌card	luk1 kaat1
+碌Ling	luk1 ling1
+碌ling	luk1 ling1
+綠van	luk6 wen1
+籠liu	lung4 liu1
+唔do	m4 du1
+唔夠quali	m4 gau3 ko1 li2
 孖B	maa1 bi1
 孖B車	maa1 bi1 ce1
 孖Q	maa1 kiu1
 孖T	maa1 ti1
-自high	zi6 haai1
-自po	zi6 pou1
-坐box	co5 bok1 si2
-粵A	jyut6 ei1
-粵B	jyut6 bi1
-粵C	jyut6 ci1
-粵D	jyut6 di1
-粵E	jyut6 ji1
-粵F	jyut6 e1 fu4
-粵G	jyut6 zi1
-做gym	zou6 zi1 waai1 em1
-做lab	zou6 lep1
-做part-time	zou6 paat1 taai1
-做show	zou6 sou3
-
-
-## 以下詞條來自 A Dictionary Of Cantonese Slang
-## 尚待校正整理
-
-46709394	sei2 lou2 ceot1 lai4 gaau2 saam1 gaau2 sei3
-AV	ei1 vi1
-AV女優	ei1 vi1 neoi5 jau1
-AV女郎	ei1 vi1 neoi5 long4
-A鐘	ei1 zung1
-Bing-Ling-Bang-Lang	bing4 ling1 baang4 laang4
-Bu你阿麼	bu4 ni2 aa3 mo1
-B仔水	bi1 zai2 seoi2
-B哩吧啦	bi1 li1 baa1 laa1
-Call	ko1
-Call台	ko1 toi4
-Cool	ku1
-Do	du1
-E仔	i1 zai2
-Fan屎	fen1 si2
-Feel	fiu1
-Fi-li-fe-le	fi4 li1 fe4 le4
-Fing	fing6
-Fing頭丸	fing6 tau4 jyun2
-Fing頭場	fing6 tau4 coeng4
-Friend	fen1
-Friend過打band	fen1 gwo3 daa2 ben1
-Gut屎	gat1 si2
-Happy	hep1 pi2
-Hap唔Happy呀	hep1 m4 hep1 pi2
-High	haai1
-In	in1
-Inc	in1 cu4
-In咗	in1 zo2
-Jam嘢	zem1 je5
-Ke	ke1
-Kind	kaai1
-Le-fe	le5 fe5
-Le-hea	le2 he3
-Like	lai1 ki2
-Lui低	leoi1 dai1
-M-come	em1 kam1
-MB	em1 bi1
-Mind	maai1
-Mood	mut1
-OK	o1 ke1
-PR	pi1 aa1
-Quali	ko1 li2
-R晒頭	aau1 saai3 tau4
-R講	aau1 gong2
-So-so	sou1 sou4
-We-We-Wet-Wet	wi1 wi1 wet1 wet1
-Wet	wet1
-Wet場	wet1 coeng4
-Wet妹	wet1 mui1
-We哇鬼叫	wi1 waa1 gwai2 giu3
-Yap	jaap3
-bel開	beu6 hoi1
-cheap到痺	cip1 dou3 bei3
-e	e1
-e都冇得e	e1 dou1 mou5 dak1 e1
-fit到漏油	fit1 dou3 lau4 jau4
-gap汁	gep1 zap1
-ichiban	ji1 ci1 baang1
-lin	nin1
-lin好大	nin1 hou2 daai6
-lin的	nin1 dik1
-lin頭	nin1 tau4
-lin頭硬	nin1 tau4 ngaang6
-lur	loe2
-lur口水講過	loe1 hau2 seoi2 gong2 gwo3
-lur飯應	loe1 faan6 jing3
-mark出街	maak1 ceot1 gaai1
-now攪	nau2 gaau6
-onlun9	ngong6 lan2 gau1
-pea	pe5
-pet-pet	pet1 pet1
-short總掣	sot1 zung2 zai3
-un-un吓	an3 an3 haa2
-un-un下	an3 an3 haa5
-un-un腳	an3 an3 goek3
-un腳	an3 goek3
-un身un勢	an3 san1 an3 sai3
-一筆OUT銷	jat1 bat1 au1 siu1
-做PR	zou6 pi1 aa1 lou4
-傻gap	so4 gep1
-冇啦lun	mou5 laa1 lang3
-半lang-kang	bun3 lang1 keng1
-去hea	heoi3 he3
-去soso	heoi3 sou1 sou4
-吞pop	tan1 pok1
-啱key	aam1 ki1
-喺邊度Wet	hai2 bin1 dou6 wet1
-塊gap	faai3 gep1
-奀chichi	ngan1 ci1 ci1
-女keeper	neoi2 ki1 paa2
-對lin好大	deoi3 nin1 hou2 daai6
-巴K閉	baa1 kei1 bai3
-巴X閉	baa1 iks1 bai3
-心up	sam1 ngap1
-戇dog-dog	ngong6 gau1 gau1
-我唔do	ngo5 m4 du1
-扁pat-pat	bin2 pet6 pet6
-打card	daa2 kaat1
-揸lift人	zaa1 lip1 jaa4
-搞串個party	gaau2 cyun3 go3 paa1 ti4
-搞寸個party	gaau2 cyun3 go3 paa1 ti4
-攪寸個party	gaau2 cyun3 go3 paa1 ti4
-攰lai-lai	gui6 laai4 laai4
-有D驚	jau5 di1 geng1
-有taste	jau5 tei1 si2
-柒fing-fing	cat6 fing6 fing6
-條條fing	tiu4 tiu2 fing6
-死lur冇用	sei2 loe2 mou5 jung6
-淋bat-bat	nam4 bet6 bet6
-玩串個party	waan2 cyun3 go3 paa1 ti1
-甩cut	lak1 kak1
-甩甩cut-cut	lak1 lak1 kak1 kak1
-發t騰	faat3 ti4 tang4
-白sai-sai	baak6 saai4 saai4
-碌Ling	luk1 ling1
-空liu-liu	hung1 liu1 liu1
-符fit	fu4 fit1
-有符fit	jau5 fu4 fit1
+麻Q煩	maa4 kiu1 faan4
+買full鐘	maai5 fu1 zung1
+民族LOOK	man4 zuk6 luk1
+美國51區	mei5 gwok3 ng5 jat1 keoi1
 冇符fit	mou5 fu4 fit1
-籮Pet	lo1 pet1
-行Q開	haang4 kiu1 hoi1
-豬仔Plan	zyu1 zai2 plen1
-起pok	hei2 pok1
+冇啦lun	mou5 laa1 lang3
+冇mood	mou5 mut1
+冇point	mou5 pon1
+冇say	mou5 sei1
+淋bat-bat	nam4 bet6 bet6
+女keeper	neoi2 ki1 paa2
+呃like	ngaak1 lai1
+啱feel	ngaam1 feel
+啱feel	ngaam1 fiu1
+啱key	ngaam1 ki1
+奀chichi	ngan1 ci1 ci1
+我唔do	ngo5 m4 du1
+昂坪360	ngong4 ping4 saam1 luk6 ling4
+昂坪360	ngong5 ping4 saam1 luk6 ling4
+戇dog-dog	ngong6 dok1 dok1
+戇dog-dog	ngong6 gau1 gau1
+戇qq	ngong6 kiu1 kiu1
+柯P	o1 pi1
+派grade	paai3 gwei1
+劈K	pek3 kei1
+沙pok	saa1 pok1
+沙pop	saa1 pok1
+嘥gas	saai1 ge1 si2
+三P	saam1 pi1
+三C	saam1 si1
+三T	saam1 ti1
+刪post	saan1 pou1
+散band	saan3 ben1
+生cancer	saang1 ken1 saa2
+細N	sai3 en1
+心up	sam1 ngap1
+新beyond	san1 bi6 jon1
+十四K	sap6 sei3 kei1
+實Q	sat6 kiu1
+蛇gwe	se4 gwe1
+死lur冇用	sei2 loe2 mou5 jung6
+石Q	sek6 kiu1
+士die佬	si6 daai1 lou2
+識do	sik1 du1
+食人唔lur骨	sik6 jan4 m4 loe1 gwat1
+食mum-mum	sik6 mam1 mam1
+食mon-mon	sik6 mung1 mung1
+食port	sik6 pot1
+食tea	sik6 ti1
+傻B	so4 bi1
+傻X	so4 caa1
+傻gap	so4 gep1
+騷quali	sou1 ko1 li2
+騷quali	sou1 kwo1 li2
+掃chord	sou3 kot1
+鬆pat-pat	sung1 pat6 pat6
+船P	syun4 pi1
+撻Q	taat3 kiu1
+吞pop	tan1 pok1
+騰訊QQ	tang4 seon3 kiu1 kiu1
+跳over	tiu3 ou1 faa4
+條條fing	tiu4 tiu2 fing6
+玩串個party	waan2 cyun3 go3 paa1 ti1
+玩SM	waan2 e1 sem1
+玩SM	waan2 e1 si4 em1
+玩SM	waan2 es1 em1
+玩LINE	waan2 laai1
+搵人唱卡拉OK	wan2 jan4 coeng3 kaa1 laa1 ou1 kei1
+揸fit	zaa1 fit1
+揸fit人	zaa1 fit1 jan4
+揸lift人	zaa1 lip1 jaa4
+揸lift人	zaa1 lip1 jan4
+齋talk	zaai1 tok1
+真人show	zan1 jan4 sou1
+隻dup	zek3 dap1
 隻dup	zek3 dap6
 隻lin好大	zek3 nin1 hou2 daai6
-靚kent	leng1 keng1
-食mon-mon	sik6 mung1 mung1
-食人唔lur骨	sik6 jan4 m4 loe1 gwat1
-鳩fing-fing	gau1 fing6 fing6
-麻Q煩	maa4 kiu1 faan4
-𡃁kent	leng1 keng1
-去K	heoi3 kei1
-去social	heoi3 sou1 sou4
-夠power	gaau3 paau1 aa2
-巴Q閉	baa1 kiu1 bai3
-巴X閉	baa1 ik1 si4 bai3
-玩SM	waan2 es1 em1
-發t籐	faat3 ti4 tang4
-碌card	luk1 kaat1
-鋤D	co4 di2
-食mum-mum	sik6 mam1 mam1
-食tea	sik6 ti1
+自high	zi6 haai1
+自po	zi6 pou1
+煎pan	zin1 pen1
+接job	zip3 zop1
+照X光	ziu3 ik1 si4 gwong1
+做lab	zou6 lep1
+做part-time	zou6 paat1 taai1
+做PR	zou6 pi1 aa1 lou4
+做show	zou6 sou3
+做gym	zou6 zi1 waai1 em1
+中途轉gay	zung1 tou4 zyun3 gei1
+豬仔Plan	zyu1 zai2 pat6 len1
+豬仔Plan	zyu1 zai2 plen1
