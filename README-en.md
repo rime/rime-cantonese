@@ -48,12 +48,12 @@ Feel free to ask for help in the Telegram group if you encounter any problem.
 
 While tone markers are not obligatory for typing characters, you may use the following keystrokes to specify the tone to disambiguate:
 
-1. v: High level, e.g. `siv` → 「詩」; High level checked, e.g. `sikv` →「色」
-2. x: Medium rising, e.g. `six` →「史」
-3. q: Medium level, e.g. `siq`→「試」; Medium level checked, e.g. `sekq` →「錫」
-4. vv: Low falling, e.g. `sivv` →「時」
-5. xx: Low rising, e.g. `sixx` →「市」
-6. qq: Low level, e.g. `siqq`→「事」; Low level checked, e.g. `sikqq` →「食」
+1. v: High level, e.g. `siv` → 詩; High level checked, e.g. `sikv` → 色
+2. x: Medium rising, e.g. `six` → 史
+3. q: Medium level, e.g. `siq`→ 試; Medium level checked, e.g. `sekq` → 錫
+4. vv: Low falling, e.g. `sivv` → 時
+5. xx: Low rising, e.g. `sixx` → 市
+6. qq: Low level, e.g. `siqq`→ 事; Low level checked, e.g. `sikqq` → 食
 
 ### Fuzzy input
 
@@ -72,7 +72,7 @@ This schema uses the OpenCC standard character set by default--coded as「傳統
 
 ### Emoji input
 
-Click <kbd>Ctrl</kbd> + <kbd>`</kbd> and then <kbd>2</kbd> to access the settings menu. Then, from the menu, choose 【有emoji】 to enable emoji input - doing so will allow the system to recognize and convert certain Chinese words into their corresponding emoji icons.
+Click <kbd>Ctrl</kbd> + <kbd>`</kbd> and then <kbd>2</kbd> to access the settings menu. Then, from the menu, choose 「有 Emoji」 to enable emoji input - doing so will allow the system to recognize and convert certain Chinese words into their corresponding emoji icons.
 
 The full list of emoji icons can be found [here](https://github.com/rime/rime-emoji/tree/master/opencc).
 
