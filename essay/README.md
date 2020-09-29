@@ -16,11 +16,13 @@ Run:
 
 ```sh
 cd essay
-wget https://github.com/rime/rime-essay/raw/master/essay.txt
+wget -nc https://github.com/rime/rime-essay/raw/master/essay.txt
+
 python build.py
 opencc -c ./hk2t.json -i essay-cantonese.txt -o essay-cantonese.txt
 python merge_freq.py
-wget https://github.com/rime/rime-cantonese/raw/master/jyut6ping3.dict.yaml
+
+wget -nc https://github.com/rime/rime-cantonese/raw/master/jyut6ping3.dict.yaml
 perl -pi -e "s/use_preset_vocabulary: true/vocabulary: essay-cantonese/g" jyut6ping3.dict.yaml
 perl -pi -e "s/\t1000.+$//g" jyut6ping3.dict.yaml
 ```
