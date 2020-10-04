@@ -235,6 +235,7 @@ fit	fit1
 friend	fen1
 gas爐	ge1 si2 lou4
 gel頭	zeu1 tau4
+get到	get1 dou2
 hall	ho1
 hang機	heng1 gei1
 hea	he3
