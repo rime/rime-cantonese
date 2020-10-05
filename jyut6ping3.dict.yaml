@@ -38,7 +38,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.09.27"
+version: "2020.10.5"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
