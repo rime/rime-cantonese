@@ -38,7 +38,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.09.27"
+version: "2020.10.5"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -19074,6 +19074,7 @@ import_tables:
 岭	leng5
 嶺	leng5	3%
 領	leng5	3%
+𧒽	leoi1
 𨀤	leoi1
 𨂐	leoi1
 旅	leoi3	0%
@@ -19139,7 +19140,6 @@ import_tables:
 鼺	leoi4	0%
 𣚎	leoi4
 𦌵	leoi4
-𧒽	leoi4
 𨯔	leoi4
 㒦	leoi5
 㙼	leoi5
@@ -117669,6 +117669,7 @@ import_tables:
 領咗	leng5 zo2
 擂低	leoi1 dai1
 𨀤低	leoi1 dai1
+𧒽崗	leoi1 gong1
 鏍屎	leoi1 si2
 雷亞爾	leoi4 aa3 ji5
 雷阿爾城	leoi4 aa3 ji5 sing4
