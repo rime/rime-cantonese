@@ -2253,6 +2253,7 @@ import_tables:
 仯	caau3	0%
 抄	caau3	3%
 罺	caau3	0%
+摷	caau3
 耖	caau3
 肏	caau3	0%
 觘	caau3
@@ -3761,7 +3762,6 @@ import_tables:
 顦	ciu4
 鼂	ciu4
 悄	ciu5	0%
-摷	ciu6
 㗙	co1
 䥚	co1
 傞	co1
@@ -33496,7 +33496,7 @@ import_tables:
 噍	ziu6	0%
 嚼	ziu6	3%
 垗	ziu6
-摷	ziu6
+摷	ziu6	0%
 狣	ziu6	0%
 皭	ziu6	0%
 肁	ziu6	0%
@@ -45830,8 +45830,11 @@ import_tables:
 炒咗一鑊	caau2 zo2 jat1 wok3
 炒咗一鑊	caau2 zo2 jat1 wok6
 炒作	caau2 zok3
+摷返	caau3 faan1
 抄飛機	caau3 fei1 gei1
 抄櫃桶	caau3 gwai6 tung2
+摷一輪	caau3 jat1 leon4
+摷嘢	caau3 je5
 抄身	caau3 san1
 巢穴	caau4 jyut6
 巢掹掹	caau4 mang1 mang1
@@ -164567,7 +164570,6 @@ import_tables:
 拓展	tok3 zin2
 托足無門	tok3 zuk1 mou4 mun4
 橐中裝	tok3 zung1 zong1
-塘底泥	tong4 dai2 nai4
 劏白鶴	tong1 baak6 hok2
 劏白鶴	tong1 baak6 hok6
 湯包	tong1 baau1
@@ -170849,7 +170851,6 @@ import_tables:
 蝴蝶	wu4 dip2
 蝴蝶粉	wu4 dip2 fan2
 蝴蝶結	wu4 dip2 git3
-胡蝶	wu4 dip6
 蝴蝶	wu4 dip6
 蝴蝶刀	wu4 dip6 dou1
 蝴蝶花	wu4 dip6 faa1
@@ -171047,6 +171048,7 @@ import_tables:
 護貝	wu6 bui3
 護貝膠膜	wu6 bui3 gaau1 mok2
 護貝機	wu6 bui3 gei1
+互摷	wu6 caau3
 怙恃	wu6 ci5
 互斥	wu6 cik1
 互操性	wu6 cou1 sing3
@@ -180529,7 +180531,6 @@ import_tables:
 召開會議	ziu6 hoi1 wui6 ji5
 趙學而	ziu6 hok6 ji4
 趙匡胤	ziu6 hong1 jan6
-摷一輪	ziu6 jat1 leon4
 趙爾巽	ziu6 ji5 seon3
 趙翼	ziu6 jik6
 趙曄	ziu6 jip6
