@@ -38,7 +38,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.10.5"
+version: "2020.11.17"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -7300,7 +7300,7 @@ import_tables:
 懯	fu1	0%
 戯	fu1	0%
 戱	fu1	0%
-戲	fu1
+戲	fu1	0%
 扝	fu1	0%
 拊	fu1
 挎	fu1	3%
@@ -15304,7 +15304,7 @@ import_tables:
 祅	jiu1	0%
 腰	jiu1
 葽	jiu1
-要	jiu1
+要	jiu1	5%
 訞	jiu1	0%
 邀	jiu1
 鴁	jiu1	0%
@@ -15337,7 +15337,7 @@ import_tables:
 繞	jiu2
 苭	jiu2
 蓔	jiu2
-要	jiu2	3%
+要	jiu2	0%
 闄	jiu2	0%
 騕	jiu2
 鴢	jiu2	0%
@@ -62468,7 +62468,7 @@ import_tables:
 跌落	dit3 lok6
 跌落地揦返拃沙	dit3 lok6 dei2 laa2 faan1 zaa6 saa1
 跌落地	dit3 lok6 dei6
-跌落地都要揦返拃沙	dit3 lok6 dei6 dou1 jiu1 laa2 faan1 zaa6 saa1
+跌落地都要揦返拃沙	dit3 lok6 dei6 dou1 jiu3 laa2 faan1 zaa6 saa1
 跌落地下，揦返拃沙	dit3 lok6 dei6 haa2 laa2 faan1 zaa6 saa1
 跌落地揦返拃沙	dit3 lok6 dei6 laa2 faan1 zaa6 saa1
 跌落去	dit3 lok6 heoi3
@@ -167091,6 +167091,7 @@ import_tables:
 畫餅充飢	waak6 bing2 cung1 gei1
 劃撥	waak6 but6
 畫插圖者	waak6 caap3 tou4 ze2
+畫出嚟	waak6 ceot1 lei4
 劃清	waak6 cing1
 或稱	waak6 cing1
 劃切	waak6 cit3
@@ -175266,7 +175267,7 @@ import_tables:
 隻嘢	zek3 je5
 隻言片語	zek3 jin4 pin3 jyu5
 炙熱	zek3 jit6
-只要功夫深，鐵杵磨成針	zek3 jiu1 gung1 fu1 sam1 tit3 cyu2 mo4 cing4 zam1
+只要功夫深，鐵杵磨成針	zi2 jiu3 gung1 fu1 sam1 tit3 cyu2 mo4 cing4 zam1
 脊肋	zek3 lak6
 脊令	zek3 ling6
 脊梁	zek3 loeng4
@@ -181157,7 +181158,6 @@ import_tables:
 張掖	zoeng1 jik6
 張掖地區	zoeng1 jik6 dei6 keoi1
 張掖市	zoeng1 jik6 si5
-將要	zoeng1 jiu1
 將要	zoeng1 jiu3
 張若虛	zoeng1 joek6 heoi1
 張揚	zoeng1 joeng4
