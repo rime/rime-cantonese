@@ -38,7 +38,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.11.17"
+version: "2020.11.18"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -26007,7 +26007,6 @@ import_tables:
 騇	se3
 㵃	se4
 佘	se4
-余	se4
 畬	se4	0%
 畲	se4
 虵	se4	0%
