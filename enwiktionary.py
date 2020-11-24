@@ -34,7 +34,7 @@ def main(args):
 			title = entry['title']
 
 			# [[水/derived terms]]
-			title = title.replace('derived terms', '')
+			title = title.replace('/derived terms', '')
 
 			# classify
 			type = ('lettered' if is_lettered(title) else 'main')
