@@ -69,6 +69,7 @@
 90後	gau2 ling4 hau6
 90後	gau2 sap6 hau6
 9月	gau2 jyut6
+A0	ei1 ling4
 AA	ei1 ei1
 AAA電池	saam1 ei1 din6 ci4
 AA制	ei1 ei1 zai3
@@ -162,6 +163,7 @@ NP完全	en1 pi1 jyun4 cyun4
 NP難	en1 pi1 naan4
 N端	en1 dyun1
 N體問題	en1 tai2 man6 tai4
+O	ou1
 OK	ou1 kei1
 OL	ou1 e1 lou4
 OT	ou1 ti1
@@ -240,6 +242,7 @@ hall	ho1
 hang機	heng1 gei1
 hea	he3
 hold住	hou1 zyu6
+iPhone	aai1 fung1
 jm9	zou6 mat1 gau1
 kam	kang3
 keep住	kip1 zyu6
