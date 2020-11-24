@@ -31,18 +31,23 @@ def main(args):
 		while file.peek(1):
 			entry = decoder.decode()
 
-			type = ('lettered' if is_lettered(entry['title']) else 'main')
-			#print(entry['title'])
+			title = entry['title']
+
+			# [[水/derived terms]]
+			title = title.replace('derived terms', '')
+
+			# classify
+			type = ('lettered' if is_lettered(title) else 'main')
+
 			for template in entry['templates']:
 				if 'c' in template['parameters']:
-					title = entry['title']
 					args_c = template['parameters']['c']
 
 					# remove commas for phrases
 					# (double-duty commas. i really hate this)
 					# [[金玉其外，敗絮其中]] [[司馬昭之心——路人皆知]]
 					if '，' in title or '——' in title:
-						args_c = re.sub(r', ', r' ', args_c)
+						args_c = args_c.replace(', ', ' ')
 					# remove spaces surrounding commas elsewhere
 					# (this is bad formatting)
 					args_c = re.sub(r' *, *', r',', args_c)
