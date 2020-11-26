@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2020.09.22"
+  version: "2020.11.26"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -78,7 +78,7 @@ engine:
     - simplifier
     - simplifier@emoji_suggestion
     - uniquifier
-    - reverse_lookup_filter
+    - reverse_lookup_filter@jyut6ping3_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -118,7 +118,7 @@ speller:
 
 translator:
   dictionary: jyut6ping3
-  spelling_hints: 8
+  spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
   preedit_format:
     - xform/([aeioumngptk])vv/${1}4/
     - xform/([aeioumngptk])xx/${1}5/
@@ -170,7 +170,7 @@ cangjie5:
     - "^z.*$"
     - "^yyy.*$"
 
-reverse_lookup:
+jyut6ping3_reverse_lookup:
   tags: [ luna_pinyin, loengfan, stroke, cangjie5 ]
   overwrite_comment: false
   dictionary: jyut6ping3
