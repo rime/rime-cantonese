@@ -18,9 +18,9 @@
 
 `jyut6ping3` 是聲調顯示版方案，`jyut6ping3_ipa` 是 IPA 顯示版方案。
 
-**Telegram 用户交流組**：[![t.me/rime_cantonese](https://img.shields.io/badge/rime_cantonese-blue?style=flat-square&logo=telegram)](https://t.me/rime_cantonese)
+**碼表收音收字詞條問題反饋**：[![Google Form](https://img.shields.io/badge/Google_Form-white?style=flat-square&logo=google)](https://forms.gle/83cVEAiahr9wjyyq6)
 
-**Gitter 交流室**：[![Gitter](https://img.shields.io/badge/rime_cantonese-blueviolet?style=flat-square&logo=gitter)](https://gitter.im/rime-cantonese/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+**Telegram 用户交流組**：[![t.me/rime_cantonese](https://img.shields.io/badge/rime_cantonese-blue?style=flat-square&logo=telegram)](https://t.me/rime_cantonese)
 
 **拼音方案**
 
