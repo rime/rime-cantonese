@@ -16,7 +16,7 @@ Schema name: ℞ `cantonese`
 
 `jyut6ping3` is the Jyutping input method schema, while `jyut6ping3_ipa` is the IPA typesetting version.
 
-**Feedback Form for Data Issues**：[![Google Form](https://img.shields.io/badge/Google_Form-white?style=flat-square&logo=google)](https://forms.gle/83cVEAiahr9wjyyq6)
+**Feedback Form for Data Issues**：[![Google Form](https://img.shields.io/badge/Google_Form-white?style=flat-square&logo=google)](https://forms.gle/83cVEAiahr9wjyyq6) [![騰訊問卷](https://img.shields.io/badge/%E9%A8%B0%E8%A8%8A%E5%95%8F%E5%8D%B7-brightgreen?style=flat-square)](https://wj.qq.com/s2/7613837/0794)
 
 **Telegram User Chat Room**: [![t.me/rime_cantonese](https://img.shields.io/badge/rime_cantonese-blue?style=flat-square&logo=telegram)](https://t.me/rime_cantonese)
 
