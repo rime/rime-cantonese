@@ -38,7 +38,7 @@
 
 ---
 name: jyut6ping3
-version: "2020.11.18"
+version: "2020.12.22"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -44769,7 +44769,7 @@ import_tables:
 查實	caa4 sat6
 查收	caa4 sau1
 茶水	caa4 seoi2
-查水表	caa4 seoi2 biu1
+查水錶	caa4 seoi2 biu1
 茶水錢	caa4 seoi2 cin4
 茶水房	caa4 seoi2 fong2
 茶水間	caa4 seoi2 gaan1
@@ -54083,6 +54083,7 @@ import_tables:
 重門深鎖	cung4 mun4 sam1 so2
 從沒	cung4 mut6
 從難從嚴	cung4 naan4 cung4 jim4
+重紐	cung4 nau2
 從你的	cung4 nei5 dik1
 重五	cung4 ng5
 重午	cung4 ng5
@@ -70377,7 +70378,6 @@ import_tables:
 房舍	fong4 se3
 防水	fong4 seoi2
 防水錶	fong4 seoi2 biu1
-防水表	fong4 seoi2 biu2
 防汛	fong4 seon3
 房事	fong4 si6
 防線	fong4 sin3
@@ -150389,7 +150389,6 @@ import_tables:
 水邊圍	seoi2 bin1 wai4
 水兵	seoi2 bing1
 水冰	seoi2 bing1
-水表	seoi2 biu1
 水錶	seoi2 biu1
 水波	seoi2 bo1
 水玻璃	seoi2 bo1 lei1
