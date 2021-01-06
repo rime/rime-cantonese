@@ -196,6 +196,7 @@ TNT當量	ti1 en1 ti1 dong1 loeng6
 T恤	ti1 seot1
 T恤衫	ti1 seot1 saam1
 T骨	ti1 gwat1
+U	ju1
 UGG靴子	ju1 zi1 zi1 hoe1 zi2
 VCD機	wi1 si1 di1 gei1
 V字手勢	wi1 zi6 sau2 sai3
@@ -266,6 +267,7 @@ p進數	pi1 zeon3 sou3
 quali	kwo1 li2
 sales	seu1 si2
 sharp醒	saap1 sing2
+short	sok1
 short	sot1
 sit堂	sit1 tong4
 size	saai1 si2
