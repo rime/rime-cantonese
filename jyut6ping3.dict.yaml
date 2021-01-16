@@ -42804,7 +42804,6 @@ import_tables:
 煲醋	bou1 cou3
 煲大	bou1 daai6
 煲底	bou1 dai2
-煲電話粥	bou1 din6 waa2 zok1
 煲電話粥	bou1 din6 waa2 zuk1
 煲冬瓜	bou1 dung1 gwaa1
 煲飯	bou1 faan6
@@ -69171,7 +69170,6 @@ import_tables:
 肥底	fei4 dai2
 腓特烈斯塔	fei4 dak6 lit6 si1 taap3
 肥伔伔	fei4 dam3 dam3
-肥腯腯	fei4 dat1 dat1
 肥地	fei4 dei6
 肥墩墩	fei4 deon1 deon1
 肥崽	fei4 doi1
@@ -69181,7 +69179,6 @@ import_tables:
 肥東	fei4 dung1
 肥東縣	fei4 dung1 jyun6
 肥嘟嘟	fei4 dyut1 dyut1
-肥腯腯	fei4 dyut1 dyut1
 肥肥白白	fei4 fei4 baak6 baak6
 肥肥大大	fei4 fei4 daai6 daai6
 肥雞	fei4 gai1
@@ -69236,9 +69233,7 @@ import_tables:
 肥鮮	fei4 sin1
 肥城	fei4 sing4
 肥城市	fei4 sing4 si5
-肥揗揗	fei4 tan4 tan4
-肥豚豚	fei4 tan4 tan4
-肥騰騰	fei4 tan4 tan4
+肥腯腯	fei4 tan4 tan4
 肥頭大耳	fei4 tau4 daai6 ji5
 肥頭耷耳	fei4 tau4 dap1 ji5
 肥田	fei4 tin4
@@ -100924,8 +100919,8 @@ import_tables:
 日航	jat6 hong4
 日人	jat6 jan4
 日日	jat6 jat6
-一日到黑	jat6 jat6 dou3 haak1
-一日到黑	jat6 jat6 dou3 hak1
+一日到黑	jat1 jat6 dou3 haak1
+一日到黑	jat1 jat6 dou3 hak1
 日日如是	jat6 jat6 jyu4 si6
 日有所思，夜有所夢	jat6 jau5 so2 si1 je6 jau5 so2 mung6
 日惹	jat6 je5
@@ -111582,7 +111577,7 @@ import_tables:
 擒佬	kam4 lou2
 蠄蟧	kam4 lou2
 蠄蟧	kam4 lou4
-蠄蟧絲網	kam4 lou4 si1 mong5
+蠄蟧絲網	kam4 lou4 si1 mong1
 禽龍	kam4 lung4
 噖晚	kam4 maan1
 琴晚	kam4 maan1
@@ -113132,6 +113127,7 @@ import_tables:
 繞絲底	kiu5 si1 dai2
 藠頭	kiu5 tau4
 繑住手	kiu5 zyu6 sau2
+可惱也	ko1 laau1 je1
 可惱也	ko1 naau1 je1
 紶紶貢	koe3 koe3 gung3
 卻病	koek3 beng6
@@ -125549,6 +125545,7 @@ import_tables:
 米芝蓮	mai5 zi1 lin4
 咪指擬	mai5 zi2 ji5
 咪自	mai5 zi6
+咪住	mai5 zi6
 米字旗	mai5 zi6 kei4
 米漿	mai5 zoeng1
 米粥	mai5 zuk1
@@ -131120,6 +131117,7 @@ import_tables:
 沐川縣	muk6 cyun1 jyun6
 木彈	muk6 daan2
 目瞪口呆	muk6 dang1 hau2 ngoi4
+目瞪口呆	muk6 dang6 hau2 ngoi4
 目瞪瞪地	muk6 dang6 dang6 dei6
 牧地	muk6 dei6
 牧笛	muk6 dek6
@@ -140680,6 +140678,7 @@ import_tables:
 平川區	ping4 cyun1 keoi1
 平泉	ping4 cyun4
 平泉縣	ping4 cyun4 jyun6
+平淡	ping4 daam6
 平淡無奇	ping4 daam6 mou4 kei4
 平淡無味	ping4 daam6 mou4 mei6
 平旦	ping4 daan3
@@ -160822,7 +160821,6 @@ import_tables:
 罈子	taam4 zi2
 潭子鄉	taam4 zi2 hoeng1
 譚嗣同	taam4 zi6 tung4
-平淡	taam5 daam6
 淡忌廉	taam5 gei6 lim1
 淡過師姑尿	taam5 gwo3 si1 gu1 niu6
 淡過蔗尾	taam5 gwo3 ze3 mei5
@@ -161373,7 +161371,8 @@ import_tables:
 體性	tai2 sing3
 睇小	tai2 siu2
 睇少	tai2 siu2
-睇相佬	tai2 soeng1 lou2
+睇相	tai2 soeng2
+睇相佬	tai2 soeng3 lou2
 睇相	tai2 soeng3
 睇相佬呃你十年八年	tai2 soeng3 lou2 ngaak1 nei5 sap6 nin4 baat3 nin4
 睇相佬呃你十年八年	tai2 soeng3 lou2 ngak1 nei5 sap6 nin4 baat3 nin4
