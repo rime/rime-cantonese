@@ -40948,7 +40948,7 @@ import_tables:
 逼到鬼噉	bik1 dou3 gwai2 gam2
 逼到埋身	bik1 dou3 maai4 san1
 迫到震	bik1 dou3 zan3
-迫到盡頭之中	bik1 dou3 zeon6 dau4 zi1 zung1
+迫到盡頭之中	bik1 dou3 zeon6 tau4 zi1 zung1
 逼科	bik1 fo1
 壁虎	bik1 fu2
 逼虎跳牆	bik1 fu2 tiu3 coeng4
@@ -71601,7 +71601,6 @@ import_tables:
 複得	fuk1 dak1
 福特	fuk1 dak6
 福特汽車	fuk1 dak6 hei3 ce1
-福頭	fuk1 dau4
 福地	fuk1 dei6
 腹地	fuk1 dei6
 覆電話	fuk1 din6 waa2
@@ -88586,7 +88585,6 @@ import_tables:
 慳錢	haan1 cin2
 慳錢	haan1 cin4
 慳得過就慳	haan1 dak1 gwo3 zau6 haan1
-慳頭慳尾	haan1 dau4 haan1 mei5
 慳地方	haan1 dei6 fong1
 慳啲	haan1 di1
 慳啲啦	haan1 di1 laa1
@@ -88614,6 +88612,7 @@ import_tables:
 慳稅	haan1 seoi3
 慳時間	haan1 si1 gaan3
 慳時間	haan1 si4 gaan1
+慳頭慳尾	haan1 tau4 haan1 mei5
 慳位	haan1 wai2
 閒家	haan2 gaa1
 嫺雅	haan4 aa1
@@ -89995,6 +89994,7 @@ import_tables:
 陷阱	ham6 zing6
 冚盅	ham6 zung1
 冚轉	ham6 zyun3
+很晏	han2 aan3
 狠巴巴	han2 baa1 baa1
 很不好	han2 bat1 hou2
 懇辭	han2 ci4
@@ -90028,7 +90028,6 @@ import_tables:
 墾利	han2 lei6
 墾利縣	han2 lei6 jyun6
 狠命	han2 ming6
-很晏	han2 ngaan3
 很曬	han2 saai3
 很細	han2 sai3
 狠心	han2 sam1
@@ -102351,8 +102350,6 @@ import_tables:
 有你冇我	jau5 nei5 mou5 ngo5
 誘餌	jau5 nei6
 有牙冇眼	jau5 ngaa4 mou5 ngaan5
-有眼不識泰山	jau5 ngaa5 bat1 sik1 taai3 saan1
-有眼光	jau5 ngaa5 gwong1
 有瓦遮頭	jau5 ngaa5 ze1 tau4
 有挨有憑	jau5 ngaai1 jau5 bang6
 有眼不識泰山	jau5 ngaan5 bat1 sik1 taai3 saan1
@@ -116272,7 +116269,6 @@ import_tables:
 甩包袱	lat1 baau1 fuk6
 甩車	lat1 ce1
 甩底	lat1 dai2
-甩頭甩骨	lat1 dau4 lat1 gwat1
 甩掉	lat1 diu6
 甩動	lat1 dung6
 甩肺	lat1 fai3
@@ -116319,6 +116315,7 @@ import_tables:
 甩頭	lat1 tau4
 甩頭髮	lat1 tau4 faat3
 甩頭甩髻	lat1 tau4 lat1 gai3
+甩頭甩骨	lat1 tau4 lat1 gwat1
 甩頭甩尾	lat1 tau4 lat1 mei5
 甩拖	lat1 to1
 甩質	lat1 zat1
@@ -126491,7 +126488,6 @@ import_tables:
 密特朗	mat6 dak6 long5
 密斗	mat6 dau2
 密斗貨車	mat6 dau2 fo3 ce1
-襪頭	mat6 dau4
 密啲手	mat6 di1 sau2
 密電	mat6 din6
 嘧啶	mat6 ding6
@@ -134675,7 +134671,6 @@ import_tables:
 岩漿岩	ngaam4 zoeng1 ngaam4
 癌腫	ngaam4 zung2
 眼鏡舖	ngaan2 geng2 pou2
-晏覺	ngaan3 gaau3
 顏厚	ngaan4 hau5
 顏厚有忸怩	ngaan4 hau5 jau5 nuk6 nei4
 顏淵	ngaan4 jyun1
@@ -170465,7 +170460,6 @@ import_tables:
 黃精	wong4 zing1
 王靖雯	wong4 zing6 man4
 黃朝百晏	wong4 ziu1 baak3 aan3
-黃朝百晏	wong4 ziu1 baak3 ngaan3
 黃朝八晏	wong4 ziu1 baat3 aan3
 王座	wong4 zo6
 黃雀	wong4 zoek3
@@ -174980,7 +174974,6 @@ import_tables:
 借單	ze3 daan1
 借單兒	ze3 daan1 ji4
 柘彈	ze3 daan6
-借頭借路	ze3 dau4 ze3 lou6
 借啲意	ze3 di1 ji2
 借啲意	ze3 di1 ji3
 借調	ze3 diu6
