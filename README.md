@@ -10,7 +10,11 @@
 <a href="https://travis-ci.com/github/rime/rime-cantonese"><img src="https://img.shields.io/travis/com/rime/rime-cantonese?label=%E5%B0%81%E8%A3%9D%E7%A8%8B%E5%BC%8F&logo=travis-ci&logoColor=white&style=for-the-badge"/></a>
 </p>
 
-本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發同維護，主體部分循「[共享創意-署名-4.0國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈，`jyut6ping3.maps` 循「[開放資料庫授權-1.0](https://opendatacommons.org/licenses/odbl/)」協議發佈。
+本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發同維護，主體部分循「[共享創意-署名-4.0 國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈，`jyut6ping3.maps` 循「[開放資料庫授權-1.0](https://opendatacommons.org/licenses/odbl/)」協議發佈。
+
+<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/badge/-%E5%AE%89%E8%A3%9D%E6%95%99%E7%A8%8B-3498FF?style=for-the-badge"/></a></p>
+
+如果有遇到任何問題，歡迎加入下面嘅 [Telegram 交流組](https://t.me/rime_cantonese)搵幫手。
 
 ---
 
@@ -25,10 +29,10 @@
 **拼音方案**
 
 - 本方案**凈係**支援「香港語言學學會粵語拼音方案」（簡稱「**粵拼**」）：
-    - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
-    - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
-    - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
-- IPA 顯示版以 Bauer, Robert S., and Paul K. Benedict. *Modern Cantonese Phonology*. Berlin: Mouton de Gruyter, 1997. 為準 (詳見 Section 1.3 Cantonese rimes, 48-92)
+  - [Jyutping 粵拼 | lshk](https://www.lshk.org/jyutping)
+  - [粵拼：香港語言學學會粵語拼音方案](https://www.jyutping.org/jyutping/)
+  - [香港語言學學會粵語拼音方案](https://zh.wikipedia.org/wiki/香港語言學學會粵語拼音方案)
+- IPA 顯示版以 Bauer, Robert S., and Paul K. Benedict. _Modern Cantonese Phonology_. Berlin: Mouton de Gruyter, 1997. 為準 (詳見 Section 1.3 Cantonese rimes, 48-92)
 - 其他拼音方案嘅補丁：詳情請參閱 [`CanCLID/rime-cantonese-schemes`](https://github.com/CanCLID/rime-cantonese-schemes)。
 
 **演示**
@@ -37,13 +41,7 @@
 | -------------------------- | ------------------------- |
 | ![聲調版](./demo/tone.gif) | ![IPA 版](./demo/ipa.gif) |
 
-* 其他拼音方案嘅排版工具：[`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
-
-## 安裝
-
-詳細教程請見[安裝教程](https://github.com/rime/rime-cantonese/releases)。
-
-如果有遇到任何問題，歡迎加入上面嘅 Telegram 交流組搵幫手。
+- 其他拼音方案嘅排版工具：[`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 
 ## 使用説明
 
@@ -85,7 +83,7 @@ emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/ope
 - name: emoji_suggestion
   # 取消下行註釋，預設啓動 emoji
   reset: 1
-  states: [ 冇 Emoji, 有 Emoji ]
+  states: [冇 Emoji, 有 Emoji]
 ```
 
 ### 反查

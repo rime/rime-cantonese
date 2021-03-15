@@ -10,6 +10,10 @@
 
 This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)). The main part of this work is released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). `jyut6ping3.maps` is released under a [Open Data Commons Open Database v1.0 License](https://opendatacommons.org/licenses/odbl/).
 
+<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/badge/-How%20to%20install-3498FF?style=for-the-badge"/></a></p>
+
+Feel free to ask for help in the [Telegram group](https://t.me/rime_cantonese) if you encounter any problem.
+
 ---
 
 Schema name: ℞ `cantonese`
@@ -22,25 +26,19 @@ Schema name: ℞ `cantonese`
 
 **Romanization Scheme**
 
-- This schema **only** supports the *LSHK Jyutping Romanization Scheme* (**粵拼** in Chinese):
-    - [Jyutping 粵拼 | LSHK](https://www.lshk.org/jyutping)
-    - [Jyutping: The Linguistics Society of Hong Kong Cantonese Romanization Scheme](https://www.jyutping.org/en/jyutping/)
-    - [Jyutping](https://en.wikipedia.org/wiki/Jyutping)
+- This schema **only** supports the _LSHK Jyutping Romanization Scheme_ (**粵拼** in Chinese):
+  - [Jyutping 粵拼 | LSHK](https://www.lshk.org/jyutping)
+  - [Jyutping: The Linguistics Society of Hong Kong Cantonese Romanization Scheme](https://www.jyutping.org/en/jyutping/)
+  - [Jyutping](https://en.wikipedia.org/wiki/Jyutping)
 - For users of other romanization schemes (e.g. Yale, EduHK), please download the corresponding patch file [here](https://github.com/CanCLID/rime-cantonese-schemes).
 
 **Demo**
 
-| Jyutping                   | Jyutping (IPA version)        |
+| Jyutping                   | Jyutping (IPA version)    |
 | -------------------------- | ------------------------- |
 | ![示例 1](./demo/tone.gif) | ![示例 2](./demo/ipa.gif) |
 
-* Please find the typesetting tools for other romanization schemes here: [`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
-
-## Installation
-
-Please check out our installation guide [here](https://github.com/rime/rime-cantonese/releases).
-
-Feel free to ask for help in the Telegram group if you encounter any problem.
+- Please find the typesetting tools for other romanization schemes here: [`CanCLID/rime-cantonese-schemes-editor`](https://github.com/CanCLID/rime-cantonese-schemes-editor)
 
 ## Instructions
 
@@ -82,7 +80,7 @@ Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to
 - name: emoji_suggestion
   # 取消下行註釋，預設啓動 emoji (i.e. uncomment the next line to permanently enable emoji input)
   reset: 1
-  states: [ 冇 Emoji, 有 Emoji ]
+  states: [冇 Emoji, 有 Emoji]
 ```
 
 ### Reverse lookup
