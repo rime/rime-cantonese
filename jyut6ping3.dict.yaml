@@ -57262,7 +57262,6 @@ import_tables:
 大卸八塊	daai6 se3 baat3 faai3
 大赦國際	daai6 se3 gwok3 zai3
 大蛇丸	daai6 se4 jyun2
-大蛇痾尿	daai6 se4 o1 liu6
 大蛇屙尿	daai6 se4 o1 niu6
 大蛇痾尿	daai6 se4 o1 niu6
 大蛇屙屎	daai6 se4 o1 si2
@@ -63257,9 +63256,6 @@ import_tables:
 啄地	doeng1 dei2
 啄地	doeng1 dei6
 啄啄糖	doeng1 doeng1 tong2
-當紅	doeng1 hung4
-當眼	doeng1 ngaan5
-當眼處	doeng1 ngaan5 cyu3
 袋錶	doi2 biu1
 袋掩	doi2 jim2
 袋子	doi2 zi2
@@ -63519,6 +63515,7 @@ import_tables:
 當面	dong1 min6
 當務之急	dong1 mou6 zi1 gap1
 當眼	dong1 ngaan5
+當眼處	dong1 ngaan5 cyu3
 當牛作馬	dong1 ngau4 zok3 maa5
 當年	dong1 nin4
 當年今日	dong1 nin4 gam1 jat6
@@ -64477,8 +64474,8 @@ import_tables:
 篤學	duk1 hok6
 督爺	duk1 je2
 篤魚蛋	duk1 jyu4 daan2
-涿尿	duk1 liu6
 㧻眼㧻鼻	duk1 ngaan5 duk1 bei6
+涿尿	duk1 niu6
 篤愛	duk1 oi3
 篤實	duk1 sat6
 篤守	duk1 sau2
@@ -77155,7 +77152,6 @@ import_tables:
 急劇	gap1 kek6
 急流	gap1 lau4
 急流勇退	gap1 lau4 jung5 teoi3
-急尿	gap1 liu6
 急忙	gap1 mong4
 急務	gap1 mou6
 急難	gap1 naan6
@@ -116645,7 +116641,6 @@ import_tables:
 流露	lau4 lou6
 流露出	lau4 lou6 ceot1
 留戀	lau4 lyun2
-流馬尿	lau4 maa5 liu6
 流馬尿	lau4 maa5 niu6
 流民	lau4 man4
 流氓	lau4 man4
@@ -117616,7 +117611,6 @@ import_tables:
 領情	leng5 cing4
 領帶	leng5 daai2
 嶺大	leng5 daai6
-領當	leng5 doeng3
 領當	leng5 dong1
 領當	leng5 dong3
 領教	leng5 gaau3
@@ -124135,7 +124129,6 @@ import_tables:
 馬鈴薯泥	maa5 ling4 syu4 nai4
 馬列	maa5 lit6
 馬列主義	maa5 lit6 zyu2 ji6
-馬尿	maa5 liu6
 馬料水	maa5 liu6 seoi2
 馬騾	maa5 lo4
 馬略卡	maa5 loek6 kaa1
@@ -125232,7 +125225,6 @@ import_tables:
 貓樣	maau1 joeng2
 貓樣	maau1 joeng6
 貓魚	maau1 jyu2
-貓尿	maau1 liu6
 貓糧	maau1 loeng4
 貓咪	maau1 mi1
 貓霧族	maau1 mou6 zuk6
@@ -125243,6 +125235,7 @@ import_tables:
 貓眼	maau1 ngaan5
 貓眼兒	maau1 ngaan5 ji4
 貓匿	maau1 nik1
+貓尿	maau1 niu6
 貓奴	maau1 nou4
 貓沙	maau1 saa1
 貓蝨	maau1 sat1
@@ -137912,7 +137905,7 @@ import_tables:
 柯達	o1 daat6
 柯棣華	o1 dai6 waa4
 屙扽	o1 dan3
-痾涿尿	o1 duk1 liu6
+屙涿尿	o1 duk1 niu6
 屙啡啡	o1 fe4 fe2
 阿附	o1 fu6
 娿哿	o1 go6
@@ -137936,7 +137929,6 @@ import_tables:
 柯林斯	o1 lam4 si1
 阿彌陀佛	o1 lei4 to4 fat6
 阿哩吉諦	o1 li1 gat1 dai3
-屙尿唔出賴風猛	o1 liu5 m4 ceot1 laai6 fung1 maang5
 珂羅版	o1 lo4 baan2
 柯佬	o1 lou2
 屙唔	o1 m1
@@ -137959,7 +137951,7 @@ import_tables:
 痾尿	o1 niu6
 屙尿遞草紙	o1 niu6 dai6 cou2 zi2
 屙尿隔渣	o1 niu6 gaak3 zaa1
-痾尿唔出賴風猛	o1 niu6 m4 ceot1 laai6 fung1 maang5
+屙尿唔出賴風猛	o1 niu6 m4 ceot1 laai6 fung1 maang5
 屙尿唔上壁	o1 niu6 m4 soeng5 bek1
 屙屁	o1 pei3
 柯坪	o1 ping4
@@ -137971,7 +137963,7 @@ import_tables:
 痾屎	o1 si2
 屙屎唔出賴地硬	o1 si2 m4 ceot1 laai6 dei6 ngaang6
 痾屎唔出賴地硬	o1 si2 m4 ceot1 laai6 dei6 ngaang6
-痾屎唔出賴地硬痾尿唔出賴風猛	o1 si2 m4 ceot1 laai6 dei6 ngaang6 o1 liu5 m4 ceot1 laai3 fung1 maang5
+屙屎唔出賴地硬屙尿唔出賴風猛	o1 si2 m4 ceot1 laai6 dei6 ngaang6 o1 niu6 m4 ceot1 laai3 fung1 maang5
 屙屎唔出賴地硬，屙尿唔出賴風猛	o1 si2 m4 ceot1 laai6 dei6 ngaang6 o1 niu6 m4 ceot1 laai6 fung1 maang5
 屙屎貪高興	o1 si2 taam1 gou1 hing3
 痾屎貪高興	o1 si2 taam1 gou1 hing3
@@ -172883,7 +172875,6 @@ import_tables:
 找機會	zaau2 gei1 wui2
 抓舉	zaau2 geoi2
 找見	zaau2 gin3
-炒股	zaau2 gu2
 找工	zaau2 gung1
 抓功夫	zaau2 gung1 fu1
 抓工夫	zaau2 gung1 fu1
@@ -184741,7 +184732,6 @@ import_tables:
 豬苓	zyu1 ling4
 豬料	zyu1 liu2
 豬料	zyu1 liu6
-豬尿煲	zyu1 liu6 bou1
 珠羅	zyu1 lo2
 侏羅	zyu1 lo4
 珠羅	zyu1 lo4
