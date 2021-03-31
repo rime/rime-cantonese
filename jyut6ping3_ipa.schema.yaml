@@ -33,7 +33,7 @@ translator:
     - xform/(^|[ '])(h?)m(qq?|xx?|vv?)?($|[ '])/$1$2m̩$3$4/
     - xform/(^|[ '])(h?)ŋ(qq?|xx?|vv?)?($|[ '])/$1$2ŋ̍$3$4/
 
-    - xform/(^|[ '])yu/$1jy/
+    - xform/(^|[ '])[jy]u/$1jy/
     - xform/(^|[ '])jy([ŋk])/$1ju$2/
     - xform/(^|[ '])y([nt])/$1jy$2/
     - xform/(^|[ '])y/$1j/
