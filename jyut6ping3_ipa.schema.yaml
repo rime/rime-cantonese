@@ -54,7 +54,7 @@ translator:
     - xform/a|ɔ|œ|ɛ|i|u|y/$&ː/  # /[aɔœɛiuy]/$&ː/ 同 /([aɔœɛiuy])/$1ː/ 會產生 bug
     - xform/([ːɐoɵe][iu])ː/$1̯/
     - xform/[ːɐoɵe][ptk]/$&̚/
-    - xform/œː(i|yː)/ɵy̑/
+    - xform/œː(i̯|yː)/ɵy̑/
 
     - xform/(^|[ '])([ptk])/$1$2ʰ/
     - xform/(^|[ '])kw/$1kʷʰ/
