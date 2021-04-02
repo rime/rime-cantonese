@@ -132,7 +132,7 @@ luna_pinyin:
   dictionary: luna_pinyin
   prefix: "`"
   suffix: ";"
-  tips: 〔普通話拼音〕
+  tips: 〔普通話〕
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/

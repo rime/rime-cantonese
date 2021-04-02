@@ -85,9 +85,9 @@ Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to
 
 ### Reverse lookup
 
-This schema also allows the user to lookup Cantonese words with Mandarin Pinyin, [Loengfan](https://github.com/CanCLID/rime-loengfan), stroke order and Cangjie code. Click the following button in edit mode to enable the respective reverse lookup option:
+This schema also allows the user to lookup Cantonese words with Putonghua Pinyin, [Loengfan](https://github.com/CanCLID/rime-loengfan), stroke order and Cangjie code. Click the following button in edit mode to enable the respective reverse lookup option:
 
-- Mandarin Pinyin: <kbd>`</kbd>
+- Putonghua: <kbd>`</kbd>
 - Loengfan: <kbd>r</kbd>
 - Stroke order: <kbd>x</kbd>
 - Cangjie (5th gen): <kbd>v</kbd>
