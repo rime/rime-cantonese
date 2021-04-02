@@ -29,39 +29,37 @@ translator:
   spelling_hints: 8
   preedit_format:
     - xform/ng/ŋ/
+    - xform/^| |'/,/
 
-    - xform/(^|[ '])(h?)m(qq?|xx?|vv?)?(?=$|[ '])/$1$2m̩$3$4/
-    - xform/(^|[ '])(h?)ŋ(qq?|xx?|vv?)?(?=$|[ '])/$1$2ŋ̍$3$4/
+    - xform/(,|h)(m|ŋ)(qq?|xx?|vv?)?(?=$|,)/$1$2̍$3/
+    - xform/m̍/m̩/
 
-    - xform/(^|[ '])[jy]u/$1jy/
-    - xform/(^|[ '])jy([ŋk])/$1ju$2/
-    - xform/(^|[ '])y([nt])/$1jy$2/
-    - xform/(^|[ '])y/$1j/
+    - xform/,[jy]u/,jy/
+    - xform/,jy(ŋ|k)/,ju$1/
+    - xform/,y(n|t)/,jy$1/
+    - xform/,y/,j/
 
-    - xform/(^|[ 'q])oet/$1Et/  # 兼容新讀音
+    - xform/(,|q)oet/$1oed/  # 兼容新讀音
     - xform/eo|oe/œ/
     - xform/yu/y/
     - xform/aa/r/
     - xlit/aroe/ɐaɔɛ/
 
     - xform/ɔu/ou/
-    - xform/œ([nt])/ɵ$1/
-    - xform/E/œ/
+    - xform/œ(n|t)/ɵ$1/
+    - xform/œ[iy]/ɵy̑/
     - xform/ɛi/ei/
-    - xform/i([ŋk])/e$1/
-    - xform/u([ŋk])/o$1/        # Bauer & Benedict 1997, 49, 84-85
+    - xform/i(ŋ|k)/e$1/
+    - xform/u(ŋ|k)/o$1/      # Bauer & Benedict 1997, 49, 84-85
 
-    - xform/a|ɔ|œ|ɛ|i|u|y/$&ː/  # /[aɔœɛiuy]/$&ː/ 同 /([aɔœɛiuy])/$1ː/ 會產生 bug
+    - xform/a|ɔ|œ|ɛ|i|u|y(?!̑)/$&ː/
     - xform/([ːɐoɵe][iu])ː/$1̯/
-    - xform/[ːɐoɵe][ptk]/$&̚/
-    - xform/œː(i̯|yː)/ɵy̑/
+    - xform/[ːɐoɵe][ptdk]/$&̚/
 
-    - xform/(^|[ '])([ptk])/$1$2ʰ/
-    - xform/(^|[ '])kw/$1kʷʰ/
-    - xform/(^|[ '])gw/$1kʷ/
-    - xform/(^|[ '])q/$1ʔ/
-    - xform/c/t͡sʰ/
-    - xform/z/t͡s/
+    - xform/,([ptc]|kw?)/$&ʰ/
+    - xform/,q/,ʔ/
+    - xform/[kg]w/kʷ/
+    - xform/c|z/t͡s/
     - xlit/bdg/ptk/
 
     - xform/qq/˨/
@@ -71,4 +69,5 @@ translator:
     - xform/x/˧˥/
     - xform/v/˥/
 
-    - xform/[ ']/./
+    - xform/^,//
+    - xform/,/./
