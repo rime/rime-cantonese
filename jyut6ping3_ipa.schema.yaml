@@ -6,7 +6,7 @@ __include: jyut6ping3.schema:/
 schema:
   schema_id: jyut6ping3_ipa
   name: 粵語拼音（IPA版）
-  version: "2020.09.22"
+  version: "2021.04.02"
   author:
     - sgalal <sgalal.me@outlook.com>
     - LeiMaau <leimaau@qq.com>
@@ -30,8 +30,8 @@ translator:
   preedit_format:
     - xform/ng/ŋ/
 
-    - xform/(^|[ '])(h?)m(qq?|xx?|vv?)?($|[ '])/$1$2m̩$3$4/
-    - xform/(^|[ '])(h?)ŋ(qq?|xx?|vv?)?($|[ '])/$1$2ŋ̍$3$4/
+    - xform/(^|[ '])(h?)m(qq?|xx?|vv?)?(?=$|[ '])/$1$2m̩$3$4/
+    - xform/(^|[ '])(h?)ŋ(qq?|xx?|vv?)?(?=$|[ '])/$1$2ŋ̍$3$4/
 
     - xform/(^|[ '])[jy]u/$1jy/
     - xform/(^|[ '])jy([ŋk])/$1ju$2/
@@ -70,3 +70,5 @@ translator:
     - xform/q/˧/
     - xform/x/˧˥/
     - xform/v/˥/
+
+    - xform/ /./
