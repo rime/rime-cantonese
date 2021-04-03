@@ -17,6 +17,7 @@ schema:
     - szc126 (@szc126)
     - Bing Jeung <bing@ososo.io>
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
+    - graphemecluster
   description: |-
     採用香港語言學學會粵語拼音方案
     https://www.lshk.org/jyutping
@@ -28,46 +29,46 @@ translator:
   prism: jyut6ping3_ipa
   spelling_hints: 8
   preedit_format:
-    - xform/ng/ŋ/
-    - xform/^| |'/,/
+    - xform/ng/ŋ/                                     # 事前將 ng 改做 ŋ
+    - xform/^| |'/,/                                  # 用 , 代表音節開頭
 
-    - xform/(,|h)(m|ŋ)(qq?|xx?|vv?)?(?=$|,)/$1$2̍$3/
-    - xform/m̍/m̩/
+    - xform/(,|h)(m|ŋ)(qq?|xx?|vv?)?(?=$|,)/$1$2̍$3/   # 音節輔音
+    - xform/m̍/m̩/                                      # 改變符號位置
 
-    - xform/,[jy]u/,jy/
-    - xform/,jy(ŋ|k)/,ju$1/
-    - xform/,y(n|t)/,jy$1/
-    - xform/,y/,j/
+    - xform/,[jy]u/,jy/                               # 容錯處理
+    - xform/,jy(ŋ|k)/,ju$1/                           # 軟齶音前正確寫法係 u
+    - xform/,y(n|t)/,jy$1/                            # 齒齦音前正確寫法係 y
+    - xform/,y/,j/                                    # 否則音節開頭嘅 y 正確寫法係 j
 
-    - xform/(,|q)oet/$1oed/  # 兼容新讀音
-    - xform/eo|oe/œ/
-    - xform/yu/y/
-    - xform/aa/r/
-    - xlit/aroe/ɐaɔɛ/
+    - xform/(,|q)oet/$1oed/                           # 兼容新讀音，將 t 改成 d 以避開第 49 行嘅處理，喺第 63 行改返轉頭
+    - xform/eo|oe/œ/                                  # eo/oe 容錯
+    - xform/yu/y/                                     # yu 表示 y 音
+    - xform/aa/r/                                     # aa 併入 r 快捷鍵
+    - xlit/aroe/ɐaɔɛ/                                 # 改成對應音標
 
-    - xform/ɔu/ou/
-    - xform/œ(n|t)/ɵ$1/
-    - xform/œ[iy]/ɵy̑/
-    - xform/ɛi/ei/
-    - xform/i(ŋ|k)/e$1/
-    - xform/u(ŋ|k)/o$1/      # Bauer & Benedict 1997, 49, 84-85
+    - xform/ɔu/ou/                                    # 開始同位異音處理，o 喺 u 前抬升
+    - xform/œ(n|t)/ɵ$1/                               # œ 喺齒齦音前抬升
+    - xform/œ[iy]/ɵy̑/                                 # œ + i 抬升同圓唇化
+    - xform/ɛi/ei/                                    # e 喺 i 前抬升
+    - xform/i(ŋ|k)/e$1/                               # i 同 u 係軟齶音前降低
+    - xform/u(ŋ|k)/o$1/                               # 參考資料 Bauer & Benedict 1997, 49, 84-85
 
-    - xform/a|ɔ|œ|ɛ|i|u|y(?!̑)/$&ː/
-    - xform/([ːɐoɵe][iu])ː/$1̯/
-    - xform/[ːɐoɵe][ptdk]/$&̚/
+    - xform/a|ɔ|œ|ɛ|i|u|y(?!̑)/$&ː/                    # 標示長元音
+    - xform/([ːɐoɵe][iu])ː/$1̯/                        # 標示雙元音
+    - xform/[ːɐoɵe][ptdk]/$&̚/                         # 標示入聲音，其中 d 處理緊第 42 行
 
-    - xform/,([ptc]|kw?)/$&ʰ/
-    - xform/,q/,ʔ/
-    - xform/[kg]w/kʷ/
-    - xform/c|z/t͡s/
-    - xlit/bdg/ptk/
+    - xform/,([ptc]|kw?)/$&ʰ/                         # 標示送氣音
+    - xform/,q/,ʔ/                                    # 標示喉塞音
+    - xform/[kg]w/kʷ/                                 # 標示圓唇音
+    - xform/c|z/t͡s/                                   # 標示塞擦音
+    - xlit/bdg/ptk/                                   # 改為清音
 
-    - xform/qq/˨/
-    - xform/xx/˩˧/
-    - xform/vv/˨˩/
-    - xform/q/˧/
-    - xform/x/˧˥/
-    - xform/v/˥/
+    - xform/qq/˨/                                     # 第 4 聲
+    - xform/xx/˩˧/                                     # 第 5 聲
+    - xform/vv/˨˩/                                     # 第 6 聲
+    - xform/q/˧/                                      # 第 1 聲
+    - xform/x/˧˥/                                      # 第 2 聲
+    - xform/v/˥/                                      # 第 3 聲
 
-    - xform/^,//
-    - xform/,/./
+    - xform/^,//                                      # 開頭嘅 , 唔要
+    - xform/,/./                                      # 將 , 改成 . 以表示音節劃分
