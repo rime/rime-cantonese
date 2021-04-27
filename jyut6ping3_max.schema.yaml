@@ -1,0 +1,176 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: jyut6ping3_max
+  name: 粵語拼音 MAX
+  version: "2021.04.27"
+  author:
+    - sgalal <sgalal.me@outlook.com>
+    - LeiMaau <leimaau@qq.com>
+    - chaaklau <chaakming@gmail.com>
+    - laubonghaudoi <laubonghaudoi@icloud.com>
+    - tanxpyox <tanxpyox@gmail.com>
+    - William915 <William915@gmail.com>
+    - szc126 (@szc126)
+    - Bing Jeung <bing@ososo.io>
+    - Ayaka Mikazuki <ayaka@mail.shn.hk>
+    - graphemecluster <graphemecluster@gmail.com>
+  description: |-
+    採用香港語言學學會粵語拼音方案
+    https://www.lshk.org/jyutping
+    支援聲調顯示同輸入
+    Telegram 用户交流組 https://t.me/rime_cantonese
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - options: [ noop, variants_hk, trad_tw, simplification ]
+    states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
+    # 修改下行，改變預設用字 [0, 1, 2, 3 --> 對應上表]
+    reset: 1
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    # 取消下行註釋，預設啓動 emoji
+    #reset: 1
+    states: [ 冇 Emoji, 有 Emoji ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+  filters:
+    - simplifier@variants_hk
+    - simplifier@trad_tw
+    - simplifier
+    - simplifier@emoji_suggestion
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    # 取消下兩行註釋，支援疑影交替： ng- 通 Ø-，Ø- 通 ng-
+    #- derive/^ng([aeiou])/$1/
+    #- derive/^([aeiou])/ng$1/
+
+    # 取消下行註釋，支援泥來合流： n- 併入 l- ，如「你」讀若「理」
+    #- derive/^n(?!g)/l/
+
+    # 取消下行註釋，支援圓唇輔音合口韻缺位： gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
+    #- derive/^(g|k)w/$1/
+
+    # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
+    #- derive/^ng([123456])$/m$1/
+
+    - derive/[123456]//
+    - xform/1/v/
+    - xform/4/vv/
+    - xform/2/x/
+    - xform/5/xx/
+    - xform/3/q/
+    - xform/6/qq/
+    - derive/^(?=[aeiou])/q/
+    - derive/j/y/
+    - derive/jyu/yu/
+    - derive/jyu/ju/
+    - derive/([zcs])yu$/$1u/
+    - derive/gw/xw/
+    - derive/kw/qw/
+    - derive/([gkqx])u/$1wu/
+    - derive/([gkqx])w(?!u)/$1u/
+    - derive/(?<![aeiou])i(?=[umngptk]|$)/ii/
+    - derive/(?<![aeiou])i(?=[umngptk]|$)/ee/
+    - derive/(?<![aeiou])u(?=[imngptk]|$)/uu/
+    - derive/(?<![aeiou])u(?=[imngptk]|$)/oo/
+    - derive/aa/r/
+    - derive/aa$/a/
+    - derive/aau/ao/
+    - derive/eo(?=[int])/u/
+    - derive/eo/oe/
+    - derive/oe?$/$&h/
+    - derive/oe/eu/
+    - derive/oe/eo/
+    - derive/ou/oou/
+    - derive/ou/oow/
+    - derive/ei/eei/
+    - derive/ei/eey/
+    - derive/yu$/ueh/
+    - derive/yu/ue/
+    - derive/yu/v/
+    - derive/yu/y/
+    - derive/ji/i/
+    - derive/wu/u/
+    - derive/^u(ng|k)/wu$1/
+    - derive/([aeou])i$/$1y/
+    - derive/([aeou])i$/$1j/
+    - derive/([aeio])u$/$1w/
+    - derive/p$/b/
+    - derive/t$/d/
+    - derive/k$/g/
+    - derive/[zcs]/$&h/
+    - derive/z/dz/
+    - derive/c/ts/
+    - derive/zyu/ju/
+    - derive/cyu/qu/
+    - derive/syu/xu/
+    - derive/z/j/
+    - derive/c/q/
+    - derive/s/x/
+    - erase/y(y|ng|k|g)/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([gkqx][wu]|[zcs]h|dz|ts|ng).+$/$1/
+
+translator:
+  dictionary: jyut6ping3
+  spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
+  preedit_format:
+    - xform/([aeioumngptk])vv/${1}4/
+    - xform/([aeioumngptk])xx/${1}5/
+    - xform/([aeioumngptk])qq/${1}6/
+    - xform/([aeioumngptk])v/${1}1/
+    - xform/([aeioumngptk])x/${1}2/
+    - xform/([aeioumngptk])q/${1}3/
+
+variants_hk:
+  option_name: variants_hk
+  opencc_config: t2hkf.json
+
+trad_tw:
+  option_name: trad_tw
+  opencc_config: t2tw.json
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
+
+punctuator:
+  import_preset: symbols_cantonese
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: "^/([0-9]0?|[a-z]+)$"
