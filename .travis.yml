@@ -24,8 +24,8 @@ before_install:
   - export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | tail -n1 | sed 's/.*\///' )
 
 # Download latest frontend
-  - export WEASEL_LINK=https://dl.bintray.com/rime/weasel/weasel-${WEASEL_VERSION}.0-installer.exe
-  - export SQUIRREL_LINK=https://dl.bintray.com/rime/squirrel/Squirrel-${SQUIRREL_VERSION}.zip
+  - export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
+  - export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.zip
   - export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
 
 # IME Files path
