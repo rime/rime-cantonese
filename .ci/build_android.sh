@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Android packing script
 
+# Script to fail when any command returns error
+set -e
+
 # Preparing apk
 export PATH=/usr/local/android-sdk/build-tools/25.0.2/:$PATH
 export ORI_NAME=android.apk

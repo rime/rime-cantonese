@@ -1,6 +1,9 @@
 #!/bin/bash
 # Windows installer packing script
 
+# Script to fail when any command returns error
+set -e
+
 mkdir -p build/windows/data
 # Prepare update installation script template version number
 cat .ci/windows-install-template.bat | envsubst > ./build/windows/windows-install.bat

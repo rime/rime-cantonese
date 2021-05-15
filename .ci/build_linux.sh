@@ -1,6 +1,9 @@
 #!/bin/bash
 # macOS Installer, default.custom.yaml and ibus-install.sh packing script
 
+# Script to fail when any command returns error
+set -e
+
 # Building mac package
 mkdir -p build/mac
 
