@@ -38,6 +38,9 @@ switches:
   - options: [ noop, variants_hk, trad_tw, simplification ]
     states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
     # 修改下行，改變預設用字 [0, 1, 2, 3 --> 對應上表]
+    # Edit the following line to change the default character style
+    #    [0 = OpenCC Traditional Chinese; 1 = Hong Kong TC; 2 = Taiwan TC; 3 = Mainland Simplified Chinese]
+    # Or remove to remember user setting
     reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
