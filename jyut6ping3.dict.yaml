@@ -44,7 +44,7 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - jyut6ping3.phrase
-  - jyut6ping3.hk-station
+  - jyut6ping3.hkstation
   - jyut6ping3.lettered
   - jyut6ping3.maps
 ...
