@@ -35,14 +35,16 @@
 # szc126 (@szc126)
 # Bing Jeung <bing@ososo.io>
 # Ayaka Mikazuki <ayaka@mail.shn.hk>
+# Henry Chan (@hfhchan)
 
 ---
 name: jyut6ping3
-version: "2020.12.22"
+version: "2021.06.13"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - jyut6ping3.phrase
+  - jyut6ping3.hk-station
   - jyut6ping3.lettered
   - jyut6ping3.maps
 ...
