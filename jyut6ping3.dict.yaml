@@ -41799,6 +41799,7 @@ import_tables:
 必需	bit1 seoi1
 必須	bit1 seoi1
 必需品	bit1 seoi1 ban2
+必先利其器	bit1 sin1 lei6 kei4 hei3
 必勝	bit1 sing3
 必勝客	bit1 sing3 haak3
 必和必拓	bit1 wo4 bit1 tok3
@@ -84161,6 +84162,7 @@ import_tables:
 公羊春秋	gung1 joeng4 ceon1 cau1
 公羊傳	gung1 joeng4 zyun6
 供養	gung1 joeng5
+工欲善其事	gung1 juk6 sin6 kei4 si6
 工欲善其事，必先利其器	gung1 juk6 sin6 kei4 si6 bit1 sin1 lei6 kei4 hei3
 公用	gung1 jung6
 功用	gung1 jung6
