@@ -3514,6 +3514,8 @@ import_tables:
 錢	cin2	0%
 闡	cin2
 刋	cin3	0%
+刋	hon1	0%
+刋	hon2	0%
 硟	cin3	0%
 㕓	cin4
 㙻	cin4
@@ -4045,7 +4047,7 @@ import_tables:
 采	coi3
 𡤐	coi3
 𡧳	coi3
-㐧	coi4
+㐧	dai6
 㒲	coi4
 䴭	coi4
 才	coi4
@@ -14339,6 +14341,7 @@ import_tables:
 已	ji5
 擬	ji5
 攺	ji5	0%
+攺	goi2	0%
 旀	ji5	0%
 栮	ji5
 洱	ji5
@@ -26610,7 +26613,7 @@ import_tables:
 𩅰	si1
 𪀔	si1
 𪆓	si1
-㐪	si2	0%
+㐪	hoi6	0%
 㕜	si2
 㹬	si2
 䂠	si2
@@ -142014,7 +142017,6 @@ import_tables:
 判讀	pun3 duk6
 判斷	pun3 dyun3
 判斷力	pun3 dyun3 lik6
-判㫁	pun3 dyun6
 判斷	pun3 dyun6
 判監	pun3 gaam1
 判感化	pun3 gam2 faa3
