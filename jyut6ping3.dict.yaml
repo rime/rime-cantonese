@@ -33257,7 +33257,7 @@ import_tables:
 𦭒	zing3
 㣏	zing6
 䝼	zing6
-凈	zing6
+凈	zing6 3%
 凊	zing6
 剩	zing6	3%
 坓	zing6	0%
@@ -80470,7 +80470,6 @@ import_tables:
 結晶水	git3 zing1 seoi2
 結晶體	git3 zing1 tai2
 結晶狀	git3 zing1 zong6
-潔凈	git3 zing6
 潔淨	git3 zing6
 潔淨無瑕	git3 zing6 mou4 haa4
 結節	git3 zit3
@@ -81522,7 +81521,6 @@ import_tables:
 乾塘	gon1 tong4
 乾噌噌	gon1 zang1 zang1
 乾爭爭	gon1 zang1 zang1
-乾凈	gon1 zeng6
 乾淨	gon1 zeng6
 乾淨企理	gon1 zeng6 kei5 lei5
 乾淨俐落	gon1 zeng6 lei6 lok6
@@ -128290,7 +128288,6 @@ import_tables:
 明政	ming4 zing3
 明證	ming4 zing3
 名正言順	ming4 zing3 jin4 seon6
-明凈	ming4 zing6
 明淨	ming4 zing6
 名節	ming4 zit3
 明哲	ming4 zit3
@@ -175290,7 +175287,6 @@ import_tables:
 鄭玄	zeng6 jyun4
 鄭碼	zeng6 maa5
 鄭夢準	zeng6 mung6 zeon2
-凈身出戶	zeng6 san1 ceot1 wu6
 鄭秀文	zeng6 sau3 man4
 鄭成功	zeng6 sing4 gung1
 鄭濤	zeng6 tou4
@@ -179699,7 +179695,6 @@ import_tables:
 靖國	zing6 gwok3
 靖國神社	zing6 gwok3 san4 se5
 剩下	zing6 haa6
-凈係	zing6 hai6
 剩係	zing6 hai6
 淨係	zing6 hai6
 淨含量	zing6 ham4 loeng6
@@ -179750,8 +179745,9 @@ import_tables:
 靖西	zing6 sai1
 靖西縣	zing6 sai1 jyun6
 靜心	zing6 sam1
-凈心修身	zing6 sam1 sau1 san1
-凈身	zing6 san1
+淨心修身	zing6 sam1 sau1 san1
+淨身	zing6 san1
+淨身出戶	zing6 san1 ceot1 wu6
 淨收入	zing6 sau1 jap6
 淨手	zing6 sau2
 淨水	zing6 seoi2
