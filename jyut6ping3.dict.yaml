@@ -35,10 +35,11 @@
 # szc126 (@szc126)
 # Bing Jeung <bing@ososo.io>
 # Ayaka Mikazuki <ayaka@mail.shn.hk>
+# Henry Chan (@hfhchan)
 
 ---
 name: jyut6ping3
-version: "2020.12.22"
+version: "2021.06.13"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -65044,6 +65045,7 @@ import_tables:
 東頭村	dung1 tau4 cyun1
 冬天	dung1 tin1
 東鐵	dung1 tit3
+東鐵綫	dung1 tit3 sin3
 東條英機	dung1 tiu4 jing1 gei1
 東臺	dung1 toi4
 東臺市	dung1 toi4 si5
@@ -77503,6 +77505,7 @@ import_tables:
 九宮山鎮	gau2 gung1 saan1 zan3
 九歸	gau2 gwai1
 狗棍	gau2 gwan3
+九廣東鐵	gau2 gwong2 dung1 tit3
 九廣西鐵	gau2 gwong2 sai1 tit3
 九廣鐵路	gau2 gwong2 tit3 lou6
 九廣鐵路公司	gau2 gwong2 tit3 lou6 gung1 si1
@@ -124201,6 +124204,7 @@ import_tables:
 馬鞍形	maa5 on1 jing4
 馬鞍山	maa5 on1 saan1
 馬鞍山市	maa5 on1 saan1 si5
+馬鞍山綫	maa5 on1 saan1 sin3
 馬趴	maa5 paa1
 馬牌	maa5 paai2
 馬棚	maa5 paang4
@@ -144582,7 +144586,6 @@ import_tables:
 西天	sai1 tin1
 西鐵	sai1 tit3
 西鐵綫	sai1 tit3 sin3
-西鐵線	sai1 tit3 sin3
 西屯區	sai1 tyun4 keoi1
 西華	sai1 waa4
 西華縣	sai1 waa4 jyun6
