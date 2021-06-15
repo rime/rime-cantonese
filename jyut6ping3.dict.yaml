@@ -64243,8 +64243,8 @@ import_tables:
 道教徒	dou6 gaau3 tou4
 鍍金	dou6 gam1
 道具	dou6 geoi6
-道高一尺，魔高一丈	dou6 gou1 jat1 cek3 mo1 gou1 jat1 zoeng6
-道高益安，勢高益危	dou6 gou1 jik1 on1 sai3 gou1 jik1 ngai4
+道高一尺	dou6 gou1 jat1 cek3
+道高益安	dou6 gou1 jik1 on1
 道姑	dou6 gu1
 稻穀	dou6 guk1
 導管	dou6 gun2
@@ -128581,8 +128581,7 @@ import_tables:
 摩根史丹利	mo1 gan1 si2 daan1 lei6
 摩根士丹利	mo1 gan1 si6 daan1 lei6
 摩肩接踵	mo1 gin1 zip3 zung2
-魔高一尺，道高一丈	mo1 gou1 jat1 cek3 dou6 gou1 jat1 zoeng6
-魔高一丈，道高一尺	mo1 gou1 jat1 zoeng6 dou6 gou1 jat1 cek3
+魔高一丈	mo1 gou1 jat1 zoeng6
 魔宮	mo1 gung1
 魔宮傳奇	mo1 gung1 zyun6 kei4
 魔怪	mo1 gwaai3
@@ -144955,6 +144954,7 @@ import_tables:
 細個仔	sai3 go3 zai2
 細個仔嗰陣	sai3 go3 zai2 go2 zan6
 勢降	sai3 gong3
+勢高益危	sai3 gou1 jik1 ngai4
 細姑	sai3 gu1
 勢孤力弱	sai3 gu1 lik6 joek6
 勢估唔到	sai3 gu2 m4 dou3
@@ -145094,7 +145094,7 @@ import_tables:
 勢所必然	sai3 so2 bit1 jin4
 勢所難免	sai3 so2 naan4 min5
 勢想不到	sai3 soeng2 bat1 dou2
-世上無難事，只怕有心人	sai3 soeng5 mou4 naan4 si6 zi2 paa3 jau5 sam1 jan4
+世上無難事	sai3 soeng5 mou4 naan4 si6
 世上	sai3 soeng6
 細數	sai3 sou2
 細訴	sai3 sou3
@@ -162841,7 +162841,6 @@ import_tables:
 天下無不是之父母	tin1 haa6 mou4 bat1 si6 zi1 fu6 mou5
 天下無敵	tin1 haa6 mou4 dik6
 天下無難事	tin1 haa6 mou4 naan4 si6
-天下無難事，只怕有心人	tin1 haa6 mou4 naan4 si6 zi2 paa3 jau5 sam1 jan4
 天下無雙	tin1 haa6 mou4 soeng1
 天下沒有不散的宴席	tin1 haa6 mut6 jau5 bat1 saan3 dik1 jin3 zik6
 天下沒有不散的筵席	tin1 haa6 mut6 jau5 bat1 saan3 dik1 jin4 zik6
@@ -176895,6 +176894,7 @@ import_tables:
 紙尿片	zi2 niu6 pin2
 子囊菌	zi2 nong4 kwan2
 只怕	zi2 paa3
+只怕有心人	zi2 paa3 jau5 sam1 jan4
 紙牌	zi2 paai2
 指派	zi2 paai3
 紙皮	zi2 pei4
