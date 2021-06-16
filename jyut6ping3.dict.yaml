@@ -59641,7 +59641,7 @@ import_tables:
 登機樓	dang1 gei1 lau4
 登機廊橋	dang1 gei1 long4 kiu4
 登機門	dang1 gei1 mun4
-登機牌	dang1 gei1 paai4
+登機牌	dang1 gei1 paai2
 登機手續	dang1 gei1 sau2 zuk6
 登機手續櫃檯	dang1 gei1 sau2 zuk6 gwai6 toi2
 登機證	dang1 gei1 zing3
@@ -73450,7 +73450,6 @@ import_tables:
 價錢	gaa3 cin2
 價錢	gaa3 cin4
 價錢牌	gaa3 cin4 paai2
-價錢牌	gaa3 cin4 paai4
 架設	gaa3 cit3
 假單	gaa3 daan1
 價電子	gaa3 din6 zi2
@@ -80800,9 +80799,7 @@ import_tables:
 嗰日	go2 jat6
 嗰晚	go2 maan5
 嗰排	go2 paai2
-嗰牌	go2 paai2
 嗰排	go2 paai4
-嗰牌	go2 paai4
 嗰時	go2 si2
 嗰時	go2 si4
 嗰處	go2 syu3
@@ -86050,8 +86047,6 @@ import_tables:
 骨癌	gwat1 ngaam4
 骨牌	gwat1 paai2
 骨牌效應	gwat1 paai2 haau6 jing3
-骨牌	gwat1 paai4
-骨牌效應	gwat1 paai4 haau6 jing3
 橘皮組織	gwat1 pei4 zou2 zik1
 骨片	gwat1 pin3
 骨盆	gwat1 pun4
@@ -87193,7 +87188,6 @@ import_tables:
 廣角鏡頭	gwong2 gok3 geng3 tau4
 廣告	gwong2 gou3
 廣告牌	gwong2 gou3 paai2
-廣告牌	gwong2 gou3 paai4
 廣告片	gwong2 gou3 pin2
 廣告衫	gwong2 gou3 saam1
 廣告商	gwong2 gou3 soeng1
@@ -133223,7 +133217,6 @@ import_tables:
 呢呢嚕嚕	nei1 nei1 lou3 lou3
 呢排	nei1 paai2
 呢排	nei1 paai4
-呢牌	nei1 paai4
 呢篇	nei1 pin1
 呢處	nei1 syu3
 呢頭	nei1 tau4
