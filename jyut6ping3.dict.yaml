@@ -570,7 +570,6 @@ import_tables:
 闆	baan2
 阪	baan2
 魬	baan2
-扮	baan3
 丬	baan6	0%
 埿	baan6	0%
 扮	baan6
@@ -37690,16 +37689,6 @@ import_tables:
 版築	baan2 zuk1
 版主	baan2 zyu2
 板磚	baan2 zyun1
-扮家家酒	baan3 gaa1 gaa1 zau2
-扮蟹	baan3 haai5
-扮酷	baan3 huk6
-扮演	baan3 jin2
-扮呢扮嚕	baan3 ni1 baan3 lou3
-扮呢扮路	baan3 ni1 baan3 lou3
-扮傻	baan3 so4
-扮相	baan3 soeng3
-扮裝皇后	baan3 zong1 wong4 hau6
-扮煮飯仔	baan3 zyu2 faan6 zai2
 辦不到	baan6 bat1 dou3
 辦報	baan6 bou3
 扮蠢	baan6 ceon2
@@ -37712,6 +37701,7 @@ import_tables:
 辦到	baan6 dou3
 辦法	baan6 faat3
 辦貨	baan6 fo3
+扮家家酒	baan6 gaa1 gaa1 zau2
 扮嗰樣似嗰樣	baan6 go2 joeng6 ci5 go2 joeng6
 辦館	baan6 gun2
 扮工	baan6 gung1
@@ -37733,6 +37723,7 @@ import_tables:
 辦好	baan6 hou2
 扮好人	baan6 hou2 jan4
 扮豪	baan6 hou4
+扮酷	baan6 huk6
 扮嘢	baan6 je5
 扮演	baan6 jin2
 扮英雄	baan6 jing1 hung4
@@ -37741,6 +37732,8 @@ import_tables:
 扮靚靚	baan6 leng3 leng3
 扮老醒	baan6 lou5 sing2
 扮懵	baan6 mung2
+扮呢扮嚕	baan6 ni1 baan6 lou3
+扮呢扮路	baan6 ni1 baan6 lou3
 辦年貨	baan6 nin4 fo3
 辦案	baan6 on3
 扮晒串	baan6 saai3 cyun3
@@ -37766,8 +37759,10 @@ import_tables:
 辦咗	baan6 zo2
 扮作	baan6 zok3
 扮裝	baan6 zong1
+扮裝皇后	baan6 zong1 wong4 hau6
 扮豬吃老虎	baan6 zyu1 hek3 lou5 fu2
 扮豬食老虎	baan6 zyu1 sik6 lou5 fu2
+扮煮飯仔	baan6 zyu2 faan6 zai2
 嘭嘭聲	baang4 baang2 seng1
 嘭嘭聲	baang4 baang4 seng1
 嘭一聲	baang4 jat1 seng1
@@ -54575,7 +54570,7 @@ import_tables:
 穿咗	cyun1 zo2
 穿咗窿	cyun1 zo2 lung1
 穿着	cyun1 zoek3
-穿着打扮	cyun1 zoek3 daa2 baan3
+穿着打扮	cyun1 zoek3 daa2 baan6
 穿着講究	cyun1 zoek3 gong2 gau3
 村長	cyun1 zoeng2
 穿鑿	cyun1 zok6
@@ -55197,7 +55192,6 @@ import_tables:
 打敗仗	daa2 baai6 zoeng3
 打白鴿轉	daa2 baak6 gaap3 zyun3
 打白條	daa2 baak6 tiu4
-打扮	daa2 baan3
 打扮	daa2 baan6
 打扮成	daa2 baan6 sing4
 打八爪	daa2 baat3 zaau2
@@ -65372,7 +65366,7 @@ import_tables:
 短處	dyun2 cyu3
 短傳	dyun2 cyun4
 短打	dyun2 daa2
-短打扮	dyun2 daa2 baan3
+短打扮	dyun2 daa2 baan6
 短笛	dyun2 dek6
 短多	dyun2 do1
 短度闊封	dyun2 dou2 fut3 fung1
@@ -73303,7 +73297,6 @@ import_tables:
 加總	gaa1 zung2
 加注	gaa1 zyu3
 賈伯斯	gaa2 baak3 si1
-假扮	gaa2 baan3
 假扮	gaa2 baan6
 假膊	gaa2 bok3
 賈寶玉	gaa2 bou2 juk2
@@ -81330,7 +81323,7 @@ import_tables:
 各式	gok3 sik1
 各色	gok3 sik1
 角色	gok3 sik1
-角色扮演遊戲	gok3 sik1 baan3 jin2 jau4 hei3
+角色扮演遊戲	gok3 sik1 baan6 jin2 jau4 hei3
 角色設定	gok3 sik1 cit3 ding6
 各式各樣	gok3 sik1 gok3 joeng6
 各色各樣	gok3 sik1 gok3 joeng6
@@ -120281,7 +120274,7 @@ import_tables:
 兩粒	loeng5 nap1
 兩粒花	loeng5 nap1 faa1
 兩粒一班	loeng5 nap1 jat1 baan1
-兩粒一扮	loeng5 nap1 jat1 baan3
+兩粒一扮	loeng5 nap1 jat1 baan6
 兩粒一瓣	loeng5 nap1 jat1 faan6
 兩眼溼溼	loeng5 ngaan5 sap1 sap1
 兩訖	loeng5 ngat6
@@ -132137,7 +132130,6 @@ import_tables:
 南亞大草鶯	naam4 aa3 daai6 cou2 ang1
 南亞區域合作聯盟	naam4 aa3 keoi1 wik6 hap6 zok3 lyun4 mang4
 南歐	naam4 au1
-男扮女裝	naam4 baan3 neoi5 zong1
 男扮女裝	naam4 baan6 neoi5 zong1
 南北	naam4 bak1
 南北朝	naam4 bak1 ciu4
@@ -133528,7 +133520,7 @@ import_tables:
 女女	neoi4 neoi1
 囡囡	neoi4 neoi2
 女女	neoi4 neoi2
-女扮男裝	neoi5 baan3 naam4 zong1
+女扮男裝	neoi5 baan6 naam4 zong1
 女儐相	neoi5 ban1 soeng3
 女僕	neoi5 buk6
 女伴	neoi5 bun6
@@ -181868,8 +181860,7 @@ import_tables:
 濯濯	zok6 zok6
 昨早	zok6 zou2
 濯足	zok6 zuk1
-妝扮	zong1 baan3
-裝扮	zong1 baan3
+妝扮	zong1 baan6
 裝扮	zong1 baan6
 裝不裝	zong1 bat1 zong1
 裝屄	zong1 bei1
