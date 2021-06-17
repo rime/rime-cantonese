@@ -7806,7 +7806,6 @@ import_tables:
 闊	fut3
 㗎	ga3
 嘎	ga4
-噶	ga6
 㔔	gaa1	0%
 㔖	gaa1	0%
 㖙	gaa1	0%
@@ -7823,7 +7822,7 @@ import_tables:
 傢	gaa1
 加	gaa1
 嘉	gaa1
-噶	gaa1	3%
+噶	gaa1	5%
 家	gaa1
 尕	gaa1
 枷	gaa1
@@ -8185,7 +8184,7 @@ import_tables:
 呷	gaat3	3%
 嘎	gaat3
 嘠	gaat3	0%
-噶	gaat3
+噶	gaat3	3%
 尜	gaat3
 恝	gaat3
 戛	gaat3
@@ -9733,7 +9732,7 @@ import_tables:
 䈓	got3
 割	got3
 匄	got3	3%
-噶	got3
+噶	got3	3%
 嶱	got3
 獦	got3
 葛	got3
@@ -73032,9 +73031,6 @@ import_tables:
 加強	gaa1 koeng4
 加強管制	gaa1 koeng4 gun2 zai3
 加權平均	gaa1 kyun4 ping4 gwan1
-嘎啦	gaa1 laa1
-噶喇	gaa1 laa1
-噶拉	gaa1 laai1
 加拉巴哥斯	gaa1 laai1 baa1 go1 si1
 加拉巴哥斯羣島	gaa1 laai1 baa1 go1 si1 kwan4 dou2
 加拉加斯	gaa1 laai1 gaa1 si1
@@ -73422,7 +73418,6 @@ import_tables:
 假種皮	gaa2 zung2 pei4
 駕崩	gaa3 bang1
 架不住	gaa3 bat1 zyu6
-咖逼	gaa3 bik1
 假膊	gaa3 bok3
 架步	gaa3 bou6
 駕步	gaa3 bou6
@@ -73454,7 +73449,6 @@ import_tables:
 咖啡因	gaa3 fe1 jan1
 咖啡佬	gaa3 fe1 lou2
 咖啡妹	gaa3 fe1 mui1
-咖啡妹	gaa3 fe1 mui6
 咖啡婆	gaa3 fe1 po2
 咖啡室	gaa3 fe1 sat1
 咖啡師	gaa3 fe1 si1
@@ -73499,13 +73493,12 @@ import_tables:
 架橋	gaa3 kiu4
 駕臨	gaa3 lam4
 假柳	gaa3 lau5
-加哩	gaa3 le1
-咖哩	gaa3 lei1
 咖喱	gaa3 lei1
 咖喱粉	gaa3 lei1 fan2
-咖哩雞	gaa3 lei1 gai1
 咖喱雞	gaa3 lei1 gai1
 咖喱角	gaa3 lei1 gok3
+咖喱魷魚	gaa3 lei1 jau4 jyu2
+咖喱魚蛋	gaa3 lei1 jyu4 daan2
 價廉物美	gaa3 lim4 mat6 mei5
 駕齡	gaa3 ling4
 架兩	gaa3 loeng2
@@ -84893,13 +84886,13 @@ import_tables:
 怪誕	gwaai3 daan3
 怪誕不經	gwaai3 daan3 bat1 ging1
 怪道	gwaai3 dou6
-怪咖	gwaai3 gaa3
 怪雞	gwaai3 gai1
 怪傑	gwaai3 git6
 怪叫	gwaai3 giu3
 怪怪地	gwaai3 gwaai2 dei2
 怪怪	gwaai3 gwaai3
 怪怪地	gwaai3 gwaai3 dei2
+怪咖	gwaai3 kaa1
 怪氣	gwaai3 hei3
 怪圈	gwaai3 hyun1
 怪人	gwaai3 jan4
@@ -112047,10 +112040,7 @@ import_tables:
 舅仔	kau5 zai2
 舅仔鞋	kau5 zai2 haai4
 茄瓜	ke1 gwaa1
-茄喱	ke1 le1
-咖哩啡	ke1 le1 fe1
 茄哩啡	ke1 le1 fe1
-茄喱啡	ke1 le1 fe1
 茄輪	ke1 leon2
 茄士咩	ke1 si6 me1
 茄萣	ke2 ding6
@@ -128979,13 +128969,13 @@ import_tables:
 網段	mong5 dyun6
 妄加	mong5 gaa1
 網架	mong5 gaa2
-網咖	mong5 gaa3
 網格	mong5 gaak3
 網禁	mong5 gam3
 網景	mong5 ging2
 網罟座	mong5 gu2 zo6
 罔顧	mong5 gu3
 網管	mong5 gun2
+網咖	mong5 kaa1
 網管系統	mong5 gun2 hai6 tung2
 網管員	mong5 gun2 jyun4
 網管網	mong5 gun2 mong5
@@ -173363,10 +173353,10 @@ import_tables:
 真分數	zan1 fan1 sou3
 真否定句	zan1 fau2 ding6 geoi3
 真火滾	zan1 fo2 gwan2
-真噶	zan1 gaa1
 真傢伙	zan1 gaa1 fo2
 真家伙	zan1 gaa1 fo2
 真假	zan1 gaa2
+真㗎	zan1 gaa4
 真假難辨	zan1 gaa2 naan4 bin6
 真格	zan1 gaak3
 真金	zan1 gam1
@@ -180777,7 +180767,7 @@ import_tables:
 鵲報	zoek3 bou3
 雀巢	zoek3 caau4
 鵲巢鳩佔	zoek3 caau4 gau1 zim3
-雀巢咖啡	zoek3 caau4 kaa1 fei1
+雀巢咖啡	zoek3 caau4 gaa3 fe1
 酌情	zoek3 cing4
 酌情辦理	zoek3 cing4 baan6 lei5
 酌情處理	zoek3 cing4 cyu2 lei5
