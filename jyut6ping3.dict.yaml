@@ -44865,6 +44865,7 @@ import_tables:
 踩踏	caai2 daap6
 踩低	caai2 dai1
 踩低人哋，擡高自己	caai2 dai1 jan4 dei2 toi4 gou1 zi6 gei2
+踩地雷  caai2 dei6 leoi4
 踩地盤	caai2 dei6 pun4
 踩道	caai2 dou6
 踩動	caai2 dung6
@@ -71240,6 +71241,9 @@ import_tables:
 符碌	fu6 luk1
 符轆	fu6 luk1
 負碌	fu6 luk1
+符碌撚	fu6 luk1 lan2
+符轆撚	fu6 luk1 lan2
+負碌撚	fu6 luk1 lan2
 附錄	fu6 luk6
 駙馬	fu6 maa5
 訃聞	fu6 man4
@@ -115289,6 +115293,7 @@ import_tables:
 蠟封	laap6 fung1
 立交	laap6 gaau1
 立交橋	laap6 gaau1 kiu4
+垃鳩圾  laap6 gau1 saap3
 立見好轉	laap6 gin3 hou2 zyun2
 立腳	laap6 goek3
 立腳點	laap6 goek3 dim2
@@ -115329,6 +115334,7 @@ import_tables:
 垃垃雜雜	laap6 laap6 zaap6 zaap6
 立立雜雜	laap6 laap6 zaap6 zaap6
 立例	laap6 lai6
+垃撚圾	laap6 lan2 saap3
 立論	laap6 leon6
 蠟療	laap6 liu4
 立亂	laap6 lyun2
@@ -115344,7 +115350,6 @@ import_tables:
 立山區	laap6 saan1 keoi1
 立山小種	laap6 saan1 siu2 zung2
 垃圾	laap6 saap3
-拉圾	laap6 saap3
 垃圾篸	laap6 saap3 caam2
 垃圾剷	laap6 saap3 caan2
 垃圾鏟	laap6 saap3 caan2
@@ -183198,7 +183203,6 @@ import_tables:
 棕腹仙鶲	zung1 fuk1 sin1 jung1
 棕腹樹鵲	zung1 fuk1 syu6 zoek3
 棕腹隼鵰	zung1 fuk1 zeon2 diu1
-中伏	zung1 fuk6
 中復電訊	zung1 fuk6 din6 seon3
 中鋒	zung1 fung1
 中縫	zung1 fung6
@@ -184247,6 +184251,7 @@ import_tables:
 中槍	zung3 coeng1
 中鎗	zung3 coeng1
 中彩	zung3 coi2
+中大伏  zung3 daai6 fuk6
 中彈	zung3 daan2
 中彈	zung3 daan6
 中的	zung3 dik1
