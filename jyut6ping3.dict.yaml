@@ -21599,7 +21599,7 @@ import_tables:
 𥧌	mei6
 𧙕	mei6
 喵	meu1
-名	meng2	3%
+名	meng2
 名	meng4	3%
 命	meng6	3%
 咪	mi1	3%
@@ -21710,7 +21710,7 @@ import_tables:
 䊅	ming4
 䳟	ming4
 冥	ming4
-名	ming4
+名	ming4	3%
 嫇	ming4
 明	ming4
 暝	ming4
@@ -39202,6 +39202,7 @@ import_tables:
 筆記本計算機	bat1 gei3 bun2 gai3 syun3 gei1
 筆記型電腦	bat1 gei3 jing4 din6 nou5
 不記名	bat1 gei3 meng2
+不記名	bat1 gei3 ming4
 不記名投票	bat1 gei3 ming4 tau4 piu3
 不舉	bat1 geoi2
 不兼容性	bat1 gim1 jung4 sing3
@@ -48715,7 +48716,6 @@ import_tables:
 出牌	ceot1 paai4
 出盤	ceot1 pun4
 出晒名	ceot1 saai3 meng2
-出晒名	ceot1 saai3 meng4
 出晒位	ceot1 saai3 wai2
 出山	ceot1 saan1
 出生	ceot1 saang1
@@ -49579,6 +49579,7 @@ import_tables:
 纖微	cim1 mei4
 纖美	cim1 mei5
 簽名	cim1 meng2
+簽名簿	cim1 meng2 bou2
 簽名會	cim1 meng2 wui2
 簽名	cim1 ming4
 殲滅	cim1 mit6
@@ -67335,6 +67336,7 @@ import_tables:
 發抆憎	faat3 mang2 zang2
 發𤷪𤺧	faat3 mang2 zang2
 髮尾	faat3 mei5
+法名	faat3 meng2
 發麪	faat3 min6
 法名	faat3 ming4
 發明	faat3 ming4
@@ -73642,6 +73644,7 @@ import_tables:
 偕老	gaai1 lou5
 街路	gaai1 lou6
 佳美	gaai1 mei5
+街名	gaai1 meng2
 佳妙	gaai1 miu6
 街舞	gaai1 mou5
 佳木斯	gaai1 muk6 si1
@@ -127489,7 +127492,6 @@ import_tables:
 喵喵喵	meu1 meu1 meu1
 喵喵喵喵喵	meu1 meu1 meu1 meu1 meu1
 喵星人	meu1 sing1 jan4
-咪錶	mi1 biu1
 咪媽爛臭	mi1 maa1 laan6 cau3
 眯埋	mi1 maai4
 咪埋眼	mi1 maai4 ngaan5
@@ -150235,7 +150237,6 @@ import_tables:
 浽溦	seoi1 mei4
 衰微	seoi1 mei4
 衰名	seoi1 meng2
-衰名	seoi1 meng4
 衰明	seoi1 ming4
 衰滅	seoi1 mit6
 衰亡	seoi1 mong4
