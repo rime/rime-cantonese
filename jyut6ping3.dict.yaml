@@ -21598,6 +21598,7 @@ import_tables:
 鮇	mei6
 𥧌	mei6
 𧙕	mei6
+喵	meu1
 名	meng2	3%
 名	meng4	3%
 命	meng6	3%
@@ -21785,7 +21786,7 @@ import_tables:
 鴓	mit6	0%
 𩴾	mit6
 咪	miu1	3%
-喵	miu1
+喵	miu1	3%
 廟	miu2	3%
 𠴕	miu2
 䁧	miu4
@@ -127484,6 +127485,10 @@ import_tables:
 命仔	meng6 zai2
 命仔都冇埋	meng6 zai2 dou1 mou5 maai4
 命正	meng6 zeng3
+喵喵	meu1 meu1
+喵喵喵	meu1 meu1 meu1
+喵喵喵喵喵	meu1 meu1 meu1 meu1 meu1
+喵星人	meu1 sing1 jan4
 咪錶	mi1 biu1
 咪媽爛臭	mi1 maa1 laan6 cau3
 眯埋	mi1 maai4
@@ -128369,7 +128374,6 @@ import_tables:
 滅絕	mit6 zyut6
 滅絕人性	mit6 zyut6 jan4 sing3
 滅絕種族	mit6 zyut6 zung2 zuk6
-喵星人	miu1 sing1 jan4
 𠴕𠴕嘴	miu2 miu2 zeoi2
 廟細燈籠大	miu2 sai3 dang1 lung4 daai6
 廟會	miu2 wui2
