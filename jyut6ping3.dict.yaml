@@ -23288,6 +23288,7 @@ import_tables:
 嚙	ngit6	3%
 囓	ngit6	0%
 齧	ngit6	0%
+鵝	ngo2	3%
 㘥	ngo4	0%
 䄉	ngo4
 䕏	ngo4
@@ -44505,6 +44506,7 @@ import_tables:
 撥正	but6 zing3
 撥接	but6 zip3
 撥轉	but6 zyun2
+叉鴨飯	caa1 aap3 faan6
 叉包	caa1 baau1
 差不多	caa1 bat1 do1
 差不多的	caa1 bat1 do1 dik1
@@ -44514,6 +44516,7 @@ import_tables:
 叉車	caa1 ce1
 差池	caa1 ci4
 差遲	caa1 ci4
+叉切飯	caa1 cit4 faan6
 差錯	caa1 co3
 叉錯腳	caa1 co3 goek3
 差錯腳	caa1 co3 goek3
@@ -44535,6 +44538,8 @@ import_tables:
 差伙	caa1 fo2
 叉架	caa1 gaa2
 差價	caa1 gaa3
+叉雞	caa1 gai1
+叉雞飯	caa1 gai1 faan6
 差咁遠	caa1 gam3 jyun5
 差勁	caa1 ging3
 差勁	caa1 ging6
@@ -44569,6 +44574,7 @@ import_tables:
 差額	caa1 ngaak2
 差額	caa1 ngaak6
 差額選舉	caa1 ngaak6 syun2 geoi2
+叉鵝飯	caa1 ngo2 faan6
 差訛	caa1 ngo4
 差皮	caa1 pei2
 差皮	caa1 pei4
@@ -75605,6 +75611,7 @@ import_tables:
 雞球	gai1 kau4
 雞肋	gai1 lak6
 雞柳	gai1 lau5
+雞柳條	gai1 lau5 tiu2
 雞靚	gai1 leng1
 雞零狗碎	gai1 ling4 gau2 seoi3
 雞寮	gai1 liu4
@@ -75871,6 +75878,7 @@ import_tables:
 金錢	gam1 cin4
 金錢不能買來幸福	gam1 cin4 bat1 nang4 maai5 loi4 hang6 fuk1
 金錢餅	gam1 cin4 beng2
+金錢袋	gam1 cin4 doi2
 金錢非萬能	gam1 cin4 fei1 maan6 nang4
 金錢掛帥	gam1 cin4 gwaa3 seoi3
 金錢龜	gam1 cin4 gwai1
@@ -93530,8 +93538,8 @@ import_tables:
 河曲	ho4 kuk1
 河曲縣	ho4 kuk1 jyun6
 荷蘭	ho4 laan1
-菏蘭	ho4 laan1
 荷蘭豆	ho4 laan1 dau2
+荷蘭番茄	ho4 laan1 faan1 ke2
 荷蘭航空公司	ho4 laan1 hong4 hung1 gung1 si1
 荷蘭語	ho4 laan1 jyu5
 荷蘭芹	ho4 laan1 kan4
@@ -167573,6 +167581,7 @@ import_tables:
 滑翔翼	waat6 coeng4 jik6
 滑翔傘	waat6 coeng4 saan3
 滑蛋	waat6 daan2
+滑蛋牛肉	waat6 daan2 ngau4 juk6
 滑倒	waat6 dou2
 滑動	waat6 dung6
 滑塊	waat6 faai3
