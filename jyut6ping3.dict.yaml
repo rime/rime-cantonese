@@ -1414,6 +1414,7 @@ import_tables:
 譒	bo3	0%
 鄱	bo3
 𡃓	bo3
+扑	bok1
 㩧	bok1
 䃗	bok1
 䑈	bok1	0%
@@ -1742,7 +1743,6 @@ import_tables:
 䗱	buk6
 䪁	buk6
 䴆	buk6
-仆	buk6	0%
 伏	buk6	0%
 僕	buk6
 匐	buk6	0%
@@ -24841,7 +24841,6 @@ import_tables:
 噗	pok3
 圤	pok3	0%
 墣	pok3
-扑	pok3
 撲	pok3
 擈	pok3	0%
 攴	pok3
@@ -25054,9 +25053,7 @@ import_tables:
 碚	pui5
 萯	pui5
 蓓	pui5
-仆	puk1	3%
-扑	puk1
-撲	puk1	3%
+仆	puk1
 㢖	pun1
 㽃	pun1
 䆺	pun1
@@ -43962,7 +43959,6 @@ import_tables:
 伏匿匿	buk6 nei1 nei1
 蹼匿匿	buk6 nei1 nei1
 曝曬	buk6 saai3
-仆直	buk6 zik6
 搬兵	bun1 bing1
 搬出去	bun1 ceot1 heoi3
 搬遷	bun1 cin1
@@ -100434,7 +100430,6 @@ import_tables:
 一仆一碌	jat1 puk1 jat1 luk1
 一仆一趢	jat1 puk1 jat1 luk1
 一仆一轆	jat1 puk1 jat1 luk1
-一扑一碌	jat1 puk1 jat1 luk1
 一盤散沙	jat1 pun4 saan2 saa1
 一盤水	jat1 pun4 seoi2
 一山不能藏二虎	jat1 saan1 bat1 nang4 cong4 ji6 fu2
@@ -141199,7 +141194,6 @@ import_tables:
 婆仔鞋	po4 zai2 haai4
 婆仔數	po4 zai2 sou3
 婆子	po4 zi2
-仆轉	pok1 zyun3
 撲鼻	pok3 bei6
 撲波	pok3 bo1
 撲出	pok3 ceot1
@@ -141246,7 +141240,6 @@ import_tables:
 撲朔迷離	pok3 sok3 mai4 lei4
 樸素	pok3 sou3
 撲騰	pok3 tang4
-扑頭	pok3 tau4
 撲通	pok3 tung1
 朴子	pok3 zi2
 朴子市	pok3 zi2 si5
@@ -147293,7 +147286,6 @@ import_tables:
 十年樹木	sap6 nin4 syu6 muk6
 十年樹木，百年樹人	sap6 nin4 syu6 muk6 baak3 nin4 syu6 jan4
 十惡不赦	sap6 ok3 bat1 se3
-十扑	sap6 pok3
 十卜	sap6 pot1
 十倍	sap6 pui5
 十三	sap6 saam1
@@ -161585,7 +161577,6 @@ import_tables:
 吞㿺	tan1 pok1
 吞噗	tan1 pok1
 吞泡	tan1 pok1
-吞樸	tan1 pok3
 吞噬	tan1 sai6
 吞噬細胞	tan1 sai6 sai3 baau1
 吞噬作用	tan1 sai6 zok3 jung6
