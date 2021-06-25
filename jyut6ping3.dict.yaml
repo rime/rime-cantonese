@@ -1414,6 +1414,7 @@ import_tables:
 譒	bo3	0%
 鄱	bo3
 𡃓	bo3
+扑	bok1
 㩧	bok1
 䃗	bok1
 䑈	bok1	0%
@@ -1742,7 +1743,6 @@ import_tables:
 䗱	buk6
 䪁	buk6
 䴆	buk6
-仆	buk6	0%
 伏	buk6	0%
 僕	buk6
 匐	buk6	0%
@@ -24776,7 +24776,7 @@ import_tables:
 䴩	piu4
 剽	piu4	3%
 嫖	piu4
-朴	piu4
+朴	piu4	3%
 淲	piu4	0%
 滮	piu4	3%
 瀌	piu4	0%
@@ -24841,7 +24841,6 @@ import_tables:
 噗	pok3
 圤	pok3	0%
 墣	pok3
-扑	pok3
 撲	pok3
 擈	pok3	0%
 攴	pok3
@@ -25054,9 +25053,7 @@ import_tables:
 碚	pui5
 萯	pui5
 蓓	pui5
-仆	puk1	3%
-扑	puk1
-撲	puk1	3%
+仆	puk1
 㢖	pun1
 㽃	pun1
 䆺	pun1
@@ -35447,9 +35444,6 @@ import_tables:
 鴨毛	aap3 mou4
 鴨乸蹄	aap3 naa2 tai4
 鴨片	aap3 pin2
-鴨扑	aap3 pok3
-鴨撲	aap3 pok3
-鴨朴	aap3 pok3
 鴨細膍胵大，火船仔細機器大，人細鬼大	aap3 sai3 fu4 ci3 daai6 fo2 syun4 zai2 sai3 gei1 hei3 daai6 jan4 sai3 gwai2 daai6
 鴨腎	aap3 san2
 鴨腎	aap3 san5
@@ -42399,14 +42393,19 @@ import_tables:
 卜卜齋	bok1 bok1 zaai1
 卜卜脹	bok1 bok1 zoeng3
 㩧親	bok1 can1
+扑親	bok1 can1
+㩧鎚	bok1 ceoi2
 扑槌	bok1 ceoi2
 扑鎚	bok1 ceoi2
 㩧瓜	bok1 gwaa1
 扑瓜	bok1 gwaa1
 㩧嘢	bok1 je5
+扑嘢	bok1 je5
 卜魚	bok1 jyu2
 㩧落去	bok1 lok6 heoi3
+扑落去	bok1 lok6 heoi3
 㩧落嚟	bok1 lok6 lai4
+扑落嚟	bok1 lok6 lai4
 㩧佬	bok1 lou2
 扑佬	bok1 lou2
 扑咪	bok1 mai1
@@ -42414,6 +42413,7 @@ import_tables:
 卜帽	bok1 mou2
 㩧溼	bok1 sap1
 扑溼	bok1 sap1
+㩧頭	bok1 tau4
 扑頭	bok1 tau4
 㩧頭黨	bok1 tau4 dong2
 扑頭黨	bok1 tau4 dong2
@@ -43962,7 +43962,6 @@ import_tables:
 伏匿匿	buk6 nei1 nei1
 蹼匿匿	buk6 nei1 nei1
 曝曬	buk6 saai3
-仆直	buk6 zik6
 搬兵	bun1 bing1
 搬出去	bun1 ceot1 heoi3
 搬遷	bun1 cin1
@@ -50000,7 +49999,6 @@ import_tables:
 前夫	cin4 fu1
 前呼後擁	cin4 fu1 hau6 jung2
 前俯後仰	cin4 fu2 hau6 joeng5
-前仆后繼	cin4 fu6 hau6 gai3
 前仆後繼	cin4 fu6 hau6 gai3
 前赴後繼	cin4 fu6 hau6 gai3
 前鋒	cin4 fung1
@@ -50036,7 +50034,6 @@ import_tables:
 前郭爾羅斯蒙古族自治縣	cin4 gwok3 ji5 lo4 si1 mung4 gu2 zuk6 zi6 zi6 jyun6
 前郭縣	cin4 gwok3 jyun6
 前郭鎮	cin4 gwok3 zan3
-前后	cin4 hau6
 前後	cin4 hau6
 前後夾攻	cin4 hau6 gaap3 gung1
 前後腳	cin4 hau6 goek3
@@ -50139,7 +50136,7 @@ import_tables:
 前排	cin4 paai4
 錢皮	cin4 pei4
 前舖後居	cin4 pou3 hau6 geoi1
-前仆后繼	cin4 puk1 hau6 gai3
+前仆後繼	cin4 puk1 hau6 gai3
 前三甲	cin4 saam1 gaap3
 錢三強	cin4 saam1 koeng4
 前山	cin4 saan1
@@ -67964,6 +67961,7 @@ import_tables:
 婚戀	fan1 lyun2
 昏亂	fan1 lyun6
 紛亂	fan1 lyun6
+分唔清	fan1 m4 cing1
 昏迷	fan1 mai4
 昏迷不醒	fan1 mai4 bat1 seng2
 分米	fan1 mai5
@@ -77380,6 +77378,7 @@ import_tables:
 鳩山由紀夫	gau1 saan1 jau4 gei2 fu1
 㞗屎	gau1 si2
 鳩屎	gau1 si2
+鳩屎嘢	gau1 si2 je5
 鳩縮	gau1 suk1
 勾通	gau1 tung1
 鳩話	gau1 waa2
@@ -79386,7 +79385,6 @@ import_tables:
 儉用	gim6 jung6
 勤儉持家	gim6 kan4 ci4 gaa1
 勤儉樸實	gim6 kan4 pok3 sat6
-儉朴	gim6 pok3
 儉樸	gim6 pok3
 儉省	gim6 saang2
 儉素	gim6 sou3
@@ -84273,6 +84271,7 @@ import_tables:
 公務艙	gung1 mou6 cong1
 公務人員	gung1 mou6 jan4 jyun4
 公務員	gung1 mou6 jyun4
+公務員職系	gung1 mou6 jyun4 zik1 hai6
 公務員事務局	gung1 mou6 jyun4 si6 mou6 guk6
 功能	gung1 nang4
 功能表	gung1 nang4 biu2
@@ -90320,6 +90319,8 @@ import_tables:
 行政長官	hang4 zing3 zoeng2 gun1
 行政總裁	hang4 zing3 zung2 coi4
 行政總廚	hang4 zing3 zung2 cyu4
+行政主任	hang4 zing3 zyu3 jam6
+行政主任職系	hang4 zing3 zyu3 jam6 zik1 hai6
 衡酌	hang4 zoek3
 行將	hang4 zoeng1
 行將結束	hang4 zoeng1 git3 cuk1
@@ -100432,7 +100433,6 @@ import_tables:
 一仆一碌	jat1 puk1 jat1 luk1
 一仆一趢	jat1 puk1 jat1 luk1
 一仆一轆	jat1 puk1 jat1 luk1
-一扑一碌	jat1 puk1 jat1 luk1
 一盤散沙	jat1 pun4 saan2 saa1
 一盤水	jat1 pun4 seoi2
 一山不能藏二虎	jat1 saan1 bat1 nang4 cong4 ji6 fu2
@@ -111795,7 +111795,6 @@ import_tables:
 溝女	kau1 neoi2
 媾女王	kau1 neoi2 wong4
 溝女王	kau1 neoi2 wong4
-鳩屎	kau1 si2
 溝通	kau1 tung1
 溝通技巧	kau1 tung1 gei6 haau2
 媾仔	kau1 zai2
@@ -135183,6 +135182,7 @@ import_tables:
 僞迹	ngai6 zik1
 魏徵	ngai6 zing1
 僞證	ngai6 zing3
+僞正字	ngai6 zing3 zi6
 僞裝	ngai6 zong1
 僞造	ngai6 zou6
 僞造品	ngai6 zou6 ban2
@@ -135833,7 +135833,6 @@ import_tables:
 訛誤	ngo4 ng6
 皒皒	ngo4 ngo4
 訛騙	ngo4 pin3
-鵝朴	ngo4 pok3
 峨山彞族自治縣	ngo4 saan1 ji4 zuk6 zi6 zi6 jyun6
 峨山縣	ngo4 saan1 jyun6
 俄塔社	ngo4 taap3 se5
@@ -141197,7 +141196,6 @@ import_tables:
 婆仔鞋	po4 zai2 haai4
 婆仔數	po4 zai2 sou3
 婆子	po4 zi2
-仆轉	pok1 zyun3
 撲鼻	pok3 bei6
 撲波	pok3 bo1
 撲出	pok3 ceot1
@@ -141244,7 +141242,6 @@ import_tables:
 撲朔迷離	pok3 sok3 mai4 lei4
 樸素	pok3 sou3
 撲騰	pok3 tang4
-扑頭	pok3 tau4
 撲通	pok3 tung1
 朴子	pok3 zi2
 朴子市	pok3 zi2 si5
@@ -141895,6 +141892,7 @@ import_tables:
 仆到去	puk1 dou2 heoi3
 仆街	puk1 gaai1
 仆街貨	puk1 gaai1 fo3
+仆街唔好喊	puk1 gaai1 m4 hou2 haam3
 仆街死	puk1 gaai1 sei2
 仆街仔	puk1 gaai1 zai2
 仆喺張檯度	puk1 hai2 zoeng1 toi2 dou6
@@ -147291,7 +147289,6 @@ import_tables:
 十年樹木	sap6 nin4 syu6 muk6
 十年樹木，百年樹人	sap6 nin4 syu6 muk6 baak3 nin4 syu6 jan4
 十惡不赦	sap6 ok3 bat1 se3
-十扑	sap6 pok3
 十卜	sap6 pot1
 十倍	sap6 pui5
 十三	sap6 saam1
@@ -153330,6 +153327,7 @@ import_tables:
 食龍肉都無味	sik6 lung4 juk6 dou1 mou4 mei6
 食唔飽	sik6 m4 baau2
 食唔切	sik6 m4 cit3
+食唔到	sik6 m4 dou2
 食唔化	sik6 m4 faa3
 食唔落	sik6 m4 lok6
 食唔安瞓唔落	sik6 m4 on1 fan3 m4 lok6
@@ -154283,6 +154281,7 @@ import_tables:
 升值	sing1 zik6
 昇值	sing1 zik6
 腥羶	sing1 zin1
+星展	sing1 zin2
 星展銀行	sing1 zin2 ngan4 hong4
 星座	sing1 zo6
 星座運勢	sing1 zo6 wan6 sai3
@@ -161581,7 +161580,6 @@ import_tables:
 吞㿺	tan1 pok1
 吞噗	tan1 pok1
 吞泡	tan1 pok1
-吞樸	tan1 pok3
 吞噬	tan1 sai6
 吞噬細胞	tan1 sai6 sai3 baau1
 吞噬作用	tan1 sai6 zok3 jung6
@@ -163882,7 +163880,7 @@ import_tables:
 條脷冇毛	tiu4 lei6 mou5 mou4
 條令	tiu4 ling6
 調料	tiu4 liu2
-條路自己揀，仆街唔好喊	tiu4 lou6 zi6 gei2 gaan2 puk1 gaai1 m4 hou2 haam3
+條路自己揀	tiu4 lou6 zi6 gei2 gaan2
 調弄	tiu4 lung6
 條麻甩佬	tiu4 maa4 lat1 lou2
 條碼	tiu4 maa5
@@ -166928,6 +166926,7 @@ import_tables:
 壞結局	waai6 git3 guk6
 壞鬼	waai6 gwai2
 壞骨	waai6 gwat1
+壞過凱婷	waai6 gwo3 hoi2 ting4
 壞血病	waai6 hyut3 beng6
 壞血病	waai6 hyut3 bing6
 壞人	waai6 jan4
@@ -172250,6 +172249,8 @@ import_tables:
 盞嘢	zaan2 je5
 賺㩄氣	zaan2 saai1 hei3
 賺嘥氣	zaan2 saai1 hei3
+盞嘥時間	zaan2 saai1 si4 gaan3
+盞辛苦	zaan2 san1 fu2
 盞衰	zaan2 seoi1
 賺衰	zaan2 seoi1
 賺做	zaan2 zou6
@@ -174815,7 +174816,9 @@ import_tables:
 遮瑕膏	ze1 haa4 gou1
 啫係	ze1 hai6
 啫係點	ze1 hai6 dim2
-即係話	ze1 hai6 waa6
+啫係噉	ze1 hai6 gam2
+啫係話	ze1 hai6 waa6
+啫係咩	ze1 hai6 me1
 遮蔭	ze1 jam1
 遮陰	ze1 jam1
 遮蔭	ze1 jam3
@@ -174826,7 +174829,6 @@ import_tables:
 嗟怨	ze1 jyun3
 啫屐	ze1 kek6
 遮蓋	ze1 koi3
-啫哩	ze1 lei2
 啫喱	ze1 lei2
 啫喱筆	ze1 lei2 bat1
 啫喱糖	ze1 lei2 tong2
@@ -177895,9 +177897,11 @@ import_tables:
 即刻	zik1 haak1
 職銜	zik1 haam4
 績效	zik1 haau6
+職系	zik1 hai6
 即係	zik1 hai6
-即系	zik1 hai6
+即係點	zik1 hai6 dim2
 即係噉	zik1 hai6 gam2
+即係咩	zik1 hai6 me1
 即係話	zik1 hai6 waa6
 即刻	zik1 hak1
 積克	zik1 hak1
@@ -179465,6 +179469,8 @@ import_tables:
 政務	zing3 mou6
 政務官	zing3 mou6 gun1
 政務司司長	zing3 mou6 si1 si1 zoeng2
+政務職系	zing3 mou6 zik1 hai6
+政務主任	zing3 mou6 zyu2 jam6
 正門	zing3 mun4
 正能量	zing3 nang4 loeng6
 正午	zing3 ng5
