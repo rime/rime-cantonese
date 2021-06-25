@@ -84271,6 +84271,7 @@ import_tables:
 公務艙	gung1 mou6 cong1
 公務人員	gung1 mou6 jan4 jyun4
 公務員	gung1 mou6 jyun4
+公務員職系	gung1 mou6 jyun4 zik1 hai6
 公務員事務局	gung1 mou6 jyun4 si6 mou6 guk6
 功能	gung1 nang4
 功能表	gung1 nang4 biu2
@@ -90318,6 +90319,8 @@ import_tables:
 行政長官	hang4 zing3 zoeng2 gun1
 行政總裁	hang4 zing3 zung2 coi4
 行政總廚	hang4 zing3 zung2 cyu4
+行政主任	hang4 zing3 zyu3 jam6
+行政主任職系	hang4 zing3 zyu3 jam6 zik1 hai6
 衡酌	hang4 zoek3
 行將	hang4 zoeng1
 行將結束	hang4 zoeng1 git3 cuk1
@@ -177894,6 +177897,7 @@ import_tables:
 即刻	zik1 haak1
 職銜	zik1 haam4
 績效	zik1 haau6
+職系	zik1 hai6
 即係	zik1 hai6
 即係點	zik1 hai6 dim2
 即係噉	zik1 hai6 gam2
@@ -179465,6 +179469,8 @@ import_tables:
 政務	zing3 mou6
 政務官	zing3 mou6 gun1
 政務司司長	zing3 mou6 si1 si1 zoeng2
+政務職系	zing3 mou6 zik1 hai6
+政務主任	zing3 mou6 zyu2 jam6
 正門	zing3 mun4
 正能量	zing3 nang4 loeng6
 正午	zing3 ng5
