@@ -38585,6 +38585,8 @@ import_tables:
 北門	bak1 mun4
 北門鄉	bak1 mun4 hoeng1
 北魏	bak1 ngai6
+北魏體	bak1 ngai6 tai2
+北魏真書	bak1 ngai6 zan1 syu1
 北外	bak1 ngoi6
 北嶽	bak1 ngok6
 北愛	bak1 oi3
@@ -60528,6 +60530,7 @@ import_tables:
 地頭龍	dei6 tau4 lung4
 地頭蛇	dei6 tau4 se4
 地鐵	dei6 tit3
+地鐵宋	dei6 tit3 sung3
 地鐵站	dei6 tit3 zaam6
 地鐵族	dei6 tit3 zuk6
 地拖	dei6 to1
@@ -115693,6 +115696,8 @@ import_tables:
 荔景	lai6 ging2
 麗江	lai6 gong1
 麗江地區	lai6 gong1 dei6 keoi1
+儷黑	lai6 haak1
+儷宋	lai6 sung3
 麗江古城	lai6 gong1 gu2 sing4
 麗江納西族自治縣	lai6 gong1 naap6 sai1 zuk6 zi6 zi6 jyun6
 麗江市	lai6 gong1 si5
@@ -117161,6 +117166,7 @@ import_tables:
 李賀	lei5 ho6
 李香蘭	lei5 hoeng1 laan4
 李開復	lei5 hoi1 fuk6
+李漢港楷	lei5 hon2 gong2 kaai2
 裏海	lei5 hoi2
 理學	lei5 hok6
 理學博士	lei5 hok6 bok3 si6
@@ -131628,6 +131634,11 @@ import_tables:
 矇矇亮	mung4 mung4 loeng6
 濛濛細雨	mung4 mung4 sai3 jyu5
 蒙難	mung4 naan6
+蒙納	mung4 naap6
+蒙納宋	mung4 naap6 sung3
+蒙納宋體	mung4 naap6 sung3 tai2
+蒙納楷	mung4 naap6 kaai2
+蒙納楷體	mung4 naap6 kaai2 tai2
 矇眼仔	mung4 ngaan5 zai2
 蒙牛	mung4 ngau4
 蒙娜麗莎	mung4 no4 lai6 saa1
@@ -166618,6 +166629,10 @@ import_tables:
 華興會	waa4 hing1 wui2
 華海	waa4 hoi2
 華翰	waa4 hon6
+華康儷黑	waa6 hong1 lai6 haak1
+華康儷黑體	waa6 hong1lai6 sung3 tai2
+華康儷宋	waa6 hong1lai6 haak1
+華康儷宋體	waa6 hong1 lai6 sung3 tai2
 華航	waa4 hong4
 華陰	waa4 jam1
 華陰市	waa4 jam1 si5
