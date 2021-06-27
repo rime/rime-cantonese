@@ -15,6 +15,6 @@ cp *.yaml .ci/deb/usr/share/rime-data/
 cat LICENSE* > .ci/deb/DEBIAN/copyright
 
 # Build pkg
-mkdir -p .ci/output/
-dpkg -b .ci/deb/ .ci/output/rime-cantonese.deb
+mkdir -p output/
+dpkg -b .ci/deb/ output/rime-cantonese.deb
 
