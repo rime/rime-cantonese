@@ -2,19 +2,19 @@
 ## Build deb package for ubuntu Linux.user.
 
 # Clear old pkg content
-rm -rf deb/
+rm -rf .ci/deb/
 
 # Create temp folder to collect files
-mkdir -p deb/DEBIAN/
-mkdir -p deb/usr/share/rime-data/
+mkdir -p .ci/deb/DEBIAN/
+mkdir -p .ci/deb/usr/share/rime-data/
 # deb package related file
-cp ./fcitx-deb/control ./fcitx-deb/postinst ./fcitx-deb/postrm deb/DEBIAN/
+cp .ci/fcitx-deb/control .ci/fcitx-deb/postinst .ci/fcitx-deb/postrm .ci/deb/DEBIAN/
 # taigi
-cp ../*.yaml deb/usr/share/rime-data/
+cp *.yaml .ci/deb/usr/share/rime-data/
 # copyright
-cat ../LICENSE* > deb/DEBIAN/copyright
+cat LICENSE* > .ci/deb/DEBIAN/copyright
 
 # Build pkg
-mkdir -p output/
-dpkg -b deb/ output/rime-cantonese.deb
+mkdir -p .ci/output/
+dpkg -b .ci/deb/ .ci/output/rime-cantonese.deb
 
