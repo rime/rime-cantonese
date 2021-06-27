@@ -18,3 +18,6 @@ cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/
 # Copy default.custom.yaml and ibus-install.sh into output queue
 cat .ci/ibus-install-template.sh | envsubst '${IBUS_PACKAGES}' > ./output/ibus-install.sh
 cp .ci/default.custom.yaml output/
+
+# Build rime-cantonese of fcitx
+bash .ci/fcitx-build-deb.sh

@@ -15,5 +15,6 @@ cp ../*.yaml deb/usr/share/rime-data/
 cat ../LICENSE* > deb/DEBIAN/copyright
 
 # Build pkg
+mkdir -p output/
 dpkg -b deb/ output/rime-cantonese.deb
 

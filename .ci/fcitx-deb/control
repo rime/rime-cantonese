@@ -5,5 +5,6 @@ Priority: optional
 Version: 2021.05.16
 Architecture: all
 Depends: fcitx-rime (>= 0.3.1)
+Maintainer: Ithuan Khoki <ithuan@ithuan.tw>
 Homepage: https://github.com/rime/rime-cantonese
 Description: Rime Cantonese input schema | 粵語拼音輸入方案
