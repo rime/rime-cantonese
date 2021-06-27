@@ -1,0 +1,9 @@
+Package: rime-cantonese
+Source: rime-cantonese
+Section: utils
+Priority: optional
+Version: 2021.05.16
+Architecture: all
+Depends: fcitx-rime (>= 0.3.1)
+Homepage: https://github.com/rime/rime-cantonese
+Description: Rime Cantonese input schema | 粵語拼音輸入方案
