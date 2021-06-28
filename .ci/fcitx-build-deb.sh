@@ -16,5 +16,4 @@ cat LICENSE* > .ci/deb/DEBIAN/copyright
 
 # Build pkg
 mkdir -p output/
-dpkg -b .ci/deb/ output/rime-cantonese.deb
-
+dpkg -b .ci/deb/ output/fcitx-${TRAVIS_TAG}-installer.deb
