@@ -11,6 +11,12 @@ on:
     branches:
       - main
       - dev
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: false
+        default: 'warning'
 
 jobs:
   compile:
