@@ -1,0 +1,35 @@
+name: Rime Cantonese compilation check
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the dev and main branches
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: false
+        default: 'warning'
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - run: | 
+          echo "Installing rime engine"
+          sudo apt-get install curl git ibus-rime -y
+      - run: | 
+          echo "Installing rime-cantonese files"
+          curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3 lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
+      - run: | 
+          echo "Compiling..."
+          chmod u+wx ~/.config/ibus/rime/*
+          rime_deployer --build ~/.config/ibus/rime
+      - run: echo "Done!" && exit 0
