@@ -5,12 +5,12 @@ on:
   # but only for the dev and main branches
   push:
     branches:
-      - main
-      - dev
+      - master
+      - trunk
   pull_request:
     branches:
-      - main
-      - dev
+      - master
+      - trunk
   workflow_dispatch:
     inputs:
       logLevel:
@@ -27,7 +27,7 @@ jobs:
           sudo apt-get install curl git ibus-rime -y
       - run: | 
           echo "Installing rime-cantonese files"
-          curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3 lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
+          curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese@${GITHUB_REF##*/} emoji CanCLID/rime-loengfan sgalal/rime-opencc-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3 lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
       - run: | 
           echo "Compiling..."
           chmod u+wx ~/.config/ibus/rime/*
