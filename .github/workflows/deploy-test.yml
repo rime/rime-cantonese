@@ -5,11 +5,11 @@ on:
   # but only for the dev and main branches
   push:
     branches:
-      - master
+      - main
       - trunk
   pull_request:
     branches:
-      - master
+      - main
       - trunk
   workflow_dispatch:
     inputs:
