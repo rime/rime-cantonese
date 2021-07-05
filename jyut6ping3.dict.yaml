@@ -38586,6 +38586,8 @@ import_tables:
 北門	bak1 mun4
 北門鄉	bak1 mun4 hoeng1
 北魏	bak1 ngai6
+北魏體	bak1 ngai6 tai2
+北魏真書	bak1 ngai6 zan1 syu1
 北外	bak1 ngoi6
 北嶽	bak1 ngok6
 北愛	bak1 oi3
@@ -41925,6 +41927,8 @@ import_tables:
 標高	biu1 gou1
 鏢局	biu1 guk2
 鏢局	biu1 guk6
+標楷	biu1 kaai2
+標楷體	biu1 kaai2 tai2
 鏢客	biu1 haak3
 飆口水	biu1 hau2 seoi2
 錶殼	biu1 hok3
@@ -44541,6 +44545,7 @@ import_tables:
 叉雞	caa1 gai1
 叉雞飯	caa1 gai1 faan6
 差咁遠	caa1 gam3 jyun5
+叉緊電	caa1 gan2 din6
 差勁	caa1 ging3
 差勁	caa1 ging6
 差個	caa1 go3
@@ -60535,6 +60540,7 @@ import_tables:
 地頭龍	dei6 tau4 lung4
 地頭蛇	dei6 tau4 se4
 地鐵	dei6 tit3
+地鐵宋	dei6 tit3 sung3
 地鐵站	dei6 tit3 zaam6
 地鐵族	dei6 tit3 zuk6
 地拖	dei6 to1
@@ -84302,6 +84308,7 @@ import_tables:
 公務艙	gung1 mou6 cong1
 公務人員	gung1 mou6 jan4 jyun4
 公務員	gung1 mou6 jyun4
+公務員職系	gung1 mou6 jyun4 zik1 hai6
 公務員事務局	gung1 mou6 jyun4 si6 mou6 guk6
 公務員職系	gung1 mou6 jyun4 zik1 hai6
 功能	gung1 nang4
@@ -87744,6 +87751,7 @@ import_tables:
 下九流	haa6 gau2 lau4
 夏敬渠	haa6 ging3 keoi4
 下個	haa6 go3
+下個更可愛	haa6 go3 gang3 ho2 oi3
 下個月	haa6 go3 jyut6
 下個禮拜	haa6 go3 lai5 baai3
 下個星期	haa6 go3 sing1 kei4
@@ -115751,6 +115759,8 @@ import_tables:
 荔景	lai6 ging2
 麗江	lai6 gong1
 麗江地區	lai6 gong1 dei6 keoi1
+儷黑	lai6 haak1
+儷宋	lai6 sung3
 麗江古城	lai6 gong1 gu2 sing4
 麗江納西族自治縣	lai6 gong1 naap6 sai1 zuk6 zi6 zi6 jyun6
 麗江市	lai6 gong1 si5
@@ -117220,6 +117230,7 @@ import_tables:
 李賀	lei5 ho6
 李香蘭	lei5 hoeng1 laan4
 李開復	lei5 hoi1 fuk6
+李漢港楷	lei5 hon2 gong2 kaai2
 裏海	lei5 hoi2
 理學	lei5 hok6
 理學博士	lei5 hok6 bok3 si6
@@ -123640,7 +123651,6 @@ import_tables:
 唔製	m4 zai3
 唔䎺得過	m4 zai3 dak1 gwo3
 唔制得過	m4 zai3 dak1 gwo3
-唔製得過	m4 zai3 dak1 gwo3
 唔執輸	m4 zap1 syu1
 唔走得	m4 zau2 dak1
 唔精神	m4 zeng1 san4
@@ -126983,6 +126993,10 @@ import_tables:
 眉宇之間	mei4 jyu5 zi1 gaan1
 微軟	mei4 jyun5
 微軟公司	mei4 jyun5 gung1 si1
+微軟雅黑	mei4 jyun5 ngaa5 hak1
+微軟雅黑體	mei4 jyun5 ngaa5 hak1 tai2
+微軟正黑	mei4 jyun5 zing3 hak1
+微軟正黑體	mei4 jyun5 zing3 hak1 tai2
 眉縣	mei4 jyun6
 眉月	mei4 jyut6
 眉鉗	mei4 kim2
@@ -131695,6 +131709,11 @@ import_tables:
 矇矇亮	mung4 mung4 loeng6
 濛濛細雨	mung4 mung4 sai3 jyu5
 蒙難	mung4 naan6
+蒙納	mung4 naap6
+蒙納宋	mung4 naap6 sung3
+蒙納宋體	mung4 naap6 sung3 tai2
+蒙納楷	mung4 naap6 kaai2
+蒙納楷體	mung4 naap6 kaai2 tai2
 矇眼仔	mung4 ngaan5 zai2
 蒙牛	mung4 ngau4
 蒙娜麗莎	mung4 no4 lai6 saa1
@@ -133535,6 +133554,7 @@ import_tables:
 女友	neoi2 jau5
 女魔頭	neoi2 mo1 tau4
 女朋友	neoi2 pang4 jau5
+女死女還在	neoi2 sei2 neoi2 waan4 zoi6
 女同志	neoi2 tung4 zi3
 女仔之家	neoi2 zai2 zi1 gaa1
 囡囡	neoi4 neoi1
@@ -143456,6 +143476,7 @@ import_tables:
 山婆	saan1 po4
 閂舖	saan1 pou3
 閂鋪	saan1 pou3
+閂晒	saan1 saai3
 姍姍來遲	saan1 saan1 loi4 ci4
 山西	saan1 sai1
 山西大學	saan1 sai1 daai6 hok6
@@ -151786,6 +151807,9 @@ import_tables:
 絲雨	si1 jyu5
 私怨	si1 jyun3
 思源	si1 jyun4
+思源黑體	si1 jyun4 haak1 tai2
+思源宋體	si1 jyun4 sung3 tai2
+思源字體	si1 jyun4 zi6 tai2
 斯卡伯勒礁	si1 kaa1 baak3 lak6 ziu1
 司寇	si1 kau3
 私企	si1 kei5
@@ -166295,6 +166319,7 @@ import_tables:
 屯兵	tyun4 bing1
 臀部	tyun4 bou6
 臀產式分娩	tyun4 caan2 sik1 fan1 min5
+屯赤	tyun4 cek3
 屯昌	tyun4 coeng1
 屯昌縣	tyun4 coeng1 jyun6
 屯特	tyun4 dak6
@@ -166702,6 +166727,10 @@ import_tables:
 華興會	waa4 hing1 wui2
 華海	waa4 hoi2
 華翰	waa4 hon6
+華康儷黑	waa6 hong1 lai6 haak1
+華康儷黑體	waa6 hong1 lai6 sung3 tai2
+華康儷宋	waa6 hong1 lai6 haak1
+華康儷宋體	waa6 hong1 lai6 sung3 tai2
 華航	waa4 hong4
 華陰	waa4 jam1
 華陰市	waa4 jam1 si5
@@ -175314,6 +175343,7 @@ import_tables:
 正牌	zeng3 paai4
 正晒	zeng3 saai3
 正話	zeng3 waa6
+正正	zeng3 zeng3
 鄭家富	zeng6 gaa1 fu3
 靜局	zeng6 guk6
 鄭國渠	zeng6 gwok3 keoi4
