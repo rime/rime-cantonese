@@ -31,5 +31,8 @@ jobs:
       - run: | 
           echo "Compiling..."
           chmod u+wx ~/.config/ibus/rime/*
-          rime_deployer --build ~/.config/ibus/rime
-      - run: echo "Done!" && exit 0
+          rime_deployer --build ~/.config/ibus/rime 2> log.tmp
+      - run: |
+          echo "Checking..."
+          cat log.tmp
+          exit $( cat log.tmp | grep -c ^[EW] ) 
