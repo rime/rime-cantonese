@@ -39,12 +39,13 @@ bool valid_jyutping(string a){
 	// eo followed by t / i / n
 	if (STEM == "eo" && !(FINAL == "t" || FINAL == "i" || FINAL == "n")) return false;
 	
-	// i / yu must begin with an initial
-	if (INITIAL == "" && (STEM == "i" || STEM == "yu")) return false;
+	// i / yu must begin with an initial, but allow ik1 and ik6 (hiccups)
+	if (JYUT == "ik1" || JYUT == "ik6") return true;
+	else if (INITIAL == "" && (STEM == "i" || STEM == "yu")) return false;
 
 	// Add more rules here...
 
-	// catch failed matches of /m/ and /ng/
+	// catch invalid matches of /m/ and /ng/
 	if ((STEM == "m" || STEM == "ng") && (INITIAL != "" && INITIAL != "h")) return false;
 	if ((STEM == "m" || STEM == "ng") && FINAL != "") return false;
 	
