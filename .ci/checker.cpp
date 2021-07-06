@@ -13,8 +13,11 @@
 #define TONER phonemes[4]
 using namespace std;
 
+string word, line, dict;
+smatch phonemes;
+
 bool valid_jyutping(string a){
-	smatch phonemes;
+
 	
 	//has a jyutping-like structure; if cannot be decomposed exactly into 4 groups, treat as invalid
 	if (!regex_match(a, phonemes, (regex) "(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])")) return false;
@@ -45,7 +48,6 @@ bool valid_jyutping(string a){
 //Strips down a jyutping string into words
 bool process(string a){
 	istringstream sin(a);
-	string word;
 	
 	while(sin >> word) {
 		if (!valid_jyutping(word)) return false;
@@ -56,7 +58,6 @@ bool process(string a){
 
 //Processes file
 int parse(){
-	string line;
 	int count_invalid = 0;
 	int line_no = 0;
 	
@@ -82,7 +83,8 @@ int parse(){
 }
 
 int main (int argc, char** argv) {
-	string dict = "";
+	
+	ios_base::sync_with_stdio();
 	
 	if (argc == 2){
 		dict = argv[1];
