@@ -18,7 +18,6 @@ smatch phonemes;
 
 bool valid_jyutping(string a){
 
-	
 	//has a jyutping-like structure; if cannot be decomposed exactly into 4 groups, treat as invalid
 	if (!regex_match(a, phonemes, (regex) "(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])")) return false;
 	
@@ -71,8 +70,8 @@ int parse(){
 	// Real checking
 	while(getline(cin, line)){
 		line_no++;
-		string word =        line.substr(0,                 line.find('\t'));
-		string jyut_string = line.substr(line.find('\t')+1, line.find('\t', line.find('\t')+1) - line.find('\t'));
+		int temp = line.find('\t');
+		string jyut_string = line.substr(temp+1, line.find('\t', temp + 1) - temp);
 		if (!process(jyut_string)) {
 			cerr << "[L" << line_no << "] Invalid Jyutping detected: " << jyut_string << endl;
 			count_invalid++;
