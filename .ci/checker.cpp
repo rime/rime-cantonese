@@ -33,7 +33,7 @@ bool process(string a){
 int parse(){
 	string line;
 	int count_invalid = 0;
-	int line_no = 1;
+	int line_no = 0;
 	
 	// Discard lines until '...' (i.e. end of header block)
 	while (true){
