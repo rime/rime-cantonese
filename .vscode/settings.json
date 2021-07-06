@@ -3,4 +3,9 @@
 		"editor.insertSpaces": false,
 		"editor.tabSize": 4,
 	},
+	"files.associations": {
+		"fstream": "cpp",
+		"regex": "cpp",
+		"cstdio": "cpp"
+	},
 }

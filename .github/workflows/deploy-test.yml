@@ -36,3 +36,14 @@ jobs:
           echo "Checking..."
           cat log.tmp
           exit $( cat log.tmp | grep -c ^[EW] ) 
+
+  check_jyutping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Building checker from source..."
+          g++ .ci/checker.cpp -o checker.o
+          chmod u+x ./checker.o
+      - run: |
+          echo "Checking jyut6ping3.dict.yaml"
+          ./checker.o jyut6ping3.dict.yaml
