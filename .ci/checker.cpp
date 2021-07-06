@@ -93,7 +93,8 @@ int parse(){
 // Wrapper for command line interface
 int main (int argc, char** argv) {
 	
-	ios_base::sync_with_stdio();
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 	
 	if (argc == 2){
 		dict = argv[1];
