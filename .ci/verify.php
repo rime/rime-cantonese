@@ -3,7 +3,7 @@
 echo '<pre>';
 $starttime = microtime(true);
 
-$fp = fopen('/Users/user/GitHub/rime-cantonese/jyut6ping3.dict.yaml', 'r');
+$fp = fopen('./jyut6ping3.dict.yaml', 'r');
 $i = 0;
 while($line = fgets($fp)) {
 	if (trim($line) === '' || $line[0] === '#') goto next;
