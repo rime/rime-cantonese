@@ -1,0 +1,7 @@
+#!/bin/bash
+
+default_file=/usr/share/rime-data/default.yaml
+
+# Reset default setting
+sed -i "/- schema: jyut6ping3/d" ${default_file}
+sed -i "/- schema: jyut6ping3_ipa/d" ${default_file}
