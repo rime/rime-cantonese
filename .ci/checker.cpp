@@ -2,8 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <vector>
-#include <regex>
+#include <boost/regex.hpp>
 #include <algorithm>
 #include <cstdio>
 #define JYUT phonemes[0]
@@ -11,17 +10,19 @@
 #define STEM phonemes[2]
 #define FINAL phonemes[3]
 #define TONE phonemes[4]
-using namespace std;
+using namespace boost;
 
-string word, line, dict;
+std::string word, line, dict;
 smatch phonemes;
 
+regex expr("(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])");
+
 // CHANGE THIS -- a function to check if a jyutping word is valid 
-bool valid_jyutping(string a){
+bool valid_jyutping(std::string a){
 
 	// Has a jyutping-like structure -- catches most invalid spellings ('ch-', 'eu-', etc)
 	//      If cannot be decomposed into exactly 4 groups, treat as invalid
-	if (!regex_match(a, phonemes, (regex) "(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])")) return false;
+	if (!regex_match(a, phonemes, expr)) return false;
 	
 	/* Note: after the first regex_match, the jyutping string will be decomposed into phonemes acc to the following:
 		phonemes[0] = JYUT = full jyutping string
@@ -54,8 +55,8 @@ bool valid_jyutping(string a){
 
 //Strips down a jyutping string into words and passes to valid_jyutping() for checking
 //Can probably optimise
-bool process(string a){
-	istringstream sin(a);
+bool process(std::string a){
+	std::istringstream sin(a);
 	
 	while(sin >> word) {
 		if (!valid_jyutping(word)) return false;
@@ -71,18 +72,18 @@ int parse(){
 	
 	// Discard lines until '...' (i.e. end of header block)
 	while (true){
-		getline(cin, line);
+		std::getline(std::cin, line);
 		line_no++;
 		if (line == "...") break;
 	} 
 	
 	// Real checking
-	while(getline(cin, line)){
+	while(getline(std::cin, line)){
 		line_no++;
 		int temp = line.find('\t');
-		string jyut_string = line.substr(temp+1, line.find('\t', temp + 1) - temp);
+		std::string jyut_string = line.substr(temp+1, line.find('\t', temp + 1) - temp);
 		if (!process(jyut_string)) {
-			cerr << "[L" << line_no << "] Invalid Jyutping detected: " << jyut_string << endl;
+			std::cerr << "[L" << line_no << "] Invalid Jyutping detected: " << jyut_string << std::endl;
 			count_invalid++;
 		} 
 	}
@@ -93,18 +94,18 @@ int parse(){
 // Wrapper for command line interface
 int main (int argc, char** argv) {
 	
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
+	std::ios_base::sync_with_stdio(false);
+	std::cin.tie(NULL);
 	
 	if (argc == 2){
 		dict = argv[1];
-		cout << "Loading " << dict << endl;
+		std::cout << "Loading " << dict << std::endl;
 	} else {
-		cerr << "Invalid input format" << endl;
-		cerr << "Use ./checker input_file_name.yaml" << endl;
+		std::cerr << "Invalid input format" << std::endl;
+		std::cerr << "Use ./checker input_file_name.yaml" << std::endl;
 		return 1;
 	}
 	
-	freopen(dict.c_str(), "r", stdin); // redirect file to stdin stream
+	std::freopen(dict.c_str(), "r", stdin); // redirect file to stdin stream
 	return parse();
 }
