@@ -70,18 +70,18 @@ int parse(){
 	
 	// Discard lines until '...' (i.e. end of header block)
 	while (true){
-		std::getline(cin, line);
+		std::getline(std::cin, line);
 		line_no++;
 		if (line == "...") break;
 	} 
 	
 	// Real checking
-	while(getline(cin, line)){
+	while(getline(std::cin, line)){
 		line_no++;
 		int temp = line.find('\t');
 		std::string jyut_string = line.substr(temp+1, line.find('\t', temp + 1) - temp);
 		if (!process(jyut_string)) {
-			std::cerr << "[L" << line_no << "] Invalid Jyutping detected: " << jyut_string << endl;
+			std::cerr << "[L" << line_no << "] Invalid Jyutping detected: " << jyut_string << std::endl;
 			count_invalid++;
 		} 
 	}
@@ -97,10 +97,10 @@ int main (int argc, char** argv) {
 	
 	if (argc == 2){
 		dict = argv[1];
-		std::cout << "Loading " << dict << endl;
+		std::cout << "Loading " << dict << std::endl;
 	} else {
-		std::cerr << "Invalid input format" << endl;
-		std::cerr << "Use ./checker input_file_name.yaml" << endl;
+		std::cerr << "Invalid input format" << std::endl;
+		std::cerr << "Use ./checker input_file_name.yaml" << std::endl;
 		return 1;
 	}
 	
