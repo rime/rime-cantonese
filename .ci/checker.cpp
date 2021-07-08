@@ -15,12 +15,14 @@ using namespace boost;
 std::string word, line, dict;
 smatch phonemes;
 
+regex expr("(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])");
+
 // CHANGE THIS -- a function to check if a jyutping word is valid 
 bool valid_jyutping(std::string a){
 
 	// Has a jyutping-like structure -- catches most invalid spellings ('ch-', 'eu-', etc)
 	//      If cannot be decomposed into exactly 4 groups, treat as invalid
-	if (!regex_match(a, phonemes, (regex) "(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])")) return false;
+	if (!regex_match(a, phonemes, expr)) return false;
 	
 	/* Note: after the first regex_match, the jyutping string will be decomposed into phonemes acc to the following:
 		phonemes[0] = JYUT = full jyutping string
