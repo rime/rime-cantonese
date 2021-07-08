@@ -47,9 +47,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.3.4
       - run: |
-          echo "Building checker from source..."
+          echo "Installing prerequisites..."
           sudo apt-get install libboost-all-dev
-          g++ .ci/checker.cpp -o checker.o -Ofast -I/usr/include/boost
+      - run: |
+          echo "Building checker from source..."
+          export LD_LIBRARY_PATH="/usr/lib/boost/lib"
+          g++ .ci/checker.cpp -o checker.o -Ofast -I/usr/include/boost -L/usr/lib/boost/lib -lboost_regex
           chmod u+x ./checker.o
       - run: |
           echo "Checking jyut6ping3.dict.yaml"
