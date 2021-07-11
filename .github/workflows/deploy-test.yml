@@ -29,7 +29,7 @@ jobs:
           sudo apt-get install curl git ibus-rime -y
       - run: | 
           echo "Installing rime-cantonese files"
-          curl -fsSL https://git.io/rime-install | bash -s -- :preset emoji CanCLID/rime-loengfan sgalal/rime-opencc-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:add:schema=jyut6ping3 lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
+          curl -fsSL https://git.io/rime-install | bash -s -- :preset emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
           cp ./*.yaml ~/.config/ibus/rime
           cp ./opencc/* ~/.config/ibus/rime
       - run: | 
