@@ -29,8 +29,8 @@ before_install:
   - export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
 
 # IME Files path
-  - export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
-  - export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
+  - export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-32bit-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
+  - export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-latest custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
   - export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
   - export TRIME_PACKAGES=":preset cantonese emoji CanCLID/rime-loengfan sgalal/rime-opencc-32bit-latest"
 
