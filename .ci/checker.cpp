@@ -45,7 +45,7 @@ bool valid_jyutping(std::string a)
 	else if (INITIAL == "" && (STEM == "i" || STEM == "yu")) return false;
 
 	// u must begin with an initial, except for /ung/ and /uk/
-	if (INITIAL == "" && STEM == "u") return (FINAL == "ng" || FINAL == "k")
+	if (INITIAL == "" && STEM == "u") return (FINAL == "ng" || FINAL == "k");
 	
 	// Add more rules here...
 
