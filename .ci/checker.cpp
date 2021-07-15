@@ -18,8 +18,8 @@ smatch phonemes;
 regex expr("(gw?|kw?|ng?|sh?|[bpmfdtlhzcjw])?(aa?|eo?|oe?|[iu]|yu|ng|m)([iumptk]|ng?)?([1-6])");
 
 // CHANGE THIS -- a function to check if a jyutping word is valid 
-bool valid_jyutping(std::string a){
-
+bool valid_jyutping(std::string a)
+{
 	// Has a jyutping-like structure -- catches most invalid spellings ('ch-', 'eu-', etc)
 	//      If cannot be decomposed into exactly 4 groups, treat as invalid
 	if (!regex_match(a, phonemes, expr)) return false;
@@ -44,6 +44,9 @@ bool valid_jyutping(std::string a){
 	if (JYUT == "ik1" || JYUT == "ik6") return true;
 	else if (INITIAL == "" && (STEM == "i" || STEM == "yu")) return false;
 
+	// u must begin with an initial, except for /ung/ and /uk/
+	if (INITIAL == "" && STEM == "u") return (FINAL == "ng" || FINAL == "k")
+	
 	// Add more rules here...
 
 	// catch invalid matches of /m/ and /ng/
@@ -54,31 +57,30 @@ bool valid_jyutping(std::string a){
 }
 
 //Strips down a jyutping string into words and passes to valid_jyutping() for checking
-//Can probably optimise
-bool process(std::string a){
+bool process(std::string a)
+{
 	std::istringstream sin(a);
-	
 	while(sin >> word) {
 		if (!valid_jyutping(word)) return false;
 	}
-	
 	return true;
 }
 
 //Processes file and keeps track of discovered errors
-int parse(){
+int parse() 
+{
 	int count_invalid = 0;
 	int line_no = 0;
 	
 	// Discard lines until '...' (i.e. end of header block)
-	while (true){
-		std::getline(std::cin, line);
+	while (true) {
+		getline(std::cin, line);
 		line_no++;
 		if (line == "...") break;
 	} 
 	
 	// Real checking
-	while(getline(std::cin, line)){
+	while(getline(std::cin, line)) {
 		line_no++;
 		int temp = line.find('\t');
 		std::string jyut_string = line.substr(temp+1, line.find('\t', temp + 1) - temp);
@@ -92,12 +94,12 @@ int parse(){
 }
 
 // Wrapper for command line interface
-int main (int argc, char** argv) {
-	
+int main (int argc, char** argv) 
+{
 	std::ios_base::sync_with_stdio(false);
 	std::cin.tie(NULL);
 	
-	if (argc == 2){
+	if (argc == 2) {
 		dict = argv[1];
 		std::cout << "Loading " << dict << std::endl;
 	} else {
