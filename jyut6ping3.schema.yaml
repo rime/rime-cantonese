@@ -6,7 +6,7 @@ schema:
   name: 粵語拼音
   version: "2021.04.02"
   author:
-    - sgalal <sgalal.me@outlook.com>
+    - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
     - chaaklau <chaakming@gmail.com>
     - laubonghaudoi <laubonghaudoi@icloud.com>
@@ -14,7 +14,6 @@ schema:
     - William915 <William915@gmail.com>
     - szc126 (@szc126)
     - Bing Jeung <bing@ososo.io>
-    - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - graphemecluster <graphemecluster@gmail.com>
 
   description: |-
