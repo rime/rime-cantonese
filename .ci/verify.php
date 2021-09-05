@@ -4,6 +4,7 @@ echo '<pre>';
 $starttime = microtime(true);
 
 $fp = fopen('./jyut6ping3.dict.yaml', 'r');
+$errorcnt = 0;
 $i = 0;
 while($line = fgets($fp)) {
 	if (trim($line) === '' || $line[0] === '#') goto next;
@@ -74,6 +75,7 @@ while($line = fgets($fp)) {
 
 		error:
 		echo "Invalid Jyutping detected on line $i: $line" . "\r\n";
+		$errorcnt++;
 		$syllable = strtok(" ");
 	}
 
@@ -82,3 +84,4 @@ while($line = fgets($fp)) {
 }
 
 echo "Time used: " . (microtime(true) - $starttime) . ' s';
+exit(min($errorcnt, 1));

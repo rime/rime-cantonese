@@ -4,7 +4,7 @@
 # Jyut6ping3 - 粵拼詞庫
 #
 # 碼表製作與校對人員
-# sgalal <sgalal.me@outlook.com>
+# Ayaka Mikazuki <ayaka@mail.shn.hk>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
@@ -12,7 +12,6 @@
 # William8915 <William915@gmail.com>
 # szc126 (@szc126)
 # Bing Jeung <bing@ososo.io>
-# Ayaka Mikazuki <ayaka@mail.shn.hk>
 #
 # Data © OpenStreetMap and its contributors.
 # Data licensed under the Open Data Commons Open Database License (ODbL).
@@ -361,8 +360,8 @@ use_preset_vocabulary: true
 北河街
 北海傍路
 北海街
-北港㘭路
 北港路
+北港㘭路
 北潭涌自然教育徑
 北潭路
 北盛街
@@ -2379,7 +2378,6 @@ use_preset_vocabulary: true
 沙浦道
 沙瀝公路
 沙灣徑
-沙田㘭道
 沙田區單車主幹綫
 沙田圍路
 沙田坳道
@@ -2390,6 +2388,7 @@ use_preset_vocabulary: true
 沙田車站圍
 沙田鄉事會路
 沙田頭路
+沙田㘭道
 沙福道
 沙羅洞路
 沙角尾北

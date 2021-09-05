@@ -26,7 +26,7 @@
 # Kingsley Bolton, Christopher Hutton. A Dictionary of Cantonese Slang.
 #
 # 碼表製作與校對人員
-# sgalal <sgalal.me@outlook.com>
+# Ayaka Mikazuki <ayaka@mail.shn.hk>
 # chaaklau <chaakming@gmail.com>
 # LeiMaau <leimaau@qq.com>
 # laubonghaudoi <laubonghaudoi@icloud.com>
@@ -34,7 +34,6 @@
 # William915 <William915@gmail.com>
 # szc126 (@szc126)
 # Bing Jeung <bing@ososo.io>
-# Ayaka Mikazuki <ayaka@mail.shn.hk>
 # Henry Chan (@hfhchan)
 
 ---
@@ -21003,7 +21002,6 @@ import_tables:
 䖥	maau4
 媌	maau4
 嫹	maau4	0%
-毛	maau4	3%
 洠	maau4
 渵	maau4
 犛	maau4	0%
@@ -84309,7 +84307,6 @@ import_tables:
 公務員	gung1 mou6 jyun4
 公務員職系	gung1 mou6 jyun4 zik1 hai6
 公務員事務局	gung1 mou6 jyun4 si6 mou6 guk6
-公務員職系	gung1 mou6 jyun4 zik1 hai6
 功能	gung1 nang4
 功能表	gung1 nang4 biu2
 功能詞	gung1 nang4 ci4
@@ -121633,7 +121630,6 @@ import_tables:
 老臨	lou5 lam2
 老笠	lou5 lap1
 老廉	lou5 lim2
-老廉	lou5 lim2
 老廉	lou5 lim4
 老臉	lou5 lim5
 老蓮	lou5 lin2
@@ -145960,6 +145956,7 @@ import_tables:
 身材好弗	san1 coi4 hou2 fit1
 新造	san1 cou5
 新造站	san1 cou5 zaam6
+新造鎮	san1 cou5 zan3
 新束束	san1 cuk1 cuk1
 新簇簇	san1 cuk1 cuk1
 新寵	san1 cung2
@@ -146546,7 +146543,6 @@ import_tables:
 身壯力健	san1 zong3 lik6 gin6
 申狀	san1 zong6
 新造	san1 zou6
-新造鎮	san1 zou6 zan3
 新竹	san1 zuk1
 新竹縣	san1 zuk1 jyun6
 新竹市	san1 zuk1 si5
@@ -150433,7 +150429,6 @@ import_tables:
 水電站	seoi2 din6 zaam6
 水貂	seoi2 diu1
 水刀	seoi2 dou1
-水到渠成	seoi2 dou3 keoi4 cing4
 水到渠成	seoi2 dou3 keoi4 sing4
 水稻	seoi2 dou6
 水道	seoi2 dou6
@@ -156883,7 +156878,6 @@ import_tables:
 傷俘	soeng1 fu1
 相符	soeng1 fu4
 孀婦	soeng1 fu5
-相輔相成	soeng1 fu6 soeng1 cing4
 相輔相成	soeng1 fu6 soeng1 sing4
 雙復磷	soeng1 fuk6 leon4
 傷風	soeng1 fung1
@@ -176877,7 +176871,6 @@ import_tables:
 紙葉子	zi2 jip6 zi2
 紙鷂	zi2 jiu2
 只要	zi2 jiu3
-只要功夫深，鐵杵磨成針	zi2 jiu3 gung1 fu1 sam1 tit3 cyu2 mo4 cing4 zam1
 只要功夫深，鐵杵磨成針	zi2 jiu3 gung1 fu1 sam1 tit3 cyu5 mo4 sing4 zam1
 紙鷂	zi2 jiu6
 子曰	zi2 joek6
@@ -179451,7 +179444,6 @@ import_tables:
 政界人士	zing3 gaai3 jan4 si6
 幀格式	zing3 gaak3 sik1
 證監	zing3 gaam1
-證監會	zing3 gaam1 wui2
 證監會	zing3 gaam1 wui2
 正交	zing3 gaau1
 正交羣	zing3 gaau1 kwan4
