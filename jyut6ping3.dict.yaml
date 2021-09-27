@@ -23896,7 +23896,6 @@ import_tables:
 𧁓	nung4
 䵜	nung5
 繷	nung5
-弄	nung6	0%
 癑	nung6	0%
 㬉	nyun5
 暖	nyun5
@@ -39609,6 +39608,7 @@ import_tables:
 篳路藍縷	bat1 lou6 laam4 leoi5
 不露聲色	bat1 lou6 sing1 sik1
 筆錄	bat1 luk6
+不弄	bat1 lung6
 不買賬	bat1 maai5 zoeng3
 筆墨	bat1 mak6
 筆墨官司	bat1 mak6 gun1 si1
@@ -39684,7 +39684,6 @@ import_tables:
 不佞	bat1 ning6
 不奈煩	bat1 noi6 faan4
 不耐煩	bat1 noi6 faan4
-不弄	bat1 nung6
 不惡	bat1 ok3
 不安	bat1 on1
 不安本分	bat1 on1 bun2 fan1
@@ -39934,7 +39933,7 @@ import_tables:
 不遑多讓	bat1 wong4 do1 joeng6
 筆會	bat1 wui2
 不會	bat1 wui5
-不會弄	bat1 wui5 nung6
+不會弄	bat1 wui5 lung6
 不換行	bat1 wun6 hong4
 不咋地	bat1 zaa3 dei6
 不擇手段	bat1 zaak6 sau2 dyun6
@@ -92110,7 +92109,6 @@ import_tables:
 氣囊	hei3 nong4
 氣惱	hei3 nou5
 棄農經商	hei3 nung4 ging1 soeng1
-戲弄	hei3 nung6
 汽暖	hei3 nyun5
 棄惡從善	hei3 ok3 cung4 sin6
 氣派	hei3 paai3
@@ -122736,18 +122734,21 @@ import_tables:
 弄假成真	lung6 gaa2 sing4 zan1
 弄僵	lung6 goeng1
 弄崗穗鶥	lung6 gong1 seoi6 mei4
+弄下	lung6 haa5
 弄巧反拙	lung6 haau2 faan2 zyut3
 弄巧反拙	lung6 haau2 faan2 zyut6
 弄巧成拙	lung6 haau2 sing4 zyut3
 弄虛作假	lung6 heoi1 zok3 gaa2
 弄險	lung6 him2
 弄權	lung6 kyun4
+弄了	lung6 liu5
 弄亂	lung6 lyun6
 弄明白	lung6 ming4 baak6
 弄瓦	lung6 ngaa5
 弄瓦之喜	lung6 ngaa5 zi1 hei2
 弄平	lung6 ping4
 弄臣	lung6 san4
+弄些	lung6 se1
 弄死	lung6 sei2
 弄醒	lung6 seng2
 弄碎	lung6 seoi3
@@ -137851,10 +137852,6 @@ import_tables:
 農莊	nung4 zong1
 濃妝艷抹	nung4 zong1 jim6 mut3
 膿腫	nung4 zung2
-弄下	nung6 haa5
-弄巧反拙	nung6 haau2 faan2 zyut6
-弄了	nung6 liu5
-弄些	nung6 se1
 暖包	nyun5 baau1
 暖巢管家	nyun5 caau4 gun2 gaa1
 暖蛋	nyun5 daan2
@@ -181863,7 +181860,6 @@ import_tables:
 作美	zok3 mei5
 作夢	zok3 mung6
 作牙	zok3 ngaa4
-作弄	zok3 nung6
 作愛	zok3 oi3
 作惡	zok3 ok3
 作惡多端	zok3 ok3 do1 dyun1
@@ -182930,7 +182926,6 @@ import_tables:
 祝你好運	zuk1 nei5 hou2 wan6
 足額	zuk1 ngaak2
 觸怒	zuk1 nou6
-捉弄	zuk1 nung6
 竹排	zuk1 paai4
 竹棚	zuk1 paang4
 粥棚	zuk1 paang4
