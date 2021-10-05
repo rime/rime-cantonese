@@ -62,12 +62,12 @@ translator:
     - xform/c|z/t͡s/                                   # 標示塞擦音
     - xlit/bdg/ptk/                                   # 改為清音
 
-    - xform/qq/˨/                                     # 第 4 聲
+    - xform/qq/˨/                                     # 第 6 聲
     - xform/xx/˩˧/                                     # 第 5 聲
-    - xform/vv/˨˩/                                     # 第 6 聲
-    - xform/q/˧/                                      # 第 1 聲
+    - xform/vv/˨˩/                                     # 第 4 聲
+    - xform/q/˧/                                      # 第 3 聲
     - xform/x/˧˥/                                      # 第 2 聲
-    - xform/v/˥/                                      # 第 3 聲
+    - xform/v/˥/                                      # 第 1 聲
 
     - xform/^,//                                      # 開頭嘅 , 唔要
     - xform/,/./                                      # 將 , 改成 . 以表示音節劃分
