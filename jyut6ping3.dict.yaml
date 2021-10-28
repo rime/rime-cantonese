@@ -2553,7 +2553,6 @@ import_tables:
 輯	cap1
 雴	cap1	0%
 靸	cap1
-㐂	cat1
 㓒	cat1	0%
 㓼	cat1	0%
 㔑	cat1	0%
@@ -11888,6 +11887,7 @@ import_tables:
 䔇	hei2
 呇	hei2
 喜	hei2
+㐂	hei2	0%
 囍	hei2
 嬉	hei2	3%
 屺	hei2
@@ -13684,6 +13684,7 @@ import_tables:
 怮	jau1
 恷	jau1	0%
 憂	jau1
+𢝊	jau1	0%
 懮	jau1
 櫌	jau1
 瀀	jau1
@@ -15669,7 +15670,6 @@ import_tables:
 釀	joeng6
 養	joeng6
 𧁒	joeng6
-𢝊	jou1	0%
 㓇	juk1	0%
 㤢	juk1
 㦽	juk1
@@ -88940,7 +88940,7 @@ import_tables:
 敲鑼	haau1 lo4
 烤爐	haau1 lou4
 烤麪包	haau1 min6 baau1
-烤面包機	haau1 min6 baau1 gei1
+烤麪包機	haau1 min6 baau1 gei1
 哮鳴	haau1 ming4
 酵母	haau1 mou5
 酵母菌	haau1 mou5 kwan2
@@ -116747,9 +116747,9 @@ import_tables:
 劉詩詩	lau4 si1 si1
 樓市	lau4 si5
 劉奭	lau4 sik1
-劉禪	lau4 sim4
 榴霰彈	lau4 sin3 daan2
 流線型	lau4 sin3 jing4
+劉禪	lau4 sin6
 婁星	lau4 sing1
 流星	lau4 sing1
 流星花園	lau4 sing1 faa1 jyun2
@@ -162634,7 +162634,6 @@ import_tables:
 彖辭	teon3 ci4
 盾牌	teon5 paai4
 盾牌座	teon5 paai4 zo6
-丅裇	ti1 seot1
 剔除	tik1 ceoi4
 剔出	tik1 ceot1
 剔號	tik1 hou2
@@ -162878,11 +162877,11 @@ import_tables:
 天光大白	tin1 gwong1 daai6 baak6
 天光墟	tin1 gwong1 heoi1
 天光星	tin1 gwong1 sing1
-天下興亡，匹夫有責	tin1 haa5 hing1 mong4 pat1 fu1 jau5 zaak3
 天下	tin1 haa6
 天下本無事，庸人自擾之	tin1 haa6 bun2 mou4 si6 jung1 jan4 zi6 jiu2 zi1
 天下大亂	tin1 haa6 daai6 lyun6
 天下第一	tin1 haa6 dai6 jat1
+天下興亡	tin1 haa6 hing1 mong4
 天下興亡，匹夫有責	tin1 haa6 hing1 mong4 pat1 fu1 jau5 zaak3
 天下一家	tin1 haa6 jat1 gaa1
 天下文章一大抄	tin1 haa6 man4 zoeng1 jat1 daai6 caau1
