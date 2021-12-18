@@ -13680,6 +13680,7 @@ import_tables:
 怮	jau1
 恷	jau1	0%
 憂	jau1
+𢝊	jau1	0%
 懮	jau1
 櫌	jau1
 瀀	jau1
@@ -15665,7 +15666,6 @@ import_tables:
 釀	joeng6
 養	joeng6
 𧁒	joeng6
-𢝊	jou1	0%
 㓇	juk1	0%
 㤢	juk1
 㦽	juk1
@@ -80195,7 +80195,7 @@ import_tables:
 敬賢禮士	ging3 jin4 lai5 si6
 敬業	ging3 jip6
 敬業福	ging3 jip6 fuk1
-敬業樂羣	ging3 jip6 lok6 kwan4
+敬業樂羣	ging3 jip6 ngaau6 kwan4
 敬業精神	ging3 jip6 zing1 san4
 敬若神明	ging3 joek6 san4 ming4
 敬仰	ging3 joeng5
@@ -88932,7 +88932,7 @@ import_tables:
 敲鑼	haau1 lo4
 烤爐	haau1 lou4
 烤麪包	haau1 min6 baau1
-烤面包機	haau1 min6 baau1 gei1
+烤麪包機	haau1 min6 baau1 gei1
 哮鳴	haau1 ming4
 酵母	haau1 mou5
 酵母菌	haau1 mou5 kwan2
@@ -123493,7 +123493,6 @@ import_tables:
 唔使緊	m4 sai2 gan2
 唔使驚	m4 sai2 geng1
 唔使講	m4 sai2 gong2
-唔洗講	m4 sai2 gong2
 唔使客氣	m4 sai2 haak3 hei3
 唔使恨	m4 sai2 han6
 唔使一陣	m4 sai2 jat1 zan6
@@ -123509,7 +123508,6 @@ import_tables:
 唔駛問亞貴	m4 sai2 man6 aa3 gwai3
 唔使審	m4 sai2 sam2
 唔使死	m4 sai2 sei2
-唔洗死	m4 sai2 sei2
 唔使送	m4 sai2 sung3
 唔使送啊	m4 sai2 sung3 aa3
 唔使搵	m4 sai2 wan2
@@ -162626,7 +162624,6 @@ import_tables:
 彖辭	teon3 ci4
 盾牌	teon5 paai4
 盾牌座	teon5 paai4 zo6
-丅裇	ti1 seot1
 剔除	tik1 ceoi4
 剔出	tik1 ceot1
 剔號	tik1 hou2
@@ -162870,11 +162867,11 @@ import_tables:
 天光大白	tin1 gwong1 daai6 baak6
 天光墟	tin1 gwong1 heoi1
 天光星	tin1 gwong1 sing1
-天下興亡，匹夫有責	tin1 haa5 hing1 mong4 pat1 fu1 jau5 zaak3
 天下	tin1 haa6
 天下本無事，庸人自擾之	tin1 haa6 bun2 mou4 si6 jung1 jan4 zi6 jiu2 zi1
 天下大亂	tin1 haa6 daai6 lyun6
 天下第一	tin1 haa6 dai6 jat1
+天下興亡	tin1 haa6 hing1 mong4
 天下興亡，匹夫有責	tin1 haa6 hing1 mong4 pat1 fu1 jau5 zaak3
 天下一家	tin1 haa6 jat1 gaa1
 天下文章一大抄	tin1 haa6 man4 zoeng1 jat1 daai6 caau1
