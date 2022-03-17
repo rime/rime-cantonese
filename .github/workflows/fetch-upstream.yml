@@ -2,7 +2,8 @@ name: Fetch upstream
 
 on:
   schedule:
-    - cron: '30 8 * * 4'  # run every week
+    - cron: '45 8 * * 4'  # run every week
+  workflow_dispatch:
 
 jobs:
   update:
