@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2022.03.17"
+version: "2022.03.24"
 sort: by_weight
 ...
 
@@ -6291,7 +6291,6 @@ sort: by_weight
 欸	ei3
 欸	ei6	3%
 誒	ei6	0%
-𠰲	eot1
 㳸	faa1
 化	faa1	3%
 嘩	faa1	0%
@@ -8220,7 +8219,7 @@ sort: by_weight
 雞	gai1
 鳮	gai1	0%
 鶏	gai1	0%
-鷄	gai1
+鷄	gai1	0%
 偈	gai2
 計	gai2	10%
 㡭	gai3
@@ -17332,7 +17331,6 @@ sort: by_weight
 軡	kim4	0%
 鈐	kim4
 鉗	kim4
-鍼	kim4	3%
 鳹	kim4	0%
 黔	kim4
 黚	kim4
@@ -23878,6 +23876,7 @@ sort: by_weight
 猗	o2	3%
 哦	o4	3%
 哦	o6
+𠰲	oet1
 㗒	oi1
 哀	oi1
 唉	oi1	0%
