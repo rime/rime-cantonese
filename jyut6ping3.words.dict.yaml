@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.words
-version: "2022.04.14"
+version: "2022.04.21"
 sort: by_weight
 ...
 
@@ -10936,7 +10936,7 @@ sort: by_weight
 訓夠	fan3 gau3
 訓詁	fan3 gu2
 瞓下	fan3 haa5
-訓開	fan3 hoi1
+瞓開	fan3 hoi1
 瞓好	fan3 hou2
 瞓喇	fan3 laa3
 訓練	fan3 lin6
@@ -28236,7 +28236,6 @@ sort: by_weight
 唔切	m4 cit3
 唔錯	m4 co3
 唔彈	m4 daan6
-唔嘚	m4 dak1
 唔得	m4 dak1
 唔掂	m4 dim6
 唔定	m4 ding6
@@ -31432,7 +31431,6 @@ sort: by_weight
 眼花	ngaan5 faa1
 眼睏	ngaan5 fan3
 眼瞓	ngaan5 fan3
-眼訓	ngaan5 fan3
 眼科	ngaan5 fo1
 眼福	ngaan5 fuk1
 眼風	ngaan5 fung1
@@ -48288,7 +48286,8 @@ T裇	ti1 seot1
 轉插	zyun3 caap3
 轉車	zyun3 ce1
 轉趨	zyun3 ceoi1
-鑽牆	zyun3 coeng4轉速	zyun3 cuk1
+鑽牆	zyun3 coeng4
+轉速	zyun3 cuk1
 轉動	zyun3 dung6
 鑽粉	zyun3 fan2
 鑽戒	zyun3 gaai3
