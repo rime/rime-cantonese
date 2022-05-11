@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2022.03.17"
+version: "2022.05.05"
 sort: by_weight
 ...
 
@@ -6291,7 +6291,6 @@ sort: by_weight
 欸	ei3
 欸	ei6	3%
 誒	ei6	0%
-𠰲	eot1
 㳸	faa1
 化	faa1	3%
 嘩	faa1	0%
@@ -6305,6 +6304,7 @@ sort: by_weight
 蘤	faa1	0%
 錵	faa1
 𤾸	faa1
+花	faa1 
 划	faa3
 化	faa3
 杹	faa3
@@ -8220,7 +8220,7 @@ sort: by_weight
 雞	gai1
 鳮	gai1	0%
 鶏	gai1	0%
-鷄	gai1
+鷄	gai1	0%
 偈	gai2
 計	gai2	10%
 㡭	gai3
@@ -10668,6 +10668,7 @@ sort: by_weight
 𤈛	gwong1
 𥙑	gwong1
 𩧉	gwong1
+光	gwong1 
 㼅	gwong2	0%
 䇊	gwong2
 広	gwong2	0%
@@ -15187,6 +15188,7 @@ sort: by_weight
 𦠜	jip6
 𨭥	jip6
 𪃸	jip6
+葉	jip6 
 䊦	jit3
 䥟	jit3	0%
 䭇	jit3
@@ -15229,6 +15231,7 @@ sort: by_weight
 𡸣	jit6
 𤍠	jit6
 𤾚	jit6
+熱	jit6 
 㕭	jiu1
 㙘	jiu1
 䌁	jiu1
@@ -17332,7 +17335,6 @@ sort: by_weight
 軡	kim4	0%
 鈐	kim4
 鉗	kim4
-鍼	kim4	3%
 鳹	kim4	0%
 黔	kim4
 黚	kim4
@@ -20778,7 +20780,7 @@ sort: by_weight
 禡	maa6
 罵	maa6
 螞	maa6
-駡	maa6
+駡	maa6	0%
 鬕	maa6
 㜥	maai4
 㦟	maai4
@@ -23878,6 +23880,7 @@ sort: by_weight
 猗	o2	3%
 哦	o4	3%
 哦	o6
+𠰲	oet1
 㗒	oi1
 哀	oi1
 唉	oi1	0%
@@ -26070,6 +26073,7 @@ sort: by_weight
 閖	seoi2	0%
 雟	seoi2	0%
 靃	seoi2
+水	seoi2 
 㑕	seoi3	0%
 㞸	seoi3
 㢷	seoi3	0%
