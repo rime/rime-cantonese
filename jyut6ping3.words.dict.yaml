@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.words
-version: "2022.05.05"
+version: "2022.05.12"
 sort: by_weight
 ...
 
@@ -4670,6 +4670,7 @@ sort: by_weight
 黐佬	ci1 lou2
 雌鹿	ci1 luk6
 笞罵	ci1 maa6
+黐埋	ci1 maai4
 癡迷	ci1 mai4
 黐妹	ci1 mui1
 黐牙	ci1 ngaa4
@@ -4694,6 +4695,7 @@ sort: by_weight
 癡醉	ci1 zeoi3
 癡長	ci1 zoeng2
 笞杖	ci1 zoeng6
+黐住	ci1 zyu6
 柿餅	ci2 beng2
 始創	ci2 cong3
 齒蠹	ci2 dou3
@@ -5910,7 +5912,7 @@ sort: by_weight
 牆紙	coeng4 zi2
 長做	coeng4 zou6
 採辦	coi2 baan6
-采青	coi2 ceng1
+採青	coi2 ceng1
 採取	coi2 ceoi2
 採出	coi2 ceot1
 彩池	coi2 ci4
@@ -5924,7 +5926,7 @@ sort: by_weight
 採風	coi2 fung1
 採購	coi2 gau3
 採嘅	coi2 ge3
-采擷	coi2 git3
+採擷	coi2 git3
 彩轎	coi2 giu2
 彩鸛	coi2 gun3
 採掘	coi2 gwat6
@@ -19873,7 +19875,6 @@ sort: by_weight
 渴市	hot3 si5
 喝酒	hot3 zau2
 薅草	hou1 cou2
-好！	hou2
 好弊	hou2 bai6
 好比	hou2 bei2
 好波	hou2 bo1
@@ -40439,7 +40440,6 @@ sort: by_weight
 頹塌	teoi4 taap3
 頹萎	teoi4 wai2
 盾牌	teon5 paai4
-T裇	ti1 seot1
 剔除	tik1 ceoi4
 剔出	tik1 ceot1
 剔號	tik1 hou2
@@ -50686,6 +50686,7 @@ T裇	ti1 seot1
 黐金糠	ci1 gam1 hong1
 黐鳩線	ci1 gau1 sin3
 黐閪線	ci1 hai1 sin3
+黐起身	ci1 hei2 san1
 癡撚線	ci1 lan2 sin3
 黐撚線	ci1 lan2 sin3
 黐𡳞線	ci1 lan2 sin3
@@ -58168,7 +58169,7 @@ T裇	ti1 seot1
 航線表	hong4 sin3 biu2
 行住佢	hong4 zyu6 keoi5
 喝白粥	hot3 baak6 zuk1
-喝倒彩	hot3 dou2 coi2
+喝倒采	hot3 dou2 coi2
 褐灰雀	hot3 fui1 zoek3
 褐鰹鳥	hot3 gin1 niu5
 褐河烏	hot3 ho4 wu1
@@ -86694,7 +86695,6 @@ T裇	ti1 seot1
 無字天書	mou4 zi6 tin1 syu1
 無職無權	mou4 zik1 mou4 kyun4
 無尖不商	mou4 zim1 bat1 soeng1
-無精打彩	mou4 zing1 daa2 coi2
 無精打采	mou4 zing1 daa2 coi2
 無再出聲	mou4 zoi3 ceot1 seng1
 無中生有	mou4 zung1 sang1 jau5
@@ -87045,7 +87045,6 @@ T裇	ti1 seot1
 沒羞沒臊	mut6 sau1 mut6 sou3
 沒上沒下	mut6 soeng6 mut6 haa6
 沒頭沒臉	mut6 tau4 mut6 lim5
-沒精打釆	mut6 zing1 daa2 coi2
 沒精打采	mut6 zing1 daa2 coi2
 沒在深圳	mut6 zoi6 sam1 zan3
 挐挐掕掕	naa1 naa1 lang3 lang3
