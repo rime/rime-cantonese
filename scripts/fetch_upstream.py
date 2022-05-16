@@ -41,24 +41,21 @@ with open(join(upstream_dir, 'char.csv')) as f:
 
     for line in f:
         char, jyutping, pron_rank, tone_var, literary_vernacular, comment = line.rstrip('\n').split(',')
-
         pron_rank = {
             '預設': '',
             '常用': '5%',
             '罕見': '3%',
             '棄用': '0%',
         }[pron_rank]
-
-        rest = pron_rank + ('' if not comment else f'\t# {comment}')
-
-        chars_list.append((char, jyutping, rest))
+        chars_list.append((char, jyutping, pron_rank))
 
 chars_list.sort(key=sort_criteria)
 
 with open('jyut6ping3.chars.dict.yaml', 'w') as f:
     print(generate_header('chars'), file=f)
-    for char, jyutping, *rest in chars_list:
-        print(char, jyutping, *rest, sep='\t', file=f)
+    for char, jyutping, pron_rank in chars_list:
+        line = char + '\t' + jyutping + ('' if not pron_rank else f'\t{pron_rank}')
+        print(line, sep='\t', file=f)
 
 # word
 
@@ -70,7 +67,6 @@ for filename in ('phrase_fragment.csv', 'trending.csv', 'word.csv'):
 
         for line in f:
             char, jyutping = line.rstrip('\n').split(',')
-
             words_list.append((char, jyutping))
 
 words_list.sort(key=sort_criteria)
