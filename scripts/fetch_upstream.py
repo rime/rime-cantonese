@@ -1,8 +1,9 @@
 import datetime
 import pytz
-from glob import iglob
 from os.path import join
 import sys
+
+# header
 
 try:
     upstream_dir = sys.argv[1]
@@ -28,34 +29,53 @@ sort: by_weight
 '''
 
 def sort_criteria(entry):
-    word, romans, rest = entry
-    return len(word), romans, word, rest
+    char, jyutping, *rest = entry
+    return len(char), jyutping, char, *rest
+
+# char
 
 chars_list = []
-words_list = []
 
-for filename in iglob(join(upstream_dir, '*.csv')):
-    with open(filename) as f:
-        next(f)  # skip header
+with open(join(upstream_dir, 'char.csv')) as f:
+    next(f)  # skip header
 
-        for line in f:
-            word, romans, *rest = line.rstrip('\n').split(',', 3)
+    for line in f:
+        char, jyutping, pron_rank, tone_var, literary_vernacular, comment = line.rstrip('\n').split(',')
 
-            romans_list = romans.replace(']', '').split('[')  # handle aaa[bbb][ccc]
+        pron_rank = {
+            '預設': '',
+            '常用': '5%',
+            '罕見': '3%',
+            '棄用': '0%',
+        }[pron_rank]
 
-            for romans in romans_list:
-                target_list = chars_list if len(word) == 1 else words_list
-                target_list.append((word, romans, rest))
+        rest = pron_rank + ('' if not comment else f'\t# {comment}')
+
+        chars_list.append((char, jyutping, rest))
 
 chars_list.sort(key=sort_criteria)
-words_list.sort(key=sort_criteria)
 
 with open('jyut6ping3.chars.dict.yaml', 'w') as f:
     print(generate_header('chars'), file=f)
-    for word, romans, rest in chars_list:
-        print(word, romans, *rest, sep='\t', file=f)
+    for char, jyutping, *rest in chars_list:
+        print(char, jyutping, *rest, sep='\t', file=f)
+
+# word
+
+words_list = []
+
+for filename in ('phrase_fragment.csv', 'trending.csv', 'word.csv'):
+    with open(join(upstream_dir, filename)) as f:
+        next(f)  # skip header
+
+        for line in f:
+            char, jyutping = line.rstrip('\n').split(',')
+
+            words_list.append((char, jyutping))
+
+words_list.sort(key=sort_criteria)
 
 with open('jyut6ping3.words.dict.yaml', 'w') as f:
     print(generate_header('words'), file=f)
-    for word, romans, rest in words_list:
-        print(word, romans, *rest, sep='\t', file=f)
+    for char, jyutping in words_list:
+        print(char, jyutping, sep='\t', file=f)
