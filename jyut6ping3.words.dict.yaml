@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.words
-version: "2022.05.16"
+version: "2022.05.19"
 sort: by_weight
 ...
 
@@ -2357,7 +2357,7 @@ sort: by_weight
 煲起	bou1 hei2
 褒義	bou1 ji6
 煲菸	bou1 jin1
-煲葯	bou1 joek6
+煲藥	bou1 joek6
 褒揚	bou1 joeng4
 煲劇	bou1 kek6
 煲蠟	bou1 laap6
@@ -3036,7 +3036,7 @@ sort: by_weight
 茶油	caa4 jau4
 查驗	caa4 jim6
 茶葉	caa4 jip6
-搽葯	caa4 joek6
+搽藥	caa4 joek6
 查閱	caa4 jyut6
 查拳	caa4 kyun4
 查揦	caa4 laa2
@@ -7617,7 +7617,6 @@ sort: by_weight
 旦角	daan2 gok3
 彈殼	daan2 hok3
 蛋殼	daan2 hok3
-彈葯	daan2 joek6
 彈藥	daan2 joek6
 彈頭	daan2 tau4
 蛋黃	daan2 wong2
@@ -39344,7 +39343,6 @@ sort: by_weight
 鼠害	syu2 hoi6
 鼠嘢	syu2 je5
 鼠疫	syu2 jik6
-鼠葯	syu2 joek6
 鼠藥	syu2 joek6
 暑期	syu2 kei4
 鼠摸	syu2 mo1
@@ -41104,7 +41102,7 @@ sort: by_weight
 湯口	tong1 hau2
 劏開	tong1 hoi1
 湯殼	tong1 hok3
-湯葯	tong1 joek6
+湯藥	tong1 joek6
 湯浴	tong1 juk6
 湯丸	tong1 jyun2
 湯圓	tong1 jyun2
@@ -44288,7 +44286,6 @@ sort: by_weight
 汁液	zap1 jik6
 執業	zap1 jip6
 執葉	zap1 jip6
-執葯	zap1 joek6
 執藥	zap1 joek6
 執勤	zap1 kan4
 執笠	zap1 lap1
@@ -69264,7 +69261,6 @@ sort: by_weight
 劏雞井	tong1 gai1 zeng2
 劏光豬	tong1 gwong1 zyu1
 湯河粉	tong1 ho4 fan2
-湯葯費	tong1 joek6 fai3
 湯藥費	tong1 joek6 fai3
 湯力水	tong1 lik6 seoi2
 湯米粉	tong1 mai5 fan2
