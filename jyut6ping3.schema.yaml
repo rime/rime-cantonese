@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2021.04.02"
+  version: "2022.06.07"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -100,36 +100,37 @@ speller:
     # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
     #- derive/^ng([123456])$/m$1/
 
-    - derive/[123456]//           # 忽略聲調
+    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
+    - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
+    - derive/^jyu/ju/             # 容錯 jyu -> ju
+    - derive/yu/y/                # 容錯 jyu -> jy
+    - erase/y(ng|k)/              # y + ng/k 視作簡拼而非 jung/juk
+    - derive/(g|k)u(?!ng|k)/$1wu/ # 輔音圓唇
+    - derive/eoi(?=\d)/eoy/       # 容錯
+    - derive/eo/oe/               # 容錯 eo/oe 不分
+    - derive/oe/eo/               # 容錯 eo/oe 不分
+    - derive/aa(?=\d)/a/          # 容錯
+    - derive/\d//                 # 忽略聲調
+
+    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
+
     - xform/1/v/                  # 陰平
     - xform/4/vv/                 # 陽平
     - xform/2/x/                  # 陰上
     - xform/5/xx/                 # 陽上
     - xform/3/q/                  # 陰去
     - xform/6/qq/                 # 陽去
-    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
-    - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
-    - derive/^jyu/ju/             # 容錯 jyu -> ju
-    - derive/yu/y/                # 容錯 jyu -> jy
-    - erase/y(ng|k)/              # y + ng/k 視作簡拼而非 jung/juk
-    - derive/eoi$/oey/            # 容錯
-    - derive/eoi$/eoy/            # 容錯
-    - derive/eo/oe/               # 容錯 eo/oe 不分
-    - derive/oe(ng|k)$/eo$1/      # 容錯
-    - derive/aa$/a/               # 容錯
-    - abbrev/^([a-z]).+$/$1/      # 首字母簡拼
-    - abbrev/^([gk]w|ng).+$/$1/   # 首2字母簡拼
 
 translator:
   dictionary: jyut6ping3
   spelling_hints: 8  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
   preedit_format:
-    - xform/([aeioumngptk])vv/${1}4/
-    - xform/([aeioumngptk])xx/${1}5/
-    - xform/([aeioumngptk])qq/${1}6/
-    - xform/([aeioumngptk])v/${1}1/
-    - xform/([aeioumngptk])x/${1}2/
-    - xform/([aeioumngptk])q/${1}3/
+    - xform/([aeiouymngptk])vv/${1}4/
+    - xform/([aeiouymngptk])xx/${1}5/
+    - xform/([aeiouymngptk])qq/${1}6/
+    - xform/([aeiouymngptk])v/${1}1/
+    - xform/([aeiouymngptk])x/${1}2/
+    - xform/([aeiouymngptk])q/${1}3/
 
 luna_pinyin:
   tag: luna_pinyin
