@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2022.06.07"
+  version: "2023.01.07"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -13,7 +13,7 @@ schema:
     - tanxpyox <tanxpyox@gmail.com>
     - William915 <William915@gmail.com>
     - szc126 (@szc126)
-    - Bing Jeung <bing@ososo.io>
+    - Bing Zheung <bing@ososo.io>
     - graphemecluster <graphemecluster@gmail.com>
 
   description: |-
@@ -188,7 +188,7 @@ trad_tw:
   opencc_config: t2tw.json
 
 emoji_suggestion:
-  opencc_config: emoji.json
+  opencc_config: emoji_cantonese.json
   option_name: emoji_suggestion
   tips: all
 
