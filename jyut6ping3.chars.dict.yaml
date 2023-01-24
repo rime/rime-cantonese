@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2022.07.21"
+version: "2023.01.25"
 sort: by_weight
 ...
 
@@ -127,6 +127,7 @@ sort: by_weight
 甖	aang1
 罃	aang1
 罌	aang1
+鴨	aap2	5%
 㳌	aap3
 㾎	aap3
 䆘	aap3
@@ -5869,6 +5870,7 @@ sort: by_weight
 𡇙	doe4
 𣳼	doe4
 𡃏	doe6
+剁	doek1	5%
 㭬	doek3
 刴	doek3	5%
 剁	doek3
@@ -11082,6 +11084,7 @@ sort: by_weight
 阬	haang1	5%
 桁	haang4
 行	haang4	5%
+盒	haap2	3%
 㗐	haap3
 䛅	haap3
 䶗	haap3
@@ -11544,6 +11547,7 @@ sort: by_weight
 醘	hap1
 鉿	hap1	5%
 闟	hap1
+盒	hap2	5%
 嗑	hap3	3%
 㔩	hap6	5%
 㕉	hap6
@@ -12296,7 +12300,7 @@ sort: by_weight
 㰤	ho1
 㱒	ho1
 厂	ho1	5%
-呵	ho1	3%
+呵	ho1	5%
 嚄	ho1
 嚯	ho1
 坷	ho1
@@ -18437,7 +18441,8 @@ sort: by_weight
 鉝	laap6
 錯	laap6	0%
 鑞	laap6
-鱲	laap6	3%
+鱲	laap6
+𩶘	laap6	5%
 喇	laat3	0%
 瘌	laat3
 鬎	laat3
@@ -18676,7 +18681,7 @@ sort: by_weight
 竔	lap6
 笠	lap6	3%
 苙	lap6	5%
-鱲	lap6	3%
+鱲	lap6	0%
 鴗	lap6
 𠈔	lap6
 𨚪	lap6
@@ -18691,6 +18696,7 @@ sort: by_weight
 㚼	lau2
 㱙	lau2	5%
 摟	lau2
+樓	lau2	5%
 瘤	lau2
 靵	lau2
 嘍	lau3	3%
@@ -19793,7 +19799,7 @@ sort: by_weight
 邋	lip6	5%
 鬛	lip6
 鬣	lip6
-鱲	lip6
+鱲	lip6	3%
 鼡	lip6
 𤢪	lip6
 𦘒	lip6
@@ -19838,13 +19844,14 @@ sort: by_weight
 了	liu1	3%
 六	liu1	0%
 撂	liu1
-撩	liu1	3%
+撩	liu1	5%
 敹	liu1
 溜	liu1	3%
 熘	liu1	5%
 鷯	liu1
 𠮩	liu1	5%
 𢓌	liu1
+撩	liu2	5%
 料	liu2	5%
 潦	liu2
 髎	liu2
@@ -22699,6 +22706,7 @@ sort: by_weight
 鈮	nei6	5%
 餌	nei6
 𠽒	neng2
+囡	neoi1	5%
 女	neoi2	3%
 䋈	neoi4	5%
 蒘	neoi4	5%
@@ -25666,6 +25674,7 @@ sort: by_weight
 㖘	san2
 𠱸	san2
 㔤	san3
+呻	san3	5%
 㫳	san4
 䆣	san4
 䢅	san4
@@ -27024,6 +27033,7 @@ sort: by_weight
 省	sing2	5%
 睲	sing2
 箵	sing2	5%
+繩	sing2	5%
 醒	sing2
 勝	sing3
 圣	sing3	5%
