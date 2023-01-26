@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.words
-version: "2023.01.25"
+version: "2023.01.26"
 sort: by_weight
 ...
 
@@ -3719,6 +3719,7 @@ sort: by_weight
 親代	can1 doi6
 親近	can1 gan6
 嗔詬	can1 gau3
+親共	can1 gung6
 嗔怪	can1 gwaai3
 親眷	can1 gyun3
 親口	can1 hau2
@@ -10396,6 +10397,7 @@ sort: by_weight
 煩膠	faan4 gaau1
 凡高	faan4 gou1
 藩國	faan4 gwok3
+煩閪	faan4 hai1
 凡係	faan4 hai6
 繁衍	faan4 hin2
 煩囂	faan4 hiu1
@@ -13297,6 +13299,7 @@ sort: by_weight
 狡辯	gaau2 bin6
 筊杯	gaau2 bui1
 攪拌	gaau2 bun6
+搞柒	gaau2 cat6
 搞錢	gaau2 cin2
 搞清	gaau2 cing1
 搞錯	gaau2 co3
@@ -26501,6 +26504,7 @@ sort: by_weight
 漏壺	lau6 wu2
 陋習	lau6 zaap6
 鎦子	lau6 zi2
+漏精	lau6 zing1
 陋俗	lau6 zuk6
 呢類	le1 leoi6
 呢帽	le1 mou2
@@ -27065,6 +27069,7 @@ sort: by_weight
 連着	lin4 zoek6
 連載	lin4 zoi3
 連續	lin4 zuk6
+連豬	lin4 zyu1
 連鑄	lin4 zyu3
 摙車	lin5 ce1
 輦運	lin5 wan6
@@ -30292,6 +30297,7 @@ sort: by_weight
 無他	mou4 taa1
 毛毯	mou4 taan2
 毛條	mou4 tiu4
+無套	mou4 tou3
 無套	mou4 tou3
 毛肚	mou4 tou5
 摹畫	mou4 waak6
@@ -38279,6 +38285,7 @@ sort: by_weight
 小本	siu2 bun2
 小測	siu2 caak1
 小產	siu2 caan2
+少柒	siu2 cat6
 小丑	siu2 cau2
 小槌	siu2 ceoi4
 小腸	siu2 coeng2
@@ -38288,6 +38295,7 @@ sort: by_weight
 小弟	siu2 dai6
 小滴	siu2 dik6
 小店	siu2 dim3
+少癲	siu2 din1
 小調	siu2 diu6
 小島	siu2 dou2
 小蠹	siu2 dou3
@@ -41731,6 +41739,7 @@ sort: by_weight
 同黨	tung4 dong2
 童黨	tung4 dong2
 同化	tung4 faa3
+同婚	tung4 fan1
 筒閥	tung4 fat6
 同房	tung4 fong2
 同感	tung4 gam2
@@ -46116,6 +46125,7 @@ sort: by_weight
 賤種	zin3 zung2
 箭豬	zin3 zyu1
 賤稱	zin6 cing1
+賤畜	zin6 cuk1
 賤貨	zin6 fo3
 賤價	zin6 gaa3
 賤格	zin6 gaak3
@@ -46260,6 +46270,7 @@ sort: by_weight
 整齊	zing2 cai4
 整嚫	zing2 can1
 整親	zing2 can1
+整柒	zing2 cat6
 整除	zing2 ceoi4
 整菜	zing2 coi3
 整頓	zing2 deon6
@@ -49436,6 +49447,7 @@ sort: by_weight
 畀人砌	bei2 jan4 cai3
 畀人打	bei2 jan4 daa2
 畀人燉	bei2 jan4 dan6
+畀人屌	bei2 jan4 diu2
 畀人飛	bei2 jan4 fei1
 畀人搞	bei2 jan4 gaau2
 畀人恰	bei2 jan4 hap1
@@ -51667,6 +51679,7 @@ sort: by_weight
 打餐懵	daa2 caan1 mung2
 打層次	daa2 cang4 ci3
 打柒佢	daa2 cat1 keoi5
+打柒佢	daa2 cat6 keoi5
 打抽豐	daa2 cau1 fung1
 打抽風	daa2 cau1 fung1
 打秋豐	daa2 cau1 fung1
@@ -51736,6 +51749,7 @@ sort: by_weight
 打擊手	daa2 gik1 sau2
 打哥夫	daa2 go1 fu2
 打個突	daa2 go3 dat6
+打個丁	daa2 go3 ding1
 打個框	daa2 go3 kwaak1
 打個𡃈	daa2 go3 kwaak1
 打個折	daa2 go3 zit3
@@ -51971,6 +51985,7 @@ sort: by_weight
 大鰈魚	daai6 dip6 jyu2
 大多數	daai6 do1 sou3
 大袋子	daai6 doi6 zi2
+大刀會	daai6 dou1 wui6
 大都會	daai6 dou1 wui6
 大杜鵑	daai6 dou6 gyun1
 大冬瓜	daai6 dung1 gwaa1
@@ -52927,6 +52942,7 @@ sort: by_weight
 點樣去	dim2 joeng2 heoi3
 點樣咯	dim2 joeng2 lok3
 點閱率	dim2 jyut6 leot2
+點撚樣	dim2 lan2 joeng2
 點撚樣	dim2 lan2 joeng2
 點理解	dim2 lei5 gaai2
 點名冊	dim2 meng2 caak3
@@ -53903,6 +53919,7 @@ sort: by_weight
 發報機	faat3 bou3 gei1
 發報人	faat3 bou3 jan4
 發青光	faat3 ceng1 gwong1
+發春夢	faat3 ceon1 mung6
 發錢寒	faat3 cin2 hon4
 發錯咗	faat3 co3 zo2
 發祥地	faat3 coeng4 dei6
@@ -54792,6 +54809,7 @@ sort: by_weight
 假芫茜	gaa2 jyun4 sai1
 假面具	gaa2 min6 geoi6
 假冒品	gaa2 mou6 ban2
+假難民	gaa2 naan6 man4
 假石山	gaa2 sek6 saan1
 假使間	gaa2 si2 gaan1
 假善人	gaa2 sin6 jan4
@@ -60441,6 +60459,8 @@ sort: by_weight
 原芯筆	jyun4 sam1 bat1
 鉛芯筆	jyun4 sam1 bat1
 原腎管	jyun4 san6 gun2
+原生男	jyun4 sang1 naam4
+原生女	jyun4 sang1 neoi5
 圓石頭	jyun4 sek6 tau4
 鉛垂線	jyun4 seoi4 sin3
 原線圈	jyun4 sin3 hyun1
@@ -60686,6 +60706,7 @@ sort: by_weight
 舅母仔	kau5 mou2 zai2
 舅奶奶	kau5 naai4 naai2
 舅仔鞋	kau5 zai2 haai4
+求包養	kau6 baau1 jeong5
 茄哩啡	ke1 le1 fe1
 茄喱啡	ke1 le1 fe1
 茄士咩	ke1 si6 me1
@@ -61278,6 +61299,7 @@ sort: by_weight
 禮衣邊	lai5 ji1 bin1
 禮儀服	lai5 ji4 fuk6
 禮儀師	lai5 ji4 si1
+禮義廉	lai5 ji6 lim4
 禮樂射	lai5 ngok6 se6
 禮雲子	lai5 wan4 zi2
 例如呢	lai6 jyu4 le1
@@ -62438,6 +62460,7 @@ sort: by_weight
 唔記住	m4 gei3 zyu6
 唔見得	m4 gin3 dak1
 唔見過	m4 gin3 gwo3
+唔建議	m4 gin3 ji5
 唔見着	m4 gin3 zoek6
 唔結冰	m4 git3 bing1
 唔該晒	m4 goi1 saai3
@@ -63573,6 +63596,7 @@ sort: by_weight
 毛巾褸	mou4 gan1 lau1
 毛巾恤	mou4 gan1 seot1
 毛巾毡	mou4 gan1 zin1
+無鳩謂	mou4 gau1 wai6
 無嘅話	mou4 ge3 waa2
 無機鹽	mou4 gei1 jim4
 無機物	mou4 gei1 mat6
@@ -67074,6 +67098,7 @@ sort: by_weight
 猞猁眼	se6 lei1 ngaan5
 射落海	se6 lok6 hoi2
 射龍門	se6 lung4 mun4
+射唔到	se6 m4 dou2
 射唔準	se6 m4 zeon2
 射埋去	se6 maai4 heoi3
 射手座	se6 sau2 zo6
@@ -68210,6 +68235,7 @@ sort: by_weight
 小時候	siu2 si4 hau6
 小食部	siu2 sik6 bou6
 小食亭	siu2 sik6 ting4
+小鮮肉	siu2 sin1 juk6
 小仙鶲	siu2 sin1 jung1
 小成都	siu2 sing4 dou1
 小小地	siu2 siu2 dei2
@@ -68242,6 +68268,7 @@ sort: by_weight
 小集團	siu2 zaap6 tyun4
 小週末	siu2 zau1 mut6
 小嘴鴴	siu2 zeoi2 hang4
+小正太	siu2 zing3 taai3
 小節線	siu2 zit3 sin3
 小髒鬼	siu2 zong1 gwai2
 小祖宗	siu2 zou2 zung1
@@ -73629,7 +73656,7 @@ sort: by_weight
 兵頭花園	bing1 tau4 faa1 jyun2
 冰天雪地	bing1 tin1 syut3 dei6
 冰糖雪耳	bing1 tong4 syut3 ji5
-冰壺秋月	bing1 wu2 cau1 jyut6
+冰壺秋月	bing1 wu4 cau1 jyut6
 兵精糧足	bing1 zing1 loeng4 zuk1
 丙到飛起	bing2 dou3 fei1 hei2
 丙烯酸酯	bing2 hei1 syun1 zi2
@@ -75028,6 +75055,7 @@ sort: by_weight
 長氣到死	coeng4 hei3 dou3 sei2
 長吁短嘆	coeng4 heoi1 dyun2 taan3
 長夜漫漫	coeng4 je6 maan6 maan6
+長期打算	coeng4 kei4 daa2 syun3
 長期飯票	coeng4 kei4 faan6 piu3
 長期共存	coeng4 kei4 gung6 cyun4
 場區應急	coeng4 keoi1 jing3 gap1
@@ -75234,6 +75262,7 @@ sort: by_weight
 衝昏頭腦	cung1 fan1 tau4 nou5
 充分保障	cung1 fan6 bou2 zoeng3
 充分考慮	cung1 fan6 haau2 leoi6
+充分利用	cung1 fan6 lei6 jung6
 充分就業	cung1 fan6 zau6 jip6
 衝鋒陷陣	cung1 fung1 ham6 zan6
 充飢止渴	cung1 gei1 zi2 hot3
@@ -76306,6 +76335,7 @@ sort: by_weight
 點樣去啊	dim2 joeng2 heoi3 aa3
 點樣收費	dim2 joeng2 sau1 fai3
 點嚟點去	dim2 lai4 dim2 heoi3
+點撚樣啊	dim2 lan2 joeng2 aa3
 點名羞辱	dim2 meng2 sau1 juk6
 點石成金	dim2 sek6 sing4 gam1
 點水不漏	dim2 seoi2 bat1 lau6
@@ -77070,6 +77100,7 @@ sort: by_weight
 反反複複	faan2 faan2 fuk1 fuk1
 反反復復	faan2 faan2 fuk6 fuk6
 反覆無常	faan2 fuk1 mou4 soeng4
+反攻大陸	faan2 gung1 daai6 luk6
 反攻爲守	faan2 gung1 wai4 sau2
 反躬自問	faan2 gung1 zi6 man6
 反共宣傳	faan2 gung6 syun1 cyun4
@@ -78700,6 +78731,7 @@ sort: by_weight
 狗血噴頭	gau2 hyut3 pan3 tau4
 狗也不屌	gau2 jaa5 bat1 diu2
 久而久之	gau2 ji4 gau2 zi1
+九二共識	gau2 ji6 gung6 sik1
 苟延殘喘	gau2 jin4 caan4 cyun2
 久仰大名	gau2 joeng5 daai6 ming4
 九流十家	gau2 lau4 sap6 gaa1
@@ -82408,6 +82440,7 @@ sort: by_weight
 一朝一夕	jat1 ziu1 jat1 zik6
 一觸即發	jat1 zuk1 zik1 faat3
 一觸即潰	jat1 zuk1 zik1 kui2
+一中各表	jat1 zung1 gok3 biu2
 一中一臺	jat1 zung1 jat1 toi4
 一盅兩件	jat1 zung1 loeng5 gin6
 一箸夾中	jat1 zyu6 gaap3 zung1
@@ -95122,6 +95155,7 @@ sort: by_weight
 中毒途徑	zung3 duk6 tou4 ging3
 縱虎歸山	zung3 fu2 gwai1 saan1
 中過肺炎	zung3 gwo3 fai3 jim4
+中過武肺	zung3 gwo3 mou5 fai3
 中過新冠	zung3 gwo3 san1 gun1
 綜合報導	zung3 hap6 bou3 dou6
 綜合布線	zung3 hap6 bou3 sin3
@@ -95238,6 +95272,7 @@ sort: by_weight
 煮嘢畀你	zyu2 je5 bei2 nei5
 主要人員	zyu2 jiu3 jan4 jyun4
 煮佢一鍋	zyu2 keoi5 jat1 wo1
+主權移交	zyu2 kyun4 ji4 gaau1
 主權民主	zyu2 kyun4 man4 zyu2
 主流髮色	zyu2 lau4 faat3 sik1
 主力部隊	zyu2 lik6 bou6 deoi2
@@ -95759,6 +95794,7 @@ sort: by_weight
 全國運動會	cyun4 gwok3 wan6 dung6 wui2
 全球資訊網	cyun4 kau4 zi1 seon3 mong5
 全世界第一	cyun4 sai3 gaai3 dai6 jat1
+打柒佢老母	daa2 cat6 keoi5 lou5 mou2
 打電腦遊戲	daa2 din6 nou5 jau4 hei3
 打到塊嘢噉	daa2 dou3 fai3 je5 gam2
 打到二跳四	daa2 dou3 ji6 tiu3 sei3
