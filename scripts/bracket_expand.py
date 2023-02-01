@@ -1,5 +1,7 @@
 from itertools import product
 
+puncts = {*'，：'}
+two_syllable_char = {*'兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'}
 invalid_chars_in_char_class = {*'()['}
 
 def bracket_expand(s):
@@ -63,3 +65,31 @@ def bracket_expand(s):
   assert not depth, f'Unbalanced bracket in "{s}"'
   parts += inner(t)
   return parts
+
+def punct_expand(entry):
+  char, jyutping = entry
+  yield entry
+  if any(punct in char for punct in puncts):
+    curr_char = ''
+    curr_jyutping = []
+    syllable = iter(jyutping.split(' '))
+    for c in char:
+      if c in puncts:
+        yield (curr_char, ' '.join(curr_jyutping))
+        curr_char = ''
+        curr_jyutping = []
+      else:
+        curr_char += c
+        try:
+          curr_jyutping.append(next(syllable))
+          if c in two_syllable_char:
+            curr_jyutping.append(next(syllable))
+        except StopIteration:
+          raise ValueError(f'Word length does not match the number of syllables: "{char}", "{jyutping}"')
+    yield (curr_char, ' '.join(curr_jyutping))
+    try:
+      next(syllable)
+    except StopIteration:
+      pass
+    else:
+      raise ValueError(f'Word length does not match the number of syllables: "{char}", "{jyutping}"')

@@ -3,7 +3,7 @@ import pytz
 from os.path import join
 import sys
 from itertools import product
-from bracket_expand import bracket_expand
+from bracket_expand import bracket_expand, punct_expand
 
 # header
 
@@ -69,7 +69,8 @@ for filename in ('phrase_fragment.csv', 'trending.csv', 'word.csv'):
 
         for line in f:
             char, jyutping = line.rstrip('\n').split(',')
-            words_list += product(bracket_expand(char), bracket_expand(jyutping))
+            for entry in product(bracket_expand(char), bracket_expand(jyutping)):
+                words_list += punct_expand(entry)
 
 words_list.sort(key=sort_criteria)
 
