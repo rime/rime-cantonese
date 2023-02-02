@@ -61,12 +61,21 @@ with open('jyut6ping3.chars.dict.yaml', 'w') as f:
 
 words_list = []
 
-for filename in ('phrase_fragment.csv', 'trending.csv', 'word.csv'):
+for filename in ('fixed_expressions.csv', 'phrase_fragment.csv', 'trending.csv', 'word.csv'):
     with open(join(upstream_dir, filename)) as f:
         next(f)  # skip header
 
         for line in f:
+            # todo: handle comma in fixed_expressions.csv
             char, jyutping = line.rstrip('\n').split(',')
+            words_list.append((char, jyutping))
+
+for filename in ('onomatopoeia.csv'):
+    with open(join(upstream_dir, filename)) as f:
+        next(f)  # skip header
+
+        for line in f:
+            type, jyutping, char = line.rstrip('\n').split(',')
             words_list.append((char, jyutping))
 
 words_list.sort(key=sort_criteria)

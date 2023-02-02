@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2023.01.30"
+version: "2023.02.02"
 sort: by_weight
 ...
 
@@ -1304,7 +1304,7 @@ sort: by_weight
 臕	biu1
 蔈	biu1
 藨	biu1
-表	biu1	3%
+表	biu1	0%
 謤	biu1
 贆	biu1
 錶	biu1
@@ -4684,7 +4684,6 @@ sort: by_weight
 汏	daai6
 簤	daai6
 軑	daai6
-轪	daai6
 釱	daai6
 𠯈	daai6
 咑	daak1	5%
@@ -5281,7 +5280,7 @@ sort: by_weight
 埞	deng6
 定	deng6	3%
 掟	deng6	5%
-訂	deng6
+訂	deng6	5%
 㕍	deoi1
 䂙	deoi1
 䊚	deoi1
@@ -5617,6 +5616,7 @@ sort: by_weight
 腚	ding6
 萣	ding6
 蝊	ding6
+訂	ding6
 鋌	ding6	3%
 錠	ding6	3%
 𠉵	ding6
@@ -8215,7 +8215,7 @@ sort: by_weight
 鶏	gai1
 鷄	gai1
 偈	gai2
-計	gai2	3%
+計	gai2	5%
 㡭	gai3
 㲅	gai3
 㾵	gai3
@@ -9473,7 +9473,7 @@ sort: by_weight
 蓋	goi3
 阣	goi3
 桷	gok2
-角	gok2	0%
+角	gok2	5%
 䁷	gok3
 䇶	gok3
 䡈	gok3
@@ -16477,7 +16477,6 @@ sort: by_weight
 謜	jyun4	5%
 豲	jyun4
 貟	jyun4
-贠	jyun4
 身	jyun4	0%
 轅	jyun4
 邍	jyun4
@@ -18270,7 +18269,6 @@ sort: by_weight
 砳	laak6
 簕	laak6
 肋	laak6
-㧛	laam2
 㩜	laam2
 擥	laam2
 攬	laam2
@@ -18303,7 +18301,6 @@ sort: by_weight
 襤	laam4
 𡺤	laam4
 𩖞	laam4
-㧛	laam5	5%
 㩜	laam5	5%
 㰓	laam5
 㰖	laam5
@@ -19233,7 +19230,6 @@ sort: by_weight
 翷	leon4
 腀	leon4
 膦	leon4
-芲	leon4	5%
 菕	leon4
 蜦	leon4
 論	leon4	3%
@@ -28951,7 +28947,6 @@ sort: by_weight
 蘀	tok3
 袥	tok3
 託	tok3
-讬	tok3
 跅	tok3
 飥	tok3
 馲	tok3	5%
@@ -29381,7 +29376,7 @@ sort: by_weight
 剭	uk1
 屋	uk1
 箼	uk1
-壅	ung1	3%
+壅	ung1	5%
 㧬	ung2	5%
 擁	ung2	3%
 𡃵	ung2
@@ -29979,7 +29974,6 @@ sort: by_weight
 贇	wan1
 輼	wan1
 轀	wan1
-辒	wan1
 鎾	wan1
 頵	wan1	5%
 饂	wan1
@@ -30148,7 +30142,6 @@ sort: by_weight
 觨	wan6
 諢	wan6
 貟	wan6	5%
-贠	wan6	5%
 運	wan6
 鄆	wan6
 韗	wan6
@@ -31929,7 +31922,7 @@ sort: by_weight
 者	ze2
 褚	ze2	3%
 赭	ze2
-這	ze2	5%
+這	ze2
 鍺	ze2
 飷	ze2
 䂞	ze3
@@ -31944,7 +31937,7 @@ sort: by_weight
 蔗	ze3
 藉	ze3
 蟅	ze3
-這	ze3
+這	ze3	3%
 鷓	ze3
 𣞢	ze3
 這	ze5	3%
