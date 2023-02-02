@@ -36,3 +36,6 @@
 
 # config files
 .vscode/settings.json
+
+# Mac
+.DS_Store
