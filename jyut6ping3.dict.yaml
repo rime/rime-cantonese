@@ -13,8 +13,7 @@ vocabulary: essay-cantonese
 import_tables:
   - jyut6ping3.chars
   - jyut6ping3.words
-# Exclude phrase to reduce dict size
-#  - jyut6ping3.phrase
+  - jyut6ping3.phrase
   - jyut6ping3.lettered
   - jyut6ping3.maps
 ...
