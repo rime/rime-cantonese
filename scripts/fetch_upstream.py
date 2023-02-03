@@ -2,6 +2,8 @@ import datetime
 import pytz
 from os.path import join
 import sys
+from itertools import product
+from bracket_expand import bracket_expand, punct_expand
 
 # header
 
@@ -54,8 +56,8 @@ chars_list.sort(key=sort_criteria)
 with open('jyut6ping3.chars.dict.yaml', 'w') as f:
     print(generate_header('chars'), file=f)
     for char, jyutping, pron_rank in chars_list:
-        line = char + '\t' + jyutping + ('' if not pron_rank else f'\t{pron_rank}')
-        print(line, sep='\t', file=f)
+        line = (char, jyutping, pron_rank) if pron_rank else (char, jyutping)
+        print(*line, sep='\t', file=f)
 
 # word
 
@@ -68,7 +70,8 @@ for filename in ('fixed_expressions.csv', 'phrase_fragment.csv', 'trending.csv',
         for line in f:
             # todo: handle comma in fixed_expressions.csv
             char, jyutping = line.rstrip('\n').split(',')
-            words_list.append((char, jyutping))
+            for entry in product(bracket_expand(char), bracket_expand(jyutping)):
+                words_list += punct_expand(entry)
 
 for filename in ('onomatopoeia.csv'):
     with open(join(upstream_dir, filename)) as f:
