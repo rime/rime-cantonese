@@ -1,7 +1,7 @@
 from itertools import product
 
 puncts = {*'，：'}
-two_syllable_char = {*'兡瓸䇉竡尣兛瓩竏𥪕兝瓰竕嗧浬兞瓱竓呎吋啢𠺖兣糎甅竰卅𠯢兙瓧䇆竍卌'}
+two_syllable_char = {*'卅𠯢卌'}
 invalid_chars_in_char_class = {*'()['}
 
 def bracket_expand(s):
