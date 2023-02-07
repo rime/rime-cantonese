@@ -1,8 +1,11 @@
+import sys
 import datetime
 import pytz
-from os.path import join
+from os.path import basename, join
+from glob import iglob
 import sys
-from itertools import product
+from operator import itemgetter
+from itertools import chain, product
 from bracket_expand import bracket_expand, punct_expand
 
 # header
@@ -38,7 +41,7 @@ def sort_criteria(entry):
 
 chars_list = []
 
-with open(join(upstream_dir, 'char.csv')) as f:
+with open(join(upstream_dir, 'char.csv'), encoding='utf-8') as f:
     next(f)  # skip header
 
     for line in f:
@@ -53,7 +56,7 @@ with open(join(upstream_dir, 'char.csv')) as f:
 
 chars_list.sort(key=sort_criteria)
 
-with open('jyut6ping3.chars.dict.yaml', 'w') as f:
+with open('jyut6ping3.chars.dict.yaml', 'w', encoding='utf-8') as f:
     print(generate_header('chars'), file=f)
     for char, jyutping, pron_rank in chars_list:
         line = (char, jyutping, pron_rank) if pron_rank else (char, jyutping)
@@ -61,37 +64,23 @@ with open('jyut6ping3.chars.dict.yaml', 'w') as f:
 
 # word
 
+include_cols = ['char', 'jyutping']
 words_list = []
 
-for filename in ('fixed_expressions.csv', 'phrase_fragment.csv', 'trending.csv', 'word.csv'):
-    with open(join(upstream_dir, filename)) as f:
-        next(f)  # skip header
-
-        for line in f:
-            # todo: handle comma in fixed_expressions.csv
-            char, jyutping = line.rstrip('\n').split(',')
-            for entry in product(bracket_expand(char), bracket_expand(jyutping)):
-                words_list += punct_expand(entry)
-
-for filename in ('onomatopoeia.csv',):
-    with open(join(upstream_dir, filename)) as f:
-        next(f)  # skip header
-
-        for line in f:
-            type, jyutping, char = line.rstrip('\n').split(',')
-            words_list.append((char, jyutping))
-
-for filename in ('proper_nouns.csv',):
-    with open(join(upstream_dir, filename)) as f:
-        next(f)  # skip header
-
-        for line in f:
-            category, char, jyutping = line.rstrip('\n').split(',')
-            words_list.append((char, jyutping))
+for filename in iglob(join(upstream_dir, '*.csv')):
+    if basename(filename) != 'char.csv':
+        with open(filename, encoding='utf-8') as f:
+            cols = next(f).rstrip('\n').split(',')
+            if all(col in cols for col in include_cols):
+                select_cols = itemgetter(*map(cols.index, include_cols))
+                words_list += chain(*(chain(*map(punct_expand, product(*map(bracket_expand, select_cols(line.rstrip('\n').split(',')))))) for line in f))
 
 words_list.sort(key=sort_criteria)
 
-with open('jyut6ping3.words.dict.yaml', 'w') as f:
+with open('jyut6ping3.words.dict.yaml', 'w', encoding='utf-8') as f:
     print(generate_header('words'), file=f)
-    for char, jyutping in words_list:
-        print(char, jyutping, sep='\t', file=f)
+    prev_line = None
+    for line in words_list:
+        if prev_line != line:
+            print(*line, sep='\t', file=f)
+            prev_line = line
