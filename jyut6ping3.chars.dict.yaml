@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2023.02.02"
+version: "2023.02.08"
 sort: by_weight
 ...
 
@@ -2142,7 +2142,7 @@ sort: by_weight
 撜	caang4
 朾	caang4
 棖	caang4
-橙	caang4	3%
+橙	caang4	0%
 檙	caang4
 瞪	caang4	3%
 鍠	caang4
@@ -3466,6 +3466,7 @@ sort: by_weight
 繟	cin2
 蕆	cin2
 譂	cin2
+踐	cin2	5%
 錢	cin2
 闡	cin2	3%
 刋	cin3
@@ -3802,7 +3803,6 @@ sort: by_weight
 鹺	co4	5%
 齹	co4	5%
 坐	co5
-座	co5
 㔬	coek3
 㚟	coek3
 㪕	coek3
@@ -3904,6 +3904,7 @@ sort: by_weight
 搶	coeng2
 摤	coeng2
 磢	coeng2
+腸	coeng2	5%
 鋹	coeng2
 䩨	coeng3
 䵁	coeng3
@@ -4424,6 +4425,7 @@ sort: by_weight
 除	cyu1	0%
 䖏	cyu2
 処	cyu2
+廚	cyu2	5%
 杵	cyu2	3%
 楮	cyu2
 處	cyu2	3%
@@ -4654,6 +4656,7 @@ sort: by_weight
 䚞	daai2
 䚟	daai2
 傣	daai2
+帶	daai2	5%
 歹	daai2
 㯂	daai3
 侢	daai3
@@ -5132,7 +5135,6 @@ sort: by_weight
 凳	dang3
 墱	dang3
 嶝	dang3
-橙	dang3	3%
 櫈	dang3
 磴	dang3
 鐙	dang3	5%
@@ -5206,7 +5208,7 @@ sort: by_weight
 糾	dau2	3%
 荳	dau2	3%
 蚪	dau2
-豆	dau2
+豆	dau2	5%
 赳	dau2	3%
 鈄	dau2
 阧	dau2
@@ -5243,7 +5245,7 @@ sort: by_weight
 脰	dau6
 荳	dau6
 讀	dau6	3%
-豆	dau6	3%
+豆	dau6
 逗	dau6
 郖	dau6	5%
 鋀	dau6
@@ -10162,7 +10164,7 @@ sort: by_weight
 梗	gwaang2	3%
 俇	gwaang6
 誆	gwaang6
-逛	gwaang6
+逛	gwaang6	3%
 䀨	gwaat3
 䏦	gwaat3
 傄	gwaat3
@@ -13372,6 +13374,7 @@ sort: by_weight
 㦩	jan2
 㶏	jan2	5%
 䨸	jan2
+人	jan2	5%
 峎	jan2	5%
 嶾	jan2
 忍	jan2
@@ -13644,6 +13647,7 @@ sort: by_weight
 㰶	jau2
 㱙	jau2
 㶭	jau2
+友	jau2	5%
 懮	jau2	5%
 朽	jau2	0%
 柚	jau2
@@ -16808,6 +16812,7 @@ sort: by_weight
 鵭	kam4
 𨨖	kam4
 妗	kam5	5%
+芹	kan2	5%
 㘦	kan4
 㢙	kan4
 䓅	kan4
@@ -17806,7 +17811,7 @@ sort: by_weight
 眶	kwaang1
 筐	kwaang1	3%
 迋	kwaang3	5%
-逛	kwaang3	3%
+逛	kwaang3
 䂓	kwai1
 䖯	kwai1
 䯓	kwai1
@@ -20954,7 +20959,7 @@ sort: by_weight
 貌	maau6
 貎	maau6
 劘	mai1
-咪	mai1	3%
+咪	mai1	5%
 米	mai1	3%
 謎	mai2	3%
 襼	mai3
@@ -21549,6 +21554,7 @@ sort: by_weight
 覭	mik6
 銯	mik6
 鼏	mik6
+面	min2	5%
 㒙	min4
 㝰	min4
 㮌	min4
@@ -21698,7 +21704,6 @@ sort: by_weight
 鱴	mit6
 鴓	mit6	5%
 𩴾	mit6
-咪	miu1	3%
 喵	miu1	3%
 廟	miu2
 𠴕	miu2
@@ -22059,6 +22064,7 @@ sort: by_weight
 𦻒	mou6
 妹	mui1	5%
 妹	mui2	5%
+梅	mui2	5%
 𠵈	mui2
 㙁	mui4
 㺳	mui4
@@ -22665,7 +22671,7 @@ sort: by_weight
 餌	nei6
 𠽒	neng2
 囡	neoi1	5%
-女	neoi2	3%
+女	neoi2	5%
 䋈	neoi4	5%
 蒘	neoi4	5%
 㼏	neoi5	5%
@@ -24970,6 +24976,7 @@ sort: by_weight
 拚	pun1	3%
 潘	pun1
 番	pun1	3%
+伴	pun2	5%
 拚	pun2	3%
 拼	pun2	3%
 翉	pun2
@@ -25756,7 +25763,7 @@ sort: by_weight
 廀	sau1
 廋	sau1
 捜	sau1
-搜	sau1	3%
+搜	sau1	0%
 摉	sau1
 收	sau1
 樇	sau1
