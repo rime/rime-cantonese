@@ -81,6 +81,14 @@ for filename in ('onomatopoeia.csv'):
             type, jyutping, char = line.rstrip('\n').split(',')
             words_list.append((char, jyutping))
 
+for filename in ('proper_nouns.csv'):
+    with open(join(upstream_dir, filename)) as f:
+        next(f)  # skip header
+
+        for line in f:
+            category, char, jyutping = line.rstrip('\n').split(',')
+            words_list.append((char, jyutping))
+
 words_list.sort(key=sort_criteria)
 
 with open('jyut6ping3.words.dict.yaml', 'w') as f:
