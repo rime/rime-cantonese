@@ -73,7 +73,7 @@ for filename in ('fixed_expressions.csv', 'phrase_fragment.csv', 'trending.csv',
             for entry in product(bracket_expand(char), bracket_expand(jyutping)):
                 words_list += punct_expand(entry)
 
-for filename in ('onomatopoeia.csv'):
+for filename in ('onomatopoeia.csv',):
     with open(join(upstream_dir, filename)) as f:
         next(f)  # skip header
 
@@ -81,7 +81,7 @@ for filename in ('onomatopoeia.csv'):
             type, jyutping, char = line.rstrip('\n').split(',')
             words_list.append((char, jyutping))
 
-for filename in ('proper_nouns.csv'):
+for filename in ('proper_nouns.csv',):
     with open(join(upstream_dir, filename)) as f:
         next(f)  # skip header
 
