@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.words
-version: "2023.02.08"
+version: "2023.02.09"
 sort: by_weight
 ...
 
@@ -14380,11 +14380,13 @@ sort: by_weight
 寄倉	gei3 cong1
 寄艙	gei3 cong1
 寄存	gei3 cyun4
+記低	gei3 dai1
 既得	gei3 dak1
 記得	gei3 dak1
 既定	gei3 ding6
 寄方	gei3 fong1
 寄居	gei3 geoi1
+寄件	gei3 gin2
 記掛	gei3 gwaa3
 寄櫃	gei3 gwai2
 記起	gei3 hei2
@@ -15230,6 +15232,7 @@ sort: by_weight
 歌堂	go1 tong2
 歌詠	go1 wing6
 歌頌	go1 zung6
+嗰版	go2 baan2
 嗰杯	go2 bui1
 嗰出	go2 ceot1
 嗰齣	go2 ceot1
@@ -45527,6 +45530,7 @@ sort: by_weight
 摯情	zi3 cing4
 摯切	zi3 cit3
 至得	zi3 dak1
+置頂	zi3 deng2
 致電	zi3 din6
 至多	zi3 do1
 至到	zi3 dou3
@@ -54964,6 +54968,7 @@ sort: by_weight
 隔塵網	gaak3 can4 mong5
 隔斷板	gaak3 dyun6 baan2
 格格笑	gaak3 gaak3 siu3
+隔幾日	gaak3 gei2 jat6
 格開佢	gaak3 hoi1 keoi5
 隔油池	gaak3 jau4 ci4
 隔夜茶	gaak3 je6 caa4
@@ -55054,6 +55059,7 @@ sort: by_weight
 耕田佬	gaang1 tin4 lou2
 夾板氣	gaap3 baan2 hei3
 夾定計	gaap3 ding6 gai2
+夾返份	gaap3 faan1 fan2
 甲骨文	gaap3 gwat1 man4
 夾口供	gaap3 hau2 gung1
 敆口供	gaap3 hau2 gung1
@@ -55626,6 +55632,8 @@ sort: by_weight
 合你意	gap3 nei5 ji3
 及第粥	gap6 dai2 zuk1
 𥄫到實	gap6 dou3 sat6
+𥄫𥄫佢	gap6 gap6 keoi3
+𥄫一𥄫	gap6 jat1 gap6
 𥄫實晒	gap6 sat6 saai3
 𥄫住佢	gap6 zyu6 keoi5
 𥄫住晒	gap6 zyu6 saai3
@@ -55911,11 +55919,14 @@ sort: by_weight
 紀傳體	gei2 zyun6 tai2
 記錯咗	gei3 co3 zo2
 寄存處	gei3 cyun4 cyu3
+記低佢	gei3 dai1 keoi5
 記低晒	gei3 dai1 saai3
 記得咗	gei3 dak1 zo2
 記分員	gei3 fan1 jyun4
 寄居蟹	gei3 geoi1 haai5
+寄件相	gei3 gin2 soeng1
 寄件者	gei3 gin2 ze2
+寄過嚟	gei3 gwo3 lai4
 記號筆	gei3 hou6 bat1
 記憶器	gei3 jik1 hei3
 記憶卡	gei3 jik1 kaat1
@@ -55923,6 +55934,7 @@ sort: by_weight
 記憶體	gei3 jik1 tai2
 既然之	gei3 jin4 zi1
 既來之	gei3 loi4 zi1
+寄落嚟	gei3 lok6 lai4
 記錄員	gei3 luk6 jyun4
 記唔住	gei3 m4 zyu6
 寄物櫃	gei3 mat6 gwai6
@@ -60600,8 +60612,8 @@ sort: by_weight
 鉛蕊筆	jyun4 jeoi5 bat1
 圓形地	jyun4 jing4 dei6
 烷氧基	jyun4 joeng5 gei1
-元宇宙	jyun4 jyu2 zau6
 元語言	jyun4 jyu5 jin4
+元宇宙	jyun4 jyu5 zau6
 圓括號	jyun4 kut3 hou6
 圓規座	jyun4 kwai1 zo6
 圓碌碌	jyun4 luk1 luk1
@@ -71622,6 +71634,7 @@ sort: by_weight
 致幻劑	zi3 waan6 zai1
 智慧齒	zi3 wai3 ci2
 置換羣	zi3 wun6 kwan4
+置咗頂	zi3 zo2 deng2
 吱吱斟	zi4 zi4 zam4
 吱吱浸	zi4 zi4 zam4
 自閉症	zi6 bai3 zing3
@@ -75367,6 +75380,7 @@ sort: by_weight
 錯落有緻	co3 lok6 jau5 zi3
 錯綜複雜	co3 zung1 fuk1 zaap6
 鋤強扶弱	co4 koeng4 fu4 joek6
+鋤頭唔響	co4 tau2 m4 hoeng2
 坐霸王車	co5 baa3 wong4 ce1
 坐車咁迫	co5 ce1 gam3 bik1
 坐多陣吖	co5 do1 zan6 a1
@@ -77469,6 +77483,8 @@ sort: by_weight
 翻山越嶺	faan1 saan1 jyut6 leng5
 翻箱倒籠	faan1 soeng1 dou2 lung2
 返暑期工	faan1 syu2 kei4 gung1
+番薯唔香	faan1 syu2 m4 hoeng1
+蕃薯唔香	faan1 syu2 m4 hoeng1
 番薯糖水	faan1 syu4 tong4 seoi2
 翻天覆地	faan1 tin1 fuk1 dei6
 返屋企嘅	faan1 uk1 kei2 ge3
@@ -81831,6 +81847,7 @@ sort: by_weight
 好唔抵得	hou2 m4 dai2 dak1
 好唔開心	hou2 m4 hoi1 sam1
 好唔好啊	hou2 m4 hou2 aa3
+好唔好彩	hou2 m4 hou2 coi2
 好唔好都	hou2 m4 hou2 dou1
 好唔好去	hou2 m4 hou2 heoi3
 好唔好用	hou2 m4 hou2 jung6
@@ -91064,6 +91081,7 @@ sort: by_weight
 水磨功夫	seoi2 mo4 gung1 fu1
 水能載舟	seoi2 nang4 zoi3 zau1
 水牛芝士	seoi2 ngau4 zi1 si2
+水平堪憂	seoi2 ping4 ham1 jau1
 水洗唔清	seoi2 sai2 m4 cing1
 水洗唔甩	seoi2 sai2 m4 lat1
 水深火熱	seoi2 sam1 fo2 jit6
@@ -97165,7 +97183,6 @@ sort: by_weight
 個樣好得戚	go3 joeng2 hou2 dak1 cik1
 個腦坐住咗	go3 nou5 co5 zyu6 zo2
 鋸到一頸血	goe1 dou3 jat1 geng2 hyut3
-鋸到一頸血	goe3 dou3 jat1 geng2 hyut3
 腳踏兩條船	goek3 daap6 loeng5 tiu4 syun4
 腳指尾拉西	goek3 zi2 mei1 laai1 sai1
 腳趾尾拉西	goek3 zi2 mei1 laai1 sai1
@@ -99368,7 +99385,7 @@ sort: by_weight
 最大公因數	zeoi3 daai6 gung1 jan1 sou3
 最大公因子	zeoi3 daai6 gung1 jan1 zi2
 最大公約數	zeoi3 daai6 gung1 joek3 sou3
-醉到一劈屎	zeoi3 dou3 jat1 pek3 si2
+醉到一坺屎	zeoi3 dou3 jat1 pet6 si2
 最毒婦人心	zeoi3 duk6 fu5 jan4 sam1
 最怕改壞名	zeoi3 paa3 goi2 waai6 meng2
 最小公分母	zeoi3 siu2 gung1 fan6 mou5
@@ -101942,8 +101959,6 @@ sort: by_weight
 持續性植物人狀態	ci4 zuk6 sing3 zik6 mat6 jan4 zong6 taai3
 千金小姐當丫鬟賣	cin1 gam1 siu2 ze2 dong3 aa1 waan4 maai6
 青出於藍而勝於藍	cing1 ceot1 jyu1 laam4 ji4 sing3 jyu1 laam4
-鋤頭唔響番薯唔香	co4 tau2 m4 hoeng2 faan1 syu2 m4 hoeng1
-鋤頭唔響蕃薯唔香	co4 tau2 m4 hoeng2 faan1 syu2 m4 hoeng1
 長江三角洲經濟區	coeng4 gong1 saam1 gok3 zau1 ging1 zai3 keoi1
 啋過你，大吉利是	coi1 gwo3 nei5 daai6 gat1 lei6 si6
 塞翁失馬焉知非福	coi3 jung1 sat1 maa5 jin1 zi1 fei1 fuk1
@@ -101951,7 +101966,6 @@ sort: by_weight
 財政司司長辦公室	coi4 zing3 si1 si1 zoeng2 baan6 gung1 sat1
 牀下底破柴：撞板	cong4 haa6 dai2 po3 caai4 zong6 baan2
 速速磅唔好兩頭望	cuk1 cuk1 bong6 m4 hou2 loeng5 tau4 mong6
-重賞之下必有勇夫	cung5 soeng2 zi1 haa6 bit1 jau5 jung5 fu1
 全國人民代表大會	cyun4 gwok3 jan4 man4 doi6 biu2 daai6 wui2
 全球衛星導航系統	cyun4 kau4 wai6 sing1 dou6 hong4 hai6 tung2
 全球位置測定系統	cyun4 kau4 wai6 zi3 caak1 ding6 hai6 tung2
@@ -102242,6 +102256,8 @@ sort: by_weight
 初嚟報到，唔知鑊竈	co1 lai4 bou3 dou3 m4 zi1 wok6 zou3
 初嚟甫到，唔知鑊竈	co1 lai4 bou3 dou3 m4 zi1 wok6 zou3
 初嚟甫到，唔知鑊竈	co1 lai4 bou6 dou3 m4 zi1 wok6 zou3
+鋤頭唔響，番薯唔香	co4 tau2 m4 hoeng2 faan1 syu2 m4 hoeng1
+鋤頭唔響，蕃薯唔香	co4 tau2 m4 hoeng2 faan1 syu2 m4 hoeng1
 塞爾維亞克羅地亞語	coi3 ji5 wai4 aa3 hak1 lo4 dei6 aa3 jyu5
 塞翁失馬，焉知非福	coi3 jung1 sat1 maa5 jin1 zi1 fei1 fuk1
 聰明一世，蠢鈍一時	cung1 ming4 jat1 sai3 ceon2 deon6 jat1 si4
