@@ -39,7 +39,7 @@ translator:
     - xform/,y(n|t)/,jy$1/                            # 齒齦音前正確寫法係 y
     - xform/,y/,j/                                    # 否則音節開頭嘅 y 正確寫法係 j
 
-    - xform/(,|q)oet/$1oed/                           # 兼容新讀音，將 t 改成 d 以避開第 49 行嘅處理，喺第 63 行改返轉頭
+    - xform/([,qgkŋh]oe)t/$1d/                        # 兼容韻母 oet，將 t 改成 d 以避開第 49 行嘅處理，喺第 63 行改返轉頭
     - xform/eo|oe/œ/                                  # eo/oe 容錯
     - xform/yu/y/                                     # yu 表示 y 音
     - xform/aa/r/                                     # aa 併入 r 快捷鍵
