@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.words
-version: "2023.04.06"
+version: "2023.04.13"
 sort: by_weight
 ...
 
@@ -2195,7 +2195,7 @@ sort: by_weight
 播客	bo3 haak3
 播音	bo3 jam1
 播映	bo3 jing2
-播啦	bo3 la1
+播啦	bo3 laa1
 播片	bo3 pin2
 播晒	bo3 saai3
 播撒	bo3 saat3
@@ -3867,7 +3867,7 @@ sort: by_weight
 七仔	cat1 zai2
 七姐	cat1 ze2
 七夕	cat1 zik6
-𨳍啦	cat6 la1
+𨳍啦	cat6 laa1
 柒碌	cat6 luk1
 𨳍婆	cat6 po4
 𨳍事	cat6 si6
@@ -3918,7 +3918,7 @@ sort: by_weight
 抽球	cau1 kau4
 秋茄	cau1 ke2
 秋葵	cau1 kwai4
-抽啦	cau1 la1
+抽啦	cau1 laa1
 抽離	cau1 lei4
 秋糧	cau1 loeng4
 鶖鷺	cau1 lou6
@@ -6183,7 +6183,7 @@ sort: by_weight
 牀褥	cong4 juk2
 牀褥	cong4 juk6
 牀沿	cong4 jyun4
-牀冚	cong4 kam2
+牀𢫏	cong4 kam2
 牀笠	cong4 lap1
 牀鈴	cong4 ling4
 牀尾	cong4 mei5
@@ -12494,7 +12494,6 @@ sort: by_weight
 加緊	gaa1 gan2
 家姬	gaa1 gei1
 家居	gaa1 geoi1
-傢俱	gaa1 geoi6
 傢具	gaa1 geoi6
 家具	gaa1 geoi6
 家境	gaa1 ging2
@@ -24541,17 +24540,15 @@ sort: by_weight
 襟懷	kam1 waai4
 襟章	kam1 zoeng1
 禁做	kam1 zou6
-冚斗	kam2 dau2
 𢫏斗	kam2 dau2
-冚竇	kam2 dau3
-冚檔	kam2 dong3
+𢫏竇	kam2 dau3
 𢫏檔	kam2 dong3
-冚蓋	kam2 goi3
-冚陷	kam2 haam6
-冚旗	kam2 kei4
-冚被	kam2 pei5
+𢫏蓋	kam2 goi3
+𢫏陷	kam2 haam6
+𢫏旗	kam2 kei4
 搇被	kam2 pei5
-冚數	kam2 sou3
+𢫏被	kam2 pei5
+𢫏數	kam2 sou3
 罯氈	kam2 zin1
 擒青	kam4 ceng1
 禽畜	kam4 cuk1
@@ -25265,7 +25262,6 @@ sort: by_weight
 抗拒	kong3 keoi5
 抗禮	kong3 lai5
 伉儷	kong3 lai6
-礦棉	kong3 min4
 抗命	kong3 ming6
 抗癌	kong3 ngaam4
 擴編	kong3 pin1
@@ -25546,6 +25542,7 @@ sort: by_weight
 礦卡	kwong3 kaat1
 礦脈	kwong3 mak6
 礦物	kwong3 mat6
+礦棉	kwong3 min4
 擴散	kwong3 saan3
 曠世	kwong3 sai3
 礦水	kwong3 seoi2
@@ -25644,13 +25641,11 @@ sort: by_weight
 喇嘛	laa1 maa4
 𠸎埋	laa1 maai4
 揦起	laa2 hei2
-乸脷	laa2 lei6
 剌脷	laa2 lei6
 揦脷	laa2 lei6
 𠸎脷	laa2 lei6
 揦埋	laa2 maai4
 𢲡埋	laa2 maai4
-乸西	laa2 sai1
 揦篩	laa2 sai1
 揦茜	laa2 sai1
 揦西	laa2 sai1
@@ -26252,7 +26247,6 @@ sort: by_weight
 撚樣	lan2 joeng2
 𨶙樣	lan2 joeng2
 撚頭	lan2 tau4
-凹凸	lap1 dat6
 笠記	lap1 gei3
 笠角	lap1 gok3
 笠嘢	lap1 je5
@@ -27015,7 +27009,7 @@ sort: by_weight
 鏈鋸	lin2 goe3
 摙骨	lin2 gwat1
 鍊贏	lin2 jeng4
-鏈冚	lin2 kam2
+鏈𢫏	lin2 kam2
 摙死	lin2 sei2
 摙碎	lin2 seoi3
 鏈烴	lin2 ting1
@@ -27101,7 +27095,7 @@ sort: by_weight
 軨蓋	ling1 goi3
 鈴蓋	ling1 goi3
 拎開	ling1 hoi1
-軨冚	ling1 kam2
+軨𢫏	ling1 kam2
 鈴鈴	ling1 ling1
 鈴啷	ling1 long1
 拎實	ling1 sat6
@@ -29517,7 +29511,7 @@ sort: by_weight
 美譽	mei5 jyu6
 美元	mei5 jyun4
 美圓	mei5 jyun4
-尾冚	mei5 kam2
+尾𢫏	mei5 kam2
 美藍	mei5 laam4
 美麗	mei5 lai6
 美勞	mei5 lou4
@@ -29581,7 +29575,7 @@ sort: by_weight
 味兒	mei6 ji4
 未約	mei6 joek3
 未決	mei6 kyut3
-未啦	mei6 la1
+未啦	mei6 laa1
 味蕾	mei6 leoi4
 魅力	mei6 lik6
 未來	mei6 loi4
@@ -30106,7 +30100,6 @@ sort: by_weight
 茫然	mong4 jin4
 忘形	mong4 jing4
 忘卻	mong4 koek3
-忘啦	mong4 la1
 亡靈	mong4 ling4
 忙碌	mong4 luk1
 忙亂	mong4 lyun6
@@ -30837,9 +30830,6 @@ sort: by_weight
 挐掕	naa1 lang3
 𠸎埋	naa1 maai4
 𪐀埋	naa1 maai4
-啦㨢	naa1 nang3
-啦掕	naa1 nang3
-挐掕	naa1 nang3
 𠸎㨢	naa1 nang3
 𠸎褦	naa1 nang3
 𢲡𠹌	naa1 nang3
@@ -31142,6 +31132,7 @@ sort: by_weight
 能耐	nang4 noi6
 能手	nang4 sau2
 凹處	nap1 cyu3
+凹凸	nap1 dat6
 凹雕	nap1 diu1
 凹度	nap1 dou6
 粒花	nap1 faa1
@@ -33030,7 +33021,6 @@ sort: by_weight
 棒糖	paang5 tong2
 棒子	paang5 zi2
 柏文	paat1 man2
-拍乸	paat1 naa4
 拋波	paau1 bo1
 拋補	paau1 bou2
 拋杯	paau1 bui1
@@ -33065,7 +33055,7 @@ sort: by_weight
 跑道	paau2 dou6
 跑褲	paau2 fu3
 跑酷	paau2 huk6
-跑啦	paau2 la1
+跑啦	paau2 laa1
 跑壘	paau2 leoi5
 跑馬	paau2 maa5
 跑山	paau2 saan1
@@ -33219,7 +33209,7 @@ sort: by_weight
 疋頭	pat1 tau4
 剖開	pau2 hoi1
 剖心	pau2 sam1
-婄腩	pau3 laam5
+婄腩	pau3 naam5
 裒輯	pau4 cap1
 裒斂	pau4 lim5
 啤牌	pe1 paai2
@@ -34158,7 +34148,7 @@ sort: by_weight
 鯊魚	saa1 jyu4
 沙畹	saa1 jyun2
 沙縣	saa1 jyun6
-沙冚	saa1 kam2
+沙𢫏	saa1 kam2
 沙拉	saa1 laai1
 紗麗	saa1 lai6
 沙漏	saa1 lau6
@@ -40367,7 +40357,7 @@ sort: by_weight
 投緣	tau4 jyun4
 投靠	tau4 kaau3
 投契	tau4 kai3
-頭冚	tau4 kam2
+頭𢫏	tau4 kam2
 頭箍	tau4 ku1
 頭盔	tau4 kwai1
 投籃	tau4 laam2
@@ -41661,7 +41651,8 @@ sort: by_weight
 通用	tung1 jung6
 通榆	tung1 jyu4
 通渠	tung1 keoi4
-通啦	tung1 la1
+通啦	tung1 laa1
+通喇	tung1 laa3
 通例	tung1 lai6
 通論	tung1 leon6
 通力	tung1 lik6
@@ -42246,7 +42237,7 @@ sort: by_weight
 患者	waan6 ze2
 槵子	waan6 zi2
 幻象	waan6 zoeng6
-橫冚	waang1 kam2
+橫𢫏	waang1 kam2
 彎臣	waang1 san2
 軭神	waang1 san2
 橫咗	waang1 zo2
@@ -44610,7 +44601,6 @@ sort: by_weight
 走肉	zau2 juk6
 酒曲	zau2 kuk1
 走嘞	zau2 la3
-酒凹	zau2 lap1
 走甩	zau2 lat1
 走嘍	zau2 lau3
 酒樓	zau2 lau4
@@ -44708,17 +44698,20 @@ sort: by_weight
 就好	zau6 hou2
 就任	zau6 jam6
 胄裔	zau6 jeoi6
+驟然	zau6 jin4
 就業	zau6 jip6
 驟雨	zau6 jyu5
 袖扣	zau6 kau3
 袖箍	zau6 ku1
 就嚟	zau6 lai4
 就裏	zau6 leoi5
+驟落	zau6 lok6
 籀文	zau6 man4
 就木	zau6 muk6
 鷲鳥	zau6 niu5
 就手	zau6 sau2
 就死	zau6 sei2
+驟死	zau6 sei2
 就緒	zau6 seoi5
 就是	zau6 si6
 就算	zau6 syun3
@@ -49917,7 +49910,6 @@ sort: by_weight
 褒義詞	bou1 ji6 ci4
 煲老茄	bou1 lou5 ke2
 煲老藕	bou1 lou5 ngau5
-煲燶粥	bou1 lung1 zuk1
 煲燶粥	bou1 nung1 zuk1
 褒禪山	bou1 sim4 saan1
 煲仔飯	bou1 zai2 faan6
@@ -51793,6 +51785,7 @@ sort: by_weight
 打街波	daa2 gaai1 bo1
 打嗝兒	daa2 gaak3 ji4
 打格仔	daa2 gaak3 zai2
+打交叉	daa2 gaau1 caa1
 打膠槍	daa2 gaau1 coeng1
 打交道	daa2 gaau1 dou6
 打搞晒	daa2 gaau2 saai3
@@ -51858,7 +51851,6 @@ sort: by_weight
 打躆跲	daa2 kik1 kap1
 打困籠	daa2 kwan3 lung2
 打羣架	daa2 kwan4 gaa3
-打南磨	daa2 laam4 mo4
 打纜地	daa2 laam6 dei6
 打冷震	daa2 laang5 zan3
 打冷戰	daa2 laang5 zin3
@@ -51964,7 +51956,6 @@ sort: by_weight
 打水片	daa3 seoi2 pin2
 打臺波	daa3 toi4 bo1
 打通咗	daa3 tung1 zo2
-大葵扇	daai2 gwai4 sin3
 帶標識	daai3 biu1 sik1
 戴返個	daai3 faan2 go3
 帶分數	daai3 fan1 sou3
@@ -53026,7 +53017,7 @@ sort: by_weight
 癲癲地	din1 din1 dei2
 癲番晚	din1 faan1 maan5
 癲癇症	din1 gaan2 zing3
-癲雞乸	din1 gai1 naa3
+癲雞乸	din1 gai1 naa2
 捵地沙	din2 dei6 saa1
 碘化鉀	din2 faa3 gaap3
 碘化鈉	din2 faa3 naap6
@@ -55632,7 +55623,6 @@ sort: by_weight
 急就章	gap1 zau6 zoeng1
 急症室	gap1 zing3 sat1
 合你意	gap3 nei5 ji3
-及第粥	gap6 dai2 zuk1
 𥄫到實	gap6 dou3 sat6
 𥄫𥄫佢	gap6 gap6 keoi3
 𥄫一𥄫	gap6 jat1 gap6
@@ -55915,7 +55905,7 @@ sort: by_weight
 幾條友	gei2 tiu4 jau2
 幾條女	gei2 tiu4 neoi2
 幾回味	gei2 wui4 mei6
-幾仔乸	gei2 zai2 naa3
+幾仔乸	gei2 zai2 naa2
 幾姐妹	gei2 ze2 mui6
 幾張單	gei2 zoeng1 daan1
 紀傳體	gei2 zyun6 tai2
@@ -56145,6 +56135,7 @@ sort: by_weight
 叫牀聲	giu3 cong4 seng1
 叫多個	giu3 do1 go3
 叫花子	giu3 faa1 zi2
+叫起手	giu3 hei2 sau2
 叫唔敢	giu3 m4 gam2
 叫唔喐	giu3 m4 juk1
 叫生晒	giu3 saang1 saai3
@@ -57585,7 +57576,6 @@ sort: by_weight
 冚家伶	ham6 gaa1 ling1
 冚家呤	ham6 gaa1 ling1
 冚家拎	ham6 gaa1 ling1
-冚國旗	ham6 gwok3 kei4
 冚球剷	ham6 kau4 caan2
 冚球鏟	ham6 kau4 caan2
 冚世界	ham6 sai3 gaai3
@@ -58704,7 +58694,6 @@ sort: by_weight
 空房間	hung1 fong4 gaan1
 空歡喜	hung1 fun1 hei2
 空間局	hung1 gaan1 guk6
-空䆲䆲	hung1 gwaang1 gwaang1
 空䆲䆲	hung1 kwaang1 kwaang1
 空框框	hung1 kwaang1 kwaang1
 空䆲䆡	hung1 kwaang1 laang1
@@ -60786,8 +60775,8 @@ sort: by_weight
 楷體字	kaai2 tai2 zi6
 坎坎糊	kaan2 kaan2 wu2
 簡簡糊	kaan2 kaan2 wu2
-卡冚卡	kaat1 kam2 kaat1
-咭冚咭	kaat1 kam2 kaat1
+卡𢫏卡	kaat1 kam2 kaat1
+咭𢫏咭	kaat1 kam2 kaat1
 靠背椅	kaau3 bui3 ji2
 靠打工	kaau3 daa2 gung1
 靠得住	kaau3 dak1 zyu6
@@ -60808,9 +60797,9 @@ sort: by_weight
 禁等咯	kam1 dang2 lok3
 襟兄弟	kam1 hing1 dai6
 衾棉胎	kam1 min4 toi1
-冚牀布	kam2 cong4 bou3
-冚國旗	kam2 gwok3 kei4
-冚棉胎	kam2 min4 toi1
+𢫏牀布	kam2 cong4 bou3
+𢫏國旗	kam2 gwok3 kei4
+𢫏棉胎	kam2 min4 toi1
 擒牆頭	kam4 coeng4 tau4
 琴日先	kam4 jat6 sin1
 擒擒青	kam4 kam2 ceng1
@@ -61027,7 +61016,6 @@ sort: by_weight
 纈氨酸	kit3 on1 syun1
 巧妙處	kiu2 miu6 cyu3
 蹺妙處	kiu2 miu6 cyu3
-叫起手	kiu3 hei2 sau2
 翹翹板	kiu4 kiu4 baan2
 翹尾巴	kiu4 mei5 baa1
 翹拇指	kiu4 mou5 zi2
@@ -64376,6 +64364,7 @@ sort: by_weight
 南澳鄉	naam4 ou3 hoeng1
 男朋友	naam4 pang4 jau5
 南番順	naam4 pun1 seon6
+南蘇丹	naam4 sou1 daan1
 男同胞	naam4 tung4 baau1
 男童軍	naam4 tung4 gwan1
 男童院	naam4 tung4 jyun2
@@ -64458,7 +64447,6 @@ sort: by_weight
 腍坺坺	nam4 bet6 bet6
 腍癟癟	nam4 bet6 bet6
 腍劈劈	nam4 pek3 pek3
-南蘇丹	nam4 sou1 daan1
 腍姐姐	nam4 ze4 ze2
 腍嗻嗻	nam4 ze4 ze4
 腍滋滋	nam4 zi4 zi4
@@ -65417,7 +65405,6 @@ sort: by_weight
 齶齦音	ngok6 ngan4 jam1
 愕晒然	ngok6 saai3 jin4
 昂納克	ngong4 naap6 hak1
-戇勼勼	ngong6 gau1 gau1
 戇鳩鳩	ngong6 gau1 gau1
 戇𨳊𨳊	ngong6 gau1 gau1
 戇鳩仔	ngong6 gau1 zai2
@@ -72683,8 +72670,8 @@ sort: by_weight
 主日學	zyu2 jat6 hok6
 主羣組	zyu2 kwan4 zou2
 主力牆	zyu2 lik6 coeng4
-煮燶飯	zyu2 lung1 faan6
 煮我飯	zyu2 ngo5 faan6
+煮燶飯	zyu2 nung1 faan6
 煮死佢	zyu2 sei2 keoi5
 煮食爐	zyu2 sik6 lou4
 主題曲	zyu2 tai4 kuk1
@@ -74656,9 +74643,8 @@ sort: by_weight
 臭名遠播	cau3 ming4 jyun5 bo3
 臭名遠揚	cau3 ming4 jyun5 joeng4
 湊細蚊仔	cau3 sai3 man1 zai2
-臭屎密冚	cau3 si2 mat6 gam2
-臭屎密冚	cau3 si2 mat6 kam2
 臭屎密𠖫	cau3 si2 mat6 kam2
+臭屎密𢫏	cau3 si2 mat6 kam2
 躊躇不決	cau4 cyu4 bat1 kyut3
 躊躇滿志	cau4 cyu4 mun5 zi3
 囚首垢面	cau4 sau2 gau3 min6
@@ -75805,7 +75791,7 @@ sort: by_weight
 傳呼電話	cyun4 fu1 din6 waa2
 全副武裝	cyun4 fu3 mou5 zong1
 全副精力	cyun4 fu3 zing1 lik6
-全家冚竇	cyun4 gaa1 kam2 dau3
+全家𢫏竇	cyun4 gaa1 kam2 dau3
 傳家之寶	cyun4 gaa1 zi1 bou2
 全軍覆沒	cyun4 gwan1 fuk1 mut6
 全國連鎖	cyun4 gwok3 lin4 so2
@@ -78954,7 +78940,8 @@ sort: by_weight
 噉咪死火	gam2 mai6 sei2 fo2
 噉咪算咯	gam2 mai6 syun3 lok3
 噉未係咯	gam2 mei6 hai6 lok3
-噉冇嘢啦	gam2 mou5 je5 la1
+噉冇嘢啦	gam2 mou5 je5 laa1
+噉冇嘢喇	gam2 mou5 je5 laa3
 噉你都係	gam2 nei5 dou1 hai6
 噉你講啦	gam2 nei5 gong2 la1
 噉你有咩	gam2 nei5 jau5 me1
@@ -82693,7 +82680,7 @@ sort: by_weight
 一官半職	jat1 gun1 bun3 zik1
 一貫方針	jat1 gun3 fong1 zam1
 一貫作風	jat1 gun3 zok3 fung1
-一公一乸	jat1 gung1 jat1 naa3
+一公一乸	jat1 gung1 jat1 naa2
 一滾就熟	jat1 gwan2 zau6 suk6
 一國兩制	jat1 gwok3 loeng5 zai3
 一國三公	jat1 gwok3 saam1 gung1
@@ -84761,10 +84748,10 @@ sort: by_weight
 契妹契媽	kai3 mui2 kai3 maa1
 襟懷坦白	kam1 waai4 taan2 baak6
 搇冚個蓋	kam2 ham6 go3 goi3
-冚一巴掌	kam2 jat1 baa1 zoeng2
 搇一巴掌	kam2 jat1 baa1 zoeng2
-冚冚埋埋	kam2 kam2 maai4 maai4
-冚住冚住	kam2 zyu6 kam2 zyu6
+𢫏一巴掌	kam2 jat1 baa1 zoeng2
+𢫏𢫏埋埋	kam2 kam2 maai4 maai4
+𢫏住𢫏住	kam2 zyu6 kam2 zyu6
 擒賊擒王	kam4 caak6 kam4 wong4
 禽犢之愛	kam4 duk6 zi1 oi3
 擒高擒低	kam4 gou1 kam4 dai1
@@ -86232,7 +86219,6 @@ sort: by_weight
 六韜三略	luk6 tou1 saam1 loek6
 綠嘴地鵑	luk6 zeoi2 dei6 gyun1
 六字真言	luk6 zi6 zan1 jin4
-燶起塊面	lung1 hei2 faai3 min6
 窿窿啦啦	lung1 lung1 la1 la1
 窿窿罅罅	lung1 lung1 laa3 laa3
 龍穿鳳翼	lung4 cyun1 fung6 jik6
@@ -86292,12 +86278,11 @@ sort: by_weight
 鸞翔鳳集	lyun4 coeng4 fung6 zaap6
 鸞翔鳳翥	lyun4 coeng4 fung6 zyu3
 聯機遊戲	lyun4 gei1 jau4 hei3
-聯羣結隊	lyun4 gwan4 git3 deoi6
 聯繫方式	lyun4 hai6 fong1 sik1
 聯繫羣衆	lyun4 hai6 kwan4 zung3
 聯繫匯率	lyun4 hai6 wui6 leot2
 聯合王國	lyun4 hap6 wong4 gwok3
-聯群結隊	lyun4 kwan4 git3 deoi6
+聯羣結隊	lyun4 kwan4 git3 deoi6
 聯立方程	lyun4 laap6 fong1 cing4
 攣埋身瞓	lyun4 maai4 san1 fan3
 鸞飄鳳泊	lyun4 piu1 fung6 bok6
@@ -89121,6 +89106,7 @@ sort: by_weight
 怒目相向	nou6 muk6 soeng1 hoeng3
 忸忸怩怩	nuk6 nuk6 nei4 nei4
 燶口燶面	nung1 hau2 nung1 min6
+燶起塊面	nung1 hei2 faai3 min6
 農場管理	nung4 coeng4 gun2 lei5
 農家美食	nung4 gaa1 mei5 sik6
 農耕年代	nung4 gaang1 nin4 doi6
@@ -96724,7 +96710,6 @@ sort: by_weight
 大唐西域記	daai6 tong4 sai1 wik6 gei3
 大屠殺事件	daai6 tou4 saat3 si6 gin2
 大話夾好彩	daai6 waa6 gaap3 hou2 coi2
-大話冚大話	daai6 waa6 kam2 daai6 waa6
 大話𢫏大話	daai6 waa6 kam2 daai6 waa6
 大紫荊勳章	daai6 zi2 ging1 fan1 zoeng1
 大中華地區	daai6 zung1 waa4 dei6 keoi1
@@ -99277,7 +99262,7 @@ sort: by_weight
 域名服務器	wik6 meng2 fuk6 mou6 hei3
 永世都記得	wing5 sai3 dou1 gei3 dak1
 倭馬亞王朝	wo1 maa5 aa3 wong4 ciu4
-禾桿冚珍珠	wo4 gon2 kam2 zan1 zyu1
+禾桿𢫏珍珠	wo4 gon2 kam2 zan1 zyu1
 禾稈冚珍珠	wo4 gon2 kam2 zan1 zyu1
 和諧式客機	wo4 haai4 sik1 haak3 gei1
 禍不及妻兒	wo6 bat1 kap6 cai1 ji4
@@ -101807,7 +101792,7 @@ sort: by_weight
 頭懸梁，錐刺股	tau4 jyun4 loeng4 zeoi1 ci3 gu2
 退一步海闊天空	teoi3 jat1 bou6 hoi2 fut3 tin1 hung1
 天跌落嚟當被冚	tin1 dit3 lok6 lai4 dong3 pei5 kam2
-天跌落嚟當被冚	tin1 dit3 lok6 lei4 dong3 pei5 kam2
+天跌落嚟當被𢫏	tin1 dit3 lok6 lei4 dong3 pei5 kam2
 天跌落來當被冚	tin1 dit3 lok6 loi4 dong3 pei5 kam2
 天冬苯丙二肽酯	tin1 dung1 bun2 bing2 ji6 taai3 zi2
 天下文章一大抄	tin1 haa6 man4 zoeng1 jat1 daai6 caau1
