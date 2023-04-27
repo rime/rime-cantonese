@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2023.02.16"
+version: "2023.04.13"
 sort: by_weight
 ...
 
@@ -9372,7 +9372,6 @@ sort: by_weight
 个	go3
 個	go3
 吤	go3	5%
-咊	go3
 箇	go3
 𩼣	go3
 㗻	go6
@@ -10581,7 +10580,6 @@ sort: by_weight
 鐹	gwo2	5%
 餜	gwo2
 㳀	gwo3
-咊	gwo3	5%
 和	gwo3	0%
 過	gwo3
 鐹	gwo3	5%
@@ -30371,7 +30369,7 @@ sort: by_weight
 㕿	wo4
 㴕	wo4
 䒩	wo4
-咊	wo4	5%
+咊	wo4
 和	wo4
 咼	wo4	5%
 啝	wo4	5%
@@ -31897,7 +31895,7 @@ sort: by_weight
 軸	zau6	0%
 酎	zau6
 駎	zau6
-驟	zau6	3%
+驟	zau6	5%
 鮦	zau6	5%
 鯫	zau6	5%
 鷲	zau6
