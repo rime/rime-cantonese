@@ -8,7 +8,7 @@ set -e
 mkdir -p build/mac
 
 # Download Mac installation script, Mac package and unzip
-wget $SQUIRREL_LINK
+wget ${SQUIRREL_LINK}
 7z e Squirrel*.zip -obuild/mac/
 cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/mac-install.sh
 
