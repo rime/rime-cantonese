@@ -1,10 +1,8 @@
 name: build_packages
 on:
   push:
-    branch:
-      - "main"
-    tags:
-      - "**"
+    branches:
+      - main
 
 jobs:
   mac_linux:
