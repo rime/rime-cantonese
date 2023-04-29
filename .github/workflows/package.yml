@@ -1,4 +1,5 @@
-name: build_packages
+name: Build packages
+
 on:
   push:
     branches:
