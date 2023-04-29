@@ -1,33 +1,23 @@
-name: tanxpyox/rime-cantonese
+name: build_packages
 on:
   push:
-    branches:
-    - "**/*"
-  pull_request:
-concurrency:
-#   # This item has no matching transformer
-#   maximum_number_of_builds: 0
+    tags:
+      - "**"
+
 jobs:
-  test:
-    runs-on: ubuntu-16.04
+  mac_linux:
+    runs-on: ubuntu-latest
     if: ${{ github.ref || github.ref == 'refs/heads/main' }}
     steps:
     - name: checkout
       uses: actions/checkout@v3.5.0
-    - run: export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
     - run: export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | tail -n1 | sed 's/.*\///' )
-    - run: export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
     - run: export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.zip
-    - run: export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
-    - run: export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
     - run: export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
     - run: export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
-    - run: export TRIME_PACKAGES=":preset cantonese emoji CanCLID/rime-loengfan"
-    - run: export SFXHEADER=7zSD.sfx
-    - run: if [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then sudo apt-get install p7zip-full; fi
     - run: mkdir output
     - run: chmod u+x .ci/*
-    - run: if [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then ".ci/build_linux.sh"; elif [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "trusty" ]]; then ".ci/build_android.sh"; elif [ "${{ runner.os }}" = "windows" ]; then ".ci/build_windows.sh"; fi
+    - run: .ci/build_linux.sh
     - uses: softprops/action-gh-release@v0.1.15
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
@@ -37,56 +27,21 @@ jobs:
       if: "${{ github.event_name == 'push' && ${{ github.ref }} }}"
     - run: ls output
       if: "${{ success() }}"
-  test_2:
-    runs-on: # this agent type is not supported: [[{"dist"=>"trusty"}]]
-             ubuntu-latest
+
+  windows:
+    runs-on: ubuntu-latest
     if: ${{ github.ref || github.ref == 'refs/heads/main' }}
     steps:
     - name: checkout
       uses: actions/checkout@v3.5.0
     - run: export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
-    - run: export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | tail -n1 | sed 's/.*\///' )
     - run: export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
-    - run: export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.zip
-    - run: export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
     - run: export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
-    - run: export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
-    - run: export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
-    - run: export TRIME_PACKAGES=":preset cantonese emoji CanCLID/rime-loengfan"
     - run: export SFXHEADER=7zSD.sfx
-    - run: if [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then sudo apt-get install p7zip-full; fi
+    - run: sudo apt-get install p7zip-full
     - run: mkdir output
     - run: chmod u+x .ci/*
-    - run: if [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then ".ci/build_linux.sh"; elif [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "trusty" ]]; then ".ci/build_android.sh"; elif [ "${{ runner.os }}" = "windows" ]; then ".ci/build_windows.sh"; fi
-    - uses: softprops/action-gh-release@v0.1.15
-      env:
-        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-        GITHUB_REPOSITORY: "${{ github.repository }}"
-      with:
-        files: output/*
-      if: "${{ github.event_name == 'push' && ${{ github.ref }} }}"
-    - run: ls output
-      if: "${{ success() }}"
-  test_3:
-    runs-on: windows-latest
-    if: ${{ github.ref || github.ref == 'refs/heads/main' }}
-    steps:
-    - name: checkout
-      uses: actions/checkout@v3.5.0
-    - run: export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
-    - run: export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | tail -n1 | sed 's/.*\///' )
-    - run: export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
-    - run: export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.zip
-    - run: export TRIME_LINK=https://github.com/osfans/trime/raw/gh-pages/release/app-release.apk
-    - run: export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
-    - run: export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
-    - run: export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
-    - run: export TRIME_PACKAGES=":preset cantonese emoji CanCLID/rime-loengfan"
-    - run: export SFXHEADER=7zSD.sfx
-    - run: if [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then sudo apt-get install p7zip-full; fi
-    - run: mkdir output
-    - run: chmod u+x .ci/*
-    - run: if [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "xenial" ]]; then ".ci/build_linux.sh"; elif [[ "${{ runner.os }}" = "linux" && "$TRAVIS_DIST" = "trusty" ]]; then ".ci/build_android.sh"; elif [ "${{ runner.os }}" = "windows" ]; then ".ci/build_windows.sh"; fi
+    - run: i.ci/build_windows.sh
     - uses: softprops/action-gh-release@v0.1.15
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
