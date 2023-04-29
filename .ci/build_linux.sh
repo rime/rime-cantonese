@@ -13,7 +13,7 @@ wget $SQUIRREL_LINK
 cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/mac-install.sh
 
 # Build archives
-7z a output/mac-${TRAVIS_TAG}-installer.zip ./build/mac/*
+7z a output/mac-${GITHUB_REF_NAME}-installer.zip ./build/mac/*
 
 # Copy default.custom.yaml and ibus-install.sh into output queue
 cat .ci/ibus-install-template.sh | envsubst '${IBUS_PACKAGES}' > ./output/ibus-install.sh
