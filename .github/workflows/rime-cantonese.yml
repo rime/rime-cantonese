@@ -13,6 +13,7 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v3.5.0
+    - run: echo "::set-env name=CR_PAT::GITHUB_CONTAINER_REGISTRY_PAT"
     - run: |
         export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | tail -n1 | sed 's/.*\///' )
         export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.zip
@@ -46,6 +47,7 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v3.5.0
+    - run: echo "::set-env name=CR_PAT::GITHUB_CONTAINER_REGISTRY_PAT"
     - run: |
         export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | tail -n1 | sed 's/.*\///' )
         export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
