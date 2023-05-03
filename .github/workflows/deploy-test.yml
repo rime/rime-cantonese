@@ -1,4 +1,4 @@
-name: Rime Cantonese compilation check
+name: Compilation check
 
 on:
   # Trigger the workflow on push or pull request,

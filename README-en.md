@@ -5,9 +5,7 @@
 <p align="center">
 <a href="https://github.com/rime/rime-cantonese/issues"><img src="https://img.shields.io/badge/Contributions-Welcomed-1dd3b0?style=for-the-badge&logo=github"/></a>
 <a href="https://github.com/rime/rime-cantonese/releases"><img src="https://img.shields.io/github/v/release/rime/rime-cantonese?color=38618c&style=for-the-badge"/></a>
-<a href="https://travis-ci.com/github/rime/rime-cantonese"><img src="https://img.shields.io/travis/com/rime/rime-cantonese?label=Deploy&logo=travis-ci&logoColor=white&style=for-the-badge"/></a>
-<a href="https://github.com/rime/rime-cantonese/actions/workflows/deploy-test.yml"><img src="https://img.shields.io/github/workflow/status/rime/rime-cantonese/Rime%20Cantonese%20compilation%20check/main?label=Jyutping%20check&logo=github-actions&logoColor=white&style=for-the-badge"/></a>
-</p>
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/rime/rime-cantonese/package.yml?label=Deploy&logo=github&style=for-the-badge">
 
 This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)). The main part of this work is released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). `jyut6ping3.maps` is released under a [Open Data Commons Open Database v1.0 License](https://opendatacommons.org/licenses/odbl/).
 
