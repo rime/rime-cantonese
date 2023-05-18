@@ -1,0 +1,62 @@
+name: Update Website Links on Release
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  update-link:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          repository: CanCLID/jyutping.net
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Update URL in src/urls.json
+        env:
+          ASSETS: ${{ toJson(github.event.release.assets) }}
+        run: |
+          # Read the existing URLs from src/urls.json
+          existingUrls=$(cat src/urls.json)
+
+          # Loop through the release assets to find the corresponding file extension
+          windowsUrl=""
+          macUrl=""
+          for row in $(echo "$ASSETS" | jq -r '.[] | @base64'); do
+            name=$(echo ${row} | base64 --decode | jq -r '.name')
+            downloadUrl=$(echo ${row} | base64 --decode | jq -r '.browser_download_url')
+
+            if [[ $name == *.exe ]]; then
+              windowsUrl=$downloadUrl
+            elif [[ $name == *.pkg ]]; then
+              macUrl=$downloadUrl
+            fi
+          done
+
+          # Update the URL properties only if new URLs are available
+          if [[ ! -z $windowsUrl ]]; then
+            existingUrls=$(echo "$existingUrls" | jq --arg url "$windowsUrl" '.windows = $url')
+          fi
+
+          if [[ ! -z $macUrl ]]; then
+            existingUrls=$(echo "$existingUrls" | jq --arg url "$macUrl" '.mac = $url')
+          fi
+
+          # Save the updated URLs to src/urls.json
+          echo "$existingUrls" > src/urls.json
+
+      - name: Commit and push changes
+        env:
+          RELEASE: ${{ github.event.release.html_url }}
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add src/urls.json
+          if [ -n "$(git status --porcelain)" ]; then  # Push to GitHub if contents changed
+            git commit -m "Update URLs from $RELEASE"
+            git push origin main
+          fi
