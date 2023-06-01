@@ -31,7 +31,7 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 粤, 英 ]
+    states: [ 粵, 英 ]
   - name: full_shape
     states: [ 半角, 全角 ]
   - options: [ noop, variants_hk, trad_tw, simplification ]
