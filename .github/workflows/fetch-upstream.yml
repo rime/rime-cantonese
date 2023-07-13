@@ -8,28 +8,30 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      UPSTREAM_DIR: ../rime-cantonese-upstream
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Checkout Upstream
+        uses: actions/checkout@v3
+        with:
+          repository: CanCLID/rime-cantonese-upstream
+          path: ${{ env.UPSTREAM_DIR }}
       - name: Install dependencies
         run: |
           python -m pip install -U pip
           python -m pip install pytz
       - name: Fetch upstream
         run: |
-          UPSTREAM_DIR=../rime-cantonese-upstream
-          git clone https://github.com/CanCLID/rime-cantonese-upstream.git "$UPSTREAM_DIR"
-          UPSTEAM_LAST_COMMIT_TIMESTAMP=$(git -C "$UPSTREAM_DIR" log -1 --format="%at")
-          CURRENT_TIMESTAMP=$(date +%s)
-          DATE_DIFF=$(($(($CURRENT_TIMESTAMP-$UPSTEAM_LAST_COMMIT_TIMESTAMP))/86400))
-          if [ "$DATE_DIFF" -le 7 ]; then  # if upstream is updated within a week
-            python scripts/fetch_upstream.py "$UPSTREAM_DIR"  # rebuild dictionary
+          python scripts/fetch_upstream.py "$UPSTREAM_DIR"  # rebuild dictionary
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config diff.notimestamp.textconv 'sed "/^version:/d"'
+          echo "*.dict.yaml diff=notimestamp" > .gitattributes
+          git add .
+          if [ -n "$(git diff)" ]; then  # Push to GitHub if contents changed
             UPSTREAM_SHA=$(git -C "$UPSTREAM_DIR" rev-parse HEAD)
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git config user.name "github-actions[bot]"
-            git add .
-            if [ -n "$(git status --porcelain)" ]; then  # Push to GitHub if contents changed
-              git commit -m "Update from upstream https://github.com/CanCLID/rime-cantonese-upstream/commit/$UPSTREAM_SHA"
-              git push origin main
-            fi
+            git commit -m "Update from upstream https://github.com/CanCLID/rime-cantonese-upstream/commit/$UPSTREAM_SHA"
+            git push origin main
           fi
