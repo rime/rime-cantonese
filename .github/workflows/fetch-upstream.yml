@@ -9,7 +9,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      UPSTREAM_DIR: ../rime-cantonese-upstream
+      UPSTREAM_DIR: ./rime-cantonese-upstream
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -18,18 +18,18 @@ jobs:
         with:
           repository: CanCLID/rime-cantonese-upstream
           path: ${{ env.UPSTREAM_DIR }}
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install -U pip
           python -m pip install pytz
-      - name: Fetch upstream
+      - name: Rebuild Dictionary from Upstream
         run: |
-          python scripts/fetch_upstream.py "$UPSTREAM_DIR"  # rebuild dictionary
+          python scripts/fetch_upstream.py "$UPSTREAM_DIR"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git config diff.notimestamp.textconv 'sed "/^version:/d"'
           echo "*.dict.yaml diff=notimestamp" > .gitattributes
-          git add .
+          git add "*.dict.yaml"
           if [ -n "$(git diff)" ]; then  # Push to GitHub if contents changed
             UPSTREAM_SHA=$(git -C "$UPSTREAM_DIR" rev-parse HEAD)
             git commit -m "Update from upstream https://github.com/CanCLID/rime-cantonese-upstream/commit/$UPSTREAM_SHA"
