@@ -71,7 +71,7 @@ This schema uses the OpenCC standard character set by default--coded as「傳統
 
 Click <kbd>Ctrl</kbd> + <kbd>`</kbd> and then <kbd>2</kbd> to access the settings menu. Then, from the menu, choose 「有 Emoji」 to enable emoji input - doing so will allow the system to recognize and convert certain Chinese words into their corresponding emoji icons.
 
-The full list of emoji icons can be found [here](https://github.com/rime/rime-emoji/tree/master/opencc).
+The full list of emoji icons can be found [here](https://github.com/bingzheung/emoji-cantonese/tree/master/opencc).
 
 Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to permanently enable emoji input.
 
