@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2022.06.07"
+  version: "2024.02.17"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -76,10 +76,10 @@ engine:
     - table_translator@stroke
     - table_translator@cangjie5
   filters:
+    - simplifier@emoji_suggestion
     - simplifier@variants_hk
     - simplifier@trad_tw
     - simplifier
-    - simplifier@emoji_suggestion
     - uniquifier
     - reverse_lookup_filter@jyut6ping3_reverse_lookup
 
@@ -188,7 +188,7 @@ trad_tw:
   opencc_config: t2tw.json
 
 emoji_suggestion:
-  opencc_config: emoji.json
+  opencc_config: emoji_cantonese.json
   option_name: emoji_suggestion
   tips: all
 
