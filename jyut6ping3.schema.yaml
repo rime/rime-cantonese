@@ -110,7 +110,7 @@ speller:
     - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
     - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/             # 容錯 jyu -> ju
-    - derive/yu(?!ng|k)/y/        # 容錯 yu -> y
+    - derive/yu(?!ng|k)/y/        # 敎院式 yu -> y
     - derive/(g|k)u(?!ng|k)/$1wu/ # 輔音圓唇
     - derive/eoi(?=\d)/eoy/       # 容錯
     - derive/eo/oe/               # 容錯 eo/oe 不分
