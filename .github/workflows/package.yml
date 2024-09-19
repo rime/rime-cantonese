@@ -18,13 +18,13 @@ jobs:
     - name: build
       run: |
         export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///' )
-        export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.zip
+        export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.Pkg
         export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
         export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
         
         # Download Mac installation script, Mac package and unzip
         wget ${SQUIRREL_LINK}
-        7z e Squirrel*.zip -obuild/mac/
+        mv Squirrel*.Pkg ./build/mac/Squirrel.pkg
         cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/mac-install.sh
 
         # Build archives
@@ -49,7 +49,8 @@ jobs:
     - run: mkdir output
     - run: chmod u+x .ci/*
     - run: mkdir -p build/windows/data
-    - run: |
+    - name: build
+      run: |
         export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///' )
         export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
         export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
