@@ -24,7 +24,7 @@ jobs:
         
         # Download Mac installation script, Mac package and unzip
         wget ${SQUIRREL_LINK}
-        7z e Squirrel*.zip -obuild/mac/
+        mv Squirrel*.Pkg ./build/mac/Squirrel.pkg
         cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/mac-install.sh
 
         # Build archives
