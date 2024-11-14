@@ -73,7 +73,7 @@
 
 按 <kbd>Ctrl</kbd> + <kbd>`</kbd> 打開菜單，然後點擊 <kbd>2</kbd>，選擇「有 Emoji」，即可啓用 emoji——當你輸入一個中文詞，選字表即會出現相應的 emoji 符號。
 
-emoji 碼表請見[此處](https://github.com/rime/rime-emoji/tree/master/opencc)。
+emoji 碼表請見[此處](https://github.com/bingzheung/emoji-cantonese/tree/master/opencc)。
 
 如果想永久啓用 emoji，可以把 `jyut6ping3.schema.yaml` 中的 `switches` 修改爲：
 
