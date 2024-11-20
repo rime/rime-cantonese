@@ -36,15 +36,16 @@ switches:
     states: [ 半角, 全角 ]
   - options: [ noop, variants_hk, trad_tw, simplification ]
     states: [ 傳統漢字, 香港傳統漢字, 臺灣傳統漢字, 大陆简化汉字 ]
-    # 修改下行，改變預設用字 [0, 1, 2, 3 --> 對應上表]
-    # Edit the following line to change the default character style
+    # 修改下面箭嘴指住嘅數字以改變預設用字（數字 [0, 1, 2, 3] 分別對應上表）
+    #    例如「reset: 0」會將用字預設為 OpenCC 傳統漢字，如此類推
+    # Edit the number indicated by the arrow below to change the default character style
     #    [0 = OpenCC Traditional Chinese; 1 = Hong Kong TC; 2 = Taiwan TC; 3 = Mainland Simplified Chinese]
-    # Or remove to remember user setting
-    reset: 1
+    # 或刪除下行以記住用户設定 Or remove the following line to remember user setting
+    reset: 1  # <-- 此數字 this number
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: emoji_suggestion
-    # 取消下行註釋，預設啓動 emoji
+    # 取消下行註釋（移除 # 號），預設啓動 emoji
     #reset: 1
     states: [ 冇 Emoji, 有 Emoji ]
 
@@ -87,25 +88,34 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
-    # 取消下兩行註釋，支援疑影交替： ng- 通 Ø-，Ø- 通 ng-
+    # 取消下兩行註釋（移除 # 號），支援疑影交替： ng- 通 Ø-，Ø- 通 ng-
     #- derive/^ng([aeiou])/$1/
     #- derive/^([aeiou])/ng$1/
 
     # 取消下行註釋，支援泥來合流： n- 併入 l- ，如「你」讀若「理」
     #- derive/^n(?!g)/l/
 
-    # 取消下行註釋，支援圓唇輔音合口韻缺位：韻母o之前 gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
+    # 取消下行註釋，支援圓唇輔音合口韻缺位：韻母 o 之前 gw-, kw- 併入 g-, k- ，如「國」讀若「各」、「廓」讀若「確」
     #- derive/^(g|k)wo/$1o/
 
     # 取消下行註釋，支援獨立鼻音韻 ng 併入 m，如「吳」讀若「唔」
-    #- derive/^ng([123456])$/m$1/
+    #- derive/^ng(?=\d)/m/
 
-    # 取消下行註釋，支援韻尾-ng併入-n，如「恒生」讀若「痕身」
-    #- derive/ng([1234s56])$/n$1/
-    # 取消下行註釋，支援韻尾–k併入-t，如「北」讀若「不」
-    #- derive/k([123456])$/t$1/
-    # 取消下行註釋，支援韻尾–m併入-n，如「點」讀 din2
-    #- derive/m([123456])$/n$1/
+    # 取消下兩行註釋，支援韻尾 -n、-ng 交替，如「恒生」讀若「痕身」
+    #- derive/n(?=\d)/ng/
+    #- derive/ng(?=\d)/n/
+
+    # 取消下兩行註釋，支援韻尾 –t、-k 交替，如「北」讀若「不」
+    #- derive/t(?=\d)/k/
+    #- derive/k(?=\d)/t/
+
+    # 取消下兩行註釋，支援韻尾 –m、-n 交替，如「點」讀 din2
+    #- derive/m(?=\d)/n/
+    #- derive/n(?=\d)/m/
+
+    # 取消下兩行註釋，支援韻尾 –p、-t 交替，如「碟」讀 dit2
+    #- derive/p(?=\d)/t/
+    #- derive/t(?=\d)/p/
 
     - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
     - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
