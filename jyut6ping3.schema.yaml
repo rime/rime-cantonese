@@ -207,7 +207,8 @@ trad_tw:
 emoji_suggestion:
   opencc_config: emoji.json
   option_name: emoji_suggestion
-  tips: all
+  tips: none
+  inherit_comment: false
 
 punctuator:
   import_preset: symbols_cantonese
