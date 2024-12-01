@@ -1,16 +1,12 @@
 name: Compilation check
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the dev and main branches
   push:
     branches:
       - main
-      - trunk
   pull_request:
     branches:
       - main
-      - trunk
   workflow_dispatch:
     inputs:
       logLevel:
