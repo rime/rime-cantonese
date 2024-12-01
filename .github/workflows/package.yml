@@ -33,6 +33,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
+        name: mac_linux
         path: output/*
 
   windows:
@@ -71,4 +72,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
+        name: windows
         path: output/*
