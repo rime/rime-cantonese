@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2022.06.07"
+  version: "2024.12.01"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -13,7 +13,7 @@ schema:
     - tanxpyox <tanxpyox@gmail.com>
     - William915 <William915@gmail.com>
     - szc126 (@szc126)
-    - Bing Jeung <bing@ososo.io>
+    - Bing ZHEUNG <bing@zheung.org>
     - graphemecluster <graphemecluster@gmail.com>
 
   description: |-
@@ -44,7 +44,7 @@ switches:
     reset: 1  # <-- 此數字 this number
   - name: ascii_punct
     states: [ 。，, ．， ]
-  - name: emoji_suggestion
+  - name: emoji_cantonese_suggestion
     # 取消下行註釋（移除 # 號），預設啓動 emoji
     #reset: 1
     states: [ 冇 Emoji, 有 Emoji ]
@@ -77,7 +77,7 @@ engine:
     - table_translator@stroke
     - table_translator@cangjie5
   filters:
-    - simplifier@emoji_suggestion
+    - simplifier@emoji_cantonese_suggestion
     - simplifier@variants_hk
     - simplifier@trad_tw
     - simplifier
@@ -204,9 +204,9 @@ trad_tw:
   option_name: trad_tw
   opencc_config: t2tw.json
 
-emoji_suggestion:
-  opencc_config: emoji.json
-  option_name: emoji_suggestion
+emoji_cantonese_suggestion:
+  opencc_config: emoji_cantonese.json
+  option_name: emoji_cantonese_suggestion
   tips: none
   inherit_comment: false
 
