@@ -11,7 +11,7 @@ jobs:
     if: ${{ github.ref || github.ref == 'refs/heads/main' }}
     steps:
     - name: checkout
-      uses: actions/checkout@v3.5.0
+      uses: actions/checkout@v4
     - run: mkdir output
     - run: chmod u+x .ci/*
     - run: mkdir -p build/mac
@@ -33,7 +33,7 @@ jobs:
         # Copy default.custom.yaml and ibus-install.sh into output queue
         cat .ci/ibus-install-template.sh | envsubst '${IBUS_PACKAGES}' > ./output/ibus-install.sh
         cp .ci/default.custom.yaml output/
-    - uses: softprops/action-gh-release@v0.1.15
+    - uses: softprops/action-gh-release@v2
       with:
         files: output/*
       if: startsWith(github.ref, 'refs/tags/')
@@ -44,7 +44,7 @@ jobs:
     if: ${{ github.ref || github.ref == 'refs/heads/main' }}
     steps:
     - name: checkout
-      uses: actions/checkout@v3.5.0
+      uses: actions/checkout@v4
     - run: sudo apt-get install p7zip-full
     - run: mkdir output
     - run: chmod u+x .ci/*
@@ -73,7 +73,7 @@ jobs:
 
         # Packing installer files into a separate zip
         7z a output/windows-${GITHUB_REF_NAME}-installer.zip ./build/windows/*
-    - uses: softprops/action-gh-release@v0.1.15
+    - uses: softprops/action-gh-release@v2
       with:
         files: output/*
       if: startsWith(github.ref, 'refs/tags/')
