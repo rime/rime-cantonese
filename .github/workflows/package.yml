@@ -2,12 +2,6 @@ name: Build packages
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - '*.yaml' # root directory only
-      - '*.txt'
-      - 'opencc/**'
 
 jobs:
   mac_linux:
@@ -36,11 +30,10 @@ jobs:
         # Copy default.custom.yaml and ibus-install.sh into output queue
         cat .ci/ibus-install-template.sh | envsubst '${IBUS_PACKAGES}' > ./output/ibus-install.sh
         cp .ci/default.custom.yaml output/
-    - uses: softprops/action-gh-release@v2
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
       with:
-        files: output/*
-      if: startsWith(github.ref, 'refs/tags/')
-    - run: ls output
+        path: output/*
 
   windows:
     runs-on: ubuntu-latest
@@ -75,8 +68,7 @@ jobs:
 
         # Packing installer files into a separate zip
         7z a output/windows-${GITHUB_REF_NAME}-installer.zip ./build/windows/*
-    - uses: softprops/action-gh-release@v2
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
       with:
-        files: output/*
-      if: startsWith(github.ref, 'refs/tags/')
-    - run: ls output
+        path: output/*
