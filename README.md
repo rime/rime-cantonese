@@ -78,12 +78,12 @@
 
 撳 <kbd>Ctrl</kbd> 同 <kbd>`</kbd> 兩粒掣打開選單，然後撳 <kbd>2</kbd>，揀「有 Emoji」就可以啓用 emoji——當你打一個中文詞嘅時候，選字表就會出現對應嘅 emoji 符號嘞。
 
-emoji 碼表可以喺[呢度](https://github.com/rime/rime-emoji/tree/master/opencc)搵到。
+emoji 碼表可以喺 [rime-emoji-cantonese](https://github.com/rime/rime-emoji-cantonese) 搵到。
 
 如果想永久啓用 emoji 嘅話，可以修改 `jyut6ping3.schema.yaml` 嘅 `switches` 做：
 
 ```yaml
-- name: emoji_suggestion
+- name: emoji_cantonese_suggestion
   # 取消下行註釋，預設啓動 emoji
   reset: 1
   states: [冇 Emoji, 有 Emoji]
