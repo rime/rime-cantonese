@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '*.yaml' # root directory only
+      - '*.txt'
+      - 'opencc/**'
 
 jobs:
   mac_linux:

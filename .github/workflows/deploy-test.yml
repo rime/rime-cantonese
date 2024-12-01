@@ -4,9 +4,17 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '*.yaml' # root directory only
+      - '*.txt'
+      - 'opencc/**'
   pull_request:
     branches:
       - main
+    paths:
+      - '*.yaml'
+      - '*.txt'
+      - 'opencc/**'
   workflow_dispatch:
     inputs:
       logLevel:
