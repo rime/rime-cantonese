@@ -19,7 +19,7 @@ jobs:
       run: |
         export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///' )
         export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.Pkg
-        export SQUIRREL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
+        export SQUIRREL_PACKAGES="cantonese emoji-cantonese CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
         export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
         
         # Download Mac installation script, Mac package and unzip
@@ -53,7 +53,7 @@ jobs:
       run: |
         export WEASEL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///' )
         export WEASEL_LINK=https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe
-        export WEASEL_PACKAGES="cantonese emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
+        export WEASEL_PACKAGES="cantonese emoji-cantonese CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
         export SFXHEADER=7zSD.sfx
 
         # Prepare update installation script template version number
