@@ -1,0 +1,10 @@
+name: gf-test
+
+on:
+  push:
+
+jobs:
+  package:
+    uses: ./.github/workflows/package.yml
+    with:
+      event_name: ${{ github.event_name }}
