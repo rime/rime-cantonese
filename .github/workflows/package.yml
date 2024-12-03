@@ -2,19 +2,37 @@ name: Build packages
 
 on:
   workflow_call:
+    inputs:
+      event_name:
+        required: true
+        type: string
 
 jobs:
   mac:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
+    - name: Checkout Repo
       uses: actions/checkout@v4
-    - name: Build
+    - name: Get Squirrel Version
       run: |
         export SQUIRREL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')
+    - id: check_version
+      name: Compare Squirrel Version
+      if: inputs.event_name != 'push'
+      continue-on-error: true
+      run: |
+        RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
+        SQUIRREL_RELEASED_VERSION=$(echo "$RELEASED_FILES" | grep 'Squirrel-.*' | sed 's/Squirrel-\([^-]*\).*/\1/')
+        if [ "$SQUIRREL_VERSION" = "$SQUIRREL_RELEASED_VERSION" ]; then
+          echo "Squirrel version is up to date. Skipping package."
+          exit 1
+    - name: Package Squirrel
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      run: |
         chmod u+x ./.ci/*
         ./.ci/package-mac.sh
-    - name: Upload artifact
+    - name: Upload Artifact
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
         name: mac
@@ -24,17 +42,32 @@ jobs:
   windows:
     runs-on: windows-2019
     steps:
-    - name: Checkout
+    - name: Checkout Repo
       uses: actions/checkout@v4
-    - name: Build
+    - name: Get Weasel Version
       shell: bash
       run: |
         export WEASEL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')
+    - id: check_version
+      name: Compare Weasel Version
+      if: inputs.event_name != 'push'
+      shell: bash
+      continue-on-error: true
+      run: |
+        RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
+        WEASEL_RELEASED_VERSION=$(echo "$RELEASED_FILES" | grep 'weasel-.*' | sed 's/weasel-\([^-]*\).*/\1/')
+        if [ "$WEASEL_VERSION" = "$WEASEL_RELEASED_VERSION" ]; then
+          echo "Weasel version is up to date. Skipping package."
+          exit 1
+    - name: Package Weasel
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      shell: bash
+      run: |
         wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/install_nsis.bat
         ./install_nsis.bat
-        chmod u+x ./.ci/*
         ./.ci/package-windows.sh
-    - name: Upload artifact
+    - name: Upload Artifact
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
         name: windows

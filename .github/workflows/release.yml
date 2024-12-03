@@ -15,6 +15,8 @@ on:
 jobs:
   package:
     uses: ./.github/workflows/package.yml
+    with:
+      event_name: ${{ github.event_name }}
   release:
     needs: package
     runs-on: ubuntu-latest
@@ -33,9 +35,16 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: output
+          merge-multiple: true
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          gh release delete-asset latest * -y
-          gh release upload latest output/* --clobber
+          for prefix in $(ls output | xargs -n 1 basename | sed 's/-.*/-/' | sort -u); do
+            for asset in $(gh release view latest --json assets --jq '.assets[].name' | grep "^$prefix"); do
+              gh release delete-asset latest "$asset" -y
+            done
+          done
+          for file in output/*; do
+            gh release upload latest "$file"
+          done
