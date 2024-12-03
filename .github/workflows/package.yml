@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Get Squirrel Version
       run: |
-        export SQUIRREL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')
+        echo "SQUIRREL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')" >> $GITHUB_ENV
     - id: check_version
       name: Compare Squirrel Version
       if: inputs.event_name != 'push'
@@ -47,7 +47,7 @@ jobs:
     - name: Get Weasel Version
       shell: bash
       run: |
-        export WEASEL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')
+        echo "WEASEL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')" >> $GITHUB_ENV
     - id: check_version
       name: Compare Weasel Version
       if: inputs.event_name != 'push'
