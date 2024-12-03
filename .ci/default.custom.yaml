@@ -1,9 +1,0 @@
-patch:
-  installed_from: rime-cantonese
-  menu:
-    page_size: 8
-  schema_list:
-    - schema: jyut6ping3
-    - schema: cangjie5
-    - schema: stroke
-    - schema: luna_pinyin
