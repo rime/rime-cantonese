@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+SCRIPT_DIR="$PWD/.ci"
 
 # Modify the package with the solution from https://stackoverflow.com/a/11299907
 # First, download the package and extract it
@@ -14,13 +16,13 @@ pushd Squirrel.app/Contents
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm SharedSupport/*.*
 export rime_dir=SharedSupport
-./.ci/rime-install.sh
+"$SCRIPT_DIR/rime-install.sh"
 popd
 
 # Compress back the application
-tar -czf Squirrel.app
-mv Squirrel.app.tar.gz Payload
-rm Squirrel.app
+find Squirrel.app | cpio -o | gzip -c > Payload
+mkbom Squirrel.app Bom
+rm -rf Squirrel.app
 popd
 
 # Finally, compress back the package

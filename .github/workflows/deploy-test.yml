@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '*.yaml' # root directory only
+      - '*.yaml'  # root directory only
       - '*.txt'
       - 'opencc/**'
   pull_request:
