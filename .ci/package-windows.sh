@@ -33,7 +33,7 @@ export rime_dir=data
 mkdir ../resource
 wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/resource/weasel.ico -P ../resource
 wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/output/install.nsi
-makensis.exe /DWEASEL_VERSION=$WEASEL_VERSION /DPRODUCT_VERSION=$WEASEL_VERSION install.nsi
+makensis.exe //DWEASEL_VERSION=$WEASEL_VERSION //DPRODUCT_VERSION=$WEASEL_VERSION install.nsi
 
 # Rename the installer
 for file in archive/*.exe; do
