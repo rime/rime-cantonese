@@ -1,10 +1,10 @@
 name: Build packages
 
 on:
-  push:
+  workflow_call:
 
 jobs:
-  mac_linux:
+  mac:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
@@ -15,13 +15,12 @@ jobs:
     - name: build
       run: |
         export SQUIRREL_VERSION=$( git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///' )
-        export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.Pkg
+        export SQUIRREL_LINK=https://github.com/rime/squirrel/releases/download/${SQUIRREL_VERSION}/Squirrel-${SQUIRREL_VERSION}.pkg
         export SQUIRREL_PACKAGES="cantonese emoji-cantonese CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant"
         export IBUS_PACKAGES=${SQUIRREL_PACKAGES}
         
         # Download Mac installation script, Mac package and unzip
-        wget ${SQUIRREL_LINK}
-        mv Squirrel*.Pkg ./build/mac/Squirrel.pkg
+        wget ${SQUIRREL_LINK} -P ./build/mac/
         cat .ci/mac-install-template.sh | envsubst '${SQUIRREL_PACKAGES}' > ./build/mac/mac-install.sh
 
         # Build archives
