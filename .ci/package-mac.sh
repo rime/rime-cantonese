@@ -16,7 +16,7 @@ pushd Squirrel.app/Contents
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm SharedSupport/*.*
 export rime_dir=SharedSupport
-"$SCRIPT_DIR/rime-install.sh"
+source "$SCRIPT_DIR/rime-install.sh"
 popd
 
 # Compress back the application

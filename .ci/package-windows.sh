@@ -10,7 +10,7 @@ cd output
 # List all files with name ending with `_1`, compare the content of these files and the files with the same names but does not end with `_1` whether these binaries is 32-bit or 64-bit
 # Then, move the ones that are 32-bit to the `Win32` folder and remove `_1` from the name of all the files
 mkdir Win32
-for file in $(find . -name '*_1.*'); do
+for file in *_1.*; do
   extension="${file##*.}"
   base_file="${file%_1.*}.$extension"
   if [[ $(file "$base_file") != *"x86-64"* ]]; then
@@ -27,7 +27,7 @@ done
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm data/*.*
 export rime_dir=data
-"$SCRIPT_DIR/rime-install.sh"
+source "$SCRIPT_DIR/rime-install.sh"
 
 # Finally, rebuild the installer
 mkdir ../resource
