@@ -26,6 +26,7 @@ jobs:
         path: schema
 
   package-windows:
+    needs: install-schema
     runs-on: windows-2019
     steps:
     - name: Checkout Repo
@@ -70,6 +71,7 @@ jobs:
         path: ./output/archives/weasel-*.exe
 
   package-mac:
+    needs: install-schema
     runs-on: macos-14
     steps:
     - name: Checkout Repo
