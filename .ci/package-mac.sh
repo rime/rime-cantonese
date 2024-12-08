@@ -18,6 +18,10 @@ pushd Squirrel.app/Contents
 # Remove all default rime schemas but keep opencc data
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm SharedSupport/*.*
+echo "---------- $SCHEMA_DIR/* ----------"
+ls "$SCHEMA_DIR/*"
+echo "---------- $(realpath ../../schema)/* ----------"
+ls $(realpath ../../schema)/*
 cp -rf "$SCHEMA_DIR/*" SharedSupport
 popd
 
