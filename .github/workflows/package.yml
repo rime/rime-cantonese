@@ -61,9 +61,9 @@ jobs:
         ./install_nsis.bat
         export SCHEMA_DIR="$PWD/schema"
         export PATH="/c/Program Files (x86)/NSIS/Bin:$PATH"
-        echo "---------- /c/Program Files (x86)/NSIS/Include ----------"
-        find "/c/Program Files (x86)/NSIS/Include"
-        echo "---------- End of /c/Program Files (x86)/NSIS/Include ----------"
+        echo "---------- WinVer.nsh ----------"
+        cat "/c/Program Files (x86)/NSIS/Include/WinVer.nsh"
+        echo "---------- End of WinVer.nsh ----------"
         ./.ci/package-windows.sh
     - name: Upload Artifact
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
