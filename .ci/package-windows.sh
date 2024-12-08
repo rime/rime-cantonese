@@ -33,13 +33,12 @@ done
 # Remove all default rime schemas but keep opencc data and preview images
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm data/*.*
-cp -rf "$SCHEMA_DIR/*" data
+cp -rf "$SCHEMA_DIR/"* data
 
 # Finally, rebuild the installer
 mkdir ../resource
 wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/resource/weasel.ico -P ../resource
 wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/output/install.nsi
-# perl -0777 -i -pe 's/!include winVer\.nsh/!include WinVer.nsh/' install.nsi
 makensis.exe //DWEASEL_VERSION=$WEASEL_VERSION //DPRODUCT_VERSION=$WEASEL_VERSION install.nsi
 
 # Rename the installer
