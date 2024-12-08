@@ -8,7 +8,24 @@ on:
         type: string
 
 jobs:
-  mac:
+  install-schema:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+    - name: Install Schemata
+      run: |
+        chmod u+x ./.ci/*
+        export rime_dir=schema
+        ./.ci/install-schema.sh
+    - name: Upload Schemata
+      uses: actions/upload-artifact@v4
+      with:
+        name: install-schema
+        if-no-files-found: error
+        path: schema
+
+  package-mac:
     runs-on: macos-14
     steps:
     - name: Checkout Repo
@@ -26,20 +43,27 @@ jobs:
         if [ "$SQUIRREL_VERSION" = "$SQUIRREL_RELEASED_VERSION" ]; then
           echo "Squirrel version is up to date. Skipping package."
           exit 1
+    - name: Download Schemata
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      uses: actions/download-artifact@v4
+      with:
+        name: install-schema
+        path: schema
     - name: Package Squirrel
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       run: |
         chmod u+x ./.ci/*
+        export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
-        name: mac
+        name: package-mac
         if-no-files-found: error
         path: ./output/Squirrel-*.pkg
 
-  windows:
+  package-windows:
     runs-on: windows-2019
     steps:
     - name: Checkout Repo
@@ -59,19 +83,26 @@ jobs:
         if [ "$WEASEL_VERSION" = "$WEASEL_RELEASED_VERSION" ]; then
           echo "Weasel version is up to date. Skipping package."
           exit 1
+    - name: Download Schemata
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      uses: actions/download-artifact@v4
+      with:
+        name: install-schema
+        path: schema
     - name: Package Weasel
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       shell: bash
       run: |
-        export PATH="/c/msys64/usr/bin:$PATH" 
+        export PATH="/c/msys64/usr/bin:$PATH"
         wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/install_nsis.bat
         ./install_nsis.bat
-        export PATH="/c/Program Files (x86)/NSIS/Bin:$PATH" 
+        export SCHEMA_DIR="$PWD/schema"
+        export PATH="/c/Program Files (x86)/NSIS/Bin:$PATH"
         ./.ci/package-windows.sh
     - name: Upload Artifact
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
-        name: windows
+        name: package-windows
         if-no-files-found: error
         path: ./output/archives/weasel-*.exe

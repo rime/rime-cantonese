@@ -35,13 +35,15 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: output
+          pattern: package-*
           merge-multiple: true
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
+          assets=$(gh release view latest --json assets --jq '.assets[].name')
           for prefix in $(ls output | xargs -n 1 basename | sed 's/-.*/-/' | sort -u); do
-            for asset in $(gh release view latest --json assets --jq '.assets[].name' | grep "^$prefix"); do
+            for asset in $(echo "$assets" | grep "^$prefix"); do
               gh release delete-asset latest "$asset" -y
             done
           done

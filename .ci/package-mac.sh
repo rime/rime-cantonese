@@ -1,6 +1,9 @@
 #!/bin/bash
+if [ -z "$SCHEMA_DIR" ]; then
+  echo 'Error: Please specify the path to the schema directory in the SCHEMA_DIR variable' >&2
+  exit 1
+fi
 set -e
-SCRIPT_DIR="$PWD/.ci"
 
 # Modify the package with the solution from https://stackoverflow.com/a/11299907
 # First, download the package and extract it
@@ -15,8 +18,7 @@ pushd Squirrel.app/Contents
 # Remove all default rime schemas but keep opencc data
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm SharedSupport/*.*
-export rime_dir=SharedSupport
-source "$SCRIPT_DIR/rime-install.sh"
+cp -f "$SCHEMA_DIR/*" SharedSupport
 popd
 
 # Compress back the application

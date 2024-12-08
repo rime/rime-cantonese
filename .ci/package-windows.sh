@@ -1,6 +1,13 @@
 #!/bin/bash
+if [ -z "$SCHEMA_DIR" ]; then
+  echo 'Error: Please specify the path to the schema directory in the SCHEMA_DIR variable' >&2
+  exit 1
+fi
+if ! [ -x "$(command -v makensis.exe)" ]; then
+  echo 'Error: Please specify the path to makensis.exe in the PATH' >&2
+  exit 1
+fi
 set -e
-SCRIPT_DIR="$PWD/.ci"
 
 # First, download the executable and extract it
 wget https://github.com/rime/weasel/releases/download/${WEASEL_VERSION}/weasel-${WEASEL_VERSION}.0-installer.exe --no-check-certificate
@@ -26,8 +33,7 @@ done
 # Remove all default rime schemas but keep opencc data and preview images
 # Then, download the latest schemas we need and amend the `default.yaml`
 rm data/*.*
-export rime_dir=data
-source "$SCRIPT_DIR/rime-install.sh"
+cp -f "$SCHEMA_DIR/*" data
 
 # Finally, rebuild the installer
 mkdir ../resource
