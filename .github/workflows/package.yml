@@ -25,44 +25,6 @@ jobs:
         if-no-files-found: error
         path: schema
 
-  package-mac:
-    runs-on: macos-14
-    steps:
-    - name: Checkout Repo
-      uses: actions/checkout@v4
-    - name: Get Squirrel Version
-      run: |
-        echo "SQUIRREL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')" >> $GITHUB_ENV
-    - id: check_version
-      name: Compare Squirrel Version
-      if: inputs.event_name != 'push'
-      continue-on-error: true
-      run: |
-        RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
-        SQUIRREL_RELEASED_VERSION=$(echo "$RELEASED_FILES" | grep 'Squirrel-.*' | sed 's/Squirrel-\([^-]*\).*/\1/')
-        if [ "$SQUIRREL_VERSION" = "$SQUIRREL_RELEASED_VERSION" ]; then
-          echo "Squirrel version is up to date. Skipping package."
-          exit 1
-    - name: Download Schemata
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
-      uses: actions/download-artifact@v4
-      with:
-        name: install-schema
-        path: schema
-    - name: Package Squirrel
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
-      run: |
-        chmod u+x ./.ci/*
-        export SCHEMA_DIR="$PWD/schema"
-        ./.ci/package-mac.sh
-    - name: Upload Artifact
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
-      uses: actions/upload-artifact@v4
-      with:
-        name: package-mac
-        if-no-files-found: error
-        path: ./output/Squirrel-*.pkg
-
   package-windows:
     runs-on: windows-2019
     steps:
@@ -106,3 +68,41 @@ jobs:
         name: package-windows
         if-no-files-found: error
         path: ./output/archives/weasel-*.exe
+
+  package-mac:
+    runs-on: macos-14
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+    - name: Get Squirrel Version
+      run: |
+        echo "SQUIRREL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')" >> $GITHUB_ENV
+    - id: check_version
+      name: Compare Squirrel Version
+      if: inputs.event_name != 'push'
+      continue-on-error: true
+      run: |
+        RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
+        SQUIRREL_RELEASED_VERSION=$(echo "$RELEASED_FILES" | grep 'Squirrel-.*' | sed 's/Squirrel-\([^-]*\).*/\1/')
+        if [ "$SQUIRREL_VERSION" = "$SQUIRREL_RELEASED_VERSION" ]; then
+          echo "Squirrel version is up to date. Skipping package."
+          exit 1
+    - name: Download Schemata
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      uses: actions/download-artifact@v4
+      with:
+        name: install-schema
+        path: schema
+    - name: Package Squirrel
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      run: |
+        chmod u+x ./.ci/*
+        export SCHEMA_DIR="$PWD/schema"
+        ./.ci/package-mac.sh
+    - name: Upload Artifact
+      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      uses: actions/upload-artifact@v4
+      with:
+        name: package-mac
+        if-no-files-found: error
+        path: ./output/Squirrel-*.pkg
