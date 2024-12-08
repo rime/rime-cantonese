@@ -100,6 +100,10 @@ jobs:
       run: |
         chmod u+x ./.ci/*
         export SCHEMA_DIR="$PWD/schema"
+        echo "---------- $SCHEMA_DIR ----------"
+        ls "$SCHEMA_DIR"
+        echo "---------- ../schema ----------"
+        ls "../schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
