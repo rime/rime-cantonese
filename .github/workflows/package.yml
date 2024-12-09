@@ -102,12 +102,17 @@ jobs:
         SIGNING_CERTIFICATE_AUTHORITY_PASSWORD: ${{ secrets.SIGNING_CERTIFICATE_AUTHORITY_PASSWORD }}
       run: |
         chmod u+x ./.ci/*
+        KEYCHAIN_PATH=~/Library/Keychains/squirrel.keychain
+        KEYCHAIN_PASSWORD=squirrel
+        security create-keychain -p "$KEYCHAIN_PASSWORD" squirrel.keychain
         echo "$SIGNING_CERTIFICATE" | base64 -d > signing_certificate.p12
-        security import signing_certificate.p12 -P "$SIGNING_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
+        security import signing_certificate.p12 -k "$KEYCHAIN_PATH" -P "$SIGNING_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
         if [ -n "$SIGNING_CERTIFICATE_AUTHORITY" ] && [ -n "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" ]; then
           echo "$SIGNING_CERTIFICATE_AUTHORITY" | base64 -d > signing_certificate_authority.p12
-          security import signing_certificate_authority.p12 -P "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" -T /usr/bin/codesign
+          security import signing_certificate_authority.p12 -k "$KEYCHAIN_PATH" -P "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" -T /usr/bin/codesign
         fi
+        security list-keychain -s "$KEYCHAIN_PATH"
+        security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
