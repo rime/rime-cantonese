@@ -98,10 +98,16 @@ jobs:
         SIGNING_IDENTITY: ${{ secrets.SIGNING_IDENTITY }}
         SIGNING_CERTIFICATE: ${{ secrets.SIGNING_CERTIFICATE }}
         SIGNING_CERTIFICATE_PASSWORD: ${{ secrets.SIGNING_CERTIFICATE_PASSWORD }}
+        SIGNING_CERTIFICATE_AUTHORITY: ${{ secrets.SIGNING_CERTIFICATE_AUTHORITY }}
+        SIGNING_CERTIFICATE_AUTHORITY_PASSWORD: ${{ secrets.SIGNING_CERTIFICATE_AUTHORITY_PASSWORD }}
       run: |
         chmod u+x ./.ci/*
         echo "$SIGNING_CERTIFICATE" | base64 -d > signing_certificate.p12
         security import signing_certificate.p12 -P "$SIGNING_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
+        if [ -n "$SIGNING_CERTIFICATE_AUTHORITY" ] && [ -n "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" ]; then
+          echo "$SIGNING_CERTIFICATE_AUTHORITY" | base64 -d > signing_certificate_authority.p12
+          security import signing_certificate_authority.p12 -P "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" -T /usr/bin/codesign
+        fi
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
