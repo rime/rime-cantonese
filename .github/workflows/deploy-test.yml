@@ -30,7 +30,7 @@ jobs:
         run: |
           chmod u+x ./.ci/*
           export rime_dir=~/.config/ibus/rime
-          ./.ci/rime-install.sh
+          ./.ci/install-schema.sh
       - name: Compile
         run: |
           chmod u+wx ~/.config/ibus/rime/*
