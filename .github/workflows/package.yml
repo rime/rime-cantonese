@@ -56,6 +56,7 @@ jobs:
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       shell: bash
       run: |
+        export PATH="/c/msys64/usr/bin:$PATH"  # wget
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-windows.sh
     - name: Upload Artifact
