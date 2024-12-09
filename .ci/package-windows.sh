@@ -43,6 +43,6 @@ mkdir archives
 makensis.exe //DWEASEL_VERSION=$WEASEL_VERSION //DPRODUCT_VERSION=$WEASEL_VERSION install.nsi
 
 # Rename the installer
-for file in archive/*.exe; do
+for file in archives/*.exe; do
   mv "$file" "${file/installer/rime-cantonese}"
 done
