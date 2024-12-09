@@ -3,6 +3,10 @@ if [ -z "$SCHEMA_DIR" ]; then
   echo 'Error: Please specify the path to the schema directory in the SCHEMA_DIR variable' >&2
   exit 1
 fi
+if [ -z "$SIGNING_IDENTITY" ]; then
+  echo 'Error: Please specify the SIGNING_IDENTITY variable for code resigning' >&2
+  exit 1
+fi
 set -e
 
 # Modify the package with the solution from https://stackoverflow.com/a/11299907
@@ -21,6 +25,9 @@ GLOBIGNORE=SharedSupport/squirrel.yaml
 rm SharedSupport/*.*
 cp -rf "$SCHEMA_DIR/"* SharedSupport
 popd
+
+# Resign the application
+codesign --sign "$SIGNING_IDENTITY" --timestamp --deep --force Squirrel.app
 
 # Compress back the application
 find Squirrel.app | cpio -o | gzip -c > Payload
