@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '*.yaml' # root directory only
+      - '*.yaml'  # root directory only
       - '*.txt'
       - 'opencc/**'
   pull_request:
@@ -16,11 +16,6 @@ on:
       - '*.txt'
       - 'opencc/**'
   workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: false
-        default: 'warning'
 
 jobs:
   compile:
@@ -28,22 +23,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - run: | 
-          echo "Installing rime engine"
-          sudo apt-get install curl git ibus-rime -y
-      - run: | 
-          echo "Installing rime-cantonese files"
-          curl -fsSL https://git.io/rime-install | bash -s -- :preset cantonese emoji-cantonese CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
-          cp ./*.{txt,yaml} ~/.config/ibus/rime
-          cp ./opencc/* ~/.config/ibus/rime
-      - run: | 
-          echo "Compiling..."
+      - name: Install rime engine
+        run: |
+          sudo apt-get install ibus-rime -y
+      - name: Install rime-cantonese files
+        run: |
+          chmod u+x ./.ci/*
+          export rime_dir=~/.config/ibus/rime
+          ./.ci/rime-install.sh
+      - name: Compile
+        run: |
           chmod u+wx ~/.config/ibus/rime/*
           rime_deployer --build ~/.config/ibus/rime 2> log.tmp
-      - run: |
-          echo "Checking..."
+      - name: Check
+        run: |
           cat log.tmp
-          exit $( cat log.tmp | grep -c ^[EW] ) 
+          exit $(cat log.tmp | grep -c ^[EW]) 
 
   check_jyutping_cpp:
     runs-on: ubuntu-latest
@@ -61,7 +56,6 @@ jobs:
       - run: |
           echo "Checking jyut6ping3.dict.yaml"
           time ./checker.o jyut6ping3.dict.yaml
-
 
   check_jyutping_php:
     runs-on: ubuntu-latest

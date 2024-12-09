@@ -224,3 +224,9 @@ recognizer:
     loengfan: "^r[a-z']*;?$"
     stroke: "^x[hspnz]*;?$"
     cangjie5: "^v[a-z]*;?$"
+
+__patch:
+  # 使用八股文語言模型
+  - grammar:/hant?
+  # 用户自訂設定
+  - jyut6ping3.custom:/patch?
