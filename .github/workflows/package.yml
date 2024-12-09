@@ -100,9 +100,8 @@ jobs:
         SIGNING_CERTIFICATE_PASSWORD: ${{ secrets.SIGNING_CERTIFICATE_PASSWORD }}
       run: |
         chmod u+x ./.ci/*
-        echo "$SIGNING_CERTIFICATE" | base64 --decode > signing_certificate.p12
-        security import signing_certificate.p12 -k ~/Library/Keychains/login.keychain -P "$SIGNING_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
-        security set-key-partition-list -S apple-tool:,apple: -s -k "$SIGNING_CERTIFICATE_PASSWORD" ~/Library/Keychains/login.keychain
+        echo "$SIGNING_CERTIFICATE" | base64 -d > signing_certificate.p12
+        security import signing_certificate.p12 -P "$SIGNING_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
