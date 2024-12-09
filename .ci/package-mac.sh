@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ -z "$SQUIRREL_VERSION" ]; then
+  echo 'Error: Please specify the Squirrel version to package in the SQUIRREL_VERSION variable' >&2
+  exit 1
+fi
 if [ -z "$SCHEMA_DIR" ]; then
   echo 'Error: Please specify the path to the schema directory in the SCHEMA_DIR variable' >&2
   exit 1
