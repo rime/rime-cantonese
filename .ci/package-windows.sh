@@ -30,8 +30,9 @@ for file in *_1.*; do
   fi
 done
 
-# Remove all default rime schemas but keep opencc data and preview images
+# Remove all default rime schemas but keep opencc data, preview images and app config
 # Then, download the latest schemas we need and amend the `default.yaml`
+GLOBIGNORE=data/weasel.yaml
 rm data/*.*
 cp -rf "$SCHEMA_DIR/"* data
 

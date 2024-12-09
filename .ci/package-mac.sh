@@ -15,8 +15,9 @@ pushd package
 tar -xzf Payload
 pushd Squirrel.app/Contents
 
-# Remove all default rime schemas but keep opencc data
+# Remove all default rime schemas but keep opencc data and app config
 # Then, download the latest schemas we need and amend the `default.yaml`
+GLOBIGNORE=SharedSupport/squirrel.yaml
 rm SharedSupport/*.*
 cp -rf "$SCHEMA_DIR/"* SharedSupport
 popd
