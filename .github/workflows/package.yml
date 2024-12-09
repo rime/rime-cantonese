@@ -113,6 +113,7 @@ jobs:
         fi
         security list-keychain -s "$KEYCHAIN_PATH"
         security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+        security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
