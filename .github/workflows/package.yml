@@ -56,14 +56,7 @@ jobs:
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       shell: bash
       run: |
-        export PATH="/c/msys64/usr/bin:$PATH"
-        wget https://raw.githubusercontent.com/rime/weasel/refs/tags/${WEASEL_VERSION}/install_nsis.bat
-        ./install_nsis.bat
         export SCHEMA_DIR="$PWD/schema"
-        export PATH="/c/Program Files (x86)/NSIS/Bin:$PATH"
-        echo "---------- WinVer.nsh ----------"
-        cat "/c/Program Files (x86)/NSIS/Include/WinVer.nsh"
-        echo "---------- End of WinVer.nsh ----------"
         ./.ci/package-windows.sh
     - name: Upload Artifact
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
