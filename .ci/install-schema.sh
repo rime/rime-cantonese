@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -fsSL https://git.io/rime-install | bash -s -- prelude essay cantonese emoji-cantonese cangjie stroke luna-pinyin CanCLID/rime-loengfan lotem/rime-octagram-data lotem/rime-octagram-data@hant
+curl -fsSL https://git.io/rime-install | bash -s -- prelude
 
 if [ -n "$rime_dir" ]; then
   pushd "$rime_dir"
