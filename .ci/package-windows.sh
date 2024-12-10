@@ -36,9 +36,9 @@ done
 
 # Remove all default rime schemas but keep opencc data, preview images and app config
 # Then, download the latest schemas we need and amend the `default.yaml`
-GLOBIGNORE=data/weasel.yaml
-rm data/*.*
-cp -rf "$SCHEMA_DIR/"* data
+# GLOBIGNORE=data/weasel.yaml
+# rm data/*.*
+# cp -rf "$SCHEMA_DIR/"* data
 
 # Finally, rebuild the installer
 mkdir ../resource
