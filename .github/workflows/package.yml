@@ -95,25 +95,30 @@ jobs:
     - name: Package Squirrel
       if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
       env:
-        SIGNING_IDENTITY: ${{ secrets.SIGNING_IDENTITY }}
-        SIGNING_CERTIFICATE: ${{ secrets.SIGNING_CERTIFICATE }}
-        SIGNING_CERTIFICATE_PASSWORD: ${{ secrets.SIGNING_CERTIFICATE_PASSWORD }}
-        SIGNING_CERTIFICATE_AUTHORITY: ${{ secrets.SIGNING_CERTIFICATE_AUTHORITY }}
-        SIGNING_CERTIFICATE_AUTHORITY_PASSWORD: ${{ secrets.SIGNING_CERTIFICATE_AUTHORITY_PASSWORD }}
+        APPLE_DEVELOPER_NAME: ${{ secrets.APPLE_DEVELOPER_NAME }}
+        APPLE_DEVELOPER_TEAM_ID: ${{ secrets.APPLE_DEVELOPER_TEAM_ID }}
+        APPLE_CONNECT_USERNAME: ${{ secrets.APPLE_CONNECT_USERNAME }}
+        APPLE_CONNECT_PASSWORD: ${{ secrets.APPLE_CONNECT_PASSWORD }}
+        APPLICATION_CERTIFICATE: ${{ secrets.APPLICATION_CERTIFICATE }}
+        APPLICATION_CERTIFICATE_PASSWORD: ${{ secrets.APPLICATION_CERTIFICATE_PASSWORD }}
+        INSTALLER_CERTIFICATE: ${{ secrets.INSTALLER_CERTIFICATE }}
+        INSTALLER_CERTIFICATE_PASSWORD: ${{ secrets.INSTALLER_CERTIFICATE_PASSWORD }}
       run: |
         chmod u+x ./.ci/*
+
         KEYCHAIN_PATH=~/Library/Keychains/squirrel.keychain
         KEYCHAIN_PASSWORD=squirrel
         security create-keychain -p "$KEYCHAIN_PASSWORD" squirrel.keychain
-        echo "$SIGNING_CERTIFICATE" | base64 -d > signing_certificate.p12
-        security import signing_certificate.p12 -k "$KEYCHAIN_PATH" -P "$SIGNING_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
-        if [ -n "$SIGNING_CERTIFICATE_AUTHORITY" ] && [ -n "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" ]; then
-          echo "$SIGNING_CERTIFICATE_AUTHORITY" | base64 -d > signing_certificate_authority.p12
-          security import signing_certificate_authority.p12 -k "$KEYCHAIN_PATH" -P "$SIGNING_CERTIFICATE_AUTHORITY_PASSWORD" -T /usr/bin/codesign
-        fi
+
+        echo "$APPLICATION_CERTIFICATE" | base64 -d > application_certificate.p12
+        security import application_certificate.p12 -k "$KEYCHAIN_PATH" -P "$APPLICATION_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
+        echo "$INSTALLER_CERTIFICATE" | base64 -d > installer_certificate.p12
+        security import installer_certificate.p12 -k "$KEYCHAIN_PATH" -P "$INSTALLER_CERTIFICATE_PASSWORD" -T /usr/bin/productsign
+
         security list-keychain -s "$KEYCHAIN_PATH"
         security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
-        security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+        security set-key-partition-list -S apple-tool:,apple:,codesign:,productsign: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
