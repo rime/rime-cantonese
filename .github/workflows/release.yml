@@ -1,0 +1,53 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.yaml'  # root directory only
+      - '*.txt'
+      - 'opencc/**'
+  schedule:
+    - cron: '45 8 * * 4'  # run every week
+  workflow_dispatch:
+
+jobs:
+  package:
+    uses: ./.github/workflows/package.yml
+    with:
+      event_name: ${{ github.event_name }}
+    secrets: inherit
+  release:
+    needs: package
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Latest Commit
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+      - name: Tag the Latest Commit
+        run: |
+          git tag -f latest
+          git push -f origin latest
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: output
+          pattern: package-*
+          merge-multiple: true
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          assets=$(gh release view latest --json assets --jq '.assets[].name')
+          for prefix in $(ls output | xargs -n 1 basename | sed 's/-.*/-/' | sort -u); do
+            for asset in $(echo "$assets" | grep "^$prefix"); do
+              gh release delete-asset latest "$asset" -y
+            done
+          done
+          for file in output/*; do
+            gh release upload latest "$file"
+          done
