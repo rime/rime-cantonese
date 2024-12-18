@@ -58,3 +58,4 @@ jobs:
   update-link:
     needs: release
     uses: ./.github/workflows/update-website-links.yml
+    secrets: inherit
