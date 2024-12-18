@@ -45,13 +45,11 @@ jobs:
           echo "$existingUrls" > src/urls.json
 
       - name: Commit and push changes
-        env:
-          RELEASE: ${{ github.event.release.html_url }}
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add src/urls.json
           if [ -n "$(git status --porcelain)" ]; then  # Push to GitHub if contents changed
-            git commit -m "Update URLs from $RELEASE"
+            git commit -m "Update Installer URLs"
             git push origin main
           fi
