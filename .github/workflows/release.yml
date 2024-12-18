@@ -42,6 +42,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
+          if [ ! -d output ]; then
+            echo "No artifacts to release."
+            exit 0
+          fi
           assets=$(gh release view latest --json assets --jq '.assets[].name')
           for prefix in $(ls output | xargs -n 1 basename | sed 's/-.*/-/' | sort -u); do
             for asset in $(echo "$assets" | grep "^$prefix"); do
