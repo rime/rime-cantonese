@@ -37,7 +37,7 @@ jobs:
         echo "WEASEL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/weasel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')" >> $GITHUB_ENV
     - id: check_version
       name: Compare Weasel Version
-      if: inputs.event_name != 'push'
+      if: inputs.event_name == 'schedule'
       shell: bash
       continue-on-error: true
       run: |
@@ -47,20 +47,20 @@ jobs:
           echo "Weasel version is up to date. Skipping package."
           exit 1
     - name: Download Schemata
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       uses: actions/download-artifact@v4
       with:
         name: install-schema
         path: schema
     - name: Package Weasel
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       shell: bash
       run: |
         export PATH="/c/msys64/usr/bin:$PATH"  # wget
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-windows.sh
     - name: Upload Artifact
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
         name: package-windows
@@ -78,7 +78,7 @@ jobs:
         echo "SQUIRREL_VERSION=$(git ls-remote --tags --refs --sort="v:refname" https://github.com/rime/squirrel.git | grep -v '/latest$' | tail -n1 | sed 's/.*\///')" >> $GITHUB_ENV
     - id: check_version
       name: Compare Squirrel Version
-      if: inputs.event_name != 'push'
+      if: inputs.event_name == 'schedule'
       continue-on-error: true
       run: |
         RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
@@ -87,13 +87,13 @@ jobs:
           echo "Squirrel version is up to date. Skipping package."
           exit 1
     - name: Download Schemata
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       uses: actions/download-artifact@v4
       with:
         name: install-schema
         path: schema
     - name: Package Squirrel
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       env:
         APPLE_DEVELOPER_NAME: ${{ secrets.APPLE_DEVELOPER_NAME }}
         APPLE_DEVELOPER_TEAM_ID: ${{ secrets.APPLE_DEVELOPER_TEAM_ID }}
@@ -122,7 +122,7 @@ jobs:
         export SCHEMA_DIR="$PWD/schema"
         ./.ci/package-mac.sh
     - name: Upload Artifact
-      if: inputs.event_name == 'push' || steps.check_version.outcome == 'success'
+      if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       uses: actions/upload-artifact@v4
       with:
         name: package-mac
