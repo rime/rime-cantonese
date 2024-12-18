@@ -40,6 +40,8 @@ jobs:
       if: inputs.event_name == 'schedule'
       shell: bash
       continue-on-error: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
         WEASEL_RELEASED_VERSION=$(echo "$RELEASED_FILES" | grep 'weasel-.*' | sed 's/weasel-\([^-]*\).*/\1/')
@@ -80,6 +82,8 @@ jobs:
       name: Compare Squirrel Version
       if: inputs.event_name == 'schedule'
       continue-on-error: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         RELEASED_FILES=$(gh release view latest --json assets --jq '.assets[].name')
         SQUIRREL_RELEASED_VERSION=$(echo "$RELEASED_FILES" | grep 'Squirrel-.*' | sed 's/Squirrel-\([^-]*\).*/\1/')
