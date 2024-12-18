@@ -1,9 +1,7 @@
 name: Update Website Links on Release
 
 on:
-  release:
-    types:
-      - published
+  workflow_call:
 
 jobs:
   update-link:
@@ -18,7 +16,7 @@ jobs:
 
       - name: Update URL in src/urls.json
         env:
-          ASSETS: ${{ toJson(github.event.release.assets) }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           # Read the existing URLs from src/urls.json
           existingUrls=$(cat src/urls.json)
@@ -26,14 +24,11 @@ jobs:
           # Loop through the release assets to find the corresponding file extension
           windowsUrl=""
           macUrl=""
-          for row in $(echo "$ASSETS" | jq -r '.[] | @base64'); do
-            name=$(echo ${row} | base64 --decode | jq -r '.name')
-            downloadUrl=$(echo ${row} | base64 --decode | jq -r '.browser_download_url')
-
-            if [[ $name == *.exe ]]; then
-              windowsUrl=$downloadUrl
-            elif [[ $name == *.pkg ]]; then
-              macUrl=$downloadUrl
+          for url in $(gh release view latest --json assets --jq '.assets[].browser_download_url'); do
+            if [[ $url == *.exe ]]; then
+              windowsUrl=$url
+            elif [[ $url == *.pkg ]]; then
+              macUrl=$url
             fi
           done
 
