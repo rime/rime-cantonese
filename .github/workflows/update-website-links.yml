@@ -14,41 +14,23 @@ jobs:
           repository: CanCLID/jyutping.net
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      - name: Update URL in src/urls.json
+      - name: Update URL in .env
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          # Read the existing URLs from src/urls.json
-          existingUrls=$(cat src/urls.json)
-
-          # Loop through the release assets to find the corresponding file extension
-          windowsUrl=""
-          macUrl=""
           for url in $(gh release view latest --json assets --jq '.assets[].browser_download_url'); do
             if [[ $url == *.exe ]]; then
-              windowsUrl=$url
+              sed -i "s|^VITE_DOWNLOAD_URL_WINDOWS=.*|VITE_DOWNLOAD_URL_WINDOWS=$url|" .env
             elif [[ $url == *.pkg ]]; then
-              macUrl=$url
+              sed -i "s|^VITE_DOWNLOAD_URL_MAC=.*|VITE_DOWNLOAD_URL_MAC=$url|" .env
             fi
           done
-
-          # Update the URL properties only if new URLs are available
-          if [[ ! -z $windowsUrl ]]; then
-            existingUrls=$(echo "$existingUrls" | jq --arg url "$windowsUrl" '.windows = $url')
-          fi
-
-          if [[ ! -z $macUrl ]]; then
-            existingUrls=$(echo "$existingUrls" | jq --arg url "$macUrl" '.mac = $url')
-          fi
-
-          # Save the updated URLs to src/urls.json
-          echo "$existingUrls" > src/urls.json
 
       - name: Commit and push changes
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add src/urls.json
+          git add .env
           if [ -n "$(git status --porcelain)" ]; then  # Push to GitHub if contents changed
             git commit -m "Update Installer URLs"
             git push origin main
