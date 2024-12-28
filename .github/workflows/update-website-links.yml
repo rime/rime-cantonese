@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          for url in $(gh release view latest --json assets --jq '.assets[].browser_download_url'); do
+          for url in $(gh release view latest --repo rime/rime-cantonese --json assets --jq '.assets[].url'); do
             if [[ $url == *.exe ]]; then
               sed -i "s|^VITE_DOWNLOAD_URL_WINDOWS=.*|VITE_DOWNLOAD_URL_WINDOWS=$url|" .env
             elif [[ $url == *.pkg ]]; then
