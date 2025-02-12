@@ -48,6 +48,7 @@ jobs:
         if [ "$WEASEL_VERSION" = "$WEASEL_RELEASED_VERSION" ]; then
           echo "Weasel version is up to date. Skipping package."
           exit 1
+        fi
     - name: Download Schemata
       if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       uses: actions/download-artifact@v4
@@ -90,6 +91,7 @@ jobs:
         if [ "$SQUIRREL_VERSION" = "$SQUIRREL_RELEASED_VERSION" ]; then
           echo "Squirrel version is up to date. Skipping package."
           exit 1
+        fi
     - name: Download Schemata
       if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       uses: actions/download-artifact@v4
