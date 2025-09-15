@@ -117,6 +117,9 @@ speller:
     #- derive/p(?=\d)/t/
     #- derive/t(?=\d)/p/
 
+    # 取消下行註釋，容錯 aau -> ao
+    #- derive/aau$/ao/
+    
     - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
     - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/             # 容錯 jyu -> ju
