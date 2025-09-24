@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3
-version: "2025.05.17"
+version: "2022.03.17"
 sort: by_weight
 vocabulary: essay-cantonese
 import_tables:
@@ -16,5 +16,4 @@ import_tables:
   - jyut6ping3.phrase
   - jyut6ping3.lettered
   - jyut6ping3.maps
-  - gukwan.kwongtung
 ...
