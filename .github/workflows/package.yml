@@ -1,6 +1,15 @@
 name: Build packages
 
 on:
+  workflow_dispatch:
+    inputs:
+      event_name:
+        required: true
+        type: string
+        default: 'routine'
+        options:
+          - routine
+          - schedule
   workflow_call:
     inputs:
       event_name:
@@ -27,7 +36,7 @@ jobs:
 
   package-windows:
     needs: install-schema
-    runs-on: windows-2019
+    runs-on: windows-latest
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v4
@@ -72,7 +81,7 @@ jobs:
 
   package-mac:
     needs: install-schema
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v4
