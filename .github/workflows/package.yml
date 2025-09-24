@@ -1,6 +1,15 @@
 name: Build packages
 
 on:
+  workflow_dispatch:
+    inputs:
+      event_name:
+        required: true
+        type: string
+        default: 'routine'
+        options:
+          - routine
+          - schedule
   workflow_call:
     inputs:
       event_name:
