@@ -64,6 +64,13 @@ jobs:
       with:
         name: install-schema
         path: schema
+    - name: Install NSIS (makensis)
+      # Use Chocolatey on windows-latest to install NSIS and add its folder to PATH for subsequent steps
+      shell: powershell
+      run: |
+        choco install nsis -y
+        # Add NSIS program folder to PATH for all subsequent steps
+        Write-Output 'C:\Program Files (x86)\NSIS' | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
     - name: Package Weasel
       if: inputs.event_name != 'schedule' || steps.check_version.outcome == 'success'
       shell: bash
