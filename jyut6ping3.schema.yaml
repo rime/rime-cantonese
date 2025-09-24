@@ -78,9 +78,9 @@ engine:
     - table_translator@cangjie5
   filters:
     - simplifier@emoji_cantonese_suggestion
+    - simplifier
     - simplifier@variants_hk
     - simplifier@trad_tw
-    - simplifier
     - uniquifier
     - reverse_lookup_filter@jyut6ping3_reverse_lookup
 
