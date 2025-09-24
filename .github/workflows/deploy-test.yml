@@ -44,3 +44,20 @@ jobs:
         run: |
           cat log.tmp
           exit $(cat log.tmp | grep -c ^[EW]) 
+
+  check_jyutping_cpp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - run: |
+          echo "Installing prerequisites..."
+          sudo apt-get install libboost-all-dev
+      - run: |
+          echo "Building checker from source..."
+          export LD_LIBRARY_PATH="/usr/lib/boost/lib"
+          g++ .ci/checker.cpp -o checker.o -Ofast -I/usr/include/boost -L/usr/lib/boost/lib -lboost_regex
+          chmod u+x ./checker.o
+      - run: |
+          echo "Checking jyut6ping3.dict.yaml"
+          time ./checker.o jyut6ping3.dict.yaml
