@@ -1,0 +1,17 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: default
+  description: >-
+    Configurate rime-cantonese installation
+
+patch_files:
+  default.custom.yaml:
+    - patch/+:
+        installed_from: rime-cantonese
+        schema_list:
+          - schema: jyut6ping3
+          - schema: cangjie5
+          - schema: stroke
+          - schema: luna_pinyin
+        menu/page_size: 8
