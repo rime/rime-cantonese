@@ -11,7 +11,7 @@
 
 本項目由「粵語計算語言學基礎建設組」([@CanCLID](https://github.com/CanCLID)) 開發及維護，主體部分循「[共享創意-署名-4.0 國際](http://creativecommons.org/licenses/by/4.0/)」協議發佈，`jyut6ping3.maps` 循「[開放資料庫授權-1.0](https://opendatacommons.org/licenses/odbl/)」協議發佈。
 
-<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://raw.githubusercontent.com/rime/rime-cantonese/build/button 安裝教程.svg"/></a></p>
+<p align="center"><a href="https://jyutping.net"><img src="https://github.com/user-attachments/assets/aa3833a0-f520-46dd-823f-d0e4300f76a6"/></a></p>
 
 如有問題，歡迎加入下述 [Telegram 交流組](https://t.me/rime_cantonese)尋求協助。
 

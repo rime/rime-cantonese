@@ -9,7 +9,7 @@
 
 This work is developed and maintained by the Cantonese Computational Linguistics Infrastructure Development Workgroup ([@CanCLID](https://github.com/CanCLID)). The main part of this work is released under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). `jyut6ping3.maps` is released under a [Open Data Commons Open Database v1.0 License](https://opendatacommons.org/licenses/odbl/).
 
-<p align="center"><a href="https://github.com/rime/rime-cantonese/releases"><img src="https://raw.githubusercontent.com/rime/rime-cantonese/build/button How to install.svg"/></a></p>
+<p align="center"><a href="https://jyutping.net"><img src="https://github.com/user-attachments/assets/f1e5b71f-f60e-4c35-8744-2513ce9e643b"/></a></p>
 
 Feel free to ask for help in the [Telegram group](https://t.me/rime_cantonese) if you encounter any problem.
 
