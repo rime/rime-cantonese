@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2023.06.01"
+version: "2025.11.10"
 sort: by_weight
 ...
 
@@ -16642,7 +16642,7 @@ sort: by_weight
 蚏	jyut6
 袕	jyut6
 說	jyut6	3%
-説	jyut6
+説	jyut6	3%
 越	jyut6
 跀	jyut6	5%
 踅	jyut6	5%
@@ -17778,7 +17778,7 @@ sort: by_weight
 䯞	kwaa1
 侉	kwaa1
 咼	kwaa1	5%
-喎	kwaa1
+喎	kwaa1	3%
 垮	kwaa1
 夸	kwaa1
 姱	kwaa1
@@ -27933,7 +27933,7 @@ sort: by_weight
 膤	syut3
 艝	syut3
 說	syut3
-説	syut3	5%
+説	syut3
 轌	syut3
 雪	syut3
 鱈	syut3
@@ -29404,7 +29404,7 @@ sort: by_weight
 哇	waa1
 唲	waa1	5%
 啘	waa1
-喎	waa1	5%
+喎	waa1	3%
 嘩	waa1
 娃	waa1
 挖	waa1	3%
@@ -30364,7 +30364,7 @@ sort: by_weight
 婑	wo2	5%
 捰	wo2
 啝	wo3
-喎	wo3	5%
+喎	wo3
 涴	wo3	5%
 㕿	wo4
 㴕	wo4
