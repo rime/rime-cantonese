@@ -1,5 +1,5 @@
 import sys
-import datetime
+from datetime import datetime
 import pytz
 from os.path import basename, join
 from glob import iglob
@@ -16,7 +16,7 @@ except IndexError:
     print('Error: Please provide upstream directory as a command line argument.', file=sys.stderr)
     sys.exit(-1)
 
-current_date = datetime.datetime.now(pytz.timezone('Asia/Hong_Kong')).strftime('%Y.%m.%d')  # stick to HKT to avoid confusion
+current_date = (datetime.fromisoformat(sys.argv[2]).astimezone if len(sys.argv) > 2 else datetime.now)(pytz.timezone('Asia/Hong_Kong')).strftime('%Y.%m.%d')  # stick to HKT to avoid confusion
 
 def generate_header(dictionary_name):
     return f'''# Rime dictionary

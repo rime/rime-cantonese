@@ -24,7 +24,8 @@ jobs:
           python -m pip install pytz
       - name: Rebuild Dictionary from Upstream
         run: |
-          python scripts/fetch_upstream.py "$UPSTREAM_DIR"
+          UPSTREAM_TIME=$(git -C "$UPSTREAM_DIR" log -1 --format=%aI)
+          python scripts/fetch_upstream.py "$UPSTREAM_DIR" "$UPSTREAM_TIME"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git config diff.notimestamp.textconv 'sed "/^version:/d"'
