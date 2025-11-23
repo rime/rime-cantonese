@@ -30,7 +30,7 @@ jobs:
           git config diff.notimestamp.textconv 'sed "/^version:/d"'
           echo "*.dict.yaml diff=notimestamp" > .gitattributes
           git add "*.dict.yaml"
-          if [ -n "$(git diff --cached --name-only)" ]; then  # Push to GitHub if contents changed
+          if [ -n "$(git diff --cached)" ]; then  # Push to GitHub if contents changed. Don't use `--name-only` because this flag prevents the actual content from being computed by the command specified by textconv (same for `git status`).
             UPSTREAM_SHA=$(git -C "$UPSTREAM_DIR" rev-parse HEAD)
             git commit -m "Update from upstream https://github.com/CanCLID/rime-cantonese-upstream/commit/$UPSTREAM_SHA"
             git push origin main
