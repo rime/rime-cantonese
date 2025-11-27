@@ -30,11 +30,9 @@ jobs:
         run: |
           chmod u+x ./.ci/*
           export rime_dir=~/.config/ibus/rime
-          curl -fsSL https://git.io/rime-install | bash -s -- :preset emoji CanCLID/rime-loengfan custom:set:config=default,key=installed_from,value=rime-cantonese custom:clear_schema_list custom:add:schema=jyut6ping3 custom:add:schema=cangjie5 custom:add:schema=stroke custom:add:schema=luna_pinyin lotem/rime-octagram-data lotem/rime-octagram-data@hant lotem/rime-octagram-data:customize:schema=jyut6ping3,model=hant
-          cp ./*.{txt,yaml} $rime_dir 
-          cp ./opencc/* $rime_dir
-
-# Use cp ./** in lieu of ./.ci/install_schema.sh to ensure that action is running on checked out branch (e.g. PR refs)
+          curl -fsSL https://git.io/rime-install | bash -s -- rime/rime-cantonese@install/clean-install-packages.conf
+          rm clean-install-packages.conf
+        # Replicate the content of ./.ci/install_schema.sh in lieu of calling it directly to ensure that action is running on checked out branch (e.g. PR refs)
 
       - name: Compile
         run: |
