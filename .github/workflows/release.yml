@@ -9,7 +9,7 @@ on:
       - '*.txt'
       - 'opencc/**'
   schedule:
-    - cron: '45 8 * * 4'  # run every week
+    - cron: '0 9 * * 4'  # run every week *after* fetching upstream
   workflow_dispatch:
 
 jobs:
