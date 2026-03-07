@@ -23,6 +23,7 @@ jobs:
           python -m pip install -U pip
           python -m pip install pytz
       - name: Rebuild Dictionary from Upstream
+        continue-on-error: true
         run: |
           UPSTREAM_TIME=$(git -C "$UPSTREAM_DIR" log -1 --format=%aI)
           python scripts/fetch_upstream.py "$UPSTREAM_DIR" "$UPSTREAM_TIME"
@@ -35,4 +36,7 @@ jobs:
             UPSTREAM_SHA=$(git -C "$UPSTREAM_DIR" rev-parse HEAD)
             git commit -m "Update from upstream https://github.com/CanCLID/rime-cantonese-upstream/commit/$UPSTREAM_SHA"
             git push origin main
+          else
+            echo "Already up to date."
+            exit 1
           fi
