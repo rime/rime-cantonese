@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2024.12.01"
+  version: "2026.05.27"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -48,9 +48,16 @@ switches:
     # 取消下行註釋（移除 # 號），預設啓動 emoji
     #reset: 1
     states: [ 冇 Emoji, 有 Emoji ]
+  - name: prediction
+    states: [ 關閉聯想詞, 開啓聯想詞 ]
+    # 將下面箭嘴指住嘅數字改成 0，預設關閉聯想詞
+    # Change the number indicated by the arrow below to 0 to turn of prediction by default
+    # 或刪除下行以記住用户設定 Or remove the following line to remember user setting
+    reset: 1  # <-- 此數字 this number
 
 engine:
   processors:
+    - predictor
     - ascii_composer
     - recognizer
     - key_binder
@@ -70,6 +77,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - predict_translator
     - punct_translator
     - script_translator
     - script_translator@luna_pinyin
@@ -225,8 +233,12 @@ recognizer:
     stroke: "^x[hspnz]*;?$"
     cangjie5: "^v[a-z]*;?$"
 
+predictor:
+  db: predict-cantonese.db
+
 __patch:
   # 使用八股文語言模型
   - grammar:/hant?
   # 用户自訂設定
   - jyut6ping3.custom:/patch?
+
