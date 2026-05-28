@@ -4,7 +4,7 @@
 schema:
   schema_id: jyut6ping3
   name: 粵語拼音
-  version: "2024.12.01"
+  version: "2026.05.27"
   author:
     - Ayaka Mikazuki <ayaka@mail.shn.hk>
     - LeiMaau <leimaau@qq.com>
@@ -27,6 +27,7 @@ schema:
     - loengfan
     - stroke
     - cangjie5
+    - quick5
 
 switches:
   - name: ascii_mode
@@ -66,6 +67,7 @@ engine:
     - affix_segmentor@loengfan
     - affix_segmentor@stroke
     - affix_segmentor@cangjie5
+    - affix_segmentor@quick5
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -76,6 +78,7 @@ engine:
     - script_translator@loengfan
     - table_translator@stroke
     - table_translator@cangjie5
+    - script_translator@quick5
   filters:
     - simplifier@emoji_cantonese_suggestion
     - simplifier
@@ -117,7 +120,6 @@ speller:
     #- derive/p(?=\d)/t/
     #- derive/t(?=\d)/p/
 
-    - derive/^([aeiou])/q$1/      # 增加 q 表示喉塞
     - derive/^jy?([aeiou])/y$1/   # 容錯 je -> ye, jyu -> yu
     - derive/^jyu/ju/             # 容錯 jyu -> ju
     - derive/yu(?!ng|k)/y/        # 容錯 yu -> y
@@ -191,8 +193,24 @@ cangjie5:
     - "^z.*$"
     - "^yyy.*$"
 
+quick5:
+  tag: quick5
+  dictionary: quick5
+  enable_user_dict: false
+  prefix: "q"
+  suffix: ";"
+  tips: 〔速成五代〕
+  preedit_format:
+    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - "^yyy.*$"
+
 jyut6ping3_reverse_lookup:
-  tags: [ luna_pinyin, loengfan, stroke, cangjie5 ]
+  tags: [ luna_pinyin, loengfan, stroke, cangjie5, quick5 ]
   overwrite_comment: false
   dictionary: jyut6ping3
 
@@ -224,6 +242,7 @@ recognizer:
     loengfan: "^r[a-z']*;?$"
     stroke: "^x[hspnz]*;?$"
     cangjie5: "^v[a-z]*;?$"
+    quick5: "^q[a-z]*;?$"
 
 __patch:
   # 使用八股文語言模型
