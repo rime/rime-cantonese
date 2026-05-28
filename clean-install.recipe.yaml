@@ -11,6 +11,7 @@ patch_files:
     schema_list:
       - schema: jyut6ping3
       - schema: cangjie5
+      - schema: quick5
       - schema: stroke
       - schema: luna_pinyin
     menu/page_size: 8
