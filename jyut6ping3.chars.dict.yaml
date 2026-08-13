@@ -7,7 +7,7 @@
 
 ---
 name: jyut6ping3.chars
-version: "2026.06.29"
+version: "2026.08.10"
 sort: by_weight
 ...
 
@@ -6286,6 +6286,8 @@ sort: by_weight
 欸	ei3	3%
 欸	ei6	3%
 誒	ei6	5%
+䊦	et3	5%
+𬖋	et3	5%
 㳸	faa1
 化	faa1	3%
 嘩	faa1	3%
@@ -13114,6 +13116,8 @@ sort: by_weight
 瞲	hyut3
 血	hyut3
 趐	hyut3	5%
+䊦	it3	3%
+𬖋	it3	3%
 吔	jaa1
 吔	jaa2	3%
 也	jaa5
@@ -15183,6 +15187,7 @@ sort: by_weight
 謁	jit3
 黦	jit3
 齧	jit3
+𬖋	jit3
 㜸	jit6	5%
 㮆	jit6
 㴪	jit6
